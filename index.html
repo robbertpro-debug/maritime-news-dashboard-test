@@ -1,0 +1,943 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Maritime News Dashboard</title>
+    <style>
+      :root {
+        --bg: #edf1f3;
+        --surface: #ffffff;
+        --surface-muted: #f4f7f8;
+        --text: #132127;
+        --text-soft: #607680;
+        --line: #d7e0e4;
+        --accent: #0f5966;
+        --accent-soft: #dcecef;
+        --multraship: #9c4c1b;
+        --novatug: #0a6d5b;
+        --both: #355c99;
+        --danger: #9b2b2b;
+        --shadow: 0 14px 34px rgba(20, 33, 39, 0.08);
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+        color: var(--text);
+        background:
+          radial-gradient(circle at top right, rgba(15, 89, 102, 0.09), transparent 28%),
+          linear-gradient(180deg, #f7f9fb 0%, var(--bg) 100%);
+      }
+
+      a {
+        color: inherit;
+      }
+
+      .page {
+        max-width: 1480px;
+        margin: 0 auto;
+        padding: 24px 20px 40px;
+      }
+
+      .hero {
+        display: grid;
+        gap: 16px;
+        grid-template-columns: 1.5fr 1fr;
+        align-items: start;
+        margin-bottom: 18px;
+      }
+
+      .card,
+      .controls,
+      .status-card,
+      .bucket {
+        background: var(--surface);
+        border: 1px solid var(--line);
+        border-radius: 18px;
+        box-shadow: var(--shadow);
+      }
+
+      .card {
+        padding: 22px 24px;
+      }
+
+      .eyebrow,
+      .source-pill,
+      .tag,
+      .toggle-button,
+      .count-pill {
+        display: inline-flex;
+        align-items: center;
+        border-radius: 999px;
+        font-size: 11px;
+        font-weight: 700;
+        letter-spacing: 0.04em;
+        text-transform: uppercase;
+      }
+
+      .eyebrow {
+        gap: 8px;
+        padding: 6px 12px;
+        background: var(--accent-soft);
+        color: var(--accent);
+      }
+
+      h1 {
+        margin: 14px 0 10px;
+        font-size: clamp(28px, 4vw, 42px);
+        line-height: 1.05;
+      }
+
+      .hero-copy {
+        margin: 0;
+        color: var(--text-soft);
+        max-width: 68ch;
+        line-height: 1.5;
+      }
+
+      .status-grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 12px;
+        margin-top: 20px;
+      }
+
+      .status-card {
+        padding: 14px 16px;
+      }
+
+      .status-label {
+        display: block;
+        font-size: 12px;
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+        color: var(--text-soft);
+      }
+
+      .status-value {
+        display: block;
+        margin-top: 8px;
+        font-size: 24px;
+        font-weight: 700;
+      }
+
+      .meta-row {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        margin-top: 12px;
+        color: var(--text-soft);
+        font-size: 14px;
+      }
+
+      .controls {
+        padding: 18px;
+      }
+
+      .controls h2 {
+        margin: 0 0 14px;
+        font-size: 16px;
+      }
+
+      .control-grid {
+        display: grid;
+        gap: 12px;
+      }
+
+      .field {
+        display: grid;
+        gap: 6px;
+      }
+
+      .field label {
+        font-size: 12px;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 0.04em;
+        color: var(--text-soft);
+      }
+
+      select,
+      input[type="search"] {
+        width: 100%;
+        padding: 11px 12px;
+        border-radius: 12px;
+        border: 1px solid var(--line);
+        background: var(--surface-muted);
+        color: var(--text);
+      }
+
+      .checkbox-row {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        padding-top: 4px;
+        color: var(--text-soft);
+        font-size: 14px;
+      }
+
+      .error-box {
+        margin: 0 0 18px;
+        padding: 14px 16px;
+        border: 1px solid rgba(155, 43, 43, 0.2);
+        background: rgba(155, 43, 43, 0.08);
+        color: var(--danger);
+        border-radius: 14px;
+      }
+
+      .action-button {
+        padding: 10px 14px;
+        border-radius: 12px;
+        border: 1px solid var(--accent);
+        background: var(--accent);
+        color: #fff;
+        font-weight: 700;
+        cursor: pointer;
+      }
+
+      .action-button[disabled] {
+        opacity: 0.6;
+        cursor: progress;
+      }
+
+      .refresh-status {
+        color: var(--text-soft);
+        font-size: 13px;
+      }
+
+      .toggle-panel {
+        display: grid;
+        gap: 16px;
+        margin-bottom: 18px;
+      }
+
+      .toggle-row {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+      }
+
+      .toggle-button {
+        justify-content: center;
+        padding: 11px 16px;
+        border: 1px solid var(--line);
+        background: var(--surface);
+        color: var(--text-soft);
+        cursor: pointer;
+      }
+
+      .toggle-button.active {
+        color: #fff;
+      }
+
+      .toggle-button[data-audience="Multraship"].active {
+        background: var(--multraship);
+        border-color: var(--multraship);
+      }
+
+      .toggle-button[data-audience="Novatug"].active {
+        background: var(--novatug);
+        border-color: var(--novatug);
+      }
+
+      .toggle-button[data-audience="Both"].active {
+        background: var(--both);
+        border-color: var(--both);
+      }
+
+      .overview {
+        display: flex;
+        justify-content: space-between;
+        gap: 12px;
+        align-items: center;
+        padding: 18px 20px;
+      }
+
+      .overview h2 {
+        margin: 0 0 6px;
+        font-size: 26px;
+      }
+
+      .overview p {
+        margin: 0;
+        color: var(--text-soft);
+      }
+
+      .overview-stats {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+      }
+
+      .count-pill {
+        padding: 7px 10px;
+        background: var(--surface-muted);
+        color: var(--text-soft);
+      }
+
+      .buckets {
+        display: grid;
+        gap: 16px;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+
+      .bucket {
+        overflow: hidden;
+      }
+
+      .bucket-head {
+        display: flex;
+        justify-content: space-between;
+        gap: 12px;
+        align-items: center;
+        padding: 16px 18px;
+        border-bottom: 1px solid var(--line);
+        background: linear-gradient(180deg, #fff 0%, #f8fafb 100%);
+      }
+
+      .bucket-title {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+      }
+
+      .bucket-title h3 {
+        margin: 0;
+        font-size: 19px;
+      }
+
+      .bucket-subtitle {
+        color: var(--text-soft);
+        font-size: 13px;
+      }
+
+      .bucket-body {
+        display: grid;
+      }
+
+      .bucket-footer {
+        padding: 0 18px 18px;
+      }
+
+      .bucket-expand {
+        padding: 9px 12px;
+        border-radius: 12px;
+        border: 1px solid var(--line);
+        background: var(--surface-muted);
+        color: var(--text);
+        font-weight: 700;
+        cursor: pointer;
+      }
+
+      .article-row {
+        display: grid;
+        grid-template-columns: 180px minmax(0, 1fr) 120px;
+        gap: 16px;
+        padding: 16px 18px;
+        border-top: 1px solid var(--line);
+        align-items: start;
+      }
+
+      .article-row:first-child {
+        border-top: 0;
+      }
+
+      .article-meta {
+        display: grid;
+        gap: 8px;
+      }
+
+      .source-pill {
+        width: fit-content;
+        padding: 5px 9px;
+        background: var(--accent-soft);
+        color: var(--accent);
+      }
+
+      .article-time {
+        color: var(--text-soft);
+        font-size: 13px;
+      }
+
+      .article-main {
+        display: grid;
+        gap: 8px;
+        min-width: 0;
+      }
+
+      .article-main h4 {
+        margin: 0;
+        font-size: 17px;
+        line-height: 1.28;
+      }
+
+      .article-brief {
+        margin: 0;
+        color: var(--text-soft);
+        line-height: 1.5;
+        font-size: 14px;
+      }
+
+      .tag-row {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+      }
+
+      .tag {
+        padding: 5px 9px;
+        background: #ebf0f2;
+        color: #455861;
+      }
+
+      .article-action {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+      }
+
+      .link {
+        color: var(--accent);
+        text-decoration: none;
+        font-weight: 700;
+      }
+
+      .link:hover {
+        text-decoration: underline;
+      }
+
+      .empty-state {
+        padding: 24px 20px 28px;
+        color: var(--text-soft);
+      }
+
+      .muted {
+        color: var(--text-soft);
+      }
+
+      @media (max-width: 1080px) {
+        .hero {
+          grid-template-columns: 1fr;
+        }
+
+        .overview {
+          align-items: start;
+          flex-direction: column;
+        }
+
+        .buckets {
+          grid-template-columns: 1fr;
+        }
+      }
+
+      @media (max-width: 860px) {
+        .article-row {
+          grid-template-columns: 1fr;
+          gap: 10px;
+        }
+
+        .article-action {
+          justify-content: flex-start;
+        }
+      }
+
+      @media (max-width: 680px) {
+        .page {
+          padding-inline: 14px;
+        }
+
+        .status-grid {
+          grid-template-columns: 1fr;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="page">
+      <div id="errors"></div>
+
+      <section class="hero">
+        <div class="card">
+          <span class="eyebrow">Local RSS Dashboard</span>
+          <h1>Fast scan view for Multraship and Novatug</h1>
+          <p class="hero-copy">
+            Use the audience toggle to focus on one company at a time. Articles are grouped into topic
+            buckets and reduced to one-line briefs, so you can identify signal without reading full cards.
+          </p>
+          <div class="status-grid">
+            <div class="status-card">
+              <span class="status-label">Generated</span>
+              <span id="generatedAt" class="status-value">No data</span>
+            </div>
+            <div class="status-card">
+              <span class="status-label">Articles</span>
+              <span id="articleCount" class="status-value">0</span>
+            </div>
+            <div class="status-card">
+              <span class="status-label">Sources</span>
+              <span id="sourceCount" class="status-value">0</span>
+            </div>
+            <div class="status-card">
+              <span class="status-label">Visible</span>
+              <span id="visibleCount" class="status-value">0</span>
+            </div>
+          </div>
+          <div class="meta-row">
+            <span>Refresh data with <strong><code>python3 scripts/fetch_feeds.py</code></strong></span>
+            <button id="refreshButton" class="action-button" type="button">Refresh in dashboard</button>
+            <span id="refreshStatus" class="refresh-status">Idle</span>
+          </div>
+        </div>
+
+        <aside class="controls">
+          <h2>Filters</h2>
+          <div class="control-grid">
+            <div class="field">
+              <label for="searchInput">Search</label>
+              <input id="searchInput" type="search" placeholder="Search headlines and briefs" />
+            </div>
+            <div class="field">
+              <label for="sourceFilter">Source</label>
+              <select id="sourceFilter">
+                <option value="all">All sources</option>
+              </select>
+            </div>
+            <div class="field">
+              <label for="topicFilter">Topic</label>
+              <select id="topicFilter">
+                <option value="all">All topics</option>
+              </select>
+            </div>
+            <div class="field">
+              <label for="sortOrder">Sort</label>
+              <select id="sortOrder">
+                <option value="newest">Newest first</option>
+                <option value="oldest">Oldest first</option>
+                <option value="source">Source name</option>
+              </select>
+            </div>
+            <label class="checkbox-row" for="paywalledOnly">
+              <input id="paywalledOnly" type="checkbox" />
+              Show paywalled items only
+            </label>
+          </div>
+        </aside>
+      </section>
+
+      <section class="toggle-panel">
+        <div class="toggle-row" id="audienceToggle">
+          <button class="toggle-button active" data-audience="Multraship" type="button">Multraship</button>
+          <button class="toggle-button" data-audience="Novatug" type="button">Novatug</button>
+          <button class="toggle-button" data-audience="Both" type="button">Shared themes</button>
+        </div>
+
+        <div class="card overview">
+          <div>
+            <h2 id="activeAudienceTitle">Multraship</h2>
+            <p id="activeAudienceCopy">Towage, salvage, incidents, tenders, ports and operations.</p>
+          </div>
+          <div class="overview-stats" id="topTopicCounts"></div>
+        </div>
+      </section>
+
+      <section class="buckets" id="bucketContainer"></section>
+    </div>
+
+    <script src="./data/articles.js"></script>
+    <script>
+      const state = {
+        data: window.__DASHBOARD_DATA__ || { articles: [], sources: [], topics: [], errors: [] },
+        activeAudience: "Multraship",
+        bucketVisibility: {}
+      };
+
+      const audienceMeta = {
+        Multraship: {
+          title: "Multraship",
+          copy: "Towage, salvage, incidents, tenders, ports and operations."
+        },
+        Novatug: {
+          title: "Novatug",
+          copy: "Electrification, clean propulsion, emissions and port sustainability."
+        },
+        Both: {
+          title: "Shared Themes",
+          copy: "Overlap, broader maritime context and items with mixed relevance."
+        }
+      };
+
+      const elements = {
+        errors: document.getElementById("errors"),
+        generatedAt: document.getElementById("generatedAt"),
+        articleCount: document.getElementById("articleCount"),
+        sourceCount: document.getElementById("sourceCount"),
+        visibleCount: document.getElementById("visibleCount"),
+        sourceFilter: document.getElementById("sourceFilter"),
+        topicFilter: document.getElementById("topicFilter"),
+        sortOrder: document.getElementById("sortOrder"),
+        searchInput: document.getElementById("searchInput"),
+        paywalledOnly: document.getElementById("paywalledOnly"),
+        refreshButton: document.getElementById("refreshButton"),
+        refreshStatus: document.getElementById("refreshStatus"),
+        bucketContainer: document.getElementById("bucketContainer"),
+        topTopicCounts: document.getElementById("topTopicCounts"),
+        activeAudienceTitle: document.getElementById("activeAudienceTitle"),
+        activeAudienceCopy: document.getElementById("activeAudienceCopy"),
+        toggleButtons: Array.from(document.querySelectorAll(".toggle-button"))
+      };
+
+      function formatDate(value) {
+        if (!value) return "Unknown date";
+        try {
+          return new Intl.DateTimeFormat(undefined, {
+            year: "numeric",
+            month: "short",
+            day: "numeric",
+            hour: "2-digit",
+            minute: "2-digit"
+          }).format(new Date(value));
+        } catch {
+          return value;
+        }
+      }
+
+      function formatGenerated(value) {
+        if (!value) return "No data";
+        return formatDate(value);
+      }
+
+      function populateSelect(select, options, placeholder) {
+        select.innerHTML = "";
+        const baseOption = document.createElement("option");
+        baseOption.value = "all";
+        baseOption.textContent = placeholder;
+        select.appendChild(baseOption);
+
+        options.forEach((option) => {
+          const el = document.createElement("option");
+          el.value = option;
+          el.textContent = option;
+          select.appendChild(el);
+        });
+      }
+
+      function createTextElement(tag, text, className) {
+        const element = document.createElement(tag);
+        if (className) element.className = className;
+        element.textContent = text;
+        return element;
+      }
+
+      function renderErrors(errors) {
+        elements.errors.innerHTML = "";
+        if (!errors || errors.length === 0) return;
+
+        const box = document.createElement("div");
+        box.className = "error-box";
+        box.appendChild(createTextElement("strong", "Feed refresh warnings"));
+
+        errors.forEach((error) => {
+          box.appendChild(createTextElement("div", `${error.source}: ${error.message}`));
+        });
+
+        elements.errors.appendChild(box);
+      }
+
+      function setRefreshStatus(message) {
+        elements.refreshStatus.textContent = message;
+      }
+
+      function getPrimaryTopic(article) {
+        return article.tags && article.tags.length ? article.tags[0] : "Other";
+      }
+
+      function createBrief(article) {
+        const sourceHint = getPrimaryTopic(article);
+        if (!article.excerpt) return `${sourceHint}.`;
+        const clean = article.excerpt.replace(/\s+/g, " ").trim();
+        if (clean.length <= 140) return clean;
+        return `${clean.slice(0, 137).trim()}...`;
+      }
+
+      function matchesFilters(article) {
+        const sourceValue = elements.sourceFilter.value;
+        const topicValue = elements.topicFilter.value;
+        const searchValue = elements.searchInput.value.trim().toLowerCase();
+        const paywalledOnly = elements.paywalledOnly.checked;
+
+        if (article.audience !== state.activeAudience) return false;
+        if (sourceValue !== "all" && article.source !== sourceValue) return false;
+        if (topicValue !== "all" && !article.tags.includes(topicValue)) return false;
+        if (paywalledOnly && !article.paywalled) return false;
+        if (searchValue) {
+          const haystack = `${article.title} ${article.excerpt} ${article.tags.join(" ")}`.toLowerCase();
+          if (!haystack.includes(searchValue)) return false;
+        }
+        return true;
+      }
+
+      function sortArticles(articles) {
+        const sorted = [...articles];
+        const sortOrder = elements.sortOrder.value;
+
+        if (sortOrder === "source") {
+          sorted.sort((a, b) => a.source.localeCompare(b.source) || a.title.localeCompare(b.title));
+          return sorted;
+        }
+
+        sorted.sort((a, b) => {
+          const left = a.publishedAt ? new Date(a.publishedAt).getTime() : 0;
+          const right = b.publishedAt ? new Date(b.publishedAt).getTime() : 0;
+          return sortOrder === "oldest" ? left - right : right - left;
+        });
+        return sorted;
+      }
+
+      function buildBuckets(articles) {
+        const grouped = new Map();
+        articles.forEach((article) => {
+          const topic = getPrimaryTopic(article);
+          if (!grouped.has(topic)) grouped.set(topic, []);
+          grouped.get(topic).push(article);
+        });
+
+        return Array.from(grouped.entries())
+          .map(([topic, items]) => ({ topic, items }))
+          .sort((a, b) => b.items.length - a.items.length || a.topic.localeCompare(b.topic));
+      }
+
+      function getBucketLimit(topic) {
+        return state.bucketVisibility[`${state.activeAudience}:${topic}`] || 5;
+      }
+
+      function setBucketLimit(topic, limit) {
+        state.bucketVisibility[`${state.activeAudience}:${topic}`] = limit;
+      }
+
+      function renderTopTopicCounts(buckets) {
+        elements.topTopicCounts.innerHTML = "";
+        buckets.slice(0, 5).forEach((bucket) => {
+          const pill = createTextElement("span", `${bucket.topic}: ${bucket.items.length}`, "count-pill");
+          elements.topTopicCounts.appendChild(pill);
+        });
+      }
+
+      function createArticleRow(article) {
+        const row = document.createElement("article");
+        row.className = "article-row";
+
+        const meta = document.createElement("div");
+        meta.className = "article-meta";
+        meta.appendChild(createTextElement("span", article.source, "source-pill"));
+        meta.appendChild(createTextElement("span", formatDate(article.publishedAt), "article-time"));
+
+        const main = document.createElement("div");
+        main.className = "article-main";
+        main.appendChild(createTextElement("h4", article.title));
+        main.appendChild(createTextElement("p", createBrief(article), "article-brief"));
+
+        const tags = document.createElement("div");
+        tags.className = "tag-row";
+        article.tags.slice(0, 4).forEach((tag) => {
+          tags.appendChild(createTextElement("span", tag, "tag"));
+        });
+        if (article.paywalled) {
+          tags.appendChild(createTextElement("span", "Paywalled", "tag"));
+        }
+        main.appendChild(tags);
+
+        const action = document.createElement("div");
+        action.className = "article-action";
+        const link = document.createElement("a");
+        link.className = "link";
+        link.href = article.url;
+        link.target = "_blank";
+        link.rel = "noreferrer noopener";
+        link.textContent = "Open article";
+        action.appendChild(link);
+
+        row.append(meta, main, action);
+        return row;
+      }
+
+      function renderBuckets(buckets) {
+        elements.bucketContainer.innerHTML = "";
+        if (buckets.length === 0) {
+          elements.bucketContainer.appendChild(
+            createTextElement("div", "No articles match the current audience and filters.", "card empty-state")
+          );
+          return;
+        }
+
+        buckets.forEach((bucket) => {
+          const section = document.createElement("section");
+          section.className = "bucket";
+
+          const head = document.createElement("div");
+          head.className = "bucket-head";
+
+          const titleWrap = document.createElement("div");
+          titleWrap.className = "bucket-title";
+          const titleBlock = document.createElement("div");
+          titleBlock.appendChild(createTextElement("h3", bucket.topic));
+          titleBlock.appendChild(
+            createTextElement(
+              "div",
+              `${bucket.items.length} item${bucket.items.length === 1 ? "" : "s"} in this topic`,
+              "bucket-subtitle"
+            )
+          );
+          titleWrap.appendChild(titleBlock);
+
+          head.append(titleWrap, createTextElement("span", `${bucket.items.length}`, "count-pill"));
+
+          const body = document.createElement("div");
+          body.className = "bucket-body";
+          const visibleLimit = getBucketLimit(bucket.topic);
+          const visibleItems = bucket.items.slice(0, visibleLimit);
+          visibleItems.forEach((article) => body.appendChild(createArticleRow(article)));
+
+          section.append(head, body);
+
+          if (bucket.items.length > 5) {
+            const footer = document.createElement("div");
+            footer.className = "bucket-footer";
+            const button = document.createElement("button");
+            button.className = "bucket-expand";
+            button.type = "button";
+
+            if (visibleLimit <= 5) {
+              button.textContent = `Show 5 more (${Math.min(bucket.items.length, 10)} total)`;
+              button.addEventListener("click", () => {
+                setBucketLimit(bucket.topic, 10);
+                render();
+              });
+            } else {
+              button.textContent = "Show less";
+              button.addEventListener("click", () => {
+                setBucketLimit(bucket.topic, 5);
+                render();
+              });
+            }
+
+            footer.appendChild(button);
+            section.appendChild(footer);
+          }
+
+          elements.bucketContainer.appendChild(section);
+        });
+      }
+
+      function updateAudienceMeta() {
+        const meta = audienceMeta[state.activeAudience];
+        elements.activeAudienceTitle.textContent = meta.title;
+        elements.activeAudienceCopy.textContent = meta.copy;
+        elements.toggleButtons.forEach((button) => {
+          button.classList.toggle("active", button.dataset.audience === state.activeAudience);
+        });
+      }
+
+      function render() {
+        updateAudienceMeta();
+        const filtered = sortArticles(state.data.articles.filter(matchesFilters));
+        const buckets = buildBuckets(filtered);
+        renderTopTopicCounts(buckets);
+        renderBuckets(buckets);
+        elements.visibleCount.textContent = String(filtered.length);
+      }
+
+      function syncDataToUi() {
+        const currentSource = elements.sourceFilter.value;
+        const currentTopic = elements.topicFilter.value;
+        populateSelect(elements.sourceFilter, state.data.sources || [], "All sources");
+        populateSelect(elements.topicFilter, state.data.topics || [], "All topics");
+        if ((state.data.sources || []).includes(currentSource)) {
+          elements.sourceFilter.value = currentSource;
+        }
+        if ((state.data.topics || []).includes(currentTopic)) {
+          elements.topicFilter.value = currentTopic;
+        }
+        elements.generatedAt.textContent = formatGenerated(state.data.generatedAt);
+        elements.articleCount.textContent = String((state.data.articles || []).length);
+        elements.sourceCount.textContent = String((state.data.sources || []).length);
+        renderErrors(state.data.errors || []);
+      }
+
+      async function loadApiData() {
+        const response = await fetch("./api/data", { cache: "no-store" });
+        if (!response.ok) {
+          throw new Error(`Failed to load data: ${response.status}`);
+        }
+        state.data = await response.json();
+        syncDataToUi();
+        render();
+      }
+
+      async function refreshFeeds() {
+        if (window.location.protocol === "file:") {
+          setRefreshStatus("Start scripts/local_server.py to use the refresh button.");
+          return;
+        }
+
+        elements.refreshButton.disabled = true;
+        setRefreshStatus("Refreshing feeds...");
+
+        try {
+          const response = await fetch("./api/refresh", {
+            method: "POST",
+            headers: { "Content-Type": "application/json" }
+          });
+          const payload = await response.json();
+          if (!response.ok || !payload.ok) {
+            throw new Error(payload.stderr || payload.stdout || `Refresh failed: ${response.status}`);
+          }
+          await loadApiData();
+          setRefreshStatus(`Updated ${formatGenerated(state.data.generatedAt)}`);
+        } catch (error) {
+          setRefreshStatus(error.message);
+        } finally {
+          elements.refreshButton.disabled = false;
+        }
+      }
+
+      async function boot() {
+        syncDataToUi();
+        if (window.location.protocol !== "file:") {
+          try {
+            await loadApiData();
+            setRefreshStatus("Ready");
+          } catch (error) {
+            setRefreshStatus(error.message);
+          }
+        } else {
+          setRefreshStatus("File mode: refresh button needs local_server.py");
+        }
+
+        [
+          elements.sourceFilter,
+          elements.topicFilter,
+          elements.sortOrder,
+          elements.searchInput,
+          elements.paywalledOnly
+        ].forEach((element) => element.addEventListener("input", render));
+
+        elements.refreshButton.addEventListener("click", refreshFeeds);
+        elements.toggleButtons.forEach((button) => {
+          button.addEventListener("click", () => {
+            state.activeAudience = button.dataset.audience;
+            render();
+          });
+        });
+
+        render();
+      }
+
+      boot();
+    </script>
+  </body>
+</html>

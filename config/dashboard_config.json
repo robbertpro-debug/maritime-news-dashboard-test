@@ -1,0 +1,308 @@
+{
+  "output": {
+    "json_path": "data/articles.json",
+    "js_path": "data/articles.js",
+    "max_items_per_source": 30,
+    "max_total_items": 180
+  },
+  "request": {
+    "timeout_seconds": 20,
+    "user_agent": "MaritimeNewsDashboard/1.0 (+local-only)"
+  },
+  "sources": [
+    {
+      "id": "maritime-executive",
+      "name": "The Maritime Executive",
+      "url": "https://maritime-executive.com/articles.rss",
+      "default_tags": ["maritime", "news"],
+      "audience_bias": {
+        "Multraship": 1,
+        "Novatug": 1
+      }
+    },
+    {
+      "id": "gcaptain",
+      "name": "gCaptain",
+      "url": "https://gcaptain.com/feed/",
+      "default_tags": ["maritime", "operations"],
+      "audience_bias": {
+        "Multraship": 1
+      }
+    },
+    {
+      "id": "marinelink",
+      "name": "MarineLink",
+      "url": "https://www.marinelink.com/news/rss",
+      "default_tags": ["maritime", "industry"],
+      "audience_bias": {
+        "Multraship": 1,
+        "Novatug": 1
+      }
+    },
+    {
+      "id": "offshore-energy",
+      "name": "Offshore Energy",
+      "url": "https://www.offshore-energy.biz/feed/",
+      "default_tags": ["energy-transition", "technology"],
+      "audience_bias": {
+        "Novatug": 2
+      }
+    },
+    {
+      "id": "hellenic-shipping-news",
+      "name": "Hellenic Shipping News",
+      "url": "https://www.hellenicshippingnews.com/feed/",
+      "default_tags": ["shipping", "markets"]
+    },
+    {
+      "id": "ship-technology",
+      "name": "Ship Technology",
+      "url": "https://www.ship-technology.com/feed/",
+      "default_tags": ["technology", "innovation"],
+      "audience_bias": {
+        "Novatug": 2
+      }
+    },
+    {
+      "id": "splash247",
+      "name": "Splash247",
+      "url": "https://splash247.com/feed/",
+      "default_tags": ["maritime", "news"],
+      "audience_bias": {
+        "Multraship": 1,
+        "Novatug": 1
+      }
+    },
+    {
+      "id": "swz-maritime",
+      "name": "SWZ Maritime",
+      "url": "https://swzmaritime.nl/feed/",
+      "default_tags": ["maritime", "netherlands"],
+      "audience_bias": {
+        "Multraship": 1,
+        "Novatug": 1
+      }
+    },
+    {
+      "id": "baird-maritime",
+      "name": "Baird Maritime",
+      "url": "https://www.bairdmaritime.com/feed",
+      "default_tags": ["workboats", "technology"],
+      "audience_bias": {
+        "Multraship": 2,
+        "Novatug": 1
+      }
+    },
+    {
+      "id": "riviera-ports",
+      "name": "Riviera: Ports & Terminals",
+      "url": "https://www.rivieramm.com/Syndication/DF.cfm?f=19&ft=10&",
+      "default_tags": ["ports", "terminals"],
+      "audience_bias": {
+        "Multraship": 2
+      }
+    },
+    {
+      "id": "riviera-safety",
+      "name": "Riviera: Safety & Incidents",
+      "url": "https://www.rivieramm.com/Syndication/DF.cfm?f=20&ft=10&",
+      "default_tags": ["safety", "incidents"],
+      "audience_bias": {
+        "Multraship": 2,
+        "Novatug": 1
+      }
+    },
+    {
+      "id": "riviera-regulation",
+      "name": "Riviera: Regulations & Compliance",
+      "url": "https://www.rivieramm.com/Syndication/DF.cfm?f=22&ft=10&",
+      "default_tags": ["regulation", "compliance"],
+      "audience_bias": {
+        "Multraship": 1,
+        "Novatug": 1
+      }
+    },
+    {
+      "id": "riviera-emissions",
+      "name": "Riviera: Air Pollution & GHG Emissions",
+      "url": "https://www.rivieramm.com/Syndication/DF.cfm?f=25&ft=10&",
+      "default_tags": ["emissions", "decarbonization"],
+      "audience_bias": {
+        "Novatug": 2
+      }
+    },
+    {
+      "id": "riviera-propulsion",
+      "name": "Riviera: Propulsion",
+      "url": "https://www.rivieramm.com/Syndication/DF.cfm?f=11&ft=10&",
+      "default_tags": ["propulsion", "technology"],
+      "audience_bias": {
+        "Novatug": 2
+      }
+    }
+  ],
+  "classification": {
+    "shared_threshold": 2,
+    "both_difference_max": 1,
+    "multraship_min_score": 1,
+    "novatug_min_score": 1,
+    "paywall_keywords": [
+      "subscriber only",
+      "subscription required",
+      "premium",
+      "members only",
+      "paywall"
+    ],
+    "multraship_keywords": [
+      "towage",
+      "tug",
+      "tugs",
+      "harbour tug",
+      "harbor tug",
+      "terminal towage",
+      "harbour towage",
+      "harbor towage",
+      "tow assist",
+      "towage contract",
+      "escort tug",
+      "berthing",
+      "unberthing",
+      "line handling",
+      "mooring",
+      "unmooring",
+      "boatmen",
+      "quartermastering",
+      "dispatching",
+      "crew transfer",
+      "passenger transport",
+      "fresh water supply",
+      "bonded stores",
+      "salvage",
+      "salvor",
+      "emergency response",
+      "emergency towing",
+      "wreck removal",
+      "pollution response",
+      "oil spill response",
+      "incident",
+      "casualty",
+      "wreck",
+      "grounding",
+      "collision",
+      "fire",
+      "rescue",
+      "towboat",
+      "anchor handling",
+      "offshore towage",
+      "sea towage",
+      "rig move",
+      "dry dock tow",
+      "floating crane",
+      "heavy-lift barge",
+      "offshore support",
+      "offshore wind support",
+      "pilotage"
+    ],
+    "multraship_exclude_keywords": [
+      "container rates",
+      "boxship",
+      "containership",
+      "dry bulk rates",
+      "vlcc",
+      "lpg carrier",
+      "lng carrier",
+      "orderbook",
+      "newbuilding order",
+      "freight futures",
+      "charter rates",
+      "ship finance",
+      "earnings report",
+      "quarter results",
+      "stock market",
+      "share price"
+    ],
+    "novatug_keywords": [
+      "battery",
+      "batteries",
+      "electrification",
+      "electric",
+      "hybrid",
+      "charging",
+      "shore power",
+      "emissions",
+      "ghg",
+      "greenhouse gas",
+      "decarbonization",
+      "decarbonisation",
+      "air pollution",
+      "clean propulsion",
+      "propulsion",
+      "alternative fuel",
+      "methanol",
+      "hydrogen",
+      "ammonia",
+      "fuel cell",
+      "port sustainability",
+      "green port",
+      "net zero",
+      "energy transition",
+      "zero emission",
+      "zero-emission",
+      "electric tug",
+      "hybrid tug",
+      "autonomous tug",
+      "clean tech",
+      "maritime accident",
+      "marine accident",
+      "tug accident",
+      "harbour accident",
+      "harbor accident",
+      "safety",
+      "classification society",
+      "class rules",
+      "class notation",
+      "classification rules",
+      "bollard pull",
+      "static bollard pull",
+      "dynamic bollard pull",
+      "escort performance",
+      "ship handling",
+      "terminal safety",
+      "harbour safety",
+      "harbor safety",
+      "dredging alternative",
+      "sediment management",
+      "shallow water",
+      "port access",
+      "manoeuvrability",
+      "maneuverability"
+    ],
+    "novatug_exclude_keywords": [
+      "crude tanker rates",
+      "containership rates",
+      "bulk carrier rates",
+      "earnings report",
+      "dividend",
+      "share buyback",
+      "stock exchange"
+    ],
+    "topic_keywords": {
+      "Towage": ["towage", "tug", "towboat", "escort tug", "berthing", "unberthing"],
+      "Salvage": ["salvage", "salvor", "wreck", "rescue", "wreck removal", "emergency towing"],
+      "Incidents": ["incident", "casualty", "collision", "grounding", "fire", "pollution response"],
+      "Port Services": ["mooring", "unmooring", "line handling", "dispatching", "quartermastering", "crew transfer"],
+      "Offshore Support": ["anchor handling", "offshore towage", "offshore support", "rig move", "offshore wind support"],
+      "Sea Towage": ["sea towage", "dry dock tow", "floating crane", "heavy-lift barge"],
+      "Regulation": ["regulation", "compliance", "imo", "policy"],
+      "Safety": ["safety", "maritime accident", "marine accident", "terminal safety", "harbour safety", "harbor safety"],
+      "Classification": ["classification society", "class rules", "class notation", "classification rules"],
+      "Bollard Pull": ["bollard pull", "static bollard pull", "dynamic bollard pull", "escort performance"],
+      "Dredging Alternatives": ["dredging alternative", "sediment management", "shallow water", "port access"],
+      "Batteries": ["battery", "batteries", "charging"],
+      "Electrification": ["electric", "electrification", "shore power", "hybrid"],
+      "Decarbonization": ["decarbonization", "decarbonisation", "ghg", "emissions", "net zero"],
+      "Clean Propulsion": ["propulsion", "fuel cell", "methanol", "hydrogen", "ammonia", "alternative fuel"],
+      "Sustainability": ["sustainability", "green port", "air pollution", "energy transition"]
+    }
+  }
+}
