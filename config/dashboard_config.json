@@ -2,7 +2,7 @@
   "output": {
     "json_path": "data/articles.json",
     "js_path": "data/articles.js",
-    "lookback_days": 7,
+    "lookback_days": 30,
     "max_items_per_source": 30,
     "max_total_items": 180
   },

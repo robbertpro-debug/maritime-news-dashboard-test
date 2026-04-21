@@ -1,8 +1,8 @@
 window.__DASHBOARD_DATA__ = {
-  "generatedAt": "2026-04-21T14:14:24.672535Z",
-  "lookbackDays": 7,
-  "cutoffAt": "2026-04-14T14:14:24.672535Z",
-  "articleCount": 143,
+  "generatedAt": "2026-04-21T14:30:47.186957Z",
+  "lookbackDays": 30,
+  "cutoffAt": "2026-03-22T14:30:47.186957Z",
+  "articleCount": 180,
   "sourceCount": 16,
   "sources": [
     "Africa Ports & Ships",
@@ -11,8 +11,8 @@ window.__DASHBOARD_DATA__ = {
     "MarineLink",
     "Offshore Energy",
     "Rigzone",
-    "Riviera: Air Pollution & GHG Emissions",
     "Riviera: Ports & Terminals",
+    "Riviera: Propulsion",
     "Riviera: Regulations & Compliance",
     "Riviera: Safety & Incidents",
     "SWZ Maritime",
@@ -28,7 +28,6 @@ window.__DASHBOARD_DATA__ = {
     "Compliance",
     "Decarbonization",
     "Electrification",
-    "Emissions",
     "Energy",
     "Energy-Transition",
     "Incidents",
@@ -41,10 +40,12 @@ window.__DASHBOARD_DATA__ = {
     "Operations",
     "Port Services",
     "Ports",
+    "Propulsion",
     "Regulation",
     "Safety",
     "Salvage",
     "Shipping",
+    "Sustainability",
     "Technology",
     "Terminals",
     "Towage",
@@ -92,6 +93,38 @@ window.__DASHBOARD_DATA__ = {
       "boardBucket": "High Priority"
     },
     {
+      "id": "d4a0ecfe39b3d218",
+      "title": "Study maps policy path to shore power",
+      "source": "Riviera: Ports & Terminals",
+      "sourceId": "riviera-ports",
+      "url": "https://www.rivieramm.com/news-content-hub/study-maps-policy-path-to-shore-power-88120",
+      "publishedAt": "2026-04-08T08:00:00Z",
+      "excerpt": "Academic paper finds shore power uptake depends on combined subsidies, carbon pricing and port delivery - with wind power shaping results",
+      "tags": [
+        "Regulation",
+        "Electrification",
+        "Ports",
+        "Terminals"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [
+        "Regulation",
+        "Infrastructure",
+        "Energy Transition"
+      ],
+      "priorityScore": 10,
+      "priorityBand": "high",
+      "priorityReasons": [
+        "Signal: Regulation",
+        "Signal: Infrastructure",
+        "Signal: Energy Transition"
+      ],
+      "boardBucket": "High Priority"
+    },
+    {
       "id": "3034b7008baa42ac",
       "title": "Ukraine Attacks Russian Black Sea Port of Tuapse Starting Large Fire",
       "source": "The Maritime Executive",
@@ -116,6 +149,91 @@ window.__DASHBOARD_DATA__ = {
       "priorityBand": "high",
       "priorityReasons": [
         "Signal: Incident",
+        "Signal: Infrastructure"
+      ],
+      "boardBucket": "High Priority"
+    },
+    {
+      "id": "134067e1fc03cef8",
+      "title": "Oil demand decline in second quarter forecast to be largest since Covid-19",
+      "source": "Riviera: Safety & Incidents",
+      "sourceId": "riviera-safety",
+      "url": "https://www.rivieramm.com/news-content-hub/oil-demand-decline-in-second-quarter-forecast-to-be-largest-since-covid-19-88459",
+      "publishedAt": "2026-04-14T13:26:50Z",
+      "excerpt": "With the US and Iran imposing blockades on shipping through the Strait of Hormuz and energy infrastructure damaged by war, the International Energy Agency underscores the significance of the \u2019largest disruption in history\u2019 to energy markets",
+      "tags": [
+        "Safety",
+        "Incidents"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [
+        "Disruption",
+        "Infrastructure"
+      ],
+      "priorityScore": 9,
+      "priorityBand": "high",
+      "priorityReasons": [
+        "Signal: Disruption",
+        "Signal: Infrastructure"
+      ],
+      "boardBucket": "High Priority"
+    },
+    {
+      "id": "31111ec3e2366bd4",
+      "title": "EV fire risks draw IMO\u2019s attention",
+      "source": "Riviera: Safety & Incidents",
+      "sourceId": "riviera-safety",
+      "url": "https://www.rivieramm.com/news-content-hub/ev-fire-risks-draw-imos-attention-88377",
+      "publishedAt": "2026-04-08T06:30:00Z",
+      "excerpt": "IMO\u2019s SSE 12 sub-committee has advanced new SOLAS requirements, but Interferry has cautioned against dragging ferries into new regulations",
+      "tags": [
+        "Incidents",
+        "Regulation",
+        "Safety"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [
+        "Incident",
+        "Regulation"
+      ],
+      "priorityScore": 9,
+      "priorityBand": "high",
+      "priorityReasons": [
+        "Signal: Incident",
+        "Signal: Regulation"
+      ],
+      "boardBucket": "High Priority"
+    },
+    {
+      "id": "0a8373a147928f53",
+      "title": "Middle East crisis: southern Asia LNG plans face economic strain",
+      "source": "Riviera: Ports & Terminals",
+      "sourceId": "riviera-ports",
+      "url": "https://www.rivieramm.com/news-content-hub/middle-east-crisis-southern-asia-lng-plans-face-economic-strain-88187",
+      "publishedAt": "2026-03-23T10:00:00Z",
+      "excerpt": "GEM says southern Asia\u2019s US$107M gas infrastructure pipeline faces pressure from high LNG costs, stalled projects and Hormuz-linked disruption",
+      "tags": [
+        "Ports",
+        "Terminals"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [
+        "Disruption",
+        "Infrastructure"
+      ],
+      "priorityScore": 9,
+      "priorityBand": "high",
+      "priorityReasons": [
+        "Signal: Disruption",
         "Signal: Infrastructure"
       ],
       "boardBucket": "High Priority"
@@ -152,6 +270,101 @@ window.__DASHBOARD_DATA__ = {
         "Signal: Infrastructure"
       ],
       "boardBucket": "Port Watch"
+    },
+    {
+      "id": "cd8eb4003ded51c6",
+      "title": "Iran-backed cyber incidents drive shipping to rescan onboard systems",
+      "source": "Riviera: Safety & Incidents",
+      "sourceId": "riviera-safety",
+      "url": "https://www.rivieramm.com/news-content-hub/iran-backed-cyber-incidents-drive-shipping-to-rescan-onboard-systems-88405",
+      "publishedAt": "2026-04-09T06:00:00Z",
+      "excerpt": "Greece\u2019s National Cybersecurity Authority has issued a high-priority advisory recommending urgent action by operators of critical infrastructure",
+      "tags": [
+        "Incidents",
+        "Safety"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [
+        "Regulation",
+        "Infrastructure"
+      ],
+      "priorityScore": 8,
+      "priorityBand": "medium",
+      "priorityReasons": [
+        "Signal: Regulation",
+        "Signal: Infrastructure"
+      ],
+      "boardBucket": "Regulation, Safety & Incidents"
+    },
+    {
+      "id": "06bd8b9257b55370",
+      "title": "Gulf LNG Tugs welcomes new tug at Texas terminal",
+      "source": "Riviera: Ports & Terminals",
+      "sourceId": "riviera-ports",
+      "url": "https://www.rivieramm.com/news-content-hub/gulf-lng-tugs-welcomes-new-tug-at-texas-terminal-88381",
+      "publishedAt": "2026-04-09T08:00:00Z",
+      "excerpt": "Master Boat Builders delivered Jill to the US-based joint venture to handle gas carriers",
+      "tags": [
+        "Towage",
+        "Ports",
+        "Terminals"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [
+        "Infrastructure",
+        "Commercial"
+      ],
+      "priorityScore": 7,
+      "priorityBand": "medium",
+      "priorityReasons": [
+        "Signal: Infrastructure",
+        "Signal: Commercial"
+      ],
+      "boardBucket": "Regulation, Safety & Incidents"
+    },
+    {
+      "id": "a131e6b9620c7979",
+      "title": "Boluda Towage welcomes Damen-built tugs in Europe and Africa",
+      "source": "Riviera: Ports & Terminals",
+      "sourceId": "riviera-ports",
+      "url": "https://www.rivieramm.com/news-content-hub/boluda-towage-welcomes-damen-built-tugs-in-europe-and-africa-88171",
+      "publishedAt": "2026-03-25T06:30:00Z",
+      "excerpt": "Spanish tug owner took delivery of harbour tugboats built by Damen Shipyards in Q1 2026, to modernise its fleets in several countries",
+      "tags": [
+        "Towage",
+        "Ports",
+        "Terminals"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [
+        {
+          "name": "Damen Shipyards Group",
+          "category": "suppliers"
+        },
+        {
+          "name": "Boluda Towage",
+          "category": "competitors"
+        }
+      ],
+      "locations": [],
+      "businessTags": [
+        "Supplier",
+        "Competitor"
+      ],
+      "priorityScore": 7,
+      "priorityBand": "medium",
+      "priorityReasons": [
+        "Supplier mention: Damen Shipyards Group",
+        "Competitor mention: Boluda Towage"
+      ],
+      "boardBucket": "Competitors & Market"
     },
     {
       "id": "a9e7d0d2ab5a7354",
@@ -249,6 +462,254 @@ window.__DASHBOARD_DATA__ = {
         "Core port watch: Antwerp"
       ],
       "boardBucket": "Port Watch"
+    },
+    {
+      "id": "a78bacec2cdfc31e",
+      "title": "Voting opens for ITS 2026 towage industry awards",
+      "source": "Riviera: Ports & Terminals",
+      "sourceId": "riviera-ports",
+      "url": "https://www.rivieramm.com/news-content-hub/voting-opens-for-its-2026-industry-awards-88195",
+      "publishedAt": "2026-04-13T11:26:19Z",
+      "excerpt": "Tug owners, salvage companies, ports and innovators have been shortlisted for the industry honours",
+      "tags": [
+        "Towage",
+        "Salvage",
+        "Ports",
+        "Terminals"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [
+        "Incident"
+      ],
+      "priorityScore": 6,
+      "priorityBand": "medium",
+      "priorityReasons": [
+        "Signal: Incident"
+      ],
+      "boardBucket": "Regulation, Safety & Incidents"
+    },
+    {
+      "id": "8c15e609326590e5",
+      "title": "Panama Canal congestion sends VLGC auction fees higher",
+      "source": "Riviera: Ports & Terminals",
+      "sourceId": "riviera-ports",
+      "url": "https://www.rivieramm.com/news-content-hub/panama-canal-congestion-sends-vlgc-auction-fees-higher-88396",
+      "publishedAt": "2026-04-07T14:45:00Z",
+      "excerpt": "Two major charterers reportedly secured southbound slots at US$2.1M and US$1.5M, respectively",
+      "tags": [
+        "Ports",
+        "Terminals"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [
+        "Disruption"
+      ],
+      "priorityScore": 6,
+      "priorityBand": "medium",
+      "priorityReasons": [
+        "Signal: Disruption"
+      ],
+      "boardBucket": "Regulation, Safety & Incidents"
+    },
+    {
+      "id": "532e90ae98bf2b33",
+      "title": "Salvors prevent 3M tonnes of potential pollution in 2025",
+      "source": "Riviera: Safety & Incidents",
+      "sourceId": "riviera-safety",
+      "url": "https://www.rivieramm.com/news-content-hub/salvors-save-3m-tonnes-of-potential-pollution-in-2025-88289",
+      "publishedAt": "2026-04-07T14:34:19Z",
+      "excerpt": "International Salvage Union members assisted vessels carrying potentially polluting cargo and fuel during 2025",
+      "tags": [
+        "Salvage",
+        "Safety",
+        "Incidents"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [
+        "Incident"
+      ],
+      "priorityScore": 6,
+      "priorityBand": "medium",
+      "priorityReasons": [
+        "Signal: Incident"
+      ],
+      "boardBucket": "Regulation, Safety & Incidents"
+    },
+    {
+      "id": "93132cc6629a7300",
+      "title": "Vessel delivered for German Baltic emergency response",
+      "source": "Riviera: Safety & Incidents",
+      "sourceId": "riviera-safety",
+      "url": "https://www.rivieramm.com/news-content-hub/vessel-delivered-for-german-baltic-emergency-response-88269",
+      "publishedAt": "2026-04-02T06:30:00Z",
+      "excerpt": "Germany\u2019s Central Command for Maritime Emergencies has expanded its oil-spill cleanup capabilities",
+      "tags": [
+        "Safety",
+        "Incidents"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [
+        "Incident"
+      ],
+      "priorityScore": 6,
+      "priorityBand": "medium",
+      "priorityReasons": [
+        "Signal: Incident"
+      ],
+      "boardBucket": "Regulation, Safety & Incidents"
+    },
+    {
+      "id": "00aae561ac2050fe",
+      "title": "Fire after UAE-owned crude tanker hit off Qatar",
+      "source": "Riviera: Safety & Incidents",
+      "sourceId": "riviera-safety",
+      "url": "https://www.rivieramm.com/news-content-hub/fire-after-uae-owned-crude-tanker-hit-off-qatar-88348",
+      "publishedAt": "2026-04-01T11:46:47Z",
+      "excerpt": "Shipmanager and QatarEnergy confirm incident on MR crude and product tanker anchored off Ras Laffan LNG export hub",
+      "tags": [
+        "Incidents",
+        "Safety"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [
+        "Incident"
+      ],
+      "priorityScore": 6,
+      "priorityBand": "medium",
+      "priorityReasons": [
+        "Signal: Incident"
+      ],
+      "boardBucket": "Regulation, Safety & Incidents"
+    },
+    {
+      "id": "734a814dc8346613",
+      "title": "Towage, salvage impacted by Middle East war",
+      "source": "Riviera: Safety & Incidents",
+      "sourceId": "riviera-safety",
+      "url": "https://www.rivieramm.com/news-content-hub/towage-salvage-impacted-by-middle-east-war-88197",
+      "publishedAt": "2026-04-01T07:30:00Z",
+      "excerpt": "Salvors will be challenged to respond to damages ships in the hazardous waters in the Arabian Gulf and off the coast of Oman",
+      "tags": [
+        "Towage",
+        "Salvage",
+        "Safety",
+        "Incidents"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [
+        "Incident"
+      ],
+      "priorityScore": 6,
+      "priorityBand": "medium",
+      "priorityReasons": [
+        "Signal: Incident"
+      ],
+      "boardBucket": "Regulation, Safety & Incidents"
+    },
+    {
+      "id": "7140ef0ba68275d3",
+      "title": "Streamlined approval process will drive energy projects offshore Nova Scotia",
+      "source": "Riviera: Regulations & Compliance",
+      "sourceId": "riviera-regulation",
+      "url": "https://www.rivieramm.com/news-content-hub/streamlined-approval-process-will-help-drive-energy-projects-offshore-nova-scotia-88316",
+      "publishedAt": "2026-03-30T09:24:37Z",
+      "excerpt": "\u2018One project, one review\u2019 will help expedite potential offshore wind and oil and gas projects off Canada\u2019s east coast",
+      "tags": [
+        "Regulation",
+        "Compliance"
+      ],
+      "audience": "Both",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [
+        "Regulation",
+        "Commercial"
+      ],
+      "priorityScore": 6,
+      "priorityBand": "medium",
+      "priorityReasons": [
+        "Signal: Regulation",
+        "Signal: Commercial"
+      ],
+      "boardBucket": "Regulation, Safety & Incidents"
+    },
+    {
+      "id": "ec9ba777f2f22a54",
+      "title": "IMRF: protect SAR vessels, crews from harm during armed conflicts",
+      "source": "Riviera: Regulations & Compliance",
+      "sourceId": "riviera-regulation",
+      "url": "https://www.rivieramm.com/news-content-hub/imrf-protect-sar-vessels-crews-from-harm-during-armed-conflicts-88303",
+      "publishedAt": "2026-03-30T08:30:00Z",
+      "excerpt": "The International Maritime Rescue Federation calls on governments to protect civilians, emergency responders and rescue vessels",
+      "tags": [
+        "Salvage",
+        "Regulation",
+        "Compliance"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [
+        "Incident"
+      ],
+      "priorityScore": 6,
+      "priorityBand": "medium",
+      "priorityReasons": [
+        "Signal: Incident"
+      ],
+      "boardBucket": "Regulation, Safety & Incidents"
+    },
+    {
+      "id": "8a3d78f2e7109bc0",
+      "title": "Boluda strengthens UK towage fleet",
+      "source": "Riviera: Ports & Terminals",
+      "sourceId": "riviera-ports",
+      "url": "https://www.rivieramm.com/news-content-hub/boluda-strengthens-uk-towage-fleet-88278",
+      "publishedAt": "2026-03-27T07:00:00Z",
+      "excerpt": "A new reverse stern drive tugboat has joined the fleet supporting containership handling on the River Thames",
+      "tags": [
+        "Towage",
+        "Ports",
+        "Terminals"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [
+        {
+          "name": "Boluda Towage",
+          "category": "competitors"
+        }
+      ],
+      "locations": [],
+      "businessTags": [
+        "Competitor"
+      ],
+      "priorityScore": 6,
+      "priorityBand": "medium",
+      "priorityReasons": [
+        "Competitor mention: Boluda Towage"
+      ],
+      "boardBucket": "Competitors & Market"
     },
     {
       "id": "548b8bb99374038c",
@@ -610,30 +1071,87 @@ window.__DASHBOARD_DATA__ = {
       "boardBucket": "Regulation, Safety & Incidents"
     },
     {
-      "id": "d1bc9dd4b043c428",
-      "title": "Partnership to develop missile-equipped USVs for US military",
-      "source": "Baird Maritime",
-      "sourceId": "baird-maritime",
-      "url": "https://www.bairdmaritime.com/security/naval/unmanned-naval-systems/partnership-to-develop-missile-equipped-usvs-for-us-military",
-      "publishedAt": "2026-04-21T10:25:43Z",
-      "excerpt": "Hanwha Defense USA (HDUSA) and autonomous maritime company Magnet Defense have established a partnership to produce medium unmanned surface vessels (MUSVs) for the US Department of War. The partnership will include several potential projec\u2026",
+      "id": "e5246d97e52bbb26",
+      "title": "ST LNG advances offshore export terminal plans",
+      "source": "Riviera: Ports & Terminals",
+      "sourceId": "riviera-ports",
+      "url": "https://www.rivieramm.com/news-content-hub/st-lng-advances-offshore-export-terminal-plans-88253",
+      "publishedAt": "2026-04-09T07:30:00Z",
+      "excerpt": "ST LNG has selected core technology for phase one of its proposed offshore LNG export terminal, with first LNG targeted for mid-2030",
       "tags": [
-        "Workboats",
-        "Technology"
+        "Ports",
+        "Terminals"
       ],
       "audience": "Multraship",
       "paywalled": false,
       "entities": [],
       "locations": [],
       "businessTags": [
-        "Commercial"
+        "Infrastructure"
       ],
-      "priorityScore": 4,
+      "priorityScore": 5,
       "priorityBand": "medium",
       "priorityReasons": [
-        "Signal: Commercial"
+        "Signal: Infrastructure"
       ],
-      "boardBucket": "Other Relevant"
+      "boardBucket": "Regulation, Safety & Incidents"
+    },
+    {
+      "id": "3d65af2830df38f8",
+      "title": "House Democrats turn on TotalEnergies after \u2018outrageous\u2019 Trump deal",
+      "source": "Riviera: Regulations & Compliance",
+      "sourceId": "riviera-regulation",
+      "url": "https://www.rivieramm.com/news-content-hub/house-democrats-turn-on-totalenergies-after-outrageous-trump-deal-88409",
+      "publishedAt": "2026-04-08T14:21:01Z",
+      "excerpt": "Lawmakers slam taxpayer-funded \u2018billion-dollar giveaway\u2019 which they claim is \u2018almost certainly unlawful\u2019",
+      "tags": [
+        "Regulation",
+        "Compliance"
+      ],
+      "audience": "Both",
+      "paywalled": false,
+      "entities": [
+        {
+          "name": "TotalEnergies",
+          "category": "clients"
+        }
+      ],
+      "locations": [],
+      "businessTags": [
+        "Client"
+      ],
+      "priorityScore": 5,
+      "priorityBand": "medium",
+      "priorityReasons": [
+        "Client mention: TotalEnergies"
+      ],
+      "boardBucket": "Clients & Projects"
+    },
+    {
+      "id": "cec8098d238fca37",
+      "title": "At least US$25Bn, and years, to restore energy infrastructure damaged in Iran war",
+      "source": "Riviera: Ports & Terminals",
+      "sourceId": "riviera-ports",
+      "url": "https://www.rivieramm.com/news-content-hub/at-least-25bn-and-years-to-restore-energy-infrastructure-damaged-in-iran-war-88304",
+      "publishedAt": "2026-03-27T14:16:16Z",
+      "excerpt": "\u2019Capital alone will not be sufficient\u2019 to bring Qatar LNG\u2019s damaged Ras Laffan facilities back online, says Rystad Energy\u2019s analysis, which points to fragility in the manufacturing supply chain",
+      "tags": [
+        "Ports",
+        "Terminals"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [
+        "Infrastructure"
+      ],
+      "priorityScore": 5,
+      "priorityBand": "medium",
+      "priorityReasons": [
+        "Signal: Infrastructure"
+      ],
+      "boardBucket": "Regulation, Safety & Incidents"
     },
     {
       "id": "a2cc77bf57c4957a",
@@ -802,6 +1320,188 @@ window.__DASHBOARD_DATA__ = {
         "Signal: Regulation"
       ],
       "boardBucket": "Regulation, Safety & Incidents"
+    },
+    {
+      "id": "016bd81df2772304",
+      "title": "MEPC 84 agenda includes new BWMS approvals",
+      "source": "Riviera: Regulations & Compliance",
+      "sourceId": "riviera-regulation",
+      "url": "https://www.rivieramm.com/news-content-hub/mepc-84-agenda-includes-new-bwms-approvals-87814",
+      "publishedAt": "2026-04-09T06:30:00Z",
+      "excerpt": "MEPC 84 papers cover a final-approval application and new or amended type-approvals for ballast water management systems, submitted by Denmark and Norway",
+      "tags": [
+        "Regulation",
+        "Compliance"
+      ],
+      "audience": "Both",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [
+        "Regulation"
+      ],
+      "priorityScore": 4,
+      "priorityBand": "medium",
+      "priorityReasons": [
+        "Signal: Regulation"
+      ],
+      "boardBucket": "Regulation, Safety & Incidents"
+    },
+    {
+      "id": "a966a2cd111bf519",
+      "title": "Woodfibre LNG reaches 65% completion after module arrives",
+      "source": "Riviera: Ports & Terminals",
+      "sourceId": "riviera-ports",
+      "url": "https://www.rivieramm.com/news-content-hub/woodfibre-lng-reaches-65-after-module-arrival-88252",
+      "publishedAt": "2026-04-08T09:00:00Z",
+      "excerpt": "The project company says 16 modules have now reached the site",
+      "tags": [
+        "Ports",
+        "Terminals"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [
+        "Commercial"
+      ],
+      "priorityScore": 4,
+      "priorityBand": "medium",
+      "priorityReasons": [
+        "Signal: Commercial"
+      ],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "dbdb2598aade432f",
+      "title": "Design flexibility moves to front of shipbuilding",
+      "source": "Riviera: Regulations & Compliance",
+      "sourceId": "riviera-regulation",
+      "url": "https://www.rivieramm.com/news-content-hub/design-flexibility-moves-to-front-of-shipbuilding-88094",
+      "publishedAt": "2026-04-06T08:30:00Z",
+      "excerpt": "Early design choices now carry far more weight as owners weigh fuel-readiness, efficiency devices and future compliance costs",
+      "tags": [
+        "Regulation",
+        "Compliance"
+      ],
+      "audience": "Both",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [
+        "Regulation"
+      ],
+      "priorityScore": 4,
+      "priorityBand": "medium",
+      "priorityReasons": [
+        "Signal: Regulation"
+      ],
+      "boardBucket": "Regulation, Safety & Incidents"
+    },
+    {
+      "id": "6b0f16aacd0a7aef",
+      "title": "KR guidance targets 2028 IGC code shift",
+      "source": "Riviera: Regulations & Compliance",
+      "sourceId": "riviera-regulation",
+      "url": "https://www.rivieramm.com/news-content-hub/kr-guidance-targets-2028-igc-code-shift-88236",
+      "publishedAt": "2026-04-06T07:30:00Z",
+      "excerpt": "KR has issued technical guidance and briefed South Korean yards as IMO moves toward approving and adopting the revised IGC Code amendments due in 2028",
+      "tags": [
+        "Regulation",
+        "Compliance"
+      ],
+      "audience": "Both",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [
+        "Regulation"
+      ],
+      "priorityScore": 4,
+      "priorityBand": "medium",
+      "priorityReasons": [
+        "Signal: Regulation"
+      ],
+      "boardBucket": "Regulation, Safety & Incidents"
+    },
+    {
+      "id": "c0519accd00b04f6",
+      "title": "Committee approvals drive forward IMO cyber security, digitalisation strategy",
+      "source": "Riviera: Regulations & Compliance",
+      "sourceId": "riviera-regulation",
+      "url": "https://www.rivieramm.com/news-content-hub/committee-approvals-drive-forward-imo-cybersecurity-digitalisation-strategy-88354",
+      "publishedAt": "2026-04-06T07:00:00Z",
+      "excerpt": "FAL approves plans to enhance cyber security of maritime single windows of information exchange",
+      "tags": [
+        "Regulation",
+        "Compliance"
+      ],
+      "audience": "Both",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [
+        "Regulation"
+      ],
+      "priorityScore": 4,
+      "priorityBand": "medium",
+      "priorityReasons": [
+        "Signal: Regulation"
+      ],
+      "boardBucket": "Regulation, Safety & Incidents"
+    },
+    {
+      "id": "a99bf9b7ba65abb6",
+      "title": "Biocide-free hull coating targets fuel savings",
+      "source": "Riviera: Regulations & Compliance",
+      "sourceId": "riviera-regulation",
+      "url": "https://www.rivieramm.com/news-content-hub/biocide-free-hull-coating-targets-fuel-savings-88301",
+      "publishedAt": "2026-04-02T06:00:00Z",
+      "excerpt": "Low-VOC, biocide-free hull protection is being promoted for operational efficiency, regulatory compliance and reduced marine organism attachment",
+      "tags": [
+        "Regulation",
+        "Compliance"
+      ],
+      "audience": "Both",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [
+        "Regulation"
+      ],
+      "priorityScore": 4,
+      "priorityBand": "medium",
+      "priorityReasons": [
+        "Signal: Regulation"
+      ],
+      "boardBucket": "Regulation, Safety & Incidents"
+    },
+    {
+      "id": "df2bcc4b413dfa7b",
+      "title": "Venture Global CP2 Phase two moves into execution",
+      "source": "Riviera: Ports & Terminals",
+      "sourceId": "riviera-ports",
+      "url": "https://www.rivieramm.com/news-content-hub/venture-global-cp2-phase-two-moves-into-execution-88185",
+      "publishedAt": "2026-03-23T07:00:00Z",
+      "excerpt": "CP2 has moved to the next development stage, with Phase two receiving full notice to proceed after Venture Global\u2019s 13 March final investment decision",
+      "tags": [
+        "Ports",
+        "Terminals"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [
+        "Commercial"
+      ],
+      "priorityScore": 4,
+      "priorityBand": "medium",
+      "priorityReasons": [
+        "Signal: Commercial"
+      ],
+      "boardBucket": "Other Relevant"
     },
     {
       "id": "4c38d740fd68a3cc",
@@ -1015,6 +1715,86 @@ window.__DASHBOARD_DATA__ = {
       "boardBucket": "Other Relevant"
     },
     {
+      "id": "a9dacd27f7ad0fea",
+      "title": "The Netherlands to hold tender for an additional 1 GW of offshore wind",
+      "source": "Riviera: Regulations & Compliance",
+      "sourceId": "riviera-regulation",
+      "url": "https://www.rivieramm.com/news-content-hub/the-netherlands-to-hold-second-tender-for-offshore-wind-in-2026-88385",
+      "publishedAt": "2026-04-07T08:46:08Z",
+      "excerpt": "Joint tender for 2 GW of offshore wind capacity to take place, starting in November",
+      "tags": [
+        "Regulation",
+        "Compliance"
+      ],
+      "audience": "Both",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [
+        "Commercial"
+      ],
+      "priorityScore": 3,
+      "priorityBand": "low",
+      "priorityReasons": [
+        "Signal: Commercial"
+      ],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "182d5d22e28f2b3a",
+      "title": "CO2 terminals weigh hydraulic against electric loading arms",
+      "source": "Riviera: Ports & Terminals",
+      "sourceId": "riviera-ports",
+      "url": "https://www.rivieramm.com/news-content-hub/co2-terminals-weigh-hydraulic-against-electric-loading-arms-87715",
+      "publishedAt": "2026-03-25T06:00:00Z",
+      "excerpt": "How will fully electric loading arms reshape safety, uptime and life-cycle cost for CO2 export jetties?",
+      "tags": [
+        "Safety",
+        "Electrification",
+        "Ports",
+        "Terminals"
+      ],
+      "audience": "Both",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [
+        "Energy Transition"
+      ],
+      "priorityScore": 3,
+      "priorityBand": "low",
+      "priorityReasons": [
+        "Signal: Energy Transition"
+      ],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "55ffa88c0d737a83",
+      "title": "Commission approves \u20ac5Bn Danish scheme for offshore windfarms",
+      "source": "Riviera: Regulations & Compliance",
+      "sourceId": "riviera-regulation",
+      "url": "https://www.rivieramm.com/news-content-hub/commission-approves-5bn-danish-scheme-for-offshore-windfarms-88231",
+      "publishedAt": "2026-03-23T14:08:27Z",
+      "excerpt": "Two-way contract for difference approved for the Hessel\u00f8 and North Sea I Mid projects",
+      "tags": [
+        "Regulation",
+        "Compliance"
+      ],
+      "audience": "Both",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [
+        "Commercial"
+      ],
+      "priorityScore": 3,
+      "priorityBand": "low",
+      "priorityReasons": [
+        "Signal: Commercial"
+      ],
+      "boardBucket": "Other Relevant"
+    },
+    {
       "id": "729535b76867591a",
       "title": "Dajin Heavy Indutry's newest heavy lift ship floated out",
       "source": "Baird Maritime",
@@ -1132,72 +1912,6 @@ window.__DASHBOARD_DATA__ = {
       "url": "https://www.bairdmaritime.com/shipping/tankers/opinion-even-record-us-oil-output-falls-short-of-replacing-supply-losses",
       "publishedAt": "2026-04-21T10:28:34Z",
       "excerpt": "An armada of crude oil and refined products tankers is heading to Asia from the United States, but even record-high exports from the world's top producer cannot come close to making up the losses from the war against Iran. US crude exports\u2026",
-      "tags": [
-        "Workboats",
-        "Technology"
-      ],
-      "audience": "Multraship",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [],
-      "priorityScore": 2,
-      "priorityBand": "low",
-      "priorityReasons": [],
-      "boardBucket": "Other Relevant"
-    },
-    {
-      "id": "f2e1f2a53dcddc9f",
-      "title": "Internal exploitation grows as Rohingya turn to trafficking their own",
-      "source": "Baird Maritime",
-      "sourceId": "baird-maritime",
-      "url": "https://www.bairdmaritime.com/security/incidents/piracy/internal-exploitation-grows-as-rohingya-turn-to-trafficking-their-own",
-      "publishedAt": "2026-04-21T10:22:09Z",
-      "excerpt": "Rohingya \"refugee\" Rahila Begum spent two days adrift in the Andaman Sea this month, clinging to a wooden shard after her overcrowded boat capsized, one of the few survivors of a disaster that left 250 missing and feared dead. She was amon\u2026",
-      "tags": [
-        "Workboats",
-        "Technology"
-      ],
-      "audience": "Multraship",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [],
-      "priorityScore": 2,
-      "priorityBand": "low",
-      "priorityReasons": [],
-      "boardBucket": "Other Relevant"
-    },
-    {
-      "id": "b462a305291f7ef1",
-      "title": "GNV ferry completes undergoing upgrades in China",
-      "source": "Baird Maritime",
-      "sourceId": "baird-maritime",
-      "url": "https://www.bairdmaritime.com/passenger/ro-pax/gnv-ferry-completes-undergoing-upgrades-in-china",
-      "publishedAt": "2026-04-21T10:17:24Z",
-      "excerpt": "A Ro-Pax ferry owned by Italian transport company Grandi Navi Veloci (GNV) has completed undergoing upgrades in China. The work on the 2024-built GNV Polaris was undertaken by China State Shipbuilding Corporation subsidiary Guangzhou Shipy\u2026",
-      "tags": [
-        "Workboats",
-        "Technology"
-      ],
-      "audience": "Multraship",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [],
-      "priorityScore": 2,
-      "priorityBand": "low",
-      "priorityReasons": [],
-      "boardBucket": "Other Relevant"
-    },
-    {
-      "id": "36e876ed35867c59",
-      "title": "Another US drone firm launches two new USV designs",
-      "source": "Baird Maritime",
-      "sourceId": "baird-maritime",
-      "url": "https://www.bairdmaritime.com/security/naval/unmanned-naval-systems/another-us-drone-firm-launches-two-new-usv-designs",
-      "publishedAt": "2026-04-21T10:11:13Z",
-      "excerpt": "BlackSea Technologies has announced the introduction of two new small unmanned surface vessels. The company stated that the modular model is an adaptable platform for varying mission demands, while the larger variant is a high-speed vessel\u2026",
       "tags": [
         "Workboats",
         "Technology"
@@ -2207,6 +2921,781 @@ window.__DASHBOARD_DATA__ = {
       "boardBucket": "Other Relevant"
     },
     {
+      "id": "85e2e06e5770ff4d",
+      "title": "US Navy to use underwater drones to clear mines in Strait of Hormuz",
+      "source": "Riviera: Safety & Incidents",
+      "sourceId": "riviera-safety",
+      "url": "https://www.rivieramm.com/news-content-hub/us-navy-to-use-underwater-drones-to-clear-mines-in-strait-of-hormuz-88438",
+      "publishedAt": "2026-04-14T09:13:59Z",
+      "excerpt": "Unmanned underwater vehicles will be deployed by the US Navy as part of an effort to clear sea mines from the Strait of Hormuz in an attempt to open the waterway to commercial shipping traffic",
+      "tags": [
+        "Safety",
+        "Incidents"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [],
+      "priorityScore": 2,
+      "priorityBand": "low",
+      "priorityReasons": [],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "6a3102fd7a830c95",
+      "title": "US military clarifies Trump Hormuz blockade statements; analyst predicts 'tit-for-tat' vessel seizures",
+      "source": "Riviera: Safety & Incidents",
+      "sourceId": "riviera-safety",
+      "url": "https://www.rivieramm.com/news-content-hub/us-military-clarifies-trump-hormuz-blockade-statements-analyst-predicts-tit-for-tat-vessel-seizures-88443",
+      "publishedAt": "2026-04-14T09:13:43Z",
+      "excerpt": "US Central Command says blockade will apply to \u2019all maritime traffic entering and exiting Iranian ports\u2019 and will begin in the evening, local time, of 13 April",
+      "tags": [
+        "Safety",
+        "Incidents"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [],
+      "priorityScore": 2,
+      "priorityBand": "low",
+      "priorityReasons": [],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "9fa4d00e31005650",
+      "title": "Demise of LOF contracting puts ships in greater peril",
+      "source": "Riviera: Safety & Incidents",
+      "sourceId": "riviera-safety",
+      "url": "https://www.rivieramm.com/news-content-hub/demise-of-lof-contracting-puts-ships-in-peril-88323",
+      "publishedAt": "2026-04-13T07:00:00Z",
+      "excerpt": "Lloyd\u2019s Open Forms enable rapid response to casualties, whereas commercial negotiations may cause delays and increase the risk of groundings",
+      "tags": [
+        "Incidents",
+        "Safety"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [],
+      "priorityScore": 2,
+      "priorityBand": "low",
+      "priorityReasons": [],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "2adce82672679b39",
+      "title": "Hanwha Engine finalises deal for electric propulsion specialists SEAM",
+      "source": "Riviera: Propulsion",
+      "sourceId": "riviera-propulsion",
+      "url": "https://www.rivieramm.com/news-content-hub/hanwha-engine-finalises-deal-for-electric-propulsion-specialists-88428",
+      "publishedAt": "2026-04-10T14:28:03Z",
+      "excerpt": "Hanwha Engine, a division of South Korean conglomerate Hanwha Group, has acquired Norway-based electric propulsion and system integration specialist SEAM",
+      "tags": [
+        "Electrification",
+        "Clean Propulsion",
+        "Propulsion",
+        "Technology"
+      ],
+      "audience": "Novatug",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [
+        "Energy Transition"
+      ],
+      "priorityScore": 2,
+      "priorityBand": "low",
+      "priorityReasons": [
+        "Signal: Energy Transition"
+      ],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "26e49303a65d486c",
+      "title": "Segregate connectivity networks to mitigate cyber risk",
+      "source": "Riviera: Safety & Incidents",
+      "sourceId": "riviera-safety",
+      "url": "https://www.rivieramm.com/news-content-hub/segregate-connectivity-networks-to-mitigate-cyber-risk-88423",
+      "publishedAt": "2026-04-10T09:30:00Z",
+      "excerpt": "Operators of ferries and cruise ships should isolate passenger, business and operational networks",
+      "tags": [
+        "Safety",
+        "Incidents"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [],
+      "priorityScore": 2,
+      "priorityBand": "low",
+      "priorityReasons": [],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "98e30353d6706854",
+      "title": "Suderman & Young expands into Texan ports",
+      "source": "Riviera: Ports & Terminals",
+      "sourceId": "riviera-ports",
+      "url": "https://www.rivieramm.com/news-content-hub/suderman-amp-young-expands-into-two-texan-ports-88406",
+      "publishedAt": "2026-04-10T08:30:00Z",
+      "excerpt": "US tug owner reinforces towage services in harbours close to the Mexican border",
+      "tags": [
+        "Towage",
+        "Ports",
+        "Terminals"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [],
+      "priorityScore": 2,
+      "priorityBand": "low",
+      "priorityReasons": [],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "02244b4cbf28093a",
+      "title": "Threatening mines, Iran claims new Hormuz traffic scheme; vessels told Strait closed",
+      "source": "Riviera: Safety & Incidents",
+      "sourceId": "riviera-safety",
+      "url": "https://www.rivieramm.com/news-content-hub/threatening-mines-iran-claims-new-hormuz-traffic-scheme-vessels-told-strait-closed-88419",
+      "publishedAt": "2026-04-09T13:40:53Z",
+      "excerpt": "Iranian communications to vessels mirror observed ship movements as a temporary, conditional ceasefire deal quickly began to unravel amid Israeli strikes in Lebanon that killed more than 200",
+      "tags": [
+        "Incidents",
+        "Safety"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [],
+      "priorityScore": 2,
+      "priorityBand": "low",
+      "priorityReasons": [],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "c4076502d3a2c11e",
+      "title": "UK enhances maritime security, deploys 50 radar systems",
+      "source": "Riviera: Safety & Incidents",
+      "sourceId": "riviera-safety",
+      "url": "https://www.rivieramm.com/news-content-hub/uk-enhances-maritime-security-with-50-radar-systems-deployed-88415",
+      "publishedAt": "2026-04-09T10:08:58Z",
+      "excerpt": "Solid-state radar transceivers will be deployed around the UK to improve coastal surveillance",
+      "tags": [
+        "Safety",
+        "Incidents"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [],
+      "priorityScore": 2,
+      "priorityBand": "low",
+      "priorityReasons": [],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "8e64ad3778b97f61",
+      "title": "Tugboat, towboat sales plummet as availability dries up",
+      "source": "Riviera: Ports & Terminals",
+      "sourceId": "riviera-ports",
+      "url": "https://www.rivieramm.com/news-content-hub/tugboat-towboat-sales-plummet-as-availability-dries-up-88357",
+      "publishedAt": "2026-04-09T07:00:00Z",
+      "excerpt": "The secondhand tug and pushboat market remains particularly tight, with fewer vessels for sale",
+      "tags": [
+        "Towage",
+        "Ports",
+        "Terminals"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [],
+      "priorityScore": 2,
+      "priorityBand": "low",
+      "priorityReasons": [],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "ffb73dd9bce4227b",
+      "title": "Iran agrees military-controlled, two-week 'safe passage through the Strait of Hormuz'",
+      "source": "Riviera: Safety & Incidents",
+      "sourceId": "riviera-safety",
+      "url": "https://www.rivieramm.com/news-content-hub/iran-agrees-military-controlled-two-week-safe-passage-through-the-strait-of-hormuz-88397",
+      "publishedAt": "2026-04-08T15:00:39Z",
+      "excerpt": "A two-week ceasefire deal was announced by US President Donald Trump, who says the US is \u2019very far along\u2019 on \u2019 long-term peace with Iran\u2019, while attacks reportedly continue",
+      "tags": [
+        "Incidents",
+        "Safety"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [],
+      "priorityScore": 2,
+      "priorityBand": "low",
+      "priorityReasons": [],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "356906b12a793a4e",
+      "title": "Initial post-ceasefire transits recorded as fighting continues; shipping agencies warn of Hormuz hazards",
+      "source": "Riviera: Safety & Incidents",
+      "sourceId": "riviera-safety",
+      "url": "https://www.rivieramm.com/news-content-hub/initial-post-ceasefire-transits-recorded-as-shipping-agencies-warn-of-hormuz-hazards-88407",
+      "publishedAt": "2026-04-08T13:17:52Z",
+      "excerpt": "Pair of Greek-owned bulk carriers among the first to exit after US and Iran reach temporary, conditional truce",
+      "tags": [
+        "Incidents",
+        "Safety"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [],
+      "priorityScore": 2,
+      "priorityBand": "low",
+      "priorityReasons": [],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "2d907f7a5fae7a25",
+      "title": "Q1 maritime piracy and armed robbery figures reach lowest levels since 1991",
+      "source": "Baird Maritime",
+      "sourceId": "baird-maritime",
+      "url": "https://www.bairdmaritime.com/security/incidents/piracy/q1-maritime-piracy-and-armed-robbery-figures-reach-record-low-since-1991",
+      "publishedAt": "2026-04-08T09:22:02Z",
+      "excerpt": "The ICC International Maritime Bureau (IMB) reported a sharp fall in global maritime piracy and armed robbery incidents in the first quarter of 2026, with just 16 incidents recorded worldwide \u2013 the lowest first quarter figure since 1991. T\u2026",
+      "tags": [
+        "Incidents",
+        "Workboats",
+        "Technology"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [],
+      "priorityScore": 2,
+      "priorityBand": "low",
+      "priorityReasons": [],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "e8e2e357a1f8f3ef",
+      "title": "ClassNK awards first MASS notation to coastal container ship",
+      "source": "Riviera: Safety & Incidents",
+      "sourceId": "riviera-safety",
+      "url": "https://www.rivieramm.com/news-content-hub/classnk-awards-first-mass-notation-to-coastal-container-ship-88387",
+      "publishedAt": "2026-04-08T07:30:00Z",
+      "excerpt": "Japanese class society notation paves the way for deploying autonomous navigation technologies on domestic ships",
+      "tags": [
+        "Safety",
+        "Incidents"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [],
+      "priorityScore": 2,
+      "priorityBand": "low",
+      "priorityReasons": [],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "d00abb89bac4411c",
+      "title": "Bhagwan acquires Riverside Marine, expanding Australian port operations",
+      "source": "Riviera: Ports & Terminals",
+      "sourceId": "riviera-ports",
+      "url": "https://www.rivieramm.com/news-content-hub/australia-bhagwan-acquires-riverside-marine-expanding-port-operations-88362",
+      "publishedAt": "2026-04-07T08:30:00Z",
+      "excerpt": "US$90M enterprise-value deal brings tugboat fleet management to key metal ore export ports",
+      "tags": [
+        "Towage",
+        "Ports",
+        "Terminals"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [],
+      "priorityScore": 2,
+      "priorityBand": "low",
+      "priorityReasons": [],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "826188ca32df7f1e",
+      "title": "Give to gain: the power of trust in the workplace",
+      "source": "Riviera: Safety & Incidents",
+      "sourceId": "riviera-safety",
+      "url": "https://www.rivieramm.com/news-content-hub/give-to-gain-the-power-of-trust-in-the-workplace-88103",
+      "publishedAt": "2026-04-07T08:23:50Z",
+      "excerpt": "Speaking up, mentoring and consistent leadership all shape whether crews feel safe, supported and able to perform under pressure",
+      "tags": [
+        "Safety",
+        "Incidents"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [],
+      "priorityScore": 2,
+      "priorityBand": "low",
+      "priorityReasons": [],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "e252750b95e959f1",
+      "title": "ILO, BIMCO launch Bangladesh ship recycling injury pilot scheme",
+      "source": "Riviera: Safety & Incidents",
+      "sourceId": "riviera-safety",
+      "url": "https://www.rivieramm.com/news-content-hub/ilo-bimco-launch-bangladesh-ship-recycling-injury-pilot-scheme-88112",
+      "publishedAt": "2026-04-07T08:00:00Z",
+      "excerpt": "A voluntary Bangladesh pilot links end-of-life ship sales to worker injury compensation ahead of a planned mandatory national scheme in 2027",
+      "tags": [
+        "Safety",
+        "Incidents"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [],
+      "priorityScore": 2,
+      "priorityBand": "low",
+      "priorityReasons": [],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "a2c3c06e72165730",
+      "title": "What we know about CO2 shipping AiPs",
+      "source": "Riviera: Ports & Terminals",
+      "sourceId": "riviera-ports",
+      "url": "https://www.rivieramm.com/news-content-hub/what-we-know-about-co2-shipping-aips-88024",
+      "publishedAt": "2026-04-06T09:30:00Z",
+      "excerpt": "Ahead of Posidonia 2026, five years of AiPs trace CO2 carrier sizing, floating storage concepts and onboard capture",
+      "tags": [
+        "Ports",
+        "Terminals"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [],
+      "priorityScore": 2,
+      "priorityBand": "low",
+      "priorityReasons": [],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "29b4e0940d97a605",
+      "title": "Simulator centres train the next generation of tug masters, pilots",
+      "source": "Riviera: Safety & Incidents",
+      "sourceId": "riviera-safety",
+      "url": "https://www.rivieramm.com/news-content-hub/simulator-centres-train-the-next-generation-of-tug-masters-pilots-88237",
+      "publishedAt": "2026-04-06T06:00:00Z",
+      "excerpt": "Training simulation centres improve tug and pilot interactions in manoeuvring and docking ships in ports",
+      "tags": [
+        "Towage",
+        "Safety",
+        "Incidents"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [],
+      "priorityScore": 2,
+      "priorityBand": "low",
+      "priorityReasons": [],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "9365e39ae5343f46",
+      "title": "Ardmore undertakes cargo tank recoating, expands cargo flexibility",
+      "source": "Riviera: Ports & Terminals",
+      "sourceId": "riviera-ports",
+      "url": "https://www.rivieramm.com/news-content-hub/ardmore-undertakes-cargo-tank-recoating-and-expands-cargo-flexibility-88358",
+      "publishedAt": "2026-04-03T05:59:00Z",
+      "excerpt": "Six Ardmore product and chemical tankers have undergone mid-life cargo tank recoating, with the owner citing cleaner turnarounds and broader cargo options",
+      "tags": [
+        "Ports",
+        "Terminals"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [],
+      "priorityScore": 2,
+      "priorityBand": "low",
+      "priorityReasons": [],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "fd388216abf47303",
+      "title": "DNV: Iran war may accelerate global energy transition",
+      "source": "Riviera: Regulations & Compliance",
+      "sourceId": "riviera-regulation",
+      "url": "https://www.rivieramm.com/news-content-hub/dnv-war-with-iran-may-accelerate-global-energy-transition-88307",
+      "publishedAt": "2026-04-02T10:08:54Z",
+      "excerpt": "Higher fossil fuel prices and energy security concerns could strengthen investment in renewables, batteries and nuclear, DNV analysis says",
+      "tags": [
+        "Batteries",
+        "Sustainability",
+        "Regulation",
+        "Compliance"
+      ],
+      "audience": "Novatug",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [
+        "Commercial"
+      ],
+      "priorityScore": 2,
+      "priorityBand": "low",
+      "priorityReasons": [
+        "Signal: Commercial"
+      ],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "f2a28267aad67edf",
+      "title": "Kuwaiti tanker hit off Dubai; Iran plan for Strait of Hormuz tolls approved",
+      "source": "Riviera: Safety & Incidents",
+      "sourceId": "riviera-safety",
+      "url": "https://www.rivieramm.com/news-content-hub/kuwaiti-tanker-hit-off-dubai-iran-plan-for-strait-of-hormuz-tolls-approved-88340",
+      "publishedAt": "2026-03-31T21:11:49Z",
+      "excerpt": "State-owned Kuwait Petroleum Corp says vessel damaged by \u2019direct Iranian attack\u2019, as plan to impose tolls for Hormuz transits reportedly approved in Iranian parliament",
+      "tags": [
+        "Safety",
+        "Incidents"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [],
+      "priorityScore": 2,
+      "priorityBand": "low",
+      "priorityReasons": [],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "539d9dbb02a99a12",
+      "title": "As Houthis join war, Houthi-linked maritime threat level remains 'moderate'",
+      "source": "Riviera: Safety & Incidents",
+      "sourceId": "riviera-safety",
+      "url": "https://www.rivieramm.com/news-content-hub/as-houthis-join-war-red-sea-threat-level-remains-moderate-88322",
+      "publishedAt": "2026-03-31T14:32:22Z",
+      "excerpt": "The JMIC has maintained its threat level in the Bab-el-Mandeb Strait and Gulf of Aden",
+      "tags": [
+        "Safety",
+        "Incidents"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [],
+      "priorityScore": 2,
+      "priorityBand": "low",
+      "priorityReasons": [],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "64f995bbd82a1299",
+      "title": "Middle East owners bolster fleets with ASD newbuilds",
+      "source": "Riviera: Ports & Terminals",
+      "sourceId": "riviera-ports",
+      "url": "https://www.rivieramm.com/news-content-hub/middle-east-owners-bolster-fleets-with-asd-newbuilds-88162",
+      "publishedAt": "2026-03-31T10:00:00Z",
+      "excerpt": "Shipyards delivered several tugboats to UAE-headquartered owners in 2025 for operations in the region and in Africa",
+      "tags": [
+        "Towage",
+        "Ports",
+        "Terminals"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [],
+      "priorityScore": 2,
+      "priorityBand": "low",
+      "priorityReasons": [],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "3c6af7b21165c8b4",
+      "title": "Data shows COSCO box ships transit Hormuz after aborted attempt, as transits remain down",
+      "source": "Riviera: Ports & Terminals",
+      "sourceId": "riviera-ports",
+      "url": "https://www.rivieramm.com/news-content-hub/data-shows-cosco-boxships-transit-hormuz-after-aborted-attempt-88320",
+      "publishedAt": "2026-03-30T13:05:49Z",
+      "excerpt": "According to MarineTraffic, this marks the first confirmed transit by a major container carrier since the conflict began",
+      "tags": [
+        "Ports",
+        "Terminals"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [],
+      "priorityScore": 2,
+      "priorityBand": "low",
+      "priorityReasons": [],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "041f23eeb0f090b4",
+      "title": "Poland\u2019s Orlen adds two LNG carriers to fleet",
+      "source": "Riviera: Ports & Terminals",
+      "sourceId": "riviera-ports",
+      "url": "https://www.rivieramm.com/news-content-hub/polands-orlen-adds-two-lng-carriers-to-fleet-88233",
+      "publishedAt": "2026-03-30T06:00:00Z",
+      "excerpt": "Polish company has named two LNG carriers in South Korea, taking its fleet to eight ships and expanding its LNG transport capacity",
+      "tags": [
+        "Ports",
+        "Terminals"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [],
+      "priorityScore": 2,
+      "priorityBand": "low",
+      "priorityReasons": [],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "6ca83db3fb987f91",
+      "title": "Government provides up to \u00a364M for Port Talbot floating wind hub",
+      "source": "Riviera: Ports & Terminals",
+      "sourceId": "riviera-ports",
+      "url": "https://www.rivieramm.com/news-content-hub/government-provides-up-to-64m-for-port-talbot-floating-wind-hub-88297",
+      "publishedAt": "2026-03-27T12:26:35Z",
+      "excerpt": "Funding will enable development of first port in the Celtic Sea that will support floating offshore wind",
+      "tags": [
+        "Ports",
+        "Terminals"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [],
+      "priorityScore": 2,
+      "priorityBand": "low",
+      "priorityReasons": [],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "da4f4df7fbbdfea1",
+      "title": "OLT starts small-scale bioLNG cargo service",
+      "source": "Riviera: Ports & Terminals",
+      "sourceId": "riviera-ports",
+      "url": "https://www.rivieramm.com/news-content-hub/olt-starts-small-scale-biolng-cargo-service-88073",
+      "publishedAt": "2026-03-26T09:00:00Z",
+      "excerpt": "A 4,000-m\u00b3 delivery to FSRU Toscana opens OLT\u2019s small-scale LNG service, with the company also stating it is ready to handle bioLNG",
+      "tags": [
+        "Ports",
+        "Terminals"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [],
+      "priorityScore": 2,
+      "priorityBand": "low",
+      "priorityReasons": [],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "ce991efae2310477",
+      "title": "A transformative year for France's biggest port",
+      "source": "Riviera: Ports & Terminals",
+      "sourceId": "riviera-ports",
+      "url": "https://www.rivieramm.com/news-content-hub/a-transformative-year-for-frances-biggest-port-88254",
+      "publishedAt": "2026-03-26T06:30:00Z",
+      "excerpt": "Attracting nearly 10,000 ships, 4M passengers, and 75M tonnes of goods in 2025, the Port of Marseille-Fos is looking to expand its business further, with US$1.5Bn in investments",
+      "tags": [
+        "Ports",
+        "Terminals"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [],
+      "priorityScore": 2,
+      "priorityBand": "low",
+      "priorityReasons": [],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "ab085c041c0b2556",
+      "title": "Port of Nigg to invest more than \u00a330M to develop offshore energy facilities",
+      "source": "Riviera: Ports & Terminals",
+      "sourceId": "riviera-ports",
+      "url": "https://www.rivieramm.com/news-content-hub/port-of-nigg-to-invest-more-than-30m-to-develop-offshore-energy-facilities-88272",
+      "publishedAt": "2026-03-26T05:00:00Z",
+      "excerpt": "New facility will support complex, large-scale projects in the oil and gas, offshore wind and nuclear industries",
+      "tags": [
+        "Ports",
+        "Terminals"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [],
+      "priorityScore": 2,
+      "priorityBand": "low",
+      "priorityReasons": [],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "d3dcdb08221b680c",
+      "title": "Karrie Trauth elected president of UK Chamber of Shipping",
+      "source": "Riviera: Regulations & Compliance",
+      "sourceId": "riviera-regulation",
+      "url": "https://www.rivieramm.com/news-content-hub/karrie-trauth-elected-president-of-uk-chamber-of-shipping-88259",
+      "publishedAt": "2026-03-25T11:33:37Z",
+      "excerpt": "The UK Chamber of Shipping has elected Karrie Trauth, executive vice president for shipping and maritime at Shell, as its new president",
+      "tags": [
+        "Regulation",
+        "Compliance"
+      ],
+      "audience": "Both",
+      "paywalled": false,
+      "entities": [
+        {
+          "name": "Shell Nederland",
+          "category": "suppliers"
+        }
+      ],
+      "locations": [],
+      "businessTags": [
+        "Supplier"
+      ],
+      "priorityScore": 2,
+      "priorityBand": "low",
+      "priorityReasons": [
+        "Supplier mention: Shell Nederland"
+      ],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "5a3416869be1ebc0",
+      "title": "\u00a36M approved for development of offshore wind manufacturing sites in Scotland",
+      "source": "Riviera: Ports & Terminals",
+      "sourceId": "riviera-ports",
+      "url": "https://www.rivieramm.com/news-content-hub/6m-approved-for-offshore-wind-sites-in-highland-and-lewis-88256",
+      "publishedAt": "2026-03-25T10:05:38Z",
+      "excerpt": "Minister describes offshore wind as \u2019one of the biggest economic opportunities Scotland has ever had\u2019",
+      "tags": [
+        "Ports",
+        "Terminals"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [],
+      "priorityScore": 2,
+      "priorityBand": "low",
+      "priorityReasons": [],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "3d128b8bf4e6e905",
+      "title": "Alisios LNG adds to Spain\u2019s LNG bunkering capacity",
+      "source": "Riviera: Ports & Terminals",
+      "sourceId": "riviera-ports",
+      "url": "https://www.rivieramm.com/news-content-hub/alisios-lng-adds-to-spains-lng-bunkering-capacity-88116",
+      "publishedAt": "2026-03-25T09:00:00Z",
+      "excerpt": "A newly built 12,500-m\u00b3 LNG bunkering vessel will work the southern Iberian trades under a commercial charter arrangement",
+      "tags": [
+        "Ports",
+        "Terminals"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [],
+      "priorityScore": 2,
+      "priorityBand": "low",
+      "priorityReasons": [],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "4a735b53834203dc",
+      "title": "Oman 'working intensively' on safe passage for vessels through Strait of Hormuz",
+      "source": "Riviera: Ports & Terminals",
+      "sourceId": "riviera-ports",
+      "url": "https://www.rivieramm.com/news-content-hub/oman-working-intensively-on-safe-passage-for-vessels-through-strait-of-hormuz-88235",
+      "publishedAt": "2026-03-24T08:46:33Z",
+      "excerpt": "Omani foreign minister Badr Albusaidi has claimed that the Sultanate, which has been an intermediary for Iran and the US in nuclear negotiations, is attempting to secure safe passage for vessels through the strait",
+      "tags": [
+        "Ports",
+        "Terminals"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [],
+      "priorityScore": 2,
+      "priorityBand": "low",
+      "priorityReasons": [],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "0444d903c45da319",
+      "title": "Missile attacks on QatarEnergy LNG reduce export capacity 17%",
+      "source": "Riviera: Ports & Terminals",
+      "sourceId": "riviera-ports",
+      "url": "https://www.rivieramm.com/news-content-hub/missile-attacks-on-qatarenergy-lng-reduce-export-capacity-17-88215",
+      "publishedAt": "2026-03-23T09:20:06Z",
+      "excerpt": "QatarEnergy said it estimates annual revenue loss at US$20Bn due to damage from retaliatory Iranian strikes on the Ras Laffan LNG facility",
+      "tags": [
+        "Ports",
+        "Terminals"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [],
+      "priorityScore": 2,
+      "priorityBand": "low",
+      "priorityReasons": [],
+      "boardBucket": "Other Relevant"
+    },
+    {
       "id": "6fdcad38202292d2",
       "title": "Jones Walker Welcomes Partner and Associate in Houston",
       "source": "MarineLink",
@@ -3016,493 +4505,6 @@ window.__DASHBOARD_DATA__ = {
       "locations": [],
       "businessTags": [],
       "priorityScore": 1,
-      "priorityBand": "low",
-      "priorityReasons": [],
-      "boardBucket": "Other Relevant"
-    },
-    {
-      "id": "c43e2b21b424c7ae",
-      "title": "India Commits $1.4 Billion to the Creation of a Domestic P&I Club",
-      "source": "The Maritime Executive",
-      "sourceId": "maritime-executive",
-      "url": "https://maritime-executive.com/article/india-commits-1-4-billion-to-the-creation-of-a-domestic-p-i-club",
-      "publishedAt": "2026-04-19T20:32:00Z",
-      "excerpt": "India has made progress in establishing a local P&I club to protect the country\u2019s shipping interests. Over the weekend, the cabinet approved creation...",
-      "tags": [
-        "Maritime",
-        "News"
-      ],
-      "audience": "Both",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [],
-      "priorityScore": 1,
-      "priorityBand": "low",
-      "priorityReasons": [],
-      "boardBucket": "Other Relevant"
-    },
-    {
-      "id": "38b71fdffa240a6d",
-      "title": "United States Ambivalent to Russian Oil Sanctions",
-      "source": "The Maritime Executive",
-      "sourceId": "maritime-executive",
-      "url": "https://maritime-executive.com/article/united-states-shows-ambivalence-to-russian-oil-sanctions",
-      "publishedAt": "2026-04-19T17:43:00Z",
-      "excerpt": "Particularly in the United States, where the constitution was designed to incorporate checks and balances between the different parts of government,...",
-      "tags": [
-        "Maritime",
-        "News"
-      ],
-      "audience": "Both",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [],
-      "priorityScore": 1,
-      "priorityBand": "low",
-      "priorityReasons": [],
-      "boardBucket": "Other Relevant"
-    },
-    {
-      "id": "4989c1cae4dcd3a1",
-      "title": "Fugro opens ROV test pool facility in Singapore",
-      "source": "SWZ Maritime",
-      "sourceId": "swz-maritime",
-      "url": "https://swzmaritime.nl/news/2026/04/17/fugro-opens-rov-test-pool-facility-in-singapore/",
-      "publishedAt": "2026-04-17T08:24:39Z",
-      "excerpt": "Fugro has commissioned its new remotely operated vehicle (ROV) test pool in Singapore. This strengthens the company\u2019s in\u2011house capability to undertake controlled testing, verification and validation of equipment, systems and [\u2026]",
-      "tags": [
-        "Maritime",
-        "Netherlands"
-      ],
-      "audience": "Both",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [],
-      "priorityScore": 1,
-      "priorityBand": "low",
-      "priorityReasons": [],
-      "boardBucket": "Other Relevant"
-    },
-    {
-      "id": "81324c860c7b5f22",
-      "title": "Haskoning to provide design for Texas storm surge barrier",
-      "source": "SWZ Maritime",
-      "sourceId": "swz-maritime",
-      "url": "https://swzmaritime.nl/news/2026/04/17/haskoning-to-provide-design-for-texas-storm-surge-barrier/",
-      "publishedAt": "2026-04-17T06:28:00Z",
-      "excerpt": "Haskoning has been confirmed as a key team member for the preliminary design of The Gate (Bolivar Roads Gate System) in Galveston, Texas. The system will be one of the [\u2026]",
-      "tags": [
-        "Maritime",
-        "Netherlands"
-      ],
-      "audience": "Both",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [],
-      "priorityScore": 1,
-      "priorityBand": "low",
-      "priorityReasons": [],
-      "boardBucket": "Other Relevant"
-    },
-    {
-      "id": "bdc7bf2086f1dcd3",
-      "title": "Korean Register unveils digital database of international maritime conventions",
-      "source": "Riviera: Regulations & Compliance",
-      "sourceId": "riviera-regulation",
-      "url": "https://www.rivieramm.com/news-content-hub/korean-register-unveils-digital-database-of-international-maritime-conventions-88394",
-      "publishedAt": "2026-04-16T11:06:05Z",
-      "excerpt": "Class society introduces artificial intelligence into its web-based services for the shipping industry",
-      "tags": [
-        "Regulation",
-        "Compliance"
-      ],
-      "audience": "Both",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [],
-      "priorityScore": 1,
-      "priorityBand": "low",
-      "priorityReasons": [],
-      "boardBucket": "Other Relevant"
-    },
-    {
-      "id": "5eccf75a085e2597",
-      "title": "Oil Traders Warn Worst of Demand Hit Is Yet to Come",
-      "source": "Rigzone",
-      "sourceId": "rigzone-latest",
-      "url": "https://www.rigzone.com/news/wire/oil_traders_warn_worst_of_demand_hit_is_yet_to_come-21-apr-2026-183500-article/?rss=true",
-      "publishedAt": "2026-04-21T13:46:26Z",
-      "excerpt": "The world's top oil traders said that demand destruction wrought by the Iran war is set to deepen.",
-      "tags": [
-        "Offshore",
-        "Energy"
-      ],
-      "audience": "Novatug",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [],
-      "priorityScore": 0,
-      "priorityBand": "low",
-      "priorityReasons": [],
-      "boardBucket": "Other Relevant"
-    },
-    {
-      "id": "19d1853fefe5f59f",
-      "title": "Petronas Eyes Terengganu Carbon Sinks",
-      "source": "Rigzone",
-      "sourceId": "rigzone-latest",
-      "url": "https://www.rigzone.com/news/petronas_eyes_terengganu_carbon_sinks-21-apr-2026-183497-article/?rss=true",
-      "publishedAt": "2026-04-21T12:16:34Z",
-      "excerpt": "Malaysia's national oil and gas company signed a memorandum of understanding with Terengganu to enable the state's natural ecosystems to generate carbon credits.",
-      "tags": [
-        "Offshore",
-        "Energy"
-      ],
-      "audience": "Novatug",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [],
-      "priorityScore": 0,
-      "priorityBand": "low",
-      "priorityReasons": [],
-      "boardBucket": "Other Relevant"
-    },
-    {
-      "id": "78f1a0d65ec416c5",
-      "title": "Currie Co-Founds New USA Focused Oil, Gas Company",
-      "source": "Rigzone",
-      "sourceId": "rigzone-latest",
-      "url": "https://www.rigzone.com/news/currie_cofounds_new_usa_focused_oil_gas_company-21-apr-2026-183496-article/?rss=true",
-      "publishedAt": "2026-04-21T10:59:17Z",
-      "excerpt": "Jeff Currie is the former global head of commodities research at Goldman Sachs.",
-      "tags": [
-        "Offshore",
-        "Energy"
-      ],
-      "audience": "Novatug",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [],
-      "priorityScore": 0,
-      "priorityBand": "low",
-      "priorityReasons": [],
-      "boardBucket": "Other Relevant"
-    },
-    {
-      "id": "06491a6ef6a8604d",
-      "title": "Oceaneering pilots ROV on Brazilian offshore drilling rig from land",
-      "source": "Offshore Energy",
-      "sourceId": "offshore-energy",
-      "url": "https://www.offshore-energy.biz/oceaneering-pilots-rov-on-brazilian-offshore-drilling-rig-from-land/",
-      "publishedAt": "2026-04-21T10:17:47Z",
-      "excerpt": "Oceaneering has performed the first piloting operation of a remotely operated vehicle (ROV) on [\u2026] The post Oceaneering pilots ROV on Brazilian offshore drilling rig from land appeared first on Offshore Energy .",
-      "tags": [
-        "Energy-Transition",
-        "Technology"
-      ],
-      "audience": "Novatug",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [],
-      "priorityScore": 0,
-      "priorityBand": "low",
-      "priorityReasons": [],
-      "boardBucket": "Other Relevant"
-    },
-    {
-      "id": "52d7d7d1a2340a28",
-      "title": "Global energy demand growth was met by diverse range of sources in 2025, led by solar and then gas",
-      "source": "Hellenic Shipping News",
-      "sourceId": "hellenic-shipping-news",
-      "url": "https://www.hellenicshippingnews.com/global-energy-demand-growth-was-met-by-diverse-range-of-sources-in-2025-led-by-solar-and-then-gas/",
-      "publishedAt": "2026-04-21T10:00:29Z",
-      "excerpt": "Global energy demand grew at a slower pace in 2025 than the year before, but electricity consumption continued to rise much faster than overall demand \u2013 with solar PV becoming the largest contributor to growth in global energy supply for t\u2026",
-      "tags": [
-        "Electrification",
-        "Shipping",
-        "Markets"
-      ],
-      "audience": "Novatug",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [],
-      "priorityScore": 0,
-      "priorityBand": "low",
-      "priorityReasons": [],
-      "boardBucket": "Other Relevant"
-    },
-    {
-      "id": "4b8bb5ae2b2d7735",
-      "title": "Don't Mistake Easing Oil Prices for Calm, Analyst Warns",
-      "source": "Rigzone",
-      "sourceId": "rigzone-latest",
-      "url": "https://www.rigzone.com/news/dont_mistake_easing_oil_prices_for_calm_analyst_warns-21-apr-2026-183495-article/?rss=true",
-      "publishedAt": "2026-04-21T09:35:15Z",
-      "excerpt": "Oil prices are easing, but don't mistake that for calm, SEB Commodities Analyst Ole R. Hvalbye warned.",
-      "tags": [
-        "Offshore",
-        "Energy"
-      ],
-      "audience": "Novatug",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [],
-      "priorityScore": 0,
-      "priorityBand": "low",
-      "priorityReasons": [],
-      "boardBucket": "Other Relevant"
-    },
-    {
-      "id": "6e1a271f9908de7b",
-      "title": "DOF\u2019s subsea vessel completes \u2018major\u2019 makeover at VARD",
-      "source": "Offshore Energy",
-      "sourceId": "offshore-energy",
-      "url": "https://www.offshore-energy.biz/dofs-subsea-vessel-completes-major-makeover-at-vard/",
-      "publishedAt": "2026-04-21T08:51:02Z",
-      "excerpt": "Norway\u2019s VARD has completed upgrades of DOF Group\u2019s 2018-built subsea vessel Skandi Minder to [\u2026] The post DOF\u2019s subsea vessel completes \u2018major\u2019 makeover at VARD appeared first on Offshore Energy .",
-      "tags": [
-        "Energy-Transition",
-        "Technology"
-      ],
-      "audience": "Novatug",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [],
-      "priorityScore": 0,
-      "priorityBand": "low",
-      "priorityReasons": [],
-      "boardBucket": "Other Relevant"
-    },
-    {
-      "id": "cd87118a71ae74ba",
-      "title": "North America Loses Rigs for 8 Straight Weeks",
-      "source": "Rigzone",
-      "sourceId": "rigzone-latest",
-      "url": "https://www.rigzone.com/news/north_america_loses_rigs_for_8_straight_weeks-20-apr-2026-183491-article/?rss=true",
-      "publishedAt": "2026-04-20T14:37:05Z",
-      "excerpt": "North America dropped seven rigs week on week, according to Baker Hughes' latest North America rotary rig count.",
-      "tags": [
-        "Offshore",
-        "Energy"
-      ],
-      "audience": "Novatug",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [],
-      "priorityScore": 0,
-      "priorityBand": "low",
-      "priorityReasons": [],
-      "boardBucket": "Other Relevant"
-    },
-    {
-      "id": "c223515067ddf4ad",
-      "title": "Huge gas discovery surfaces in Southeast Asian waters",
-      "source": "Offshore Energy",
-      "sourceId": "offshore-energy",
-      "url": "https://www.offshore-energy.biz/huge-gas-discovery-surfaces-in-southeast-asian-waters/",
-      "publishedAt": "2026-04-20T14:36:06Z",
-      "excerpt": "Italy\u2019s energy giant Eni has unveiled a new natural gas discovery off the coast of Indonesia, Southeast Asia. This find is said to confirm the strategic potential of the country\u2019s Kutei Basin, unlocking significant new volumes for domestic\u2026",
-      "tags": [
-        "Energy-Transition",
-        "Technology"
-      ],
-      "audience": "Novatug",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [],
-      "priorityScore": 0,
-      "priorityBand": "low",
-      "priorityReasons": [],
-      "boardBucket": "Other Relevant"
-    },
-    {
-      "id": "0ade887cd9b3f758",
-      "title": "Oil Contractors Face Profit Hits from War Fallout",
-      "source": "Rigzone",
-      "sourceId": "rigzone-latest",
-      "url": "https://www.rigzone.com/news/wire/oil_contractors_face_profit_hits_from_war_fallout-20-apr-2026-183489-article/?rss=true",
-      "publishedAt": "2026-04-20T13:59:34Z",
-      "excerpt": "Analysts have been cutting per-share profit forecasts for the three largest oilfield service companies since shortly after the conflict erupted in late February.",
-      "tags": [
-        "Offshore",
-        "Energy"
-      ],
-      "audience": "Novatug",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [],
-      "priorityScore": 0,
-      "priorityBand": "low",
-      "priorityReasons": [],
-      "boardBucket": "Other Relevant"
-    },
-    {
-      "id": "febb78ef83e8056e",
-      "title": "Third oil platform offshore California coming online in June",
-      "source": "Offshore Energy",
-      "sourceId": "offshore-energy",
-      "url": "https://www.offshore-energy.biz/third-oil-platform-offshore-california-coming-online-in-june/",
-      "publishedAt": "2026-04-20T13:40:58Z",
-      "excerpt": "Sable Offshore, a Texas-headquartered oil and gas company, has confirmed the timeline for the restart of production from its third platform off the coast of California. The post Third oil platform offshore California coming online in June\u2026",
-      "tags": [
-        "Energy-Transition",
-        "Technology"
-      ],
-      "audience": "Novatug",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [],
-      "priorityScore": 0,
-      "priorityBand": "low",
-      "priorityReasons": [],
-      "boardBucket": "Other Relevant"
-    },
-    {
-      "id": "33108daec56cd880",
-      "title": "Data Center Electricity Use Surges",
-      "source": "Rigzone",
-      "sourceId": "rigzone-latest",
-      "url": "https://www.rigzone.com/news/data_center_electricity_use_surges-20-apr-2026-183486-article/?rss=true",
-      "publishedAt": "2026-04-20T11:37:33Z",
-      "excerpt": "Data center electricity use surged in 2025, the International Energy Agency (IEA) said.",
-      "tags": [
-        "Electrification",
-        "Offshore",
-        "Energy"
-      ],
-      "audience": "Novatug",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [],
-      "priorityScore": 0,
-      "priorityBand": "low",
-      "priorityReasons": [],
-      "boardBucket": "Other Relevant"
-    },
-    {
-      "id": "b28fb7c4e9ec66a0",
-      "title": "Eni Declares 'Giant' Gas Discovery offshore Indonesia",
-      "source": "Rigzone",
-      "sourceId": "rigzone-latest",
-      "url": "https://www.rigzone.com/news/eni_declares_giant_gas_discovery_offshore_indonesia-20-apr-2026-183483-article/?rss=true",
-      "publishedAt": "2026-04-20T08:56:30Z",
-      "excerpt": "'Preliminary estimates indicate in-place resources of approximately 5 trillion cubic feet of gas and 300 million barrels of condensate in the encountered interval'.",
-      "tags": [
-        "Offshore",
-        "Energy"
-      ],
-      "audience": "Novatug",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [],
-      "priorityScore": 0,
-      "priorityBand": "low",
-      "priorityReasons": [],
-      "boardBucket": "Other Relevant"
-    },
-    {
-      "id": "b860b62d93dadffa",
-      "title": "Hormuz at Standstill as US Seizes Iran Vessel",
-      "source": "Rigzone",
-      "sourceId": "rigzone-latest",
-      "url": "https://www.rigzone.com/news/wire/hormuz_at_standstill_as_us_seizes_iran_vessel-20-apr-2026-183482-article/?rss=true",
-      "publishedAt": "2026-04-20T07:01:48Z",
-      "excerpt": "Commercial traffic through the strait is at a virtual standstill after a brief and confused reopening ended with the first U.S. seizure of an Iranian vessel.",
-      "tags": [
-        "Offshore",
-        "Energy"
-      ],
-      "audience": "Novatug",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [],
-      "priorityScore": 0,
-      "priorityBand": "low",
-      "priorityReasons": [],
-      "boardBucket": "Other Relevant"
-    },
-    {
-      "id": "d7cc188dec102f42",
-      "title": "Repsol, Venezuela Agree Terms for Production Increase",
-      "source": "Rigzone",
-      "sourceId": "rigzone-latest",
-      "url": "https://www.rigzone.com/news/repsol_venezuela_agree_terms_for_production_increase-19-apr-2026-183478-article/?rss=true",
-      "publishedAt": "2026-04-19T11:00:00Z",
-      "excerpt": "Under the new agreement with the government and state-owned PdVSA, Repsol would grow its Venezuelan gross production by 50 percent within 12 months and triple it over the next three years.",
-      "tags": [
-        "Offshore",
-        "Energy"
-      ],
-      "audience": "Novatug",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [],
-      "priorityScore": 0,
-      "priorityBand": "low",
-      "priorityReasons": [],
-      "boardBucket": "Other Relevant"
-    },
-    {
-      "id": "f176ecc539e33ec2",
-      "title": "Magyar Says Druzhba Oil Flows Could Resume Next Week",
-      "source": "Rigzone",
-      "sourceId": "rigzone-latest",
-      "url": "https://www.rigzone.com/news/wire/magyar_says_druzhba_oil_flows_could_resume_next_week-18-apr-2026-183477-article/?rss=true",
-      "publishedAt": "2026-04-18T12:00:01Z",
-      "excerpt": "The pipeline, which brings Russian oil via Ukraine to central Europe, has been inoperative since January.",
-      "tags": [
-        "Offshore",
-        "Energy"
-      ],
-      "audience": "Novatug",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [],
-      "priorityScore": 0,
-      "priorityBand": "low",
-      "priorityReasons": [],
-      "boardBucket": "Other Relevant"
-    },
-    {
-      "id": "feae2ed4d6434e2c",
-      "title": "DNV sets out case for shipping's transition from LNG to 'low-GHG methane' fuels",
-      "source": "Riviera: Air Pollution & GHG Emissions",
-      "sourceId": "riviera-emissions",
-      "url": "https://www.rivieramm.com/news-content-hub/dnv-sets-out-case-for-shippings-transition-from-lng-to-low-ghg-methane-fuels-88476",
-      "publishedAt": "2026-04-17T11:26:30Z",
-      "excerpt": "Norwegian classification society presents its take on the pros and cons of using existing and soon-to-be-built LNG assets with lower-carbon versions of the molecule",
-      "tags": [
-        "Classification",
-        "Decarbonization",
-        "Emissions"
-      ],
-      "audience": "Novatug",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [],
-      "priorityScore": 0,
       "priorityBand": "low",
       "priorityReasons": [],
       "boardBucket": "Other Relevant"

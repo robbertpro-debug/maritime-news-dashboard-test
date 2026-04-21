@@ -49,10 +49,6 @@
       }
 
       .hero {
-        display: grid;
-        gap: 16px;
-        grid-template-columns: 1.45fr 1fr;
-        align-items: start;
         margin-bottom: 18px;
       }
 
@@ -155,14 +151,38 @@
         padding: 18px;
       }
 
+      .controls-panel {
+        margin-bottom: 18px;
+      }
+
+      .controls-head {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: baseline;
+        justify-content: space-between;
+        gap: 10px 16px;
+        margin-bottom: 14px;
+      }
+
       .controls h2 {
-        margin: 0 0 14px;
+        margin: 0;
         font-size: 16px;
+      }
+
+      .controls-copy {
+        color: var(--text-soft);
+        font-size: 14px;
       }
 
       .control-grid {
         display: grid;
         gap: 12px;
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+        align-items: end;
+      }
+
+      .field-wide {
+        grid-column: span 2;
       }
 
       .field {
@@ -305,7 +325,7 @@
       .buckets {
         display: grid;
         gap: 16px;
-        grid-template-columns: repeat(2, minmax(0, 1fr));
+        grid-template-columns: repeat(3, minmax(0, 1fr));
       }
 
       .bucket {
@@ -378,7 +398,7 @@
 
       .article-row {
         display: grid;
-        grid-template-columns: 190px minmax(0, 1fr) 120px;
+        grid-template-columns: 190px minmax(0, 1fr);
         gap: 16px;
         padding: 16px 18px;
         border-top: 1px solid var(--line);
@@ -405,6 +425,18 @@
         width: fit-content;
         padding: 5px 9px;
         color: #fff;
+      }
+
+      .freshness-pill {
+        width: fit-content;
+        padding: 5px 9px;
+        border-radius: 999px;
+        font-size: 11px;
+        font-weight: 700;
+        letter-spacing: 0.04em;
+        text-transform: uppercase;
+        background: #dcfce7;
+        color: #166534;
       }
 
       .priority-critical {
@@ -438,6 +470,16 @@
         margin: 0;
         font-size: 17px;
         line-height: 1.28;
+      }
+
+      .article-title-link {
+        color: inherit;
+        text-decoration: none;
+      }
+
+      .article-title-link:hover {
+        color: var(--accent);
+        text-decoration: underline;
       }
 
       .article-brief {
@@ -511,51 +553,43 @@
         color: #455861;
       }
 
-      .article-action {
-        display: flex;
-        align-items: center;
-        justify-content: flex-end;
-      }
-
-      .link {
-        color: var(--accent);
-        text-decoration: none;
-        font-weight: 700;
-      }
-
-      .link:hover {
-        text-decoration: underline;
-      }
-
       .empty-state {
         padding: 24px 20px 28px;
         color: var(--text-soft);
       }
 
       @media (max-width: 1180px) {
-        .hero {
-          grid-template-columns: 1fr;
-        }
-
         .overview {
           align-items: start;
           flex-direction: column;
         }
 
+        .control-grid {
+          grid-template-columns: repeat(2, minmax(0, 1fr));
+        }
+
+        .field-wide {
+          grid-column: span 2;
+        }
+
         .summary-strip,
         .buckets {
-          grid-template-columns: 1fr;
+          grid-template-columns: repeat(2, minmax(0, 1fr));
         }
       }
 
       @media (max-width: 860px) {
+        .control-grid {
+          grid-template-columns: 1fr;
+        }
+
+        .field-wide {
+          grid-column: span 1;
+        }
+
         .article-row {
           grid-template-columns: 1fr;
           gap: 10px;
-        }
-
-        .article-action {
-          justify-content: flex-start;
         }
       }
 
@@ -564,7 +598,9 @@
           padding-inline: 14px;
         }
 
-        .status-grid {
+        .status-grid,
+        .summary-strip,
+        .buckets {
           grid-template-columns: 1fr;
         }
       }
@@ -607,11 +643,16 @@
             <span id="refreshStatus" class="refresh-status">Idle</span>
           </div>
         </div>
+      </section>
 
+      <section class="controls-panel">
         <aside class="controls">
-          <h2>Filters</h2>
+          <div class="controls-head">
+            <h2>Filters</h2>
+            <span class="controls-copy">Use this strip to narrow the board view before scanning the six buckets.</span>
+          </div>
           <div class="control-grid">
-            <div class="field">
+            <div class="field field-wide">
               <label for="searchInput">Search</label>
               <input id="searchInput" type="search" placeholder="Search headlines, reasons and tags" />
             </div>
@@ -987,7 +1028,8 @@
       }
 
       function getBucketLimit(bucketKey) {
-        return state.bucketVisibility[`${state.activeAudience}:${bucketKey}`] || 6;
+        const defaultLimit = bucketKey === "Other Relevant" ? 3 : 6;
+        return state.bucketVisibility[`${state.activeAudience}:${bucketKey}`] || defaultLimit;
       }
 
       function setBucketLimit(bucketKey, limit) {
@@ -1110,11 +1152,22 @@
             `priority-pill priority-${article.priorityBand || "low"}`
           )
         );
+        if (isWithinLast24Hours(article)) {
+          meta.appendChild(createTextElement("span", "New 24h", "freshness-pill"));
+        }
         meta.appendChild(createTextElement("span", formatDate(article.publishedAt), "article-time"));
 
         const main = document.createElement("div");
         main.className = "article-main";
-        main.appendChild(createTextElement("h4", article.title));
+        const title = document.createElement("h4");
+        const titleLink = document.createElement("a");
+        titleLink.className = "article-title-link";
+        titleLink.href = article.url;
+        titleLink.target = "_blank";
+        titleLink.rel = "noreferrer noopener";
+        titleLink.textContent = article.title;
+        title.appendChild(titleLink);
+        main.appendChild(title);
         main.appendChild(createTextElement("p", createBrief(article), "article-brief"));
 
         if (article.priorityReasons && article.priorityReasons.length > 0) {
@@ -1128,17 +1181,7 @@
         getDisplayTags(article).forEach((tag) => tags.appendChild(createTag(tag)));
         main.appendChild(tags);
 
-        const action = document.createElement("div");
-        action.className = "article-action";
-        const link = document.createElement("a");
-        link.className = "link";
-        link.href = article.url;
-        link.target = "_blank";
-        link.rel = "noreferrer noopener";
-        link.textContent = "Open article";
-        action.appendChild(link);
-
-        row.append(meta, main, action);
+        row.append(meta, main);
         return row;
       }
 
@@ -1184,15 +1227,18 @@
 
             if (visibleLimit < bucket.items.length) {
               const nextLimit = Math.min(bucket.items.length, visibleLimit + 6);
-              button.textContent = `Show more (${nextLimit} visible)`;
+              button.textContent =
+                bucket.key === "Other Relevant"
+                  ? `Expand Other Relevant (${nextLimit} visible)`
+                  : `Show more (${nextLimit} visible)`;
               button.addEventListener("click", () => {
                 setBucketLimit(bucket.key, nextLimit);
                 render();
               });
             } else {
-              button.textContent = "Show less";
+              button.textContent = bucket.key === "Other Relevant" ? "Collapse Other Relevant" : "Show less";
               button.addEventListener("click", () => {
-                setBucketLimit(bucket.key, 6);
+                setBucketLimit(bucket.key, bucket.key === "Other Relevant" ? 3 : 6);
                 render();
               });
             }
