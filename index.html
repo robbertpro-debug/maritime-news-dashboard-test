@@ -395,6 +395,32 @@
         color: #455861;
       }
 
+      .entity-badge {
+        padding: 4px 9px;
+        border-radius: 999px;
+        font-size: 10px;
+        font-weight: 700;
+        letter-spacing: 0.04em;
+        text-transform: uppercase;
+        display: inline-flex;
+        align-items: center;
+      }
+
+      .entity-suppliers {
+        background: #fef3c7;
+        color: #92400e;
+      }
+
+      .entity-clients {
+        background: #dbeafe;
+        color: #1e40af;
+      }
+
+      .entity-competitors {
+        background: #fee2e2;
+        color: #991b1b;
+      }
+
       .article-action {
         display: flex;
         align-items: center;
@@ -514,6 +540,15 @@
               </select>
             </div>
             <div class="field">
+              <label for="entityFilter">Entity</label>
+              <select id="entityFilter">
+                <option value="all">All entities</option>
+                <option value="suppliers">Suppliers</option>
+                <option value="clients">Clients</option>
+                <option value="competitors">Competitors</option>
+              </select>
+            </div>
+            <div class="field">
               <label for="sortOrder">Sort</label>
               <select id="sortOrder">
                 <option value="newest">Newest first</option>
@@ -579,6 +614,7 @@
         visibleCount: document.getElementById("visibleCount"),
         sourceFilter: document.getElementById("sourceFilter"),
         topicFilter: document.getElementById("topicFilter"),
+        entityFilter: document.getElementById("entityFilter"),
         sortOrder: document.getElementById("sortOrder"),
         searchInput: document.getElementById("searchInput"),
         paywalledOnly: document.getElementById("paywalledOnly"),
@@ -667,12 +703,17 @@
       function matchesFilters(article) {
         const sourceValue = elements.sourceFilter.value;
         const topicValue = elements.topicFilter.value;
+        const entityValue = elements.entityFilter.value;
         const searchValue = elements.searchInput.value.trim().toLowerCase();
         const paywalledOnly = elements.paywalledOnly.checked;
 
         if (article.audience !== state.activeAudience) return false;
         if (sourceValue !== "all" && article.source !== sourceValue) return false;
         if (topicValue !== "all" && !article.tags.includes(topicValue)) return false;
+        if (entityValue !== "all") {
+          const hasMatch = (article.entities || []).some(e => e.category === entityValue);
+          if (!hasMatch) return false;
+        }
         if (paywalledOnly && !article.paywalled) return false;
         if (searchValue) {
           const haystack = `${article.title} ${article.excerpt} ${article.tags.join(" ")}`.toLowerCase();
@@ -749,6 +790,9 @@
         if (article.paywalled) {
           tags.appendChild(createTextElement("span", "Paywalled", "tag"));
         }
+        (article.entities || []).forEach((entity) => {
+          tags.appendChild(createTextElement("span", entity.name, `entity-badge entity-${entity.category}`));
+        });
         main.appendChild(tags);
 
         const action = document.createElement("div");
@@ -911,8 +955,8 @@
           try {
             await loadApiData();
             setRefreshStatus("Ready");
-          } catch (error) {
-            setRefreshStatus(error.message);
+          } catch {
+            setRefreshStatus("Auto-refreshed every 30 min via GitHub Actions");
           }
         } else {
           setRefreshStatus("File mode: refresh button needs local_server.py");
@@ -921,6 +965,7 @@
         [
           elements.sourceFilter,
           elements.topicFilter,
+          elements.entityFilter,
           elements.sortOrder,
           elements.searchInput,
           elements.paywalledOnly

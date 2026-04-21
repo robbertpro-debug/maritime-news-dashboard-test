@@ -167,6 +167,18 @@ def detect_paywall(text: str, keywords: List[str]) -> bool:
     return any(keyword.lower() in lowered for keyword in keywords)
 
 
+def match_entities(text: str, entities: Dict[str, List[str]]) -> List[Dict]:
+    lowered = text.lower()
+    matches = []
+    seen = set()
+    for category, names in entities.items():
+        for name in names:
+            if name.lower() in lowered and name not in seen:
+                seen.add(name)
+                matches.append({"name": name, "category": category})
+    return matches
+
+
 def build_article_id(url: str, title: str, source_id: str) -> str:
     basis = url or f"{source_id}:{title}"
     return hashlib.sha1(basis.encode("utf-8")).hexdigest()[:16]
@@ -212,6 +224,7 @@ def parse_entry(entry: ET.Element, source: Dict, rules: Dict) -> Optional[Dict]:
     audience = classify_article(combined_text, rules, source)
     tags = detect_topics(combined_text, rules["topic_keywords"], source.get("default_tags", []))
     paywalled = detect_paywall(combined_text, rules["paywall_keywords"])
+    entities = match_entities(combined_text, rules.get("entities", {}))
 
     return {
         "id": build_article_id(link, title, source["id"]),
@@ -224,6 +237,7 @@ def parse_entry(entry: ET.Element, source: Dict, rules: Dict) -> Optional[Dict]:
         "tags": tags,
         "audience": audience,
         "paywalled": paywalled,
+        "entities": entities,
         "titleKey": normalize_title(title),
     }
 
@@ -299,6 +313,7 @@ def build_output(articles: List[Dict], config: Dict, errors: List[Dict]) -> Dict
                 "tags": article["tags"],
                 "audience": article["audience"],
                 "paywalled": article["paywalled"],
+                "entities": article.get("entities", []),
             }
         )
 
