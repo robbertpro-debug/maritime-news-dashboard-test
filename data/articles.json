@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-04-21T22:36:00.594804Z",
+  "generatedAt": "2026-04-21T23:32:30.375563Z",
   "lookbackDays": 30,
-  "cutoffAt": "2026-03-22T22:36:00.594804Z",
+  "cutoffAt": "2026-03-22T23:32:30.375563Z",
   "articleCount": 180,
   "sourceCount": 16,
   "sources": [
@@ -487,43 +487,6 @@
       "boardBucket": "Regulation, Safety & Incidents"
     },
     {
-      "id": "a9e7d0d2ab5a7354",
-      "title": "AYK Energy Powers Electric Tug Milestone with Svitzer Balder Trials",
-      "source": "MarineLink",
-      "sourceId": "marinelink",
-      "url": "https://www.marinelink.com/news/ayk-energy-powers-electric-tug-milestone-538280",
-      "publishedAt": "2026-04-21T10:25:23Z",
-      "excerpt": "Marine battery manufacturer AYK Energy said the transition to electric-powered workboats is accelerating as a battery-methanol harbor tug completed sea trials ahead of delivery.The Svitzer Balder, built by T\u00fcrkiye\u2019s Uzmar shipyard, is desc\u2026",
-      "tags": [
-        "Towage",
-        "Batteries",
-        "Electrification",
-        "Clean Propulsion",
-        "Maritime",
-        "Industry"
-      ],
-      "audience": "Novatug",
-      "paywalled": false,
-      "entities": [
-        {
-          "name": "Svitzer",
-          "category": "competitors"
-        }
-      ],
-      "locations": [],
-      "businessTags": [
-        "Competitor",
-        "Energy Transition"
-      ],
-      "priorityScore": 6,
-      "priorityBand": "medium",
-      "priorityReasons": [
-        "Competitor mention: Svitzer",
-        "Signal: Energy Transition"
-      ],
-      "boardBucket": "Competitors & Market"
-    },
-    {
       "id": "10b33ad33a871165",
       "title": "ITS Convention: owners will tackle towage, salvage challenges",
       "source": "Riviera: Ports & Terminals",
@@ -798,6 +761,33 @@
         "Competitor mention: Boluda Towage"
       ],
       "boardBucket": "Competitors & Market"
+    },
+    {
+      "id": "1bbd218d76a28fb6",
+      "title": "Search and Rescue as Stowaways Jump from Containership off Cape Town",
+      "source": "The Maritime Executive",
+      "sourceId": "maritime-executive",
+      "url": "https://maritime-executive.com/article/search-and-rescue-as-stowaways-jump-from-containership-off-cape-town",
+      "publishedAt": "2026-04-21T23:22:23Z",
+      "excerpt": "The authorities in Cape Town reported that a search and rescue operation had been launched after reports that seven apparent stowaways had been seen j...",
+      "tags": [
+        "Salvage",
+        "Maritime",
+        "News"
+      ],
+      "audience": "Both",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [
+        "Incident"
+      ],
+      "priorityScore": 5,
+      "priorityBand": "medium",
+      "priorityReasons": [
+        "Signal: Incident"
+      ],
+      "boardBucket": "Regulation, Safety & Incidents"
     },
     {
       "id": "bba62649192e6d92",
@@ -1205,6 +1195,58 @@
         "Infrastructure"
       ],
       "priorityScore": 5,
+      "priorityBand": "medium",
+      "priorityReasons": [
+        "Signal: Infrastructure"
+      ],
+      "boardBucket": "Regulation, Safety & Incidents"
+    },
+    {
+      "id": "96745df51c2a01a6",
+      "title": "Singapore Launches OCEANS-X to Advance Maritime Digital Connectivity",
+      "source": "MarineLink",
+      "sourceId": "marinelink",
+      "url": "https://www.marinelink.com/news/singapore-launches-oceansx-advance-538309",
+      "publishedAt": "2026-04-21T22:30:32Z",
+      "excerpt": "Singapore has launched OCEANS-X, a new data and application programming interface (API) eXchange platform developed by the Maritime and Port Authority of Singapore (MPA).It enables secure system-to-system connectivity across the maritime e\u2026",
+      "tags": [
+        "Maritime",
+        "Industry"
+      ],
+      "audience": "Both",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [
+        "Regulation"
+      ],
+      "priorityScore": 4,
+      "priorityBand": "medium",
+      "priorityReasons": [
+        "Signal: Regulation"
+      ],
+      "boardBucket": "Regulation, Safety & Incidents"
+    },
+    {
+      "id": "2fddcc19ff78ff7d",
+      "title": "USACE Releases Final FY2026 Great Lakes Maintenance Program",
+      "source": "MarineLink",
+      "sourceId": "marinelink",
+      "url": "https://www.marinelink.com/news/usace-releases-final-fy-great-lakes-538308",
+      "publishedAt": "2026-04-21T22:24:14Z",
+      "excerpt": "In early April, the U.S. Army Corps of Engineers (USACE) released its navigation work plan for FY2026. The overall plan outlines resources that will be used for dredging, structure maintenance, and other priorities at every port in the Uni\u2026",
+      "tags": [
+        "Maritime",
+        "Industry"
+      ],
+      "audience": "Both",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [
+        "Infrastructure"
+      ],
+      "priorityScore": 4,
       "priorityBand": "medium",
       "priorityReasons": [
         "Signal: Infrastructure"
@@ -1692,32 +1734,6 @@
       "boardBucket": "Other Relevant"
     },
     {
-      "id": "eba2d589fb48e157",
-      "title": "DSV Delivers Petrochemical Columns to ORLEN",
-      "source": "MarineLink",
-      "sourceId": "marinelink",
-      "url": "https://www.marinelink.com/news/dsv-delivers-petrochemical-columns-orlen-538287",
-      "publishedAt": "2026-04-21T14:51:36Z",
-      "excerpt": "On March 28, the transport of components for ORLEN's petrochemical investment project was completed. Two columns were delivered to the site of Poland's largest muti-energy group, a 554-ton concentration tower and a smaller, 286-ton C4 colu\u2026",
-      "tags": [
-        "Maritime",
-        "Industry"
-      ],
-      "audience": "Both",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [
-        "Commercial"
-      ],
-      "priorityScore": 3,
-      "priorityBand": "low",
-      "priorityReasons": [
-        "Signal: Commercial"
-      ],
-      "boardBucket": "Other Relevant"
-    },
-    {
       "id": "4c38d740fd68a3cc",
       "title": "Sable Pursues Federal Funding to Ramp Up Santa Ynez Oil Production",
       "source": "Rigzone",
@@ -1982,6 +1998,29 @@
       "boardBucket": "Other Relevant"
     },
     {
+      "id": "f18b3293238c5b4d",
+      "title": "Trump Extends Ceasefire With Iran Indefinitely, Without Concessions",
+      "source": "The Maritime Executive",
+      "sourceId": "maritime-executive",
+      "url": "https://maritime-executive.com/article/trump-extends-ceasefire-with-iran-indefinitely-without-concessions",
+      "publishedAt": "2026-04-21T22:43:00Z",
+      "excerpt": "On Tuesday, President Donald Trump announced that the U.S. will extend its ceasefire with Iran without an end date, suspending his pledges to attack...",
+      "tags": [
+        "Incidents",
+        "Maritime",
+        "News"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [],
+      "priorityScore": 2,
+      "priorityBand": "low",
+      "priorityReasons": [],
+      "boardBucket": "Other Relevant"
+    },
+    {
       "id": "f916c5c29f38b07d",
       "title": "Hormuz Shipping Disruptions Show No End as Trump Extends Ceasefire, Maintains Blockade",
       "source": "gCaptain",
@@ -2139,28 +2178,6 @@
       "boardBucket": "Other Relevant"
     },
     {
-      "id": "90728e2ff3075022",
-      "title": "Japan eases pacifist restraints to allow global defence exports, rattling China",
-      "source": "Baird Maritime",
-      "sourceId": "baird-maritime",
-      "url": "https://www.bairdmaritime.com/security/naval/naval-ships/japan-eases-pacifist-restraints-to-allow-global-defence-exports-rattling-china",
-      "publishedAt": "2026-04-21T19:11:36Z",
-      "excerpt": "Japan on Tuesday unveiled its biggest overhaul of defence export rules in decades, scrapping restrictions on overseas arms sales and opening the way for exports of warships, missiles and other weapons. The move aimed at strengthening Japan\u2026",
-      "tags": [
-        "Workboats",
-        "Technology"
-      ],
-      "audience": "Multraship",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [],
-      "priorityScore": 2,
-      "priorityBand": "low",
-      "priorityReasons": [],
-      "boardBucket": "Other Relevant"
-    },
-    {
       "id": "468ff06bc02dbb3a",
       "title": "Decarbonization as a Path to Independence",
       "source": "The Maritime Executive",
@@ -2185,50 +2202,6 @@
       "priorityReasons": [
         "Signal: Energy Transition"
       ],
-      "boardBucket": "Other Relevant"
-    },
-    {
-      "id": "1d6f11e23b74b7fc",
-      "title": "Shrinking low-sulphur oil supply threatens marine fuel stability",
-      "source": "Baird Maritime",
-      "sourceId": "baird-maritime",
-      "url": "https://www.bairdmaritime.com/offshore/refining-processing/shrinking-low-sulphur-oil-supply-threatens-marine-fuel-stability",
-      "publishedAt": "2026-04-21T19:03:34Z",
-      "excerpt": "Marine fuel providers face tighter supply of higher-density, low-sulphur crude oil, known as heavy sweet, for blending because of competition from refiners for the same oil as the Iran war disrupts Middle East imports, industry sources sai\u2026",
-      "tags": [
-        "Workboats",
-        "Technology"
-      ],
-      "audience": "Multraship",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [],
-      "priorityScore": 2,
-      "priorityBand": "low",
-      "priorityReasons": [],
-      "boardBucket": "Other Relevant"
-    },
-    {
-      "id": "ca2f545f3e15b868",
-      "title": "Norway outpaces its own oil and gas production forecast for March",
-      "source": "Baird Maritime",
-      "sourceId": "baird-maritime",
-      "url": "https://www.bairdmaritime.com/offshore/drilling-production/norway-outpaces-its-own-oil-and-gas-production-forecast-for-march",
-      "publishedAt": "2026-04-21T18:57:28Z",
-      "excerpt": "Norway's combined oil and gas production exceeded an official forecast by 2.8 per cent in March, the Norwegian Offshore Directorate (NOD) said on Tuesday. Norway is Europe's largest supplier of natural gas and a major producer of oil, but\u2026",
-      "tags": [
-        "Workboats",
-        "Technology"
-      ],
-      "audience": "Multraship",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [],
-      "priorityScore": 2,
-      "priorityBand": "low",
-      "priorityReasons": [],
       "boardBucket": "Other Relevant"
     },
     {
@@ -2331,28 +2304,6 @@
       "url": "https://www.bairdmaritime.com/shipping/dry-cargo/bulkers/wah-kwong-launches-dedicated-dry-bulk-operating-entity",
       "publishedAt": "2026-04-21T10:48:00Z",
       "excerpt": "Hong Kong-based Wah Kwong Maritime Transport Holdings has officially established Wah Kwong Bulk as a dedicated dry bulk owning and operating entity. It remarked that this new company integrates the dry bulk business of the group into a mod\u2026",
-      "tags": [
-        "Workboats",
-        "Technology"
-      ],
-      "audience": "Multraship",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [],
-      "priorityScore": 2,
-      "priorityBand": "low",
-      "priorityReasons": [],
-      "boardBucket": "Other Relevant"
-    },
-    {
-      "id": "36e876ed35867c59",
-      "title": "Another US drone firm launches two new USV designs",
-      "source": "Baird Maritime",
-      "sourceId": "baird-maritime",
-      "url": "https://www.bairdmaritime.com/security/naval/unmanned-naval-systems/another-us-drone-firm-launches-two-new-usv-designs",
-      "publishedAt": "2026-04-21T10:11:13Z",
-      "excerpt": "BlackSea Technologies has announced the introduction of two new small unmanned surface vessels. The company stated that the modular model is an adaptable platform for varying mission demands, while the larger variant is a high-speed vessel\u2026",
       "tags": [
         "Workboats",
         "Technology"
@@ -3857,6 +3808,50 @@
       "boardBucket": "Other Relevant"
     },
     {
+      "id": "3c4425f414a0ce4e",
+      "title": "USA Shipbuilding Coalition Launches",
+      "source": "MarineLink",
+      "sourceId": "marinelink",
+      "url": "https://www.marinelink.com/news/usa-shipbuilding-coalition-launches-538311",
+      "publishedAt": "2026-04-21T23:04:08Z",
+      "excerpt": "Partners representing both labor and management have launched the USA Shipbuilding Coalition to urge Congress to take action to revitalize the critical American shipbuilding industry, including by passing the bipartisan SHIPS for America A\u2026",
+      "tags": [
+        "Maritime",
+        "Industry"
+      ],
+      "audience": "Both",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [],
+      "priorityScore": 1,
+      "priorityBand": "low",
+      "priorityReasons": [],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "2ab6876f38779732",
+      "title": "Whale Watching Catamaran Ready for Operation in Seattle",
+      "source": "MarineLink",
+      "sourceId": "marinelink",
+      "url": "https://www.marinelink.com/news/whale-watching-catamaran-ready-operation-538310",
+      "publishedAt": "2026-04-21T22:56:11Z",
+      "excerpt": "FRS Clipper has welcomed its new whale watching catamaran Emerald Clipper.The new boat will be Seattle\u2019s only whale watching tour operating from downtown Seattle and will offer two sailings per day during the summer season. The 103-foot ca\u2026",
+      "tags": [
+        "Maritime",
+        "Industry"
+      ],
+      "audience": "Both",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [],
+      "priorityScore": 1,
+      "priorityBand": "low",
+      "priorityReasons": [],
+      "boardBucket": "Other Relevant"
+    },
+    {
       "id": "7e4e30a70d71c615",
       "title": "Activists Sailing to Gaza Encircle MSC Containership in the Mediterranean",
       "source": "The Maritime Executive",
@@ -4156,50 +4151,6 @@
       "tags": [
         "Maritime",
         "News"
-      ],
-      "audience": "Both",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [],
-      "priorityScore": 1,
-      "priorityBand": "low",
-      "priorityReasons": [],
-      "boardBucket": "Other Relevant"
-    },
-    {
-      "id": "6fdcad38202292d2",
-      "title": "Jones Walker Welcomes Partner and Associate in Houston",
-      "source": "MarineLink",
-      "sourceId": "marinelink",
-      "url": "https://www.marinelink.com/news/jones-walker-welcomes-partner-associate-538284",
-      "publishedAt": "2026-04-21T13:45:51Z",
-      "excerpt": "Jones Walker LLP has welcomed Kelly Haas as partner and associate Hayley Stancil as members of the Maritime Practice Group in the firm\u2019s Houston office. Kelly represents vessel owners, charters, shipyards, offshore operators, and energy cl\u2026",
-      "tags": [
-        "Maritime",
-        "Industry"
-      ],
-      "audience": "Both",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [],
-      "priorityScore": 1,
-      "priorityBand": "low",
-      "priorityReasons": [],
-      "boardBucket": "Other Relevant"
-    },
-    {
-      "id": "961d1350dcf5e4e5",
-      "title": "GTT to Design Tanks for Two Celsius Tankers\u2019 LNG Carriers",
-      "source": "MarineLink",
-      "sourceId": "marinelink",
-      "url": "https://www.marinelink.com/news/gtt-design-tanks-two-celsius-tankers-lng-538282",
-      "publishedAt": "2026-04-21T11:00:08Z",
-      "excerpt": "French engineering firm GTT has received an order from Samsung Heavy Industries for the tank design of two liquefied natural gas (LNG) carriers.The vessels, being built for shipowner Celsius Tankers, will each have a capacity of 180,000 cu\u2026",
-      "tags": [
-        "Maritime",
-        "Industry"
       ],
       "audience": "Both",
       "paywalled": false,
@@ -4523,6 +4474,51 @@
       "url": "https://maritime-executive.com/article/india-and-south-korea-form-alliances-for-shipbuilding-and-port-development",
       "publishedAt": "2026-04-20T21:10:44Z",
       "excerpt": "The governments of India and South Korea announced a broad range of agreements, including support for the development of Indian shipbuilding and port...",
+      "tags": [
+        "Maritime",
+        "News"
+      ],
+      "audience": "Both",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [],
+      "priorityScore": 1,
+      "priorityBand": "low",
+      "priorityReasons": [],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "dc0d1c3494a0f1c6",
+      "title": "Xi Urges Ceasefire, Full Hormuz Transit in Saudi Call",
+      "source": "Rigzone",
+      "sourceId": "rigzone-latest",
+      "url": "https://www.rigzone.com/news/wire/xi_urges_ceasefire_full_hormuz_transit_in_saudi_call-20-apr-2026-183490-article/?rss=true",
+      "publishedAt": "2026-04-20T20:00:00Z",
+      "excerpt": "China's President Xi Jinping broke his silence on the standoff over the Strait of Hormuz.",
+      "tags": [
+        "Incidents",
+        "Offshore",
+        "Energy"
+      ],
+      "audience": "Both",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [],
+      "priorityScore": 1,
+      "priorityBand": "low",
+      "priorityReasons": [],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "6a9f647444a7786d",
+      "title": "Japan Builds Up its Defense Posture Through Investments and Alliances",
+      "source": "The Maritime Executive",
+      "sourceId": "maritime-executive",
+      "url": "https://maritime-executive.com/article/japan-builds-up-its-defense-posture-through-investments-and-alliances",
+      "publishedAt": "2026-04-20T19:58:00Z",
+      "excerpt": "Japanese Prime Minister Sanae Takaichi is pushing ahead with election manifesto promises to strengthen Japan's defense posture.The Liberal Democratic...",
       "tags": [
         "Maritime",
         "News"
