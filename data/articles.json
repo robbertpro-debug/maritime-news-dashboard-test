@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-04-21T14:30:47.186957Z",
+  "generatedAt": "2026-04-21T15:51:05.831977Z",
   "lookbackDays": 30,
-  "cutoffAt": "2026-03-22T14:30:47.186957Z",
+  "cutoffAt": "2026-03-22T15:51:05.831977Z",
   "articleCount": 180,
   "sourceCount": 16,
   "sources": [
@@ -9,7 +9,6 @@
     "Baird Maritime",
     "Hellenic Shipping News",
     "MarineLink",
-    "Offshore Energy",
     "Rigzone",
     "Riviera: Ports & Terminals",
     "Riviera: Propulsion",
@@ -23,13 +22,11 @@
   "topics": [
     "Africa",
     "Batteries",
-    "Classification",
     "Clean Propulsion",
     "Compliance",
     "Decarbonization",
     "Electrification",
     "Energy",
-    "Energy-Transition",
     "Incidents",
     "Industry",
     "Maritime",
@@ -55,7 +52,12 @@
     "Antwerp",
     "Rotterdam"
   ],
-  "errors": [],
+  "errors": [
+    {
+      "source": "Offshore Energy",
+      "message": "HTTP Error 403: Forbidden"
+    }
+  ],
   "articles": [
     {
       "id": "dc36a92dd406b366",
@@ -823,6 +825,32 @@
       "boardBucket": "Regulation, Safety & Incidents"
     },
     {
+      "id": "a28341b038e8813a",
+      "title": "DURBAN CRUISE, RORO & TANKER TERMINAL",
+      "source": "Africa Ports & Ships",
+      "sourceId": "africa-ports",
+      "url": "https://africaports.co.za/2026/04/21/durban-cruise-roro-tanker-terminals-2-4-2/",
+      "publishedAt": "2026-04-20T23:23:56Z",
+      "excerpt": "Ships in port and ETAs of ships expected in the port of Durban,",
+      "tags": [
+        "Ports",
+        "Africa"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [
+        "Infrastructure"
+      ],
+      "priorityScore": 5,
+      "priorityBand": "medium",
+      "priorityReasons": [
+        "Signal: Infrastructure"
+      ],
+      "boardBucket": "Regulation, Safety & Incidents"
+    },
+    {
       "id": "2c8b35bc6b920804",
       "title": "Africa PORTS & SHIPS maritime news 21 April 2026",
       "source": "Africa Ports & Ships",
@@ -903,33 +931,6 @@
       "boardBucket": "Regulation, Safety & Incidents"
     },
     {
-      "id": "f600af1fe9c97bc1",
-      "title": "Oceans Apart, One Voyage: IntegratingCollaborative Online InternationalLearning into Maritime Education.",
-      "source": "gCaptain",
-      "sourceId": "gcaptain",
-      "url": "https://gcaptain.com/oceans-apart-one-voyage-integratingcollaborative-online-internationallearning-into-maritime-education/",
-      "publishedAt": "2026-04-20T11:49:43Z",
-      "excerpt": "Dr Adele Merlino Ph.D | Anthony Rogone MS | Captain Abhinandan Prasad Maritime education today stands at the intersection of tradition, regulation, and rapidly evolving global expectations. As the maritime...",
-      "tags": [
-        "Regulation",
-        "Maritime",
-        "Operations"
-      ],
-      "audience": "Multraship",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [
-        "Regulation"
-      ],
-      "priorityScore": 5,
-      "priorityBand": "medium",
-      "priorityReasons": [
-        "Signal: Regulation"
-      ],
-      "boardBucket": "Regulation, Safety & Incidents"
-    },
-    {
       "id": "af189f2335a0459e",
       "title": "Dutch MoD charters three Wagenborg LoLo vessels",
       "source": "SWZ Maritime",
@@ -990,32 +991,6 @@
         "Core port watch: Rotterdam"
       ],
       "boardBucket": "Port Watch"
-    },
-    {
-      "id": "4e00fb9b0eee993a",
-      "title": "DURBAN CRUISE, RORO & TANKER TERMINAL",
-      "source": "Africa Ports & Ships",
-      "sourceId": "africa-ports",
-      "url": "https://africaports.co.za/2026/04/20/durban-cruise-roro-tanker-terminals-2-4-2/",
-      "publishedAt": "2026-04-19T23:23:56Z",
-      "excerpt": "Ships in port and ETAs of ships expected in the port of Durban,",
-      "tags": [
-        "Ports",
-        "Africa"
-      ],
-      "audience": "Multraship",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [
-        "Infrastructure"
-      ],
-      "priorityScore": 5,
-      "priorityBand": "medium",
-      "priorityReasons": [
-        "Signal: Infrastructure"
-      ],
-      "boardBucket": "Regulation, Safety & Incidents"
     },
     {
       "id": "7af36d3389ae827b",
@@ -1504,6 +1479,32 @@
       "boardBucket": "Other Relevant"
     },
     {
+      "id": "eba2d589fb48e157",
+      "title": "DSV Delivers Petrochemical Columns to ORLEN",
+      "source": "MarineLink",
+      "sourceId": "marinelink",
+      "url": "https://www.marinelink.com/news/dsv-delivers-petrochemical-columns-orlen-538287",
+      "publishedAt": "2026-04-21T14:51:36Z",
+      "excerpt": "On March 28, the transport of components for ORLEN's petrochemical investment project was completed. Two columns were delivered to the site of Poland's largest muti-energy group, a 554-ton concentration tower and a smaller, 286-ton C4 colu\u2026",
+      "tags": [
+        "Maritime",
+        "Industry"
+      ],
+      "audience": "Both",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [
+        "Commercial"
+      ],
+      "priorityScore": 3,
+      "priorityBand": "low",
+      "priorityReasons": [
+        "Signal: Commercial"
+      ],
+      "boardBucket": "Other Relevant"
+    },
+    {
       "id": "4c38d740fd68a3cc",
       "title": "Sable Pursues Federal Funding to Ramp Up Santa Ynez Oil Production",
       "source": "Rigzone",
@@ -1529,59 +1530,6 @@
         "Signal: Regulation"
       ],
       "boardBucket": "Regulation, Safety & Incidents"
-    },
-    {
-      "id": "24a459a39cc9c146",
-      "title": "UK\u2019s Portland Port approved for LNG ship-to-ship transfers",
-      "source": "Offshore Energy",
-      "sourceId": "offshore-energy",
-      "url": "https://www.offshore-energy.biz/uks-portland-port-approved-for-lng-ship-to-ship-transfers/",
-      "publishedAt": "2026-04-21T11:28:13Z",
-      "excerpt": "Portland Port in the UK has received full approval to carry out liquefied natural [\u2026] The post UK\u2019s Portland Port approved for LNG ship-to-ship transfers appeared first on Offshore Energy .",
-      "tags": [
-        "Energy-Transition",
-        "Technology"
-      ],
-      "audience": "Novatug",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [
-        "Regulation"
-      ],
-      "priorityScore": 3,
-      "priorityBand": "low",
-      "priorityReasons": [
-        "Signal: Regulation"
-      ],
-      "boardBucket": "Regulation, Safety & Incidents"
-    },
-    {
-      "id": "42d62f357d25b630",
-      "title": "New Chinese electric containership enters operational service",
-      "source": "Baird Maritime",
-      "sourceId": "baird-maritime",
-      "url": "https://www.bairdmaritime.com/shipping/boxships/new-chinese-electric-containership-enters-operational-service",
-      "publishedAt": "2026-04-21T10:59:29Z",
-      "excerpt": "China's Ningbo Ocean Shipping (NBOS) has placed its newest electric container vessel into operational service. The recently delivered Ningyuan Dian Kun (\u5b81\u8fdc\u7535\u9cb2) was built by Jiangxi Jiangxin Shipbuilding, which said that the ship is the firs\u2026",
-      "tags": [
-        "Electrification",
-        "Workboats",
-        "Technology"
-      ],
-      "audience": "Both",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [
-        "Energy Transition"
-      ],
-      "priorityScore": 3,
-      "priorityBand": "low",
-      "priorityReasons": [
-        "Signal: Energy Transition"
-      ],
-      "boardBucket": "Other Relevant"
     },
     {
       "id": "c746727e996643d8",
@@ -1795,6 +1743,28 @@
       "boardBucket": "Other Relevant"
     },
     {
+      "id": "f045b13611781837",
+      "title": "U.S. Forces Board Sanctioned Tanker in Indo-Pacific as Iran Crackdown Expands Beyond Hormuz",
+      "source": "gCaptain",
+      "sourceId": "gcaptain",
+      "url": "https://gcaptain.com/u-s-forces-board-sanctioned-tanker-in-indo-pacific-as-iran-crackdown-expands-beyond-hormuz/",
+      "publishedAt": "2026-04-21T15:09:14Z",
+      "excerpt": "U.S. forces have boarded a sanctioned oil tanker in the Indo-Pacific, signaling a widening of Washington\u2019s maritime enforcement campaign against Iran-linked shipping far beyond the Strait of Hormuz flashpoint. In...",
+      "tags": [
+        "Maritime",
+        "Operations"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [],
+      "priorityScore": 2,
+      "priorityBand": "low",
+      "priorityReasons": [],
+      "boardBucket": "Other Relevant"
+    },
+    {
       "id": "729535b76867591a",
       "title": "Dajin Heavy Indutry's newest heavy lift ship floated out",
       "source": "Baird Maritime",
@@ -1802,116 +1772,6 @@
       "url": "https://www.bairdmaritime.com/shipping/dry-cargo/heavy-lift/dajin-heavy-indutrys-newest-heavy-lift-ship-floated-out",
       "publishedAt": "2026-04-21T12:06:15Z",
       "excerpt": "China's Dajin Heavy Industry recently floated out a new heavy lift vessel to be operated by its Dajin Shipping business unit. King Two is the second in a series of heavy lift vessels to be built by Dajin Heavy Industry to add to its owned\u2026",
-      "tags": [
-        "Workboats",
-        "Technology"
-      ],
-      "audience": "Multraship",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [],
-      "priorityScore": 2,
-      "priorityBand": "low",
-      "priorityReasons": [],
-      "boardBucket": "Other Relevant"
-    },
-    {
-      "id": "c19b5aa563972de7",
-      "title": "Brazilian authorities launch probe into \"slave-like\" conditions on vessel found adrift at sea",
-      "source": "Baird Maritime",
-      "sourceId": "baird-maritime",
-      "url": "https://www.bairdmaritime.com/security/emergency-services/salvage/brazilian-authorities-launch-probe-into-slave-like-conditions-on-vessel-found-adrift-at-sea",
-      "publishedAt": "2026-04-21T11:25:00Z",
-      "excerpt": "Authorities in Brazil have begun an investigation into the background of a disabled vessel that had been adrift for more than 20 days off the coast of the northern state of Amapa. The vessel, identified as the 1945-built, Tanzanian-flagged\u2026",
-      "tags": [
-        "Workboats",
-        "Technology"
-      ],
-      "audience": "Multraship",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [],
-      "priorityScore": 2,
-      "priorityBand": "low",
-      "priorityReasons": [],
-      "boardBucket": "Other Relevant"
-    },
-    {
-      "id": "f2a1216df42b8497",
-      "title": "Wah Kwong launches dedicated dry bulk operating entity",
-      "source": "Baird Maritime",
-      "sourceId": "baird-maritime",
-      "url": "https://www.bairdmaritime.com/shipping/dry-cargo/bulkers/wah-kwong-launches-dedicated-dry-bulk-operating-entity",
-      "publishedAt": "2026-04-21T10:48:00Z",
-      "excerpt": "Hong Kong-based Wah Kwong Maritime Transport Holdings has officially established Wah Kwong Bulk as a dedicated dry bulk owning and operating entity. It remarked that this new company integrates the dry bulk business of the group into a mod\u2026",
-      "tags": [
-        "Workboats",
-        "Technology"
-      ],
-      "audience": "Multraship",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [],
-      "priorityScore": 2,
-      "priorityBand": "low",
-      "priorityReasons": [],
-      "boardBucket": "Other Relevant"
-    },
-    {
-      "id": "152a0f4322230680",
-      "title": "IEA chief claims current energy turmoil is worst in history",
-      "source": "Baird Maritime",
-      "sourceId": "baird-maritime",
-      "url": "https://www.bairdmaritime.com/shipping/tankers/iea-chief-claims-current-energy-turmoil-is-worst-in-history",
-      "publishedAt": "2026-04-21T10:36:13Z",
-      "excerpt": "The conflict between Iran and the US and Israel is creating the worst energy crisis ever faced by the world, the head of the International Energy Agency (IEA) said on Tuesday. \"This is indeed the biggest crisis in history,\" Birol told Fran\u2026",
-      "tags": [
-        "Workboats",
-        "Technology"
-      ],
-      "audience": "Multraship",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [],
-      "priorityScore": 2,
-      "priorityBand": "low",
-      "priorityReasons": [],
-      "boardBucket": "Other Relevant"
-    },
-    {
-      "id": "2069d0f7acc4e88e",
-      "title": "New maritime scam offers fake Hormuz passage for cryptocurrency",
-      "source": "Baird Maritime",
-      "sourceId": "baird-maritime",
-      "url": "https://www.bairdmaritime.com/security/incidents/piracy/new-maritime-scam-offers-fake-hormuz-passage-for-cryptocurrency",
-      "publishedAt": "2026-04-21T10:32:11Z",
-      "excerpt": "Fraudulent messages promising safe passage through the Strait of Hormuz in exchange for cryptocurrency have been sent to some shipping companies whose vessels are stranded west of the waterway, Greek maritime risk management firm MARISKS h\u2026",
-      "tags": [
-        "Workboats",
-        "Technology"
-      ],
-      "audience": "Multraship",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [],
-      "priorityScore": 2,
-      "priorityBand": "low",
-      "priorityReasons": [],
-      "boardBucket": "Other Relevant"
-    },
-    {
-      "id": "b27adbd86fdc6413",
-      "title": "OPINION | Even record US oil output falls short of replacing supply losses",
-      "source": "Baird Maritime",
-      "sourceId": "baird-maritime",
-      "url": "https://www.bairdmaritime.com/shipping/tankers/opinion-even-record-us-oil-output-falls-short-of-replacing-supply-losses",
-      "publishedAt": "2026-04-21T10:28:34Z",
-      "excerpt": "An armada of crude oil and refined products tankers is heading to Asia from the United States, but even record-high exports from the world's top producer cannot come close to making up the losses from the war against Iran. US crude exports\u2026",
       "tags": [
         "Workboats",
         "Technology"
@@ -2121,32 +1981,6 @@
       "boardBucket": "Other Relevant"
     },
     {
-      "id": "f97dc98eb6b3f4a7",
-      "title": "Innovex expands with acquisition of 2013-founded US firm",
-      "source": "Offshore Energy",
-      "sourceId": "offshore-energy",
-      "url": "https://www.offshore-energy.biz/innovex-expands-with-acquisition-of-2013-founded-us-firm/",
-      "publishedAt": "2026-04-21T06:28:19Z",
-      "excerpt": "Innovex International, a Houston-based company established in 2024 by the merger of Dril-Quip and [\u2026] The post Innovex expands with acquisition of 2013-founded US firm appeared first on Offshore Energy .",
-      "tags": [
-        "Energy-Transition",
-        "Technology"
-      ],
-      "audience": "Novatug",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [
-        "Commercial"
-      ],
-      "priorityScore": 2,
-      "priorityBand": "low",
-      "priorityReasons": [
-        "Signal: Commercial"
-      ],
-      "boardBucket": "Other Relevant"
-    },
-    {
       "id": "43965ec740f4cdea",
       "title": "US LNG Growth with First Export at Golden Pass and Tug Order for Woodside",
       "source": "The Maritime Executive",
@@ -2221,6 +2055,28 @@
       "priorityReasons": [
         "Signal: Energy Transition"
       ],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "8c4c18d3e4f83d64",
+      "title": "DURBAN MULTI-PURPOSE TERMINALS",
+      "source": "Africa Ports & Ships",
+      "sourceId": "africa-ports",
+      "url": "https://africaports.co.za/2026/04/21/durban-muti-purpose-terminalsdurban-daily-ship-movements-2-2-2-2/",
+      "publishedAt": "2026-04-20T22:01:50Z",
+      "excerpt": "Ships in port, at the SBM, at the anchorage, arrivals and departures and ships passing Durban at the time of the report.",
+      "tags": [
+        "Ports",
+        "Africa"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [],
+      "priorityScore": 2,
+      "priorityBand": "low",
+      "priorityReasons": [],
       "boardBucket": "Other Relevant"
     },
     {
@@ -2400,86 +2256,6 @@
       "boardBucket": "Other Relevant"
     },
     {
-      "id": "df0dda9e75f04032",
-      "title": "$17.5 billion LNG project anchored by $1B investment in Louisiana businesses",
-      "source": "Offshore Energy",
-      "sourceId": "offshore-energy",
-      "url": "https://www.offshore-energy.biz/17-5-billion-lng-project-anchored-by-1b-investment-in-louisiana-businesses/",
-      "publishedAt": "2026-04-20T12:41:02Z",
-      "excerpt": "Australia\u2019s energy giant Woodside has revealed award allocations of over $1 billion to Louisiana suppliers for a liquefied natural gas (LNG) development project in the Pelican State, United States (U.S.). The post $17.5 billion LNG project\u2026",
-      "tags": [
-        "Energy-Transition",
-        "Technology"
-      ],
-      "audience": "Novatug",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [
-        "Commercial"
-      ],
-      "priorityScore": 2,
-      "priorityBand": "low",
-      "priorityReasons": [
-        "Signal: Commercial"
-      ],
-      "boardBucket": "Other Relevant"
-    },
-    {
-      "id": "a00252f78f342edd",
-      "title": "Lloyd\u2019s Register, South Korean uni to set up global certification framework for liquid hydrogen shipping",
-      "source": "Offshore Energy",
-      "sourceId": "offshore-energy",
-      "url": "https://www.offshore-energy.biz/lloyds-register-south-korean-uni-to-set-up-global-certification-framework-for-liquid-hydrogen-shipping/",
-      "publishedAt": "2026-04-20T12:41:00Z",
-      "excerpt": "UK-based classification society Lloyd\u2019s Register and South Korea\u2019s Pusan National University (PNU) have signed [\u2026] The post Lloyd\u2019s Register, South Korean uni to set up global certification framework for liquid hydrogen shipping appeared f\u2026",
-      "tags": [
-        "Classification",
-        "Clean Propulsion",
-        "Energy-Transition",
-        "Technology"
-      ],
-      "audience": "Novatug",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [
-        "Energy Transition"
-      ],
-      "priorityScore": 2,
-      "priorityBand": "low",
-      "priorityReasons": [
-        "Signal: Energy Transition"
-      ],
-      "boardBucket": "Other Relevant"
-    },
-    {
-      "id": "947859f825284be1",
-      "title": "Gas sales pact paves the way for Jadestone\u2019s Southeast Asian offshore project",
-      "source": "Offshore Energy",
-      "sourceId": "offshore-energy",
-      "url": "https://www.offshore-energy.biz/gas-sales-pact-paves-the-way-for-jadestones-southeast-asian-offshore-project/",
-      "publishedAt": "2026-04-20T12:01:52Z",
-      "excerpt": "AIM-listed and Singapore-headquartered oil and gas player Jadestone Energy has sealed a deal with PV Gas, a subsidiary of Vietnam\u2019s state-owned national energy group Petrovietnam. This unlocks the doors for the development of gas discoveri\u2026",
-      "tags": [
-        "Energy-Transition",
-        "Technology"
-      ],
-      "audience": "Novatug",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [
-        "Commercial"
-      ],
-      "priorityScore": 2,
-      "priorityBand": "low",
-      "priorityReasons": [
-        "Signal: Commercial"
-      ],
-      "boardBucket": "Other Relevant"
-    },
-    {
       "id": "23664aed37ed889a",
       "title": "Iberdrola Raises Generation Capacity to Nearly 59GW",
       "source": "Rigzone",
@@ -2625,28 +2401,6 @@
       "url": "https://africaports.co.za/2026/04/20/cape-town-2-3/",
       "publishedAt": "2026-04-19T22:01:53Z",
       "excerpt": "Ships in port, at the V&A, at the Table Bay anchorage, at the OPL and ETAs of ships expected in the port of Cape Town.",
-      "tags": [
-        "Ports",
-        "Africa"
-      ],
-      "audience": "Multraship",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [],
-      "priorityScore": 2,
-      "priorityBand": "low",
-      "priorityReasons": [],
-      "boardBucket": "Other Relevant"
-    },
-    {
-      "id": "f4d9d0c75205e259",
-      "title": "DURBAN MULTI-PURPOSE TERMINALS",
-      "source": "Africa Ports & Ships",
-      "sourceId": "africa-ports",
-      "url": "https://africaports.co.za/2026/04/20/durban-muti-purpose-terminalsdurban-daily-ship-movements-2-2-2-2/",
-      "publishedAt": "2026-04-19T22:01:50Z",
-      "excerpt": "Ships in port, at the SBM, at the anchorage, arrivals and departures and ships passing Durban at the time of the report.",
       "tags": [
         "Ports",
         "Africa"
@@ -3696,6 +3450,28 @@
       "boardBucket": "Other Relevant"
     },
     {
+      "id": "d47b9166a5a37222",
+      "title": "US Boards Sanctioned Tanker in the Indian Ocean Linked to Iran",
+      "source": "The Maritime Executive",
+      "sourceId": "maritime-executive",
+      "url": "https://maritime-executive.com/article/us-boards-sanctioned-tanker-in-the-indian-ocean-linked-to-iran",
+      "publishedAt": "2026-04-21T14:35:42Z",
+      "excerpt": "U.S. forces boarded a sanctioned crude oil tanker that was transiting the Indian Ocean in what the Pentagon is calling \u201ca right-of-visit, maritime int...",
+      "tags": [
+        "Maritime",
+        "News"
+      ],
+      "audience": "Both",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [],
+      "priorityScore": 1,
+      "priorityBand": "low",
+      "priorityReasons": [],
+      "boardBucket": "Other Relevant"
+    },
+    {
       "id": "6fdcad38202292d2",
       "title": "Jones Walker Welcomes Partner and Associate in Houston",
       "source": "MarineLink",
@@ -3926,37 +3702,6 @@
       "boardBucket": "Other Relevant"
     },
     {
-      "id": "51274eae68486cc4",
-      "title": "BP executive becomes OMV\u2019s first female CEO",
-      "source": "Offshore Energy",
-      "sourceId": "offshore-energy",
-      "url": "https://www.offshore-energy.biz/bp-executive-becomes-omvs-first-female-ceo/",
-      "publishedAt": "2026-04-21T07:37:43Z",
-      "excerpt": "Austria-headquartered oil & gas player OMV has appointed BP executive Emma Delaney as its [\u2026] The post BP executive becomes OMV\u2019s first female CEO appeared first on Offshore Energy .",
-      "tags": [
-        "Energy-Transition",
-        "Technology"
-      ],
-      "audience": "Novatug",
-      "paywalled": false,
-      "entities": [
-        {
-          "name": "BP Raffinaderij",
-          "category": "suppliers"
-        }
-      ],
-      "locations": [],
-      "businessTags": [
-        "Supplier"
-      ],
-      "priorityScore": 1,
-      "priorityBand": "low",
-      "priorityReasons": [
-        "Supplier mention: BP Raffinaderij"
-      ],
-      "boardBucket": "Other Relevant"
-    },
-    {
       "id": "523632e6ac7fce5e",
       "title": "Geneva Dry set to tackle shipping\u2019s biggest stress points",
       "source": "Splash247",
@@ -4121,28 +3866,6 @@
       "tags": [
         "Maritime",
         "News"
-      ],
-      "audience": "Both",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [],
-      "priorityScore": 1,
-      "priorityBand": "low",
-      "priorityReasons": [],
-      "boardBucket": "Other Relevant"
-    },
-    {
-      "id": "8c477f7bfd9b600a",
-      "title": "Golden Pass Texas Facility Ready for Inaugural LNG Export",
-      "source": "MarineLink",
-      "sourceId": "marinelink",
-      "url": "https://www.marinelink.com/news/golden-pass-texas-facility-ready-538269",
-      "publishedAt": "2026-04-20T22:47:21Z",
-      "excerpt": "An LNG tanker has arrived at the Golden Pass facility in Texas to collect the plant's inaugural export, the company confirmed on Monday, after finally beginning production earlier this year following prolonged delays in construction.The Al\u2026",
-      "tags": [
-        "Maritime",
-        "Industry"
       ],
       "audience": "Both",
       "paywalled": false,
@@ -4505,6 +4228,248 @@
       "locations": [],
       "businessTags": [],
       "priorityScore": 1,
+      "priorityBand": "low",
+      "priorityReasons": [],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "c43e2b21b424c7ae",
+      "title": "India Commits $1.4 Billion to the Creation of a Domestic P&I Club",
+      "source": "The Maritime Executive",
+      "sourceId": "maritime-executive",
+      "url": "https://maritime-executive.com/article/india-commits-1-4-billion-to-the-creation-of-a-domestic-p-i-club",
+      "publishedAt": "2026-04-19T20:32:00Z",
+      "excerpt": "India has made progress in establishing a local P&I club to protect the country\u2019s shipping interests. Over the weekend, the cabinet approved creation...",
+      "tags": [
+        "Maritime",
+        "News"
+      ],
+      "audience": "Both",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [],
+      "priorityScore": 1,
+      "priorityBand": "low",
+      "priorityReasons": [],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "4989c1cae4dcd3a1",
+      "title": "Fugro opens ROV test pool facility in Singapore",
+      "source": "SWZ Maritime",
+      "sourceId": "swz-maritime",
+      "url": "https://swzmaritime.nl/news/2026/04/17/fugro-opens-rov-test-pool-facility-in-singapore/",
+      "publishedAt": "2026-04-17T08:24:39Z",
+      "excerpt": "Fugro has commissioned its new remotely operated vehicle (ROV) test pool in Singapore. This strengthens the company\u2019s in\u2011house capability to undertake controlled testing, verification and validation of equipment, systems and [\u2026]",
+      "tags": [
+        "Maritime",
+        "Netherlands"
+      ],
+      "audience": "Both",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [],
+      "priorityScore": 1,
+      "priorityBand": "low",
+      "priorityReasons": [],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "81324c860c7b5f22",
+      "title": "Haskoning to provide design for Texas storm surge barrier",
+      "source": "SWZ Maritime",
+      "sourceId": "swz-maritime",
+      "url": "https://swzmaritime.nl/news/2026/04/17/haskoning-to-provide-design-for-texas-storm-surge-barrier/",
+      "publishedAt": "2026-04-17T06:28:00Z",
+      "excerpt": "Haskoning has been confirmed as a key team member for the preliminary design of The Gate (Bolivar Roads Gate System) in Galveston, Texas. The system will be one of the [\u2026]",
+      "tags": [
+        "Maritime",
+        "Netherlands"
+      ],
+      "audience": "Both",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [],
+      "priorityScore": 1,
+      "priorityBand": "low",
+      "priorityReasons": [],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "bdc7bf2086f1dcd3",
+      "title": "Korean Register unveils digital database of international maritime conventions",
+      "source": "Riviera: Regulations & Compliance",
+      "sourceId": "riviera-regulation",
+      "url": "https://www.rivieramm.com/news-content-hub/korean-register-unveils-digital-database-of-international-maritime-conventions-88394",
+      "publishedAt": "2026-04-16T11:06:05Z",
+      "excerpt": "Class society introduces artificial intelligence into its web-based services for the shipping industry",
+      "tags": [
+        "Regulation",
+        "Compliance"
+      ],
+      "audience": "Both",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [],
+      "priorityScore": 1,
+      "priorityBand": "low",
+      "priorityReasons": [],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "a1b485bad6bc7251",
+      "title": "Dong Fang upgrades crew safety on CSOVs, cable layers",
+      "source": "Riviera: Safety & Incidents",
+      "sourceId": "riviera-safety",
+      "url": "https://www.rivieramm.com/news-content-hub/dong-fang-upgrades-crew-safety-on-csovs-cable-layers-88414",
+      "publishedAt": "2026-04-13T07:11:28Z",
+      "excerpt": "Wireless technology will be deployed to increase personnel visibility and security on offshore construction and commissioning vessels",
+      "tags": [
+        "Safety",
+        "Incidents"
+      ],
+      "audience": "Both",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [],
+      "priorityScore": 1,
+      "priorityBand": "low",
+      "priorityReasons": [],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "e731f168b502ca08",
+      "title": "UK to launch new leasing round for offshore wind in early 2027",
+      "source": "Riviera: Regulations & Compliance",
+      "sourceId": "riviera-regulation",
+      "url": "https://www.rivieramm.com/news-content-hub/uk-to-launch-new-leasing-round-for-offshore-wind-in-early-2027-88295",
+      "publishedAt": "2026-04-10T14:47:41Z",
+      "excerpt": "Potential 6 GW of capacity to be made available, primarily off the northeast of England",
+      "tags": [
+        "Regulation",
+        "Compliance"
+      ],
+      "audience": "Both",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [],
+      "priorityScore": 1,
+      "priorityBand": "low",
+      "priorityReasons": [],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "4ab34f0022434720",
+      "title": "Department of Interior to consolidate BOEM and BSEE in new agency",
+      "source": "Riviera: Regulations & Compliance",
+      "sourceId": "riviera-regulation",
+      "url": "https://www.rivieramm.com/news-content-hub/department-of-interior-to-consolidate-boem-and-bsee-in-new-agency-88392",
+      "publishedAt": "2026-04-07T10:54:47Z",
+      "excerpt": "Plan to create the Marine Minerals Administration \u2018reflects the evolution of offshore energy\u2019 and the need to improve co-ordination, Trump administration claims",
+      "tags": [
+        "Regulation",
+        "Compliance"
+      ],
+      "audience": "Both",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [],
+      "priorityScore": 1,
+      "priorityBand": "low",
+      "priorityReasons": [],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "eaab0399b9acdde0",
+      "title": "Larger superyachts lift ballast water system demand",
+      "source": "Riviera: Regulations & Compliance",
+      "sourceId": "riviera-regulation",
+      "url": "https://www.rivieramm.com/news-content-hub/larger-superyachts-lift-ballast-water-system-demand-88291",
+      "publishedAt": "2026-04-06T06:30:00Z",
+      "excerpt": "60 m-plus yacht deliveries are supporting ballast water treatment demand as builders increasingly integrate systems at the design stage",
+      "tags": [
+        "Regulation",
+        "Compliance"
+      ],
+      "audience": "Both",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [],
+      "priorityScore": 1,
+      "priorityBand": "low",
+      "priorityReasons": [],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "7ba5b9cacc8aa802",
+      "title": "UK moves to board sanctioned shadow fleet tankers",
+      "source": "Riviera: Regulations & Compliance",
+      "sourceId": "riviera-regulation",
+      "url": "https://www.rivieramm.com/news-content-hub/uk-to-interdict-sanctioned-shadow-fleet-tankers-88279",
+      "publishedAt": "2026-03-26T10:30:00Z",
+      "excerpt": "British government says sanctioned vessels linked to Russia\u2019s shadow fleet face boarding, detention and possible criminal proceedings if they transit UK waters",
+      "tags": [
+        "Regulation",
+        "Compliance"
+      ],
+      "audience": "Both",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [],
+      "priorityScore": 1,
+      "priorityBand": "low",
+      "priorityReasons": [],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "e45dfd0655ab2533",
+      "title": "Yangtze study links antifouling paint particles to sediment copper risk",
+      "source": "Riviera: Regulations & Compliance",
+      "sourceId": "riviera-regulation",
+      "url": "https://www.rivieramm.com/news-content-hub/yangtze-study-links-antifouling-paint-particles-to-sediment-copper-risk-88076",
+      "publishedAt": "2026-03-24T06:30:00Z",
+      "excerpt": "New research traces antifouling paint particles across the Yangtze estuary, highlighting a sediment pollution pattern closely aligned with vessel traffic",
+      "tags": [
+        "Regulation",
+        "Compliance"
+      ],
+      "audience": "Both",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [],
+      "priorityScore": 1,
+      "priorityBand": "low",
+      "priorityReasons": [],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "5eccf75a085e2597",
+      "title": "Oil Traders Warn Worst of Demand Hit Is Yet to Come",
+      "source": "Rigzone",
+      "sourceId": "rigzone-latest",
+      "url": "https://www.rigzone.com/news/wire/oil_traders_warn_worst_of_demand_hit_is_yet_to_come-21-apr-2026-183500-article/?rss=true",
+      "publishedAt": "2026-04-21T13:46:26Z",
+      "excerpt": "The world's top oil traders said that demand destruction wrought by the Iran war is set to deepen.",
+      "tags": [
+        "Offshore",
+        "Energy"
+      ],
+      "audience": "Novatug",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [],
+      "priorityScore": 0,
       "priorityBand": "low",
       "priorityReasons": [],
       "boardBucket": "Other Relevant"
