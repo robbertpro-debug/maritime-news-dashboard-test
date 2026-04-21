@@ -1,8 +1,8 @@
 window.__DASHBOARD_DATA__ = {
-  "generatedAt": "2026-04-21T14:07:29.553990Z",
+  "generatedAt": "2026-04-21T14:14:24.672535Z",
   "lookbackDays": 7,
-  "cutoffAt": "2026-04-14T14:07:29.553990Z",
-  "articleCount": 146,
+  "cutoffAt": "2026-04-14T14:14:24.672535Z",
+  "articleCount": 143,
   "sourceCount": 16,
   "sources": [
     "Africa Ports & Ships",
@@ -189,32 +189,6 @@ window.__DASHBOARD_DATA__ = {
         "Signal: Energy Transition"
       ],
       "boardBucket": "Competitors & Market"
-    },
-    {
-      "id": "60e555452facc44e",
-      "title": "Geopolitical chaos forces Baltic Exchange to rethink rate benchmarks",
-      "source": "Baird Maritime",
-      "sourceId": "baird-maritime",
-      "url": "https://www.bairdmaritime.com/shipping/geopolitical-chaos-forces-baltic-exchange-to-rethink-rate-benchmarks",
-      "publishedAt": "2026-04-21T09:49:27Z",
-      "excerpt": "The Baltic Exchange, which tracks and assesses freight rates, on Monday proposed amending its methodology on all Middle East benchmarks, citing the escalating geopolitical disruption in the Strait of Hormuz and the wider Middle East region\u2026",
-      "tags": [
-        "Workboats",
-        "Technology"
-      ],
-      "audience": "Multraship",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [
-        "Disruption"
-      ],
-      "priorityScore": 6,
-      "priorityBand": "medium",
-      "priorityReasons": [
-        "Signal: Disruption"
-      ],
-      "boardBucket": "Regulation, Safety & Incidents"
     },
     {
       "id": "10b33ad33a871165",
@@ -830,6 +804,33 @@ window.__DASHBOARD_DATA__ = {
       "boardBucket": "Regulation, Safety & Incidents"
     },
     {
+      "id": "4c38d740fd68a3cc",
+      "title": "Sable Pursues Federal Funding to Ramp Up Santa Ynez Oil Production",
+      "source": "Rigzone",
+      "sourceId": "rigzone-latest",
+      "url": "https://www.rigzone.com/news/sable_pursues_federal_funding_to_ramp_up_santa_ynez_oil_production-21-apr-2026-183499-article/?rss=true",
+      "publishedAt": "2026-04-21T13:41:08Z",
+      "excerpt": "Sable said it was also 'coordinating with the federal government in various legal matters to defend its vested rights', amid compliance disputes with local and state authorities over the California facility.",
+      "tags": [
+        "Regulation",
+        "Offshore",
+        "Energy"
+      ],
+      "audience": "Novatug",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [
+        "Regulation"
+      ],
+      "priorityScore": 3,
+      "priorityBand": "low",
+      "priorityReasons": [
+        "Signal: Regulation"
+      ],
+      "boardBucket": "Regulation, Safety & Incidents"
+    },
+    {
       "id": "24a459a39cc9c146",
       "title": "UK\u2019s Portland Port approved for LNG ship-to-ship transfers",
       "source": "Offshore Energy",
@@ -1282,50 +1283,6 @@ window.__DASHBOARD_DATA__ = {
       "priorityReasons": [
         "Signal: Energy Transition"
       ],
-      "boardBucket": "Other Relevant"
-    },
-    {
-      "id": "cb2c50950ea024d4",
-      "title": "Latin America may see an oil production surge if crude stays at $100",
-      "source": "Baird Maritime",
-      "sourceId": "baird-maritime",
-      "url": "https://www.bairdmaritime.com/offshore/drilling-production/latin-america-may-see-an-oil-production-surge-if-crude-stays-at-100",
-      "publishedAt": "2026-04-21T09:54:24Z",
-      "excerpt": "A sustained oil price of $100 a barrel could unlock up to 2.1 million barrels per day of additional crude supply in South America by the mid-2030s, energy research firm Rystad Energy said on Wednesday. The forecast comes as the effective c\u2026",
-      "tags": [
-        "Workboats",
-        "Technology"
-      ],
-      "audience": "Multraship",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [],
-      "priorityScore": 2,
-      "priorityBand": "low",
-      "priorityReasons": [],
-      "boardBucket": "Other Relevant"
-    },
-    {
-      "id": "f3c56c53dbe463f1",
-      "title": "Supply contraction drives US natural gas futures higher",
-      "source": "Baird Maritime",
-      "sourceId": "baird-maritime",
-      "url": "https://www.bairdmaritime.com/shipping/tankers/gas/supply-contraction-drives-us-natural-gas-futures-higher",
-      "publishedAt": "2026-04-21T09:45:40Z",
-      "excerpt": "US natural gas futures edged up to a fresh one-week high on Monday on a drop in output over the past couple of weeks and forecasts for cooler weather and higher demand through early May than previously expected. Gas futures were also suppo\u2026",
-      "tags": [
-        "Workboats",
-        "Technology"
-      ],
-      "audience": "Multraship",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [],
-      "priorityScore": 2,
-      "priorityBand": "low",
-      "priorityReasons": [],
       "boardBucket": "Other Relevant"
     },
     {
@@ -3174,6 +3131,28 @@ window.__DASHBOARD_DATA__ = {
       "boardBucket": "Other Relevant"
     },
     {
+      "id": "5eccf75a085e2597",
+      "title": "Oil Traders Warn Worst of Demand Hit Is Yet to Come",
+      "source": "Rigzone",
+      "sourceId": "rigzone-latest",
+      "url": "https://www.rigzone.com/news/wire/oil_traders_warn_worst_of_demand_hit_is_yet_to_come-21-apr-2026-183500-article/?rss=true",
+      "publishedAt": "2026-04-21T13:46:26Z",
+      "excerpt": "The world's top oil traders said that demand destruction wrought by the Iran war is set to deepen.",
+      "tags": [
+        "Offshore",
+        "Energy"
+      ],
+      "audience": "Novatug",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [],
+      "priorityScore": 0,
+      "priorityBand": "low",
+      "priorityReasons": [],
+      "boardBucket": "Other Relevant"
+    },
+    {
       "id": "19d1853fefe5f59f",
       "title": "Petronas Eyes Terengganu Carbon Sinks",
       "source": "Rigzone",
@@ -3491,50 +3470,6 @@ window.__DASHBOARD_DATA__ = {
       "url": "https://www.rigzone.com/news/wire/magyar_says_druzhba_oil_flows_could_resume_next_week-18-apr-2026-183477-article/?rss=true",
       "publishedAt": "2026-04-18T12:00:01Z",
       "excerpt": "The pipeline, which brings Russian oil via Ukraine to central Europe, has been inoperative since January.",
-      "tags": [
-        "Offshore",
-        "Energy"
-      ],
-      "audience": "Novatug",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [],
-      "priorityScore": 0,
-      "priorityBand": "low",
-      "priorityReasons": [],
-      "boardBucket": "Other Relevant"
-    },
-    {
-      "id": "711e3835ceb56f27",
-      "title": "Energy Prices Sink on Hormuz News",
-      "source": "Rigzone",
-      "sourceId": "rigzone-latest",
-      "url": "https://www.rigzone.com/news/wire/energy_prices_sink_on_hormuz_news-17-apr-2026-183481-article/?rss=true",
-      "publishedAt": "2026-04-17T20:37:23Z",
-      "excerpt": "Oil and gas prices plunged as Iran signaled a temporary reopening of the Strait of Hormuz, easing supply fears.",
-      "tags": [
-        "Offshore",
-        "Energy"
-      ],
-      "audience": "Novatug",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [],
-      "priorityScore": 0,
-      "priorityBand": "low",
-      "priorityReasons": [],
-      "boardBucket": "Other Relevant"
-    },
-    {
-      "id": "68d3a23e221ad781",
-      "title": "EagleRock Files for IPO",
-      "source": "Rigzone",
-      "sourceId": "rigzone-latest",
-      "url": "https://www.rigzone.com/news/wire/eaglerock_files_for_ipo-17-apr-2026-183479-article/?rss=true",
-      "publishedAt": "2026-04-17T20:00:00Z",
-      "excerpt": "EagleRock Land LLC filed for an initial public offering.",
       "tags": [
         "Offshore",
         "Energy"
