@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Maritime News Dashboard</title>
+    <title>Multraship Board Dashboard</title>
     <style>
       :root {
         --bg: #edf1f3;
@@ -17,6 +17,10 @@
         --multraship: #9c4c1b;
         --novatug: #0a6d5b;
         --both: #355c99;
+        --critical: #8a1f2c;
+        --high: #a45b08;
+        --medium: #0e5f86;
+        --low: #5d6a72;
         --danger: #9b2b2b;
         --shadow: 0 14px 34px rgba(20, 33, 39, 0.08);
       }
@@ -47,7 +51,7 @@
       .hero {
         display: grid;
         gap: 16px;
-        grid-template-columns: 1.5fr 1fr;
+        grid-template-columns: 1.45fr 1fr;
         align-items: start;
         margin-bottom: 18px;
       }
@@ -55,6 +59,7 @@
       .card,
       .controls,
       .status-card,
+      .summary-card,
       .bucket {
         background: var(--surface);
         border: 1px solid var(--line);
@@ -68,6 +73,7 @@
 
       .eyebrow,
       .source-pill,
+      .priority-pill,
       .tag,
       .toggle-button,
       .count-pill {
@@ -107,11 +113,13 @@
         margin-top: 20px;
       }
 
-      .status-card {
+      .status-card,
+      .summary-card {
         padding: 14px 16px;
       }
 
-      .status-label {
+      .status-label,
+      .summary-label {
         display: block;
         font-size: 12px;
         text-transform: uppercase;
@@ -119,11 +127,19 @@
         color: var(--text-soft);
       }
 
-      .status-value {
+      .status-value,
+      .summary-value {
         display: block;
         margin-top: 8px;
         font-size: 24px;
         font-weight: 700;
+      }
+
+      .summary-copy {
+        display: block;
+        margin-top: 6px;
+        color: var(--text-soft);
+        font-size: 13px;
       }
 
       .meta-row {
@@ -280,6 +296,12 @@
         color: var(--text-soft);
       }
 
+      .summary-strip {
+        display: grid;
+        gap: 12px;
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+      }
+
       .buckets {
         display: grid;
         gap: 16px;
@@ -298,6 +320,26 @@
         padding: 16px 18px;
         border-bottom: 1px solid var(--line);
         background: linear-gradient(180deg, #fff 0%, #f8fafb 100%);
+      }
+
+      .bucket[data-bucket="High Priority"] .bucket-head {
+        background: linear-gradient(180deg, #fff7f8 0%, #fff2e9 100%);
+      }
+
+      .bucket[data-bucket="Port Watch"] .bucket-head {
+        background: linear-gradient(180deg, #f6fbfc 0%, #edf5f7 100%);
+      }
+
+      .bucket[data-bucket="Clients & Projects"] .bucket-head {
+        background: linear-gradient(180deg, #f6f8ff 0%, #edf2ff 100%);
+      }
+
+      .bucket[data-bucket="Competitors & Market"] .bucket-head {
+        background: linear-gradient(180deg, #fff7f6 0%, #fff0ee 100%);
+      }
+
+      .bucket[data-bucket="Regulation, Safety & Incidents"] .bucket-head {
+        background: linear-gradient(180deg, #fdf7ff 0%, #f5efff 100%);
       }
 
       .bucket-title {
@@ -336,7 +378,7 @@
 
       .article-row {
         display: grid;
-        grid-template-columns: 180px minmax(0, 1fr) 120px;
+        grid-template-columns: 190px minmax(0, 1fr) 120px;
         gap: 16px;
         padding: 16px 18px;
         border-top: 1px solid var(--line);
@@ -357,6 +399,28 @@
         padding: 5px 9px;
         background: var(--accent-soft);
         color: var(--accent);
+      }
+
+      .priority-pill {
+        width: fit-content;
+        padding: 5px 9px;
+        color: #fff;
+      }
+
+      .priority-critical {
+        background: var(--critical);
+      }
+
+      .priority-high {
+        background: var(--high);
+      }
+
+      .priority-medium {
+        background: var(--medium);
+      }
+
+      .priority-low {
+        background: var(--low);
       }
 
       .article-time {
@@ -383,6 +447,13 @@
         font-size: 14px;
       }
 
+      .article-reason {
+        margin: -2px 0 0;
+        color: #3f555e;
+        font-size: 13px;
+        font-weight: 600;
+      }
+
       .tag-row {
         display: flex;
         flex-wrap: wrap;
@@ -395,30 +466,49 @@
         color: #455861;
       }
 
-      .entity-badge {
-        padding: 4px 9px;
-        border-radius: 999px;
-        font-size: 10px;
-        font-weight: 700;
-        letter-spacing: 0.04em;
-        text-transform: uppercase;
-        display: inline-flex;
-        align-items: center;
+      .tag-port {
+        background: #dcecef;
+        color: #0f5966;
       }
 
-      .entity-suppliers {
-        background: #fef3c7;
-        color: #92400e;
+      .tag-region {
+        background: #eef2f4;
+        color: #5b6e77;
       }
 
-      .entity-clients {
+      .tag-client {
         background: #dbeafe;
         color: #1e40af;
       }
 
-      .entity-competitors {
+      .tag-competitor {
         background: #fee2e2;
         color: #991b1b;
+      }
+
+      .tag-supplier {
+        background: #fef3c7;
+        color: #92400e;
+      }
+
+      .tag-signal {
+        background: #efe7ff;
+        color: #6d28d9;
+      }
+
+      .tag-energy {
+        background: #dcfce7;
+        color: #166534;
+      }
+
+      .tag-paywall {
+        background: #e5e7eb;
+        color: #374151;
+      }
+
+      .tag-topic {
+        background: #ebf0f2;
+        color: #455861;
       }
 
       .article-action {
@@ -442,11 +532,7 @@
         color: var(--text-soft);
       }
 
-      .muted {
-        color: var(--text-soft);
-      }
-
-      @media (max-width: 1080px) {
+      @media (max-width: 1180px) {
         .hero {
           grid-template-columns: 1fr;
         }
@@ -456,6 +542,7 @@
           flex-direction: column;
         }
 
+        .summary-strip,
         .buckets {
           grid-template-columns: 1fr;
         }
@@ -489,11 +576,11 @@
 
       <section class="hero">
         <div class="card">
-          <span class="eyebrow">Local RSS Dashboard</span>
-          <h1>Fast scan view for Multraship and Novatug</h1>
+          <span class="eyebrow">Multraship Board Watch</span>
+          <h1>Fast scan for port, client, competitor and operational signal</h1>
           <p class="hero-copy">
-            Use the audience toggle to focus on one company at a time. Articles are grouped into topic
-            buckets and reduced to one-line briefs, so you can identify signal without reading full cards.
+            The default view is Multraship-first. Articles are ranked by business relevance, grouped into
+            board-facing buckets, and labeled with why they matter before you open the full story.
           </p>
           <div class="status-grid">
             <div class="status-card">
@@ -514,6 +601,7 @@
             </div>
           </div>
           <div class="meta-row">
+            <span>Current feed window: last <strong><span id="lookbackDays">7</span> days</strong></span>
             <span>Refresh data with <strong><code>python3 scripts/fetch_feeds.py</code></strong></span>
             <button id="refreshButton" class="action-button" type="button">Refresh in dashboard</button>
             <span id="refreshStatus" class="refresh-status">Idle</span>
@@ -525,7 +613,7 @@
           <div class="control-grid">
             <div class="field">
               <label for="searchInput">Search</label>
-              <input id="searchInput" type="search" placeholder="Search headlines and briefs" />
+              <input id="searchInput" type="search" placeholder="Search headlines, reasons and tags" />
             </div>
             <div class="field">
               <label for="sourceFilter">Source</label>
@@ -540,6 +628,22 @@
               </select>
             </div>
             <div class="field">
+              <label for="locationFilter">Location</label>
+              <select id="locationFilter">
+                <option value="all">All watched locations</option>
+              </select>
+            </div>
+            <div class="field">
+              <label for="priorityFilter">Board priority</label>
+              <select id="priorityFilter">
+                <option value="all">All priorities</option>
+                <option value="critical">Critical only</option>
+                <option value="high-up">High and up</option>
+                <option value="medium-up">Medium and up</option>
+                <option value="low">Low only</option>
+              </select>
+            </div>
+            <div class="field">
               <label for="entityFilter">Entity</label>
               <select id="entityFilter">
                 <option value="all">All entities</option>
@@ -551,6 +655,7 @@
             <div class="field">
               <label for="sortOrder">Sort</label>
               <select id="sortOrder">
+                <option value="priority">Board priority</option>
                 <option value="newest">Newest first</option>
                 <option value="oldest">Oldest first</option>
                 <option value="source">Source name</option>
@@ -574,10 +679,14 @@
         <div class="card overview">
           <div>
             <h2 id="activeAudienceTitle">Multraship</h2>
-            <p id="activeAudienceCopy">Towage, salvage, incidents, tenders, ports and operations.</p>
+            <p id="activeAudienceCopy">
+              Commercial intelligence across core ports, tracked clients, competitors and operational risk.
+            </p>
           </div>
-          <div class="overview-stats" id="topTopicCounts"></div>
+          <div class="overview-stats" id="topBucketCounts"></div>
         </div>
+
+        <div class="summary-strip" id="boardSummary"></div>
       </section>
 
       <section class="buckets" id="bucketContainer"></section>
@@ -585,8 +694,50 @@
 
     <script src="./data/articles.js"></script>
     <script>
+      const PRIORITY_LEVELS = { critical: 3, high: 2, medium: 1, low: 0 };
+      const PRIORITY_LABELS = { critical: "Critical", high: "High", medium: "Medium", low: "Low" };
+      const GENERIC_TOPIC_TAGS = new Set(["Maritime", "News", "Industry", "Markets"]);
+      const BUCKETS = [
+        {
+          key: "High Priority",
+          title: "High Priority",
+          subtitle: "Strongest board-level signal from location, entity and disruption context."
+        },
+        {
+          key: "Port Watch",
+          title: "Port Watch",
+          subtitle: "Core operating ports, waterways and local infrastructure developments."
+        },
+        {
+          key: "Clients & Projects",
+          title: "Clients & Projects",
+          subtitle: "Tracked customers, projects, contracts and terminal-side commercial moves."
+        },
+        {
+          key: "Competitors & Market",
+          title: "Competitors & Market",
+          subtitle: "Competitor activity and nearby market shifts worth scanning."
+        },
+        {
+          key: "Regulation, Safety & Incidents",
+          title: "Regulation, Safety & Incidents",
+          subtitle: "Rules, casualties, delays and operational disruption without a higher score."
+        },
+        {
+          key: "Other Relevant",
+          title: "Other Relevant",
+          subtitle: "Broader context that still fits the current audience and filters."
+        }
+      ];
+
       const state = {
-        data: window.__DASHBOARD_DATA__ || { articles: [], sources: [], topics: [], errors: [] },
+        data: window.__DASHBOARD_DATA__ || {
+          articles: [],
+          sources: [],
+          topics: [],
+          locations: [],
+          errors: []
+        },
         activeAudience: "Multraship",
         bucketVisibility: {}
       };
@@ -594,15 +745,15 @@
       const audienceMeta = {
         Multraship: {
           title: "Multraship",
-          copy: "Towage, salvage, incidents, tenders, ports and operations."
+          copy: "Commercial intelligence across core ports, tracked clients, competitors and operational risk."
         },
         Novatug: {
           title: "Novatug",
-          copy: "Electrification, clean propulsion, emissions and port sustainability."
+          copy: "Secondary view on electrification, propulsion, emissions and strategic tug innovation."
         },
         Both: {
           title: "Shared Themes",
-          copy: "Overlap, broader maritime context and items with mixed relevance."
+          copy: "Cross-over maritime developments that cut across both businesses."
         }
       };
 
@@ -612,8 +763,11 @@
         articleCount: document.getElementById("articleCount"),
         sourceCount: document.getElementById("sourceCount"),
         visibleCount: document.getElementById("visibleCount"),
+        lookbackDays: document.getElementById("lookbackDays"),
         sourceFilter: document.getElementById("sourceFilter"),
         topicFilter: document.getElementById("topicFilter"),
+        locationFilter: document.getElementById("locationFilter"),
+        priorityFilter: document.getElementById("priorityFilter"),
         entityFilter: document.getElementById("entityFilter"),
         sortOrder: document.getElementById("sortOrder"),
         searchInput: document.getElementById("searchInput"),
@@ -621,7 +775,8 @@
         refreshButton: document.getElementById("refreshButton"),
         refreshStatus: document.getElementById("refreshStatus"),
         bucketContainer: document.getElementById("bucketContainer"),
-        topTopicCounts: document.getElementById("topTopicCounts"),
+        topBucketCounts: document.getElementById("topBucketCounts"),
+        boardSummary: document.getElementById("boardSummary"),
         activeAudienceTitle: document.getElementById("activeAudienceTitle"),
         activeAudienceCopy: document.getElementById("activeAudienceCopy"),
         toggleButtons: Array.from(document.querySelectorAll(".toggle-button"))
@@ -688,35 +843,83 @@
         elements.refreshStatus.textContent = message;
       }
 
-      function getPrimaryTopic(article) {
-        return article.tags && article.tags.length ? article.tags[0] : "Other";
+      function getPriorityLevel(article) {
+        return PRIORITY_LEVELS[article.priorityBand] ?? 0;
+      }
+
+      function matchesAudience(article) {
+        if (state.activeAudience === "Both") {
+          return article.audience === "Both";
+        }
+        return article.audience === state.activeAudience || article.audience === "Both";
+      }
+
+      function getArticleCategories(article) {
+        const categories = [];
+        const seen = new Set();
+        (article.entities || []).forEach((entity) => {
+          if (seen.has(entity.category)) return;
+          seen.add(entity.category);
+          categories.push(entity.category);
+        });
+        return categories;
       }
 
       function createBrief(article) {
-        const sourceHint = getPrimaryTopic(article);
-        if (!article.excerpt) return `${sourceHint}.`;
-        const clean = article.excerpt.replace(/\s+/g, " ").trim();
-        if (clean.length <= 140) return clean;
-        return `${clean.slice(0, 137).trim()}...`;
+        const clean = (article.excerpt || "").replace(/\s+/g, " ").trim();
+        if (!clean) {
+          const fallback = (article.businessTags && article.businessTags[0]) || (article.tags && article.tags[0]);
+          return fallback ? `${fallback}.` : "Open the source article for details.";
+        }
+        if (clean.length <= 160) return clean;
+        return `${clean.slice(0, 157).trim()}...`;
+      }
+
+      function matchesPriority(article) {
+        const value = elements.priorityFilter.value;
+        const level = getPriorityLevel(article);
+
+        if (value === "all") return true;
+        if (value === "critical") return article.priorityBand === "critical";
+        if (value === "high-up") return level >= PRIORITY_LEVELS.high;
+        if (value === "medium-up") return level >= PRIORITY_LEVELS.medium;
+        if (value === "low") return article.priorityBand === "low";
+        return true;
       }
 
       function matchesFilters(article) {
         const sourceValue = elements.sourceFilter.value;
         const topicValue = elements.topicFilter.value;
+        const locationValue = elements.locationFilter.value;
         const entityValue = elements.entityFilter.value;
         const searchValue = elements.searchInput.value.trim().toLowerCase();
         const paywalledOnly = elements.paywalledOnly.checked;
 
-        if (article.audience !== state.activeAudience) return false;
+        if (!matchesAudience(article)) return false;
         if (sourceValue !== "all" && article.source !== sourceValue) return false;
-        if (topicValue !== "all" && !article.tags.includes(topicValue)) return false;
-        if (entityValue !== "all") {
-          const hasMatch = (article.entities || []).some(e => e.category === entityValue);
-          if (!hasMatch) return false;
+        if (topicValue !== "all" && !(article.tags || []).includes(topicValue)) return false;
+        if (locationValue !== "all") {
+          const hasLocation = (article.locations || []).some((location) => location.name === locationValue);
+          if (!hasLocation) return false;
         }
+        if (entityValue !== "all") {
+          const hasEntity = getArticleCategories(article).includes(entityValue);
+          if (!hasEntity) return false;
+        }
+        if (!matchesPriority(article)) return false;
         if (paywalledOnly && !article.paywalled) return false;
         if (searchValue) {
-          const haystack = `${article.title} ${article.excerpt} ${article.tags.join(" ")}`.toLowerCase();
+          const haystack = [
+            article.title,
+            article.excerpt,
+            ...(article.tags || []),
+            ...(article.businessTags || []),
+            ...(article.priorityReasons || []),
+            ...(article.entities || []).map((entity) => entity.name),
+            ...(article.locations || []).map((location) => location.name)
+          ]
+            .join(" ")
+            .toLowerCase();
           if (!haystack.includes(searchValue)) return false;
         }
         return true;
@@ -731,41 +934,166 @@
           return sorted;
         }
 
+        if (sortOrder === "oldest" || sortOrder === "newest") {
+          sorted.sort((a, b) => {
+            const left = a.publishedAt ? new Date(a.publishedAt).getTime() : 0;
+            const right = b.publishedAt ? new Date(b.publishedAt).getTime() : 0;
+            return sortOrder === "oldest" ? left - right : right - left;
+          });
+          return sorted;
+        }
+
         sorted.sort((a, b) => {
+          const scoreDiff = (b.priorityScore || 0) - (a.priorityScore || 0);
+          if (scoreDiff !== 0) return scoreDiff;
           const left = a.publishedAt ? new Date(a.publishedAt).getTime() : 0;
           const right = b.publishedAt ? new Date(b.publishedAt).getTime() : 0;
-          return sortOrder === "oldest" ? left - right : right - left;
+          return right - left;
         });
         return sorted;
       }
 
+      function fallbackBoardBucket(article) {
+        const categories = new Set(getArticleCategories(article));
+        const tags = new Set(article.businessTags || []);
+
+        if (["critical", "high"].includes(article.priorityBand)) return "High Priority";
+        if ((article.locations || []).length) return "Port Watch";
+        if (categories.has("clients")) return "Clients & Projects";
+        if (categories.has("competitors")) return "Competitors & Market";
+        if (
+          ["Incident", "Disruption", "Regulation", "Infrastructure", "Terminal Expansion"].some((tag) =>
+            tags.has(tag)
+          )
+        ) {
+          return "Regulation, Safety & Incidents";
+        }
+        return "Other Relevant";
+      }
+
       function buildBuckets(articles) {
-        const grouped = new Map();
+        const grouped = new Map(BUCKETS.map((bucket) => [bucket.key, []]));
+
         articles.forEach((article) => {
-          const topic = getPrimaryTopic(article);
-          if (!grouped.has(topic)) grouped.set(topic, []);
-          grouped.get(topic).push(article);
+          const bucket = article.boardBucket || fallbackBoardBucket(article);
+          if (!grouped.has(bucket)) grouped.set(bucket, []);
+          grouped.get(bucket).push(article);
         });
 
-        return Array.from(grouped.entries())
-          .map(([topic, items]) => ({ topic, items }))
-          .sort((a, b) => b.items.length - a.items.length || a.topic.localeCompare(b.topic));
+        return BUCKETS.map((bucket) => ({
+          ...bucket,
+          items: grouped.get(bucket.key) || []
+        })).filter((bucket) => bucket.items.length > 0);
       }
 
-      function getBucketLimit(topic) {
-        return state.bucketVisibility[`${state.activeAudience}:${topic}`] || 5;
+      function getBucketLimit(bucketKey) {
+        return state.bucketVisibility[`${state.activeAudience}:${bucketKey}`] || 6;
       }
 
-      function setBucketLimit(topic, limit) {
-        state.bucketVisibility[`${state.activeAudience}:${topic}`] = limit;
+      function setBucketLimit(bucketKey, limit) {
+        state.bucketVisibility[`${state.activeAudience}:${bucketKey}`] = limit;
       }
 
-      function renderTopTopicCounts(buckets) {
-        elements.topTopicCounts.innerHTML = "";
-        buckets.slice(0, 5).forEach((bucket) => {
-          const pill = createTextElement("span", `${bucket.topic}: ${bucket.items.length}`, "count-pill");
-          elements.topTopicCounts.appendChild(pill);
+      function renderOverviewCounts(buckets) {
+        elements.topBucketCounts.innerHTML = "";
+        buckets.forEach((bucket) => {
+          const pill = createTextElement("span", `${bucket.title}: ${bucket.items.length}`, "count-pill");
+          elements.topBucketCounts.appendChild(pill);
         });
+      }
+
+      function isWithinLast24Hours(article) {
+        if (!article.publishedAt) return false;
+        const generatedAt = state.data.generatedAt ? new Date(state.data.generatedAt).getTime() : Date.now();
+        const publishedAt = new Date(article.publishedAt).getTime();
+        return generatedAt - publishedAt <= 24 * 60 * 60 * 1000;
+      }
+
+      function renderBoardSummary(articles) {
+        elements.boardSummary.innerHTML = "";
+
+        const summary = [
+          {
+            label: "High priority",
+            value: articles.filter((article) => ["critical", "high"].includes(article.priorityBand)).length,
+            copy: "Critical and high-score items"
+          },
+          {
+            label: "Core port watch",
+            value: articles.filter((article) =>
+              (article.locations || []).some((location) => location.type !== "region")
+            ).length,
+            copy: "Matched Terneuzen, Vlissingen, Ghent, Antwerp, Rotterdam or North Sea Port"
+          },
+          {
+            label: "Client or competitor",
+            value: articles.filter((article) =>
+              getArticleCategories(article).some((category) => category === "clients" || category === "competitors")
+            ).length,
+            copy: "Tracked customer or competitor mention"
+          },
+          {
+            label: "New in 24h",
+            value: articles.filter(isWithinLast24Hours).length,
+            copy: "Fresh items in the latest day"
+          }
+        ];
+
+        summary.forEach((item) => {
+          const card = document.createElement("div");
+          card.className = "summary-card";
+          card.appendChild(createTextElement("span", item.label, "summary-label"));
+          card.appendChild(createTextElement("span", String(item.value), "summary-value"));
+          card.appendChild(createTextElement("span", item.copy, "summary-copy"));
+          elements.boardSummary.appendChild(card);
+        });
+      }
+
+      function createTag(text) {
+        let className = "tag";
+        if (text.startsWith("Port:")) {
+          className += " tag-port";
+        } else if (text.startsWith("Region:")) {
+          className += " tag-region";
+        } else if (text === "Client") {
+          className += " tag-client";
+        } else if (text === "Competitor") {
+          className += " tag-competitor";
+        } else if (text === "Supplier") {
+          className += " tag-supplier";
+        } else if (text === "Energy Transition") {
+          className += " tag-energy";
+        } else if (["Incident", "Disruption", "Regulation", "Infrastructure", "Terminal Expansion"].includes(text)) {
+          className += " tag-signal";
+        } else if (text === "Paywalled") {
+          className += " tag-paywall";
+        } else {
+          className += " tag-topic";
+        }
+        return createTextElement("span", text, className);
+      }
+
+      function getDisplayTags(article) {
+        const tags = [];
+        const seen = new Set();
+
+        (article.businessTags || []).forEach((tag) => {
+          if (seen.has(tag)) return;
+          seen.add(tag);
+          tags.push(tag);
+        });
+
+        (article.tags || []).forEach((tag) => {
+          if (GENERIC_TOPIC_TAGS.has(tag) || seen.has(tag) || tags.length >= 6) return;
+          seen.add(tag);
+          tags.push(tag);
+        });
+
+        if (article.paywalled && !seen.has("Paywalled")) {
+          tags.push("Paywalled");
+        }
+
+        return tags.slice(0, 7);
       }
 
       function createArticleRow(article) {
@@ -775,6 +1103,13 @@
         const meta = document.createElement("div");
         meta.className = "article-meta";
         meta.appendChild(createTextElement("span", article.source, "source-pill"));
+        meta.appendChild(
+          createTextElement(
+            "span",
+            PRIORITY_LABELS[article.priorityBand] || "Low",
+            `priority-pill priority-${article.priorityBand || "low"}`
+          )
+        );
         meta.appendChild(createTextElement("span", formatDate(article.publishedAt), "article-time"));
 
         const main = document.createElement("div");
@@ -782,17 +1117,15 @@
         main.appendChild(createTextElement("h4", article.title));
         main.appendChild(createTextElement("p", createBrief(article), "article-brief"));
 
+        if (article.priorityReasons && article.priorityReasons.length > 0) {
+          main.appendChild(
+            createTextElement("p", article.priorityReasons.slice(0, 2).join(" | "), "article-reason")
+          );
+        }
+
         const tags = document.createElement("div");
         tags.className = "tag-row";
-        article.tags.slice(0, 4).forEach((tag) => {
-          tags.appendChild(createTextElement("span", tag, "tag"));
-        });
-        if (article.paywalled) {
-          tags.appendChild(createTextElement("span", "Paywalled", "tag"));
-        }
-        (article.entities || []).forEach((entity) => {
-          tags.appendChild(createTextElement("span", entity.name, `entity-badge entity-${entity.category}`));
-        });
+        getDisplayTags(article).forEach((tag) => tags.appendChild(createTag(tag)));
         main.appendChild(tags);
 
         const action = document.createElement("div");
@@ -821,6 +1154,7 @@
         buckets.forEach((bucket) => {
           const section = document.createElement("section");
           section.className = "bucket";
+          section.dataset.bucket = bucket.key;
 
           const head = document.createElement("div");
           head.className = "bucket-head";
@@ -828,43 +1162,37 @@
           const titleWrap = document.createElement("div");
           titleWrap.className = "bucket-title";
           const titleBlock = document.createElement("div");
-          titleBlock.appendChild(createTextElement("h3", bucket.topic));
-          titleBlock.appendChild(
-            createTextElement(
-              "div",
-              `${bucket.items.length} item${bucket.items.length === 1 ? "" : "s"} in this topic`,
-              "bucket-subtitle"
-            )
-          );
+          titleBlock.appendChild(createTextElement("h3", bucket.title));
+          titleBlock.appendChild(createTextElement("div", bucket.subtitle, "bucket-subtitle"));
           titleWrap.appendChild(titleBlock);
 
-          head.append(titleWrap, createTextElement("span", `${bucket.items.length}`, "count-pill"));
+          head.append(titleWrap, createTextElement("span", String(bucket.items.length), "count-pill"));
 
           const body = document.createElement("div");
           body.className = "bucket-body";
-          const visibleLimit = getBucketLimit(bucket.topic);
-          const visibleItems = bucket.items.slice(0, visibleLimit);
-          visibleItems.forEach((article) => body.appendChild(createArticleRow(article)));
+          const visibleLimit = getBucketLimit(bucket.key);
+          bucket.items.slice(0, visibleLimit).forEach((article) => body.appendChild(createArticleRow(article)));
 
           section.append(head, body);
 
-          if (bucket.items.length > 5) {
+          if (bucket.items.length > 6) {
             const footer = document.createElement("div");
             footer.className = "bucket-footer";
             const button = document.createElement("button");
             button.className = "bucket-expand";
             button.type = "button";
 
-            if (visibleLimit <= 5) {
-              button.textContent = `Show 5 more (${Math.min(bucket.items.length, 10)} total)`;
+            if (visibleLimit < bucket.items.length) {
+              const nextLimit = Math.min(bucket.items.length, visibleLimit + 6);
+              button.textContent = `Show more (${nextLimit} visible)`;
               button.addEventListener("click", () => {
-                setBucketLimit(bucket.topic, 10);
+                setBucketLimit(bucket.key, nextLimit);
                 render();
               });
             } else {
               button.textContent = "Show less";
               button.addEventListener("click", () => {
-                setBucketLimit(bucket.topic, 5);
+                setBucketLimit(bucket.key, 6);
                 render();
               });
             }
@@ -888,9 +1216,10 @@
 
       function render() {
         updateAudienceMeta();
-        const filtered = sortArticles(state.data.articles.filter(matchesFilters));
+        const filtered = sortArticles((state.data.articles || []).filter(matchesFilters));
         const buckets = buildBuckets(filtered);
-        renderTopTopicCounts(buckets);
+        renderOverviewCounts(buckets);
+        renderBoardSummary(filtered);
         renderBuckets(buckets);
         elements.visibleCount.textContent = String(filtered.length);
       }
@@ -898,17 +1227,26 @@
       function syncDataToUi() {
         const currentSource = elements.sourceFilter.value;
         const currentTopic = elements.topicFilter.value;
+        const currentLocation = elements.locationFilter.value;
+
         populateSelect(elements.sourceFilter, state.data.sources || [], "All sources");
         populateSelect(elements.topicFilter, state.data.topics || [], "All topics");
+        populateSelect(elements.locationFilter, state.data.locations || [], "All watched locations");
+
         if ((state.data.sources || []).includes(currentSource)) {
           elements.sourceFilter.value = currentSource;
         }
         if ((state.data.topics || []).includes(currentTopic)) {
           elements.topicFilter.value = currentTopic;
         }
+        if ((state.data.locations || []).includes(currentLocation)) {
+          elements.locationFilter.value = currentLocation;
+        }
+
         elements.generatedAt.textContent = formatGenerated(state.data.generatedAt);
         elements.articleCount.textContent = String((state.data.articles || []).length);
         elements.sourceCount.textContent = String((state.data.sources || []).length);
+        elements.lookbackDays.textContent = String(state.data.lookbackDays || 7);
         renderErrors(state.data.errors || []);
       }
 
@@ -965,6 +1303,8 @@
         [
           elements.sourceFilter,
           elements.topicFilter,
+          elements.locationFilter,
+          elements.priorityFilter,
           elements.entityFilter,
           elements.sortOrder,
           elements.searchInput,

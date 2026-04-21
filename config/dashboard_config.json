@@ -2,6 +2,7 @@
   "output": {
     "json_path": "data/articles.json",
     "js_path": "data/articles.js",
+    "lookback_days": 7,
     "max_items_per_source": 30,
     "max_total_items": 180
   },
@@ -91,6 +92,26 @@
       "audience_bias": {
         "Multraship": 2,
         "Novatug": 1
+      }
+    },
+    {
+      "id": "africa-ports",
+      "name": "Africa Ports & Ships",
+      "url": "https://africaports.co.za/feed/",
+      "default_tags": ["ports", "africa"],
+      "audience_bias": {
+        "Multraship": 2,
+        "Novatug": 1
+      }
+    },
+    {
+      "id": "rigzone-latest",
+      "name": "Rigzone",
+      "url": "https://www.rigzone.com/news/rss/rigzone_latest.aspx",
+      "default_tags": ["offshore", "energy"],
+      "audience_bias": {
+        "Multraship": 1,
+        "Novatug": 2
       }
     },
     {
@@ -385,6 +406,236 @@
         "Targe Towing",
         "Tsavliris Salvage"
       ]
+    }
+  },
+  "watchlists": {
+    "locations": [
+      {
+        "name": "North Sea Port",
+        "type": "port-system",
+        "aliases": ["North Sea Port"]
+      },
+      {
+        "name": "Terneuzen",
+        "type": "core-port",
+        "aliases": ["Terneuzen", "Terneuzen Locks"]
+      },
+      {
+        "name": "Vlissingen",
+        "type": "core-port",
+        "aliases": ["Vlissingen", "Flushing", "Port of Vlissingen"]
+      },
+      {
+        "name": "Ghent",
+        "type": "core-port",
+        "aliases": ["Ghent", "Gent"]
+      },
+      {
+        "name": "Antwerp",
+        "type": "core-port",
+        "aliases": ["Antwerp", "Port of Antwerp", "Port of Antwerp-Bruges", "Antwerp-Bruges"]
+      },
+      {
+        "name": "Rotterdam",
+        "type": "core-port",
+        "aliases": ["Rotterdam", "Port of Rotterdam"]
+      },
+      {
+        "name": "Scheldt",
+        "type": "region",
+        "aliases": ["Scheldt", "Schelde"]
+      },
+      {
+        "name": "Westerschelde",
+        "type": "region",
+        "aliases": ["Westerschelde", "Western Scheldt"]
+      },
+      {
+        "name": "Zeeland",
+        "type": "region",
+        "aliases": ["Zeeland", "Zeeland Seaports"]
+      },
+      {
+        "name": "Sluiskil",
+        "type": "region",
+        "aliases": ["Sluiskil"]
+      }
+    ],
+    "entity_aliases": {
+      "suppliers": {
+        "Damen Shipyards Group": ["Damen", "Damen Shipyards"],
+        "Caterpillar Marine": ["Caterpillar", "Cat Marine", "CAT"],
+        "Sanmar Shipyards": ["Sanmar"],
+        "Kongsberg Maritime": ["Kongsberg"],
+        "Bureau Veritas": ["BV"],
+        "Shipowners' Club": ["Shipowners Club"],
+        "Eriks": ["ERIKS"],
+        "Alphatron Marine": ["Alphatron"],
+        "Heila Cranes": ["Heila"],
+        "Lankhorst Ropes": ["Lankhorst"],
+        "Shell Nederland": ["Shell"],
+        "BP Raffinaderij": ["BP"],
+        "American Bureau of Shipping": ["ABS"],
+        "Astilleros Armon": ["Armon"],
+        "SeaZip Offshore Service": ["SeaZip"],
+        "Azcue Pumps": ["Azcue"]
+      },
+      "clients": {
+        "RWE Renewables": ["RWE"],
+        "Ørsted": ["Orsted"],
+        "Netherlands Coastguard": ["Dutch Coastguard", "Kustwacht"],
+        "TotalEnergies": ["Total Energies"],
+        "DEME Group": ["DEME"],
+        "Jan De Nul": ["Jan De Nul Group"],
+        "Verbrugge Terminals": ["Verbrugge"],
+        "Heerema Marine": ["Heerema", "Heerema Marine Contractors"]
+      },
+      "competitors": {
+        "Boluda Towage": ["Boluda"],
+        "Kotug International": ["KOTUG"],
+        "SMIT Salvage": ["SMIT"],
+        "Wagenborg Towage": ["Wagenborg"],
+        "Resolve Marine": ["Resolve"],
+        "Rimorchiatori Riuniti": ["Rimorchiatori"],
+        "Alfons Hakans": ["Alfons Hakans"],
+        "Alfons Håkans": ["Alfons Hakans"],
+        "Fairplay Towage": ["Fairplay"],
+        "Williams Shipping": ["Williams"],
+        "Tsavliris Salvage": ["Tsavliris"]
+      }
+    }
+  },
+  "priority_rules": {
+    "weights": {
+      "audience_multraship": 2,
+      "audience_both": 1,
+      "location_core_port": 4,
+      "location_region": 2,
+      "supplier": 1,
+      "client": 4,
+      "competitor": 4,
+      "incident": 4,
+      "disruption": 4,
+      "regulation": 3,
+      "infrastructure": 3,
+      "terminal_expansion": 3,
+      "commercial": 2,
+      "energy_transition": 2
+    },
+    "bands": {
+      "critical": 13,
+      "high": 9,
+      "medium": 4
+    },
+    "keyword_groups": {
+      "incident": {
+        "label": "Incident",
+        "keywords": [
+          "incident",
+          "casualty",
+          "collision",
+          "grounding",
+          "fire",
+          "rescue",
+          "salvage",
+          "oil spill",
+          "pollution response",
+          "allision"
+        ]
+      },
+      "disruption": {
+        "label": "Disruption",
+        "keywords": [
+          "strike",
+          "industrial action",
+          "union action",
+          "shutdown",
+          "closure",
+          "disruption",
+          "delay",
+          "congestion",
+          "backlog",
+          "bottleneck",
+          "restricted operations",
+          "traffic disruption"
+        ]
+      },
+      "regulation": {
+        "label": "Regulation",
+        "keywords": [
+          "regulation",
+          "compliance",
+          "permit",
+          "approval",
+          "sanction",
+          "policy",
+          "law",
+          "legal",
+          "imo",
+          "authority"
+        ]
+      },
+      "infrastructure": {
+        "label": "Infrastructure",
+        "keywords": [
+          "infrastructure",
+          "quay",
+          "jetty",
+          "berth",
+          "lock",
+          "terminal",
+          "dredging",
+          "roadworks",
+          "rail logistics",
+          "shore power",
+          "charging hub"
+        ]
+      },
+      "terminal_expansion": {
+        "label": "Terminal Expansion",
+        "keywords": [
+          "terminal expansion",
+          "capacity expansion",
+          "new terminal",
+          "long lease",
+          "concession",
+          "expansion project",
+          "new cranes",
+          "port expansion"
+        ]
+      },
+      "commercial": {
+        "label": "Commercial",
+        "keywords": [
+          "contract",
+          "tender",
+          "award",
+          "project",
+          "investment",
+          "partnership",
+          "joint venture",
+          "acquisition",
+          "fleet renewal"
+        ]
+      },
+      "energy_transition": {
+        "label": "Energy Transition",
+        "keywords": [
+          "electrification",
+          "electric",
+          "hybrid",
+          "charging",
+          "shore power",
+          "emissions",
+          "decarbonization",
+          "decarbonisation",
+          "hydrogen",
+          "methanol",
+          "ammonia",
+          "battery",
+          "fuel cell"
+        ]
+      }
     }
   }
 }
