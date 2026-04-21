@@ -1,7 +1,7 @@
 window.__DASHBOARD_DATA__ = {
-  "generatedAt": "2026-04-21T21:41:51.889717Z",
+  "generatedAt": "2026-04-21T22:36:00.594804Z",
   "lookbackDays": 30,
-  "cutoffAt": "2026-03-22T21:41:51.889717Z",
+  "cutoffAt": "2026-03-22T22:36:00.594804Z",
   "articleCount": 180,
   "sourceCount": 16,
   "sources": [
@@ -1982,6 +1982,29 @@ window.__DASHBOARD_DATA__ = {
       "boardBucket": "Other Relevant"
     },
     {
+      "id": "f916c5c29f38b07d",
+      "title": "Hormuz Shipping Disruptions Show No End as Trump Extends Ceasefire, Maintains Blockade",
+      "source": "gCaptain",
+      "sourceId": "gcaptain",
+      "url": "https://gcaptain.com/hormuz-disruptions-show-no-end-as-trump-extends-ceasefire-maintains-blockade/",
+      "publishedAt": "2026-04-21T22:04:44Z",
+      "excerpt": "President Donald Trump said he will extend the current ceasefire with Iran while maintaining the U.S. maritime blockade, citing a request from Pakistani leadership to allow time for a unified negotiating proposal...",
+      "tags": [
+        "Incidents",
+        "Maritime",
+        "Operations"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [],
+      "priorityScore": 2,
+      "priorityBand": "low",
+      "priorityReasons": [],
+      "boardBucket": "Other Relevant"
+    },
+    {
       "id": "5feb14c3c2daf847",
       "title": "UN\u2019s Maritime Agency Prepares Hormuz Evacuation Plan for Hundreds of Ships",
       "source": "gCaptain",
@@ -2651,28 +2674,6 @@ window.__DASHBOARD_DATA__ = {
       "boardBucket": "Other Relevant"
     },
     {
-      "id": "52d56f406e9903a7",
-      "title": "Search Intensifies After Cargo Ship Mariana Found Overturned Near Saipan",
-      "source": "gCaptain",
-      "sourceId": "gcaptain",
-      "url": "https://gcaptain.com/search-intensifies-after-cargo-ship-mariana-found-overturned-near-saipan/",
-      "publishedAt": "2026-04-20T19:36:19Z",
-      "excerpt": "The U.S. Coast Guard and an expanding multinational task force are racing against time in the remote waters of the western Pacific after the U.S.-flagged cargo vessel Mariana was discovered overturned northeast...",
-      "tags": [
-        "Maritime",
-        "Operations"
-      ],
-      "audience": "Multraship",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [],
-      "priorityScore": 2,
-      "priorityBand": "low",
-      "priorityReasons": [],
-      "boardBucket": "Other Relevant"
-    },
-    {
       "id": "df0dda9e75f04032",
       "title": "$17.5 billion LNG project anchored by $1B investment in Louisiana businesses",
       "source": "Offshore Energy",
@@ -2790,29 +2791,6 @@ window.__DASHBOARD_DATA__ = {
       "tags": [
         "Incidents",
         "Safety"
-      ],
-      "audience": "Multraship",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [],
-      "priorityScore": 2,
-      "priorityBand": "low",
-      "priorityReasons": [],
-      "boardBucket": "Other Relevant"
-    },
-    {
-      "id": "d76bbf673c39ca56",
-      "title": "Brazil Investigates \"Slave-Like\" Conditions on Workboat Rescued off Amapa",
-      "source": "The Maritime Executive",
-      "sourceId": "maritime-executive",
-      "url": "https://maritime-executive.com/article/brazil-investigates-slave-like-conditions-on-workboat-rescued-off-amapa",
-      "publishedAt": "2026-04-20T02:40:00Z",
-      "excerpt": "Authorities in Brazil are investigating the circumstances aboard a rusting, disabled pollution control vessel found drifting off the coast last week....",
-      "tags": [
-        "Salvage",
-        "Maritime",
-        "News"
       ],
       "audience": "Multraship",
       "paywalled": false,
@@ -3879,6 +3857,73 @@ window.__DASHBOARD_DATA__ = {
       "boardBucket": "Other Relevant"
     },
     {
+      "id": "7e4e30a70d71c615",
+      "title": "Activists Sailing to Gaza Encircle MSC Containership in the Mediterranean",
+      "source": "The Maritime Executive",
+      "sourceId": "maritime-executive",
+      "url": "https://maritime-executive.com/article/activists-sailing-to-gaza-encircle-msc-containership-in-the-mediterranean",
+      "publishedAt": "2026-04-21T22:22:37Z",
+      "excerpt": "A group of activists, which is staging its third flotilla aiming to support Gaza and draw attention to the situation, reported that it attempted to in...",
+      "tags": [
+        "Maritime",
+        "News"
+      ],
+      "audience": "Both",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [],
+      "priorityScore": 1,
+      "priorityBand": "low",
+      "priorityReasons": [],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "9a4f7c9ae8356f5e",
+      "title": "U.S. is Negotiating to Cancel More Offshore Wind Leases",
+      "source": "The Maritime Executive",
+      "sourceId": "maritime-executive",
+      "url": "https://maritime-executive.com/article/u-s-is-negotiating-to-cancel-more-offshore-wind-leases",
+      "publishedAt": "2026-04-21T21:25:57Z",
+      "excerpt": "Executives at the French company Engie confirmed today that they are in discussions with U.S. officials about possibly canceling their offshore wind f...",
+      "tags": [
+        "Maritime",
+        "News"
+      ],
+      "audience": "Both",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [],
+      "priorityScore": 1,
+      "priorityBand": "low",
+      "priorityReasons": [],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "83863187fc7bd594",
+      "title": "Markets Whipsawed By Iran Conflict",
+      "source": "Rigzone",
+      "sourceId": "rigzone-latest",
+      "url": "https://www.rigzone.com/news/wire/markets_whipsawed_by_iran_conflict-21-apr-2026-183504-article/?rss=true",
+      "publishedAt": "2026-04-21T21:21:21Z",
+      "excerpt": "Oil surged and swung on ceasefire uncertainty and Hormuz blockade disrupted expectations.",
+      "tags": [
+        "Incidents",
+        "Offshore",
+        "Energy"
+      ],
+      "audience": "Both",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [],
+      "priorityScore": 1,
+      "priorityBand": "low",
+      "priorityReasons": [],
+      "boardBucket": "Other Relevant"
+    },
+    {
       "id": "50067149ac68cf92",
       "title": "To Speed Up Warship Deliveries, HII Leans Into Distributed Shipbuilding",
       "source": "The Maritime Executive",
@@ -4478,51 +4523,6 @@ window.__DASHBOARD_DATA__ = {
       "url": "https://maritime-executive.com/article/india-and-south-korea-form-alliances-for-shipbuilding-and-port-development",
       "publishedAt": "2026-04-20T21:10:44Z",
       "excerpt": "The governments of India and South Korea announced a broad range of agreements, including support for the development of Indian shipbuilding and port...",
-      "tags": [
-        "Maritime",
-        "News"
-      ],
-      "audience": "Both",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [],
-      "priorityScore": 1,
-      "priorityBand": "low",
-      "priorityReasons": [],
-      "boardBucket": "Other Relevant"
-    },
-    {
-      "id": "dc0d1c3494a0f1c6",
-      "title": "Xi Urges Ceasefire, Full Hormuz Transit in Saudi Call",
-      "source": "Rigzone",
-      "sourceId": "rigzone-latest",
-      "url": "https://www.rigzone.com/news/wire/xi_urges_ceasefire_full_hormuz_transit_in_saudi_call-20-apr-2026-183490-article/?rss=true",
-      "publishedAt": "2026-04-20T20:00:00Z",
-      "excerpt": "China's President Xi Jinping broke his silence on the standoff over the Strait of Hormuz.",
-      "tags": [
-        "Incidents",
-        "Offshore",
-        "Energy"
-      ],
-      "audience": "Both",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [],
-      "priorityScore": 1,
-      "priorityBand": "low",
-      "priorityReasons": [],
-      "boardBucket": "Other Relevant"
-    },
-    {
-      "id": "6a9f647444a7786d",
-      "title": "Japan Builds Up its Defense Posture Through Investments and Alliances",
-      "source": "The Maritime Executive",
-      "sourceId": "maritime-executive",
-      "url": "https://maritime-executive.com/article/japan-builds-up-its-defense-posture-through-investments-and-alliances",
-      "publishedAt": "2026-04-20T19:58:00Z",
-      "excerpt": "Japanese Prime Minister Sanae Takaichi is pushing ahead with election manifesto promises to strengthen Japan's defense posture.The Liberal Democratic...",
       "tags": [
         "Maritime",
         "News"
