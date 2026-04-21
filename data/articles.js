@@ -1,13 +1,14 @@
 window.__DASHBOARD_DATA__ = {
-  "generatedAt": "2026-04-21T18:01:07.269411Z",
+  "generatedAt": "2026-04-21T19:44:39.244703Z",
   "lookbackDays": 30,
-  "cutoffAt": "2026-03-22T18:01:07.269411Z",
+  "cutoffAt": "2026-03-22T19:44:39.244703Z",
   "articleCount": 180,
   "sourceCount": 16,
   "sources": [
     "Africa Ports & Ships",
     "Hellenic Shipping News",
     "MarineLink",
+    "Offshore Energy",
     "Rigzone",
     "Riviera: Ports & Terminals",
     "Riviera: Propulsion",
@@ -21,11 +22,13 @@ window.__DASHBOARD_DATA__ = {
   "topics": [
     "Africa",
     "Batteries",
+    "Classification",
     "Clean Propulsion",
     "Compliance",
     "Decarbonization",
     "Electrification",
     "Energy",
+    "Energy-Transition",
     "Incidents",
     "Industry",
     "Maritime",
@@ -34,7 +37,6 @@ window.__DASHBOARD_DATA__ = {
     "News",
     "Offshore",
     "Operations",
-    "Port Services",
     "Ports",
     "Propulsion",
     "Regulation",
@@ -47,15 +49,9 @@ window.__DASHBOARD_DATA__ = {
     "Towage"
   ],
   "locations": [
-    "Antwerp",
     "Rotterdam"
   ],
-  "errors": [
-    {
-      "source": "Offshore Energy",
-      "message": "HTTP Error 403: Forbidden"
-    }
-  ],
+  "errors": [],
   "articles": [
     {
       "id": "dc36a92dd406b366",
@@ -404,6 +400,33 @@ window.__DASHBOARD_DATA__ = {
       "boardBucket": "Competitors & Market"
     },
     {
+      "id": "f71bdddd83f2c18c",
+      "title": "Possible Piracy Incident with Product Tanker off Somalia Being Investigated",
+      "source": "The Maritime Executive",
+      "sourceId": "maritime-executive",
+      "url": "https://maritime-executive.com/article/possible-piracy-incident-with-product-tanker-off-somalia-being-investigated",
+      "publishedAt": "2026-04-21T18:34:52Z",
+      "excerpt": "The EU\u2019s security operation EUNVAFOR Atalanta confirmed that it is investigating a possible armed boarding linked to local piracy off Somalia. It com...",
+      "tags": [
+        "Incidents",
+        "Maritime",
+        "News"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [
+        "Incident"
+      ],
+      "priorityScore": 6,
+      "priorityBand": "medium",
+      "priorityReasons": [
+        "Signal: Incident"
+      ],
+      "boardBucket": "Regulation, Safety & Incidents"
+    },
+    {
       "id": "a9e7d0d2ab5a7354",
       "title": "AYK Energy Powers Electric Tug Milestone with Svitzer Balder Trials",
       "source": "MarineLink",
@@ -467,38 +490,6 @@ window.__DASHBOARD_DATA__ = {
         "Signal: Incident"
       ],
       "boardBucket": "Regulation, Safety & Incidents"
-    },
-    {
-      "id": "dd15a24f5afa6476",
-      "title": "Inland Cargo Vessel Sinks Near Port of Antwerp",
-      "source": "The Maritime Executive",
-      "sourceId": "maritime-executive",
-      "url": "https://maritime-executive.com/article/inland-cargo-vessel-sinks-near-port-of-antwerp",
-      "publishedAt": "2026-04-19T20:32:44Z",
-      "excerpt": "An inland freighter struck mooring bollards and sank near the port of Antwerp over the weekend, forcing the crew to abandon ship, according to Belgia...",
-      "tags": [
-        "Port Services",
-        "Maritime",
-        "News"
-      ],
-      "audience": "Multraship",
-      "paywalled": false,
-      "entities": [],
-      "locations": [
-        {
-          "name": "Antwerp",
-          "type": "core-port"
-        }
-      ],
-      "businessTags": [
-        "Port: Antwerp"
-      ],
-      "priorityScore": 6,
-      "priorityBand": "medium",
-      "priorityReasons": [
-        "Core port watch: Antwerp"
-      ],
-      "boardBucket": "Port Watch"
     },
     {
       "id": "a78bacec2cdfc31e",
@@ -1564,6 +1555,32 @@ window.__DASHBOARD_DATA__ = {
       "boardBucket": "Regulation, Safety & Incidents"
     },
     {
+      "id": "24a459a39cc9c146",
+      "title": "UK\u2019s Portland Port approved for LNG ship-to-ship transfers",
+      "source": "Offshore Energy",
+      "sourceId": "offshore-energy",
+      "url": "https://www.offshore-energy.biz/uks-portland-port-approved-for-lng-ship-to-ship-transfers/",
+      "publishedAt": "2026-04-21T11:28:13Z",
+      "excerpt": "Portland Port in the UK has received full approval to carry out liquefied natural [\u2026] The post UK\u2019s Portland Port approved for LNG ship-to-ship transfers appeared first on Offshore Energy .",
+      "tags": [
+        "Energy-Transition",
+        "Technology"
+      ],
+      "audience": "Novatug",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [
+        "Regulation"
+      ],
+      "priorityScore": 3,
+      "priorityBand": "low",
+      "priorityReasons": [
+        "Signal: Regulation"
+      ],
+      "boardBucket": "Regulation, Safety & Incidents"
+    },
+    {
       "id": "c746727e996643d8",
       "title": "Case made for maritime as the last great uninvested industry",
       "source": "Splash247",
@@ -1771,6 +1788,33 @@ window.__DASHBOARD_DATA__ = {
       "priorityBand": "low",
       "priorityReasons": [
         "Signal: Commercial"
+      ],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "468ff06bc02dbb3a",
+      "title": "Decarbonization as a Path to Independence",
+      "source": "The Maritime Executive",
+      "sourceId": "maritime-executive",
+      "url": "https://maritime-executive.com/article/decarbonization-as-a-path-to-independence",
+      "publishedAt": "2026-04-21T19:06:00Z",
+      "excerpt": "Decarbonization in logistics has already proven itself as a practical way to run complex systems with greater control and less waste. In chemical log...",
+      "tags": [
+        "Decarbonization",
+        "Maritime",
+        "News"
+      ],
+      "audience": "Novatug",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [
+        "Energy Transition"
+      ],
+      "priorityScore": 2,
+      "priorityBand": "low",
+      "priorityReasons": [
+        "Signal: Energy Transition"
       ],
       "boardBucket": "Other Relevant"
     },
@@ -2055,6 +2099,32 @@ window.__DASHBOARD_DATA__ = {
       "boardBucket": "Other Relevant"
     },
     {
+      "id": "f97dc98eb6b3f4a7",
+      "title": "Innovex expands with acquisition of 2013-founded US firm",
+      "source": "Offshore Energy",
+      "sourceId": "offshore-energy",
+      "url": "https://www.offshore-energy.biz/innovex-expands-with-acquisition-of-2013-founded-us-firm/",
+      "publishedAt": "2026-04-21T06:28:19Z",
+      "excerpt": "Innovex International, a Houston-based company established in 2024 by the merger of Dril-Quip and [\u2026] The post Innovex expands with acquisition of 2013-founded US firm appeared first on Offshore Energy .",
+      "tags": [
+        "Energy-Transition",
+        "Technology"
+      ],
+      "audience": "Novatug",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [
+        "Commercial"
+      ],
+      "priorityScore": 2,
+      "priorityBand": "low",
+      "priorityReasons": [
+        "Signal: Commercial"
+      ],
+      "boardBucket": "Other Relevant"
+    },
+    {
       "id": "43965ec740f4cdea",
       "title": "US LNG Growth with First Export at Golden Pass and Tug Order for Woodside",
       "source": "The Maritime Executive",
@@ -2242,25 +2312,83 @@ window.__DASHBOARD_DATA__ = {
       "boardBucket": "Other Relevant"
     },
     {
-      "id": "72a8d33d57b6d6eb",
-      "title": "Industry Floods Into Autonomous Vessel Race as U.S. Navy Opens MUSV Marketplace",
-      "source": "gCaptain",
-      "sourceId": "gcaptain",
-      "url": "https://gcaptain.com/industry-floods-into-autonomous-vessel-race-as-u-s-navy-opens-musv-marketplace/",
-      "publishedAt": "2026-04-20T17:06:27Z",
-      "excerpt": "A wave of announcements from defense technology firms, shipbuilders, and autonomy specialists is rapidly transforming the U.S. Navy\u2019s Medium Unmanned Surface Vessel (MUSV) program into one of the most competitive...",
+      "id": "df0dda9e75f04032",
+      "title": "$17.5 billion LNG project anchored by $1B investment in Louisiana businesses",
+      "source": "Offshore Energy",
+      "sourceId": "offshore-energy",
+      "url": "https://www.offshore-energy.biz/17-5-billion-lng-project-anchored-by-1b-investment-in-louisiana-businesses/",
+      "publishedAt": "2026-04-20T12:41:02Z",
+      "excerpt": "Australia\u2019s energy giant Woodside has revealed award allocations of over $1 billion to Louisiana suppliers for a liquefied natural gas (LNG) development project in the Pelican State, United States (U.S.). The post $17.5 billion LNG project\u2026",
       "tags": [
-        "Maritime",
-        "Operations"
+        "Energy-Transition",
+        "Technology"
       ],
-      "audience": "Multraship",
+      "audience": "Novatug",
       "paywalled": false,
       "entities": [],
       "locations": [],
-      "businessTags": [],
+      "businessTags": [
+        "Commercial"
+      ],
       "priorityScore": 2,
       "priorityBand": "low",
-      "priorityReasons": [],
+      "priorityReasons": [
+        "Signal: Commercial"
+      ],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "a00252f78f342edd",
+      "title": "Lloyd\u2019s Register, South Korean uni to set up global certification framework for liquid hydrogen shipping",
+      "source": "Offshore Energy",
+      "sourceId": "offshore-energy",
+      "url": "https://www.offshore-energy.biz/lloyds-register-south-korean-uni-to-set-up-global-certification-framework-for-liquid-hydrogen-shipping/",
+      "publishedAt": "2026-04-20T12:41:00Z",
+      "excerpt": "UK-based classification society Lloyd\u2019s Register and South Korea\u2019s Pusan National University (PNU) have signed [\u2026] The post Lloyd\u2019s Register, South Korean uni to set up global certification framework for liquid hydrogen shipping appeared f\u2026",
+      "tags": [
+        "Classification",
+        "Clean Propulsion",
+        "Energy-Transition",
+        "Technology"
+      ],
+      "audience": "Novatug",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [
+        "Energy Transition"
+      ],
+      "priorityScore": 2,
+      "priorityBand": "low",
+      "priorityReasons": [
+        "Signal: Energy Transition"
+      ],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "947859f825284be1",
+      "title": "Gas sales pact paves the way for Jadestone\u2019s Southeast Asian offshore project",
+      "source": "Offshore Energy",
+      "sourceId": "offshore-energy",
+      "url": "https://www.offshore-energy.biz/gas-sales-pact-paves-the-way-for-jadestones-southeast-asian-offshore-project/",
+      "publishedAt": "2026-04-20T12:01:52Z",
+      "excerpt": "AIM-listed and Singapore-headquartered oil and gas player Jadestone Energy has sealed a deal with PV Gas, a subsidiary of Vietnam\u2019s state-owned national energy group Petrovietnam. This unlocks the doors for the development of gas discoveri\u2026",
+      "tags": [
+        "Energy-Transition",
+        "Technology"
+      ],
+      "audience": "Novatug",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [
+        "Commercial"
+      ],
+      "priorityScore": 2,
+      "priorityBand": "low",
+      "priorityReasons": [
+        "Signal: Commercial"
+      ],
       "boardBucket": "Other Relevant"
     },
     {
@@ -2456,29 +2584,6 @@ window.__DASHBOARD_DATA__ = {
       "tags": [
         "Ports",
         "Africa"
-      ],
-      "audience": "Multraship",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [],
-      "priorityScore": 2,
-      "priorityBand": "low",
-      "priorityReasons": [],
-      "boardBucket": "Other Relevant"
-    },
-    {
-      "id": "2821479ec0a0f3d0",
-      "title": "U.S. Navy Attacks and Seizes First Vessel in Blockade of Iran's Seaports",
-      "source": "The Maritime Executive",
-      "sourceId": "maritime-executive",
-      "url": "https://maritime-executive.com/article/u-s-navy-attacks-and-seizes-it-first-vessel-in-blockade-of-iran-s-seaports",
-      "publishedAt": "2026-04-19T20:32:00Z",
-      "excerpt": "The U.S. Navy has fired upon and boarded an inbound Iranian container ship, according to U.S. President Donald Trump. It is the first instance of kine...",
-      "tags": [
-        "Incidents",
-        "Maritime",
-        "News"
       ],
       "audience": "Multraship",
       "paywalled": false,
@@ -3435,6 +3540,51 @@ window.__DASHBOARD_DATA__ = {
       "boardBucket": "Other Relevant"
     },
     {
+      "id": "072933c3b3432fe9",
+      "title": "Report: Scammers Are Offering Ships Safe Hormuz Passage for Crypto Payments",
+      "source": "The Maritime Executive",
+      "sourceId": "maritime-executive",
+      "url": "https://maritime-executive.com/article/report-scammers-are-offering-ships-safe-hormuz-passage-for-crypto-payments",
+      "publishedAt": "2026-04-21T19:41:44Z",
+      "excerpt": "As the Strait of Hormuz opens and closes along with the political winds, a new warning is going out to ships to be cautious of emails offering safe p...",
+      "tags": [
+        "Maritime",
+        "News"
+      ],
+      "audience": "Both",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [],
+      "priorityScore": 1,
+      "priorityBand": "low",
+      "priorityReasons": [],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "3d2e9e805f0257e5",
+      "title": "Immersion Suit Rises To Challenge For Faster Protection",
+      "source": "gCaptain",
+      "sourceId": "gcaptain",
+      "url": "https://gcaptain.com/immersion-suit-rises-to-challenge-for-faster-protection-2/",
+      "publishedAt": "2026-04-21T19:15:18Z",
+      "excerpt": "Donning speed for emergency situations is a primary attraction of a new immersion suit from VIKING Life-Saving Equipment that is made to measure up to US-specific requirements. Commercial shipping\u2019s leading safety...",
+      "tags": [
+        "Safety",
+        "Maritime",
+        "Operations"
+      ],
+      "audience": "Both",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [],
+      "priorityScore": 1,
+      "priorityBand": "low",
+      "priorityReasons": [],
+      "boardBucket": "Other Relevant"
+    },
+    {
       "id": "ecca65552f4576d3",
       "title": "US Unveils Details of $1.5 Trillion Defense Budget",
       "source": "MarineLink",
@@ -3688,6 +3838,37 @@ window.__DASHBOARD_DATA__ = {
       "tags": [
         "Offshore",
         "Energy"
+      ],
+      "audience": "Novatug",
+      "paywalled": false,
+      "entities": [
+        {
+          "name": "BP Raffinaderij",
+          "category": "suppliers"
+        }
+      ],
+      "locations": [],
+      "businessTags": [
+        "Supplier"
+      ],
+      "priorityScore": 1,
+      "priorityBand": "low",
+      "priorityReasons": [
+        "Supplier mention: BP Raffinaderij"
+      ],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "51274eae68486cc4",
+      "title": "BP executive becomes OMV\u2019s first female CEO",
+      "source": "Offshore Energy",
+      "sourceId": "offshore-energy",
+      "url": "https://www.offshore-energy.biz/bp-executive-becomes-omvs-first-female-ceo/",
+      "publishedAt": "2026-04-21T07:37:43Z",
+      "excerpt": "Austria-headquartered oil & gas player OMV has appointed BP executive Emma Delaney as its [\u2026] The post BP executive becomes OMV\u2019s first female CEO appeared first on Offshore Energy .",
+      "tags": [
+        "Energy-Transition",
+        "Technology"
       ],
       "audience": "Novatug",
       "paywalled": false,
@@ -4240,28 +4421,6 @@ window.__DASHBOARD_DATA__ = {
       "boardBucket": "Other Relevant"
     },
     {
-      "id": "c43e2b21b424c7ae",
-      "title": "India Commits $1.4 Billion to the Creation of a Domestic P&I Club",
-      "source": "The Maritime Executive",
-      "sourceId": "maritime-executive",
-      "url": "https://maritime-executive.com/article/india-commits-1-4-billion-to-the-creation-of-a-domestic-p-i-club",
-      "publishedAt": "2026-04-19T20:32:00Z",
-      "excerpt": "India has made progress in establishing a local P&I club to protect the country\u2019s shipping interests. Over the weekend, the cabinet approved creation...",
-      "tags": [
-        "Maritime",
-        "News"
-      ],
-      "audience": "Both",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [],
-      "priorityScore": 1,
-      "priorityBand": "low",
-      "priorityReasons": [],
-      "boardBucket": "Other Relevant"
-    },
-    {
       "id": "4989c1cae4dcd3a1",
       "title": "Fugro opens ROV test pool facility in Singapore",
       "source": "SWZ Maritime",
@@ -4345,138 +4504,6 @@ window.__DASHBOARD_DATA__ = {
       "locations": [],
       "businessTags": [],
       "priorityScore": 1,
-      "priorityBand": "low",
-      "priorityReasons": [],
-      "boardBucket": "Other Relevant"
-    },
-    {
-      "id": "e731f168b502ca08",
-      "title": "UK to launch new leasing round for offshore wind in early 2027",
-      "source": "Riviera: Regulations & Compliance",
-      "sourceId": "riviera-regulation",
-      "url": "https://www.rivieramm.com/news-content-hub/uk-to-launch-new-leasing-round-for-offshore-wind-in-early-2027-88295",
-      "publishedAt": "2026-04-10T14:47:41Z",
-      "excerpt": "Potential 6 GW of capacity to be made available, primarily off the northeast of England",
-      "tags": [
-        "Regulation",
-        "Compliance"
-      ],
-      "audience": "Both",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [],
-      "priorityScore": 1,
-      "priorityBand": "low",
-      "priorityReasons": [],
-      "boardBucket": "Other Relevant"
-    },
-    {
-      "id": "4ab34f0022434720",
-      "title": "Department of Interior to consolidate BOEM and BSEE in new agency",
-      "source": "Riviera: Regulations & Compliance",
-      "sourceId": "riviera-regulation",
-      "url": "https://www.rivieramm.com/news-content-hub/department-of-interior-to-consolidate-boem-and-bsee-in-new-agency-88392",
-      "publishedAt": "2026-04-07T10:54:47Z",
-      "excerpt": "Plan to create the Marine Minerals Administration \u2018reflects the evolution of offshore energy\u2019 and the need to improve co-ordination, Trump administration claims",
-      "tags": [
-        "Regulation",
-        "Compliance"
-      ],
-      "audience": "Both",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [],
-      "priorityScore": 1,
-      "priorityBand": "low",
-      "priorityReasons": [],
-      "boardBucket": "Other Relevant"
-    },
-    {
-      "id": "eaab0399b9acdde0",
-      "title": "Larger superyachts lift ballast water system demand",
-      "source": "Riviera: Regulations & Compliance",
-      "sourceId": "riviera-regulation",
-      "url": "https://www.rivieramm.com/news-content-hub/larger-superyachts-lift-ballast-water-system-demand-88291",
-      "publishedAt": "2026-04-06T06:30:00Z",
-      "excerpt": "60 m-plus yacht deliveries are supporting ballast water treatment demand as builders increasingly integrate systems at the design stage",
-      "tags": [
-        "Regulation",
-        "Compliance"
-      ],
-      "audience": "Both",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [],
-      "priorityScore": 1,
-      "priorityBand": "low",
-      "priorityReasons": [],
-      "boardBucket": "Other Relevant"
-    },
-    {
-      "id": "7ba5b9cacc8aa802",
-      "title": "UK moves to board sanctioned shadow fleet tankers",
-      "source": "Riviera: Regulations & Compliance",
-      "sourceId": "riviera-regulation",
-      "url": "https://www.rivieramm.com/news-content-hub/uk-to-interdict-sanctioned-shadow-fleet-tankers-88279",
-      "publishedAt": "2026-03-26T10:30:00Z",
-      "excerpt": "British government says sanctioned vessels linked to Russia\u2019s shadow fleet face boarding, detention and possible criminal proceedings if they transit UK waters",
-      "tags": [
-        "Regulation",
-        "Compliance"
-      ],
-      "audience": "Both",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [],
-      "priorityScore": 1,
-      "priorityBand": "low",
-      "priorityReasons": [],
-      "boardBucket": "Other Relevant"
-    },
-    {
-      "id": "e45dfd0655ab2533",
-      "title": "Yangtze study links antifouling paint particles to sediment copper risk",
-      "source": "Riviera: Regulations & Compliance",
-      "sourceId": "riviera-regulation",
-      "url": "https://www.rivieramm.com/news-content-hub/yangtze-study-links-antifouling-paint-particles-to-sediment-copper-risk-88076",
-      "publishedAt": "2026-03-24T06:30:00Z",
-      "excerpt": "New research traces antifouling paint particles across the Yangtze estuary, highlighting a sediment pollution pattern closely aligned with vessel traffic",
-      "tags": [
-        "Regulation",
-        "Compliance"
-      ],
-      "audience": "Both",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [],
-      "priorityScore": 1,
-      "priorityBand": "low",
-      "priorityReasons": [],
-      "boardBucket": "Other Relevant"
-    },
-    {
-      "id": "72152ece1b9704d0",
-      "title": "Texas Upstream Employment Continues Dropping",
-      "source": "Rigzone",
-      "sourceId": "rigzone-latest",
-      "url": "https://www.rigzone.com/news/texas_upstream_employment_continues_dropping-21-apr-2026-183502-article/?rss=true",
-      "publishedAt": "2026-04-21T14:38:55Z",
-      "excerpt": "Texas upstream employment has continued its downward trend, industry body TIPRO noted.",
-      "tags": [
-        "Offshore",
-        "Energy"
-      ],
-      "audience": "Novatug",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [],
-      "priorityScore": 0,
       "priorityBand": "low",
       "priorityReasons": [],
       "boardBucket": "Other Relevant"
