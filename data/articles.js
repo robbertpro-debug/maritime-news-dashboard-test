@@ -1,12 +1,11 @@
 window.__DASHBOARD_DATA__ = {
-  "generatedAt": "2026-04-21T19:44:39.244703Z",
+  "generatedAt": "2026-04-21T20:49:55.463755Z",
   "lookbackDays": 30,
-  "cutoffAt": "2026-03-22T19:44:39.244703Z",
+  "cutoffAt": "2026-03-22T20:49:55.463755Z",
   "articleCount": 180,
   "sourceCount": 16,
   "sources": [
-    "Africa Ports & Ships",
-    "Hellenic Shipping News",
+    "Baird Maritime",
     "MarineLink",
     "Offshore Energy",
     "Rigzone",
@@ -15,12 +14,10 @@ window.__DASHBOARD_DATA__ = {
     "Riviera: Regulations & Compliance",
     "Riviera: Safety & Incidents",
     "SWZ Maritime",
-    "Splash247",
     "The Maritime Executive",
     "gCaptain"
   ],
   "topics": [
-    "Africa",
     "Batteries",
     "Classification",
     "Clean Propulsion",
@@ -32,7 +29,6 @@ window.__DASHBOARD_DATA__ = {
     "Incidents",
     "Industry",
     "Maritime",
-    "Markets",
     "Netherlands",
     "News",
     "Offshore",
@@ -42,16 +38,29 @@ window.__DASHBOARD_DATA__ = {
     "Regulation",
     "Safety",
     "Salvage",
-    "Shipping",
     "Sustainability",
     "Technology",
     "Terminals",
-    "Towage"
+    "Towage",
+    "Workboats"
   ],
   "locations": [
     "Rotterdam"
   ],
-  "errors": [],
+  "errors": [
+    {
+      "source": "Hellenic Shipping News",
+      "message": "mismatched tag: line 93, column 2"
+    },
+    {
+      "source": "Splash247",
+      "message": "mismatched tag: line 93, column 2"
+    },
+    {
+      "source": "Africa Ports & Ships",
+      "message": "<urlopen error timed out>"
+    }
+  ],
   "articles": [
     {
       "id": "dc36a92dd406b366",
@@ -296,43 +305,6 @@ window.__DASHBOARD_DATA__ = {
       "boardBucket": "Regulation, Safety & Incidents"
     },
     {
-      "id": "0191f668e1f9d416",
-      "title": "AYK Energy says marine battery revolution \u2018gathering pace\u2019 with building of most powerful electric escort tug in the world",
-      "source": "Hellenic Shipping News",
-      "sourceId": "hellenic-shipping-news",
-      "url": "https://www.hellenicshippingnews.com/ayk-energy-says-marine-battery-revolution-gathering-pace-with-building-of-most-powerful-electric-escort-tug-in-the-world/",
-      "publishedAt": "2026-04-21T17:00:57Z",
-      "excerpt": "Marine battery maker AYK Energy says a significant milestone is being made in the electric workboat sector with the completion of sea trials for the first battery-methanol harbour tug ever built. AYK Energy said the Svitzer Balder built by\u2026",
-      "tags": [
-        "Towage",
-        "Batteries",
-        "Electrification",
-        "Clean Propulsion",
-        "Shipping",
-        "Markets"
-      ],
-      "audience": "Both",
-      "paywalled": false,
-      "entities": [
-        {
-          "name": "Svitzer",
-          "category": "competitors"
-        }
-      ],
-      "locations": [],
-      "businessTags": [
-        "Competitor",
-        "Energy Transition"
-      ],
-      "priorityScore": 7,
-      "priorityBand": "medium",
-      "priorityReasons": [
-        "Competitor mention: Svitzer",
-        "Signal: Energy Transition"
-      ],
-      "boardBucket": "Competitors & Market"
-    },
-    {
       "id": "06bd8b9257b55370",
       "title": "Gulf LNG Tugs welcomes new tug at Texas terminal",
       "source": "Riviera: Ports & Terminals",
@@ -398,6 +370,32 @@ window.__DASHBOARD_DATA__ = {
         "Competitor mention: Boluda Towage"
       ],
       "boardBucket": "Competitors & Market"
+    },
+    {
+      "id": "6ca104ad5e11582e",
+      "title": "Production stalls at Russia's Tuapse refinery after drone strike",
+      "source": "Baird Maritime",
+      "sourceId": "baird-maritime",
+      "url": "https://www.bairdmaritime.com/offshore/refining-processing/production-stalls-at-russias-tuapse-refinery-after-drone-strike",
+      "publishedAt": "2026-04-21T19:49:19Z",
+      "excerpt": "Russia's Tuapse oil refinery, which sells most of its products for export, halted operations following a Ukrainian drone attack on April 16, two industry sources said on Tuesday. Ukraine has increased attacks on Russia's energy infrastruct\u2026",
+      "tags": [
+        "Workboats",
+        "Technology"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [
+        "Disruption"
+      ],
+      "priorityScore": 6,
+      "priorityBand": "medium",
+      "priorityReasons": [
+        "Signal: Disruption"
+      ],
+      "boardBucket": "Regulation, Safety & Incidents"
     },
     {
       "id": "f71bdddd83f2c18c",
@@ -848,59 +846,6 @@ window.__DASHBOARD_DATA__ = {
       "boardBucket": "Regulation, Safety & Incidents"
     },
     {
-      "id": "a28341b038e8813a",
-      "title": "DURBAN CRUISE, RORO & TANKER TERMINAL",
-      "source": "Africa Ports & Ships",
-      "sourceId": "africa-ports",
-      "url": "https://africaports.co.za/2026/04/21/durban-cruise-roro-tanker-terminals-2-4-2/",
-      "publishedAt": "2026-04-20T23:23:56Z",
-      "excerpt": "Ships in port and ETAs of ships expected in the port of Durban,",
-      "tags": [
-        "Ports",
-        "Africa"
-      ],
-      "audience": "Multraship",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [
-        "Infrastructure"
-      ],
-      "priorityScore": 5,
-      "priorityBand": "medium",
-      "priorityReasons": [
-        "Signal: Infrastructure"
-      ],
-      "boardBucket": "Regulation, Safety & Incidents"
-    },
-    {
-      "id": "2c8b35bc6b920804",
-      "title": "Africa PORTS & SHIPS maritime news 21 April 2026",
-      "source": "Africa Ports & Ships",
-      "sourceId": "africa-ports",
-      "url": "https://africaports.co.za/2026/04/21/africa-ports-ships-maritime-news-19-20-april-2026/",
-      "publishedAt": "2026-04-20T22:01:57Z",
-      "excerpt": "Africa PORTS & SHIPS maritime news Here are the News Headlines: Durban refinery reborn as strategic fuel hub amid global supply uncertainty Strait of Hormuz: IMO Secretary-General speaks out at France-UK Summit Energy security dominates AR\u2026",
-      "tags": [
-        "Regulation",
-        "Ports",
-        "Africa"
-      ],
-      "audience": "Multraship",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [
-        "Regulation"
-      ],
-      "priorityScore": 5,
-      "priorityBand": "medium",
-      "priorityReasons": [
-        "Signal: Regulation"
-      ],
-      "boardBucket": "Regulation, Safety & Incidents"
-    },
-    {
       "id": "127d70d478370934",
       "title": "Saudi-Owned Cruise Ship Escaped Before Hormuz Closure Resumed",
       "source": "The Maritime Executive",
@@ -1016,32 +961,6 @@ window.__DASHBOARD_DATA__ = {
       "boardBucket": "Port Watch"
     },
     {
-      "id": "7af36d3389ae827b",
-      "title": "RICHARDS BAY COAL TERMINAL",
-      "source": "Africa Ports & Ships",
-      "sourceId": "africa-ports",
-      "url": "https://africaports.co.za/2026/04/20/richards-bay-coal-terminal-23-january-2024-2/",
-      "publishedAt": "2026-04-19T23:21:52Z",
-      "excerpt": "Ships in port, at the anchorage and ETAs of ships expected at the port of Richards Bay Coal Terminal.",
-      "tags": [
-        "Ports",
-        "Africa"
-      ],
-      "audience": "Multraship",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [
-        "Infrastructure"
-      ],
-      "priorityScore": 5,
-      "priorityBand": "medium",
-      "priorityReasons": [
-        "Signal: Infrastructure"
-      ],
-      "boardBucket": "Regulation, Safety & Incidents"
-    },
-    {
       "id": "912546c521e9013a",
       "title": "IMO hazardous cargo compensation regime nears entry into force",
       "source": "Riviera: Safety & Incidents",
@@ -1152,6 +1071,110 @@ window.__DASHBOARD_DATA__ = {
       "boardBucket": "Regulation, Safety & Incidents"
     },
     {
+      "id": "79789e6afae927da",
+      "title": "Friede & Goldman Achieves DNV Approval for WindSetter 146 Class WTIVs",
+      "source": "The Maritime Executive",
+      "sourceId": "maritime-executive",
+      "url": "https://maritime-executive.com/article/friede-goldman-achieves-dnv-approval-for-windsetter-146-class-wtivs",
+      "publishedAt": "2026-04-21T20:31:25Z",
+      "excerpt": "Friede & Goldman (F&G), the world\u2019s leading independent designer of mobile offshore units, is pleased to announce that it has received Main Scantling...",
+      "tags": [
+        "Maritime",
+        "News"
+      ],
+      "audience": "Both",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [
+        "Regulation"
+      ],
+      "priorityScore": 4,
+      "priorityBand": "medium",
+      "priorityReasons": [
+        "Signal: Regulation"
+      ],
+      "boardBucket": "Regulation, Safety & Incidents"
+    },
+    {
+      "id": "87ba4ea3dad84375",
+      "title": "First Quays of the New Cruise Terminal Completed at Port of Klaipeda",
+      "source": "The Maritime Executive",
+      "sourceId": "maritime-executive",
+      "url": "https://maritime-executive.com/article/first-quays-of-the-new-cruise-terminal-completed-at-port-of-klaipeda",
+      "publishedAt": "2026-04-21T20:25:46Z",
+      "excerpt": "Construction of the new cruise ship terminal at the Port of Klaipeda has picked up speed and is moving forward rapidly. Work on the first quays, where...",
+      "tags": [
+        "Maritime",
+        "News"
+      ],
+      "audience": "Both",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [
+        "Infrastructure"
+      ],
+      "priorityScore": 4,
+      "priorityBand": "medium",
+      "priorityReasons": [
+        "Signal: Infrastructure"
+      ],
+      "boardBucket": "Regulation, Safety & Incidents"
+    },
+    {
+      "id": "1f53d0b350f53608",
+      "title": "US Navy to arm warships with Patriot missiles for the first time",
+      "source": "Baird Maritime",
+      "sourceId": "baird-maritime",
+      "url": "https://www.bairdmaritime.com/security/weaponry/us-navy-to-arm-warships-with-patriot-missiles-for-the-first-time",
+      "publishedAt": "2026-04-21T20:09:23Z",
+      "excerpt": "The US Government has awarded a contract to Lockheed Martin for the development, integration, and testing of the Patriot PAC-3 missile segment enhancement (MSE) into the Aegis combat system. This move introduces the US Navy as a user of th\u2026",
+      "tags": [
+        "Workboats",
+        "Technology"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [
+        "Commercial"
+      ],
+      "priorityScore": 4,
+      "priorityBand": "medium",
+      "priorityReasons": [
+        "Signal: Commercial"
+      ],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "0714dce9aa3ba92c",
+      "title": "Engie seeks a way out of US offshore wind leases, in talks for possible refund",
+      "source": "Baird Maritime",
+      "sourceId": "baird-maritime",
+      "url": "https://www.bairdmaritime.com/offshore/renewables/offshore-wind/engie-seeks-a-way-out-of-us-offshore-wind-leases-in-talks-for-possible-refund",
+      "publishedAt": "2026-04-21T19:37:57Z",
+      "excerpt": "French utility Engie is in talks with the Trump administration about a possible refund for its US offshore wind project leases amid the president's opposition to the technology, CEO Catherine MacGregor said on Tuesday. Engie has paused thr\u2026",
+      "tags": [
+        "Workboats",
+        "Technology"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [
+        "Commercial"
+      ],
+      "priorityScore": 4,
+      "priorityBand": "medium",
+      "priorityReasons": [
+        "Signal: Commercial"
+      ],
+      "boardBucket": "Other Relevant"
+    },
+    {
       "id": "a2cc77bf57c4957a",
       "title": "SWZ|Maritime\u2019s April 2026 issue: Dredging reimagined",
       "source": "SWZ Maritime",
@@ -1174,32 +1197,6 @@ window.__DASHBOARD_DATA__ = {
       "priorityBand": "medium",
       "priorityReasons": [
         "Signal: Infrastructure"
-      ],
-      "boardBucket": "Regulation, Safety & Incidents"
-    },
-    {
-      "id": "e1ff4eb791505ad2",
-      "title": "GE Vernova forced to continue work on US offshore wind farm amid dispute",
-      "source": "Splash247",
-      "sourceId": "splash247",
-      "url": "https://splash247.com/ge-vernova-forced-to-continue-work-on-us-offshore-wind-farm-amid-dispute/",
-      "publishedAt": "2026-04-21T02:40:00Z",
-      "excerpt": "A Massachusetts judge has issued a preliminary injunction ordering GE Vernova to remain engaged on the Vineyard Wind offshore wind farm, pointing out the legal limits on contractor exits once major projects reach advanced operational stage\u2026",
-      "tags": [
-        "Maritime",
-        "News"
-      ],
-      "audience": "Both",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [
-        "Regulation"
-      ],
-      "priorityScore": 4,
-      "priorityBand": "medium",
-      "priorityReasons": [
-        "Signal: Regulation"
       ],
       "boardBucket": "Regulation, Safety & Incidents"
     },
@@ -1502,6 +1499,32 @@ window.__DASHBOARD_DATA__ = {
       "boardBucket": "Other Relevant"
     },
     {
+      "id": "e652f1e3489ed807",
+      "title": "Lockheed Martin Wins Contract to Arm US Navy with Patriot Missile",
+      "source": "MarineLink",
+      "sourceId": "marinelink",
+      "url": "https://www.marinelink.com/news/lockheed-martin-wins-contract-arm-us-navy-538303",
+      "publishedAt": "2026-04-21T19:48:53Z",
+      "excerpt": "Lockheed Martin has been awarded a contract to integrate the Patriot missile, an Army missile interceptor, into the U.S. Navy's Aegis combat system, a milestone the company said on Tuesday marks the first time the weapon will be fielded at\u2026",
+      "tags": [
+        "Maritime",
+        "Industry"
+      ],
+      "audience": "Both",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [
+        "Commercial"
+      ],
+      "priorityScore": 3,
+      "priorityBand": "low",
+      "priorityReasons": [
+        "Signal: Commercial"
+      ],
+      "boardBucket": "Other Relevant"
+    },
+    {
       "id": "eba2d589fb48e157",
       "title": "DSV Delivers Petrochemical Columns to ORLEN",
       "source": "MarineLink",
@@ -1579,58 +1602,6 @@ window.__DASHBOARD_DATA__ = {
         "Signal: Regulation"
       ],
       "boardBucket": "Regulation, Safety & Incidents"
-    },
-    {
-      "id": "c746727e996643d8",
-      "title": "Case made for maritime as the last great uninvested industry",
-      "source": "Splash247",
-      "sourceId": "splash247",
-      "url": "https://splash247.com/case-made-for-maritime-as-the-last-great-uninvested-industry/",
-      "publishedAt": "2026-04-21T08:00:50Z",
-      "excerpt": "Specialist maritime venture fund Motion Ventures has published its full investment thesis for the first time in its five-year history, making the case that shipping is on the cusp of a technology transformation driven not by industry enthu\u2026",
-      "tags": [
-        "Maritime",
-        "News"
-      ],
-      "audience": "Both",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [
-        "Commercial"
-      ],
-      "priorityScore": 3,
-      "priorityBand": "low",
-      "priorityReasons": [
-        "Signal: Commercial"
-      ],
-      "boardBucket": "Other Relevant"
-    },
-    {
-      "id": "479f4e028fc9f666",
-      "title": "Transpetro orders LPG trio in China",
-      "source": "Splash247",
-      "sourceId": "splash247",
-      "url": "https://splash247.com/transpetro-orders-lpg-trio-in-china/",
-      "publishedAt": "2026-04-21T06:49:48Z",
-      "excerpt": "Brazil\u2019s Transpetro has lined up three new gas carriers at China\u2019s Zhoushan Dashenzhou Shipbuilding, as Petrobras\u2019 shipping arm pushes ahead with a wider fleet renewal programme. The contract covers 10,000 cu m semi-refrigerated carriers d\u2026",
-      "tags": [
-        "Maritime",
-        "News"
-      ],
-      "audience": "Both",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [
-        "Commercial"
-      ],
-      "priorityScore": 3,
-      "priorityBand": "low",
-      "priorityReasons": [
-        "Signal: Commercial"
-      ],
-      "boardBucket": "Other Relevant"
     },
     {
       "id": "272e74d8244973e4",
@@ -1792,6 +1763,162 @@ window.__DASHBOARD_DATA__ = {
       "boardBucket": "Other Relevant"
     },
     {
+      "id": "5feb14c3c2daf847",
+      "title": "UN\u2019s Maritime Agency Prepares Hormuz Evacuation Plan for Hundreds of Ships",
+      "source": "gCaptain",
+      "sourceId": "gcaptain",
+      "url": "https://gcaptain.com/uns-maritime-agency-prepares-hormuz-evacuation-plan-for-hundreds-of-ships/",
+      "publishedAt": "2026-04-21T20:09:40Z",
+      "excerpt": "The International Maritime Organization is working on an evacuation plan for hundreds of ships that have been stuck in the Persian Gulf since US and Israeli strikes on Iran began more than seven weeks ago, according to Secretary General Ar\u2026",
+      "tags": [
+        "Maritime",
+        "Operations"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [],
+      "priorityScore": 2,
+      "priorityBand": "low",
+      "priorityReasons": [],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "1f97c049b893396e",
+      "title": "Court ruling favors renewable energy lobbyists in US permitting row",
+      "source": "Baird Maritime",
+      "sourceId": "baird-maritime",
+      "url": "https://www.bairdmaritime.com/offshore/renewables/offshore-wind/court-ruling-favors-renewable-energy-lobbyists-in-us-permitting-row",
+      "publishedAt": "2026-04-21T19:57:37Z",
+      "excerpt": "A federal judge on Tuesday blocked President Donald Trump's administration from enforcing a series of permitting policies that wind and solar energy industry groups say have stymied the development of new energy generation projects. Chief\u2026",
+      "tags": [
+        "Workboats",
+        "Technology"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [],
+      "priorityScore": 2,
+      "priorityBand": "low",
+      "priorityReasons": [],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "ba026051986a8f4d",
+      "title": "Oil Prices Rise 3%, Iran Remains Undecided About Attending US Peace Talks",
+      "source": "MarineLink",
+      "sourceId": "marinelink",
+      "url": "https://www.marinelink.com/news/oil-prices-rise-iran-remains-undecided-538304",
+      "publishedAt": "2026-04-21T19:53:42Z",
+      "excerpt": "Oil prices climbed about 3% on Tuesday after Iran said it had yet to decide whether to attend peace talks with the United States, with one day left before the ceasefire runs out in the Iran war.U.S. President Donald Trump said he hoped to\u2026",
+      "tags": [
+        "Incidents",
+        "Maritime",
+        "Industry"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [],
+      "priorityScore": 2,
+      "priorityBand": "low",
+      "priorityReasons": [],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "a33700ed2507e18f",
+      "title": "\"Golden Fleet\" headlines proposed $1.5 trillion US defence budget",
+      "source": "Baird Maritime",
+      "sourceId": "baird-maritime",
+      "url": "https://www.bairdmaritime.com/security/naval/naval-ships/golden-fleet-headlines-proposed-15-trillion-us-defence-budget",
+      "publishedAt": "2026-04-21T19:43:57Z",
+      "excerpt": "The Pentagon on Tuesday unveiled more details of President Donald Trump's $1.5 trillion defense budget request for fiscal year 2027, by far the largest year-over-year increase in defense spending in the post-World War Two era. In a new wri\u2026",
+      "tags": [
+        "Workboats",
+        "Technology"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [],
+      "priorityScore": 2,
+      "priorityBand": "low",
+      "priorityReasons": [],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "a5f63b5a6c6050ed",
+      "title": "FEATURE | Clock ticks on ceasefire as US forces intercept another Iranian ship",
+      "source": "Baird Maritime",
+      "sourceId": "baird-maritime",
+      "url": "https://www.bairdmaritime.com/security/naval/feature-clock-ticks-on-ceasefire-as-us-forces-intercept-another-iranian-ship",
+      "publishedAt": "2026-04-21T19:32:01Z",
+      "excerpt": "The US military said on Tuesday it had seized a tanker linked to Iran in international waters, its latest apparent action to enforce a blockade, with time running out on a ceasefire and the prospect of last-ditch further peace talks still\u2026",
+      "tags": [
+        "Incidents",
+        "Workboats",
+        "Technology"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [],
+      "priorityScore": 2,
+      "priorityBand": "low",
+      "priorityReasons": [],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "28bd8831fb9e613f",
+      "title": "China hints Philippine energy aid has military strings attached",
+      "source": "Baird Maritime",
+      "sourceId": "baird-maritime",
+      "url": "https://www.bairdmaritime.com/security/naval/china-hints-philippine-energy-aid-has-military-strings-attached",
+      "publishedAt": "2026-04-21T19:23:01Z",
+      "excerpt": "China on Tuesday implied energy assistance for the Philippines could be tied to Manila holding military drills with the US and other allies, as its top newspaper showed Beijing's readiness to leverage its reserves in diplomatic disputes. I\u2026",
+      "tags": [
+        "Workboats",
+        "Technology"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [],
+      "priorityScore": 2,
+      "priorityBand": "low",
+      "priorityReasons": [],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "90728e2ff3075022",
+      "title": "Japan eases pacifist restraints to allow global defence exports, rattling China",
+      "source": "Baird Maritime",
+      "sourceId": "baird-maritime",
+      "url": "https://www.bairdmaritime.com/security/naval/naval-ships/japan-eases-pacifist-restraints-to-allow-global-defence-exports-rattling-china",
+      "publishedAt": "2026-04-21T19:11:36Z",
+      "excerpt": "Japan on Tuesday unveiled its biggest overhaul of defence export rules in decades, scrapping restrictions on overseas arms sales and opening the way for exports of warships, missiles and other weapons. The move aimed at strengthening Japan\u2026",
+      "tags": [
+        "Workboats",
+        "Technology"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [],
+      "priorityScore": 2,
+      "priorityBand": "low",
+      "priorityReasons": [],
+      "boardBucket": "Other Relevant"
+    },
+    {
       "id": "468ff06bc02dbb3a",
       "title": "Decarbonization as a Path to Independence",
       "source": "The Maritime Executive",
@@ -1819,44 +1946,16 @@ window.__DASHBOARD_DATA__ = {
       "boardBucket": "Other Relevant"
     },
     {
-      "id": "ac3c0a8d2d7496da",
-      "title": "Contship joins the Smart Freight Centre community: International Collaboration And Shared Standards To Accelerate The Climate Transition",
-      "source": "Hellenic Shipping News",
-      "sourceId": "hellenic-shipping-news",
-      "url": "https://www.hellenicshippingnews.com/contship-joins-the-smart-freight-centre-community-international-collaboration-and-shared-standards-to-accelerate-the-climate-transition/",
-      "publishedAt": "2026-04-21T17:00:55Z",
-      "excerpt": "Contship announces its membership in the Smart Freight Centre (SFC) community, an international organization committed to decarbonizing freight transport and promoting harmonized standards for measuring and reducing emissions across global\u2026",
+      "id": "1d6f11e23b74b7fc",
+      "title": "Shrinking low-sulphur oil supply threatens marine fuel stability",
+      "source": "Baird Maritime",
+      "sourceId": "baird-maritime",
+      "url": "https://www.bairdmaritime.com/offshore/refining-processing/shrinking-low-sulphur-oil-supply-threatens-marine-fuel-stability",
+      "publishedAt": "2026-04-21T19:03:34Z",
+      "excerpt": "Marine fuel providers face tighter supply of higher-density, low-sulphur crude oil, known as heavy sweet, for blending because of competition from refiners for the same oil as the Iran war disrupts Middle East imports, industry sources sai\u2026",
       "tags": [
-        "Decarbonization",
-        "Shipping",
-        "Markets"
-      ],
-      "audience": "Novatug",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [
-        "Energy Transition"
-      ],
-      "priorityScore": 2,
-      "priorityBand": "low",
-      "priorityReasons": [
-        "Signal: Energy Transition"
-      ],
-      "boardBucket": "Other Relevant"
-    },
-    {
-      "id": "5f34f8ba704090f5",
-      "title": "Strait of Hormuz traffic falls off sharply as ceasefire wobbles",
-      "source": "Hellenic Shipping News",
-      "sourceId": "hellenic-shipping-news",
-      "url": "https://www.hellenicshippingnews.com/strait-of-hormuz-traffic-falls-off-sharply-as-ceasefire-wobbles/",
-      "publishedAt": "2026-04-21T17:00:51Z",
-      "excerpt": "Eight vessels transited the contested Strait of Hormuz April 19, a drop of roughly two-thirds from the day before, S&P Global Commodities At Sea(opens in a new tab) said in an April 20 report. Many ships approaching the strait turned back\u2026",
-      "tags": [
-        "Incidents",
-        "Shipping",
-        "Markets"
+        "Workboats",
+        "Technology"
       ],
       "audience": "Multraship",
       "paywalled": false,
@@ -1869,17 +1968,16 @@ window.__DASHBOARD_DATA__ = {
       "boardBucket": "Other Relevant"
     },
     {
-      "id": "dd66ca61b353a8a1",
-      "title": "European natural gas prices climb with Iran peace talks in question",
-      "source": "Hellenic Shipping News",
-      "sourceId": "hellenic-shipping-news",
-      "url": "https://www.hellenicshippingnews.com/european-natural-gas-prices-climb-with-iran-peace-talks-in-question/",
-      "publishedAt": "2026-04-21T17:00:33Z",
-      "excerpt": "European natural gas prices rose on Tuesday, as investors gauged murkiness around the trajectory of potential talks between the U.S. and Iran to extend a temporary ceasefire. By 09:23 ET (13:23 GMT), the benchmark Dutch front-month contrac\u2026",
+      "id": "ca2f545f3e15b868",
+      "title": "Norway outpaces its own oil and gas production forecast for March",
+      "source": "Baird Maritime",
+      "sourceId": "baird-maritime",
+      "url": "https://www.bairdmaritime.com/offshore/drilling-production/norway-outpaces-its-own-oil-and-gas-production-forecast-for-march",
+      "publishedAt": "2026-04-21T18:57:28Z",
+      "excerpt": "Norway's combined oil and gas production exceeded an official forecast by 2.8 per cent in March, the Norwegian Offshore Directorate (NOD) said on Tuesday. Norway is Europe's largest supplier of natural gas and a major producer of oil, but\u2026",
       "tags": [
-        "Incidents",
-        "Shipping",
-        "Markets"
+        "Workboats",
+        "Technology"
       ],
       "audience": "Multraship",
       "paywalled": false,
@@ -1984,6 +2082,50 @@ window.__DASHBOARD_DATA__ = {
       "boardBucket": "Other Relevant"
     },
     {
+      "id": "f2a1216df42b8497",
+      "title": "Wah Kwong launches dedicated dry bulk operating entity",
+      "source": "Baird Maritime",
+      "sourceId": "baird-maritime",
+      "url": "https://www.bairdmaritime.com/shipping/dry-cargo/bulkers/wah-kwong-launches-dedicated-dry-bulk-operating-entity",
+      "publishedAt": "2026-04-21T10:48:00Z",
+      "excerpt": "Hong Kong-based Wah Kwong Maritime Transport Holdings has officially established Wah Kwong Bulk as a dedicated dry bulk owning and operating entity. It remarked that this new company integrates the dry bulk business of the group into a mod\u2026",
+      "tags": [
+        "Workboats",
+        "Technology"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [],
+      "priorityScore": 2,
+      "priorityBand": "low",
+      "priorityReasons": [],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "36e876ed35867c59",
+      "title": "Another US drone firm launches two new USV designs",
+      "source": "Baird Maritime",
+      "sourceId": "baird-maritime",
+      "url": "https://www.bairdmaritime.com/security/naval/unmanned-naval-systems/another-us-drone-firm-launches-two-new-usv-designs",
+      "publishedAt": "2026-04-21T10:11:13Z",
+      "excerpt": "BlackSea Technologies has announced the introduction of two new small unmanned surface vessels. The company stated that the modular model is an adaptable platform for varying mission demands, while the larger variant is a high-speed vessel\u2026",
+      "tags": [
+        "Workboats",
+        "Technology"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [],
+      "priorityScore": 2,
+      "priorityBand": "low",
+      "priorityReasons": [],
+      "boardBucket": "Other Relevant"
+    },
+    {
       "id": "545c144062d67f40",
       "title": "Tramped cruise ships flee through Strait of Hormuz",
       "source": "Riviera: Safety & Incidents",
@@ -2069,33 +2211,6 @@ window.__DASHBOARD_DATA__ = {
       "priorityScore": 2,
       "priorityBand": "low",
       "priorityReasons": [],
-      "boardBucket": "Other Relevant"
-    },
-    {
-      "id": "956b9a7f37cbed51",
-      "title": "Rio Tinto locks in methanol-ready bulker charters",
-      "source": "Splash247",
-      "sourceId": "splash247",
-      "url": "https://splash247.com/rio-tinto-locks-in-methanol-ready-bulker-charters/",
-      "publishedAt": "2026-04-21T07:00:32Z",
-      "excerpt": "Mining giant Rio Tinto has secured long-term freight cover with a deal to charter two methanol-capable dual-fuel newcastlemax bulkers from Japan\u2019s NS United Kaiun Kaisha, with deliveries set from 2028. The move gives the miner added flexib\u2026",
-      "tags": [
-        "Clean Propulsion",
-        "Maritime",
-        "News"
-      ],
-      "audience": "Novatug",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [
-        "Energy Transition"
-      ],
-      "priorityScore": 2,
-      "priorityBand": "low",
-      "priorityReasons": [
-        "Signal: Energy Transition"
-      ],
       "boardBucket": "Other Relevant"
     },
     {
@@ -2202,28 +2317,6 @@ window.__DASHBOARD_DATA__ = {
       "boardBucket": "Other Relevant"
     },
     {
-      "id": "8c4c18d3e4f83d64",
-      "title": "DURBAN MULTI-PURPOSE TERMINALS",
-      "source": "Africa Ports & Ships",
-      "sourceId": "africa-ports",
-      "url": "https://africaports.co.za/2026/04/21/durban-muti-purpose-terminalsdurban-daily-ship-movements-2-2-2-2/",
-      "publishedAt": "2026-04-20T22:01:50Z",
-      "excerpt": "Ships in port, at the SBM, at the anchorage, arrivals and departures and ships passing Durban at the time of the report.",
-      "tags": [
-        "Ports",
-        "Africa"
-      ],
-      "audience": "Multraship",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [],
-      "priorityScore": 2,
-      "priorityBand": "low",
-      "priorityReasons": [],
-      "boardBucket": "Other Relevant"
-    },
-    {
       "id": "36e93ea9e4a07391",
       "title": "Trump Doubles Down on Iran Blockade as Peace Talks Hang in Balance",
       "source": "gCaptain",
@@ -2275,28 +2368,6 @@ window.__DASHBOARD_DATA__ = {
       "url": "https://gcaptain.com/search-intensifies-after-cargo-ship-mariana-found-overturned-near-saipan/",
       "publishedAt": "2026-04-20T19:36:19Z",
       "excerpt": "The U.S. Coast Guard and an expanding multinational task force are racing against time in the remote waters of the western Pacific after the U.S.-flagged cargo vessel Mariana was discovered overturned northeast...",
-      "tags": [
-        "Maritime",
-        "Operations"
-      ],
-      "audience": "Multraship",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [],
-      "priorityScore": 2,
-      "priorityBand": "low",
-      "priorityReasons": [],
-      "boardBucket": "Other Relevant"
-    },
-    {
-      "id": "6ac12845e2698320",
-      "title": "Iran Considers US Talks in Pakistan With Blockade Still Unresolved",
-      "source": "gCaptain",
-      "sourceId": "gcaptain",
-      "url": "https://gcaptain.com/iran-considers-us-talks-in-pakistan-with-blockade-still-unresolved/",
-      "publishedAt": "2026-04-20T17:16:06Z",
-      "excerpt": "Iran is considering attending peace talks with the United States in Pakistan, a senior Iranian official told Reuters on Monday, following moves by Islamabad to end a U.S. blockade of Iran's ports, a major hurdle for Iran to rejoin peace ef\u2026",
       "tags": [
         "Maritime",
         "Operations"
@@ -2452,138 +2523,6 @@ window.__DASHBOARD_DATA__ = {
         "Salvage",
         "Maritime",
         "News"
-      ],
-      "audience": "Multraship",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [],
-      "priorityScore": 2,
-      "priorityBand": "low",
-      "priorityReasons": [],
-      "boardBucket": "Other Relevant"
-    },
-    {
-      "id": "43d92c61ee335d29",
-      "title": "PORT OF SALDANHA",
-      "source": "Africa Ports & Ships",
-      "sourceId": "africa-ports",
-      "url": "https://africaports.co.za/2026/04/20/saldanha/",
-      "publishedAt": "2026-04-19T23:04:59Z",
-      "excerpt": "Ships in port at Saldanha port, at the inner anchorage, at the St Helena Bay anchorage and ETAs of ships expected",
-      "tags": [
-        "Ports",
-        "Africa"
-      ],
-      "audience": "Multraship",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [],
-      "priorityScore": 2,
-      "priorityBand": "low",
-      "priorityReasons": [],
-      "boardBucket": "Other Relevant"
-    },
-    {
-      "id": "883145cfd00faaa1",
-      "title": "EAST LONDON",
-      "source": "Africa Ports & Ships",
-      "sourceId": "africa-ports",
-      "url": "https://africaports.co.za/2026/04/20/est-london-23-january2024/",
-      "publishedAt": "2026-04-19T23:02:16Z",
-      "excerpt": "Ships in port and ETAs of ships expected in the port of East London",
-      "tags": [
-        "Ports",
-        "Africa"
-      ],
-      "audience": "Multraship",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [],
-      "priorityScore": 2,
-      "priorityBand": "low",
-      "priorityReasons": [],
-      "boardBucket": "Other Relevant"
-    },
-    {
-      "id": "cd9d52b1462ea778",
-      "title": "PORT ELIZABETH SHIP MOVEMENTS",
-      "source": "Africa Ports & Ships",
-      "sourceId": "africa-ports",
-      "url": "https://africaports.co.za/2026/04/20/portelizabeth/",
-      "publishedAt": "2026-04-19T22:02:48Z",
-      "excerpt": "Sips in port, at the anchorage and ETAs of ships expected in Port Elizabeth.",
-      "tags": [
-        "Ports",
-        "Africa"
-      ],
-      "audience": "Multraship",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [],
-      "priorityScore": 2,
-      "priorityBand": "low",
-      "priorityReasons": [],
-      "boardBucket": "Other Relevant"
-    },
-    {
-      "id": "fff755c2a3126e54",
-      "title": "CAPE TOWN SHIP MOVEMENTS",
-      "source": "Africa Ports & Ships",
-      "sourceId": "africa-ports",
-      "url": "https://africaports.co.za/2026/04/20/cape-town-2-3/",
-      "publishedAt": "2026-04-19T22:01:53Z",
-      "excerpt": "Ships in port, at the V&A, at the Table Bay anchorage, at the OPL and ETAs of ships expected in the port of Cape Town.",
-      "tags": [
-        "Ports",
-        "Africa"
-      ],
-      "audience": "Multraship",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [],
-      "priorityScore": 2,
-      "priorityBand": "low",
-      "priorityReasons": [],
-      "boardBucket": "Other Relevant"
-    },
-    {
-      "id": "1d665190b937e533",
-      "title": "Port of BEIRA",
-      "source": "Africa Ports & Ships",
-      "sourceId": "africa-ports",
-      "url": "https://africaports.co.za/2026/04/20/beira-2/",
-      "publishedAt": "2026-04-19T22:01:49Z",
-      "excerpt": "Ships in port, at the anchorage nd ETAs of ships expected in the port of Beira.",
-      "tags": [
-        "Ports",
-        "Africa"
-      ],
-      "audience": "Multraship",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [],
-      "priorityScore": 2,
-      "priorityBand": "low",
-      "priorityReasons": [],
-      "boardBucket": "Other Relevant"
-    },
-    {
-      "id": "3f07e256a292049c",
-      "title": "Port of MAPUTO",
-      "source": "Africa Ports & Ships",
-      "sourceId": "africa-ports",
-      "url": "https://africaports.co.za/2026/04/20/maputo-3/",
-      "publishedAt": "2026-04-19T22:01:31Z",
-      "excerpt": "Ship in port, at the anchorage and ETAs of ships expected in the port of Maputo.",
-      "tags": [
-        "Ports",
-        "Africa"
       ],
       "audience": "Multraship",
       "paywalled": false,
@@ -3540,6 +3479,28 @@ window.__DASHBOARD_DATA__ = {
       "boardBucket": "Other Relevant"
     },
     {
+      "id": "8f53576177363d8a",
+      "title": "Jones Walker Expands Its Nationally Recognized Maritime Practice",
+      "source": "The Maritime Executive",
+      "sourceId": "maritime-executive",
+      "url": "https://maritime-executive.com/article/jones-walker-expands-its-nationally-recognized-maritime-practice",
+      "publishedAt": "2026-04-21T20:19:32Z",
+      "excerpt": "Jones Walker LLP is pleased to welcome Kelly Haas as partner and associate Hayley Stancil as members of the Maritime Practice Group in the firm\u2019s Hous...",
+      "tags": [
+        "Maritime",
+        "News"
+      ],
+      "audience": "Both",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [],
+      "priorityScore": 1,
+      "priorityBand": "low",
+      "priorityReasons": [],
+      "boardBucket": "Other Relevant"
+    },
+    {
       "id": "072933c3b3432fe9",
       "title": "Report: Scammers Are Offering Ships Safe Hormuz Passage for Crypto Payments",
       "source": "The Maritime Executive",
@@ -3673,6 +3634,28 @@ window.__DASHBOARD_DATA__ = {
       "boardBucket": "Other Relevant"
     },
     {
+      "id": "7ff742dd46fb9f3e",
+      "title": "Singapore Maritime Foundation Partners Industry to Raise S$407,000",
+      "source": "The Maritime Executive",
+      "sourceId": "maritime-executive",
+      "url": "https://maritime-executive.com/article/singapore-maritime-foundation-partners-industry-to-raise-s-407-000",
+      "publishedAt": "2026-04-21T16:32:04Z",
+      "excerpt": "This morning, the Singapore Maritime Foundation (SMF) held the second edition of the SMF City Cycle at PAssion Wave @ Marina Bay. Under the theme \u201cBri...",
+      "tags": [
+        "Maritime",
+        "News"
+      ],
+      "audience": "Both",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [],
+      "priorityScore": 1,
+      "priorityBand": "low",
+      "priorityReasons": [],
+      "boardBucket": "Other Relevant"
+    },
+    {
       "id": "8853cd98d586622d",
       "title": "Iran, US Talks Hit Impasse as Truce Nears Expiry",
       "source": "Rigzone",
@@ -3762,72 +3745,6 @@ window.__DASHBOARD_DATA__ = {
       "boardBucket": "Other Relevant"
     },
     {
-      "id": "08b1a77f5f20f042",
-      "title": "Meyer Turku Targets Digital, Green Shift with New Industry Program",
-      "source": "MarineLink",
-      "sourceId": "marinelink",
-      "url": "https://www.marinelink.com/news/meyer-turku-targets-digital-green-shift-538279",
-      "publishedAt": "2026-04-21T10:18:44Z",
-      "excerpt": "Finnish shipbuilder Meyer Turku has launched a five-year research and development program aimed at supporting the maritime industry through environmental, digital and geopolitical changes.The MERiON program, co-funded by Business Finland,\u2026",
-      "tags": [
-        "Maritime",
-        "Industry"
-      ],
-      "audience": "Both",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [],
-      "priorityScore": 1,
-      "priorityBand": "low",
-      "priorityReasons": [],
-      "boardBucket": "Other Relevant"
-    },
-    {
-      "id": "8f239ee9a98e4367",
-      "title": "UK\u2019s Portland Port Expands Services with LNG Transfer Capability",
-      "source": "MarineLink",
-      "sourceId": "marinelink",
-      "url": "https://www.marinelink.com/news/uks-portland-port-expands-services-lng-538277",
-      "publishedAt": "2026-04-21T09:34:02Z",
-      "excerpt": "Portland Port in Dorset has been approved to carry out liquefied natural gas (LNG) ship-to-ship transfers, expanding its fuel handling capabilities.The port, which is already operational for oil and liquefied petroleum gas transfers, said\u2026",
-      "tags": [
-        "Maritime",
-        "Industry"
-      ],
-      "audience": "Both",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [],
-      "priorityScore": 1,
-      "priorityBand": "low",
-      "priorityReasons": [],
-      "boardBucket": "Other Relevant"
-    },
-    {
-      "id": "d47156073af173a0",
-      "title": "The unprecedented plight of seafarers in the Hormuz crisis",
-      "source": "Splash247",
-      "sourceId": "splash247",
-      "url": "https://splash247.com/the-unprecedented-plight-of-seafarers-in-the-hormuz-crisis/",
-      "publishedAt": "2026-04-21T08:15:14Z",
-      "excerpt": "The ongoing maritime paralysis in the Middle East has no precedent in the post-World War II era for seafarers caught in a war zone. As regional tensions remains at a breaking point, thousands of crewmembers find themselves effectively immo\u2026",
-      "tags": [
-        "Maritime",
-        "News"
-      ],
-      "audience": "Both",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [],
-      "priorityScore": 1,
-      "priorityBand": "low",
-      "priorityReasons": [],
-      "boardBucket": "Other Relevant"
-    },
-    {
       "id": "ed6c8af0fa122d34",
       "title": "OMV Appoints Former BP EVP of Products as CEO",
       "source": "Rigzone",
@@ -3887,116 +3804,6 @@ window.__DASHBOARD_DATA__ = {
       "priorityReasons": [
         "Supplier mention: BP Raffinaderij"
       ],
-      "boardBucket": "Other Relevant"
-    },
-    {
-      "id": "523632e6ac7fce5e",
-      "title": "Geneva Dry set to tackle shipping\u2019s biggest stress points",
-      "source": "Splash247",
-      "sourceId": "splash247",
-      "url": "https://splash247.com/geneva-dry-set-to-tackle-shippings-biggest-stress-points/",
-      "publishedAt": "2026-04-21T07:27:42Z",
-      "excerpt": "A year in the making, next week\u2019s Geneva Dry summit promises to be this year\u2019s first major event to address the major stress points for shipping. From the Hormuz fallout to the green transition via plenty of frank conversations on all thin\u2026",
-      "tags": [
-        "Maritime",
-        "News"
-      ],
-      "audience": "Both",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [],
-      "priorityScore": 1,
-      "priorityBand": "low",
-      "priorityReasons": [],
-      "boardBucket": "Other Relevant"
-    },
-    {
-      "id": "e27a02bb139138bb",
-      "title": "Scorpio Tankers lines up $300m sale of six ships",
-      "source": "Splash247",
-      "sourceId": "splash247",
-      "url": "https://splash247.com/scorpio-tankers-lines-up-300m-sale-of-six-ships/",
-      "publishedAt": "2026-04-21T07:19:29Z",
-      "excerpt": "New York-listed Scorpio Tankers is offloading six product tankers in a deal worth about $300m, as the owner continues to reshape its fleet and free up capital. The Emanuele Lauro-led company said it has agreed to sell three LR2s and three\u2026",
-      "tags": [
-        "Maritime",
-        "News"
-      ],
-      "audience": "Both",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [],
-      "priorityScore": 1,
-      "priorityBand": "low",
-      "priorityReasons": [],
-      "boardBucket": "Other Relevant"
-    },
-    {
-      "id": "96ff125cddefeb09",
-      "title": "Yangzijiang Shipbuilding adds repair and conversion arm",
-      "source": "Splash247",
-      "sourceId": "splash247",
-      "url": "https://splash247.com/yangzijiang-shipbuilding-adds-repair-and-conversion-arm/",
-      "publishedAt": "2026-04-21T06:30:00Z",
-      "excerpt": "Yangzijiang Shipbuilding is widening its footprint beyond newbuilds, setting up a dedicated ship repair and conversion arm as it looks to tap into growing demand for retrofit and green upgrades. The Singapore-listed company has established\u2026",
-      "tags": [
-        "Maritime",
-        "News"
-      ],
-      "audience": "Both",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [],
-      "priorityScore": 1,
-      "priorityBand": "low",
-      "priorityReasons": [],
-      "boardBucket": "Other Relevant"
-    },
-    {
-      "id": "50b98031ab3401a1",
-      "title": "Efficiency is the bridge to future fuels",
-      "source": "Splash247",
-      "sourceId": "splash247",
-      "url": "https://splash247.com/efficiency-is-the-bridge-to-future-fuels/",
-      "publishedAt": "2026-04-21T03:00:11Z",
-      "excerpt": "As the industry pushes ahead toward future fuels, it must not overlook the immediate power of operational discipline and voyage-level data to manage costs and strengthen readiness for the transition, says Alex Caizergues, founder and CEO o\u2026",
-      "tags": [
-        "Maritime",
-        "News"
-      ],
-      "audience": "Both",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [],
-      "priorityScore": 1,
-      "priorityBand": "low",
-      "priorityReasons": [],
-      "boardBucket": "Other Relevant"
-    },
-    {
-      "id": "af2c0802a5b650f4",
-      "title": "California ruling halts offshore pipeline restart despite federal push",
-      "source": "Splash247",
-      "sourceId": "splash247",
-      "url": "https://splash247.com/california-ruling-halts-offshore-pipeline-restart-despite-federal-push/",
-      "publishedAt": "2026-04-21T02:30:00Z",
-      "excerpt": "A California judge has ruled that Sable Offshore Corp. cannot resume operations on its coastal pipeline without state permits, rejecting the company\u2019s argument that a federal executive order trumps an existing state\u2011level injunction. Santa\u2026",
-      "tags": [
-        "Maritime",
-        "News"
-      ],
-      "audience": "Both",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [],
-      "priorityScore": 1,
-      "priorityBand": "low",
-      "priorityReasons": [],
       "boardBucket": "Other Relevant"
     },
     {
@@ -4333,94 +4140,6 @@ window.__DASHBOARD_DATA__ = {
       "boardBucket": "Other Relevant"
     },
     {
-      "id": "923c4ba3652bdcb4",
-      "title": "Norway is Building the Most Advanced Testing Basin Ever Constructed",
-      "source": "The Maritime Executive",
-      "sourceId": "maritime-executive",
-      "url": "https://maritime-executive.com/article/norway-is-building-the-most-advanced-testing-basin-ever-constructed",
-      "publishedAt": "2026-04-20T01:31:00Z",
-      "excerpt": "[By Henriette Louise Krogness and Tore Stensvold]It was no easy task for Statsbygg when the Norwegian Ocean Technology Centre was given the go-ahead...",
-      "tags": [
-        "Maritime",
-        "News"
-      ],
-      "audience": "Both",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [],
-      "priorityScore": 1,
-      "priorityBand": "low",
-      "priorityReasons": [],
-      "boardBucket": "Other Relevant"
-    },
-    {
-      "id": "660010aa826ea03a",
-      "title": "Bolidt on Deck at Scale as New Cruise Season Approaches",
-      "source": "The Maritime Executive",
-      "sourceId": "maritime-executive",
-      "url": "https://maritime-executive.com/article/bolidt-on-deck-at-scale-as-new-cruise-season-approaches",
-      "publishedAt": "2026-04-20T00:48:04Z",
-      "excerpt": "The coming season sees major operators including MSC Cruises, Royal Caribbean and AIDA Cruises engaging industry-leading decking company Bolidt for ke...",
-      "tags": [
-        "Maritime",
-        "News"
-      ],
-      "audience": "Both",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [],
-      "priorityScore": 1,
-      "priorityBand": "low",
-      "priorityReasons": [],
-      "boardBucket": "Other Relevant"
-    },
-    {
-      "id": "9b7dd1729cf63a4f",
-      "title": "Time, Not Distance",
-      "source": "The Maritime Executive",
-      "sourceId": "maritime-executive",
-      "url": "https://maritime-executive.com/article/time-not-distance",
-      "publishedAt": "2026-04-20T00:29:00Z",
-      "excerpt": "For centuries, the great circle route has been an elegant solution addressing the shortest path between two points.Modern shipping, however, operates...",
-      "tags": [
-        "Maritime",
-        "News"
-      ],
-      "audience": "Both",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [],
-      "priorityScore": 1,
-      "priorityBand": "low",
-      "priorityReasons": [],
-      "boardBucket": "Other Relevant"
-    },
-    {
-      "id": "ca6d3c5c734795fe",
-      "title": "Glamox to Light Four Offshore Energy Support Vessels for Sea1 Offshore",
-      "source": "The Maritime Executive",
-      "sourceId": "maritime-executive",
-      "url": "https://maritime-executive.com/article/glamox-to-light-four-offshore-energy-support-vessels-for-sea1-offshore",
-      "publishedAt": "2026-04-20T00:27:43Z",
-      "excerpt": "Glamox, a global leader in lighting, will supply lighting for four Offshore Energy Support Vessels (OESVs) being built for Sea1 Offshore AS, a worldwi...",
-      "tags": [
-        "Maritime",
-        "News"
-      ],
-      "audience": "Both",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [],
-      "priorityScore": 1,
-      "priorityBand": "low",
-      "priorityReasons": [],
-      "boardBucket": "Other Relevant"
-    },
-    {
       "id": "4989c1cae4dcd3a1",
       "title": "Fugro opens ROV test pool facility in Singapore",
       "source": "SWZ Maritime",
@@ -4504,6 +4223,270 @@ window.__DASHBOARD_DATA__ = {
       "locations": [],
       "businessTags": [],
       "priorityScore": 1,
+      "priorityBand": "low",
+      "priorityReasons": [],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "e731f168b502ca08",
+      "title": "UK to launch new leasing round for offshore wind in early 2027",
+      "source": "Riviera: Regulations & Compliance",
+      "sourceId": "riviera-regulation",
+      "url": "https://www.rivieramm.com/news-content-hub/uk-to-launch-new-leasing-round-for-offshore-wind-in-early-2027-88295",
+      "publishedAt": "2026-04-10T14:47:41Z",
+      "excerpt": "Potential 6 GW of capacity to be made available, primarily off the northeast of England",
+      "tags": [
+        "Regulation",
+        "Compliance"
+      ],
+      "audience": "Both",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [],
+      "priorityScore": 1,
+      "priorityBand": "low",
+      "priorityReasons": [],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "4ab34f0022434720",
+      "title": "Department of Interior to consolidate BOEM and BSEE in new agency",
+      "source": "Riviera: Regulations & Compliance",
+      "sourceId": "riviera-regulation",
+      "url": "https://www.rivieramm.com/news-content-hub/department-of-interior-to-consolidate-boem-and-bsee-in-new-agency-88392",
+      "publishedAt": "2026-04-07T10:54:47Z",
+      "excerpt": "Plan to create the Marine Minerals Administration \u2018reflects the evolution of offshore energy\u2019 and the need to improve co-ordination, Trump administration claims",
+      "tags": [
+        "Regulation",
+        "Compliance"
+      ],
+      "audience": "Both",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [],
+      "priorityScore": 1,
+      "priorityBand": "low",
+      "priorityReasons": [],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "eaab0399b9acdde0",
+      "title": "Larger superyachts lift ballast water system demand",
+      "source": "Riviera: Regulations & Compliance",
+      "sourceId": "riviera-regulation",
+      "url": "https://www.rivieramm.com/news-content-hub/larger-superyachts-lift-ballast-water-system-demand-88291",
+      "publishedAt": "2026-04-06T06:30:00Z",
+      "excerpt": "60 m-plus yacht deliveries are supporting ballast water treatment demand as builders increasingly integrate systems at the design stage",
+      "tags": [
+        "Regulation",
+        "Compliance"
+      ],
+      "audience": "Both",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [],
+      "priorityScore": 1,
+      "priorityBand": "low",
+      "priorityReasons": [],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "7ba5b9cacc8aa802",
+      "title": "UK moves to board sanctioned shadow fleet tankers",
+      "source": "Riviera: Regulations & Compliance",
+      "sourceId": "riviera-regulation",
+      "url": "https://www.rivieramm.com/news-content-hub/uk-to-interdict-sanctioned-shadow-fleet-tankers-88279",
+      "publishedAt": "2026-03-26T10:30:00Z",
+      "excerpt": "British government says sanctioned vessels linked to Russia\u2019s shadow fleet face boarding, detention and possible criminal proceedings if they transit UK waters",
+      "tags": [
+        "Regulation",
+        "Compliance"
+      ],
+      "audience": "Both",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [],
+      "priorityScore": 1,
+      "priorityBand": "low",
+      "priorityReasons": [],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "e45dfd0655ab2533",
+      "title": "Yangtze study links antifouling paint particles to sediment copper risk",
+      "source": "Riviera: Regulations & Compliance",
+      "sourceId": "riviera-regulation",
+      "url": "https://www.rivieramm.com/news-content-hub/yangtze-study-links-antifouling-paint-particles-to-sediment-copper-risk-88076",
+      "publishedAt": "2026-03-24T06:30:00Z",
+      "excerpt": "New research traces antifouling paint particles across the Yangtze estuary, highlighting a sediment pollution pattern closely aligned with vessel traffic",
+      "tags": [
+        "Regulation",
+        "Compliance"
+      ],
+      "audience": "Both",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [],
+      "priorityScore": 1,
+      "priorityBand": "low",
+      "priorityReasons": [],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "403fe5d8c23f88bc",
+      "title": "Halliburton Sees Signs of an Oil Rebound in North America",
+      "source": "Rigzone",
+      "sourceId": "rigzone-latest",
+      "url": "https://www.rigzone.com/news/wire/halliburton_sees_signs_of_an_oil_rebound_in_north_america-21-apr-2026-183501-article/?rss=true",
+      "publishedAt": "2026-04-21T20:00:00Z",
+      "excerpt": "Halliburton Co. said it sees signs of a resurgence in oilfield activity in North America.",
+      "tags": [
+        "Offshore",
+        "Energy"
+      ],
+      "audience": "Novatug",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [],
+      "priorityScore": 0,
+      "priorityBand": "low",
+      "priorityReasons": [],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "72152ece1b9704d0",
+      "title": "Texas Upstream Employment Continues Dropping",
+      "source": "Rigzone",
+      "sourceId": "rigzone-latest",
+      "url": "https://www.rigzone.com/news/texas_upstream_employment_continues_dropping-21-apr-2026-183502-article/?rss=true",
+      "publishedAt": "2026-04-21T14:38:55Z",
+      "excerpt": "Texas upstream employment has continued its downward trend, industry body TIPRO noted.",
+      "tags": [
+        "Offshore",
+        "Energy"
+      ],
+      "audience": "Novatug",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [],
+      "priorityScore": 0,
+      "priorityBand": "low",
+      "priorityReasons": [],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "5eccf75a085e2597",
+      "title": "Oil Traders Warn Worst of Demand Hit Is Yet to Come",
+      "source": "Rigzone",
+      "sourceId": "rigzone-latest",
+      "url": "https://www.rigzone.com/news/wire/oil_traders_warn_worst_of_demand_hit_is_yet_to_come-21-apr-2026-183500-article/?rss=true",
+      "publishedAt": "2026-04-21T13:46:26Z",
+      "excerpt": "The world's top oil traders said that demand destruction wrought by the Iran war is set to deepen.",
+      "tags": [
+        "Offshore",
+        "Energy"
+      ],
+      "audience": "Novatug",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [],
+      "priorityScore": 0,
+      "priorityBand": "low",
+      "priorityReasons": [],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "19d1853fefe5f59f",
+      "title": "Petronas Eyes Terengganu Carbon Sinks",
+      "source": "Rigzone",
+      "sourceId": "rigzone-latest",
+      "url": "https://www.rigzone.com/news/petronas_eyes_terengganu_carbon_sinks-21-apr-2026-183497-article/?rss=true",
+      "publishedAt": "2026-04-21T12:16:34Z",
+      "excerpt": "Malaysia's national oil and gas company signed a memorandum of understanding with Terengganu to enable the state's natural ecosystems to generate carbon credits.",
+      "tags": [
+        "Offshore",
+        "Energy"
+      ],
+      "audience": "Novatug",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [],
+      "priorityScore": 0,
+      "priorityBand": "low",
+      "priorityReasons": [],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "78f1a0d65ec416c5",
+      "title": "Currie Co-Founds New USA Focused Oil, Gas Company",
+      "source": "Rigzone",
+      "sourceId": "rigzone-latest",
+      "url": "https://www.rigzone.com/news/currie_cofounds_new_usa_focused_oil_gas_company-21-apr-2026-183496-article/?rss=true",
+      "publishedAt": "2026-04-21T10:59:17Z",
+      "excerpt": "Jeff Currie is the former global head of commodities research at Goldman Sachs.",
+      "tags": [
+        "Offshore",
+        "Energy"
+      ],
+      "audience": "Novatug",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [],
+      "priorityScore": 0,
+      "priorityBand": "low",
+      "priorityReasons": [],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "06491a6ef6a8604d",
+      "title": "Oceaneering pilots ROV on Brazilian offshore drilling rig from land",
+      "source": "Offshore Energy",
+      "sourceId": "offshore-energy",
+      "url": "https://www.offshore-energy.biz/oceaneering-pilots-rov-on-brazilian-offshore-drilling-rig-from-land/",
+      "publishedAt": "2026-04-21T10:17:47Z",
+      "excerpt": "Oceaneering has performed the first piloting operation of a remotely operated vehicle (ROV) on [\u2026] The post Oceaneering pilots ROV on Brazilian offshore drilling rig from land appeared first on Offshore Energy .",
+      "tags": [
+        "Energy-Transition",
+        "Technology"
+      ],
+      "audience": "Novatug",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [],
+      "priorityScore": 0,
+      "priorityBand": "low",
+      "priorityReasons": [],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "4b8bb5ae2b2d7735",
+      "title": "Don't Mistake Easing Oil Prices for Calm, Analyst Warns",
+      "source": "Rigzone",
+      "sourceId": "rigzone-latest",
+      "url": "https://www.rigzone.com/news/dont_mistake_easing_oil_prices_for_calm_analyst_warns-21-apr-2026-183495-article/?rss=true",
+      "publishedAt": "2026-04-21T09:35:15Z",
+      "excerpt": "Oil prices are easing, but don't mistake that for calm, SEB Commodities Analyst Ole R. Hvalbye warned.",
+      "tags": [
+        "Offshore",
+        "Energy"
+      ],
+      "audience": "Novatug",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [],
+      "priorityScore": 0,
       "priorityBand": "low",
       "priorityReasons": [],
       "boardBucket": "Other Relevant"
