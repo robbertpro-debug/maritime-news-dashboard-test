@@ -883,6 +883,331 @@
       "audience_bias": {
         "Multraship": 3
       }
+    },
+    {
+      "id": "bing-rederij-muller",
+      "name": "Rederij T. Muller News",
+      "url": "https://news.google.com/rss/search?q=%22Rederij%20Muller%22%20OR%20%22Muller%20Dordrecht%22%20towage&hl=en-US&gl=US&ceid=US:en",
+      "default_tags": [
+        "towage",
+        "competitor"
+      ],
+      "audience_bias": {
+        "Multraship": 5
+      }
+    },
+    {
+      "id": "bing-seacontractors",
+      "name": "Seacontractors Marine Service News",
+      "url": "https://news.google.com/rss/search?q=%22Seacontractors%22%20marine&hl=en-US&gl=US&ceid=US:en",
+      "default_tags": [
+        "towage",
+        "competitor"
+      ],
+      "audience_bias": {
+        "Multraship": 5
+      }
+    },
+    {
+      "id": "bing-vlissingse-bootlieden",
+      "name": "Vlissingse Bootlieden News",
+      "url": "https://news.google.com/rss/search?q=%22Vlissingse%20Bootlieden%22&hl=en-US&gl=US&ceid=US:en",
+      "default_tags": [
+        "towage",
+        "competitor"
+      ],
+      "audience_bias": {
+        "Multraship": 5
+      }
+    },
+    {
+      "id": "bing-eendracht-gent",
+      "name": "Eendracht Gent News",
+      "url": "https://news.google.com/rss/search?q=%22Eendracht%20Gent%22%20OR%20%22Bootmannen%20Gent%22&hl=en-US&gl=US&ceid=US:en",
+      "default_tags": [
+        "towage",
+        "competitor"
+      ],
+      "audience_bias": {
+        "Multraship": 5
+      }
+    },
+    {
+      "id": "bing-hebo",
+      "name": "Hebo Maritiemservice News",
+      "url": "https://news.google.com/rss/search?q=%22Hebo%20Maritiemservice%22%20OR%20%22Hebo%20Maritiem%22&hl=en-US&gl=US&ceid=US:en",
+      "default_tags": [
+        "towage",
+        "competitor"
+      ],
+      "audience_bias": {
+        "Multraship": 5
+      }
+    },
+    {
+      "id": "bing-boreas-maritime",
+      "name": "Boreas Maritime News",
+      "url": "https://news.google.com/rss/search?q=%22Boreas%20Maritime%22&hl=en-US&gl=US&ceid=US:en",
+      "default_tags": [
+        "maritime",
+        "supplier"
+      ],
+      "audience_bias": {
+        "Multraship": 3
+      }
+    },
+    {
+      "id": "bing-landfall",
+      "name": "Landfall News",
+      "url": "https://news.google.com/rss/search?q=%22Landfall%22%20maritime&hl=en-US&gl=US&ceid=US:en",
+      "default_tags": [
+        "maritime",
+        "supplier"
+      ],
+      "audience_bias": {
+        "Multraship": 3
+      }
+    },
+    {
+      "id": "bing-tos-crew",
+      "name": "TOS CREW News",
+      "url": "https://news.google.com/rss/search?q=%22TOS%20CREW%22%20maritime&hl=en-US&gl=US&ceid=US:en",
+      "default_tags": [
+        "crewing",
+        "supplier"
+      ],
+      "audience_bias": {
+        "Multraship": 3
+      }
+    },
+    {
+      "id": "bing-gardec-sds",
+      "name": "Gardec SDS News",
+      "url": "https://news.google.com/rss/search?q=%22Gardec%20SDS%22&hl=en-US&gl=US&ceid=US:en",
+      "default_tags": [
+        "maritime",
+        "supplier"
+      ],
+      "audience_bias": {
+        "Multraship": 3
+      }
+    },
+    {
+      "id": "bing-delta-marine-crewing",
+      "name": "Delta Marine Crewing News",
+      "url": "https://news.google.com/rss/search?q=%22Delta%20Marine%20Crewing%22&hl=en-US&gl=US&ceid=US:en",
+      "default_tags": [
+        "crewing",
+        "supplier"
+      ],
+      "audience_bias": {
+        "Multraship": 3
+      }
+    },
+    {
+      "id": "bing-marnavi",
+      "name": "Marnavi Trasporti Marittimi News",
+      "url": "https://news.google.com/rss/search?q=Marnavi%20Trasporti%20Marittimi&hl=en-US&gl=US&ceid=US:en",
+      "default_tags": [
+        "maritime",
+        "supplier"
+      ],
+      "audience_bias": {
+        "Multraship": 3
+      }
+    },
+    {
+      "id": "bing-atlas-professional",
+      "name": "Atlas Professional News",
+      "url": "https://news.google.com/rss/search?q=%22Atlas%20Professional%22%20maritime&hl=en-US&gl=US&ceid=US:en",
+      "default_tags": [
+        "maritime",
+        "supplier"
+      ],
+      "audience_bias": {
+        "Multraship": 3
+      }
+    },
+    {
+      "id": "bing-finco-marine",
+      "name": "Finco Marine Energies News",
+      "url": "https://news.google.com/rss/search?q=%22Finco%20Marine%20Energies%22%20OR%20%22Gulf%20Bunkering%22&hl=en-US&gl=US&ceid=US:en",
+      "default_tags": [
+        "bunkering",
+        "supplier"
+      ],
+      "audience_bias": {
+        "Multraship": 3
+      }
+    },
+    {
+      "id": "bing-progressio",
+      "name": "Progressio News",
+      "url": "https://news.google.com/rss/search?q=%22Progressio%22%20maritime&hl=en-US&gl=US&ceid=US:en",
+      "default_tags": [
+        "maritime",
+        "supplier"
+      ],
+      "audience_bias": {
+        "Multraship": 3
+      }
+    },
+    {
+      "id": "bing-csc-crewing",
+      "name": "CSC Crewing News",
+      "url": "https://news.google.com/rss/search?q=%22CSC%20Crewing%22&hl=en-US&gl=US&ceid=US:en",
+      "default_tags": [
+        "crewing",
+        "supplier"
+      ],
+      "audience_bias": {
+        "Multraship": 3
+      }
+    },
+    {
+      "id": "bing-victrol-chartering",
+      "name": "Victrol Chartering News",
+      "url": "https://news.google.com/rss/search?q=%22Victrol%20Chartering%22&hl=en-US&gl=US&ceid=US:en",
+      "default_tags": [
+        "chartering",
+        "supplier"
+      ],
+      "audience_bias": {
+        "Multraship": 3
+      }
+    },
+    {
+      "id": "bing-howden-specialty",
+      "name": "Howden Specialty News",
+      "url": "https://news.google.com/rss/search?q=%22Howden%20Specialty%22&hl=en-US&gl=US&ceid=US:en",
+      "default_tags": [
+        "maritime",
+        "supplier"
+      ],
+      "audience_bias": {
+        "Multraship": 3
+      }
+    },
+    {
+      "id": "bing-de-wit-bunkering",
+      "name": "De Wit Bunkering News",
+      "url": "https://news.google.com/rss/search?q=%22De%20Wit%20Bunkering%22&hl=en-US&gl=US&ceid=US:en",
+      "default_tags": [
+        "bunkering",
+        "supplier"
+      ],
+      "audience_bias": {
+        "Multraship": 3
+      }
+    },
+    {
+      "id": "bing-propeller-fuels",
+      "name": "Propeller Fuels News",
+      "url": "https://news.google.com/rss/search?q=%22Propeller%20Fuels%22&hl=en-US&gl=US&ceid=US:en",
+      "default_tags": [
+        "bunkering",
+        "supplier"
+      ],
+      "audience_bias": {
+        "Multraship": 3
+      }
+    },
+    {
+      "id": "bing-plus-corbijn",
+      "name": "Plus Supermarkt Corbijn News",
+      "url": "https://news.google.com/rss/search?q=%22Plus%20Supermarkt%20Corbijn%22&hl=en-US&gl=US&ceid=US:en",
+      "default_tags": [
+        "provisions",
+        "supplier"
+      ],
+      "audience_bias": {
+        "Multraship": 3
+      }
+    },
+    {
+      "id": "bing-c-teleport",
+      "name": "C-Teleport News",
+      "url": "https://news.google.com/rss/search?q=%22C-Teleport%22%20maritime&hl=en-US&gl=US&ceid=US:en",
+      "default_tags": [
+        "maritime",
+        "supplier"
+      ],
+      "audience_bias": {
+        "Multraship": 3
+      }
+    },
+    {
+      "id": "bing-zeppelin-power",
+      "name": "Zeppelin Power Systems Netherlands News",
+      "url": "https://news.google.com/rss/search?q=%22Zeppelin%20Power%20Systems%22%20Netherlands%20OR%20%22Pon%20Power%22&hl=en-US&gl=US&ceid=US:en",
+      "default_tags": [
+        "power",
+        "supplier"
+      ],
+      "audience_bias": {
+        "Multraship": 3
+      }
+    },
+    {
+      "id": "bing-kooiman-marine",
+      "name": "Kooiman Marine Group News",
+      "url": "https://news.google.com/rss/search?q=%22Kooiman%20Marine%22&hl=en-US&gl=US&ceid=US:en",
+      "default_tags": [
+        "maritime",
+        "supplier"
+      ],
+      "audience_bias": {
+        "Multraship": 3
+      }
+    },
+    {
+      "id": "bing-hydroos",
+      "name": "Hydroos News",
+      "url": "https://news.google.com/rss/search?q=%22Hydroos%22&hl=en-US&gl=US&ceid=US:en",
+      "default_tags": [
+        "maritime",
+        "supplier"
+      ],
+      "audience_bias": {
+        "Multraship": 3
+      }
+    },
+    {
+      "id": "bing-mesh-maritime",
+      "name": "Mesh Maritime News",
+      "url": "https://news.google.com/rss/search?q=%22Mesh%22%20maritime%20shipping&hl=en-US&gl=US&ceid=US:en",
+      "default_tags": [
+        "maritime",
+        "supplier"
+      ],
+      "audience_bias": {
+        "Multraship": 3
+      }
+    },
+    {
+      "id": "bing-mez-maritiem",
+      "name": "M.E.Z. Maritiem Elektro Zeeland News",
+      "url": "https://news.google.com/rss/search?q=%22M.E.Z.%22%20maritiem%20Zeeland&hl=en-US&gl=US&ceid=US:en",
+      "default_tags": [
+        "maritime",
+        "supplier"
+      ],
+      "audience_bias": {
+        "Multraship": 3
+      }
+    },
+    {
+      "id": "ted-rijkswaterstaat",
+      "name": "Rijkswaterstaat Tenders (TED EU)",
+      "url": "https://ted.europa.eu/TED/search/search.do?language=EN&query=rijkswaterstaat&scope=0&results=10&page=1&sort=PD+desc&rss=true",
+      "default_tags": [
+        "tenders",
+        "infrastructure",
+        "government"
+      ],
+      "audience_bias": {
+        "Multraship": 5
+      }
     }
   ],
   "classification": {
