@@ -676,6 +676,358 @@
       "audience_bias": {
         "Multraship": 5
       }
+    },
+    {
+      "id": "gnews-lankhorst-ropes",
+      "name": "Lankhorst Ropes News",
+      "url": "https://news.google.com/rss/search?q=%22Lankhorst%20Ropes%22&hl=en-US&gl=US&ceid=US:en",
+      "default_tags": [
+        "supplier"
+      ],
+      "audience_bias": {
+        "Multraship": 3
+      }
+    },
+    {
+      "id": "gnews-united-offshore-services",
+      "name": "United Offshore Services News",
+      "url": "https://news.google.com/rss/search?q=%22United%20Offshore%20Services%22&hl=en-US&gl=US&ceid=US:en",
+      "default_tags": [
+        "supplier"
+      ],
+      "audience_bias": {
+        "Multraship": 3
+      }
+    },
+    {
+      "id": "gnews-breman-machinery",
+      "name": "Breman Machinery News",
+      "url": "https://news.google.com/rss/search?q=%22Breman%20Machinery%22&hl=en-US&gl=US&ceid=US:en",
+      "default_tags": [
+        "supplier"
+      ],
+      "audience_bias": {
+        "Multraship": 3
+      }
+    },
+    {
+      "id": "gnews-martens-cleaning",
+      "name": "Martens Cleaning News",
+      "url": "https://news.google.com/rss/search?q=%22Martens%20Cleaning%22&hl=en-US&gl=US&ceid=US:en",
+      "default_tags": [
+        "supplier"
+      ],
+      "audience_bias": {
+        "Multraship": 3
+      }
+    },
+    {
+      "id": "gnews-bp-raffinaderij-rotterdam",
+      "name": "BP Raffinaderij Rotterdam News",
+      "url": "https://news.google.com/rss/search?q=%22BP%20Raffinaderij%20Rotterdam%22&hl=en-US&gl=US&ceid=US:en",
+      "default_tags": [
+        "supplier"
+      ],
+      "audience_bias": {
+        "Multraship": 3
+      }
+    },
+    {
+      "id": "gnews-de-pooter-olie",
+      "name": "De Pooter Olie News",
+      "url": "https://news.google.com/rss/search?q=%22De%20Pooter%20Olie%22&hl=en-US&gl=US&ceid=US:en",
+      "default_tags": [
+        "supplier"
+      ],
+      "audience_bias": {
+        "Multraship": 3
+      }
+    },
+    {
+      "id": "gnews-arentis",
+      "name": "Arentis News",
+      "url": "https://news.google.com/rss/search?q=%22Arentis%22&hl=en-US&gl=US&ceid=US:en",
+      "default_tags": [
+        "supplier"
+      ],
+      "audience_bias": {
+        "Multraship": 3
+      }
+    },
+    {
+      "id": "gnews-flc-marine-works-group",
+      "name": "FLC Marine Works Group News",
+      "url": "https://news.google.com/rss/search?q=%22FLC%20Marine%20Works%20Group%22&hl=en-US&gl=US&ceid=US:en",
+      "default_tags": [
+        "client"
+      ],
+      "audience_bias": {
+        "Multraship": 3
+      }
+    },
+    {
+      "id": "gnews-verbrugge-terminals",
+      "name": "Verbrugge Terminals News",
+      "url": "https://news.google.com/rss/search?q=%22Verbrugge%20Terminals%22&hl=en-US&gl=US&ceid=US:en",
+      "default_tags": [
+        "client"
+      ],
+      "audience_bias": {
+        "Multraship": 3
+      }
+    },
+    {
+      "id": "gnews-scaldis-salvage-and-marine-con",
+      "name": "Scaldis Salvage & Marine Contractors News",
+      "url": "https://news.google.com/rss/search?q=%22Scaldis%20Salvage%20%26%20Marine%20Contractors%22&hl=en-US&gl=US&ceid=US:en",
+      "default_tags": [
+        "client"
+      ],
+      "audience_bias": {
+        "Multraship": 3
+      }
+    },
+    {
+      "id": "gnews-tm-edison-be",
+      "name": "TM Edison BE News",
+      "url": "https://news.google.com/rss/search?q=%22TM%20Edison%20BE%22&hl=en-US&gl=US&ceid=US:en",
+      "default_tags": [
+        "client"
+      ],
+      "audience_bias": {
+        "Multraship": 3
+      }
+    },
+    {
+      "id": "gnews-offshore-marine-contractors",
+      "name": "Offshore Marine Contractors News",
+      "url": "https://news.google.com/rss/search?q=%22Offshore%20Marine%20Contractors%22&hl=en-US&gl=US&ceid=US:en",
+      "default_tags": [
+        "client"
+      ],
+      "audience_bias": {
+        "Multraship": 3
+      }
+    },
+    {
+      "id": "gnews-manora-logistics",
+      "name": "Manora Logistics News",
+      "url": "https://news.google.com/rss/search?q=%22Manora%20Logistics%22&hl=en-US&gl=US&ceid=US:en",
+      "default_tags": [
+        "client"
+      ],
+      "audience_bias": {
+        "Multraship": 3
+      }
+    },
+    {
+      "id": "gnews-tm-schelde-and-zee",
+      "name": "TM Schelde & Zee News",
+      "url": "https://news.google.com/rss/search?q=%22TM%20Schelde%20%26%20Zee%22&hl=en-US&gl=US&ceid=US:en",
+      "default_tags": [
+        "client"
+      ],
+      "audience_bias": {
+        "Multraship": 3
+      }
+    },
+    {
+      "id": "gnews-van-der-straaten-aannemingsmaa",
+      "name": "Van der Straaten Aannemingsmaatschappij News",
+      "url": "https://news.google.com/rss/search?q=%22Van%20der%20Straaten%20Aannemingsmaatschappij%22&hl=en-US&gl=US&ceid=US:en",
+      "default_tags": [
+        "client"
+      ],
+      "audience_bias": {
+        "Multraship": 3
+      }
+    },
+    {
+      "id": "gnews-verbrugge-marine",
+      "name": "Verbrugge Marine News",
+      "url": "https://news.google.com/rss/search?q=%22Verbrugge%20Marine%22&hl=en-US&gl=US&ceid=US:en",
+      "default_tags": [
+        "client"
+      ],
+      "audience_bias": {
+        "Multraship": 3
+      }
+    },
+    {
+      "id": "gnews-edison-vof",
+      "name": "Edison VOF News",
+      "url": "https://news.google.com/rss/search?q=%22Edison%20VOF%22&hl=en-US&gl=US&ceid=US:en",
+      "default_tags": [
+        "client"
+      ],
+      "audience_bias": {
+        "Multraship": 3
+      }
+    },
+    {
+      "id": "gnews-petro-s.-management",
+      "name": "Petro S. Management News",
+      "url": "https://news.google.com/rss/search?q=%22Petro%20S.%20Management%22&hl=en-US&gl=US&ceid=US:en",
+      "default_tags": [
+        "client"
+      ],
+      "audience_bias": {
+        "Multraship": 3
+      }
+    },
+    {
+      "id": "gnews-flushing-shipping-agencies",
+      "name": "Flushing Shipping Agencies News",
+      "url": "https://news.google.com/rss/search?q=%22Flushing%20Shipping%20Agencies%22&hl=en-US&gl=US&ceid=US:en",
+      "default_tags": [
+        "client"
+      ],
+      "audience_bias": {
+        "Multraship": 3
+      }
+    },
+    {
+      "id": "gnews-navonus",
+      "name": "Navonus News",
+      "url": "https://news.google.com/rss/search?q=%22Navonus%22&hl=en-US&gl=US&ceid=US:en",
+      "default_tags": [
+        "client"
+      ],
+      "audience_bias": {
+        "Multraship": 3
+      }
+    },
+    {
+      "id": "gnews-lalemant-gent",
+      "name": "Lalemant Gent News",
+      "url": "https://news.google.com/rss/search?q=%22Lalemant%20Gent%22&hl=en-US&gl=US&ceid=US:en",
+      "default_tags": [
+        "client"
+      ],
+      "audience_bias": {
+        "Multraship": 3
+      }
+    },
+    {
+      "id": "gnews-gac-belgium",
+      "name": "GAC Belgium News",
+      "url": "https://news.google.com/rss/search?q=%22GAC%20Belgium%22&hl=en-US&gl=US&ceid=US:en",
+      "default_tags": [
+        "client"
+      ],
+      "audience_bias": {
+        "Multraship": 3
+      }
+    },
+    {
+      "id": "gnews-iss-palumbo-netherlands",
+      "name": "ISS Palumbo Netherlands News",
+      "url": "https://news.google.com/rss/search?q=%22ISS%20Palumbo%20Netherlands%22&hl=en-US&gl=US&ceid=US:en",
+      "default_tags": [
+        "client"
+      ],
+      "audience_bias": {
+        "Multraship": 3
+      }
+    },
+    {
+      "id": "gnews-runaway-bay-shipping",
+      "name": "Runaway Bay Shipping News",
+      "url": "https://news.google.com/rss/search?q=%22Runaway%20Bay%20Shipping%22&hl=en-US&gl=US&ceid=US:en",
+      "default_tags": [
+        "client"
+      ],
+      "audience_bias": {
+        "Multraship": 3
+      }
+    },
+    {
+      "id": "gnews-icechem-tankers",
+      "name": "IceChem Tankers News",
+      "url": "https://news.google.com/rss/search?q=%22IceChem%20Tankers%22&hl=en-US&gl=US&ceid=US:en",
+      "default_tags": [
+        "client"
+      ],
+      "audience_bias": {
+        "Multraship": 3
+      }
+    },
+    {
+      "id": "gnews-sms-towage",
+      "name": "SMS Towage News",
+      "url": "https://news.google.com/rss/search?q=%22SMS%20Towage%22&hl=en-US&gl=US&ceid=US:en",
+      "default_tags": [
+        "competitor"
+      ],
+      "audience_bias": {
+        "Multraship": 3
+      }
+    },
+    {
+      "id": "gnews-nh-towage",
+      "name": "NH Towage News",
+      "url": "https://news.google.com/rss/search?q=%22NH%20Towage%22&hl=en-US&gl=US&ceid=US:en",
+      "default_tags": [
+        "competitor"
+      ],
+      "audience_bias": {
+        "Multraship": 3
+      }
+    },
+    {
+      "id": "gnews-five-oceans-salvage",
+      "name": "Five Oceans Salvage News",
+      "url": "https://news.google.com/rss/search?q=%22Five%20Oceans%20Salvage%22&hl=en-US&gl=US&ceid=US:en",
+      "default_tags": [
+        "competitor"
+      ],
+      "audience_bias": {
+        "Multraship": 3
+      }
+    },
+    {
+      "id": "gnews-bugsier",
+      "name": "Bugsier News",
+      "url": "https://news.google.com/rss/search?q=%22Bugsier%22&hl=en-US&gl=US&ceid=US:en",
+      "default_tags": [
+        "competitor"
+      ],
+      "audience_bias": {
+        "Multraship": 3
+      }
+    },
+    {
+      "id": "gnews-celtic-tugs",
+      "name": "Celtic Tugs News",
+      "url": "https://news.google.com/rss/search?q=%22Celtic%20Tugs%22&hl=en-US&gl=US&ceid=US:en",
+      "default_tags": [
+        "competitor"
+      ],
+      "audience_bias": {
+        "Multraship": 3
+      }
+    },
+    {
+      "id": "gnews-itchen-marine",
+      "name": "Itchen Marine News",
+      "url": "https://news.google.com/rss/search?q=%22Itchen%20Marine%22&hl=en-US&gl=US&ceid=US:en",
+      "default_tags": [
+        "competitor"
+      ],
+      "audience_bias": {
+        "Multraship": 3
+      }
+    },
+    {
+      "id": "gnews-iskes-towage",
+      "name": "Iskes Towage News",
+      "url": "https://news.google.com/rss/search?q=%22Iskes%20Towage%22&hl=en-US&gl=US&ceid=US:en",
+      "default_tags": [
+        "competitor"
+      ],
+      "audience_bias": {
+        "Multraship": 3
+      }
     }
   ],
   "classification": {
