@@ -6,7 +6,8 @@
     "max_items_per_source": 50,
     "max_total_items": 180,
     "history_json_path": "data/articles-history.json",
-    "history_lookback_days": 180
+    "history_lookback_days": 180,
+    "stocks_json_path": "data/stocks.json"
   },
   "request": {
     "timeout_seconds": 20,
@@ -2088,6 +2089,457 @@
           "fuel cell"
         ]
       }
+    }
+  },
+  "entity_profiles": {
+    "Damen Shipyards Group": {
+      "website": "https://www.damen.com",
+      "linkedin": "https://www.linkedin.com/company/damen-shipyards-group",
+      "hq": "Gorinchem, Netherlands",
+      "description": "One of the world's largest shipbuilding groups. Builds tugs, offshore vessels, dredgers, patrol vessels and ferries from a portfolio of 180+ standardised designs.",
+      "founded": 1927,
+      "stock": null
+    },
+    "Caterpillar Marine": {
+      "website": "https://www.cat.com/en_US/by-industry/marine.html",
+      "linkedin": "https://www.linkedin.com/company/caterpillar-inc",
+      "hq": "Irving, Texas, USA",
+      "description": "Marine division of Caterpillar Inc, supplying diesel and gas engines, propulsion systems and power solutions for commercial and government vessels.",
+      "founded": null,
+      "stock": {
+        "ticker": "CAT",
+        "exchange": "NYSE",
+        "note": "Parent company Caterpillar Inc"
+      }
+    },
+    "Sanmar Shipyards": {
+      "website": "https://www.sanmar.com.tr",
+      "linkedin": "https://www.linkedin.com/company/sanmar-denizcilik",
+      "hq": "Istanbul, Turkey",
+      "description": "Turkish shipyard specialising in tugboat design and construction. Builds Robert Allan-designed tugs and supplies operators worldwide including major European port operators.",
+      "founded": 1976,
+      "stock": null
+    },
+    "Kongsberg Maritime": {
+      "website": "https://www.kongsberg.com/maritime",
+      "linkedin": "https://www.linkedin.com/company/kongsberg-maritime",
+      "hq": "Kongsberg, Norway",
+      "description": "Technology provider for maritime industries, delivering automation, navigation, simulation and dynamic positioning systems. Part of Kongsberg Gruppen ASA.",
+      "founded": 1814,
+      "stock": {
+        "ticker": "KOG.OL",
+        "exchange": "Oslo B\u00f8rs",
+        "note": "Parent company Kongsberg Gruppen ASA"
+      }
+    },
+    "Bureau Veritas": {
+      "website": "https://www.bureauveritas.com",
+      "linkedin": "https://www.linkedin.com/company/bureau-veritas",
+      "hq": "Paris, France",
+      "description": "International classification society and certification body. Provides conformity assessment, testing, inspection and certification for the marine industry.",
+      "founded": 1828,
+      "stock": {
+        "ticker": "BVI.PA",
+        "exchange": "Euronext Paris"
+      }
+    },
+    "W\u00e4rtsil\u00e4": {
+      "website": "https://www.wartsila.com",
+      "linkedin": "https://www.linkedin.com/company/wartsila",
+      "hq": "Helsinki, Finland",
+      "description": "Global technology group serving the marine and energy markets. Supplies engines, propulsion systems, energy storage and LNG solutions.",
+      "founded": 1834,
+      "stock": {
+        "ticker": "WRT1V.HE",
+        "exchange": "Nasdaq Helsinki"
+      }
+    },
+    "DNV": {
+      "website": "https://www.dnv.com",
+      "linkedin": "https://www.linkedin.com/company/dnv",
+      "hq": "H\u00f8vik, Norway",
+      "description": "International classification society and assurance provider. Risk management, certification and technical advisory for maritime, oil & gas and energy sectors.",
+      "founded": 1864,
+      "stock": null
+    },
+    "Lloyd's Register": {
+      "website": "https://www.lr.org",
+      "linkedin": "https://www.linkedin.com/company/lloyds-register",
+      "hq": "London, United Kingdom",
+      "description": "Classification society providing independent assurance to companies operating high-risk, capital-intensive assets across maritime and offshore industries.",
+      "founded": 1760,
+      "stock": null
+    },
+    "American Bureau of Shipping": {
+      "website": "https://www.eagle.org",
+      "linkedin": "https://www.linkedin.com/company/american-bureau-of-shipping",
+      "hq": "Houston, Texas, USA",
+      "description": "Classification society for commercial vessels and offshore platforms. Sets technical standards for design, construction and operation of marine vessels.",
+      "founded": 1862,
+      "stock": null
+    },
+    "Schottel": {
+      "website": "https://www.schottel.de",
+      "linkedin": "https://www.linkedin.com/company/schottel",
+      "hq": "Spay, Germany",
+      "description": "Manufacturer of propulsion and manoeuvring systems for ships. Produces rudder propellers, thrusters, tunnel thrusters and steerable systems for tugs and offshore vessels.",
+      "founded": 1921,
+      "stock": null
+    },
+    "Voith": {
+      "website": "https://voith.com/corp-en/markets/industries/marine.html",
+      "linkedin": "https://www.linkedin.com/company/voith",
+      "hq": "Heidenheim, Germany",
+      "description": "Technology company supplying Voith Schneider Propellers and other drive systems widely used in tugs and ferries requiring high manoeuvrability.",
+      "founded": 1867,
+      "stock": null
+    },
+    "Hempel": {
+      "website": "https://www.hempel.com",
+      "linkedin": "https://www.linkedin.com/company/hempel",
+      "hq": "Kongens Lyngby, Denmark",
+      "description": "Global manufacturer of protective coatings for marine, protective, decorative and container segments. Major supplier of antifouling and hull coatings.",
+      "founded": 1915,
+      "stock": null
+    },
+    "Lankhorst Ropes": {
+      "website": "https://www.lankhorstropes.com",
+      "linkedin": "https://www.linkedin.com/company/lankhorst-ropes",
+      "hq": "Sneek, Netherlands",
+      "description": "Dutch manufacturer of synthetic fibre ropes for marine and offshore applications, including mooring lines and towing equipment.",
+      "founded": 1803,
+      "stock": null
+    },
+    "Shell Nederland": {
+      "website": "https://www.shell.nl",
+      "linkedin": "https://www.linkedin.com/company/shell",
+      "hq": "The Hague, Netherlands",
+      "description": "Dutch subsidiary of Shell plc. Operates refinery operations and fuel supply in the Netherlands, a key bunker fuel supplier for port operations.",
+      "founded": null,
+      "stock": {
+        "ticker": "SHEL.L",
+        "exchange": "London Stock Exchange",
+        "note": "Parent company Shell plc"
+      }
+    },
+    "BP Raffinaderij Rotterdam": {
+      "website": "https://www.bp.com",
+      "linkedin": "https://www.linkedin.com/company/bp",
+      "hq": "Rotterdam, Netherlands",
+      "description": "BP's Rotterdam refinery operation. Major fuel supplier for maritime operations in the ARA (Amsterdam-Rotterdam-Antwerp) region.",
+      "founded": null,
+      "stock": {
+        "ticker": "BP.L",
+        "exchange": "London Stock Exchange",
+        "note": "Parent company BP plc"
+      }
+    },
+    "RWE Renewables": {
+      "website": "https://www.rwe.com",
+      "linkedin": "https://www.linkedin.com/company/rwe",
+      "hq": "Essen, Germany",
+      "description": "Offshore wind division of RWE AG. Operates and develops offshore wind farms in the North Sea and Irish Sea, requiring specialist marine support.",
+      "founded": null,
+      "stock": {
+        "ticker": "RWE.DE",
+        "exchange": "XETRA",
+        "note": "Parent company RWE AG"
+      }
+    },
+    "\u00d8rsted": {
+      "website": "https://orsted.com",
+      "linkedin": "https://www.linkedin.com/company/orsted",
+      "hq": "Fredericia, Denmark",
+      "description": "Danish state-controlled energy company and the world's largest offshore wind developer. Operates major wind farms in the North Sea including Hornsea.",
+      "founded": 2006,
+      "stock": {
+        "ticker": "ORSTED.CO",
+        "exchange": "Nasdaq Copenhagen"
+      }
+    },
+    "SSE Renewables": {
+      "website": "https://www.sse.com/what-we-do/sse-renewables",
+      "linkedin": "https://www.linkedin.com/company/sse-plc",
+      "hq": "Perth, Scotland, UK",
+      "description": "Renewable energy division of SSE plc. Develops and operates offshore and onshore wind farms, including Dogger Bank offshore wind project.",
+      "founded": null,
+      "stock": {
+        "ticker": "SSE.L",
+        "exchange": "London Stock Exchange",
+        "note": "Parent company SSE plc"
+      }
+    },
+    "TotalEnergies": {
+      "website": "https://totalenergies.com",
+      "linkedin": "https://www.linkedin.com/company/totalenergies",
+      "hq": "Courbevoie, France",
+      "description": "French multinational integrated energy company active in offshore oil, gas and renewables. Operates platforms and vessels in the North Sea.",
+      "founded": 1924,
+      "stock": {
+        "ticker": "TTE.PA",
+        "exchange": "Euronext Paris"
+      }
+    },
+    "DEME Group": {
+      "website": "https://www.deme-group.com",
+      "linkedin": "https://www.linkedin.com/company/deme-group",
+      "hq": "Zwijndrecht, Belgium",
+      "description": "Belgian dredging and offshore contractor. Specialises in marine infrastructure, offshore energy installation and environmental works.",
+      "founded": 1991,
+      "stock": {
+        "ticker": "DEME.BR",
+        "exchange": "Euronext Brussels"
+      }
+    },
+    "Jan De Nul": {
+      "website": "https://www.jandenul.com",
+      "linkedin": "https://www.linkedin.com/company/jan-de-nul",
+      "hq": "Hofstade-Aalst, Belgium",
+      "description": "Belgian dredging, land reclamation and offshore contractor. One of the world's largest dredging companies, operating in ports and offshore wind markets.",
+      "founded": 1938,
+      "stock": null
+    },
+    "Boskalis": {
+      "website": "https://www.boskalis.com",
+      "linkedin": "https://www.linkedin.com/company/boskalis",
+      "hq": "Papendrecht, Netherlands",
+      "description": "Leading global dredging, offshore and marine services contractor. Also operates SMIT Salvage and provides towage, salvage and wreck removal services.",
+      "founded": 1910,
+      "stock": null
+    },
+    "Van Oord": {
+      "website": "https://www.vanoord.com",
+      "linkedin": "https://www.linkedin.com/company/van-oord",
+      "hq": "Rotterdam, Netherlands",
+      "description": "Dutch marine contractor specialising in dredging, offshore wind and marine engineering. A key player in North Sea offshore wind installation projects.",
+      "founded": 1868,
+      "stock": null
+    },
+    "ArcelorMittal": {
+      "website": "https://corporate.arcelormittal.com",
+      "linkedin": "https://www.linkedin.com/company/arcelormittal",
+      "hq": "Luxembourg City, Luxembourg",
+      "description": "World's second-largest steel and mining company. Operates Gent and IJmuiden steel plants in the Benelux, generating bulk cargo flows through Zeeland ports.",
+      "founded": 2006,
+      "stock": {
+        "ticker": "MT.AS",
+        "exchange": "Euronext Amsterdam"
+      }
+    },
+    "Equinor": {
+      "website": "https://www.equinor.com",
+      "linkedin": "https://www.linkedin.com/company/equinor",
+      "hq": "Stavanger, Norway",
+      "description": "Norwegian state-owned energy company active in oil, gas and offshore wind. Operates offshore platforms in the North Sea requiring marine support services.",
+      "founded": 1972,
+      "stock": {
+        "ticker": "EQNR.OL",
+        "exchange": "Oslo B\u00f8rs"
+      }
+    },
+    "Yara International": {
+      "website": "https://www.yara.com",
+      "linkedin": "https://www.linkedin.com/company/yara",
+      "hq": "Oslo, Norway",
+      "description": "Norwegian chemical company and world's largest fertiliser producer. Operates bulk terminals at Sluiskil (Terneuzen) and Brunsb\u00fcttel, generating regular bulk shipping movements.",
+      "founded": 1905,
+      "stock": {
+        "ticker": "YAR.OL",
+        "exchange": "Oslo B\u00f8rs"
+      }
+    },
+    "ExxonMobil": {
+      "website": "https://www.exxonmobil.com",
+      "linkedin": "https://www.linkedin.com/company/exxonmobil",
+      "hq": "Irving, Texas, USA",
+      "description": "American multinational oil & gas company. Operates Esso refinery at Rotterdam and chemical complex at Botlek, generating tanker traffic through Maasvlakte.",
+      "founded": 1870,
+      "stock": {
+        "ticker": "XOM",
+        "exchange": "NYSE"
+      }
+    },
+    "Tata Steel": {
+      "website": "https://www.tatasteeleurope.com",
+      "linkedin": "https://www.linkedin.com/company/tata-steel",
+      "hq": "Mumbai, India (Europe HQ: London)",
+      "description": "Steel producer with major IJmuiden plant in the Netherlands. One of the largest industrial bulk cargo generators in the North Sea port range.",
+      "founded": 1907,
+      "stock": {
+        "ticker": "TATASTEEL.NS",
+        "exchange": "NSE India"
+      }
+    },
+    "INEOS": {
+      "website": "https://www.ineos.com",
+      "linkedin": "https://www.linkedin.com/company/ineos",
+      "hq": "London, United Kingdom",
+      "description": "British multinational chemical company. Operates large petrochemical plants at Antwerp and Grangemouth, generating significant tanker and bulk traffic.",
+      "founded": 1998,
+      "stock": null
+    },
+    "Cargill": {
+      "website": "https://www.cargill.com",
+      "linkedin": "https://www.linkedin.com/company/cargill",
+      "hq": "Minneapolis, Minnesota, USA",
+      "description": "American agricultural commodity trader. Operates grain and feed terminals at Ghent and Antwerp, generating dry bulk shipping movements.",
+      "founded": 1865,
+      "stock": null
+    },
+    "Rijkswaterstaat": {
+      "website": "https://www.rijkswaterstaat.nl",
+      "linkedin": "https://www.linkedin.com/company/rijkswaterstaat",
+      "hq": "Utrecht, Netherlands",
+      "description": "Dutch Directorate-General for Public Works and Water Management. Manages major waterways, ports of Rotterdam and Amsterdam infrastructure, and commissions dredging and maintenance contracts.",
+      "founded": 1798,
+      "stock": null
+    },
+    "Sarens": {
+      "website": "https://www.sarens.com",
+      "linkedin": "https://www.linkedin.com/company/sarens",
+      "hq": "Wolvertem, Belgium",
+      "description": "Belgian heavy lift and engineered transport specialist. Moves large industrial cargo \u2014 including offshore wind components \u2014 through Zeeland and Antwerp ports.",
+      "founded": 1955,
+      "stock": null
+    },
+    "DFDS": {
+      "website": "https://www.dfds.com",
+      "linkedin": "https://www.linkedin.com/company/dfds",
+      "hq": "Copenhagen, Denmark",
+      "description": "Danish ferry and freight shipping company. Operates ro-ro and passenger ferry routes across the North Sea and Channel, including routes to/from Zeeland ports.",
+      "founded": 1866,
+      "stock": {
+        "ticker": "DFDS.CO",
+        "exchange": "Nasdaq Copenhagen"
+      }
+    },
+    "Maersk Tankers": {
+      "website": "https://www.maersktankers.com",
+      "linkedin": "https://www.linkedin.com/company/maersk-tankers",
+      "hq": "Copenhagen, Denmark",
+      "description": "Product tanker company managing a fleet of refined oil tankers. Operates vessels calling at Rotterdam, Flushing and other ARA terminals.",
+      "founded": 2012,
+      "stock": null
+    },
+    "Oldendorff Carriers": {
+      "website": "https://www.oldendorff.com",
+      "linkedin": "https://www.linkedin.com/company/oldendorff-carriers",
+      "hq": "L\u00fcbeck, Germany",
+      "description": "One of the world's largest dry bulk operators. Regularly calls at Zeeland Seaports and Ghent with coal, grain and other bulk cargoes.",
+      "founded": 1921,
+      "stock": null
+    },
+    "Verbrugge Terminals": {
+      "website": "https://www.verbrugge.nl",
+      "linkedin": "https://www.linkedin.com/company/verbrugge-zeeland-logistics",
+      "hq": "Vlissingen, Netherlands",
+      "description": "Zeeland-based terminal and logistics operator. Handles bulk cargo, breakbulk and project cargo through Vlissingen and Terneuzen terminals \u2014 a key port partner for Multraship.",
+      "founded": 1973,
+      "stock": null
+    },
+    "Boluda Towage": {
+      "website": "https://www.boluda.es",
+      "linkedin": "https://www.linkedin.com/company/boluda-corporacion-maritima",
+      "hq": "Valencia, Spain",
+      "description": "Spanish maritime group and one of Europe's largest towage operators. Expanded into Northwest Europe through acquisition of Smit Towage assets.",
+      "founded": 1837,
+      "stock": null
+    },
+    "Svitzer": {
+      "website": "https://www.svitzer.com",
+      "linkedin": "https://www.linkedin.com/company/svitzer",
+      "hq": "Copenhagen, Denmark",
+      "description": "Global towage and marine services company. Operates in 30+ countries with 450+ vessels. Historically a Maersk subsidiary; direct competitor in Northwest European ports.",
+      "founded": 1833,
+      "stock": null
+    },
+    "Kotug International": {
+      "website": "https://www.kotug.com",
+      "linkedin": "https://www.linkedin.com/company/kotug",
+      "hq": "Rotterdam, Netherlands",
+      "description": "Dutch towage company operating in Rotterdam, Europoort and European ports. Also active in offshore support and ship-to-ship transfer operations.",
+      "founded": 1874,
+      "stock": null
+    },
+    "SMIT Salvage": {
+      "website": "https://www.smit.com",
+      "linkedin": "https://www.linkedin.com/company/smit",
+      "hq": "Rotterdam, Netherlands",
+      "description": "International salvage and wreck removal company, part of the Boskalis group. Competes with Multraship in offshore salvage and emergency response.",
+      "founded": 1842,
+      "stock": null
+    },
+    "Buks\u00e9r og Berging": {
+      "website": "https://www.bb-ss.no",
+      "linkedin": "https://www.linkedin.com/company/bukser-og-berging-as",
+      "hq": "Bergen, Norway",
+      "description": "Norwegian towage and salvage operator. Active in Scandinavian ports and competes in international salvage tenders.",
+      "founded": 1908,
+      "stock": null
+    },
+    "Resolve Marine": {
+      "website": "https://www.resolvemarine.com",
+      "linkedin": "https://www.linkedin.com/company/resolve-marine-group",
+      "hq": "Fort Lauderdale, Florida, USA",
+      "description": "American marine salvage, wreck removal and emergency response company. International competitor in casualty response contracts.",
+      "founded": 1986,
+      "stock": null
+    },
+    "Fairplay Towage": {
+      "website": "https://www.fairplay-towage.com",
+      "linkedin": "https://www.linkedin.com/company/fairplay-towage",
+      "hq": "Rotterdam, Netherlands",
+      "description": "Rotterdam-based harbour towage and terminal support provider. Operates in Dutch and Belgian ports.",
+      "founded": 1971,
+      "stock": null
+    },
+    "Ardent": {
+      "website": "https://www.ardentmarine.com",
+      "linkedin": "https://www.linkedin.com/company/ardent",
+      "hq": "Rotterdam, Netherlands",
+      "description": "Marine salvage joint venture between Svitzer and Crowley Maritime. Competes directly with Multraship in offshore wreck removal and casualty management.",
+      "founded": 2016,
+      "stock": null
+    },
+    "SAAM Towage": {
+      "website": "https://www.saamtowage.com",
+      "linkedin": "https://www.linkedin.com/company/saam-towage",
+      "hq": "Santiago, Chile",
+      "description": "Chilean towage company with operations across the Americas and expanding into European markets. Growing global competitor.",
+      "founded": 1961,
+      "stock": null
+    },
+    "Tsavliris Salvage": {
+      "website": "https://www.tsavliris.com",
+      "linkedin": "https://www.linkedin.com/company/tsavliris-salvage-group",
+      "hq": "Piraeus, Greece",
+      "description": "Greek maritime salvage group with over 70 years of experience. Active in Mediterranean and international salvage operations.",
+      "founded": 1954,
+      "stock": null
+    },
+    "Iskes Towage": {
+      "website": "https://www.iskes.nl",
+      "linkedin": "https://www.linkedin.com/company/iskes-towage-salvage",
+      "hq": "IJmuiden, Netherlands",
+      "description": "Dutch towage and salvage company operating from IJmuiden. Active in the Amsterdam port range and offshore areas of the North Sea.",
+      "founded": 1906,
+      "stock": null
+    },
+    "Bugsier": {
+      "website": "https://www.bugsier.de",
+      "linkedin": "https://www.linkedin.com/company/bugsier-reederei",
+      "hq": "Hamburg, Germany",
+      "description": "German harbour towage and salvage company. Operates in Hamburg, Bremen and other German ports; member of the OCEAN network of independent towage companies.",
+      "founded": 1866,
+      "stock": null
+    },
+    "Alfons H\u00e5kans": {
+      "website": "https://www.alfons-hakans.fi",
+      "linkedin": "https://www.linkedin.com/company/alfons-hakans",
+      "hq": "Turku, Finland",
+      "description": "Finnish towage and icebreaking company. Dominant operator in Finnish ports; also active in Baltic Sea towage and wreck removal.",
+      "founded": 1913,
+      "stock": null
     }
   }
 }

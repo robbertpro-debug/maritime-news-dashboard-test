@@ -593,6 +593,12 @@ def build_output(articles: List[Dict], config: Dict, errors: List[Dict], generat
         "locations": locations,
         "errors": errors,
         "articles": clean_articles,
+        "entityProfiles": config.get("entity_profiles", {}),
+        "entityCategories": {
+            name: category
+            for category, names in config.get("classification", {}).get("entities", {}).items()
+            for name in names
+        },
     }
 
 
@@ -604,6 +610,53 @@ def write_output(output: Dict, config: Dict) -> None:
     serialized = json.dumps(output, ensure_ascii=True, indent=2)
     json_path.write_text(serialized + "\n", encoding="utf-8")
     js_path.write_text("window.__DASHBOARD_DATA__ = " + serialized + ";\n", encoding="utf-8")
+
+
+def fetch_stocks(profiles: Dict, generated_at: datetime) -> Dict:
+    try:
+        import yfinance as yf  # optional dependency
+    except ImportError:
+        print("[stocks] yfinance not installed, skipping", file=sys.stderr)
+        return {}
+
+    results: Dict = {}
+    for entity, profile in profiles.items():
+        stock = profile.get("stock")
+        if not stock or not stock.get("ticker"):
+            continue
+        ticker = stock["ticker"]
+        try:
+            info = yf.Ticker(ticker).fast_info
+            price = getattr(info, "last_price", None)
+            prev = getattr(info, "previous_close", None)
+            currency = getattr(info, "currency", None)
+            change = round(price - prev, 4) if price and prev else None
+            change_pct = round((price - prev) / prev * 100, 2) if price and prev else None
+            results[entity] = {
+                "ticker": ticker,
+                "exchange": stock.get("exchange", ""),
+                "note": stock.get("note"),
+                "price": round(price, 4) if price else None,
+                "currency": currency,
+                "change": change,
+                "changePct": change_pct,
+                "updatedAt": generated_at.isoformat().replace("+00:00", "Z"),
+            }
+            direction = "▲" if (change or 0) >= 0 else "▼"
+            print(f"[stock] {ticker}: {currency} {price:.2f} {direction}{abs(change_pct or 0):.2f}%")
+        except Exception as exc:  # noqa: BLE001
+            print(f"[stock] {ticker}: {exc}", file=sys.stderr)
+    return results
+
+
+def write_stocks(stocks: Dict, config: Dict, generated_at: datetime) -> None:
+    stocks_path = ROOT / config["output"].get("stocks_json_path", "data/stocks.json")
+    stocks_path.parent.mkdir(parents=True, exist_ok=True)
+    output = {
+        "generatedAt": generated_at.isoformat().replace("+00:00", "Z"),
+        "stocks": stocks,
+    }
+    stocks_path.write_text(json.dumps(output, ensure_ascii=True, indent=2) + "\n", encoding="utf-8")
 
 
 def main() -> int:
@@ -646,6 +699,15 @@ def main() -> int:
     print(f"[done] wrote {len(pruned)} articles to history ({history_path.name})")
     if errors:
         print(f"[done] {len(errors)} source errors recorded")
+
+    # Stock quotes
+    profiles = config.get("entity_profiles", {})
+    if profiles:
+        stocks = fetch_stocks(profiles, generated_at)
+        if stocks:
+            write_stocks(stocks, config, generated_at)
+            print(f"[done] wrote {len(stocks)} stock quotes to data/stocks.json")
+
     return 0
 
 

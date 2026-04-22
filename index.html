@@ -897,6 +897,311 @@
           grid-template-columns: 1fr;
         }
       }
+
+      /* Entity nav button */
+      .entities-nav-btn {
+        padding: 5px 12px;
+        border-radius: 8px;
+        border: 1px solid var(--line);
+        background: var(--surface-muted);
+        color: var(--text-soft);
+        font-size: 10px;
+        font-weight: 700;
+        letter-spacing: 0.04em;
+        text-transform: uppercase;
+        cursor: pointer;
+        flex-shrink: 0;
+      }
+
+      .entities-nav-btn.active {
+        background: var(--accent);
+        border-color: var(--accent);
+        color: #fff;
+      }
+
+      /* Entity directory */
+      .entity-dir-header {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        margin-bottom: 20px;
+      }
+
+      .entity-dir-header h2 {
+        margin: 0;
+        font-size: 22px;
+      }
+
+      .entity-dir-group {
+        margin-bottom: 28px;
+      }
+
+      .entity-dir-group-title {
+        font-size: 12px;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 0.06em;
+        color: var(--text-soft);
+        margin: 0 0 12px;
+      }
+
+      .entity-dir-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+        gap: 10px;
+      }
+
+      .entity-card {
+        background: var(--surface);
+        border: 1px solid var(--line);
+        border-radius: 14px;
+        padding: 14px 16px;
+        cursor: pointer;
+        transition: border-color 0.15s, box-shadow 0.15s;
+        display: grid;
+        gap: 5px;
+        box-shadow: var(--shadow);
+      }
+
+      .entity-card:hover {
+        border-color: var(--accent);
+        box-shadow: 0 4px 16px rgba(15, 89, 102, 0.14);
+      }
+
+      .entity-card-name {
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 1.3;
+      }
+
+      .entity-card-meta {
+        display: flex;
+        align-items: center;
+        gap: 6px;
+        flex-wrap: wrap;
+      }
+
+      .entity-card-badge {
+        display: inline-flex;
+        align-items: center;
+        padding: 3px 8px;
+        border-radius: 999px;
+        font-size: 10px;
+        font-weight: 700;
+        letter-spacing: 0.04em;
+        text-transform: uppercase;
+      }
+
+      .entity-card-badge.suppliers { background: #fef3c7; color: #92400e; }
+      .entity-card-badge.clients { background: #dbeafe; color: #1e40af; }
+      .entity-card-badge.competitors { background: #fee2e2; color: #991b1b; }
+
+      .entity-card-hq {
+        color: var(--text-soft);
+        font-size: 12px;
+      }
+
+      .entity-card-desc {
+        color: var(--text-soft);
+        font-size: 12px;
+        line-height: 1.4;
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+      }
+
+      .entity-card-stock {
+        font-size: 11px;
+        font-weight: 600;
+        color: var(--accent);
+      }
+
+      /* Entity overlay */
+      .entity-overlay-backdrop {
+        position: fixed;
+        inset: 0;
+        z-index: 200;
+        background: rgba(0, 0, 0, 0.3);
+        opacity: 0;
+        transition: opacity 0.2s;
+        pointer-events: none;
+      }
+
+      .entity-overlay-backdrop.visible {
+        opacity: 1;
+        pointer-events: auto;
+      }
+
+      .entity-overlay {
+        position: fixed;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        z-index: 201;
+        width: min(520px, 100vw);
+        background: var(--surface);
+        box-shadow: -4px 0 32px rgba(20, 33, 39, 0.14);
+        display: flex;
+        flex-direction: column;
+        transform: translateX(100%);
+        transition: transform 0.25s ease;
+        overflow: hidden;
+      }
+
+      .entity-overlay.open {
+        transform: translateX(0);
+      }
+
+      .entity-overlay-header {
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        gap: 12px;
+        padding: 20px 24px 16px;
+        border-bottom: 1px solid var(--line);
+        flex-shrink: 0;
+      }
+
+      .entity-overlay-title {
+        display: grid;
+        gap: 6px;
+      }
+
+      .entity-overlay-title h2 {
+        margin: 0;
+        font-size: 20px;
+        line-height: 1.2;
+      }
+
+      .entity-overlay-close {
+        width: 32px;
+        height: 32px;
+        border-radius: 8px;
+        border: 1px solid var(--line);
+        background: var(--surface-muted);
+        color: var(--text-soft);
+        cursor: pointer;
+        font-size: 18px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-shrink: 0;
+      }
+
+      .overlay-nav {
+        display: flex;
+        border-bottom: 1px solid var(--line);
+        flex-shrink: 0;
+      }
+
+      .overlay-nav-tab {
+        padding: 10px 20px;
+        border: none;
+        border-bottom: 2px solid transparent;
+        background: none;
+        color: var(--text-soft);
+        font-size: 13px;
+        font-weight: 600;
+        cursor: pointer;
+        margin-bottom: -1px;
+      }
+
+      .overlay-nav-tab.active {
+        color: var(--accent);
+        border-bottom-color: var(--accent);
+      }
+
+      .entity-overlay-body {
+        flex: 1;
+        overflow-y: auto;
+        padding: 20px 24px;
+      }
+
+      .overlay-profile-row {
+        display: flex;
+        gap: 12px;
+        align-items: baseline;
+        padding: 9px 0;
+        border-bottom: 1px solid var(--line);
+        font-size: 14px;
+      }
+
+      .overlay-profile-label {
+        color: var(--text-soft);
+        font-size: 11px;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 0.04em;
+        min-width: 72px;
+        flex-shrink: 0;
+      }
+
+      .overlay-profile-value {
+        color: var(--text);
+        word-break: break-word;
+      }
+
+      .overlay-profile-value a {
+        color: var(--accent);
+        text-decoration: none;
+      }
+
+      .overlay-profile-value a:hover {
+        text-decoration: underline;
+      }
+
+      .overlay-desc {
+        margin: 16px 0 0;
+        color: var(--text-soft);
+        font-size: 14px;
+        line-height: 1.6;
+      }
+
+      .stock-widget {
+        margin-top: 20px;
+        padding: 14px 16px;
+        background: var(--surface-muted);
+        border: 1px solid var(--line);
+        border-radius: 12px;
+        display: grid;
+        gap: 3px;
+      }
+
+      .stock-widget-ticker {
+        font-size: 11px;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 0.06em;
+        color: var(--text-soft);
+      }
+
+      .stock-widget-price {
+        font-size: 28px;
+        font-weight: 700;
+        color: var(--text);
+      }
+
+      .stock-widget-change {
+        font-size: 13px;
+        font-weight: 600;
+      }
+
+      .stock-widget-change.up { color: #166534; }
+      .stock-widget-change.down { color: var(--danger); }
+      .stock-widget-change.flat { color: var(--text-soft); }
+
+      .stock-widget-updated {
+        margin-top: 4px;
+        font-size: 11px;
+        color: var(--text-soft);
+      }
+
+      .overlay-empty {
+        padding: 24px 0;
+        color: var(--text-soft);
+        font-size: 14px;
+      }
     </style>
   </head>
   <body>
@@ -933,6 +1238,7 @@
             <button class="view-mode-btn" data-view="procurement" type="button">Procurement</button>
             <button class="view-mode-btn" data-view="management" type="button">Management</button>
           </div>
+          <button id="entitiesNavBtn" class="entities-nav-btn" type="button">Entities</button>
           <button id="refreshButton" class="refresh-icon-btn" title="Refresh data" type="button">↻</button>
           <span id="refreshStatus" class="refresh-status"></span>
         </div>
@@ -940,6 +1246,13 @@
 
       <div class="page">
       <div id="errors"></div>
+
+      <div id="entityDirectoryView" style="display:none">
+        <div class="entity-dir-header">
+          <h2>Entity Directory</h2>
+        </div>
+        <div id="entityDirContent"></div>
+      </div>
 
       <section class="controls-panel">
         <aside class="controls">
@@ -1012,6 +1325,19 @@
       <section class="entity-sections" id="entityContainer"></section>
 
       <section class="buckets" id="bucketContainer"></section>
+      </div>
+
+      <div id="entityOverlayBackdrop" class="entity-overlay-backdrop"></div>
+      <div id="entityOverlay" class="entity-overlay" role="dialog" aria-modal="true">
+        <div class="entity-overlay-header">
+          <div class="entity-overlay-title">
+            <h2 id="overlayEntityName"></h2>
+            <div id="overlayEntityBadge"></div>
+          </div>
+          <button id="entityOverlayClose" class="entity-overlay-close" type="button" title="Close">✕</button>
+        </div>
+        <div class="overlay-nav" id="overlayNav"></div>
+        <div class="entity-overlay-body" id="overlayBody"></div>
       </div>
     </div>
 
@@ -1124,7 +1450,12 @@
         entityVisibility: { suppliers: 10, clients: 10, competitors: 10 },
         historyData: null,
         historyLoading: false,
-        viewMode: localStorage.getItem(VIEW_MODE_KEY) || "all"
+        viewMode: localStorage.getItem(VIEW_MODE_KEY) || "all",
+        activeView: "dashboard",
+        openEntityName: null,
+        overlayTab: "profile",
+        stocksData: null,
+        stocksLoading: false,
       };
 
       const elements = {
@@ -1145,7 +1476,17 @@
         bucketContainer: document.getElementById("bucketContainer"),
         boardSummary: document.getElementById("boardSummary"),
         viewModeToggle: document.getElementById("viewModeToggle"),
-        toggleButtons: Array.from(document.querySelectorAll(".toggle-button"))
+        toggleButtons: Array.from(document.querySelectorAll(".toggle-button")),
+        entitiesNavBtn: document.getElementById("entitiesNavBtn"),
+        entityDirectoryView: document.getElementById("entityDirectoryView"),
+        entityDirContent: document.getElementById("entityDirContent"),
+        entityOverlayBackdrop: document.getElementById("entityOverlayBackdrop"),
+        entityOverlay: document.getElementById("entityOverlay"),
+        overlayEntityName: document.getElementById("overlayEntityName"),
+        overlayEntityBadge: document.getElementById("overlayEntityBadge"),
+        overlayNav: document.getElementById("overlayNav"),
+        overlayBody: document.getElementById("overlayBody"),
+        entityOverlayClose: document.getElementById("entityOverlayClose"),
       };
 
       function formatDate(value) {
@@ -1844,6 +2185,239 @@
         }
       }
 
+      // ── Entity directory & overlay ──────────────────────────────────────────
+
+      function getDirArticles() {
+        return (state.historyData && state.historyData.articles) || state.data.articles || [];
+      }
+
+      function switchView(view) {
+        state.activeView = view;
+        const isDashboard = view === "dashboard";
+        [
+          document.querySelector(".controls-panel"),
+          document.querySelector(".toggle-panel"),
+          document.getElementById("entityContainer"),
+          document.getElementById("bucketContainer"),
+        ].forEach((el) => { if (el) el.style.display = isDashboard ? "" : "none"; });
+        elements.entityDirectoryView.style.display = isDashboard ? "none" : "";
+        elements.entitiesNavBtn.classList.toggle("active", !isDashboard);
+        if (!isDashboard) renderEntityDirectory();
+      }
+
+      async function loadStocksData() {
+        if (state.stocksLoading || state.stocksData !== null) return;
+        state.stocksLoading = true;
+        try {
+          const res = await fetch("./data/stocks.json", { cache: "no-store" });
+          if (res.ok) state.stocksData = await res.json();
+          else state.stocksData = {};
+        } catch {
+          state.stocksData = {};
+        } finally {
+          state.stocksLoading = false;
+        }
+      }
+
+      function renderEntityDirectory() {
+        const profiles = state.data.entityProfiles || {};
+        const categories = state.data.entityCategories || {};
+        const el = elements.entityDirContent;
+        el.innerHTML = "";
+
+        const grouped = { suppliers: [], clients: [], competitors: [] };
+        Object.entries(profiles).forEach(([name, profile]) => {
+          const cat = categories[name];
+          if (cat && grouped[cat]) grouped[cat].push({ name, profile });
+        });
+
+        const catLabels = { suppliers: "Suppliers", clients: "Clients", competitors: "Competitors" };
+
+        Object.entries(grouped).forEach(([cat, items]) => {
+          if (items.length === 0) return;
+          const group = document.createElement("div");
+          group.className = "entity-dir-group";
+          group.appendChild(createTextElement("div", catLabels[cat], "entity-dir-group-title"));
+
+          const grid = document.createElement("div");
+          grid.className = "entity-dir-grid";
+
+          items.sort((a, b) => a.name.localeCompare(b.name)).forEach(({ name, profile }) => {
+            const card = document.createElement("div");
+            card.className = "entity-card";
+            card.appendChild(createTextElement("div", name, "entity-card-name"));
+
+            const meta = document.createElement("div");
+            meta.className = "entity-card-meta";
+            meta.appendChild(createTextElement("span", catLabels[cat].slice(0, -1), `entity-card-badge ${cat}`));
+            if (profile.stock && profile.stock.ticker) {
+              meta.appendChild(createTextElement("span", "📈 " + profile.stock.ticker, "entity-card-stock"));
+            }
+            card.appendChild(meta);
+
+            if (profile.hq) card.appendChild(createTextElement("div", profile.hq, "entity-card-hq"));
+            if (profile.description) card.appendChild(createTextElement("div", profile.description, "entity-card-desc"));
+
+            card.addEventListener("click", () => openEntityOverlay(name));
+            grid.appendChild(card);
+          });
+
+          group.appendChild(grid);
+          el.appendChild(group);
+        });
+
+        if (el.children.length === 0) {
+          el.appendChild(createTextElement("div", "No entity profiles configured.", "overlay-empty"));
+        }
+      }
+
+      function openEntityOverlay(name) {
+        state.openEntityName = name;
+        state.overlayTab = "profile";
+
+        elements.overlayEntityName.textContent = name;
+        const cat = (state.data.entityCategories || {})[name];
+        const catLabels = { suppliers: "Supplier", clients: "Client", competitors: "Competitor" };
+        elements.overlayEntityBadge.innerHTML = "";
+        if (cat) {
+          elements.overlayEntityBadge.appendChild(
+            createTextElement("span", catLabels[cat] || cat, `entity-card-badge ${cat}`)
+          );
+        }
+
+        renderOverlayNav(name);
+        renderOverlayContent(name);
+
+        elements.entityOverlayBackdrop.classList.add("visible");
+        elements.entityOverlay.classList.add("open");
+        document.body.style.overflow = "hidden";
+
+        const profile = (state.data.entityProfiles || {})[name] || {};
+        if (profile.stock && profile.stock.ticker) {
+          loadStocksData().then(() => {
+            if (state.openEntityName === name && state.overlayTab === "profile") renderOverlayContent(name);
+          });
+        }
+      }
+
+      function closeEntityOverlay() {
+        state.openEntityName = null;
+        elements.entityOverlayBackdrop.classList.remove("visible");
+        elements.entityOverlay.classList.remove("open");
+        document.body.style.overflow = "";
+      }
+
+      function renderOverlayNav(name) {
+        const count = getDirArticles().filter((a) =>
+          (a.entities || []).some((e) => e.name === name)
+        ).length;
+
+        elements.overlayNav.innerHTML = "";
+        [{ key: "profile", label: "Profile" }, { key: "news", label: `News (${count})` }].forEach(({ key, label }) => {
+          const btn = document.createElement("button");
+          btn.type = "button";
+          btn.className = "overlay-nav-tab" + (state.overlayTab === key ? " active" : "");
+          btn.textContent = label;
+          btn.addEventListener("click", () => {
+            state.overlayTab = key;
+            renderOverlayNav(name);
+            renderOverlayContent(name);
+          });
+          elements.overlayNav.appendChild(btn);
+        });
+      }
+
+      function renderOverlayContent(name) {
+        const body = elements.overlayBody;
+        body.innerHTML = "";
+        if (state.overlayTab === "profile") renderOverlayProfile(name, body);
+        else renderOverlayNews(name, body);
+      }
+
+      function renderOverlayProfile(name, body) {
+        const profile = (state.data.entityProfiles || {})[name] || {};
+
+        [
+          { label: "Website", value: profile.website, link: true },
+          { label: "LinkedIn", value: profile.linkedin, link: true, display: "LinkedIn →" },
+          { label: "HQ", value: profile.hq },
+          { label: "Founded", value: profile.founded ? String(profile.founded) : null },
+        ].forEach(({ label, value, link, display }) => {
+          if (!value) return;
+          const row = document.createElement("div");
+          row.className = "overlay-profile-row";
+          row.appendChild(createTextElement("span", label, "overlay-profile-label"));
+          const val = document.createElement("span");
+          val.className = "overlay-profile-value";
+          if (link) {
+            const a = document.createElement("a");
+            a.href = value;
+            a.target = "_blank";
+            a.rel = "noreferrer noopener";
+            a.textContent = display || value.replace(/^https?:\/\/(www\.)?/, "").replace(/\/$/, "");
+            val.appendChild(a);
+          } else {
+            val.textContent = value;
+          }
+          row.appendChild(val);
+          body.appendChild(row);
+        });
+
+        if (profile.description) {
+          body.appendChild(createTextElement("p", profile.description, "overlay-desc"));
+        }
+
+        const stock = profile.stock;
+        if (stock && stock.ticker) {
+          const widget = document.createElement("div");
+          widget.className = "stock-widget";
+          widget.appendChild(createTextElement("div",
+            `${stock.ticker}${stock.exchange ? " · " + stock.exchange : ""}`,
+            "stock-widget-ticker"
+          ));
+          const info = state.stocksData && state.stocksData[name];
+          if (info && info.price != null) {
+            widget.appendChild(createTextElement("div",
+              `${info.currency || ""} ${info.price.toLocaleString(undefined, { minimumFractionDigits: 2, maximumFractionDigits: 2 })}`,
+              "stock-widget-price"
+            ));
+            const sign = (info.changePct || 0) > 0 ? "+" : "";
+            const cls = (info.changePct || 0) > 0 ? "up" : (info.changePct || 0) < 0 ? "down" : "flat";
+            widget.appendChild(createTextElement("div",
+              `${sign}${(info.change || 0).toFixed(2)} (${sign}${(info.changePct || 0).toFixed(2)}%)`,
+              `stock-widget-change ${cls}`
+            ));
+            widget.appendChild(createTextElement("div", `Updated ${formatDate(info.updatedAt)}`, "stock-widget-updated"));
+          } else if (state.stocksData === null) {
+            widget.appendChild(createTextElement("div", "Loading…", "stock-widget-updated"));
+          } else {
+            widget.appendChild(createTextElement("div", "No price data available", "stock-widget-updated"));
+          }
+          if (stock.note) widget.appendChild(createTextElement("div", stock.note, "stock-widget-updated"));
+          body.appendChild(widget);
+        }
+
+        if (!profile.website && !profile.hq && !profile.description && !stock) {
+          body.appendChild(createTextElement("div", "No profile information available.", "overlay-empty"));
+        }
+      }
+
+      function renderOverlayNews(name, body) {
+        const articles = getDirArticles()
+          .filter((a) => (a.entities || []).some((e) => e.name === name))
+          .sort((a, b) => {
+            const bd = (PRIORITY_LEVELS[b.priorityBand] ?? 0) - (PRIORITY_LEVELS[a.priorityBand] ?? 0);
+            if (bd !== 0) return bd;
+            return new Date(b.publishedAt || 0) - new Date(a.publishedAt || 0);
+          });
+
+        if (articles.length === 0) {
+          body.appendChild(createTextElement("div", "No articles found for this entity.", "overlay-empty"));
+          return;
+        }
+        articles.slice(0, 50).forEach((article) => body.appendChild(createArticleRow(article)));
+      }
+
       async function boot() {
         syncDataToUi();
         if (window.location.protocol !== "file:") {
@@ -1869,6 +2443,14 @@
         ].forEach((element) => element.addEventListener("input", render));
 
         elements.refreshButton.addEventListener("click", refreshFeeds);
+
+        elements.entitiesNavBtn.addEventListener("click", () => {
+          switchView(state.activeView === "entities" ? "dashboard" : "entities");
+        });
+        elements.entityOverlayClose.addEventListener("click", closeEntityOverlay);
+        elements.entityOverlayBackdrop.addEventListener("click", closeEntityOverlay);
+        document.addEventListener("keydown", (e) => { if (e.key === "Escape" && state.openEntityName) closeEntityOverlay(); });
+
         elements.toggleButtons.forEach((button) => {
           button.addEventListener("click", () => {
             state.activeAudience = button.dataset.audience;

@@ -14,13 +14,16 @@ jobs:
     steps:
       - uses: actions/checkout@v5
 
-      - name: Fetch RSS feeds
+      - name: Install dependencies
+        run: pip install yfinance
+
+      - name: Fetch RSS feeds and stock quotes
         run: python3 scripts/fetch_feeds.py
 
       - name: Commit updated data
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/articles.json data/articles.js data/articles-history.json
+          git add data/articles.json data/articles.js data/articles-history.json data/stocks.json
           git diff --staged --quiet || git commit -m "auto: refresh articles $(date -u +'%Y-%m-%d %H:%M UTC')"
           git push
