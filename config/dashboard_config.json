@@ -17,7 +17,10 @@
       "id": "maritime-executive",
       "name": "The Maritime Executive",
       "url": "https://maritime-executive.com/articles.rss",
-      "default_tags": ["maritime", "news"],
+      "default_tags": [
+        "maritime",
+        "news"
+      ],
       "audience_bias": {
         "Multraship": 1,
         "Novatug": 1
@@ -27,7 +30,10 @@
       "id": "gcaptain",
       "name": "gCaptain",
       "url": "https://gcaptain.com/feed/",
-      "default_tags": ["maritime", "operations"],
+      "default_tags": [
+        "maritime",
+        "operations"
+      ],
       "audience_bias": {
         "Multraship": 1
       }
@@ -36,7 +42,10 @@
       "id": "marinelink",
       "name": "MarineLink",
       "url": "https://www.marinelink.com/news/rss",
-      "default_tags": ["maritime", "industry"],
+      "default_tags": [
+        "maritime",
+        "industry"
+      ],
       "audience_bias": {
         "Multraship": 1,
         "Novatug": 1
@@ -46,7 +55,10 @@
       "id": "offshore-energy",
       "name": "Offshore Energy",
       "url": "https://www.offshore-energy.biz/feed/",
-      "default_tags": ["energy-transition", "technology"],
+      "default_tags": [
+        "energy-transition",
+        "technology"
+      ],
       "audience_bias": {
         "Novatug": 2
       }
@@ -55,13 +67,19 @@
       "id": "hellenic-shipping-news",
       "name": "Hellenic Shipping News",
       "url": "https://www.hellenicshippingnews.com/feed/",
-      "default_tags": ["shipping", "markets"]
+      "default_tags": [
+        "shipping",
+        "markets"
+      ]
     },
     {
       "id": "ship-technology",
       "name": "Ship Technology",
       "url": "https://www.ship-technology.com/feed/",
-      "default_tags": ["technology", "innovation"],
+      "default_tags": [
+        "technology",
+        "innovation"
+      ],
       "audience_bias": {
         "Novatug": 2
       }
@@ -70,7 +88,10 @@
       "id": "splash247",
       "name": "Splash247",
       "url": "https://splash247.com/feed/",
-      "default_tags": ["maritime", "news"],
+      "default_tags": [
+        "maritime",
+        "news"
+      ],
       "audience_bias": {
         "Multraship": 1,
         "Novatug": 1
@@ -80,7 +101,10 @@
       "id": "swz-maritime",
       "name": "SWZ Maritime",
       "url": "https://swzmaritime.nl/feed/",
-      "default_tags": ["maritime", "netherlands"],
+      "default_tags": [
+        "maritime",
+        "netherlands"
+      ],
       "audience_bias": {
         "Multraship": 1,
         "Novatug": 1
@@ -90,7 +114,10 @@
       "id": "baird-maritime",
       "name": "Baird Maritime",
       "url": "https://www.bairdmaritime.com/feed",
-      "default_tags": ["workboats", "technology"],
+      "default_tags": [
+        "workboats",
+        "technology"
+      ],
       "audience_bias": {
         "Multraship": 2,
         "Novatug": 1
@@ -100,7 +127,10 @@
       "id": "africa-ports",
       "name": "Africa Ports & Ships",
       "url": "https://africaports.co.za/feed/",
-      "default_tags": ["ports", "africa"],
+      "default_tags": [
+        "ports",
+        "africa"
+      ],
       "audience_bias": {
         "Multraship": 2,
         "Novatug": 1
@@ -110,7 +140,10 @@
       "id": "rigzone-latest",
       "name": "Rigzone",
       "url": "https://www.rigzone.com/news/rss/rigzone_latest.aspx",
-      "default_tags": ["offshore", "energy"],
+      "default_tags": [
+        "offshore",
+        "energy"
+      ],
       "audience_bias": {
         "Multraship": 1,
         "Novatug": 2
@@ -120,7 +153,10 @@
       "id": "riviera-ports",
       "name": "Riviera: Ports & Terminals",
       "url": "https://www.rivieramm.com/Syndication/DF.cfm?f=19&ft=10&",
-      "default_tags": ["ports", "terminals"],
+      "default_tags": [
+        "ports",
+        "terminals"
+      ],
       "audience_bias": {
         "Multraship": 2
       }
@@ -129,7 +165,10 @@
       "id": "riviera-safety",
       "name": "Riviera: Safety & Incidents",
       "url": "https://www.rivieramm.com/Syndication/DF.cfm?f=20&ft=10&",
-      "default_tags": ["safety", "incidents"],
+      "default_tags": [
+        "safety",
+        "incidents"
+      ],
       "audience_bias": {
         "Multraship": 2,
         "Novatug": 1
@@ -139,7 +178,10 @@
       "id": "riviera-regulation",
       "name": "Riviera: Regulations & Compliance",
       "url": "https://www.rivieramm.com/Syndication/DF.cfm?f=22&ft=10&",
-      "default_tags": ["regulation", "compliance"],
+      "default_tags": [
+        "regulation",
+        "compliance"
+      ],
       "audience_bias": {
         "Multraship": 1,
         "Novatug": 1
@@ -149,7 +191,10 @@
       "id": "riviera-emissions",
       "name": "Riviera: Air Pollution & GHG Emissions",
       "url": "https://www.rivieramm.com/Syndication/DF.cfm?f=25&ft=10&",
-      "default_tags": ["emissions", "decarbonization"],
+      "default_tags": [
+        "emissions",
+        "decarbonization"
+      ],
       "audience_bias": {
         "Novatug": 2
       }
@@ -158,7 +203,10 @@
       "id": "riviera-propulsion",
       "name": "Riviera: Propulsion",
       "url": "https://www.rivieramm.com/Syndication/DF.cfm?f=11&ft=10&",
-      "default_tags": ["propulsion", "technology"],
+      "default_tags": [
+        "propulsion",
+        "technology"
+      ],
       "audience_bias": {
         "Novatug": 2
       }
@@ -167,7 +215,10 @@
       "id": "bing-damen",
       "name": "Damen Shipyards News",
       "url": "https://www.bing.com/news/search?q=Damen+Shipyards&format=rss&mkt=en-US",
-      "default_tags": ["shipbuilding", "supplier"],
+      "default_tags": [
+        "shipbuilding",
+        "supplier"
+      ],
       "audience_bias": {
         "Multraship": 5,
         "Novatug": 2
@@ -177,7 +228,10 @@
       "id": "bing-kongsberg",
       "name": "Kongsberg Maritime News",
       "url": "https://www.bing.com/news/search?q=Kongsberg+Maritime&format=rss&mkt=en-US",
-      "default_tags": ["technology", "supplier"],
+      "default_tags": [
+        "technology",
+        "supplier"
+      ],
       "audience_bias": {
         "Multraship": 4,
         "Novatug": 3
@@ -187,7 +241,10 @@
       "id": "bing-boskalis",
       "name": "Boskalis News",
       "url": "https://www.bing.com/news/search?q=Boskalis&format=rss&mkt=en-US",
-      "default_tags": ["dredging", "offshore"],
+      "default_tags": [
+        "dredging",
+        "offshore"
+      ],
       "audience_bias": {
         "Multraship": 5
       }
@@ -196,7 +253,10 @@
       "id": "bing-svitzer",
       "name": "Svitzer News",
       "url": "https://www.bing.com/news/search?q=Svitzer+towage&format=rss&mkt=en-US",
-      "default_tags": ["towage", "competitor"],
+      "default_tags": [
+        "towage",
+        "competitor"
+      ],
       "audience_bias": {
         "Multraship": 5
       }
@@ -205,7 +265,10 @@
       "id": "bing-deme",
       "name": "DEME Group News",
       "url": "https://www.bing.com/news/search?q=DEME+Group&format=rss&mkt=en-US",
-      "default_tags": ["offshore", "marine-construction"],
+      "default_tags": [
+        "offshore",
+        "marine-construction"
+      ],
       "audience_bias": {
         "Multraship": 5
       }
@@ -214,7 +277,10 @@
       "id": "bing-van-oord",
       "name": "Van Oord News",
       "url": "https://www.bing.com/news/search?q=Van+Oord+maritime&format=rss&mkt=en-US",
-      "default_tags": ["offshore", "dredging"],
+      "default_tags": [
+        "offshore",
+        "dredging"
+      ],
       "audience_bias": {
         "Multraship": 5
       }
@@ -223,7 +289,10 @@
       "id": "bing-wartsila",
       "name": "Wärtsilä News",
       "url": "https://www.bing.com/news/search?q=W%C3%A4rtsil%C3%A4+marine&format=rss&mkt=en-US",
-      "default_tags": ["propulsion", "technology"],
+      "default_tags": [
+        "propulsion",
+        "technology"
+      ],
       "audience_bias": {
         "Multraship": 4,
         "Novatug": 3
@@ -233,7 +302,10 @@
       "id": "bing-dnv",
       "name": "DNV News",
       "url": "https://www.bing.com/news/search?q=DNV+maritime&format=rss&mkt=en-US",
-      "default_tags": ["classification", "safety"],
+      "default_tags": [
+        "classification",
+        "safety"
+      ],
       "audience_bias": {
         "Multraship": 4,
         "Novatug": 2
@@ -243,7 +315,10 @@
       "id": "bing-ardent",
       "name": "Ardent Salvage News",
       "url": "https://www.bing.com/news/search?q=Ardent+salvage+maritime&format=rss&mkt=en-US",
-      "default_tags": ["salvage", "competitor"],
+      "default_tags": [
+        "salvage",
+        "competitor"
+      ],
       "audience_bias": {
         "Multraship": 5
       }
@@ -252,7 +327,10 @@
       "id": "bing-saam",
       "name": "SAAM Towage News",
       "url": "https://www.bing.com/news/search?q=SAAM+Towage&format=rss&mkt=en-US",
-      "default_tags": ["towage", "competitor"],
+      "default_tags": [
+        "towage",
+        "competitor"
+      ],
       "audience_bias": {
         "Multraship": 5
       }
@@ -261,7 +339,353 @@
       "id": "bing-yara",
       "name": "Yara International News",
       "url": "https://www.bing.com/news/search?q=Yara+International+shipping&format=rss&mkt=en-US",
-      "default_tags": ["chemicals", "client"],
+      "default_tags": [
+        "chemicals",
+        "client"
+      ],
+      "audience_bias": {
+        "Multraship": 5
+      }
+    },
+    {
+      "id": "bing-flc-marine",
+      "name": "FLC Marine Works News",
+      "url": "https://www.bing.com/news/search?q=FLC+Marine+Works+maritime&format=rss&mkt=en-US",
+      "default_tags": [
+        "marine-works"
+      ],
+      "audience_bias": {
+        "Multraship": 5
+      }
+    },
+    {
+      "id": "bing-rijkswaterstaat",
+      "name": "Rijkswaterstaat News",
+      "url": "https://www.bing.com/news/search?q=Rijkswaterstaat+port+maritime&format=rss&mkt=en-US",
+      "default_tags": [
+        "infrastructure",
+        "ports"
+      ],
+      "audience_bias": {
+        "Multraship": 5
+      }
+    },
+    {
+      "id": "bing-scaldis",
+      "name": "Scaldis Salvage News",
+      "url": "https://www.bing.com/news/search?q=Scaldis+Salvage+marine+contractor&format=rss&mkt=en-US",
+      "default_tags": [
+        "salvage",
+        "marine-construction"
+      ],
+      "audience_bias": {
+        "Multraship": 5
+      }
+    },
+    {
+      "id": "bing-tm-edison",
+      "name": "TM Edison News",
+      "url": "https://www.bing.com/news/search?q=%22TM+Edison%22+maritime&format=rss&mkt=en-US",
+      "default_tags": [
+        "shipping"
+      ],
+      "audience_bias": {
+        "Multraship": 5
+      }
+    },
+    {
+      "id": "bing-wilhelmsen-port",
+      "name": "Wilhelmsen Port Services News",
+      "url": "https://www.bing.com/news/search?q=Wilhelmsen+Port+Services&format=rss&mkt=en-US",
+      "default_tags": [
+        "port-services"
+      ],
+      "audience_bias": {
+        "Multraship": 5
+      }
+    },
+    {
+      "id": "bing-omc",
+      "name": "Offshore Marine Contractors News",
+      "url": "https://www.bing.com/news/search?q=%22Offshore+Marine+Contractors%22+OMC&format=rss&mkt=en-US",
+      "default_tags": [
+        "offshore",
+        "marine-construction"
+      ],
+      "audience_bias": {
+        "Multraship": 5
+      }
+    },
+    {
+      "id": "bing-manora",
+      "name": "Manora Logistics News",
+      "url": "https://www.bing.com/news/search?q=Manora+Logistics+maritime&format=rss&mkt=en-US",
+      "default_tags": [
+        "logistics"
+      ],
+      "audience_bias": {
+        "Multraship": 5
+      }
+    },
+    {
+      "id": "bing-ovet",
+      "name": "Ovet Shipping News",
+      "url": "https://www.bing.com/news/search?q=Ovet+Shipping+maritime+terminal&format=rss&mkt=en-US",
+      "default_tags": [
+        "shipping",
+        "terminals"
+      ],
+      "audience_bias": {
+        "Multraship": 5
+      }
+    },
+    {
+      "id": "bing-sarens",
+      "name": "Sarens News",
+      "url": "https://www.bing.com/news/search?q=Sarens+heavy+lift+marine&format=rss&mkt=en-US",
+      "default_tags": [
+        "heavy-lift"
+      ],
+      "audience_bias": {
+        "Multraship": 5
+      }
+    },
+    {
+      "id": "bing-vertomcory",
+      "name": "VertomCory News",
+      "url": "https://www.bing.com/news/search?q=VertomCory+shipping+barge&format=rss&mkt=en-US",
+      "default_tags": [
+        "shipping",
+        "barge"
+      ],
+      "audience_bias": {
+        "Multraship": 5
+      }
+    },
+    {
+      "id": "bing-tm-schelde",
+      "name": "TM Schelde & Zee News",
+      "url": "https://www.bing.com/news/search?q=%22Schelde+%26+Zee%22+maritime&format=rss&mkt=en-US",
+      "default_tags": [
+        "maritime"
+      ],
+      "audience_bias": {
+        "Multraship": 5
+      }
+    },
+    {
+      "id": "bing-van-der-straaten",
+      "name": "Van der Straaten News",
+      "url": "https://www.bing.com/news/search?q=%22Van+der+Straaten%22+aannemingsmaatschappij&format=rss&mkt=en-US",
+      "default_tags": [
+        "marine-contractor"
+      ],
+      "audience_bias": {
+        "Multraship": 5
+      }
+    },
+    {
+      "id": "bing-verbrugge-marine",
+      "name": "Verbrugge Marine News",
+      "url": "https://www.bing.com/news/search?q=Verbrugge+Marine+shipping&format=rss&mkt=en-US",
+      "default_tags": [
+        "shipping"
+      ],
+      "audience_bias": {
+        "Multraship": 5
+      }
+    },
+    {
+      "id": "bing-edison-vof",
+      "name": "Edison VOF News",
+      "url": "https://www.bing.com/news/search?q=%22Edison+VOF%22+maritime&format=rss&mkt=en-US",
+      "default_tags": [
+        "shipping"
+      ],
+      "audience_bias": {
+        "Multraship": 5
+      }
+    },
+    {
+      "id": "bing-oldendorff",
+      "name": "Oldendorff Carriers News",
+      "url": "https://www.bing.com/news/search?q=Oldendorff+Carriers+shipping&format=rss&mkt=en-US",
+      "default_tags": [
+        "shipping",
+        "bulk"
+      ],
+      "audience_bias": {
+        "Multraship": 5
+      }
+    },
+    {
+      "id": "bing-ultrabulk",
+      "name": "Ultrabulk News",
+      "url": "https://www.bing.com/news/search?q=Ultrabulk+Shipping+maritime&format=rss&mkt=en-US",
+      "default_tags": [
+        "shipping",
+        "bulk"
+      ],
+      "audience_bias": {
+        "Multraship": 5
+      }
+    },
+    {
+      "id": "bing-petro-s",
+      "name": "Petro S. Management News",
+      "url": "https://www.bing.com/news/search?q=%22Petro+S%22+management+maritime&format=rss&mkt=en-US",
+      "default_tags": [
+        "maritime"
+      ],
+      "audience_bias": {
+        "Multraship": 5
+      }
+    },
+    {
+      "id": "bing-fsa",
+      "name": "Flushing Shipping Agencies News",
+      "url": "https://www.bing.com/news/search?q=Flushing+Shipping+Agencies+FSA+maritime&format=rss&mkt=en-US",
+      "default_tags": [
+        "ship-agency"
+      ],
+      "audience_bias": {
+        "Multraship": 5
+      }
+    },
+    {
+      "id": "bing-navonus",
+      "name": "Navonus News",
+      "url": "https://www.bing.com/news/search?q=Navonus+maritime+shipping&format=rss&mkt=en-US",
+      "default_tags": [
+        "maritime"
+      ],
+      "audience_bias": {
+        "Multraship": 5
+      }
+    },
+    {
+      "id": "bing-damen-yachting",
+      "name": "Damen Yachting News",
+      "url": "https://www.bing.com/news/search?q=Damen+Yachting&format=rss&mkt=en-US",
+      "default_tags": [
+        "yachting"
+      ],
+      "audience_bias": {
+        "Multraship": 3
+      }
+    },
+    {
+      "id": "bing-lalemant",
+      "name": "Lalemant Gent News",
+      "url": "https://www.bing.com/news/search?q=Lalemant+Gent+shipping&format=rss&mkt=en-US",
+      "default_tags": [
+        "shipping"
+      ],
+      "audience_bias": {
+        "Multraship": 5
+      }
+    },
+    {
+      "id": "bing-gac-belgium",
+      "name": "GAC Belgium News",
+      "url": "https://www.bing.com/news/search?q=GAC+Belgium+maritime+port+services&format=rss&mkt=en-US",
+      "default_tags": [
+        "ship-agency"
+      ],
+      "audience_bias": {
+        "Multraship": 5
+      }
+    },
+    {
+      "id": "bing-iss-palumbo",
+      "name": "ISS Palumbo Netherlands News",
+      "url": "https://www.bing.com/news/search?q=ISS+Palumbo+Netherlands+shipping&format=rss&mkt=en-US",
+      "default_tags": [
+        "ship-agency"
+      ],
+      "audience_bias": {
+        "Multraship": 5
+      }
+    },
+    {
+      "id": "bing-inchcape",
+      "name": "Inchcape Shipping Services News",
+      "url": "https://www.bing.com/news/search?q=Inchcape+Shipping+Services+maritime&format=rss&mkt=en-US",
+      "default_tags": [
+        "ship-agency"
+      ],
+      "audience_bias": {
+        "Multraship": 5
+      }
+    },
+    {
+      "id": "bing-dfds",
+      "name": "DFDS News",
+      "url": "https://www.bing.com/news/search?q=DFDS+maritime+ferry+shipping&format=rss&mkt=en-US",
+      "default_tags": [
+        "ferry",
+        "shipping"
+      ],
+      "audience_bias": {
+        "Multraship": 5
+      }
+    },
+    {
+      "id": "bing-runaway-bay",
+      "name": "Runaway Bay Shipping News",
+      "url": "https://www.bing.com/news/search?q=%22Runaway+Bay+Shipping%22&format=rss&mkt=en-US",
+      "default_tags": [
+        "shipping"
+      ],
+      "audience_bias": {
+        "Multraship": 5
+      }
+    },
+    {
+      "id": "bing-wagenborg-stevedoring",
+      "name": "Wagenborg Stevedoring News",
+      "url": "https://www.bing.com/news/search?q=Wagenborg+Stevedoring+maritime&format=rss&mkt=en-US",
+      "default_tags": [
+        "stevedoring",
+        "ports"
+      ],
+      "audience_bias": {
+        "Multraship": 5
+      }
+    },
+    {
+      "id": "bing-maersk-tankers",
+      "name": "Maersk Tankers News",
+      "url": "https://www.bing.com/news/search?q=Maersk+Tankers+maritime&format=rss&mkt=en-US",
+      "default_tags": [
+        "tankers",
+        "shipping"
+      ],
+      "audience_bias": {
+        "Multraship": 5
+      }
+    },
+    {
+      "id": "bing-icechem",
+      "name": "IceChem Tankers News",
+      "url": "https://www.bing.com/news/search?q=IceChem+Tankers+maritime&format=rss&mkt=en-US",
+      "default_tags": [
+        "tankers",
+        "chemicals"
+      ],
+      "audience_bias": {
+        "Multraship": 5
+      }
+    },
+    {
+      "id": "ted-rijkswaterstaat",
+      "name": "Rijkswaterstaat Tenders (TED EU)",
+      "url": "https://ted.europa.eu/TED/search/search.do?language=EN&query=rijkswaterstaat&scope=0&results=10&page=1&sort=PD+desc&rss=true",
+      "default_tags": [
+        "tenders",
+        "infrastructure",
+        "government"
+      ],
       "audience_bias": {
         "Multraship": 5
       }
@@ -413,22 +837,115 @@
       "stock exchange"
     ],
     "topic_keywords": {
-      "Towage": ["towage", "tug", "towboat", "escort tug", "berthing", "unberthing"],
-      "Salvage": ["salvage", "salvor", "wreck", "rescue", "wreck removal", "emergency towing"],
-      "Incidents": ["incident", "casualty", "collision", "grounding", "fire", "pollution response"],
-      "Port Services": ["mooring", "unmooring", "line handling", "dispatching", "quartermastering", "crew transfer"],
-      "Offshore Support": ["anchor handling", "offshore towage", "offshore support", "rig move", "offshore wind support"],
-      "Sea Towage": ["sea towage", "dry dock tow", "floating crane", "heavy-lift barge"],
-      "Regulation": ["regulation", "compliance", "imo", "policy"],
-      "Safety": ["safety", "maritime accident", "marine accident", "terminal safety", "harbour safety", "harbor safety"],
-      "Classification": ["classification society", "class rules", "class notation", "classification rules"],
-      "Bollard Pull": ["bollard pull", "static bollard pull", "dynamic bollard pull", "escort performance"],
-      "Dredging Alternatives": ["dredging alternative", "sediment management", "shallow water", "port access"],
-      "Batteries": ["battery", "batteries", "charging"],
-      "Electrification": ["electric", "electrification", "shore power", "hybrid"],
-      "Decarbonization": ["decarbonization", "decarbonisation", "ghg", "emissions", "net zero"],
-      "Clean Propulsion": ["propulsion", "fuel cell", "methanol", "hydrogen", "ammonia", "alternative fuel"],
-      "Sustainability": ["sustainability", "green port", "air pollution", "energy transition"]
+      "Towage": [
+        "towage",
+        "tug",
+        "towboat",
+        "escort tug",
+        "berthing",
+        "unberthing"
+      ],
+      "Salvage": [
+        "salvage",
+        "salvor",
+        "wreck",
+        "rescue",
+        "wreck removal",
+        "emergency towing"
+      ],
+      "Incidents": [
+        "incident",
+        "casualty",
+        "collision",
+        "grounding",
+        "fire",
+        "pollution response"
+      ],
+      "Port Services": [
+        "mooring",
+        "unmooring",
+        "line handling",
+        "dispatching",
+        "quartermastering",
+        "crew transfer"
+      ],
+      "Offshore Support": [
+        "anchor handling",
+        "offshore towage",
+        "offshore support",
+        "rig move",
+        "offshore wind support"
+      ],
+      "Sea Towage": [
+        "sea towage",
+        "dry dock tow",
+        "floating crane",
+        "heavy-lift barge"
+      ],
+      "Regulation": [
+        "regulation",
+        "compliance",
+        "imo",
+        "policy"
+      ],
+      "Safety": [
+        "safety",
+        "maritime accident",
+        "marine accident",
+        "terminal safety",
+        "harbour safety",
+        "harbor safety"
+      ],
+      "Classification": [
+        "classification society",
+        "class rules",
+        "class notation",
+        "classification rules"
+      ],
+      "Bollard Pull": [
+        "bollard pull",
+        "static bollard pull",
+        "dynamic bollard pull",
+        "escort performance"
+      ],
+      "Dredging Alternatives": [
+        "dredging alternative",
+        "sediment management",
+        "shallow water",
+        "port access"
+      ],
+      "Batteries": [
+        "battery",
+        "batteries",
+        "charging"
+      ],
+      "Electrification": [
+        "electric",
+        "electrification",
+        "shore power",
+        "hybrid"
+      ],
+      "Decarbonization": [
+        "decarbonization",
+        "decarbonisation",
+        "ghg",
+        "emissions",
+        "net zero"
+      ],
+      "Clean Propulsion": [
+        "propulsion",
+        "fuel cell",
+        "methanol",
+        "hydrogen",
+        "ammonia",
+        "alternative fuel"
+      ],
+      "Sustainability": [
+        "sustainability",
+        "green port",
+        "air pollution",
+        "energy transition"
+      ]
     },
     "entities": {
       "suppliers": [
@@ -492,7 +1009,36 @@
         "Tata Steel",
         "INEOS",
         "Covestro",
-        "Cargill"
+        "Cargill",
+        "FLC Marine Works Group",
+        "Rijkswaterstaat",
+        "Scaldis Salvage & Marine Contractors",
+        "TM Edison BE",
+        "Wilhelmsen Port Services",
+        "Offshore Marine Contractors",
+        "Manora Logistics",
+        "Ovet",
+        "Sarens",
+        "VertomCory",
+        "TM Schelde & Zee",
+        "Van der Straaten Aannemingsmaatschappij",
+        "Verbrugge Marine",
+        "Edison VOF",
+        "Oldendorff Carriers",
+        "Ultrabulk",
+        "Petro S. Management",
+        "Flushing Shipping Agencies",
+        "Navonus",
+        "Damen Yachting",
+        "Lalemant Gent",
+        "GAC Belgium",
+        "ISS Palumbo Netherlands",
+        "Inchcape Shipping Services",
+        "DFDS",
+        "Runaway Bay Shipping",
+        "Wagenborg Stevedoring",
+        "Maersk Tankers",
+        "IceChem Tankers"
       ],
       "competitors": [
         "Boluda Towage",
@@ -533,109 +1079,362 @@
       {
         "name": "North Sea Port",
         "type": "port-system",
-        "aliases": ["North Sea Port"]
+        "aliases": [
+          "North Sea Port"
+        ]
       },
       {
         "name": "Terneuzen",
         "type": "core-port",
-        "aliases": ["Terneuzen", "Terneuzen Locks"]
+        "aliases": [
+          "Terneuzen",
+          "Terneuzen Locks"
+        ]
       },
       {
         "name": "Vlissingen",
         "type": "core-port",
-        "aliases": ["Vlissingen", "Flushing", "Port of Vlissingen"]
+        "aliases": [
+          "Vlissingen",
+          "Flushing",
+          "Port of Vlissingen"
+        ]
       },
       {
         "name": "Ghent",
         "type": "core-port",
-        "aliases": ["Ghent", "Gent"]
+        "aliases": [
+          "Ghent",
+          "Gent"
+        ]
       },
       {
         "name": "Antwerp",
         "type": "core-port",
-        "aliases": ["Antwerp", "Port of Antwerp", "Port of Antwerp-Bruges", "Antwerp-Bruges"]
+        "aliases": [
+          "Antwerp",
+          "Port of Antwerp",
+          "Port of Antwerp-Bruges",
+          "Antwerp-Bruges"
+        ]
       },
       {
         "name": "Rotterdam",
         "type": "core-port",
-        "aliases": ["Rotterdam", "Port of Rotterdam"]
+        "aliases": [
+          "Rotterdam",
+          "Port of Rotterdam"
+        ]
       },
       {
         "name": "Scheldt",
         "type": "region",
-        "aliases": ["Scheldt", "Schelde"]
+        "aliases": [
+          "Scheldt",
+          "Schelde"
+        ]
       },
       {
         "name": "Westerschelde",
         "type": "region",
-        "aliases": ["Westerschelde", "Western Scheldt"]
+        "aliases": [
+          "Westerschelde",
+          "Western Scheldt"
+        ]
       },
       {
         "name": "Zeeland",
         "type": "region",
-        "aliases": ["Zeeland", "Zeeland Seaports"]
+        "aliases": [
+          "Zeeland",
+          "Zeeland Seaports"
+        ]
       },
       {
         "name": "Sluiskil",
         "type": "region",
-        "aliases": ["Sluiskil"]
+        "aliases": [
+          "Sluiskil"
+        ]
       }
     ],
     "entity_aliases": {
       "suppliers": {
-        "Damen Shipyards Group": ["Damen", "Damen Shipyards"],
-        "Caterpillar Marine": ["Caterpillar", "Cat Marine", "CAT"],
-        "Sanmar Shipyards": ["Sanmar"],
-        "Kongsberg Maritime": ["Kongsberg"],
-        "Bureau Veritas": ["BV"],
-        "Shipowners' Club": ["Shipowners Club"],
-        "Eriks": ["ERIKS"],
-        "Alphatron Marine": ["Alphatron"],
-        "Heila Cranes": ["Heila"],
-        "Lankhorst Ropes": ["Lankhorst"],
-        "Shell Nederland": ["Shell"],
-        "BP Raffinaderij": ["BP"],
-        "American Bureau of Shipping": ["ABS"],
-        "Astilleros Armon": ["Armon"],
-        "SeaZip Offshore Service": ["SeaZip"],
-        "Azcue Pumps": ["Azcue"],
-        "Wärtsilä": ["Wartsila", "Wärtsilä Marine", "Wartsila Marine"],
-        "DNV": ["Det Norske Veritas", "DNV GL", "DNV-GL"],
-        "Schottel": ["SCHOTTEL"],
-        "Voith": ["Voith Marine", "Voith Hydro", "Voith Schneider"],
-        "Lloyd's Register": ["LR", "Lloyds Register", "Lloyd's"]
+        "Damen Shipyards Group": [
+          "Damen",
+          "Damen Shipyards"
+        ],
+        "Caterpillar Marine": [
+          "Caterpillar",
+          "Cat Marine",
+          "CAT"
+        ],
+        "Sanmar Shipyards": [
+          "Sanmar"
+        ],
+        "Kongsberg Maritime": [
+          "Kongsberg"
+        ],
+        "Bureau Veritas": [
+          "BV"
+        ],
+        "Shipowners' Club": [
+          "Shipowners Club"
+        ],
+        "Eriks": [
+          "ERIKS"
+        ],
+        "Alphatron Marine": [
+          "Alphatron"
+        ],
+        "Heila Cranes": [
+          "Heila"
+        ],
+        "Lankhorst Ropes": [
+          "Lankhorst"
+        ],
+        "Shell Nederland": [
+          "Shell"
+        ],
+        "BP Raffinaderij": [
+          "BP"
+        ],
+        "American Bureau of Shipping": [
+          "ABS"
+        ],
+        "Astilleros Armon": [
+          "Armon"
+        ],
+        "SeaZip Offshore Service": [
+          "SeaZip"
+        ],
+        "Azcue Pumps": [
+          "Azcue"
+        ],
+        "Wärtsilä": [
+          "Wartsila",
+          "Wärtsilä Marine",
+          "Wartsila Marine"
+        ],
+        "DNV": [
+          "Det Norske Veritas",
+          "DNV GL",
+          "DNV-GL"
+        ],
+        "Schottel": [
+          "SCHOTTEL"
+        ],
+        "Voith": [
+          "Voith Marine",
+          "Voith Hydro",
+          "Voith Schneider"
+        ],
+        "Lloyd's Register": [
+          "LR",
+          "Lloyds Register",
+          "Lloyd's"
+        ]
       },
       "clients": {
-        "RWE Renewables": ["RWE"],
-        "Ørsted": ["Orsted"],
-        "Netherlands Coastguard": ["Dutch Coastguard", "Kustwacht"],
-        "TotalEnergies": ["Total Energies"],
-        "DEME Group": ["DEME"],
-        "Jan De Nul": ["Jan De Nul Group"],
-        "Verbrugge Terminals": ["Verbrugge"],
-        "Heerema Marine": ["Heerema", "Heerema Marine Contractors"],
-        "Yara International": ["Yara", "Yara Terneuzen", "Yara Sluiskil"],
-        "Sea-Invest": ["Sea Invest"],
-        "ExxonMobil": ["Exxon", "Esso", "ExxonMobil Antwerp"],
-        "Tata Steel": ["Tata Steel Netherlands", "Tata Steel IJmuiden"],
-        "INEOS": ["Ineos"],
-        "Cargill": ["Cargill Ocean Transportation"]
+        "RWE Renewables": [
+          "RWE"
+        ],
+        "Ørsted": [
+          "Orsted"
+        ],
+        "Netherlands Coastguard": [
+          "Dutch Coastguard",
+          "Kustwacht"
+        ],
+        "TotalEnergies": [
+          "Total Energies"
+        ],
+        "DEME Group": [
+          "DEME",
+          "DEME OFFSHORE BE NV",
+          "DEME Offshore"
+        ],
+        "Jan De Nul": [
+          "Jan De Nul Group"
+        ],
+        "Verbrugge Terminals": [
+          "Verbrugge",
+          "Verbrugge Marine"
+        ],
+        "Heerema Marine": [
+          "Heerema",
+          "Heerema Marine Contractors"
+        ],
+        "Yara International": [
+          "Yara",
+          "Yara Terneuzen",
+          "Yara Sluiskil"
+        ],
+        "Sea-Invest": [
+          "Sea Invest"
+        ],
+        "ExxonMobil": [
+          "Exxon",
+          "Esso",
+          "ExxonMobil Antwerp"
+        ],
+        "Tata Steel": [
+          "Tata Steel Netherlands",
+          "Tata Steel IJmuiden"
+        ],
+        "INEOS": [
+          "Ineos"
+        ],
+        "Cargill": [
+          "Cargill Ocean Transportation",
+          "Cargill N.V."
+        ],
+        "ArcelorMittal": [
+          "ArcelorMittal Belgium",
+          "ArcelorMittal Gent"
+        ],
+        "FLC Marine Works Group": [
+          "FLC Marine",
+          "FLC Marine Works"
+        ],
+        "Rijkswaterstaat": [
+          "RWS",
+          "Rijkswaterstaat GPO",
+          "Rijkswaterstaat PPO"
+        ],
+        "Scaldis Salvage & Marine Contractors": [
+          "Scaldis",
+          "Scaldis Salvage",
+          "Scaldis Marine"
+        ],
+        "TM Edison BE": [
+          "TM Edison"
+        ],
+        "Wilhelmsen Port Services": [
+          "Wilhelmsen"
+        ],
+        "Offshore Marine Contractors": [
+          "OMC"
+        ],
+        "Manora Logistics": [
+          "Manora"
+        ],
+        "Ovet": [
+          "Ovet B.V.",
+          "Ovet Shipping",
+          "Ovet Shipping B.V."
+        ],
+        "Sarens": [
+          "Sarens Group",
+          "Sarens N.V."
+        ],
+        "VertomCory": [
+          "VertomCory Ghent",
+          "VertomCory Rotterdam",
+          "Vertom Cory"
+        ],
+        "TM Schelde & Zee": [
+          "Schelde & Zee",
+          "TM Schelde"
+        ],
+        "Van der Straaten Aannemingsmaatschappij": [
+          "Van der Straaten"
+        ],
+        "Verbrugge Marine": [
+          "Verbrugge Marine B.V."
+        ],
+        "Oldendorff Carriers": [
+          "Oldendorff"
+        ],
+        "Ultrabulk": [
+          "Ultrabulk Shipping",
+          "Ultrabulk A/S"
+        ],
+        "Petro S. Management": [
+          "Petro S"
+        ],
+        "Flushing Shipping Agencies": [
+          "FSA",
+          "Flushing Shipping"
+        ],
+        "Navonus": [
+          "Navonus N.V."
+        ],
+        "Lalemant Gent": [
+          "Lalemant"
+        ],
+        "GAC Belgium": [
+          "GAC"
+        ],
+        "ISS Palumbo Netherlands": [
+          "ISS Palumbo"
+        ],
+        "Inchcape Shipping Services": [
+          "Inchcape"
+        ],
+        "DFDS": [
+          "DFDS A/S",
+          "DFDS Seaways"
+        ],
+        "Runaway Bay Shipping": [
+          "Runaway Bay Shipping Company"
+        ],
+        "Wagenborg Stevedoring": [
+          "Wagenborg Stevedoring B.V."
+        ],
+        "Maersk Tankers": [
+          "Maersk Tankers A/S"
+        ],
+        "IceChem Tankers": [
+          "IceChem"
+        ]
       },
       "competitors": {
-        "Boluda Towage": ["Boluda"],
-        "Kotug International": ["KOTUG"],
-        "SMIT Salvage": ["SMIT"],
-        "Wagenborg Towage": ["Wagenborg"],
-        "Resolve Marine": ["Resolve"],
-        "Rimorchiatori Riuniti": ["Rimorchiatori"],
-        "Alfons Hakans": ["Alfons Hakans"],
-        "Alfons Håkans": ["Alfons Hakans"],
-        "Fairplay Towage": ["Fairplay"],
-        "Williams Shipping": ["Williams"],
-        "Tsavliris Salvage": ["Tsavliris"],
-        "Ardent": ["Ardent Salvage", "Ardent Maritime"],
-        "SAAM Towage": ["SAAM", "SAAM Smit"],
-        "Iskes Towage": ["Iskes", "Iskes Towage & Salvage"]
+        "Boluda Towage": [
+          "Boluda"
+        ],
+        "Kotug International": [
+          "KOTUG"
+        ],
+        "SMIT Salvage": [
+          "SMIT"
+        ],
+        "Wagenborg Towage": [
+          "Wagenborg"
+        ],
+        "Resolve Marine": [
+          "Resolve"
+        ],
+        "Rimorchiatori Riuniti": [
+          "Rimorchiatori"
+        ],
+        "Alfons Hakans": [
+          "Alfons Hakans"
+        ],
+        "Alfons Håkans": [
+          "Alfons Hakans"
+        ],
+        "Fairplay Towage": [
+          "Fairplay"
+        ],
+        "Williams Shipping": [
+          "Williams"
+        ],
+        "Tsavliris Salvage": [
+          "Tsavliris"
+        ],
+        "Ardent": [
+          "Ardent Salvage",
+          "Ardent Maritime"
+        ],
+        "SAAM Towage": [
+          "SAAM",
+          "SAAM Smit"
+        ],
+        "Iskes Towage": [
+          "Iskes",
+          "Iskes Towage & Salvage"
+        ]
       }
     }
   },
