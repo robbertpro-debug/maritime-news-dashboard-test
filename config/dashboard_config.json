@@ -1196,19 +1196,6 @@
       "audience_bias": {
         "Multraship": 3
       }
-    },
-    {
-      "id": "ted-rijkswaterstaat",
-      "name": "Rijkswaterstaat Tenders (TED EU)",
-      "url": "https://ted.europa.eu/TED/search/search.do?language=EN&query=rijkswaterstaat&scope=0&results=10&page=1&sort=PD+desc&rss=true",
-      "default_tags": [
-        "tenders",
-        "infrastructure",
-        "government"
-      ],
-      "audience_bias": {
-        "Multraship": 5
-      }
     }
   ],
   "classification": {
