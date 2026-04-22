@@ -1009,6 +1009,7 @@
         bucketVisibility: {},
         selectedEntities: { suppliers: null, clients: null, competitors: null },
         entityDateRange: { suppliers: "30d", clients: "30d", competitors: "30d" },
+        entityVisibility: { suppliers: 10, clients: 10, competitors: 10 },
         historyData: null,
         historyLoading: false
       };
@@ -1533,7 +1534,6 @@
       }
 
       function getEntityArticles(articles, category, selectedEntity) {
-        const limit = selectedEntity ? Infinity : 25;
         return articles
           .filter((article) =>
             (article.entities || []).some(
@@ -1546,8 +1546,7 @@
             const left = a.publishedAt ? new Date(a.publishedAt).getTime() : 0;
             const right = b.publishedAt ? new Date(b.publishedAt).getTime() : 0;
             return right - left;
-          })
-          .slice(0, limit);
+          });
       }
 
       function renderEntitySection(container, catConfig) {
@@ -1555,7 +1554,9 @@
         const selectedEntity = state.selectedEntities[key];
         const panelArticles = getArticlesForEntitySection(key);
         const entities = getEntitiesForCategory(panelArticles, key);
-        const articles = getEntityArticles(panelArticles, key, selectedEntity);
+        const allArticles = getEntityArticles(panelArticles, key, selectedEntity);
+        const visibleLimit = state.entityVisibility[key] || 10;
+        const articles = allArticles.slice(0, visibleLimit);
 
         const panel = document.createElement("section");
         panel.className = "entity-panel";
@@ -1567,7 +1568,7 @@
         titleBlock.appendChild(createTextElement("h3", label));
         titleBlock.appendChild(createTextElement("div", subtitle, "bucket-subtitle"));
         head.appendChild(titleBlock);
-        head.appendChild(createTextElement("span", String(articles.length), "count-pill"));
+        head.appendChild(createTextElement("span", String(allArticles.length), "count-pill"));
         panel.appendChild(head);
 
         const rangeRow = document.createElement("div");
@@ -1598,6 +1599,7 @@
           allChip.textContent = "All";
           allChip.addEventListener("click", () => {
             state.selectedEntities[key] = null;
+            state.entityVisibility[key] = 10;
             renderEntitySections();
           });
           chips.appendChild(allChip);
@@ -1610,6 +1612,7 @@
             chip.textContent = `${name} (${count})`;
             chip.addEventListener("click", () => {
               state.selectedEntities[key] = state.selectedEntities[key] === name ? null : name;
+              state.entityVisibility[key] = 10;
               renderEntitySections();
             });
             chips.appendChild(chip);
@@ -1630,6 +1633,30 @@
         }
 
         panel.appendChild(body);
+
+        if (allArticles.length > 10) {
+          const footer = document.createElement("div");
+          footer.className = "bucket-footer";
+          const btn = document.createElement("button");
+          btn.className = "bucket-expand";
+          btn.type = "button";
+          if (visibleLimit < allArticles.length) {
+            btn.textContent = `Show 10 more (${Math.min(allArticles.length, visibleLimit + 10)} of ${allArticles.length})`;
+            btn.addEventListener("click", () => {
+              state.entityVisibility[key] = visibleLimit + 10;
+              renderEntitySections();
+            });
+          } else {
+            btn.textContent = "Show less";
+            btn.addEventListener("click", () => {
+              state.entityVisibility[key] = 10;
+              renderEntitySections();
+            });
+          }
+          footer.appendChild(btn);
+          panel.appendChild(footer);
+        }
+
         container.appendChild(panel);
       }
 
