@@ -214,7 +214,7 @@
     {
       "id": "bing-damen",
       "name": "Damen Shipyards News",
-      "url": "https://www.bing.com/news/search?q=Damen+Shipyards&format=rss&mkt=en-US&count=50",
+      "url": "https://news.google.com/rss/search?q=%22Damen%20Shipyards%22&hl=en-US&gl=US&ceid=US:en",
       "default_tags": [
         "shipbuilding",
         "supplier"
@@ -252,7 +252,7 @@
     {
       "id": "bing-svitzer",
       "name": "Svitzer News",
-      "url": "https://www.bing.com/news/search?q=Svitzer+towage&format=rss&mkt=en-US&count=50",
+      "url": "https://news.google.com/rss/search?q=%22Svitzer%22%20towage&hl=en-US&gl=US&ceid=US:en",
       "default_tags": [
         "towage",
         "competitor"
@@ -276,7 +276,7 @@
     {
       "id": "bing-van-oord",
       "name": "Van Oord News",
-      "url": "https://www.bing.com/news/search?q=Van+Oord+maritime&format=rss&mkt=en-US&count=50",
+      "url": "https://news.google.com/rss/search?q=%22Van%20Oord%22%20maritime&hl=en-US&gl=US&ceid=US:en",
       "default_tags": [
         "offshore",
         "dredging"
@@ -287,8 +287,8 @@
     },
     {
       "id": "bing-wartsila",
-      "name": "W\u00e4rtsil\u00e4 News",
-      "url": "https://www.bing.com/news/search?q=W%C3%A4rtsil%C3%A4+marine&format=rss&mkt=en-US&count=50",
+      "name": "Wärtsilä News",
+      "url": "https://news.google.com/rss/search?q=W%C3%A4rtsil%C3%A4%20marine&hl=en-US&gl=US&ceid=US:en",
       "default_tags": [
         "propulsion",
         "technology"
@@ -301,7 +301,7 @@
     {
       "id": "bing-dnv",
       "name": "DNV News",
-      "url": "https://www.bing.com/news/search?q=DNV+maritime&format=rss&mkt=en-US&count=50",
+      "url": "https://news.google.com/rss/search?q=DNV%20maritime%20classification&hl=en-US&gl=US&ceid=US:en",
       "default_tags": [
         "classification",
         "safety"
@@ -314,7 +314,7 @@
     {
       "id": "bing-ardent",
       "name": "Ardent Salvage News",
-      "url": "https://www.bing.com/news/search?q=Ardent+salvage+maritime&format=rss&mkt=en-US&count=50",
+      "url": "https://news.google.com/rss/search?q=%22Ardent%22%20salvage%20maritime&hl=en-US&gl=US&ceid=US:en",
       "default_tags": [
         "salvage",
         "competitor"
@@ -338,7 +338,7 @@
     {
       "id": "bing-yara",
       "name": "Yara International News",
-      "url": "https://www.bing.com/news/search?q=Yara+International+shipping&format=rss&mkt=en-US&count=50",
+      "url": "https://news.google.com/rss/search?q=Yara%20International%20shipping&hl=en-US&gl=US&ceid=US:en",
       "default_tags": [
         "chemicals",
         "client"
@@ -350,7 +350,7 @@
     {
       "id": "bing-flc-marine",
       "name": "FLC Marine Works News",
-      "url": "https://www.bing.com/news/search?q=FLC+Marine+Works+maritime&format=rss&mkt=en-US&count=50",
+      "url": "https://news.google.com/rss/search?q=%22FLC%20Marine%20Works%22&hl=en-US&gl=US&ceid=US:en",
       "default_tags": [
         "marine-works"
       ],
@@ -361,7 +361,7 @@
     {
       "id": "bing-rijkswaterstaat",
       "name": "Rijkswaterstaat News",
-      "url": "https://www.bing.com/news/search?q=Rijkswaterstaat+port+maritime+tender&format=rss&mkt=en-US&count=50",
+      "url": "https://news.google.com/rss/search?q=Rijkswaterstaat%20port%20tender&hl=en-US&gl=US&ceid=US:en",
       "default_tags": [
         "infrastructure",
         "ports"
@@ -373,7 +373,7 @@
     {
       "id": "bing-scaldis",
       "name": "Scaldis Salvage News",
-      "url": "https://www.bing.com/news/search?q=Scaldis+Salvage+marine+contractor&format=rss&mkt=en-US&count=50",
+      "url": "https://news.google.com/rss/search?q=%22Scaldis%22%20salvage%20contractor&hl=en-US&gl=US&ceid=US:en",
       "default_tags": [
         "salvage",
         "marine-construction"
@@ -385,7 +385,7 @@
     {
       "id": "bing-tm-edison",
       "name": "TM Edison News",
-      "url": "https://www.bing.com/news/search?q=%22TM+Edison%22+maritime&format=rss&mkt=en-US&count=50",
+      "url": "https://news.google.com/rss/search?q=%22TM%20Edison%22%20maritime&hl=en-US&gl=US&ceid=US:en",
       "default_tags": [
         "shipping"
       ],
@@ -396,32 +396,9 @@
     {
       "id": "bing-wilhelmsen-port",
       "name": "Wilhelmsen Port Services News",
-      "url": "https://www.bing.com/news/search?q=Wilhelmsen+Port+Services&format=rss&mkt=en-US&count=50",
+      "url": "https://news.google.com/rss/search?q=%22Wilhelmsen%20Port%20Services%22&hl=en-US&gl=US&ceid=US:en",
       "default_tags": [
         "port-services"
-      ],
-      "audience_bias": {
-        "Multraship": 5
-      }
-    },
-    {
-      "id": "bing-omc",
-      "name": "Offshore Marine Contractors News",
-      "url": "https://www.bing.com/news/search?q=%22Offshore+Marine+Contractors%22+OMC&format=rss&mkt=en-US&count=50",
-      "default_tags": [
-        "offshore",
-        "marine-construction"
-      ],
-      "audience_bias": {
-        "Multraship": 5
-      }
-    },
-    {
-      "id": "bing-manora",
-      "name": "Manora Logistics News",
-      "url": "https://www.bing.com/news/search?q=Manora+Logistics+maritime&format=rss&mkt=en-US&count=50",
-      "default_tags": [
-        "logistics"
       ],
       "audience_bias": {
         "Multraship": 5
@@ -442,7 +419,7 @@
     {
       "id": "bing-sarens",
       "name": "Sarens News",
-      "url": "https://www.bing.com/news/search?q=Sarens+heavy+lift+marine&format=rss&mkt=en-US&count=50",
+      "url": "https://news.google.com/rss/search?q=Sarens%20heavy%20lift%20marine&hl=en-US&gl=US&ceid=US:en",
       "default_tags": [
         "heavy-lift"
       ],
@@ -453,21 +430,10 @@
     {
       "id": "bing-vertomcory",
       "name": "VertomCory News",
-      "url": "https://www.bing.com/news/search?q=VertomCory+shipping+barge&format=rss&mkt=en-US&count=50",
+      "url": "https://news.google.com/rss/search?q=VertomCory%20shipping&hl=en-US&gl=US&ceid=US:en",
       "default_tags": [
         "shipping",
         "barge"
-      ],
-      "audience_bias": {
-        "Multraship": 5
-      }
-    },
-    {
-      "id": "bing-tm-schelde",
-      "name": "TM Schelde & Zee News",
-      "url": "https://www.bing.com/news/search?q=%22Schelde+%26+Zee%22+maritime&format=rss&mkt=en-US&count=50",
-      "default_tags": [
-        "maritime"
       ],
       "audience_bias": {
         "Multraship": 5
@@ -485,31 +451,9 @@
       }
     },
     {
-      "id": "bing-verbrugge-marine",
-      "name": "Verbrugge Marine News",
-      "url": "https://www.bing.com/news/search?q=Verbrugge+Marine+shipping&format=rss&mkt=en-US&count=50",
-      "default_tags": [
-        "shipping"
-      ],
-      "audience_bias": {
-        "Multraship": 5
-      }
-    },
-    {
-      "id": "bing-edison-vof",
-      "name": "Edison VOF News",
-      "url": "https://www.bing.com/news/search?q=%22Edison+VOF%22+maritime&format=rss&mkt=en-US&count=50",
-      "default_tags": [
-        "shipping"
-      ],
-      "audience_bias": {
-        "Multraship": 5
-      }
-    },
-    {
       "id": "bing-oldendorff",
       "name": "Oldendorff Carriers News",
-      "url": "https://www.bing.com/news/search?q=Oldendorff+Carriers+shipping&format=rss&mkt=en-US&count=50",
+      "url": "https://news.google.com/rss/search?q=Oldendorff%20Carriers%20shipping&hl=en-US&gl=US&ceid=US:en",
       "default_tags": [
         "shipping",
         "bulk"
@@ -531,42 +475,9 @@
       }
     },
     {
-      "id": "bing-petro-s",
-      "name": "Petro S. Management News",
-      "url": "https://www.bing.com/news/search?q=%22Petro+S%22+management+maritime&format=rss&mkt=en-US&count=50",
-      "default_tags": [
-        "maritime"
-      ],
-      "audience_bias": {
-        "Multraship": 5
-      }
-    },
-    {
-      "id": "bing-fsa",
-      "name": "Flushing Shipping Agencies News",
-      "url": "https://www.bing.com/news/search?q=Flushing+Shipping+Agencies+FSA+maritime&format=rss&mkt=en-US&count=50",
-      "default_tags": [
-        "ship-agency"
-      ],
-      "audience_bias": {
-        "Multraship": 5
-      }
-    },
-    {
-      "id": "bing-navonus",
-      "name": "Navonus News",
-      "url": "https://www.bing.com/news/search?q=Navonus+maritime+shipping&format=rss&mkt=en-US&count=50",
-      "default_tags": [
-        "maritime"
-      ],
-      "audience_bias": {
-        "Multraship": 5
-      }
-    },
-    {
       "id": "bing-damen-yachting",
       "name": "Damen Yachting News",
-      "url": "https://www.bing.com/news/search?q=Damen+Yachting&format=rss&mkt=en-US&count=50",
+      "url": "https://news.google.com/rss/search?q=%22Damen%20Yachting%22&hl=en-US&gl=US&ceid=US:en",
       "default_tags": [
         "yachting"
       ],
@@ -575,42 +486,9 @@
       }
     },
     {
-      "id": "bing-lalemant",
-      "name": "Lalemant Gent News",
-      "url": "https://www.bing.com/news/search?q=Lalemant+Gent+shipping&format=rss&mkt=en-US&count=50",
-      "default_tags": [
-        "shipping"
-      ],
-      "audience_bias": {
-        "Multraship": 5
-      }
-    },
-    {
-      "id": "bing-gac-belgium",
-      "name": "GAC Belgium News",
-      "url": "https://www.bing.com/news/search?q=GAC+Belgium+maritime+port+services&format=rss&mkt=en-US&count=50",
-      "default_tags": [
-        "ship-agency"
-      ],
-      "audience_bias": {
-        "Multraship": 5
-      }
-    },
-    {
-      "id": "bing-iss-palumbo",
-      "name": "ISS Palumbo Netherlands News",
-      "url": "https://www.bing.com/news/search?q=ISS+Palumbo+Netherlands+shipping&format=rss&mkt=en-US&count=50",
-      "default_tags": [
-        "ship-agency"
-      ],
-      "audience_bias": {
-        "Multraship": 5
-      }
-    },
-    {
       "id": "bing-inchcape",
       "name": "Inchcape Shipping Services News",
-      "url": "https://www.bing.com/news/search?q=Inchcape+Shipping+Services+maritime&format=rss&mkt=en-US&count=50",
+      "url": "https://news.google.com/rss/search?q=%22Inchcape%20Shipping%20Services%22&hl=en-US&gl=US&ceid=US:en",
       "default_tags": [
         "ship-agency"
       ],
@@ -621,7 +499,7 @@
     {
       "id": "bing-dfds",
       "name": "DFDS News",
-      "url": "https://www.bing.com/news/search?q=DFDS+maritime+ferry+shipping&format=rss&mkt=en-US&count=50",
+      "url": "https://news.google.com/rss/search?q=DFDS%20ferry%20shipping&hl=en-US&gl=US&ceid=US:en",
       "default_tags": [
         "ferry",
         "shipping"
@@ -631,20 +509,9 @@
       }
     },
     {
-      "id": "bing-runaway-bay",
-      "name": "Runaway Bay Shipping News",
-      "url": "https://www.bing.com/news/search?q=%22Runaway+Bay+Shipping%22&format=rss&mkt=en-US&count=50",
-      "default_tags": [
-        "shipping"
-      ],
-      "audience_bias": {
-        "Multraship": 5
-      }
-    },
-    {
       "id": "bing-wagenborg-stevedoring",
       "name": "Wagenborg Stevedoring News",
-      "url": "https://www.bing.com/news/search?q=Wagenborg+Stevedoring+maritime&format=rss&mkt=en-US&count=50",
+      "url": "https://news.google.com/rss/search?q=%22Wagenborg%20Stevedoring%22&hl=en-US&gl=US&ceid=US:en",
       "default_tags": [
         "stevedoring",
         "ports"
@@ -656,22 +523,10 @@
     {
       "id": "bing-maersk-tankers",
       "name": "Maersk Tankers News",
-      "url": "https://www.bing.com/news/search?q=Maersk+Tankers+maritime&format=rss&mkt=en-US&count=50",
+      "url": "https://news.google.com/rss/search?q=%22Maersk%20Tankers%22&hl=en-US&gl=US&ceid=US:en",
       "default_tags": [
         "tankers",
         "shipping"
-      ],
-      "audience_bias": {
-        "Multraship": 5
-      }
-    },
-    {
-      "id": "bing-icechem",
-      "name": "IceChem Tankers News",
-      "url": "https://www.bing.com/news/search?q=IceChem+Tankers+maritime&format=rss&mkt=en-US&count=50",
-      "default_tags": [
-        "tankers",
-        "chemicals"
       ],
       "audience_bias": {
         "Multraship": 5
@@ -1312,7 +1167,7 @@
         "Astilleros Armon",
         "SeaZip Offshore Service",
         "Azcue Pumps",
-        "W\u00e4rtsil\u00e4",
+        "Wärtsilä",
         "DNV",
         "Schottel",
         "Voith",
@@ -1320,7 +1175,7 @@
       ],
       "clients": [
         "RWE Renewables",
-        "\u00d8rsted",
+        "Ørsted",
         "Orsted",
         "Netherlands Coastguard",
         "Navigator Shipping",
@@ -1386,7 +1241,7 @@
         "Kotug",
         "SMIT Salvage",
         "Wagenborg Towage",
-        "Buks\u00e9r og Berging",
+        "Buksér og Berging",
         "Five Oceans Salvage",
         "Resolve Marine",
         "Rimorchiatori Riuniti",
@@ -1394,7 +1249,7 @@
         "J.P. Knight",
         "SMS Towage",
         "Alfons Hakans",
-        "Alfons H\u00e5kans",
+        "Alfons Håkans",
         "NH Towage",
         "Vernicos Scafi",
         "Megatugs Salvage",
@@ -1550,9 +1405,9 @@
         "Azcue Pumps": [
           "Azcue"
         ],
-        "W\u00e4rtsil\u00e4": [
+        "Wärtsilä": [
           "Wartsila",
-          "W\u00e4rtsil\u00e4 Marine",
+          "Wärtsilä Marine",
           "Wartsila Marine"
         ],
         "DNV": [
@@ -1578,7 +1433,7 @@
         "RWE Renewables": [
           "RWE"
         ],
-        "\u00d8rsted": [
+        "Ørsted": [
           "Orsted"
         ],
         "Netherlands Coastguard": [
@@ -1750,7 +1605,7 @@
         "Alfons Hakans": [
           "Alfons Hakans"
         ],
-        "Alfons H\u00e5kans": [
+        "Alfons Håkans": [
           "Alfons Hakans"
         ],
         "Fairplay Towage": [
