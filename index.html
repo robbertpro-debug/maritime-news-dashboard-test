@@ -1893,13 +1893,22 @@
         const meta = document.createElement("div");
         meta.className = "article-meta";
         meta.appendChild(createTextElement("span", article.source, "source-pill"));
-        meta.appendChild(
-          createTextElement(
-            "span",
-            PRIORITY_LABELS[article.priorityBand] || "Low",
-            `priority-pill priority-${article.priorityBand || "low"}`
-          )
-        );
+        const priorityRow = document.createElement("div");
+        priorityRow.style.cssText = "display:flex;flex-wrap:wrap;gap:4px;align-items:center;";
+        priorityRow.appendChild(createTextElement(
+          "span",
+          PRIORITY_LABELS[article.priorityBand] || "Low",
+          `priority-pill priority-${article.priorityBand || "low"}`
+        ));
+        (article.entities || []).forEach(({ name, category }) => {
+          const btn = document.createElement("button");
+          btn.type = "button";
+          btn.className = `entity-chip-link ${category || ""}`;
+          btn.textContent = name;
+          btn.addEventListener("click", (e) => { e.preventDefault(); e.stopPropagation(); openEntityOverlay(name); });
+          priorityRow.appendChild(btn);
+        });
+        meta.appendChild(priorityRow);
         if (isWithinLast24Hours(article)) {
           meta.appendChild(createTextElement("span", "New 24h", "freshness-pill"));
         }
@@ -1922,20 +1931,6 @@
           main.appendChild(
             createTextElement("p", article.priorityReasons.slice(0, 2).join(" | "), "article-reason")
           );
-        }
-
-        if (article.entities && article.entities.length > 0) {
-          const entityRow = document.createElement("div");
-          entityRow.className = "tag-row";
-          article.entities.forEach(({ name, category }) => {
-            const btn = document.createElement("button");
-            btn.type = "button";
-            btn.className = `entity-chip-link ${category || ""}`;
-            btn.textContent = name;
-            btn.addEventListener("click", (e) => { e.preventDefault(); e.stopPropagation(); openEntityOverlay(name); });
-            entityRow.appendChild(btn);
-          });
-          main.appendChild(entityRow);
         }
 
         const tags = document.createElement("div");

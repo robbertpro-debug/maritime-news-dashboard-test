@@ -241,7 +241,7 @@
     {
       "id": "bing-boskalis",
       "name": "Boskalis News",
-      "url": "https://www.bing.com/news/search?q=Boskalis&format=rss&mkt=en-US&count=50",
+      "url": "https://news.google.com/rss/search?q=Boskalis+dredging+maritime&hl=en-US&gl=US&ceid=US:en",
       "default_tags": [
         "dredging",
         "offshore"
@@ -327,7 +327,7 @@
     {
       "id": "bing-saam",
       "name": "SAAM Towage News",
-      "url": "https://www.bing.com/news/search?q=SAAM+Towage&format=rss&mkt=en-US&count=50",
+      "url": "https://news.google.com/rss/search?q=%22SAAM+Towage%22+maritime&hl=en-US&gl=US&ceid=US:en",
       "default_tags": [
         "towage",
         "competitor"
@@ -441,17 +441,6 @@
       }
     },
     {
-      "id": "bing-van-der-straaten",
-      "name": "Van der Straaten News",
-      "url": "https://www.bing.com/news/search?q=%22Van+der+Straaten%22+aannemingsmaatschappij&format=rss&mkt=en-US&count=50",
-      "default_tags": [
-        "marine-contractor"
-      ],
-      "audience_bias": {
-        "Multraship": 5
-      }
-    },
-    {
       "id": "bing-oldendorff",
       "name": "Oldendorff Carriers News",
       "url": "https://news.google.com/rss/search?q=Oldendorff%20Carriers%20shipping&hl=en-US&gl=US&ceid=US:en",
@@ -466,7 +455,7 @@
     {
       "id": "bing-ultrabulk",
       "name": "Ultrabulk News",
-      "url": "https://www.bing.com/news/search?q=Ultrabulk+Shipping+maritime&format=rss&mkt=en-US&count=50",
+      "url": "https://news.google.com/rss/search?q=%22Ultrabulk%22+shipping&hl=en-US&gl=US&ceid=US:en",
       "default_tags": [
         "shipping",
         "bulk"
