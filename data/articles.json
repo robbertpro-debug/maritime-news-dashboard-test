@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-04-22T02:13:22.917859Z",
+  "generatedAt": "2026-04-22T05:11:30.794356Z",
   "lookbackDays": 30,
-  "cutoffAt": "2026-03-23T02:13:22.917859Z",
+  "cutoffAt": "2026-03-23T05:11:30.794356Z",
   "articleCount": 180,
   "sourceCount": 16,
   "sources": [
@@ -708,6 +708,33 @@
       "boardBucket": "Competitors & Market"
     },
     {
+      "id": "70b51ab41472c244",
+      "title": "IMO develops plan for evacuation of ships from Middle East waters",
+      "source": "Baird Maritime",
+      "sourceId": "baird-maritime",
+      "url": "https://www.bairdmaritime.com/shipping/imo-develops-plan-for-evacuation-of-ships-from-middle-east-waters",
+      "publishedAt": "2026-04-22T04:15:08Z",
+      "excerpt": "The International Maritime Organisation (IMO) has proposed a plan for the evacuation of ships in line with a request of the IMO Council to facilitate the safe evacuation of merchant ships currently confined within Middle East waters, parti\u2026",
+      "tags": [
+        "Regulation",
+        "Workboats",
+        "Technology"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [
+        "Regulation"
+      ],
+      "priorityScore": 5,
+      "priorityBand": "medium",
+      "priorityReasons": [
+        "Signal: Regulation"
+      ],
+      "boardBucket": "Regulation, Safety & Incidents"
+    },
+    {
       "id": "715819a0fa154b88",
       "title": "AG&P LNG to acquire full ownership of Cai Mep terminal in Vietnam",
       "source": "Baird Maritime",
@@ -918,32 +945,6 @@
       "priorityBand": "medium",
       "priorityReasons": [
         "Signal: Regulation"
-      ],
-      "boardBucket": "Regulation, Safety & Incidents"
-    },
-    {
-      "id": "127d70d478370934",
-      "title": "Saudi-Owned Cruise Ship Escaped Before Hormuz Closure Resumed",
-      "source": "The Maritime Executive",
-      "sourceId": "maritime-executive",
-      "url": "https://maritime-executive.com/article/saudi-owned-cruise-ship-escaped-before-hormuz-closure-resumed",
-      "publishedAt": "2026-04-20T20:01:57Z",
-      "excerpt": "The Aroya, a cruise ship operation launched in coordination with Cruise Saudi, became the last of the cruise ships to transit the Strait of Hormuz ov...",
-      "tags": [
-        "Maritime",
-        "News"
-      ],
-      "audience": "Both",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [
-        "Disruption"
-      ],
-      "priorityScore": 5,
-      "priorityBand": "medium",
-      "priorityReasons": [
-        "Signal: Disruption"
       ],
       "boardBucket": "Regulation, Safety & Incidents"
     },
@@ -1654,6 +1655,34 @@
       "boardBucket": "Other Relevant"
     },
     {
+      "id": "72d6f3f2b9d91675",
+      "title": "Shipping Associations Call for Unity as IMO Net Zero Debate Approaches",
+      "source": "The Maritime Executive",
+      "sourceId": "maritime-executive",
+      "url": "https://maritime-executive.com/article/shipping-associations-call-for-unity-as-imo-net-zero-debate-approaches",
+      "publishedAt": "2026-04-22T03:10:00Z",
+      "excerpt": "As delegates head to London for MEPC 84 and the next round of talks on the Net Zero Framework, shipping industry heavyweights are lining up to endors...",
+      "tags": [
+        "Regulation",
+        "Decarbonization",
+        "Maritime",
+        "News"
+      ],
+      "audience": "Novatug",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [
+        "Regulation"
+      ],
+      "priorityScore": 3,
+      "priorityBand": "low",
+      "priorityReasons": [
+        "Signal: Regulation"
+      ],
+      "boardBucket": "Regulation, Safety & Incidents"
+    },
+    {
       "id": "e652f1e3489ed807",
       "title": "Lockheed Martin Wins Contract to Arm US Navy with Patriot Missile",
       "source": "MarineLink",
@@ -1944,6 +1973,28 @@
       "boardBucket": "Other Relevant"
     },
     {
+      "id": "a568a16af5d1f68c",
+      "title": "Iceland's Laxey to put up new smolt station",
+      "source": "Baird Maritime",
+      "sourceId": "baird-maritime",
+      "url": "https://www.bairdmaritime.com/fishing/aquaculture/icelands-laxey-to-put-up-new-smolt-station",
+      "publishedAt": "2026-04-22T04:46:39Z",
+      "excerpt": "Icelandic aquaculture company Laxey has entered into an agreement with Norway's Akva Group for the design and delivery of a new smolt station in Vestmannaeyjar. The two companies have worked together since June 2022, when the agreement for\u2026",
+      "tags": [
+        "Workboats",
+        "Technology"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [],
+      "priorityScore": 2,
+      "priorityBand": "low",
+      "priorityReasons": [],
+      "boardBucket": "Other Relevant"
+    },
+    {
       "id": "64526b0da7c4e69e",
       "title": "Technology firm reports successful test firing of laser weapon from US Navy aircraft carrier",
       "source": "Baird Maritime",
@@ -1973,28 +2024,6 @@
       "url": "https://www.bairdmaritime.com/shipping/dry-cargo/dry-cargo-vessel-news-roundup-april-22-bulker-and-pctc-deliveries-china-heavy-lift-ship-launch-and-more",
       "publishedAt": "2026-04-22T01:05:54Z",
       "excerpt": "Deliveries include new bulk carriers to owners in the UK and Oman and a car carrier for an Italian operator. A new Chinese heavy lift vessel was recently launched. Lastly, a Latin American mining giant has entered into a charter agreement\u2026",
-      "tags": [
-        "Workboats",
-        "Technology"
-      ],
-      "audience": "Multraship",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [],
-      "priorityScore": 2,
-      "priorityBand": "low",
-      "priorityReasons": [],
-      "boardBucket": "Other Relevant"
-    },
-    {
-      "id": "ff735bac560ce1cf",
-      "title": "Carisbrooke Shipping takes delivery of new shortsea cargo vessel",
-      "source": "Baird Maritime",
-      "sourceId": "baird-maritime",
-      "url": "https://www.bairdmaritime.com/shipping/dry-cargo/bulkers/carisbrooke-shipping-takes-delivery-of-new-shortsea-cargo-vessel",
-      "publishedAt": "2026-04-22T00:56:25Z",
-      "excerpt": "UK-based shortsea specialist Carisbrooke Shipping has taken delivery of a new cargo vessel built by Royal T Shipyards in the Netherlands. Greta C is the latest example in an existing series of multi-purpose dry cargo vessels built by Royal\u2026",
       "tags": [
         "Workboats",
         "Technology"
@@ -2217,28 +2246,6 @@
       "priorityReasons": [
         "Signal: Commercial"
       ],
-      "boardBucket": "Other Relevant"
-    },
-    {
-      "id": "729535b76867591a",
-      "title": "Dajin Heavy Industry's newest heavy lift ship floated out",
-      "source": "Baird Maritime",
-      "sourceId": "baird-maritime",
-      "url": "https://www.bairdmaritime.com/shipping/dry-cargo/heavy-lift/dajin-heavy-indutrys-newest-heavy-lift-ship-floated-out",
-      "publishedAt": "2026-04-21T12:06:15Z",
-      "excerpt": "China's Dajin Heavy Industry recently floated out a new heavy lift vessel to be operated by its Dajin Shipping business unit. King Two is the second in a series of heavy lift vessels to be built by Dajin Heavy Industry to add to its owned\u2026",
-      "tags": [
-        "Workboats",
-        "Technology"
-      ],
-      "audience": "Multraship",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [],
-      "priorityScore": 2,
-      "priorityBand": "low",
-      "priorityReasons": [],
       "boardBucket": "Other Relevant"
     },
     {
