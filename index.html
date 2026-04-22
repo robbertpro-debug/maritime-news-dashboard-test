@@ -42,14 +42,107 @@
         color: inherit;
       }
 
+      .top-bar {
+        position: sticky;
+        top: 0;
+        z-index: 100;
+        background: var(--surface);
+        border-bottom: 1px solid var(--line);
+        box-shadow: 0 2px 8px rgba(20,33,39,0.06);
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 16px;
+        padding: 0 28px;
+        height: 56px;
+      }
+
+      .top-bar-brand {
+        font-weight: 700;
+        font-size: 15px;
+        white-space: nowrap;
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        flex-shrink: 0;
+      }
+
+      .top-bar-brand-dot {
+        width: 8px;
+        height: 8px;
+        border-radius: 50%;
+        background: var(--accent);
+        flex-shrink: 0;
+      }
+
+      .top-bar-right {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        min-width: 0;
+      }
+
+      .top-bar-stats {
+        font-size: 12px;
+        color: var(--text-soft);
+        white-space: nowrap;
+        padding-right: 10px;
+        border-right: 1px solid var(--line);
+      }
+
+      .top-bar-toggle {
+        display: flex;
+        gap: 4px;
+        flex-shrink: 0;
+      }
+
+      .top-bar-toggle + .top-bar-toggle {
+        padding-left: 10px;
+        border-left: 1px solid var(--line);
+      }
+
+      .top-bar-toggle .toggle-button {
+        padding: 5px 12px;
+        border-radius: 8px;
+        font-size: 10px;
+      }
+
+      .top-bar-toggle .view-mode-btn {
+        padding: 5px 12px;
+        font-size: 10px;
+        border-radius: 8px;
+      }
+
+      #viewModeToggle[hidden] {
+        display: none;
+      }
+
+      .refresh-icon-btn {
+        width: 30px;
+        height: 30px;
+        padding: 0;
+        border-radius: 8px;
+        border: 1px solid var(--line);
+        background: var(--surface-muted);
+        color: var(--text-soft);
+        cursor: pointer;
+        font-size: 15px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-shrink: 0;
+        margin-left: 4px;
+      }
+
+      .refresh-icon-btn[disabled] {
+        opacity: 0.5;
+        cursor: progress;
+      }
+
       .page {
         max-width: 1480px;
         margin: 0 auto;
-        padding: 24px 20px 40px;
-      }
-
-      .hero {
-        margin-bottom: 18px;
+        padding: 20px 20px 40px;
       }
 
       .card,
@@ -646,7 +739,7 @@
       .entity-sections {
         display: grid;
         gap: 16px;
-        grid-template-columns: repeat(3, minmax(0, 1fr));
+        grid-template-columns: repeat(auto-fill, minmax(420px, 1fr));
         align-items: start;
         margin-bottom: 16px;
       }
@@ -821,56 +914,37 @@
       </div>
     </div>
 
-    <div class="page" id="mainPage" style="display:none">
-      <div id="errors"></div>
-
-      <section class="hero">
-        <div class="card">
-          <span class="eyebrow">Multraship Board Watch</span>
-          <h1>Fast scan for port, client, competitor and operational signal</h1>
-          <p class="hero-copy">
-            The default view is Multraship-first. Articles are ranked by business relevance, grouped into
-            board-facing buckets, and labeled with why they matter before you open the full story.
-          </p>
-          <div class="status-grid">
-            <div class="status-card">
-              <span class="status-label">Generated</span>
-              <span id="generatedAt" class="status-value">No data</span>
-            </div>
-            <div class="status-card">
-              <span class="status-label">Articles</span>
-              <span id="articleCount" class="status-value">0</span>
-            </div>
-            <div class="status-card">
-              <span class="status-label">Sources</span>
-              <span id="sourceCount" class="status-value">0</span>
-            </div>
-            <div class="status-card">
-              <span class="status-label">Visible</span>
-              <span id="visibleCount" class="status-value">0</span>
-            </div>
+    <div id="mainPage" style="display:none">
+      <header class="top-bar">
+        <span class="top-bar-brand">
+          <span class="top-bar-brand-dot"></span>Multraship Board Watch
+        </span>
+        <div class="top-bar-right">
+          <span class="top-bar-stats">
+            <span id="generatedAt">No data</span>&nbsp;·&nbsp;<span id="articleCount">0</span> articles&nbsp;·&nbsp;<span id="visibleCount">0</span> visible
+          </span>
+          <div class="top-bar-toggle" id="audienceToggle">
+            <button class="toggle-button active" data-audience="Multraship" type="button">Multraship</button>
+            <button class="toggle-button" data-audience="Novatug" type="button">Novatug</button>
+            <button class="toggle-button" data-audience="Both" type="button">Shared</button>
           </div>
-          <div class="view-mode-row">
-            <span class="view-mode-label">View:</span>
+          <div class="top-bar-toggle" id="viewModeToggle">
             <button class="view-mode-btn" data-view="all" type="button">All</button>
             <button class="view-mode-btn" data-view="procurement" type="button">Procurement</button>
             <button class="view-mode-btn" data-view="management" type="button">Management</button>
           </div>
-
-          <div class="meta-row">
-            <span>Current feed window: last <strong><span id="lookbackDays">7</span> days</strong></span>
-            <span>Refresh data with <strong><code>python3 scripts/fetch_feeds.py</code></strong></span>
-            <button id="refreshButton" class="action-button" type="button">Refresh in dashboard</button>
-            <span id="refreshStatus" class="refresh-status">Idle</span>
-          </div>
+          <button id="refreshButton" class="refresh-icon-btn" title="Refresh data" type="button">↻</button>
+          <span id="refreshStatus" class="refresh-status"></span>
         </div>
-      </section>
+      </header>
+
+      <div class="page">
+      <div id="errors"></div>
 
       <section class="controls-panel">
         <aside class="controls">
           <div class="controls-head">
             <h2>Filters</h2>
-            <span class="controls-copy">Use this strip to narrow the board view before scanning the six buckets.</span>
           </div>
           <div class="control-grid">
             <div class="field field-wide">
@@ -932,28 +1006,13 @@
       </section>
 
       <section class="toggle-panel">
-        <div class="toggle-row" id="audienceToggle">
-          <button class="toggle-button active" data-audience="Multraship" type="button">Multraship</button>
-          <button class="toggle-button" data-audience="Novatug" type="button">Novatug</button>
-          <button class="toggle-button" data-audience="Both" type="button">Shared themes</button>
-        </div>
-
-        <div class="card overview">
-          <div>
-            <h2 id="activeAudienceTitle">Multraship</h2>
-            <p id="activeAudienceCopy">
-              Commercial intelligence across core ports, tracked clients, competitors and operational risk.
-            </p>
-          </div>
-          <div class="overview-stats" id="topBucketCounts"></div>
-        </div>
-
         <div class="summary-strip" id="boardSummary"></div>
       </section>
 
       <section class="entity-sections" id="entityContainer"></section>
 
       <section class="buckets" id="bucketContainer"></section>
+      </div>
     </div>
 
     <script src="./data/articles.js"></script>
@@ -1067,28 +1126,11 @@
         viewMode: localStorage.getItem(VIEW_MODE_KEY) || "all"
       };
 
-      const audienceMeta = {
-        Multraship: {
-          title: "Multraship",
-          copy: "Commercial intelligence across core ports, tracked clients, competitors and operational risk."
-        },
-        Novatug: {
-          title: "Novatug",
-          copy: "Secondary view on electrification, propulsion, emissions and strategic tug innovation."
-        },
-        Both: {
-          title: "Shared Themes",
-          copy: "Cross-over maritime developments that cut across both businesses."
-        }
-      };
-
       const elements = {
         errors: document.getElementById("errors"),
         generatedAt: document.getElementById("generatedAt"),
         articleCount: document.getElementById("articleCount"),
-        sourceCount: document.getElementById("sourceCount"),
         visibleCount: document.getElementById("visibleCount"),
-        lookbackDays: document.getElementById("lookbackDays"),
         sourceFilter: document.getElementById("sourceFilter"),
         topicFilter: document.getElementById("topicFilter"),
         locationFilter: document.getElementById("locationFilter"),
@@ -1100,10 +1142,8 @@
         refreshButton: document.getElementById("refreshButton"),
         refreshStatus: document.getElementById("refreshStatus"),
         bucketContainer: document.getElementById("bucketContainer"),
-        topBucketCounts: document.getElementById("topBucketCounts"),
         boardSummary: document.getElementById("boardSummary"),
-        activeAudienceTitle: document.getElementById("activeAudienceTitle"),
-        activeAudienceCopy: document.getElementById("activeAudienceCopy"),
+        viewModeToggle: document.getElementById("viewModeToggle"),
         toggleButtons: Array.from(document.querySelectorAll(".toggle-button"))
       };
 
@@ -1536,12 +1576,10 @@
       }
 
       function updateAudienceMeta() {
-        const meta = audienceMeta[state.activeAudience];
-        elements.activeAudienceTitle.textContent = meta.title;
-        elements.activeAudienceCopy.textContent = meta.copy;
         elements.toggleButtons.forEach((button) => {
           button.classList.toggle("active", button.dataset.audience === state.activeAudience);
         });
+        elements.viewModeToggle.hidden = state.activeAudience === "Novatug";
       }
 
       async function loadHistoryData() {
@@ -1717,6 +1755,7 @@
         const container = document.getElementById("entityContainer");
         if (!container) return;
         container.innerHTML = "";
+        if (state.activeAudience === "Novatug") return;
         const visible = {
           all: ["suppliers", "clients", "competitors"],
           procurement: ["suppliers"],
@@ -1737,7 +1776,6 @@
         updateAudienceMeta();
         const filtered = sortArticles((state.data.articles || []).filter(matchesFilters));
         const buckets = buildBuckets(filtered);
-        renderOverviewCounts(buckets);
         renderBoardSummary(filtered);
         renderBuckets(buckets);
         elements.visibleCount.textContent = String(filtered.length);
@@ -1765,8 +1803,6 @@
 
         elements.generatedAt.textContent = formatGenerated(state.data.generatedAt);
         elements.articleCount.textContent = String((state.data.articles || []).length);
-        elements.sourceCount.textContent = String((state.data.sources || []).length);
-        elements.lookbackDays.textContent = String(state.data.lookbackDays || 7);
         renderErrors(state.data.errors || []);
       }
 
