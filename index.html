@@ -1035,22 +1035,27 @@
 
       .entity-overlay {
         position: fixed;
-        top: 0;
-        right: 0;
-        bottom: 0;
+        top: 50%;
+        left: 50%;
         z-index: 201;
-        width: min(520px, 100vw);
+        width: min(900px, 95vw);
+        max-height: 88vh;
         background: var(--surface);
-        box-shadow: -4px 0 32px rgba(20, 33, 39, 0.14);
+        border-radius: 20px;
+        box-shadow: 0 24px 64px rgba(20, 33, 39, 0.22);
         display: flex;
         flex-direction: column;
-        transform: translateX(100%);
-        transition: transform 0.25s ease;
+        transform: translate(-50%, -46%);
+        opacity: 0;
+        transition: transform 0.22s ease, opacity 0.22s;
         overflow: hidden;
+        pointer-events: none;
       }
 
       .entity-overlay.open {
-        transform: translateX(0);
+        transform: translate(-50%, -50%);
+        opacity: 1;
+        pointer-events: auto;
       }
 
       .entity-overlay-header {
@@ -1201,6 +1206,83 @@
         padding: 24px 0;
         color: var(--text-soft);
         font-size: 14px;
+      }
+
+      /* Entity chips inside article rows */
+      .entity-chip-link {
+        display: inline-flex;
+        align-items: center;
+        padding: 3px 9px;
+        border-radius: 999px;
+        font-size: 11px;
+        font-weight: 600;
+        cursor: pointer;
+        border: 1px solid transparent;
+        background: none;
+        letter-spacing: 0.02em;
+      }
+
+      .entity-chip-link:hover {
+        filter: brightness(0.92);
+      }
+
+      .entity-chip-link.suppliers { background: #fef3c7; color: #92400e; border-color: #fde68a; }
+      .entity-chip-link.clients   { background: #dbeafe; color: #1e40af; border-color: #bfdbfe; }
+      .entity-chip-link.competitors { background: #fee2e2; color: #991b1b; border-color: #fecaca; }
+
+      /* Entity directory search + sort bar */
+      .entity-dir-bar {
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        margin-bottom: 20px;
+      }
+
+      .entity-dir-search {
+        flex: 1;
+        padding: 9px 12px;
+        border-radius: 10px;
+        border: 1px solid var(--line);
+        background: var(--surface);
+        font-size: 14px;
+        color: var(--text);
+      }
+
+      .entity-dir-sort-btn {
+        padding: 8px 14px;
+        border-radius: 10px;
+        border: 1px solid var(--line);
+        background: var(--surface-muted);
+        color: var(--text-soft);
+        font-size: 11px;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 0.04em;
+        cursor: pointer;
+        white-space: nowrap;
+      }
+
+      .entity-dir-sort-btn.active {
+        background: var(--accent);
+        border-color: var(--accent);
+        color: #fff;
+      }
+
+      /* Overlay two-column profile layout */
+      .overlay-profile-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+        align-items: start;
+      }
+
+      .overlay-profile-col {
+        display: grid;
+        gap: 0;
+      }
+
+      @media (max-width: 600px) {
+        .overlay-profile-grid { grid-template-columns: 1fr; }
       }
     </style>
   </head>
@@ -1842,6 +1924,20 @@
           );
         }
 
+        if (article.entities && article.entities.length > 0) {
+          const entityRow = document.createElement("div");
+          entityRow.className = "tag-row";
+          article.entities.forEach(({ name, category }) => {
+            const btn = document.createElement("button");
+            btn.type = "button";
+            btn.className = `entity-chip-link ${category || ""}`;
+            btn.textContent = name;
+            btn.addEventListener("click", (e) => { e.preventDefault(); e.stopPropagation(); openEntityOverlay(name); });
+            entityRow.appendChild(btn);
+          });
+          main.appendChild(entityRow);
+        }
+
         const tags = document.createElement("div");
         tags.className = "tag-row";
         getDisplayTags(article).forEach((tag) => tags.appendChild(createTag(tag)));
@@ -2210,7 +2306,7 @@
         state.stocksLoading = true;
         try {
           const res = await fetch("./data/stocks.json", { cache: "no-store" });
-          if (res.ok) state.stocksData = await res.json();
+          if (res.ok) { const d = await res.json(); state.stocksData = d.stocks || {}; }
           else state.stocksData = {};
         } catch {
           state.stocksData = {};
@@ -2225,50 +2321,115 @@
         const el = elements.entityDirContent;
         el.innerHTML = "";
 
+        const catLabels = { suppliers: "Suppliers", clients: "Clients", competitors: "Competitors" };
+
+        // Article counts per entity
+        const articleCounts = new Map();
+        getDirArticles().forEach((a) => {
+          (a.entities || []).forEach((e) => articleCounts.set(e.name, (articleCounts.get(e.name) || 0) + 1));
+        });
+
+        // Search + sort bar
+        const bar = document.createElement("div");
+        bar.className = "entity-dir-bar";
+
+        const searchInput = document.createElement("input");
+        searchInput.type = "search";
+        searchInput.placeholder = "Search entities…";
+        searchInput.className = "entity-dir-search";
+
+        let currentSort = "az";
+        const sortAZ = document.createElement("button");
+        sortAZ.type = "button";
+        sortAZ.textContent = "A – Z";
+        sortAZ.className = "entity-dir-sort-btn active";
+
+        const sortCount = document.createElement("button");
+        sortCount.type = "button";
+        sortCount.textContent = "Most mentioned";
+        sortCount.className = "entity-dir-sort-btn";
+
+        bar.append(searchInput, sortAZ, sortCount);
+        el.appendChild(bar);
+
         const grouped = { suppliers: [], clients: [], competitors: [] };
         Object.entries(profiles).forEach(([name, profile]) => {
           const cat = categories[name];
           if (cat && grouped[cat]) grouped[cat].push({ name, profile });
         });
 
-        const catLabels = { suppliers: "Suppliers", clients: "Clients", competitors: "Competitors" };
+        function buildGroups() {
+          el.querySelectorAll(".entity-dir-group").forEach((g) => g.remove());
 
-        Object.entries(grouped).forEach(([cat, items]) => {
-          if (items.length === 0) return;
-          const group = document.createElement("div");
-          group.className = "entity-dir-group";
-          group.appendChild(createTextElement("div", catLabels[cat], "entity-dir-group-title"));
+          const q = searchInput.value.trim().toLowerCase();
 
-          const grid = document.createElement("div");
-          grid.className = "entity-dir-grid";
+          Object.entries(grouped).forEach(([cat, items]) => {
+            const filtered = items.filter(({ name }) => name.toLowerCase().includes(q));
+            if (filtered.length === 0) return;
 
-          items.sort((a, b) => a.name.localeCompare(b.name)).forEach(({ name, profile }) => {
-            const card = document.createElement("div");
-            card.className = "entity-card";
-            card.appendChild(createTextElement("div", name, "entity-card-name"));
+            const sorted = [...filtered].sort((a, b) =>
+              currentSort === "az"
+                ? a.name.localeCompare(b.name)
+                : (articleCounts.get(b.name) || 0) - (articleCounts.get(a.name) || 0)
+            );
 
-            const meta = document.createElement("div");
-            meta.className = "entity-card-meta";
-            meta.appendChild(createTextElement("span", catLabels[cat].slice(0, -1), `entity-card-badge ${cat}`));
-            if (profile.stock && profile.stock.ticker) {
-              meta.appendChild(createTextElement("span", "📈 " + profile.stock.ticker, "entity-card-stock"));
-            }
-            card.appendChild(meta);
+            const group = document.createElement("div");
+            group.className = "entity-dir-group";
+            group.appendChild(createTextElement("div", catLabels[cat], "entity-dir-group-title"));
 
-            if (profile.hq) card.appendChild(createTextElement("div", profile.hq, "entity-card-hq"));
-            if (profile.description) card.appendChild(createTextElement("div", profile.description, "entity-card-desc"));
+            const grid = document.createElement("div");
+            grid.className = "entity-dir-grid";
 
-            card.addEventListener("click", () => openEntityOverlay(name));
-            grid.appendChild(card);
+            sorted.forEach(({ name, profile }) => {
+              const card = document.createElement("div");
+              card.className = "entity-card";
+              card.appendChild(createTextElement("div", name, "entity-card-name"));
+
+              const meta = document.createElement("div");
+              meta.className = "entity-card-meta";
+              meta.appendChild(createTextElement("span", catLabels[cat].slice(0, -1), `entity-card-badge ${cat}`));
+              if (profile.stock && profile.stock.ticker) {
+                meta.appendChild(createTextElement("span", profile.stock.ticker, "entity-card-stock"));
+              }
+              const cnt = articleCounts.get(name) || 0;
+              if (cnt > 0) meta.appendChild(createTextElement("span", `${cnt} articles`, "entity-card-hq"));
+              card.appendChild(meta);
+
+              if (profile.hq) card.appendChild(createTextElement("div", profile.hq, "entity-card-hq"));
+              if (profile.description) card.appendChild(createTextElement("div", profile.description, "entity-card-desc"));
+
+              card.addEventListener("click", () => openEntityOverlay(name));
+              grid.appendChild(card);
+            });
+
+            group.appendChild(grid);
+            el.appendChild(group);
           });
 
-          group.appendChild(grid);
-          el.appendChild(group);
+          if (el.querySelectorAll(".entity-dir-group").length === 0) {
+            const empty = createTextElement("div", "No entities match your search.", "overlay-empty");
+            empty.className += " entity-dir-empty";
+            el.appendChild(empty);
+          } else {
+            el.querySelector(".entity-dir-empty")?.remove();
+          }
+        }
+
+        searchInput.addEventListener("input", buildGroups);
+        sortAZ.addEventListener("click", () => {
+          currentSort = "az";
+          sortAZ.classList.add("active");
+          sortCount.classList.remove("active");
+          buildGroups();
+        });
+        sortCount.addEventListener("click", () => {
+          currentSort = "count";
+          sortCount.classList.add("active");
+          sortAZ.classList.remove("active");
+          buildGroups();
         });
 
-        if (el.children.length === 0) {
-          el.appendChild(createTextElement("div", "No entity profiles configured.", "overlay-empty"));
-        }
+        buildGroups();
       }
 
       function openEntityOverlay(name) {
@@ -2313,7 +2474,7 @@
         ).length;
 
         elements.overlayNav.innerHTML = "";
-        [{ key: "profile", label: "Profile" }, { key: "news", label: `News (${count})` }].forEach(({ key, label }) => {
+        [{ key: "profile", label: "Profile" }, { key: "news", label: `News (${count})` }, { key: "events", label: "Events" }].forEach(({ key, label }) => {
           const btn = document.createElement("button");
           btn.type = "button";
           btn.className = "overlay-nav-tab" + (state.overlayTab === key ? " active" : "");
@@ -2331,7 +2492,19 @@
         const body = elements.overlayBody;
         body.innerHTML = "";
         if (state.overlayTab === "profile") renderOverlayProfile(name, body);
-        else renderOverlayNews(name, body);
+        else if (state.overlayTab === "news") renderOverlayNews(name, body);
+        else renderOverlayEvents(body);
+      }
+
+      function renderOverlayEvents(body) {
+        const wrap = document.createElement("div");
+        wrap.style.cssText = "padding:32px 0;text-align:center;";
+        wrap.appendChild(createTextElement("div", "Events", "summary-label"));
+        const msg = createTextElement("p", "Coming soon — this tab will show trade shows, port calls, and industry conferences for this entity.", "overlay-empty");
+        msg.style.maxWidth = "360px";
+        msg.style.margin = "12px auto 0";
+        wrap.appendChild(msg);
+        body.appendChild(wrap);
       }
 
       function renderOverlayProfile(name, body) {
