@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-04-22T07:13:37.934702Z",
+  "generatedAt": "2026-04-22T07:15:10.212820Z",
   "lookbackDays": 30,
-  "cutoffAt": "2026-03-23T07:13:37.934702Z",
+  "cutoffAt": "2026-03-23T07:15:10.212820Z",
   "articleCount": 180,
   "sourceCount": 22,
   "sources": [
@@ -393,11 +393,11 @@
       "boardBucket": "Port Watch"
     },
     {
-      "id": "26998493a3f5adc7",
+      "id": "0d814b33a1413f2a",
       "title": "Boskalis makes first successful ROV deployment following \u00a340m investment",
       "source": "Boskalis News",
       "sourceId": "bing-boskalis",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=69e87528d6ab4dfb992f148d60711973&url=https%3a%2f%2fwww.insidermedia.com%2fnews%2fscotland%2fboskalis-makes-first-successful-rov-deployment-following-40m-investment&c=10984532099390922739&mkt=en-us",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=69e875846b414058925c97aeefc028bb&url=https%3a%2f%2fwww.insidermedia.com%2fnews%2fscotland%2fboskalis-makes-first-successful-rov-deployment-following-40m-investment&c=10984532099390922739&mkt=en-us",
       "publishedAt": "2026-04-15T02:08:00Z",
       "excerpt": "Boskalis has made the first deployment of remotely operated vehicles (ROVs) from its new Remote Operations Center (ROC) in Aberdeen, following an 18-mon ...",
       "tags": [
@@ -483,11 +483,11 @@
       "boardBucket": "Regulation, Safety & Incidents"
     },
     {
-      "id": "79ab840b0a47e020",
+      "id": "b9554af855c8c0b2",
       "title": "Damen signs contract with Polidano for two Combi Freighters (CF) 3850",
       "source": "Damen Shipyards News",
       "sourceId": "bing-damen",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=69e87527dba44a1dbe66ee35be0a28fc&url=https%3a%2f%2fwww.drycargomag.com%2fdamen-signs-contract-with-polidano-for-two-combi-freighters-cf-3850&c=13539053897842588448&mkt=en-us",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=69e87583a54347a2aa7b6e00305a5aa5&url=https%3a%2f%2fwww.drycargomag.com%2fdamen-signs-contract-with-polidano-for-two-combi-freighters-cf-3850&c=13539053897842588448&mkt=en-us",
       "publishedAt": "2026-04-08T01:57:00Z",
       "excerpt": "Damen Shipyards Group has signed a contract with Polidano for the delivery of two Combi Freighters (CF) 3850. The Malta-based company will use the vessels primarily for the transport of aggregates for ...",
       "tags": [
@@ -571,11 +571,11 @@
       "boardBucket": "Regulation, Safety & Incidents"
     },
     {
-      "id": "e4837f168961669a",
+      "id": "d3aca14fc7052378",
       "title": "Svitzer\u2019s first three TRAnsverse tugs near 3,000 commercial tug job total",
       "source": "Svitzer News",
       "sourceId": "bing-svitzer",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=69e8752866e44d15ba668b6b1486f9f6&url=https%3a%2f%2fwww.marinelog.com%2fnews%2fsvitzers-first-three-transverse-tugs-near-3000-commercial-tug-job-total%2f&c=8334571993702572403&mkt=en-us",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=69e8758496254612b3e56c6a4ddfa899&url=https%3a%2f%2fwww.marinelog.com%2fnews%2fsvitzers-first-three-transverse-tugs-near-3000-commercial-tug-job-total%2f&c=8334571993702572403&mkt=en-us",
       "publishedAt": "2026-04-15T11:11:00Z",
       "excerpt": "Copenhagen, headquartered towage specialist Svitzer reports that its three TRAnsverse class tugboats are approaching completion of 3,000 commercial tug jobs, with on-water operations showing superior ...",
       "tags": [
@@ -602,11 +602,11 @@
       "boardBucket": "Competitors & Market"
     },
     {
-      "id": "8261121513b1fe77",
+      "id": "5d49d5afd58bf923",
       "title": "Norwegian co to supply 18 big waterjet systems for Indian Navy's next-gen missile vessel project",
       "source": "Kongsberg Maritime News",
       "sourceId": "bing-kongsberg",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=69e87527ace3408699c561f16c9ac774&url=https%3a%2f%2fwww.msn.com%2fen-in%2fnews%2fother%2fnorwegian-co-to-supply-18-big-waterjet-systems-for-indian-navy-s-next-gen-missile-vessel-project%2far-AA20Nuet&c=4609846177532778353&mkt=en-us",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=69e87584697c4f468f3c06cc0408cb7f&url=https%3a%2f%2fwww.msn.com%2fen-in%2fnews%2fother%2fnorwegian-co-to-supply-18-big-waterjet-systems-for-indian-navy-s-next-gen-missile-vessel-project%2far-AA20Nuet&c=4609846177532778353&mkt=en-us",
       "publishedAt": "2026-04-13T16:47:00Z",
       "excerpt": "India's Navy is set to receive 18 advanced Kamewa waterjet propulsion systems from Norway's Kongsberg Maritime for its new missile vessels. This significant contract, awarded in partnership with ...",
       "tags": [
@@ -664,11 +664,11 @@
       "boardBucket": "Regulation, Safety & Incidents"
     },
     {
-      "id": "04fe2836ec34cd79",
+      "id": "7b91188adc9545fe",
       "title": "Boskalis marks first successful ROV deployment from its new Remote Operations Center in Aberdeen",
       "source": "Boskalis News",
       "sourceId": "bing-boskalis",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=69e87528d6ab4dfb992f148d60711973&url=https%3a%2f%2fuk.finance.yahoo.com%2fnews%2fboskalis-marks-first-successful-rov-080000628.html&c=6923325144661067003&mkt=en-us",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=69e875846b414058925c97aeefc028bb&url=https%3a%2f%2fuk.finance.yahoo.com%2fnews%2fboskalis-marks-first-successful-rov-080000628.html&c=6923325144661067003&mkt=en-us",
       "publishedAt": "2026-04-13T01:00:00Z",
       "excerpt": "This milestone reflects the company\u2019s continuous focus on innovation, safety and future-proof offshore solutions. The ROC significantly expands Boskalis\u2019 remote ...",
       "tags": [
@@ -696,11 +696,11 @@
       "boardBucket": "Clients & Projects"
     },
     {
-      "id": "4b988ac066b0319b",
+      "id": "4501f3603abeef6a",
       "title": "Kongsberg Maritime secures largest-ever waterjet contract",
       "source": "Kongsberg Maritime News",
       "sourceId": "bing-kongsberg",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=69e87527ace3408699c561f16c9ac774&url=https%3a%2f%2fmaritimt.com%2fkongsberg-maritime-secures-largest-ever-waterjet-contract&c=2989329961921340396&mkt=en-us",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=69e87584697c4f468f3c06cc0408cb7f&url=https%3a%2f%2fmaritimt.com%2fkongsberg-maritime-secures-largest-ever-waterjet-contract&c=2989329961921340396&mkt=en-us",
       "publishedAt": "2026-04-08T02:34:00Z",
       "excerpt": "Kongsberg Maritime has signed a landmark contract to supply 18 large Kamewa waterjets for the Indian Navy\u2019s Next Generation Missile Vessel (NGMV) programme. Each of the vessels will feature waterjets, ...",
       "tags": [
@@ -1428,11 +1428,11 @@
       "boardBucket": "Clients & Projects"
     },
     {
-      "id": "d1685d36512311e3",
+      "id": "a392457c641d7d59",
       "title": "Damen shipyard in Romania launches aircraft carrier for Portuguese Navy",
       "source": "Damen Shipyards News",
       "sourceId": "bing-damen",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=69e87527dba44a1dbe66ee35be0a28fc&url=https%3a%2f%2fwww.romania-insider.com%2fdamen-carrier-portuguese-navy-apr-2026&c=8357441190567815764&mkt=en-us",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=69e87583a54347a2aa7b6e00305a5aa5&url=https%3a%2f%2fwww.romania-insider.com%2fdamen-carrier-portuguese-navy-apr-2026&c=8357441190567815764&mkt=en-us",
       "publishedAt": "2026-04-08T01:31:00Z",
       "excerpt": "The Damen shipyard in Gala\u021bi, southeast Romania, launched a multi-purpose vessel on Tuesday, April 7. The vessel was produced for the Portuguese Naval Forces for EUR 132 million, financed through ...",
       "tags": [
@@ -1460,11 +1460,11 @@
       "boardBucket": "Other Relevant"
     },
     {
-      "id": "686d8292daca8fe3",
+      "id": "e5f805022d103141",
       "title": "Damen launches \u2018Drone Carrier\u2019 for the Portuguese Navy",
       "source": "Damen Shipyards News",
       "sourceId": "bing-damen",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=69e87527dba44a1dbe66ee35be0a28fc&url=https%3a%2f%2fwww.navalnews.com%2fnaval-news%2f2026%2f04%2fdamen-launches-drone-carrier-for-the-portuguese-navy%2f&c=5745402376117431012&mkt=en-us",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=69e87583a54347a2aa7b6e00305a5aa5&url=https%3a%2f%2fwww.navalnews.com%2fnaval-news%2f2026%2f04%2fdamen-launches-drone-carrier-for-the-portuguese-navy%2f&c=5745402376117431012&mkt=en-us",
       "publishedAt": "2026-04-07T13:58:00Z",
       "excerpt": "Damen Shipyards Group has launched the NRP D. Jo\u00e3o II a Multi-Purpose Vessel (MPV) 10720 for the Portuguese Navy. The vessel entered the water at Damen Shipyards Galati in Romania on April 7.",
       "tags": [
@@ -1492,11 +1492,11 @@
       "boardBucket": "Other Relevant"
     },
     {
-      "id": "03e69e4c2ba07f4e",
+      "id": "9edb454d90d7a243",
       "title": "Damen Launches Multi-Purpose Vessel for the Portuguese Navy",
       "source": "Damen Shipyards News",
       "sourceId": "bing-damen",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=69e87527dba44a1dbe66ee35be0a28fc&url=https%3a%2f%2fwww.marinelink.com%2fnews%2fdamen-launches-multipurpose-vessel-537767&c=11375641692144553663&mkt=en-us",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=69e87583a54347a2aa7b6e00305a5aa5&url=https%3a%2f%2fwww.marinelink.com%2fnews%2fdamen-launches-multipurpose-vessel-537767&c=11375641692144553663&mkt=en-us",
       "publishedAt": "2026-04-07T09:02:00Z",
       "excerpt": "Damen Shipyards Group has launched the NRP D. Jo\u00e3o II a Multi-Purpose Vessel (MPV) 10720 for the Portuguese Navy. The vessel ...",
       "tags": [
@@ -1524,11 +1524,11 @@
       "boardBucket": "Other Relevant"
     },
     {
-      "id": "09ed7b65de78a8d0",
+      "id": "38682176cc7418fc",
       "title": "Creditors of Romania\u2019s Mangalia Shipyard reject reorganization plan, bankruptcy and liquidation to begin",
       "source": "Damen Shipyards News",
       "sourceId": "bing-damen",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=69e87527dba44a1dbe66ee35be0a28fc&url=https%3a%2f%2fwww.romania-insider.com%2fmangalia-shipyard-bankruptcy-april-2026&c=6396200990071912376&mkt=en-us",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=69e87583a54347a2aa7b6e00305a5aa5&url=https%3a%2f%2fwww.romania-insider.com%2fmangalia-shipyard-bankruptcy-april-2026&c=6396200990071912376&mkt=en-us",
       "publishedAt": "2026-04-06T06:01:00Z",
       "excerpt": "CITR, the judicial administrator of the Damen Shipyards Mangalia, announced on Monday, April 6, that creditors of the company rejected its reorganization plan at the last meeting, marking the ...",
       "tags": [
@@ -1738,11 +1738,11 @@
       "boardBucket": "Regulation, Safety & Incidents"
     },
     {
-      "id": "150fce924454a828",
+      "id": "359e6d9dc2b609f4",
       "title": "Kongsberg Maritime shares begin trading in Oslo after parent spin-off",
       "source": "Kongsberg Maritime News",
       "sourceId": "bing-kongsberg",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=69e87527ace3408699c561f16c9ac774&url=https%3a%2f%2fwww.tradewindsnews.com%2ftechnology%2fkongsberg-maritime-shares-begin-trading-in-oslo-after-parent-spin-off%2f2-1-1977683&c=2727161669190424549&mkt=en-us",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=69e87584697c4f468f3c06cc0408cb7f&url=https%3a%2f%2fwww.tradewindsnews.com%2ftechnology%2fkongsberg-maritime-shares-begin-trading-in-oslo-after-parent-spin-off%2f2-1-1977683&c=2727161669190424549&mkt=en-us",
       "publishedAt": "2026-04-21T06:21:00Z",
       "excerpt": "A new pure-play maritime technology company is set to hit the public markets, as Kongsberg Maritime begins trading today on the Oslo Stock Exchange after its spin-off from Kongsberg Gruppen.",
       "tags": [
@@ -1852,11 +1852,11 @@
       "boardBucket": "Regulation, Safety & Incidents"
     },
     {
-      "id": "0c986e6d063db387",
+      "id": "71bb9e05f810fa8b",
       "title": "Indian Navy to get next-gen missile vessel with Norwegian jet propulsion: Check how it will make ships faster & stealthier",
       "source": "Kongsberg Maritime News",
       "sourceId": "bing-kongsberg",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=69e87527ace3408699c561f16c9ac774&url=https%3a%2f%2fwww.msn.com%2fen-in%2fmoney%2fnews%2findian-navy-to-get-next-gen-missile-vessel-with-norwegian-jet-propulsion-check-how-it-will-make-ships-faster-stealthier%2far-AA20OZNX&c=5482301997127798460&mkt=en-us",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=69e87584697c4f468f3c06cc0408cb7f&url=https%3a%2f%2fwww.msn.com%2fen-in%2fmoney%2fnews%2findian-navy-to-get-next-gen-missile-vessel-with-norwegian-jet-propulsion-check-how-it-will-make-ships-faster-stealthier%2far-AA20OZNX&c=5482301997127798460&mkt=en-us",
       "publishedAt": "2026-04-13T23:18:12Z",
       "excerpt": "Kongsberg Maritime has secured its largest waterjet order to date, supplying 18 advanced Kamewa systems for the Indian Navy's next-generation missile vessel program. This collaboration with Cochin ...",
       "tags": [
@@ -3362,11 +3362,11 @@
       "boardBucket": "Other Relevant"
     },
     {
-      "id": "3f0c9de716799164",
+      "id": "1a38ac72cef3fcb8",
       "title": "HAL Trust: Still Trading At A Discount",
       "source": "Boskalis News",
       "sourceId": "bing-boskalis",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=69e87528d6ab4dfb992f148d60711973&url=https%3a%2f%2fseekingalpha.com%2farticle%2f4890731-hal-trust-still-trading-at-a-discount&c=17550158604506206562&mkt=en-us",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=69e875846b414058925c97aeefc028bb&url=https%3a%2f%2fseekingalpha.com%2farticle%2f4890731-hal-trust-still-trading-at-a-discount&c=17550158604506206562&mkt=en-us",
       "publishedAt": "2026-04-14T20:20:00Z",
       "excerpt": "East 72 Dynasty Trust reports that HAL Trust shares trade at a 32% discount to their estimated net asset value. Read the full analysis for more details.",
       "tags": [
@@ -4105,6 +4105,29 @@
       "boardBucket": "Other Relevant"
     },
     {
+      "id": "58bc7fe8c59c6e64",
+      "title": "Trump Extends Iran Truce, Blockade",
+      "source": "Rigzone",
+      "sourceId": "rigzone-latest",
+      "url": "https://www.rigzone.com/news/wire/trump_extends_iran_truce_blockade-22-apr-2026-183505-article/?rss=true",
+      "publishedAt": "2026-04-22T06:56:33Z",
+      "excerpt": "The U.S. president indefinitely extended a ceasefire with Iran just before its expiration, while maintaining a naval blockade of the Strait of Hormuz after planned peace talks between the two sides fell apart.",
+      "tags": [
+        "Incidents",
+        "Offshore",
+        "Energy"
+      ],
+      "audience": "Both",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [],
+      "priorityScore": 1,
+      "priorityBand": "low",
+      "priorityReasons": [],
+      "boardBucket": "Other Relevant"
+    },
+    {
       "id": "f0c11ac60228ca73",
       "title": "JP Morgan tipped for $500m VLCC move at DSIC",
       "source": "Splash247",
@@ -4621,28 +4644,6 @@
       "url": "https://splash247.com/geneva-dry-set-to-tackle-shippings-biggest-stress-points/",
       "publishedAt": "2026-04-21T07:27:42Z",
       "excerpt": "A year in the making, next week\u2019s Geneva Dry summit promises to be this year\u2019s first major event to address the major stress points for shipping. From the Hormuz fallout to the green transition via plenty of frank conversations on all thin\u2026",
-      "tags": [
-        "Maritime",
-        "News"
-      ],
-      "audience": "Both",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [],
-      "priorityScore": 1,
-      "priorityBand": "low",
-      "priorityReasons": [],
-      "boardBucket": "Other Relevant"
-    },
-    {
-      "id": "e27a02bb139138bb",
-      "title": "Scorpio Tankers lines up $300m sale of six ships",
-      "source": "Splash247",
-      "sourceId": "splash247",
-      "url": "https://splash247.com/scorpio-tankers-lines-up-300m-sale-of-six-ships/",
-      "publishedAt": "2026-04-21T07:19:29Z",
-      "excerpt": "New York-listed Scorpio Tankers is offloading six product tankers in a deal worth about $300m, as the owner continues to reshape its fleet and free up capital. The Emanuele Lauro-led company said it has agreed to sell three LR2s and three\u2026",
       "tags": [
         "Maritime",
         "News"
