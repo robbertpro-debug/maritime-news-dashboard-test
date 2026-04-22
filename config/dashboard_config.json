@@ -218,6 +218,53 @@
       "audience_bias": {
         "Multraship": 5
       }
+    },
+    {
+      "id": "bing-wartsila",
+      "name": "Wärtsilä News",
+      "url": "https://www.bing.com/news/search?q=W%C3%A4rtsil%C3%A4+marine&format=rss&mkt=en-US",
+      "default_tags": ["propulsion", "technology"],
+      "audience_bias": {
+        "Multraship": 4,
+        "Novatug": 3
+      }
+    },
+    {
+      "id": "bing-dnv",
+      "name": "DNV News",
+      "url": "https://www.bing.com/news/search?q=DNV+maritime&format=rss&mkt=en-US",
+      "default_tags": ["classification", "safety"],
+      "audience_bias": {
+        "Multraship": 4,
+        "Novatug": 2
+      }
+    },
+    {
+      "id": "bing-ardent",
+      "name": "Ardent Salvage News",
+      "url": "https://www.bing.com/news/search?q=Ardent+salvage+maritime&format=rss&mkt=en-US",
+      "default_tags": ["salvage", "competitor"],
+      "audience_bias": {
+        "Multraship": 5
+      }
+    },
+    {
+      "id": "bing-saam",
+      "name": "SAAM Towage News",
+      "url": "https://www.bing.com/news/search?q=SAAM+Towage&format=rss&mkt=en-US",
+      "default_tags": ["towage", "competitor"],
+      "audience_bias": {
+        "Multraship": 5
+      }
+    },
+    {
+      "id": "bing-yara",
+      "name": "Yara International News",
+      "url": "https://www.bing.com/news/search?q=Yara+International+shipping&format=rss&mkt=en-US",
+      "default_tags": ["chemicals", "client"],
+      "audience_bias": {
+        "Multraship": 5
+      }
     }
   ],
   "classification": {
@@ -408,7 +455,12 @@
         "American Bureau of Shipping",
         "Astilleros Armon",
         "SeaZip Offshore Service",
-        "Azcue Pumps"
+        "Azcue Pumps",
+        "Wärtsilä",
+        "DNV",
+        "Schottel",
+        "Voith",
+        "Lloyd's Register"
       ],
       "clients": [
         "RWE Renewables",
@@ -433,7 +485,14 @@
         "Verbrugge Terminals",
         "EnBW",
         "Heerema Marine",
-        "Allseas"
+        "Allseas",
+        "Yara International",
+        "Sea-Invest",
+        "ExxonMobil",
+        "Tata Steel",
+        "INEOS",
+        "Covestro",
+        "Cargill"
       ],
       "competitors": [
         "Boluda Towage",
@@ -462,7 +521,10 @@
         "Itchen Marine",
         "Williams Shipping",
         "Targe Towing",
-        "Tsavliris Salvage"
+        "Tsavliris Salvage",
+        "Ardent",
+        "SAAM Towage",
+        "Iskes Towage"
       ]
     }
   },
@@ -536,7 +598,12 @@
         "American Bureau of Shipping": ["ABS"],
         "Astilleros Armon": ["Armon"],
         "SeaZip Offshore Service": ["SeaZip"],
-        "Azcue Pumps": ["Azcue"]
+        "Azcue Pumps": ["Azcue"],
+        "Wärtsilä": ["Wartsila", "Wärtsilä Marine", "Wartsila Marine"],
+        "DNV": ["Det Norske Veritas", "DNV GL", "DNV-GL"],
+        "Schottel": ["SCHOTTEL"],
+        "Voith": ["Voith Marine", "Voith Hydro", "Voith Schneider"],
+        "Lloyd's Register": ["LR", "Lloyds Register", "Lloyd's"]
       },
       "clients": {
         "RWE Renewables": ["RWE"],
@@ -546,7 +613,13 @@
         "DEME Group": ["DEME"],
         "Jan De Nul": ["Jan De Nul Group"],
         "Verbrugge Terminals": ["Verbrugge"],
-        "Heerema Marine": ["Heerema", "Heerema Marine Contractors"]
+        "Heerema Marine": ["Heerema", "Heerema Marine Contractors"],
+        "Yara International": ["Yara", "Yara Terneuzen", "Yara Sluiskil"],
+        "Sea-Invest": ["Sea Invest"],
+        "ExxonMobil": ["Exxon", "Esso", "ExxonMobil Antwerp"],
+        "Tata Steel": ["Tata Steel Netherlands", "Tata Steel IJmuiden"],
+        "INEOS": ["Ineos"],
+        "Cargill": ["Cargill Ocean Transportation"]
       },
       "competitors": {
         "Boluda Towage": ["Boluda"],
@@ -559,7 +632,10 @@
         "Alfons Håkans": ["Alfons Hakans"],
         "Fairplay Towage": ["Fairplay"],
         "Williams Shipping": ["Williams"],
-        "Tsavliris Salvage": ["Tsavliris"]
+        "Tsavliris Salvage": ["Tsavliris"],
+        "Ardent": ["Ardent Salvage", "Ardent Maritime"],
+        "SAAM Towage": ["SAAM", "SAAM Smit"],
+        "Iskes Towage": ["Iskes", "Iskes Towage & Salvage"]
       }
     }
   },
