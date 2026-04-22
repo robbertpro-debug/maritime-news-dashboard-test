@@ -558,6 +558,47 @@
         color: var(--text-soft);
       }
 
+      #loginOverlay {
+        position: fixed;
+        inset: 0;
+        z-index: 9999;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background:
+          radial-gradient(circle at top right, rgba(15, 89, 102, 0.09), transparent 28%),
+          linear-gradient(180deg, #f7f9fb 0%, var(--bg) 100%);
+      }
+
+      .login-card {
+        background: var(--surface);
+        border: 1px solid var(--line);
+        border-radius: 18px;
+        box-shadow: var(--shadow);
+        padding: 36px 40px;
+        width: 100%;
+        max-width: 420px;
+      }
+
+      .login-card h2 {
+        margin: 14px 0 6px;
+        font-size: 28px;
+      }
+
+      .login-copy {
+        margin: 0 0 20px;
+        color: var(--text-soft);
+        font-size: 14px;
+        line-height: 1.5;
+      }
+
+      .login-error {
+        margin-top: 10px;
+        color: var(--danger);
+        font-size: 14px;
+        font-weight: 600;
+      }
+
       .entity-sections {
         display: grid;
         gap: 16px;
@@ -722,7 +763,21 @@
     </style>
   </head>
   <body>
-    <div class="page">
+    <div id="loginOverlay">
+      <div class="login-card">
+        <span class="eyebrow">Multraship Board Watch</span>
+        <h2>Sign in</h2>
+        <p class="login-copy">This dashboard is for internal use only.</p>
+        <div class="field">
+          <label for="loginPassword">Password</label>
+          <input id="loginPassword" type="password" placeholder="Enter password" autocomplete="current-password" />
+        </div>
+        <div id="loginError" class="login-error" style="display:none">Incorrect password. Try again.</div>
+        <button id="loginButton" class="action-button" type="button" style="margin-top:14px;width:100%">Sign in</button>
+      </div>
+    </div>
+
+    <div class="page" id="mainPage" style="display:none">
       <div id="errors"></div>
 
       <section class="hero">
@@ -852,6 +907,47 @@
 
     <script src="./data/articles.js"></script>
     <script>
+      const AUTH_KEY = "mnd_auth";
+      const PASSWORD_HASH = "9175c025fea32b1448a98927bb679160119657ac11cbd028b51264a21af91db8";
+
+      async function sha256hex(text) {
+        const buf = await crypto.subtle.digest("SHA-256", new TextEncoder().encode(text));
+        return Array.from(new Uint8Array(buf)).map((b) => b.toString(16).padStart(2, "0")).join("");
+      }
+
+      function unlockDashboard() {
+        document.getElementById("loginOverlay").style.display = "none";
+        document.getElementById("mainPage").style.display = "";
+      }
+
+      (function initAuth() {
+        if (localStorage.getItem(AUTH_KEY) === PASSWORD_HASH) {
+          unlockDashboard();
+          return;
+        }
+
+        const loginBtn = document.getElementById("loginButton");
+        const loginInput = document.getElementById("loginPassword");
+        const loginError = document.getElementById("loginError");
+
+        async function attemptLogin() {
+          const hash = await sha256hex(loginInput.value);
+          if (hash === PASSWORD_HASH) {
+            localStorage.setItem(AUTH_KEY, hash);
+            loginError.style.display = "none";
+            unlockDashboard();
+            boot();
+          } else {
+            loginError.style.display = "";
+            loginInput.value = "";
+            loginInput.focus();
+          }
+        }
+
+        loginBtn.addEventListener("click", attemptLogin);
+        loginInput.addEventListener("keydown", (e) => { if (e.key === "Enter") attemptLogin(); });
+      })();
+
       const PRIORITY_LEVELS = { critical: 3, high: 2, medium: 1, low: 0 };
       const PRIORITY_LABELS = { critical: "Critical", high: "High", medium: "Medium", low: "Low" };
       const GENERIC_TOPIC_TAGS = new Set(["Maritime", "News", "Industry", "Markets"]);
@@ -1653,7 +1749,9 @@
         render();
       }
 
-      boot();
+      if (localStorage.getItem(AUTH_KEY) === PASSWORD_HASH) {
+        boot();
+      }
     </script>
   </body>
 </html>
