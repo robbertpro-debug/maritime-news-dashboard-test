@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-04-21T23:32:30.375563Z",
+  "generatedAt": "2026-04-22T02:13:22.917859Z",
   "lookbackDays": 30,
-  "cutoffAt": "2026-03-22T23:32:30.375563Z",
+  "cutoffAt": "2026-03-23T02:13:22.917859Z",
   "articleCount": 180,
   "sourceCount": 16,
   "sources": [
@@ -155,35 +155,6 @@
         "Core port watch: Rotterdam",
         "Signal: Regulation",
         "Signal: Commercial"
-      ],
-      "boardBucket": "High Priority"
-    },
-    {
-      "id": "3034b7008baa42ac",
-      "title": "Ukraine Attacks Russian Black Sea Port of Tuapse Starting Large Fire",
-      "source": "The Maritime Executive",
-      "sourceId": "maritime-executive",
-      "url": "https://maritime-executive.com/article/ukraine-attacks-russian-black-sea-port-of-tuapse-starting-large-fire",
-      "publishedAt": "2026-04-20T18:31:52Z",
-      "excerpt": "Ukraine is continuing its pressure on the Russian oil export infrastructure as it seeks to interrupt the revenues coming from the surging oil market....",
-      "tags": [
-        "Incidents",
-        "Maritime",
-        "News"
-      ],
-      "audience": "Multraship",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [
-        "Incident",
-        "Infrastructure"
-      ],
-      "priorityScore": 9,
-      "priorityBand": "high",
-      "priorityReasons": [
-        "Signal: Incident",
-        "Signal: Infrastructure"
       ],
       "boardBucket": "High Priority"
     },
@@ -432,32 +403,6 @@
         "Competitor mention: Boluda Towage"
       ],
       "boardBucket": "Competitors & Market"
-    },
-    {
-      "id": "6ca104ad5e11582e",
-      "title": "Production stalls at Russia's Tuapse refinery after drone strike",
-      "source": "Baird Maritime",
-      "sourceId": "baird-maritime",
-      "url": "https://www.bairdmaritime.com/offshore/refining-processing/production-stalls-at-russias-tuapse-refinery-after-drone-strike",
-      "publishedAt": "2026-04-21T19:49:19Z",
-      "excerpt": "Russia's Tuapse oil refinery, which sells most of its products for export, halted operations following a Ukrainian drone attack on April 16, two industry sources said on Tuesday. Ukraine has increased attacks on Russia's energy infrastruct\u2026",
-      "tags": [
-        "Workboats",
-        "Technology"
-      ],
-      "audience": "Multraship",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [
-        "Disruption"
-      ],
-      "priorityScore": 6,
-      "priorityBand": "medium",
-      "priorityReasons": [
-        "Signal: Disruption"
-      ],
-      "boardBucket": "Regulation, Safety & Incidents"
     },
     {
       "id": "f71bdddd83f2c18c",
@@ -761,6 +706,32 @@
         "Competitor mention: Boluda Towage"
       ],
       "boardBucket": "Competitors & Market"
+    },
+    {
+      "id": "715819a0fa154b88",
+      "title": "AG&P LNG to acquire full ownership of Cai Mep terminal in Vietnam",
+      "source": "Baird Maritime",
+      "sourceId": "baird-maritime",
+      "url": "https://www.bairdmaritime.com/shipping/ports/agp-lng-to-acquire-full-ownership-of-cai-mep-terminal-in-vietnam",
+      "publishedAt": "2026-04-22T01:49:48Z",
+      "excerpt": "Singapore-based terminals and downstream infrastructure company AG&P LNG, a subsidiary of Nebula Energy, has agreed to acquire a 100 per cent stake in the Cai Mep LNG Terminal located in V\u0169ng T\u00e0u province in southern Vietnam. The move foll\u2026",
+      "tags": [
+        "Workboats",
+        "Technology"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [
+        "Infrastructure"
+      ],
+      "priorityScore": 5,
+      "priorityBand": "medium",
+      "priorityReasons": [
+        "Signal: Infrastructure"
+      ],
+      "boardBucket": "Regulation, Safety & Incidents"
     },
     {
       "id": "1bbd218d76a28fb6",
@@ -1202,6 +1173,33 @@
       "boardBucket": "Regulation, Safety & Incidents"
     },
     {
+      "id": "8a16fe7c9c28f8fd",
+      "title": "Port of Baltimore Gets New Grain Facility",
+      "source": "The Maritime Executive",
+      "sourceId": "maritime-executive",
+      "url": "https://maritime-executive.com/article/port-of-baltimore-gets-new-grain-facility",
+      "publishedAt": "2026-04-21T23:38:54Z",
+      "excerpt": "A new grain transloading facility at the Port of Baltimore Seagirt Marine Terminal will make it easier for Maryland farmers to get their products to...",
+      "tags": [
+        "Regulation",
+        "Maritime",
+        "News"
+      ],
+      "audience": "Both",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [
+        "Infrastructure"
+      ],
+      "priorityScore": 4,
+      "priorityBand": "medium",
+      "priorityReasons": [
+        "Signal: Infrastructure"
+      ],
+      "boardBucket": "Regulation, Safety & Incidents"
+    },
+    {
       "id": "96745df51c2a01a6",
       "title": "Singapore Launches OCEANS-X to Advance Maritime Digital Connectivity",
       "source": "MarineLink",
@@ -1304,58 +1302,6 @@
         "Signal: Infrastructure"
       ],
       "boardBucket": "Regulation, Safety & Incidents"
-    },
-    {
-      "id": "1f53d0b350f53608",
-      "title": "US Navy to arm warships with Patriot missiles for the first time",
-      "source": "Baird Maritime",
-      "sourceId": "baird-maritime",
-      "url": "https://www.bairdmaritime.com/security/weaponry/us-navy-to-arm-warships-with-patriot-missiles-for-the-first-time",
-      "publishedAt": "2026-04-21T20:09:23Z",
-      "excerpt": "The US Government has awarded a contract to Lockheed Martin for the development, integration, and testing of the Patriot PAC-3 missile segment enhancement (MSE) into the Aegis combat system. This move introduces the US Navy as a user of th\u2026",
-      "tags": [
-        "Workboats",
-        "Technology"
-      ],
-      "audience": "Multraship",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [
-        "Commercial"
-      ],
-      "priorityScore": 4,
-      "priorityBand": "medium",
-      "priorityReasons": [
-        "Signal: Commercial"
-      ],
-      "boardBucket": "Other Relevant"
-    },
-    {
-      "id": "0714dce9aa3ba92c",
-      "title": "Engie seeks a way out of US offshore wind leases, in talks for possible refund",
-      "source": "Baird Maritime",
-      "sourceId": "baird-maritime",
-      "url": "https://www.bairdmaritime.com/offshore/renewables/offshore-wind/engie-seeks-a-way-out-of-us-offshore-wind-leases-in-talks-for-possible-refund",
-      "publishedAt": "2026-04-21T19:37:57Z",
-      "excerpt": "French utility Engie is in talks with the Trump administration about a possible refund for its US offshore wind project leases amid the president's opposition to the technology, CEO Catherine MacGregor said on Tuesday. Engie has paused thr\u2026",
-      "tags": [
-        "Workboats",
-        "Technology"
-      ],
-      "audience": "Multraship",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [
-        "Commercial"
-      ],
-      "priorityScore": 4,
-      "priorityBand": "medium",
-      "priorityReasons": [
-        "Signal: Commercial"
-      ],
-      "boardBucket": "Other Relevant"
     },
     {
       "id": "a2cc77bf57c4957a",
@@ -1998,6 +1944,72 @@
       "boardBucket": "Other Relevant"
     },
     {
+      "id": "64526b0da7c4e69e",
+      "title": "Technology firm reports successful test firing of laser weapon from US Navy aircraft carrier",
+      "source": "Baird Maritime",
+      "sourceId": "baird-maritime",
+      "url": "https://www.bairdmaritime.com/security/weaponry/technology-firm-reports-successful-test-firing-of-laser-weapon-from-us-navy-aircraft-carrier",
+      "publishedAt": "2026-04-22T01:30:51Z",
+      "excerpt": "Defence technology firm AeroVironment (AV) has reported the successful demonstration of its palletised laser weapon system (LWS) aboard the US Navy Nimitz-class aircraft carrier USS George H. W. Bush . The company said the test firing of t\u2026",
+      "tags": [
+        "Workboats",
+        "Technology"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [],
+      "priorityScore": 2,
+      "priorityBand": "low",
+      "priorityReasons": [],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "7fed000f5d88ad44",
+      "title": "Dry Cargo Vessel News Roundup | April 22 \u2013 Bulker and PCTC deliveries, China heavy lift ship launch and more",
+      "source": "Baird Maritime",
+      "sourceId": "baird-maritime",
+      "url": "https://www.bairdmaritime.com/shipping/dry-cargo/dry-cargo-vessel-news-roundup-april-22-bulker-and-pctc-deliveries-china-heavy-lift-ship-launch-and-more",
+      "publishedAt": "2026-04-22T01:05:54Z",
+      "excerpt": "Deliveries include new bulk carriers to owners in the UK and Oman and a car carrier for an Italian operator. A new Chinese heavy lift vessel was recently launched. Lastly, a Latin American mining giant has entered into a charter agreement\u2026",
+      "tags": [
+        "Workboats",
+        "Technology"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [],
+      "priorityScore": 2,
+      "priorityBand": "low",
+      "priorityReasons": [],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "ff735bac560ce1cf",
+      "title": "Carisbrooke Shipping takes delivery of new shortsea cargo vessel",
+      "source": "Baird Maritime",
+      "sourceId": "baird-maritime",
+      "url": "https://www.bairdmaritime.com/shipping/dry-cargo/bulkers/carisbrooke-shipping-takes-delivery-of-new-shortsea-cargo-vessel",
+      "publishedAt": "2026-04-22T00:56:25Z",
+      "excerpt": "UK-based shortsea specialist Carisbrooke Shipping has taken delivery of a new cargo vessel built by Royal T Shipyards in the Netherlands. Greta C is the latest example in an existing series of multi-purpose dry cargo vessels built by Royal\u2026",
+      "tags": [
+        "Workboats",
+        "Technology"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [],
+      "priorityScore": 2,
+      "priorityBand": "low",
+      "priorityReasons": [],
+      "boardBucket": "Other Relevant"
+    },
+    {
       "id": "f18b3293238c5b4d",
       "title": "Trump Extends Ceasefire With Iran Indefinitely, Without Concessions",
       "source": "The Maritime Executive",
@@ -2066,106 +2078,17 @@
       "boardBucket": "Other Relevant"
     },
     {
-      "id": "1f97c049b893396e",
-      "title": "Court ruling favors renewable energy lobbyists in US permitting row",
-      "source": "Baird Maritime",
-      "sourceId": "baird-maritime",
-      "url": "https://www.bairdmaritime.com/offshore/renewables/offshore-wind/court-ruling-favors-renewable-energy-lobbyists-in-us-permitting-row",
-      "publishedAt": "2026-04-21T19:57:37Z",
-      "excerpt": "A federal judge on Tuesday blocked President Donald Trump's administration from enforcing a series of permitting policies that wind and solar energy industry groups say have stymied the development of new energy generation projects. Chief\u2026",
-      "tags": [
-        "Workboats",
-        "Technology"
-      ],
-      "audience": "Multraship",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [],
-      "priorityScore": 2,
-      "priorityBand": "low",
-      "priorityReasons": [],
-      "boardBucket": "Other Relevant"
-    },
-    {
       "id": "ba026051986a8f4d",
       "title": "Oil Prices Rise 3%, Iran Remains Undecided About Attending US Peace Talks",
       "source": "MarineLink",
       "sourceId": "marinelink",
       "url": "https://www.marinelink.com/news/oil-prices-rise-iran-remains-undecided-538304",
       "publishedAt": "2026-04-21T19:53:42Z",
-      "excerpt": "Oil prices climbed about 3% on Tuesday after Iran said it had yet to decide whether to attend peace talks with the United States, with one day left before the ceasefire runs out in the Iran war.U.S. President Donald Trump said he hoped to\u2026",
+      "excerpt": "Oil prices pared gains on Tuesday after briefly climbing above $100 a barrel following an announcement from U.S. President Donald Trump that he was extending a ceasefire with Iran until Tehran submits a proposal.Brent crude futures were vo\u2026",
       "tags": [
         "Incidents",
         "Maritime",
         "Industry"
-      ],
-      "audience": "Multraship",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [],
-      "priorityScore": 2,
-      "priorityBand": "low",
-      "priorityReasons": [],
-      "boardBucket": "Other Relevant"
-    },
-    {
-      "id": "a33700ed2507e18f",
-      "title": "\"Golden Fleet\" headlines proposed $1.5 trillion US defence budget",
-      "source": "Baird Maritime",
-      "sourceId": "baird-maritime",
-      "url": "https://www.bairdmaritime.com/security/naval/naval-ships/golden-fleet-headlines-proposed-15-trillion-us-defence-budget",
-      "publishedAt": "2026-04-21T19:43:57Z",
-      "excerpt": "The Pentagon on Tuesday unveiled more details of President Donald Trump's $1.5 trillion defense budget request for fiscal year 2027, by far the largest year-over-year increase in defense spending in the post-World War Two era. In a new wri\u2026",
-      "tags": [
-        "Workboats",
-        "Technology"
-      ],
-      "audience": "Multraship",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [],
-      "priorityScore": 2,
-      "priorityBand": "low",
-      "priorityReasons": [],
-      "boardBucket": "Other Relevant"
-    },
-    {
-      "id": "a5f63b5a6c6050ed",
-      "title": "FEATURE | Clock ticks on ceasefire as US forces intercept another Iranian ship",
-      "source": "Baird Maritime",
-      "sourceId": "baird-maritime",
-      "url": "https://www.bairdmaritime.com/security/naval/feature-clock-ticks-on-ceasefire-as-us-forces-intercept-another-iranian-ship",
-      "publishedAt": "2026-04-21T19:32:01Z",
-      "excerpt": "The US military said on Tuesday it had seized a tanker linked to Iran in international waters, its latest apparent action to enforce a blockade, with time running out on a ceasefire and the prospect of last-ditch further peace talks still\u2026",
-      "tags": [
-        "Incidents",
-        "Workboats",
-        "Technology"
-      ],
-      "audience": "Multraship",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [],
-      "priorityScore": 2,
-      "priorityBand": "low",
-      "priorityReasons": [],
-      "boardBucket": "Other Relevant"
-    },
-    {
-      "id": "28bd8831fb9e613f",
-      "title": "China hints Philippine energy aid has military strings attached",
-      "source": "Baird Maritime",
-      "sourceId": "baird-maritime",
-      "url": "https://www.bairdmaritime.com/security/naval/china-hints-philippine-energy-aid-has-military-strings-attached",
-      "publishedAt": "2026-04-21T19:23:01Z",
-      "excerpt": "China on Tuesday implied energy assistance for the Philippines could be tied to Manila holding military drills with the US and other allies, as its top newspaper showed Beijing's readiness to leverage its reserves in diplomatic disputes. I\u2026",
-      "tags": [
-        "Workboats",
-        "Technology"
       ],
       "audience": "Multraship",
       "paywalled": false,
@@ -2297,13 +2220,13 @@
       "boardBucket": "Other Relevant"
     },
     {
-      "id": "f2a1216df42b8497",
-      "title": "Wah Kwong launches dedicated dry bulk operating entity",
+      "id": "729535b76867591a",
+      "title": "Dajin Heavy Industry's newest heavy lift ship floated out",
       "source": "Baird Maritime",
       "sourceId": "baird-maritime",
-      "url": "https://www.bairdmaritime.com/shipping/dry-cargo/bulkers/wah-kwong-launches-dedicated-dry-bulk-operating-entity",
-      "publishedAt": "2026-04-21T10:48:00Z",
-      "excerpt": "Hong Kong-based Wah Kwong Maritime Transport Holdings has officially established Wah Kwong Bulk as a dedicated dry bulk owning and operating entity. It remarked that this new company integrates the dry bulk business of the group into a mod\u2026",
+      "url": "https://www.bairdmaritime.com/shipping/dry-cargo/heavy-lift/dajin-heavy-indutrys-newest-heavy-lift-ship-floated-out",
+      "publishedAt": "2026-04-21T12:06:15Z",
+      "excerpt": "China's Dajin Heavy Industry recently floated out a new heavy lift vessel to be operated by its Dajin Shipping business unit. King Two is the second in a series of heavy lift vessels to be built by Dajin Heavy Industry to add to its owned\u2026",
       "tags": [
         "Workboats",
         "Technology"
@@ -3808,6 +3731,28 @@
       "boardBucket": "Other Relevant"
     },
     {
+      "id": "9dfb683f52eaa7ca",
+      "title": "Coast Guard\u2019s Heavy Icebreaker Returns from Antarctica, Marking 50 Years",
+      "source": "The Maritime Executive",
+      "sourceId": "maritime-executive",
+      "url": "https://maritime-executive.com/article/coast-guard-s-heavy-icebreaker-returns-from-antarctica-marking-50-years",
+      "publishedAt": "2026-04-21T23:59:30Z",
+      "excerpt": "The U.S. Coast Guard Cutter Polar Star returned to her home port of Seattle last week, wrapping up her annual deployment to Antarctica. This year was...",
+      "tags": [
+        "Maritime",
+        "News"
+      ],
+      "audience": "Both",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [],
+      "priorityScore": 1,
+      "priorityBand": "low",
+      "priorityReasons": [],
+      "boardBucket": "Other Relevant"
+    },
+    {
       "id": "3c4425f414a0ce4e",
       "title": "USA Shipbuilding Coalition Launches",
       "source": "MarineLink",
@@ -4512,16 +4457,62 @@
       "boardBucket": "Other Relevant"
     },
     {
-      "id": "6a9f647444a7786d",
-      "title": "Japan Builds Up its Defense Posture Through Investments and Alliances",
-      "source": "The Maritime Executive",
-      "sourceId": "maritime-executive",
-      "url": "https://maritime-executive.com/article/japan-builds-up-its-defense-posture-through-investments-and-alliances",
-      "publishedAt": "2026-04-20T19:58:00Z",
-      "excerpt": "Japanese Prime Minister Sanae Takaichi is pushing ahead with election manifesto promises to strengthen Japan's defense posture.The Liberal Democratic...",
+      "id": "cf0f170fb69dac42",
+      "title": "Crude Surges On Renewed Hormuz Fears",
+      "source": "Rigzone",
+      "sourceId": "rigzone-latest",
+      "url": "https://www.rigzone.com/news/wire/crude_surges_on_renewed_hormuz_fears-20-apr-2026-183492-article/?rss=true",
+      "publishedAt": "2026-04-20T19:55:47Z",
+      "excerpt": "Markets react to ceasefire doubts and blocked flows.",
+      "tags": [
+        "Incidents",
+        "Offshore",
+        "Energy"
+      ],
+      "audience": "Both",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [],
+      "priorityScore": 1,
+      "priorityBand": "low",
+      "priorityReasons": [],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "6623114f663dab83",
+      "title": "Oil Down on Friday, Up on Monday",
+      "source": "Rigzone",
+      "sourceId": "rigzone-latest",
+      "url": "https://www.rigzone.com/news/oil_down_on_friday_up_on_monday-20-apr-2026-183484-article/?rss=true",
+      "publishedAt": "2026-04-20T09:51:18Z",
+      "excerpt": "SEB Chief Commodities Analyst Bjarne Schieldrop warned that the U.S.-Iran ceasefire is expiring on Tuesday.",
+      "tags": [
+        "Incidents",
+        "Offshore",
+        "Energy"
+      ],
+      "audience": "Both",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [],
+      "priorityScore": 1,
+      "priorityBand": "low",
+      "priorityReasons": [],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "65a63e117544dcf9",
+      "title": "Conbit acquires German offshore wind companies",
+      "source": "SWZ Maritime",
+      "sourceId": "swz-maritime",
+      "url": "https://swzmaritime.nl/news/2026/04/20/conbit-acquires-german-offshore-wind-companies/",
+      "publishedAt": "2026-04-20T09:17:22Z",
+      "excerpt": "Conbit has acquired key assets of OIS Offshore Industrie Service GmbH, including the ISC GWO Training Centre. Both OIS and ISC will continue operating without interruption and will be fully [\u2026]",
       "tags": [
         "Maritime",
-        "News"
+        "Netherlands"
       ],
       "audience": "Both",
       "paywalled": false,
