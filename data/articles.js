@@ -1,7 +1,7 @@
 window.__DASHBOARD_DATA__ = {
-  "generatedAt": "2026-04-22T05:11:30.794356Z",
+  "generatedAt": "2026-04-22T07:02:33.537595Z",
   "lookbackDays": 30,
-  "cutoffAt": "2026-03-23T05:11:30.794356Z",
+  "cutoffAt": "2026-03-23T07:02:33.537595Z",
   "articleCount": 180,
   "sourceCount": 16,
   "sources": [
@@ -55,6 +55,43 @@ window.__DASHBOARD_DATA__ = {
   ],
   "errors": [],
   "articles": [
+    {
+      "id": "e2d6c1330faf292d",
+      "title": "Port of Gothenburg begins Skandia Gateway expansion project",
+      "source": "Riviera: Ports & Terminals",
+      "sourceId": "riviera-ports",
+      "url": "https://www.rivieramm.com/news-content-hub/port-of-gothenburg-begins-skandia-gateway-expansion-project-88533",
+      "publishedAt": "2026-04-22T07:00:00Z",
+      "excerpt": "Boskalis will underake blasting and dredging works for the Skandia Gateway expansion construction project",
+      "tags": [
+        "Ports",
+        "Terminals"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [
+        {
+          "name": "Boskalis",
+          "category": "clients"
+        }
+      ],
+      "locations": [],
+      "businessTags": [
+        "Client",
+        "Infrastructure",
+        "Terminal Expansion",
+        "Commercial"
+      ],
+      "priorityScore": 14,
+      "priorityBand": "critical",
+      "priorityReasons": [
+        "Client mention: Boskalis",
+        "Signal: Infrastructure",
+        "Signal: Terminal Expansion",
+        "Signal: Commercial"
+      ],
+      "boardBucket": "High Priority"
+    },
     {
       "id": "dc36a92dd406b366",
       "title": "Port of Gothenburg Signs \u20ac18M Dredging Contract for Major Fairway Project",
@@ -216,6 +253,44 @@ window.__DASHBOARD_DATA__ = {
       "boardBucket": "High Priority"
     },
     {
+      "id": "a131e6b9620c7979",
+      "title": "Boluda Towage welcomes Damen-built tugs in Europe and Africa",
+      "source": "Riviera: Ports & Terminals",
+      "sourceId": "riviera-ports",
+      "url": "https://www.rivieramm.com/news-content-hub/boluda-towage-welcomes-damen-built-tugs-in-europe-and-africa-88171",
+      "publishedAt": "2026-03-25T06:30:00Z",
+      "excerpt": "Spanish tug owner took delivery of harbour tugboats built by Damen Shipyards in Q1 2026, to modernise its fleets in several countries",
+      "tags": [
+        "Towage",
+        "Ports",
+        "Terminals"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [
+        {
+          "name": "Damen Shipyards Group",
+          "category": "suppliers"
+        },
+        {
+          "name": "Boluda Towage",
+          "category": "competitors"
+        }
+      ],
+      "locations": [],
+      "businessTags": [
+        "Supplier",
+        "Competitor"
+      ],
+      "priorityScore": 9,
+      "priorityBand": "high",
+      "priorityReasons": [
+        "Supplier mention: Damen Shipyards Group",
+        "Competitor mention: Boluda Towage"
+      ],
+      "boardBucket": "High Priority"
+    },
+    {
       "id": "0a8373a147928f53",
       "title": "Middle East crisis: southern Asia LNG plans face economic strain",
       "source": "Riviera: Ports & Terminals",
@@ -365,44 +440,6 @@ window.__DASHBOARD_DATA__ = {
         "Signal: Commercial"
       ],
       "boardBucket": "Regulation, Safety & Incidents"
-    },
-    {
-      "id": "a131e6b9620c7979",
-      "title": "Boluda Towage welcomes Damen-built tugs in Europe and Africa",
-      "source": "Riviera: Ports & Terminals",
-      "sourceId": "riviera-ports",
-      "url": "https://www.rivieramm.com/news-content-hub/boluda-towage-welcomes-damen-built-tugs-in-europe-and-africa-88171",
-      "publishedAt": "2026-03-25T06:30:00Z",
-      "excerpt": "Spanish tug owner took delivery of harbour tugboats built by Damen Shipyards in Q1 2026, to modernise its fleets in several countries",
-      "tags": [
-        "Towage",
-        "Ports",
-        "Terminals"
-      ],
-      "audience": "Multraship",
-      "paywalled": false,
-      "entities": [
-        {
-          "name": "Damen Shipyards Group",
-          "category": "suppliers"
-        },
-        {
-          "name": "Boluda Towage",
-          "category": "competitors"
-        }
-      ],
-      "locations": [],
-      "businessTags": [
-        "Supplier",
-        "Competitor"
-      ],
-      "priorityScore": 7,
-      "priorityBand": "medium",
-      "priorityReasons": [
-        "Supplier mention: Damen Shipyards Group",
-        "Competitor mention: Boluda Towage"
-      ],
-      "boardBucket": "Competitors & Market"
     },
     {
       "id": "f71bdddd83f2c18c",
@@ -708,6 +745,71 @@ window.__DASHBOARD_DATA__ = {
       "boardBucket": "Competitors & Market"
     },
     {
+      "id": "529c8ee46e22b2c7",
+      "title": "Van Oord accelerates offshore wind in Poland",
+      "source": "SWZ Maritime",
+      "sourceId": "swz-maritime",
+      "url": "https://swzmaritime.nl/news/2026/04/22/van-oord-accelerates-offshore-wind-in-poland/",
+      "publishedAt": "2026-04-22T06:34:00Z",
+      "excerpt": "Van Oord has reached a milestone in the development of offshore wind energy in Poland. The company has transported and installed all monopile foundations and transition pieces for Poland\u2019s first-ever [\u2026]",
+      "tags": [
+        "Maritime",
+        "Netherlands"
+      ],
+      "audience": "Both",
+      "paywalled": false,
+      "entities": [
+        {
+          "name": "Van Oord",
+          "category": "clients"
+        }
+      ],
+      "locations": [],
+      "businessTags": [
+        "Client"
+      ],
+      "priorityScore": 5,
+      "priorityBand": "medium",
+      "priorityReasons": [
+        "Client mention: Van Oord"
+      ],
+      "boardBucket": "Clients & Projects"
+    },
+    {
+      "id": "6da3f5b21f7ccee4",
+      "title": "Geneva Dry Dialogues: Hempel",
+      "source": "Splash247",
+      "sourceId": "splash247",
+      "url": "https://splash247.com/geneva-dry-dialogues-hempel-2/",
+      "publishedAt": "2026-04-22T06:33:28Z",
+      "excerpt": "As delegates descend on Switzerland for Geneva Dry next week, the air is thick with anticipation-and a fair amount of regulatory uncertainty. While the high-level panel on decarbonisation, moderated by the World Economic Forum, prepares to\u2026",
+      "tags": [
+        "Decarbonization",
+        "Maritime",
+        "News"
+      ],
+      "audience": "Novatug",
+      "paywalled": false,
+      "entities": [
+        {
+          "name": "Hempel",
+          "category": "suppliers"
+        }
+      ],
+      "locations": [],
+      "businessTags": [
+        "Supplier",
+        "Energy Transition"
+      ],
+      "priorityScore": 5,
+      "priorityBand": "medium",
+      "priorityReasons": [
+        "Supplier mention: Hempel",
+        "Signal: Energy Transition"
+      ],
+      "boardBucket": "Other Relevant"
+    },
+    {
       "id": "70b51ab41472c244",
       "title": "IMO develops plan for evacuation of ships from Middle East waters",
       "source": "Baird Maritime",
@@ -731,32 +833,6 @@ window.__DASHBOARD_DATA__ = {
       "priorityBand": "medium",
       "priorityReasons": [
         "Signal: Regulation"
-      ],
-      "boardBucket": "Regulation, Safety & Incidents"
-    },
-    {
-      "id": "715819a0fa154b88",
-      "title": "AG&P LNG to acquire full ownership of Cai Mep terminal in Vietnam",
-      "source": "Baird Maritime",
-      "sourceId": "baird-maritime",
-      "url": "https://www.bairdmaritime.com/shipping/ports/agp-lng-to-acquire-full-ownership-of-cai-mep-terminal-in-vietnam",
-      "publishedAt": "2026-04-22T01:49:48Z",
-      "excerpt": "Singapore-based terminals and downstream infrastructure company AG&P LNG, a subsidiary of Nebula Energy, has agreed to acquire a 100 per cent stake in the Cai Mep LNG Terminal located in V\u0169ng T\u00e0u province in southern Vietnam. The move foll\u2026",
-      "tags": [
-        "Workboats",
-        "Technology"
-      ],
-      "audience": "Multraship",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [
-        "Infrastructure"
-      ],
-      "priorityScore": 5,
-      "priorityBand": "medium",
-      "priorityReasons": [
-        "Signal: Infrastructure"
       ],
       "boardBucket": "Regulation, Safety & Incidents"
     },
@@ -1331,32 +1407,6 @@ window.__DASHBOARD_DATA__ = {
       "boardBucket": "Regulation, Safety & Incidents"
     },
     {
-      "id": "e1ff4eb791505ad2",
-      "title": "GE Vernova forced to continue work on US offshore wind farm amid dispute",
-      "source": "Splash247",
-      "sourceId": "splash247",
-      "url": "https://splash247.com/ge-vernova-forced-to-continue-work-on-us-offshore-wind-farm-amid-dispute/",
-      "publishedAt": "2026-04-21T02:40:00Z",
-      "excerpt": "A Massachusetts judge has issued a preliminary injunction ordering GE Vernova to remain engaged on the Vineyard Wind offshore wind farm, pointing out the legal limits on contractor exits once major projects reach advanced operational stage\u2026",
-      "tags": [
-        "Maritime",
-        "News"
-      ],
-      "audience": "Both",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [
-        "Regulation"
-      ],
-      "priorityScore": 4,
-      "priorityBand": "medium",
-      "priorityReasons": [
-        "Signal: Regulation"
-      ],
-      "boardBucket": "Regulation, Safety & Incidents"
-    },
-    {
       "id": "76e1cb78922fdf7e",
       "title": "C&C Marine and Repair Celebrates Keel Laying for Hybrid Escort Tugs",
       "source": "The Maritime Executive",
@@ -1381,39 +1431,6 @@ window.__DASHBOARD_DATA__ = {
       "priorityBand": "medium",
       "priorityReasons": [
         "Signal: Energy Transition"
-      ],
-      "boardBucket": "Other Relevant"
-    },
-    {
-      "id": "1bcb4d27779537da",
-      "title": "Environmental Groups Sue to Block BP's New Ultra-Deepwater Well",
-      "source": "The Maritime Executive",
-      "sourceId": "maritime-executive",
-      "url": "https://maritime-executive.com/article/environmental-groups-sue-to-block-bp-s-new-ultra-deepwater-well",
-      "publishedAt": "2026-04-20T21:04:18Z",
-      "excerpt": "Environmental groups are suing the Trump administration to block the start of drilling on BP's ambitious Kaskida project, an ultra-deepwater field th...",
-      "tags": [
-        "Maritime",
-        "News"
-      ],
-      "audience": "Both",
-      "paywalled": false,
-      "entities": [
-        {
-          "name": "BP Raffinaderij",
-          "category": "suppliers"
-        }
-      ],
-      "locations": [],
-      "businessTags": [
-        "Supplier",
-        "Commercial"
-      ],
-      "priorityScore": 4,
-      "priorityBand": "medium",
-      "priorityReasons": [
-        "Supplier mention: BP Raffinaderij",
-        "Signal: Commercial"
       ],
       "boardBucket": "Other Relevant"
     },
@@ -1629,34 +1646,39 @@ window.__DASHBOARD_DATA__ = {
       "boardBucket": "Regulation, Safety & Incidents"
     },
     {
-      "id": "df2bcc4b413dfa7b",
-      "title": "Venture Global CP2 Phase two moves into execution",
-      "source": "Riviera: Ports & Terminals",
-      "sourceId": "riviera-ports",
-      "url": "https://www.rivieramm.com/news-content-hub/venture-global-cp2-phase-two-moves-into-execution-88185",
-      "publishedAt": "2026-03-23T07:00:00Z",
-      "excerpt": "CP2 has moved to the next development stage, with Phase two receiving full notice to proceed after Venture Global\u2019s 13 March final investment decision",
+      "id": "d3dcdb08221b680c",
+      "title": "Karrie Trauth elected president of UK Chamber of Shipping",
+      "source": "Riviera: Regulations & Compliance",
+      "sourceId": "riviera-regulation",
+      "url": "https://www.rivieramm.com/news-content-hub/karrie-trauth-elected-president-of-uk-chamber-of-shipping-88259",
+      "publishedAt": "2026-03-25T11:33:37Z",
+      "excerpt": "The UK Chamber of Shipping has elected Karrie Trauth, executive vice president for shipping and maritime at Shell, as its new president",
       "tags": [
-        "Ports",
-        "Terminals"
+        "Regulation",
+        "Compliance"
       ],
-      "audience": "Multraship",
+      "audience": "Both",
       "paywalled": false,
-      "entities": [],
+      "entities": [
+        {
+          "name": "Shell Nederland",
+          "category": "suppliers"
+        }
+      ],
       "locations": [],
       "businessTags": [
-        "Commercial"
+        "Supplier"
       ],
       "priorityScore": 4,
       "priorityBand": "medium",
       "priorityReasons": [
-        "Signal: Commercial"
+        "Supplier mention: Shell Nederland"
       ],
       "boardBucket": "Other Relevant"
     },
     {
       "id": "72d6f3f2b9d91675",
-      "title": "Shipping Associations Call for Unity as IMO Net Zero Debate Approaches",
+      "title": "Shipping Interests Call for Unity as IMO Net Zero Debate Approaches",
       "source": "The Maritime Executive",
       "sourceId": "maritime-executive",
       "url": "https://maritime-executive.com/article/shipping-associations-call-for-unity-as-imo-net-zero-debate-approaches",
@@ -1788,28 +1810,64 @@ window.__DASHBOARD_DATA__ = {
       "boardBucket": "Other Relevant"
     },
     {
-      "id": "479f4e028fc9f666",
-      "title": "Transpetro orders LPG trio in China",
-      "source": "Splash247",
-      "sourceId": "splash247",
-      "url": "https://splash247.com/transpetro-orders-lpg-trio-in-china/",
-      "publishedAt": "2026-04-21T06:49:48Z",
-      "excerpt": "Brazil\u2019s Transpetro has lined up three new gas carriers at China\u2019s Zhoushan Dashenzhou Shipbuilding, as Petrobras\u2019 shipping arm pushes ahead with a wider fleet renewal programme. The contract covers 10,000 cu m semi-refrigerated carriers d\u2026",
+      "id": "ed6c8af0fa122d34",
+      "title": "OMV Appoints Former BP EVP of Products as CEO",
+      "source": "Rigzone",
+      "sourceId": "rigzone-latest",
+      "url": "https://www.rigzone.com/news/omv_appoints_former_bp_evp_of_products_as_ceo-21-apr-2026-183493-article/?rss=true",
+      "publishedAt": "2026-04-21T07:57:11Z",
+      "excerpt": "OMV appointed Emma Delaney, previously customers and products executive vice president at BP, as Alfred Stern's replacement and the Austrian state-backed energy company's first female CEO.",
       "tags": [
-        "Maritime",
-        "News"
+        "Offshore",
+        "Energy"
       ],
-      "audience": "Both",
+      "audience": "Novatug",
       "paywalled": false,
-      "entities": [],
+      "entities": [
+        {
+          "name": "BP Raffinaderij",
+          "category": "suppliers"
+        }
+      ],
       "locations": [],
       "businessTags": [
-        "Commercial"
+        "Supplier"
       ],
       "priorityScore": 3,
       "priorityBand": "low",
       "priorityReasons": [
-        "Signal: Commercial"
+        "Supplier mention: BP Raffinaderij"
+      ],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "51274eae68486cc4",
+      "title": "BP executive becomes OMV\u2019s first female CEO",
+      "source": "Offshore Energy",
+      "sourceId": "offshore-energy",
+      "url": "https://www.offshore-energy.biz/bp-executive-becomes-omvs-first-female-ceo/",
+      "publishedAt": "2026-04-21T07:37:43Z",
+      "excerpt": "Austria-headquartered oil & gas player OMV has appointed BP executive Emma Delaney as its [\u2026] The post BP executive becomes OMV\u2019s first female CEO appeared first on Offshore Energy .",
+      "tags": [
+        "Energy-Transition",
+        "Technology"
+      ],
+      "audience": "Novatug",
+      "paywalled": false,
+      "entities": [
+        {
+          "name": "BP Raffinaderij",
+          "category": "suppliers"
+        }
+      ],
+      "locations": [],
+      "businessTags": [
+        "Supplier"
+      ],
+      "priorityScore": 3,
+      "priorityBand": "low",
+      "priorityReasons": [
+        "Supplier mention: BP Raffinaderij"
       ],
       "boardBucket": "Other Relevant"
     },
@@ -1851,32 +1909,6 @@ window.__DASHBOARD_DATA__ = {
         "Towage",
         "Offshore",
         "Energy"
-      ],
-      "audience": "Both",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [
-        "Commercial"
-      ],
-      "priorityScore": 3,
-      "priorityBand": "low",
-      "priorityReasons": [
-        "Signal: Commercial"
-      ],
-      "boardBucket": "Other Relevant"
-    },
-    {
-      "id": "98b999fe90c84a37",
-      "title": "River Academy, STC strengthen inland shipping education",
-      "source": "SWZ Maritime",
-      "sourceId": "swz-maritime",
-      "url": "https://swzmaritime.nl/news/2026/04/16/river-academy-stc-strengthen-inland-shipping-education/",
-      "publishedAt": "2026-04-16T07:08:28Z",
-      "excerpt": "River Academy and STC Next are expanding their collaboration to improve inland shipping education and training across Europe. The partnership focuses on developing modern, practice-oriented and internationally applicable programmes, as [\u2026]",
-      "tags": [
-        "Maritime",
-        "Netherlands"
       ],
       "audience": "Both",
       "paywalled": false,
@@ -1973,13 +2005,39 @@ window.__DASHBOARD_DATA__ = {
       "boardBucket": "Other Relevant"
     },
     {
-      "id": "a568a16af5d1f68c",
-      "title": "Iceland's Laxey to put up new smolt station",
+      "id": "afc434096cd26a6f",
+      "title": "ExxonMobil reaffirms trust in Saipem with eighth contract offshore Guyana",
+      "source": "Offshore Energy",
+      "sourceId": "offshore-energy",
+      "url": "https://www.offshore-energy.biz/exxonmobil-reaffirms-trust-in-saipem-with-eighth-contract-offshore-guyana/",
+      "publishedAt": "2026-04-22T06:25:56Z",
+      "excerpt": "Italian engineering, drilling, and construction services giant Saipem has secured a new offshore contract [\u2026] The post ExxonMobil reaffirms trust in Saipem with eighth contract offshore Guyana appeared first on Offshore Energy .",
+      "tags": [
+        "Energy-Transition",
+        "Technology"
+      ],
+      "audience": "Novatug",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [
+        "Commercial"
+      ],
+      "priorityScore": 2,
+      "priorityBand": "low",
+      "priorityReasons": [
+        "Signal: Commercial"
+      ],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "90a04f7ad814fa2a",
+      "title": "UK scientists team up for seabed survey off south\u2011west coast",
       "source": "Baird Maritime",
       "sourceId": "baird-maritime",
-      "url": "https://www.bairdmaritime.com/fishing/aquaculture/icelands-laxey-to-put-up-new-smolt-station",
-      "publishedAt": "2026-04-22T04:46:39Z",
-      "excerpt": "Icelandic aquaculture company Laxey has entered into an agreement with Norway's Akva Group for the design and delivery of a new smolt station in Vestmannaeyjar. The two companies have worked together since June 2022, when the agreement for\u2026",
+      "url": "https://www.bairdmaritime.com/work-boat-world/research-environment-training/uk-scientists-team-up-for-seabed-survey-off-southwest-coast",
+      "publishedAt": "2026-04-22T05:02:39Z",
+      "excerpt": "The UK Centre for Seabed Mapping (UK CSM), a group of over 30 public sector organisations, will undertake a seabed mapping survey \u2013 CSM2026 \u2013 to explore and map the seabed along the UK\u2019s south-west coastline. Throughout the four-week surve\u2026",
       "tags": [
         "Workboats",
         "Technology"
@@ -1995,13 +2053,13 @@ window.__DASHBOARD_DATA__ = {
       "boardBucket": "Other Relevant"
     },
     {
-      "id": "64526b0da7c4e69e",
-      "title": "Technology firm reports successful test firing of laser weapon from US Navy aircraft carrier",
+      "id": "a568a16af5d1f68c",
+      "title": "Iceland's Laxey to put up new smolt station",
       "source": "Baird Maritime",
       "sourceId": "baird-maritime",
-      "url": "https://www.bairdmaritime.com/security/weaponry/technology-firm-reports-successful-test-firing-of-laser-weapon-from-us-navy-aircraft-carrier",
-      "publishedAt": "2026-04-22T01:30:51Z",
-      "excerpt": "Defence technology firm AeroVironment (AV) has reported the successful demonstration of its palletised laser weapon system (LWS) aboard the US Navy Nimitz-class aircraft carrier USS George H. W. Bush . The company said the test firing of t\u2026",
+      "url": "https://www.bairdmaritime.com/fishing/aquaculture/icelands-laxey-to-put-up-new-smolt-station",
+      "publishedAt": "2026-04-22T04:46:39Z",
+      "excerpt": "Icelandic aquaculture company Laxey has entered into an agreement with Norway's Akva Group for the design and delivery of a new smolt station in Vestmannaeyjar. The two companies have worked together since June 2022, when the agreement for\u2026",
       "tags": [
         "Workboats",
         "Technology"
@@ -2040,7 +2098,7 @@ window.__DASHBOARD_DATA__ = {
     },
     {
       "id": "f18b3293238c5b4d",
-      "title": "Trump Extends Ceasefire With Iran Indefinitely, Without Concessions",
+      "title": "Trump Extends Ceasefire With Iran Indefinitely",
       "source": "The Maritime Executive",
       "sourceId": "maritime-executive",
       "url": "https://maritime-executive.com/article/trump-extends-ceasefire-with-iran-indefinitely-without-concessions",
@@ -2609,32 +2667,6 @@ window.__DASHBOARD_DATA__ = {
       "boardBucket": "Other Relevant"
     },
     {
-      "id": "947859f825284be1",
-      "title": "Gas sales pact paves the way for Jadestone\u2019s Southeast Asian offshore project",
-      "source": "Offshore Energy",
-      "sourceId": "offshore-energy",
-      "url": "https://www.offshore-energy.biz/gas-sales-pact-paves-the-way-for-jadestones-southeast-asian-offshore-project/",
-      "publishedAt": "2026-04-20T12:01:52Z",
-      "excerpt": "AIM-listed and Singapore-headquartered oil and gas player Jadestone Energy has sealed a deal with PV Gas, a subsidiary of Vietnam\u2019s state-owned national energy group Petrovietnam. This unlocks the doors for the development of gas discoveri\u2026",
-      "tags": [
-        "Energy-Transition",
-        "Technology"
-      ],
-      "audience": "Novatug",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [
-        "Commercial"
-      ],
-      "priorityScore": 2,
-      "priorityBand": "low",
-      "priorityReasons": [
-        "Signal: Commercial"
-      ],
-      "boardBucket": "Other Relevant"
-    },
-    {
       "id": "23664aed37ed889a",
       "title": "Iberdrola Raises Generation Capacity to Nearly 59GW",
       "source": "Rigzone",
@@ -2805,33 +2837,6 @@ window.__DASHBOARD_DATA__ = {
         "Decarbonization",
         "Regulation",
         "Compliance"
-      ],
-      "audience": "Novatug",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [
-        "Energy Transition"
-      ],
-      "priorityScore": 2,
-      "priorityBand": "low",
-      "priorityReasons": [
-        "Signal: Energy Transition"
-      ],
-      "boardBucket": "Other Relevant"
-    },
-    {
-      "id": "1930ca31f1e6f00b",
-      "title": "Power increase for W\u00e4rtsil\u00e4 25 Ammonia engine",
-      "source": "SWZ Maritime",
-      "sourceId": "swz-maritime",
-      "url": "https://swzmaritime.nl/news/2026/04/17/power-increase-for-wartsila-25-ammonia-engine/",
-      "publishedAt": "2026-04-17T05:44:00Z",
-      "excerpt": "W\u00e4rtsil\u00e4\u2019s 4-stroke engine solution for ammonia fuel now offers a higher power rating. As part of the company\u2019s ongoing development of ammonia-fuelled engine solutions, the upgrade to the W\u00e4rtsil\u00e4 25 [\u2026]",
-      "tags": [
-        "Clean Propulsion",
-        "Maritime",
-        "Netherlands"
       ],
       "audience": "Novatug",
       "paywalled": false,
@@ -3619,37 +3624,6 @@ window.__DASHBOARD_DATA__ = {
       "boardBucket": "Other Relevant"
     },
     {
-      "id": "d3dcdb08221b680c",
-      "title": "Karrie Trauth elected president of UK Chamber of Shipping",
-      "source": "Riviera: Regulations & Compliance",
-      "sourceId": "riviera-regulation",
-      "url": "https://www.rivieramm.com/news-content-hub/karrie-trauth-elected-president-of-uk-chamber-of-shipping-88259",
-      "publishedAt": "2026-03-25T11:33:37Z",
-      "excerpt": "The UK Chamber of Shipping has elected Karrie Trauth, executive vice president for shipping and maritime at Shell, as its new president",
-      "tags": [
-        "Regulation",
-        "Compliance"
-      ],
-      "audience": "Both",
-      "paywalled": false,
-      "entities": [
-        {
-          "name": "Shell Nederland",
-          "category": "suppliers"
-        }
-      ],
-      "locations": [],
-      "businessTags": [
-        "Supplier"
-      ],
-      "priorityScore": 2,
-      "priorityBand": "low",
-      "priorityReasons": [
-        "Supplier mention: Shell Nederland"
-      ],
-      "boardBucket": "Other Relevant"
-    },
-    {
       "id": "5a3416869be1ebc0",
       "title": "\u00a36M approved for development of offshore wind manufacturing sites in Scotland",
       "source": "Riviera: Ports & Terminals",
@@ -3716,23 +3690,111 @@ window.__DASHBOARD_DATA__ = {
       "boardBucket": "Other Relevant"
     },
     {
-      "id": "0444d903c45da319",
-      "title": "Missile attacks on QatarEnergy LNG reduce export capacity 17%",
-      "source": "Riviera: Ports & Terminals",
-      "sourceId": "riviera-ports",
-      "url": "https://www.rivieramm.com/news-content-hub/missile-attacks-on-qatarenergy-lng-reduce-export-capacity-17-88215",
-      "publishedAt": "2026-03-23T09:20:06Z",
-      "excerpt": "QatarEnergy said it estimates annual revenue loss at US$20Bn due to damage from retaliatory Iranian strikes on the Ras Laffan LNG facility",
+      "id": "f0c11ac60228ca73",
+      "title": "JP Morgan tipped for $500m VLCC move at DSIC",
+      "source": "Splash247",
+      "sourceId": "splash247",
+      "url": "https://splash247.com/jp-morgan-tipped-for-500m-vlcc-move-at-dsic/",
+      "publishedAt": "2026-04-22T06:45:28Z",
+      "excerpt": "US banking giant JP Morgan is being linked to a fresh push into crude shipping, with multiple brokers pointing to a VLCC newbuilding order worth around $500m at China\u2019s Dalian Shipbuilding Industry Co (DSIC). Market sources say a JP Morgan\u2026",
       "tags": [
-        "Ports",
-        "Terminals"
+        "Maritime",
+        "News"
       ],
-      "audience": "Multraship",
+      "audience": "Both",
       "paywalled": false,
       "entities": [],
       "locations": [],
       "businessTags": [],
-      "priorityScore": 2,
+      "priorityScore": 1,
+      "priorityBand": "low",
+      "priorityReasons": [],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "3b49bf9fe3b4b477",
+      "title": "Akkon set to become Turkey\u2019s largest liner",
+      "source": "Splash247",
+      "sourceId": "splash247",
+      "url": "https://splash247.com/akkon-set-to-become-turkeys-largest-liner/",
+      "publishedAt": "2026-04-22T06:31:14Z",
+      "excerpt": "Turkish carrier Akkon Lines is poised to become the country\u2019s largest containerline, capping a remarkable rise in just eight years since its founding, according to Alphaliner. The Istanbul-headquartered company is on the verge of overtakin\u2026",
+      "tags": [
+        "Maritime",
+        "News"
+      ],
+      "audience": "Both",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [],
+      "priorityScore": 1,
+      "priorityBand": "low",
+      "priorityReasons": [],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "506d50f1ad3a7061",
+      "title": "USA Shipbuilding Coalition formed",
+      "source": "Splash247",
+      "sourceId": "splash247",
+      "url": "https://splash247.com/usa-shipbuilding-coalition-formed/",
+      "publishedAt": "2026-04-22T06:25:25Z",
+      "excerpt": "A broad alliance of US labour groups and shipbuilding employers has launched a fresh push in Washington to revive domestic ship construction, forming a new coalition to back the long-stalled SHIPS for America Act. The newly created USA Shi\u2026",
+      "tags": [
+        "Maritime",
+        "News"
+      ],
+      "audience": "Both",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [],
+      "priorityScore": 1,
+      "priorityBand": "low",
+      "priorityReasons": [],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "e6708391a823d923",
+      "title": "New Mars Report: Anchor troubles",
+      "source": "SWZ Maritime",
+      "sourceId": "swz-maritime",
+      "url": "https://swzmaritime.nl/news/2026/04/22/new-mars-report-anchor-troubles/",
+      "publishedAt": "2026-04-22T05:41:00Z",
+      "excerpt": "A vessel was picking up anchor after a stay of four days at anchorage, and the anchor chain was found tangled around the shank. A barge was arranged to cut [\u2026]",
+      "tags": [
+        "Maritime",
+        "Netherlands"
+      ],
+      "audience": "Both",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [],
+      "priorityScore": 1,
+      "priorityBand": "low",
+      "priorityReasons": [],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "f6d906328c043141",
+      "title": "Future Ford-Class Carrier Orders May Be at Risk",
+      "source": "The Maritime Executive",
+      "sourceId": "maritime-executive",
+      "url": "https://maritime-executive.com/article/future-ford-class-carrier-orders-may-be-at-risk",
+      "publishedAt": "2026-04-22T02:20:00Z",
+      "excerpt": "The future of the world's most expensive warship program is in doubt, according to the Associated Press. The long-delayed, much-scrutinized Ford-clas...",
+      "tags": [
+        "Maritime",
+        "News"
+      ],
+      "audience": "Both",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [],
+      "priorityScore": 1,
       "priorityBand": "low",
       "priorityReasons": [],
       "boardBucket": "Other Relevant"
@@ -4076,7 +4138,7 @@ window.__DASHBOARD_DATA__ = {
       "sourceId": "rigzone-latest",
       "url": "https://www.rigzone.com/news/wire/iran_us_talks_hit_impasse_as_truce_nears_expiry-21-apr-2026-183494-article/?rss=true",
       "publishedAt": "2026-04-21T14:59:34Z",
-      "excerpt": "The U.S. is still in the dark on whether Iran will take part in fresh talks to end the war before a ceasefire expires on Wednesday, with the sides deadlocked on issues including access to the Strait of Hormuz.",
+      "excerpt": "The U.S. is still awaiting a green light from Iran for peace talks to take place before a ceasefire expires, with the sides deadlocked on issues including access to the Strait of Hormuz.",
       "tags": [
         "Incidents",
         "Offshore",
@@ -4137,68 +4199,6 @@ window.__DASHBOARD_DATA__ = {
       "boardBucket": "Other Relevant"
     },
     {
-      "id": "ed6c8af0fa122d34",
-      "title": "OMV Appoints Former BP EVP of Products as CEO",
-      "source": "Rigzone",
-      "sourceId": "rigzone-latest",
-      "url": "https://www.rigzone.com/news/omv_appoints_former_bp_evp_of_products_as_ceo-21-apr-2026-183493-article/?rss=true",
-      "publishedAt": "2026-04-21T07:57:11Z",
-      "excerpt": "OMV appointed Emma Delaney, previously customers and products executive vice president at BP, as Alfred Stern's replacement and the Austrian state-backed energy company's first female CEO.",
-      "tags": [
-        "Offshore",
-        "Energy"
-      ],
-      "audience": "Novatug",
-      "paywalled": false,
-      "entities": [
-        {
-          "name": "BP Raffinaderij",
-          "category": "suppliers"
-        }
-      ],
-      "locations": [],
-      "businessTags": [
-        "Supplier"
-      ],
-      "priorityScore": 1,
-      "priorityBand": "low",
-      "priorityReasons": [
-        "Supplier mention: BP Raffinaderij"
-      ],
-      "boardBucket": "Other Relevant"
-    },
-    {
-      "id": "51274eae68486cc4",
-      "title": "BP executive becomes OMV\u2019s first female CEO",
-      "source": "Offshore Energy",
-      "sourceId": "offshore-energy",
-      "url": "https://www.offshore-energy.biz/bp-executive-becomes-omvs-first-female-ceo/",
-      "publishedAt": "2026-04-21T07:37:43Z",
-      "excerpt": "Austria-headquartered oil & gas player OMV has appointed BP executive Emma Delaney as its [\u2026] The post BP executive becomes OMV\u2019s first female CEO appeared first on Offshore Energy .",
-      "tags": [
-        "Energy-Transition",
-        "Technology"
-      ],
-      "audience": "Novatug",
-      "paywalled": false,
-      "entities": [
-        {
-          "name": "BP Raffinaderij",
-          "category": "suppliers"
-        }
-      ],
-      "locations": [],
-      "businessTags": [
-        "Supplier"
-      ],
-      "priorityScore": 1,
-      "priorityBand": "low",
-      "priorityReasons": [
-        "Supplier mention: BP Raffinaderij"
-      ],
-      "boardBucket": "Other Relevant"
-    },
-    {
       "id": "523632e6ac7fce5e",
       "title": "Geneva Dry set to tackle shipping\u2019s biggest stress points",
       "source": "Splash247",
@@ -4228,72 +4228,6 @@ window.__DASHBOARD_DATA__ = {
       "url": "https://splash247.com/scorpio-tankers-lines-up-300m-sale-of-six-ships/",
       "publishedAt": "2026-04-21T07:19:29Z",
       "excerpt": "New York-listed Scorpio Tankers is offloading six product tankers in a deal worth about $300m, as the owner continues to reshape its fleet and free up capital. The Emanuele Lauro-led company said it has agreed to sell three LR2s and three\u2026",
-      "tags": [
-        "Maritime",
-        "News"
-      ],
-      "audience": "Both",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [],
-      "priorityScore": 1,
-      "priorityBand": "low",
-      "priorityReasons": [],
-      "boardBucket": "Other Relevant"
-    },
-    {
-      "id": "96ff125cddefeb09",
-      "title": "Yangzijiang Shipbuilding adds repair and conversion arm",
-      "source": "Splash247",
-      "sourceId": "splash247",
-      "url": "https://splash247.com/yangzijiang-shipbuilding-adds-repair-and-conversion-arm/",
-      "publishedAt": "2026-04-21T06:30:00Z",
-      "excerpt": "Yangzijiang Shipbuilding is widening its footprint beyond newbuilds, setting up a dedicated ship repair and conversion arm as it looks to tap into growing demand for retrofit and green upgrades. The Singapore-listed company has established\u2026",
-      "tags": [
-        "Maritime",
-        "News"
-      ],
-      "audience": "Both",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [],
-      "priorityScore": 1,
-      "priorityBand": "low",
-      "priorityReasons": [],
-      "boardBucket": "Other Relevant"
-    },
-    {
-      "id": "50b98031ab3401a1",
-      "title": "Efficiency is the bridge to future fuels",
-      "source": "Splash247",
-      "sourceId": "splash247",
-      "url": "https://splash247.com/efficiency-is-the-bridge-to-future-fuels/",
-      "publishedAt": "2026-04-21T03:00:11Z",
-      "excerpt": "As the industry pushes ahead toward future fuels, it must not overlook the immediate power of operational discipline and voyage-level data to manage costs and strengthen readiness for the transition, says Alex Caizergues, founder and CEO o\u2026",
-      "tags": [
-        "Maritime",
-        "News"
-      ],
-      "audience": "Both",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [],
-      "priorityScore": 1,
-      "priorityBand": "low",
-      "priorityReasons": [],
-      "boardBucket": "Other Relevant"
-    },
-    {
-      "id": "af2c0802a5b650f4",
-      "title": "California ruling halts offshore pipeline restart despite federal push",
-      "source": "Splash247",
-      "sourceId": "splash247",
-      "url": "https://splash247.com/california-ruling-halts-offshore-pipeline-restart-despite-federal-push/",
-      "publishedAt": "2026-04-21T02:30:00Z",
-      "excerpt": "A California judge has ruled that Sable Offshore Corp. cannot resume operations on its coastal pipeline without state permits, rejecting the company\u2019s argument that a federal executive order trumps an existing state\u2011level injunction. Santa\u2026",
       "tags": [
         "Maritime",
         "News"
@@ -4520,6 +4454,72 @@ window.__DASHBOARD_DATA__ = {
       "tags": [
         "Maritime",
         "Netherlands"
+      ],
+      "audience": "Both",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [],
+      "priorityScore": 1,
+      "priorityBand": "low",
+      "priorityReasons": [],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "4989c1cae4dcd3a1",
+      "title": "Fugro opens ROV test pool facility in Singapore",
+      "source": "SWZ Maritime",
+      "sourceId": "swz-maritime",
+      "url": "https://swzmaritime.nl/news/2026/04/17/fugro-opens-rov-test-pool-facility-in-singapore/",
+      "publishedAt": "2026-04-17T08:24:39Z",
+      "excerpt": "Fugro has commissioned its new remotely operated vehicle (ROV) test pool in Singapore. This strengthens the company\u2019s in\u2011house capability to undertake controlled testing, verification and validation of equipment, systems and [\u2026]",
+      "tags": [
+        "Maritime",
+        "Netherlands"
+      ],
+      "audience": "Both",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [],
+      "priorityScore": 1,
+      "priorityBand": "low",
+      "priorityReasons": [],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "81324c860c7b5f22",
+      "title": "Haskoning to provide design for Texas storm surge barrier",
+      "source": "SWZ Maritime",
+      "sourceId": "swz-maritime",
+      "url": "https://swzmaritime.nl/news/2026/04/17/haskoning-to-provide-design-for-texas-storm-surge-barrier/",
+      "publishedAt": "2026-04-17T06:28:00Z",
+      "excerpt": "Haskoning has been confirmed as a key team member for the preliminary design of The Gate (Bolivar Roads Gate System) in Galveston, Texas. The system will be one of the [\u2026]",
+      "tags": [
+        "Maritime",
+        "Netherlands"
+      ],
+      "audience": "Both",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [],
+      "priorityScore": 1,
+      "priorityBand": "low",
+      "priorityReasons": [],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "bdc7bf2086f1dcd3",
+      "title": "Korean Register unveils digital database of international maritime conventions",
+      "source": "Riviera: Regulations & Compliance",
+      "sourceId": "riviera-regulation",
+      "url": "https://www.rivieramm.com/news-content-hub/korean-register-unveils-digital-database-of-international-maritime-conventions-88394",
+      "publishedAt": "2026-04-16T11:06:05Z",
+      "excerpt": "Class society introduces artificial intelligence into its web-based services for the shipping industry",
+      "tags": [
+        "Regulation",
+        "Compliance"
       ],
       "audience": "Both",
       "paywalled": false,

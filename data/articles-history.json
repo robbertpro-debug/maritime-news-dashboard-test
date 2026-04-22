@@ -1,59 +1,6 @@
 {
   "generatedAt": "2026-04-22T07:02:33.537595Z",
-  "lookbackDays": 30,
-  "cutoffAt": "2026-03-23T07:02:33.537595Z",
-  "articleCount": 180,
-  "sourceCount": 16,
-  "sources": [
-    "Africa Ports & Ships",
-    "Baird Maritime",
-    "Hellenic Shipping News",
-    "MarineLink",
-    "Offshore Energy",
-    "Rigzone",
-    "Riviera: Ports & Terminals",
-    "Riviera: Propulsion",
-    "Riviera: Regulations & Compliance",
-    "Riviera: Safety & Incidents",
-    "SWZ Maritime",
-    "Splash247",
-    "The Maritime Executive",
-    "gCaptain"
-  ],
-  "topics": [
-    "Africa",
-    "Batteries",
-    "Classification",
-    "Clean Propulsion",
-    "Compliance",
-    "Decarbonization",
-    "Electrification",
-    "Energy",
-    "Energy-Transition",
-    "Incidents",
-    "Industry",
-    "Maritime",
-    "Markets",
-    "Netherlands",
-    "News",
-    "Offshore",
-    "Operations",
-    "Ports",
-    "Propulsion",
-    "Regulation",
-    "Safety",
-    "Salvage",
-    "Shipping",
-    "Sustainability",
-    "Technology",
-    "Terminals",
-    "Towage",
-    "Workboats"
-  ],
-  "locations": [
-    "Rotterdam"
-  ],
-  "errors": [],
+  "articleCount": 249,
   "articles": [
     {
       "id": "e2d6c1330faf292d",
@@ -315,6 +262,37 @@
       "priorityReasons": [
         "Signal: Disruption",
         "Signal: Infrastructure"
+      ],
+      "boardBucket": "High Priority"
+    },
+    {
+      "id": "e31e206e811d1b9e",
+      "title": "NGOs hail 'progress' in IMO working group following move to delay adoption of climate framework",
+      "source": "Riviera: Air Pollution & GHG Emissions",
+      "sourceId": "riviera-emissions",
+      "url": "https://www.rivieramm.com/news-content-hub/ngos-hail-progress-in-imo-working-group-following-move-to-delay-adoption-of-climate-framework-86571",
+      "publishedAt": "2025-10-24T14:17:10Z",
+      "excerpt": "Further work on guidelines that would support IMO\u2019s net-zero emissions plan for shipping \u2019indicates broad support\u2019, according to Clean Shipping Coalition",
+      "tags": [
+        "Regulation",
+        "Decarbonization",
+        "Emissions"
+      ],
+      "audience": "Novatug",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [
+        "Disruption",
+        "Regulation",
+        "Energy Transition"
+      ],
+      "priorityScore": 9,
+      "priorityBand": "high",
+      "priorityReasons": [
+        "Signal: Disruption",
+        "Signal: Regulation",
+        "Signal: Energy Transition"
       ],
       "boardBucket": "High Priority"
     },
@@ -1250,6 +1228,95 @@
       "boardBucket": "Regulation, Safety & Incidents"
     },
     {
+      "id": "43ee7d2814b4e9ca",
+      "title": "'A paradigm shift in marine technology': nuclear-ready, diesel-electric hybrid propulsion",
+      "source": "Riviera: Propulsion",
+      "sourceId": "riviera-propulsion",
+      "url": "https://www.rivieramm.com/news-content-hub/a-paradigm-shift-in-marine-technology-long-range-nuclear-ready-diesel-electric-hybrid-propulsion-approved-87932",
+      "publishedAt": "2026-02-27T08:29:49Z",
+      "excerpt": "Australian ship designer hails approval in principle for micro modular nuclear reactor-based propulsion, as class society says \u2019wider adoption\u2019 expected in early 2030s",
+      "tags": [
+        "Electrification",
+        "Clean Propulsion",
+        "Propulsion",
+        "Technology"
+      ],
+      "audience": "Novatug",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [
+        "Regulation",
+        "Energy Transition"
+      ],
+      "priorityScore": 5,
+      "priorityBand": "medium",
+      "priorityReasons": [
+        "Signal: Regulation",
+        "Signal: Energy Transition"
+      ],
+      "boardBucket": "Regulation, Safety & Incidents"
+    },
+    {
+      "id": "57cc1f64dfdaf5bf",
+      "title": "Methane-splitting technology earns class nod for use with LNG dual-fuel engines",
+      "source": "Riviera: Air Pollution & GHG Emissions",
+      "sourceId": "riviera-emissions",
+      "url": "https://www.rivieramm.com/news-content-hub/methane-splitting-technology-earns-class-nod-for-use-with-lng-dual-fuel-engines-86796",
+      "publishedAt": "2025-11-13T08:23:19Z",
+      "excerpt": "Finnish start-up Hycamite has won approval in principle from Norwegian classification society DNV for a process that converts methane-based fuels into hydrogen and carbon",
+      "tags": [
+        "Classification",
+        "Clean Propulsion",
+        "Emissions",
+        "Decarbonization"
+      ],
+      "audience": "Novatug",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [
+        "Regulation",
+        "Energy Transition"
+      ],
+      "priorityScore": 5,
+      "priorityBand": "medium",
+      "priorityReasons": [
+        "Signal: Regulation",
+        "Signal: Energy Transition"
+      ],
+      "boardBucket": "Regulation, Safety & Incidents"
+    },
+    {
+      "id": "2ce09db81bbcf9b8",
+      "title": "Politics over pragmatism: how governments are losing the plot on shipping decarbonisation",
+      "source": "Riviera: Air Pollution & GHG Emissions",
+      "sourceId": "riviera-emissions",
+      "url": "https://www.rivieramm.com/news-content-hub/politics-over-pragmatism-how-governments-are-losing-the-plot-on-shipping-decarbonisation-86584",
+      "publishedAt": "2025-11-06T10:00:00Z",
+      "excerpt": "IMO\u2019s Net Zero Framework was supposed to move shipping from ambition to action. The industry came prepared to deliver; governments didn\u2019t, says German Shipowners Association MD, Dr Martin Kr\u00f6ger",
+      "tags": [
+        "Regulation",
+        "Decarbonization",
+        "Emissions"
+      ],
+      "audience": "Novatug",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [
+        "Regulation",
+        "Energy Transition"
+      ],
+      "priorityScore": 5,
+      "priorityBand": "medium",
+      "priorityReasons": [
+        "Signal: Regulation",
+        "Signal: Energy Transition"
+      ],
+      "boardBucket": "Regulation, Safety & Incidents"
+    },
+    {
       "id": "8a16fe7c9c28f8fd",
       "title": "Port of Baltimore Gets New Grain Facility",
       "source": "The Maritime Executive",
@@ -1673,6 +1740,204 @@
       "priorityBand": "medium",
       "priorityReasons": [
         "Supplier mention: Shell Nederland"
+      ],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "df2bcc4b413dfa7b",
+      "title": "Venture Global CP2 Phase two moves into execution",
+      "source": "Riviera: Ports & Terminals",
+      "sourceId": "riviera-ports",
+      "url": "https://www.rivieramm.com/news-content-hub/venture-global-cp2-phase-two-moves-into-execution-88185",
+      "publishedAt": "2026-03-23T07:00:00Z",
+      "excerpt": "CP2 has moved to the next development stage, with Phase two receiving full notice to proceed after Venture Global\u2019s 13 March final investment decision",
+      "tags": [
+        "Ports",
+        "Terminals"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [
+        "Commercial"
+      ],
+      "priorityScore": 4,
+      "priorityBand": "medium",
+      "priorityReasons": [
+        "Signal: Commercial"
+      ],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "cd0681c7ee9ae131",
+      "title": "NZF delay: MEPC adjournment opens seven pathways",
+      "source": "Riviera: Air Pollution & GHG Emissions",
+      "sourceId": "riviera-emissions",
+      "url": "https://www.rivieramm.com/news-content-hub/mepc-adjournment-opens-seven-nzf-pathways-87430",
+      "publishedAt": "2026-02-02T10:00:00Z",
+      "excerpt": "MEPC options: fix the package; drop pricing; reset talks; court the US; manage EU fractures; or see climate clubs and trade conflict deepen",
+      "tags": [
+        "Emissions",
+        "Decarbonization"
+      ],
+      "audience": "Novatug",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [
+        "Disruption"
+      ],
+      "priorityScore": 4,
+      "priorityBand": "medium",
+      "priorityReasons": [
+        "Signal: Disruption"
+      ],
+      "boardBucket": "Regulation, Safety & Incidents"
+    },
+    {
+      "id": "ce85b6430e35e457",
+      "title": "Can Europe\u2019s new e-fuel strategy for maritime help solve the fuel availability conundrum?",
+      "source": "Riviera: Air Pollution & GHG Emissions",
+      "sourceId": "riviera-emissions",
+      "url": "https://www.rivieramm.com/news-content-hub/can-europes-new-e-fuel-strategy-for-maritime-help-solve-the-fuel-availability-conundrum-87605",
+      "publishedAt": "2026-01-29T15:03:47Z",
+      "excerpt": "WFW\u2019s Valentina Keys discusses how the EU\u2019s Sustainable Transport Investment Plan reaffirms the European Commission\u2019s commitment to supporting maritime decarbonisation",
+      "tags": [
+        "Decarbonization",
+        "Emissions"
+      ],
+      "audience": "Novatug",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [
+        "Commercial",
+        "Energy Transition"
+      ],
+      "priorityScore": 4,
+      "priorityBand": "medium",
+      "priorityReasons": [
+        "Signal: Commercial",
+        "Signal: Energy Transition"
+      ],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "2559fa1520047f15",
+      "title": "Samsung Heavy joins US, South Korean companies on ammonia-to-power project",
+      "source": "Riviera: Propulsion",
+      "sourceId": "riviera-propulsion",
+      "url": "https://www.rivieramm.com/news-content-hub/samsung-heavy-joins-us-south-korean-companies-on-ammonia-to-power-project-87593",
+      "publishedAt": "2026-01-28T14:01:09Z",
+      "excerpt": "Joint project with suppliers Amogy and Vinssen sets out to develop 1MW-class ammonia-to-power system for future low- and zero-carbon vessels",
+      "tags": [
+        "Clean Propulsion",
+        "Propulsion",
+        "Technology"
+      ],
+      "audience": "Novatug",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [
+        "Commercial",
+        "Energy Transition"
+      ],
+      "priorityScore": 4,
+      "priorityBand": "medium",
+      "priorityReasons": [
+        "Signal: Commercial",
+        "Signal: Energy Transition"
+      ],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "201b027e9ccd8bd2",
+      "title": "AYK Energy lands second Mureloil deal for 4.2MWh Aries+ marine battery",
+      "source": "Ship Technology",
+      "sourceId": "ship-technology",
+      "url": "https://www.ship-technology.com/news/ayk-energy-mureloil-deal-4-2mwh-aries-marine-battery/",
+      "publishedAt": "2025-12-17T14:32:03Z",
+      "excerpt": "AYK Energy has signed a second contract with Spanish ship owner Mureloil to supply its 4.2MWh Aries+ battery system for the Bah\u00eda Beatriz vessel. The post AYK Energy lands second Mureloil deal for 4.2MWh Aries+ marine battery appeared firs\u2026",
+      "tags": [
+        "Batteries",
+        "Technology",
+        "Innovation"
+      ],
+      "audience": "Novatug",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [
+        "Commercial",
+        "Energy Transition"
+      ],
+      "priorityScore": 4,
+      "priorityBand": "medium",
+      "priorityReasons": [
+        "Signal: Commercial",
+        "Signal: Energy Transition"
+      ],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "11f3b9848582de56",
+      "title": "ABB completes sea trials of DP2 technology onboard Norse Wind vessel",
+      "source": "Ship Technology",
+      "sourceId": "ship-technology",
+      "url": "https://www.ship-technology.com/news/abb-completes-sea-trials-of-dp2-technology-onboard-norse-wind-vessel/",
+      "publishedAt": "2025-12-15T15:22:36Z",
+      "excerpt": "ABB has completed sea trials of its new Dynamic Positioning Class 2 (DP2) technology onboard DEME\u2019s Norse Wind vessel. The post ABB completes sea trials of DP2 technology onboard Norse Wind vessel appeared first on Ship Technology .",
+      "tags": [
+        "Technology",
+        "Innovation"
+      ],
+      "audience": "Novatug",
+      "paywalled": false,
+      "entities": [
+        {
+          "name": "DEME Group",
+          "category": "clients"
+        }
+      ],
+      "locations": [],
+      "businessTags": [
+        "Client"
+      ],
+      "priorityScore": 4,
+      "priorityBand": "medium",
+      "priorityReasons": [
+        "Client mention: DEME Group"
+      ],
+      "boardBucket": "Clients & Projects"
+    },
+    {
+      "id": "8a8039b57ace01b8",
+      "title": "'Major European shipyard' inks deal for 2-MW methanol-to-power system",
+      "source": "Riviera: Propulsion",
+      "sourceId": "riviera-propulsion",
+      "url": "https://www.rivieramm.com/news-content-hub/major-european-shipyard-inks-deal-for-2-mw-methanol-to-power-system-86920",
+      "publishedAt": "2025-11-26T08:00:00Z",
+      "excerpt": "Billed as the first commercial maritime order for Sweden-headquartered fuel-cell stack developer PowerCell, the US$16M contract covers eight 250-kW M2Power 250 modules",
+      "tags": [
+        "Clean Propulsion",
+        "Propulsion",
+        "Technology"
+      ],
+      "audience": "Novatug",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [
+        "Commercial",
+        "Energy Transition"
+      ],
+      "priorityScore": 4,
+      "priorityBand": "medium",
+      "priorityReasons": [
+        "Signal: Commercial",
+        "Signal: Energy Transition"
       ],
       "boardBucket": "Other Relevant"
     },
@@ -3690,6 +3955,438 @@
       "boardBucket": "Other Relevant"
     },
     {
+      "id": "6d7ed6f03f1fa643",
+      "title": "Utkilen chemical tanker retrofit cuts fuel use by 20%",
+      "source": "Riviera: Air Pollution & GHG Emissions",
+      "sourceId": "riviera-emissions",
+      "url": "https://www.rivieramm.com/news-content-hub/utkilen-chemical-tanker-retrofit-cuts-fuel-use-20-88033",
+      "publishedAt": "2026-03-20T08:00:00Z",
+      "excerpt": "Utkilen reports lower fuel use and emissions from Nordstraum while moving ahead with vessel replacement with delivery of Havstraum",
+      "tags": [
+        "Decarbonization",
+        "Emissions"
+      ],
+      "audience": "Novatug",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [
+        "Energy Transition"
+      ],
+      "priorityScore": 2,
+      "priorityBand": "low",
+      "priorityReasons": [
+        "Signal: Energy Transition"
+      ],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "576249c8337d5577",
+      "title": "As UK ETS for maritime passes in Commons, UK Chamber of Shipping pushes back",
+      "source": "Riviera: Air Pollution & GHG Emissions",
+      "sourceId": "riviera-emissions",
+      "url": "https://www.rivieramm.com/news-content-hub/as-uk-ets-for-maritime-passes-in-commons-uk-chamber-of-shipping-pushes-back-87774",
+      "publishedAt": "2026-02-12T15:22:27Z",
+      "excerpt": "Projected for start-up in mid-2026, a draft version of the UK\u2019s Emissions Trading Scheme for maritime was passed by the Parliament\u2019s House of Commons, and some UK shipping interests have raised \u2019serious concerns\u2019",
+      "tags": [
+        "Decarbonization",
+        "Emissions"
+      ],
+      "audience": "Novatug",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [
+        "Energy Transition"
+      ],
+      "priorityScore": 2,
+      "priorityBand": "low",
+      "priorityReasons": [
+        "Signal: Energy Transition"
+      ],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "e39027f78db3aa2e",
+      "title": "UK Prime Minister highlights Anemoi Marine Technologies Ltd. as a global leader in maritime decarbonisation during China visit",
+      "source": "Riviera: Propulsion",
+      "sourceId": "riviera-propulsion",
+      "url": "https://www.rivieramm.com/news-content-hub/uk-prime-minister-highlights-anemoi-marine-technologies-ltd-as-a-global-leader-in-maritime-decarbonisation-during-china-visit-87689",
+      "publishedAt": "2026-02-04T19:34:13Z",
+      "excerpt": "Anemoi Marine Technologies an engineering innovator in wind-assisted propulsion for shipping is being highlighted as an example of British excellence in maritime decarbonisation.",
+      "tags": [
+        "Decarbonization",
+        "Clean Propulsion",
+        "Propulsion",
+        "Technology"
+      ],
+      "audience": "Novatug",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [
+        "Energy Transition"
+      ],
+      "priorityScore": 2,
+      "priorityBand": "low",
+      "priorityReasons": [
+        "Signal: Energy Transition"
+      ],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "8b835d575b38c081",
+      "title": "Shipmanager V Group acquires maritime green tech firm Njord",
+      "source": "Riviera: Air Pollution & GHG Emissions",
+      "sourceId": "riviera-emissions",
+      "url": "https://www.rivieramm.com/news-content-hub/shipmanager-vgroup-acquires-maritime-green-tech-firm-njord-87319",
+      "publishedAt": "2026-01-07T07:00:00Z",
+      "excerpt": "V Group takes Maersk Tankers-founded Njord to \u2019accelerate\u2019 the shipmanager\u2019s drive to expand fuel efficiency and decarbonisation services",
+      "tags": [
+        "Decarbonization",
+        "Emissions"
+      ],
+      "audience": "Novatug",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [
+        "Energy Transition"
+      ],
+      "priorityScore": 2,
+      "priorityBand": "low",
+      "priorityReasons": [
+        "Signal: Energy Transition"
+      ],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "a6f88b620deefeb4",
+      "title": "Corvus Energy to supply batteries for seven new CMAL electric ferries",
+      "source": "Ship Technology",
+      "sourceId": "ship-technology",
+      "url": "https://www.ship-technology.com/news/corvus-batteries-cmal-electric-ferries/",
+      "publishedAt": "2025-12-19T14:48:21Z",
+      "excerpt": "Corvus Energy has secured an order from Remontowa Shipbuilding in Poland to supply battery systems for seven fully electric ferries commissioned by Caledonian Maritime Assets Limited (CMAL), a public body owned by the Scottish Government.\u2026",
+      "tags": [
+        "Batteries",
+        "Electrification",
+        "Technology",
+        "Innovation"
+      ],
+      "audience": "Novatug",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [
+        "Energy Transition"
+      ],
+      "priorityScore": 2,
+      "priorityBand": "low",
+      "priorityReasons": [
+        "Signal: Energy Transition"
+      ],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "7fdf3c27bfab9588",
+      "title": "J-ENG launches development of methanol-fuelled UEC50LSJM engine",
+      "source": "Ship Technology",
+      "sourceId": "ship-technology",
+      "url": "https://www.ship-technology.com/news/j-eng-methanol-fuelled-uec50lsjm-engine/",
+      "publishedAt": "2025-12-17T14:40:01Z",
+      "excerpt": "Japan Engine Corporation (J-ENG) has started developing a methanol-fuelled marine engine, designated UEC50LSJM. The post J-ENG launches development of methanol-fuelled UEC50LSJM engine appeared first on Ship Technology .",
+      "tags": [
+        "Clean Propulsion",
+        "Technology",
+        "Innovation"
+      ],
+      "audience": "Novatug",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [
+        "Energy Transition"
+      ],
+      "priorityScore": 2,
+      "priorityBand": "low",
+      "priorityReasons": [
+        "Signal: Energy Transition"
+      ],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "0d3b366667e40d92",
+      "title": "ABB, HDF Energy sign agreement on marine fuel cell development",
+      "source": "Ship Technology",
+      "sourceId": "ship-technology",
+      "url": "https://www.ship-technology.com/news/abb-hdf-energy-marine-fuel-cell-development/",
+      "publishedAt": "2025-12-16T14:19:10Z",
+      "excerpt": "ABB, HDF Energy have signed a joint development agreement (JDA) to co-develop a high-power, megawatt-class hydrogen fuel cell system designed for use in marine vessels. The post ABB, HDF Energy sign agreement on marine fuel cell developmen\u2026",
+      "tags": [
+        "Clean Propulsion",
+        "Technology",
+        "Innovation"
+      ],
+      "audience": "Novatug",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [
+        "Energy Transition"
+      ],
+      "priorityScore": 2,
+      "priorityBand": "low",
+      "priorityReasons": [
+        "Signal: Energy Transition"
+      ],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "d6fa0d08aa265cbe",
+      "title": "Ship banking's emissions tracking scheme expands to include private lenders",
+      "source": "Riviera: Air Pollution & GHG Emissions",
+      "sourceId": "riviera-emissions",
+      "url": "https://www.rivieramm.com/news-content-hub/ship-bankings-emissions-tracking-scheme-expands-to-include-private-lenders-87159",
+      "publishedAt": "2025-12-15T19:59:58Z",
+      "excerpt": "Aiming for further climate transparency, the Poseidon Principles, which already includes 75% of shipping\u2019s financiers, will expand to include private equity, hedge funds, capital markets underwriters and others",
+      "tags": [
+        "Decarbonization",
+        "Emissions"
+      ],
+      "audience": "Novatug",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [
+        "Energy Transition"
+      ],
+      "priorityScore": 2,
+      "priorityBand": "low",
+      "priorityReasons": [
+        "Signal: Energy Transition"
+      ],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "5ee18fe71de7d52d",
+      "title": "World's largest electric vessel's electric motor trial successful",
+      "source": "Riviera: Propulsion",
+      "sourceId": "riviera-propulsion",
+      "url": "https://www.rivieramm.com/news-content-hub/worlds-largest-electric-vessels-electric-motor-trial-successful-87157",
+      "publishedAt": "2025-12-15T12:05:09Z",
+      "excerpt": "Forthcoming 130-m, 2,100-passenger Buquebus ferry was powered on for the first time for a successful motor trial in Tasmania",
+      "tags": [
+        "Electrification",
+        "Propulsion",
+        "Technology"
+      ],
+      "audience": "Novatug",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [
+        "Energy Transition"
+      ],
+      "priorityScore": 2,
+      "priorityBand": "low",
+      "priorityReasons": [
+        "Signal: Energy Transition"
+      ],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "d712d9d0fdf475c0",
+      "title": "South Korean port of Busan launches country's first all-electric ferry",
+      "source": "Riviera: Propulsion",
+      "sourceId": "riviera-propulsion",
+      "url": "https://www.rivieramm.com/news-content-hub/south-korean-port-of-busan-launches-countrys-first-all-electric-ferry-87148",
+      "publishedAt": "2025-12-12T13:00:00Z",
+      "excerpt": "The new passenger ferry is the first state-owned electric vessel for South Korea and part of a plan to replace 140 state-owned vessels with ships running on cleaner energy sources by 2030",
+      "tags": [
+        "Electrification",
+        "Propulsion",
+        "Technology"
+      ],
+      "audience": "Novatug",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [
+        "Energy Transition"
+      ],
+      "priorityScore": 2,
+      "priorityBand": "low",
+      "priorityReasons": [
+        "Signal: Energy Transition"
+      ],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "dc42cb10fc863d28",
+      "title": "Chinese car battery manufacturers target maritime with ESS tie-ups",
+      "source": "Riviera: Propulsion",
+      "sourceId": "riviera-propulsion",
+      "url": "https://www.rivieramm.com/news-content-hub/chinese-car-battery-manufacturers-target-maritime-with-ess-tie-ups-87120",
+      "publishedAt": "2025-12-10T16:20:10Z",
+      "excerpt": "China\u2019s BYD, the world\u2019s largest electric vehicle (EV) builder and second-largest EV battery maker, and major car battery supplier EVE Energy have both done deals with maritime battery makers",
+      "tags": [
+        "Batteries",
+        "Electrification",
+        "Propulsion",
+        "Technology"
+      ],
+      "audience": "Novatug",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [
+        "Energy Transition"
+      ],
+      "priorityScore": 2,
+      "priorityBand": "low",
+      "priorityReasons": [
+        "Signal: Energy Transition"
+      ],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "661dc403075fff30",
+      "title": "Uber's fully electric ferry starts services on London's River Thames",
+      "source": "Riviera: Propulsion",
+      "sourceId": "riviera-propulsion",
+      "url": "https://www.rivieramm.com/news-content-hub/ubers-fully-electric-ferry-starts-services-on-londons-river-thames-87085",
+      "publishedAt": "2025-12-08T11:28:34Z",
+      "excerpt": "A 150-passenger ferry named Orbit Clipper will carry up to 150 passengers and 100 bicycles on a route from Rotherhithe to Canary Wharf in the UK capital",
+      "tags": [
+        "Electrification",
+        "Propulsion",
+        "Technology"
+      ],
+      "audience": "Novatug",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [
+        "Energy Transition"
+      ],
+      "priorityScore": 2,
+      "priorityBand": "low",
+      "priorityReasons": [
+        "Signal: Energy Transition"
+      ],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "f1f20e1949c566b5",
+      "title": "Molslinjen taps Incat Tasmania to build third fully electric, high-speed ferry",
+      "source": "Riviera: Propulsion",
+      "sourceId": "riviera-propulsion",
+      "url": "https://www.rivieramm.com/news-content-hub/molslinjen-taps-incat-tasmania-to-build-third-fully-electric-high-speed-ferry-87067",
+      "publishedAt": "2025-12-05T11:09:27Z",
+      "excerpt": "The battery-powered vessel will join two fully electric ferries already under construction at Incat\u2019s Tasmania shipyard",
+      "tags": [
+        "Batteries",
+        "Electrification",
+        "Propulsion",
+        "Technology"
+      ],
+      "audience": "Novatug",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [
+        "Energy Transition"
+      ],
+      "priorityScore": 2,
+      "priorityBand": "low",
+      "priorityReasons": [
+        "Signal: Energy Transition"
+      ],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "94b0c1ff47ec56f5",
+      "title": "LNG and methanol dominate nearly 90% of 'alternative' fuels in 2025 new ship orders",
+      "source": "Riviera: Air Pollution & GHG Emissions",
+      "sourceId": "riviera-emissions",
+      "url": "https://www.rivieramm.com/news-content-hub/lng-and-methanol-dominate-nearly-90-of-alternative-fuels-in-2025-new-ship-orders-87003",
+      "publishedAt": "2025-12-02T10:30:00Z",
+      "excerpt": "DNV tracked 10 new ship orders for what it terms \u2019alternative-fuelled vessels\u2019 in November 2025",
+      "tags": [
+        "Clean Propulsion",
+        "Emissions",
+        "Decarbonization"
+      ],
+      "audience": "Novatug",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [
+        "Energy Transition"
+      ],
+      "priorityScore": 2,
+      "priorityBand": "low",
+      "priorityReasons": [
+        "Signal: Energy Transition"
+      ],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "e648327eb0f93e00",
+      "title": "Deal targets retrofit upgrades for X-DF engines as emissions regulations loom",
+      "source": "Riviera: Air Pollution & GHG Emissions",
+      "sourceId": "riviera-emissions",
+      "url": "https://www.rivieramm.com/news-content-hub/wingd-deal-targets-dry-dock-retrofits-on-x-df-engines-as-emissions-regulations-loom-86923",
+      "publishedAt": "2025-11-27T11:42:49Z",
+      "excerpt": "Frame agreement with Panasia targets upgrades for WinGD\u2019s X\u2011DF dual-fuel LNG engines with second-generation emissions abatement and fuel-efficiency technology",
+      "tags": [
+        "Regulation",
+        "Decarbonization",
+        "Emissions"
+      ],
+      "audience": "Novatug",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [
+        "Energy Transition"
+      ],
+      "priorityScore": 2,
+      "priorityBand": "low",
+      "priorityReasons": [
+        "Signal: Energy Transition"
+      ],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "e5dc1ac5ca10357b",
+      "title": "Greenpeace taps AYK for 3-MWh battery system on near-zero-emissions newbuild",
+      "source": "Riviera: Air Pollution & GHG Emissions",
+      "sourceId": "riviera-emissions",
+      "url": "https://www.rivieramm.com/news-content-hub/greenpeace-taps-ayk-for-3mwh-battery-system-on-near-zero-emissions-newbuild-86873",
+      "publishedAt": "2025-11-19T15:24:46Z",
+      "excerpt": "Environmental NGO is building a new, low-emissions research vessel at Freire Shipyard in Spain",
+      "tags": [
+        "Batteries",
+        "Decarbonization",
+        "Emissions"
+      ],
+      "audience": "Novatug",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [
+        "Energy Transition"
+      ],
+      "priorityScore": 2,
+      "priorityBand": "low",
+      "priorityReasons": [
+        "Signal: Energy Transition"
+      ],
+      "boardBucket": "Other Relevant"
+    },
+    {
       "id": "f0c11ac60228ca73",
       "title": "JP Morgan tipped for $500m VLCC move at DSIC",
       "source": "Splash247",
@@ -4527,6 +5224,939 @@
       "locations": [],
       "businessTags": [],
       "priorityScore": 1,
+      "priorityBand": "low",
+      "priorityReasons": [],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "a1b485bad6bc7251",
+      "title": "Dong Fang upgrades crew safety on CSOVs, cable layers",
+      "source": "Riviera: Safety & Incidents",
+      "sourceId": "riviera-safety",
+      "url": "https://www.rivieramm.com/news-content-hub/dong-fang-upgrades-crew-safety-on-csovs-cable-layers-88414",
+      "publishedAt": "2026-04-13T07:11:28Z",
+      "excerpt": "Wireless technology will be deployed to increase personnel visibility and security on offshore construction and commissioning vessels",
+      "tags": [
+        "Safety",
+        "Incidents"
+      ],
+      "audience": "Both",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [],
+      "priorityScore": 1,
+      "priorityBand": "low",
+      "priorityReasons": [],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "e731f168b502ca08",
+      "title": "UK to launch new leasing round for offshore wind in early 2027",
+      "source": "Riviera: Regulations & Compliance",
+      "sourceId": "riviera-regulation",
+      "url": "https://www.rivieramm.com/news-content-hub/uk-to-launch-new-leasing-round-for-offshore-wind-in-early-2027-88295",
+      "publishedAt": "2026-04-10T14:47:41Z",
+      "excerpt": "Potential 6 GW of capacity to be made available, primarily off the northeast of England",
+      "tags": [
+        "Regulation",
+        "Compliance"
+      ],
+      "audience": "Both",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [],
+      "priorityScore": 1,
+      "priorityBand": "low",
+      "priorityReasons": [],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "4ab34f0022434720",
+      "title": "Department of Interior to consolidate BOEM and BSEE in new agency",
+      "source": "Riviera: Regulations & Compliance",
+      "sourceId": "riviera-regulation",
+      "url": "https://www.rivieramm.com/news-content-hub/department-of-interior-to-consolidate-boem-and-bsee-in-new-agency-88392",
+      "publishedAt": "2026-04-07T10:54:47Z",
+      "excerpt": "Plan to create the Marine Minerals Administration \u2018reflects the evolution of offshore energy\u2019 and the need to improve co-ordination, Trump administration claims",
+      "tags": [
+        "Regulation",
+        "Compliance"
+      ],
+      "audience": "Both",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [],
+      "priorityScore": 1,
+      "priorityBand": "low",
+      "priorityReasons": [],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "eaab0399b9acdde0",
+      "title": "Larger superyachts lift ballast water system demand",
+      "source": "Riviera: Regulations & Compliance",
+      "sourceId": "riviera-regulation",
+      "url": "https://www.rivieramm.com/news-content-hub/larger-superyachts-lift-ballast-water-system-demand-88291",
+      "publishedAt": "2026-04-06T06:30:00Z",
+      "excerpt": "60 m-plus yacht deliveries are supporting ballast water treatment demand as builders increasingly integrate systems at the design stage",
+      "tags": [
+        "Regulation",
+        "Compliance"
+      ],
+      "audience": "Both",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [],
+      "priorityScore": 1,
+      "priorityBand": "low",
+      "priorityReasons": [],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "7ba5b9cacc8aa802",
+      "title": "UK moves to board sanctioned shadow fleet tankers",
+      "source": "Riviera: Regulations & Compliance",
+      "sourceId": "riviera-regulation",
+      "url": "https://www.rivieramm.com/news-content-hub/uk-to-interdict-sanctioned-shadow-fleet-tankers-88279",
+      "publishedAt": "2026-03-26T10:30:00Z",
+      "excerpt": "British government says sanctioned vessels linked to Russia\u2019s shadow fleet face boarding, detention and possible criminal proceedings if they transit UK waters",
+      "tags": [
+        "Regulation",
+        "Compliance"
+      ],
+      "audience": "Both",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [],
+      "priorityScore": 1,
+      "priorityBand": "low",
+      "priorityReasons": [],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "e45dfd0655ab2533",
+      "title": "Yangtze study links antifouling paint particles to sediment copper risk",
+      "source": "Riviera: Regulations & Compliance",
+      "sourceId": "riviera-regulation",
+      "url": "https://www.rivieramm.com/news-content-hub/yangtze-study-links-antifouling-paint-particles-to-sediment-copper-risk-88076",
+      "publishedAt": "2026-03-24T06:30:00Z",
+      "excerpt": "New research traces antifouling paint particles across the Yangtze estuary, highlighting a sediment pollution pattern closely aligned with vessel traffic",
+      "tags": [
+        "Regulation",
+        "Compliance"
+      ],
+      "audience": "Both",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [],
+      "priorityScore": 1,
+      "priorityBand": "low",
+      "priorityReasons": [],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "5dbb2a1f0fcd6a9e",
+      "title": "The overlooked factor shaping safety, retention and crew wellbeing",
+      "source": "Splash247",
+      "sourceId": "splash247",
+      "url": "https://splash247.com/the-overlooked-factor-shaping-safety-retention-and-crew-wellbeing/",
+      "publishedAt": "2026-04-22T05:53:15Z",
+      "excerpt": "Gisa Paredes from WellAtSea writes about self-leadership onboard. The maritime sector is no stranger to conversations about safety, fatigue and retention. Yet one critical factor continues to receive far less attention than it deserves: th\u2026",
+      "tags": [
+        "Safety",
+        "Maritime",
+        "News"
+      ],
+      "audience": "Novatug",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [],
+      "priorityScore": 0,
+      "priorityBand": "low",
+      "priorityReasons": [],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "e8004196711fa71e",
+      "title": "International Chamber of Shipping announces sixth edition of Tanker Safety Guide (Chemicals) \u2013 Strengthening safety standards for chemical tanker operations",
+      "source": "Hellenic Shipping News",
+      "sourceId": "hellenic-shipping-news",
+      "url": "https://www.hellenicshippingnews.com/international-chamber-of-shipping-announces-sixth-edition-of-tanker-safety-guide-chemicals-strengthening-safety-standards-for-chemical-tanker-operations/",
+      "publishedAt": "2026-04-21T21:00:55Z",
+      "excerpt": "The International Chamber of Shipping (ICS) announced the launch of the sixth edition of its benchmark publication, the Tanker Safety Guide (Chemicals). First published in 1971, the Tanker Safety Guide (Chemicals) remains the primary indus\u2026",
+      "tags": [
+        "Safety",
+        "Shipping",
+        "Markets"
+      ],
+      "audience": "Novatug",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [],
+      "priorityScore": 0,
+      "priorityBand": "low",
+      "priorityReasons": [],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "403fe5d8c23f88bc",
+      "title": "Halliburton Sees Signs of an Oil Rebound in North America",
+      "source": "Rigzone",
+      "sourceId": "rigzone-latest",
+      "url": "https://www.rigzone.com/news/wire/halliburton_sees_signs_of_an_oil_rebound_in_north_america-21-apr-2026-183501-article/?rss=true",
+      "publishedAt": "2026-04-21T20:00:00Z",
+      "excerpt": "Halliburton Co. said it sees signs of a resurgence in oilfield activity in North America.",
+      "tags": [
+        "Offshore",
+        "Energy"
+      ],
+      "audience": "Novatug",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [],
+      "priorityScore": 0,
+      "priorityBand": "low",
+      "priorityReasons": [],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "72152ece1b9704d0",
+      "title": "Texas Upstream Employment Continues Dropping",
+      "source": "Rigzone",
+      "sourceId": "rigzone-latest",
+      "url": "https://www.rigzone.com/news/texas_upstream_employment_continues_dropping-21-apr-2026-183502-article/?rss=true",
+      "publishedAt": "2026-04-21T14:38:55Z",
+      "excerpt": "Texas upstream employment has continued its downward trend, industry body TIPRO noted.",
+      "tags": [
+        "Offshore",
+        "Energy"
+      ],
+      "audience": "Novatug",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [],
+      "priorityScore": 0,
+      "priorityBand": "low",
+      "priorityReasons": [],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "5eccf75a085e2597",
+      "title": "Oil Traders Warn Worst of Demand Hit Is Yet to Come",
+      "source": "Rigzone",
+      "sourceId": "rigzone-latest",
+      "url": "https://www.rigzone.com/news/wire/oil_traders_warn_worst_of_demand_hit_is_yet_to_come-21-apr-2026-183500-article/?rss=true",
+      "publishedAt": "2026-04-21T13:46:26Z",
+      "excerpt": "The world's top oil traders said that demand destruction wrought by the Iran war is set to deepen.",
+      "tags": [
+        "Offshore",
+        "Energy"
+      ],
+      "audience": "Novatug",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [],
+      "priorityScore": 0,
+      "priorityBand": "low",
+      "priorityReasons": [],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "19d1853fefe5f59f",
+      "title": "Petronas Eyes Terengganu Carbon Sinks",
+      "source": "Rigzone",
+      "sourceId": "rigzone-latest",
+      "url": "https://www.rigzone.com/news/petronas_eyes_terengganu_carbon_sinks-21-apr-2026-183497-article/?rss=true",
+      "publishedAt": "2026-04-21T12:16:34Z",
+      "excerpt": "Malaysia's national oil and gas company signed a memorandum of understanding with Terengganu to enable the state's natural ecosystems to generate carbon credits.",
+      "tags": [
+        "Offshore",
+        "Energy"
+      ],
+      "audience": "Novatug",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [],
+      "priorityScore": 0,
+      "priorityBand": "low",
+      "priorityReasons": [],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "78f1a0d65ec416c5",
+      "title": "Currie Co-Founds New USA Focused Oil, Gas Company",
+      "source": "Rigzone",
+      "sourceId": "rigzone-latest",
+      "url": "https://www.rigzone.com/news/currie_cofounds_new_usa_focused_oil_gas_company-21-apr-2026-183496-article/?rss=true",
+      "publishedAt": "2026-04-21T10:59:17Z",
+      "excerpt": "Jeff Currie is the former global head of commodities research at Goldman Sachs.",
+      "tags": [
+        "Offshore",
+        "Energy"
+      ],
+      "audience": "Novatug",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [],
+      "priorityScore": 0,
+      "priorityBand": "low",
+      "priorityReasons": [],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "06491a6ef6a8604d",
+      "title": "Oceaneering pilots ROV on Brazilian offshore drilling rig from land",
+      "source": "Offshore Energy",
+      "sourceId": "offshore-energy",
+      "url": "https://www.offshore-energy.biz/oceaneering-pilots-rov-on-brazilian-offshore-drilling-rig-from-land/",
+      "publishedAt": "2026-04-21T10:17:47Z",
+      "excerpt": "Oceaneering has performed the first piloting operation of a remotely operated vehicle (ROV) on [\u2026] The post Oceaneering pilots ROV on Brazilian offshore drilling rig from land appeared first on Offshore Energy .",
+      "tags": [
+        "Energy-Transition",
+        "Technology"
+      ],
+      "audience": "Novatug",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [],
+      "priorityScore": 0,
+      "priorityBand": "low",
+      "priorityReasons": [],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "4b8bb5ae2b2d7735",
+      "title": "Don't Mistake Easing Oil Prices for Calm, Analyst Warns",
+      "source": "Rigzone",
+      "sourceId": "rigzone-latest",
+      "url": "https://www.rigzone.com/news/dont_mistake_easing_oil_prices_for_calm_analyst_warns-21-apr-2026-183495-article/?rss=true",
+      "publishedAt": "2026-04-21T09:35:15Z",
+      "excerpt": "Oil prices are easing, but don't mistake that for calm, SEB Commodities Analyst Ole R. Hvalbye warned.",
+      "tags": [
+        "Offshore",
+        "Energy"
+      ],
+      "audience": "Novatug",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [],
+      "priorityScore": 0,
+      "priorityBand": "low",
+      "priorityReasons": [],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "6e1a271f9908de7b",
+      "title": "DOF\u2019s subsea vessel completes \u2018major\u2019 makeover at VARD",
+      "source": "Offshore Energy",
+      "sourceId": "offshore-energy",
+      "url": "https://www.offshore-energy.biz/dofs-subsea-vessel-completes-major-makeover-at-vard/",
+      "publishedAt": "2026-04-21T08:51:02Z",
+      "excerpt": "Norway\u2019s VARD has completed upgrades of DOF Group\u2019s 2018-built subsea vessel Skandi Minder to [\u2026] The post DOF\u2019s subsea vessel completes \u2018major\u2019 makeover at VARD appeared first on Offshore Energy .",
+      "tags": [
+        "Energy-Transition",
+        "Technology"
+      ],
+      "audience": "Novatug",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [],
+      "priorityScore": 0,
+      "priorityBand": "low",
+      "priorityReasons": [],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "cd87118a71ae74ba",
+      "title": "North America Loses Rigs for 8 Straight Weeks",
+      "source": "Rigzone",
+      "sourceId": "rigzone-latest",
+      "url": "https://www.rigzone.com/news/north_america_loses_rigs_for_8_straight_weeks-20-apr-2026-183491-article/?rss=true",
+      "publishedAt": "2026-04-20T14:37:05Z",
+      "excerpt": "North America dropped seven rigs week on week, according to Baker Hughes' latest North America rotary rig count.",
+      "tags": [
+        "Offshore",
+        "Energy"
+      ],
+      "audience": "Novatug",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [],
+      "priorityScore": 0,
+      "priorityBand": "low",
+      "priorityReasons": [],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "c223515067ddf4ad",
+      "title": "Huge gas discovery surfaces in Southeast Asian waters",
+      "source": "Offshore Energy",
+      "sourceId": "offshore-energy",
+      "url": "https://www.offshore-energy.biz/huge-gas-discovery-surfaces-in-southeast-asian-waters/",
+      "publishedAt": "2026-04-20T14:36:06Z",
+      "excerpt": "Italy\u2019s energy giant Eni has unveiled a new natural gas discovery off the coast of Indonesia, Southeast Asia. This find is said to confirm the strategic potential of the country\u2019s Kutei Basin, unlocking significant new volumes for domestic\u2026",
+      "tags": [
+        "Energy-Transition",
+        "Technology"
+      ],
+      "audience": "Novatug",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [],
+      "priorityScore": 0,
+      "priorityBand": "low",
+      "priorityReasons": [],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "0ade887cd9b3f758",
+      "title": "Oil Contractors Face Profit Hits from War Fallout",
+      "source": "Rigzone",
+      "sourceId": "rigzone-latest",
+      "url": "https://www.rigzone.com/news/wire/oil_contractors_face_profit_hits_from_war_fallout-20-apr-2026-183489-article/?rss=true",
+      "publishedAt": "2026-04-20T13:59:34Z",
+      "excerpt": "Analysts have been cutting per-share profit forecasts for the three largest oilfield service companies since shortly after the conflict erupted in late February.",
+      "tags": [
+        "Offshore",
+        "Energy"
+      ],
+      "audience": "Novatug",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [],
+      "priorityScore": 0,
+      "priorityBand": "low",
+      "priorityReasons": [],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "febb78ef83e8056e",
+      "title": "Third oil platform offshore California coming online in June",
+      "source": "Offshore Energy",
+      "sourceId": "offshore-energy",
+      "url": "https://www.offshore-energy.biz/third-oil-platform-offshore-california-coming-online-in-june/",
+      "publishedAt": "2026-04-20T13:40:58Z",
+      "excerpt": "Sable Offshore, a Texas-headquartered oil and gas company, has confirmed the timeline for the restart of production from its third platform off the coast of California. The post Third oil platform offshore California coming online in June\u2026",
+      "tags": [
+        "Energy-Transition",
+        "Technology"
+      ],
+      "audience": "Novatug",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [],
+      "priorityScore": 0,
+      "priorityBand": "low",
+      "priorityReasons": [],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "33108daec56cd880",
+      "title": "Data Center Electricity Use Surges",
+      "source": "Rigzone",
+      "sourceId": "rigzone-latest",
+      "url": "https://www.rigzone.com/news/data_center_electricity_use_surges-20-apr-2026-183486-article/?rss=true",
+      "publishedAt": "2026-04-20T11:37:33Z",
+      "excerpt": "Data center electricity use surged in 2025, the International Energy Agency (IEA) said.",
+      "tags": [
+        "Electrification",
+        "Offshore",
+        "Energy"
+      ],
+      "audience": "Novatug",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [],
+      "priorityScore": 0,
+      "priorityBand": "low",
+      "priorityReasons": [],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "feae2ed4d6434e2c",
+      "title": "DNV sets out case for shipping's transition from LNG to 'low-GHG methane' fuels",
+      "source": "Riviera: Air Pollution & GHG Emissions",
+      "sourceId": "riviera-emissions",
+      "url": "https://www.rivieramm.com/news-content-hub/dnv-sets-out-case-for-shippings-transition-from-lng-to-low-ghg-methane-fuels-88476",
+      "publishedAt": "2026-04-17T11:26:30Z",
+      "excerpt": "Norwegian classification society presents its take on the pros and cons of using existing and soon-to-be-built LNG assets with lower-carbon versions of the molecule",
+      "tags": [
+        "Classification",
+        "Decarbonization",
+        "Emissions"
+      ],
+      "audience": "Novatug",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [],
+      "priorityScore": 0,
+      "priorityBand": "low",
+      "priorityReasons": [],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "340f0806176a289a",
+      "title": "Shipyard gains AiP for offshore CO2 carrier",
+      "source": "Riviera: Air Pollution & GHG Emissions",
+      "sourceId": "riviera-emissions",
+      "url": "https://www.rivieramm.com/news-content-hub/shinkurushima-gains-aip-for-offshore-co2-carrier-88271",
+      "publishedAt": "2026-04-10T09:23:43Z",
+      "excerpt": "Shinkurushima said its new AiP covers a liquefied CO2 carrier designed to transfer cargo to an offshore Socket SPAR injection unit",
+      "tags": [
+        "Emissions",
+        "Decarbonization"
+      ],
+      "audience": "Novatug",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [],
+      "priorityScore": 0,
+      "priorityBand": "low",
+      "priorityReasons": [],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "553385b43ed9cd84",
+      "title": "Offshore renewables: a framework for subsea power cable safety",
+      "source": "Riviera: Regulations & Compliance",
+      "sourceId": "riviera-regulation",
+      "url": "https://www.rivieramm.com/news-content-hub/offshore-renewables-a-framework-for-subsea-power-cable-safety-88413",
+      "publishedAt": "2026-04-09T07:38:27Z",
+      "excerpt": "As offshore energy systems scale and move further offshore, subsea power cables are becoming one of the most critical \u2013 and vulnerable \u2013 components of the global energy transition",
+      "tags": [
+        "Safety",
+        "Sustainability",
+        "Regulation",
+        "Compliance"
+      ],
+      "audience": "Novatug",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [],
+      "priorityScore": 0,
+      "priorityBand": "low",
+      "priorityReasons": [],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "e63812ffcad5bf20",
+      "title": "Hydro-Qu\u00e9bec launches RfI to inform potential development of offshore wind",
+      "source": "Riviera: Regulations & Compliance",
+      "sourceId": "riviera-regulation",
+      "url": "https://www.rivieramm.com/news-content-hub/hydro-quebec-launches-rfi-to-inform-potential-development-of-offshore-wind-88276",
+      "publishedAt": "2026-03-26T08:36:32Z",
+      "excerpt": "RfI from leading electricity supplier \u2018is a clear and positive signal that buyers are evaluating offshore wind as part of their long-term planning\u2019",
+      "tags": [
+        "Electrification",
+        "Regulation",
+        "Compliance"
+      ],
+      "audience": "Novatug",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [],
+      "priorityScore": 0,
+      "priorityBand": "low",
+      "priorityReasons": [],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "44248d10c8ba2b6b",
+      "title": "Tern Dal named for Neste biofuel trade",
+      "source": "Riviera: Air Pollution & GHG Emissions",
+      "sourceId": "riviera-emissions",
+      "url": "https://www.rivieramm.com/news-content-hub/tern-dal-named-for-neste-biofuel-trade-88210",
+      "publishedAt": "2026-03-25T07:30:00Z",
+      "excerpt": "Terntank has named Tern Dal in Denmark ahead of the vessel\u2019s long-term charter to Neste transporting renewable cargoes",
+      "tags": [
+        "Emissions",
+        "Decarbonization"
+      ],
+      "audience": "Novatug",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [],
+      "priorityScore": 0,
+      "priorityBand": "low",
+      "priorityReasons": [],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "fd2911655accad9f",
+      "title": "NZF: shipping institutions stress need for continued climate-alignment efforts",
+      "source": "Riviera: Air Pollution & GHG Emissions",
+      "sourceId": "riviera-emissions",
+      "url": "https://www.rivieramm.com/news-content-hub/nzf-shipping-institutions-stress-need-for-continued-climate-alignment-efforts-87862",
+      "publishedAt": "2026-02-20T11:30:00Z",
+      "excerpt": "While short-term priorities constantly change, understanding environmental impacts and future risks remains strategically important for the long-term success of the entire shipping sector, says new chair of Poseidon Principles",
+      "tags": [
+        "Emissions",
+        "Decarbonization"
+      ],
+      "audience": "Novatug",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [],
+      "priorityScore": 0,
+      "priorityBand": "low",
+      "priorityReasons": [],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "e609561e7d0985e5",
+      "title": "Full speed ahead: Why two-stroke engine monitoring is essential in deep-sea vessels",
+      "source": "Ship Technology",
+      "sourceId": "ship-technology",
+      "url": "https://www.ship-technology.com/sponsored/ensuring-top-engine-performance-in-deep-sea-vessels/",
+      "publishedAt": "2026-02-09T16:33:45Z",
+      "excerpt": "Advances in technology and innovation, such as continuous monitoring, are providing fleets with the competitive edge. Learn more here: The post Full speed ahead: Why two-stroke engine monitoring is essential in deep-sea vessels appeared fi\u2026",
+      "tags": [
+        "Technology",
+        "Innovation"
+      ],
+      "audience": "Novatug",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [],
+      "priorityScore": 0,
+      "priorityBand": "low",
+      "priorityReasons": [],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "267466bd277d01a7",
+      "title": "2025's most-read stories in Marine Propulsion & Auxiliary Machinery",
+      "source": "Riviera: Air Pollution & GHG Emissions",
+      "sourceId": "riviera-emissions",
+      "url": "https://www.rivieramm.com/news-content-hub/2025s-most-read-stories-in-marine-propulsion-amp-auxiliary-machinery-87074",
+      "publishedAt": "2026-01-12T11:14:18Z",
+      "excerpt": "We look back on our most-read stories to get a better view, from you, of the topics that shaped the industry in 2025",
+      "tags": [
+        "Clean Propulsion",
+        "Emissions",
+        "Decarbonization"
+      ],
+      "audience": "Novatug",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [],
+      "priorityScore": 0,
+      "priorityBand": "low",
+      "priorityReasons": [],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "a0800fda26dce3d0",
+      "title": "Citi shipping head Michael Parker hands over Poseidon Principles chair",
+      "source": "Riviera: Air Pollution & GHG Emissions",
+      "sourceId": "riviera-emissions",
+      "url": "https://www.rivieramm.com/news-content-hub/citi-shipping-head-michael-parker-hands-over-poseidon-principles-chair-87352",
+      "publishedAt": "2026-01-08T15:19:01Z",
+      "excerpt": "The architect of the Poseidon Principles climate impact transparency initiative, which counts 75% of shipping\u2019s financiers as members, Michael Parker, stepped down from his role as chairman on 31 December 2025",
+      "tags": [
+        "Emissions",
+        "Decarbonization"
+      ],
+      "audience": "Novatug",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [],
+      "priorityScore": 0,
+      "priorityBand": "low",
+      "priorityReasons": [],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "2e270c5a58de5e62",
+      "title": "Trump exits US from 66 additional UN agencies and international organisations, strips funding",
+      "source": "Riviera: Air Pollution & GHG Emissions",
+      "sourceId": "riviera-emissions",
+      "url": "https://www.rivieramm.com/news-content-hub/trump-exits-us-from-66-additional-un-agencies-and-international-organisations-strips-funding-87347",
+      "publishedAt": "2026-01-08T12:32:22Z",
+      "excerpt": "In a continued show of his administration\u2019s protectionist stance, US President Donald Trump has withdrawn from dozens of organisations of international co-operation as part of a process he says is \u2019ongoing\u2019",
+      "tags": [
+        "Emissions",
+        "Decarbonization"
+      ],
+      "audience": "Novatug",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [],
+      "priorityScore": 0,
+      "priorityBand": "low",
+      "priorityReasons": [],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "97deb18242829882",
+      "title": "Beyond the Loadicator: SecureLoad\u2019s Plan to Modernize Loading, Stability, and Execution",
+      "source": "Ship Technology",
+      "sourceId": "ship-technology",
+      "url": "https://www.ship-technology.com/excellence-awards/excellence-in-focus/secureload-systems-ceo-cto-interview/",
+      "publishedAt": "2026-01-05T07:00:00Z",
+      "excerpt": "Interview with Ship Technology Excellence Awards Winner SecureLoad Systems' CEO Nikhil Mathew and CTO Binoy Pilakkat. The post Beyond the Loadicator: SecureLoad\u2019s Plan to Modernize Loading, Stability, and Execution appeared first on Ship T\u2026",
+      "tags": [
+        "Technology",
+        "Innovation"
+      ],
+      "audience": "Novatug",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [],
+      "priorityScore": 0,
+      "priorityBand": "low",
+      "priorityReasons": [],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "428685201c650c09",
+      "title": "Union Maritime selects Anemoi Rotor Sails for new chemical tankers",
+      "source": "Ship Technology",
+      "sourceId": "ship-technology",
+      "url": "https://www.ship-technology.com/news/union-maritime-anemoi-rotor-sails/",
+      "publishedAt": "2025-12-18T15:02:11Z",
+      "excerpt": "Union Maritime is set to install two of its new-build chemical tankers with Rotor Sails manufactured by Anemoi Marine Technologies. The post Union Maritime selects Anemoi Rotor Sails for new chemical tankers appeared first on Ship Technolo\u2026",
+      "tags": [
+        "Technology",
+        "Innovation"
+      ],
+      "audience": "Novatug",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [],
+      "priorityScore": 0,
+      "priorityBand": "low",
+      "priorityReasons": [],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "9ff3e059c86cc324",
+      "title": "Expansion-minded wind propulsion group adds director with experience in China",
+      "source": "Riviera: Propulsion",
+      "sourceId": "riviera-propulsion",
+      "url": "https://www.rivieramm.com/news-content-hub/expansion-minded-wind-propulsion-group-adds-director-with-experience-in-china-87227",
+      "publishedAt": "2025-12-18T14:21:27Z",
+      "excerpt": "Anemoi has hired a new programme director, Andrew Starforth, whose eight years in senior roles within China\u2019s marine technology industry, the firm says, complements its strategic priorities",
+      "tags": [
+        "Clean Propulsion",
+        "Propulsion",
+        "Technology"
+      ],
+      "audience": "Novatug",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [],
+      "priorityScore": 0,
+      "priorityBand": "low",
+      "priorityReasons": [],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "39d26a41d875920d",
+      "title": "Ship Technology Excellence Awards 2025 \u2013 Winners Announced!",
+      "source": "Ship Technology",
+      "sourceId": "ship-technology",
+      "url": "https://www.ship-technology.com/excellence-awards/excellence-awards-2025-winners-announced/",
+      "publishedAt": "2025-12-18T13:49:26Z",
+      "excerpt": "The Ship Technology Excellence Awards winners have been announced! Download our full 70+ page report to find out more The post Ship Technology Excellence Awards 2025 \u2013 Winners Announced! appeared first on Ship Technology .",
+      "tags": [
+        "Technology",
+        "Innovation"
+      ],
+      "audience": "Novatug",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [],
+      "priorityScore": 0,
+      "priorityBand": "low",
+      "priorityReasons": [],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "646016de88c3a381",
+      "title": "On thin ice: STG95 is out now!",
+      "source": "Ship Technology",
+      "sourceId": "ship-technology",
+      "url": "https://www.ship-technology.com/features/on-thin-ice-stg95-is-out-now/",
+      "publishedAt": "2025-12-17T12:16:10Z",
+      "excerpt": "In this issue: environmental considerations for Arctic cruising, Celebrity Cruises' fleet overhaul, AR and VR maritime training, and more. The post On thin ice: STG95 is out now! appeared first on Ship Technology .",
+      "tags": [
+        "Technology",
+        "Innovation"
+      ],
+      "audience": "Novatug",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [],
+      "priorityScore": 0,
+      "priorityBand": "low",
+      "priorityReasons": [],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "4f253d66887b3b11",
+      "title": "Small-bore, four-stroke marine engine runs on ethanol",
+      "source": "Riviera: Air Pollution & GHG Emissions",
+      "sourceId": "riviera-emissions",
+      "url": "https://www.rivieramm.com/news-content-hub/small-bore-four-stroke-marine-engine-runs-on-ethanol-87105",
+      "publishedAt": "2025-12-10T09:25:43Z",
+      "excerpt": "Everllence\u2019s medium-speed, dual-fuel model 21/31 engine was sucessful in tests at all load points",
+      "tags": [
+        "Emissions",
+        "Decarbonization"
+      ],
+      "audience": "Novatug",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [],
+      "priorityScore": 0,
+      "priorityBand": "low",
+      "priorityReasons": [],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "357c50f99e43a3e5",
+      "title": "WinGD sets 2026 for launch of first ethanol two-stroke marine engine",
+      "source": "Riviera: Propulsion",
+      "sourceId": "riviera-propulsion",
+      "url": "https://www.rivieramm.com/news-content-hub/wingd-sets-2026-for-launch-of-first-ethanol-two-stroke-marine-engine-86312",
+      "publishedAt": "2025-12-09T12:29:20Z",
+      "excerpt": "Swiss-based marine power company WinGD said it will bring its first ethanol-fuelled two-stroke marine engine to market in 2026, with deliveries for newbuild and retrofit applications starting in 2027",
+      "tags": [
+        "Propulsion",
+        "Technology"
+      ],
+      "audience": "Novatug",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [],
+      "priorityScore": 0,
+      "priorityBand": "low",
+      "priorityReasons": [],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "3240ced65988297e",
+      "title": "Has the US ceded the race for clean fuels to China?",
+      "source": "Riviera: Air Pollution & GHG Emissions",
+      "sourceId": "riviera-emissions",
+      "url": "https://www.rivieramm.com/news-content-hub/has-the-us-ceded-the-race-for-clean-fuels-to-china-86891",
+      "publishedAt": "2025-12-01T08:00:00Z",
+      "excerpt": "While the US turns it back on clean fuels, China\u2019s rapid expansion in that sector will give it regional, and possibly, global dominance",
+      "tags": [
+        "Emissions",
+        "Decarbonization"
+      ],
+      "audience": "Novatug",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [],
+      "priorityScore": 0,
+      "priorityBand": "low",
+      "priorityReasons": [],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "f0af9bf7c31b336e",
+      "title": "UK budget 'bitter blow' to offshore energy, says industry lobby",
+      "source": "Riviera: Air Pollution & GHG Emissions",
+      "sourceId": "riviera-emissions",
+      "url": "https://www.rivieramm.com/news-content-hub/uk-budget-bitter-blow-to-offshore-energy-says-industry-lobby-86974",
+      "publishedAt": "2025-11-28T16:25:06Z",
+      "excerpt": "Offshore Energies UK threatens \u2019growing risk\u2019 to 200,000 jobs after the UK government decision to retain a yearly levy on fossil fuel production in the North Sea",
+      "tags": [
+        "Emissions",
+        "Decarbonization"
+      ],
+      "audience": "Novatug",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [],
+      "priorityScore": 0,
+      "priorityBand": "low",
+      "priorityReasons": [],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "2d9c0520b1c788d9",
+      "title": "Seaspan looks at small modular nuclear reactors for box ships",
+      "source": "Riviera: Propulsion",
+      "sourceId": "riviera-propulsion",
+      "url": "https://www.rivieramm.com/news-content-hub/seaspan-looks-at-small-modular-nuclear-reactors-for-box-ships-86957",
+      "publishedAt": "2025-11-28T09:54:02Z",
+      "excerpt": "Operator of the world\u2019s largest chartered fleet of container ships, Seaspan has commissioned a cost-benefit analysis for the use of SMRs in the container shipping sector",
+      "tags": [
+        "Propulsion",
+        "Technology"
+      ],
+      "audience": "Novatug",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [],
+      "priorityScore": 0,
+      "priorityBand": "low",
+      "priorityReasons": [],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "8c859065e1526afa",
+      "title": "GTT CEO: newly approved LNG projects will need 150 new LNG carriers",
+      "source": "Riviera: Air Pollution & GHG Emissions",
+      "sourceId": "riviera-emissions",
+      "url": "https://www.rivieramm.com/news-content-hub/gtt-ceo-newly-approved-lng-projects-will-need-150-new-lng-carriers-86684",
+      "publishedAt": "2025-11-04T15:27:21Z",
+      "excerpt": "2025\u2019s \u2019all-time record\u2019 of 84 mta in sanctioned LNG projects underpins very strong demand for LNG carriers, says GTT chief executive Philippe Berterotti\u00e8re",
+      "tags": [
+        "Emissions",
+        "Decarbonization"
+      ],
+      "audience": "Novatug",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [],
+      "priorityScore": 0,
       "priorityBand": "low",
       "priorityReasons": [],
       "boardBucket": "Other Relevant"

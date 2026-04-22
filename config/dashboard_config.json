@@ -4,7 +4,9 @@
     "js_path": "data/articles.js",
     "lookback_days": 30,
     "max_items_per_source": 30,
-    "max_total_items": 180
+    "max_total_items": 180,
+    "history_json_path": "data/articles-history.json",
+    "history_lookback_days": 180
   },
   "request": {
     "timeout_seconds": 20,
@@ -511,7 +513,7 @@
       "audience_both": 1,
       "location_core_port": 4,
       "location_region": 2,
-      "supplier": 1,
+      "supplier": 3,
       "client": 4,
       "competitor": 4,
       "incident": 4,

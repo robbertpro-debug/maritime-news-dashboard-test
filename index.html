@@ -558,6 +558,92 @@
         color: var(--text-soft);
       }
 
+      .entity-sections {
+        display: grid;
+        gap: 16px;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        align-items: start;
+        margin-bottom: 16px;
+      }
+
+      .entity-panel {
+        background: var(--surface);
+        border: 1px solid var(--line);
+        border-radius: 18px;
+        box-shadow: var(--shadow);
+        overflow: hidden;
+      }
+
+      .entity-panel-head {
+        display: flex;
+        justify-content: space-between;
+        gap: 12px;
+        align-items: center;
+        padding: 16px 18px;
+        border-bottom: 1px solid var(--line);
+      }
+
+      .entity-panel-head h3 {
+        margin: 0;
+        font-size: 19px;
+      }
+
+      .entity-panel[data-category="suppliers"] .entity-panel-head {
+        background: linear-gradient(180deg, #fffdf5 0%, #fef9ec 100%);
+      }
+
+      .entity-panel[data-category="clients"] .entity-panel-head {
+        background: linear-gradient(180deg, #f5f8ff 0%, #eef3ff 100%);
+      }
+
+      .entity-panel[data-category="competitors"] .entity-panel-head {
+        background: linear-gradient(180deg, #fff5f5 0%, #ffeeee 100%);
+      }
+
+      .entity-chips {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 6px;
+        padding: 12px 18px;
+        border-bottom: 1px solid var(--line);
+      }
+
+      .entity-chip {
+        display: inline-flex;
+        align-items: center;
+        padding: 5px 10px;
+        border-radius: 999px;
+        border: 1px solid var(--line);
+        background: var(--surface);
+        color: var(--text-soft);
+        font-size: 12px;
+        font-weight: 600;
+        cursor: pointer;
+        letter-spacing: 0.02em;
+      }
+
+      .entity-chip.active[data-category="suppliers"] {
+        background: #92400e;
+        border-color: #92400e;
+        color: #fff;
+      }
+
+      .entity-chip.active[data-category="clients"] {
+        background: #1e40af;
+        border-color: #1e40af;
+        color: #fff;
+      }
+
+      .entity-chip.active[data-category="competitors"] {
+        background: #991b1b;
+        border-color: #991b1b;
+        color: #fff;
+      }
+
+      .entity-panel-body {
+        display: grid;
+      }
+
       @media (max-width: 1180px) {
         .overview {
           align-items: start;
@@ -573,6 +659,7 @@
         }
 
         .summary-strip,
+        .entity-sections,
         .buckets {
           grid-template-columns: repeat(2, minmax(0, 1fr));
         }
@@ -600,6 +687,7 @@
 
         .status-grid,
         .summary-strip,
+        .entity-sections,
         .buckets {
           grid-template-columns: 1fr;
         }
@@ -730,6 +818,8 @@
         <div class="summary-strip" id="boardSummary"></div>
       </section>
 
+      <section class="entity-sections" id="entityContainer"></section>
+
       <section class="buckets" id="bucketContainer"></section>
     </div>
 
@@ -771,6 +861,12 @@
         }
       ];
 
+      const ENTITY_CATEGORY_CONFIG = [
+        { key: "suppliers", label: "Supplier News", subtitle: "News mentioning tracked suppliers" },
+        { key: "clients", label: "Client News", subtitle: "News mentioning tracked clients" },
+        { key: "competitors", label: "Competitor News", subtitle: "News mentioning tracked competitors" }
+      ];
+
       const state = {
         data: window.__DASHBOARD_DATA__ || {
           articles: [],
@@ -780,7 +876,8 @@
           errors: []
         },
         activeAudience: "Multraship",
-        bucketVisibility: {}
+        bucketVisibility: {},
+        selectedEntities: { suppliers: null, clients: null, competitors: null }
       };
 
       const audienceMeta = {
@@ -1260,6 +1357,111 @@
         });
       }
 
+      function getEntitiesForCategory(articles, category) {
+        const counts = new Map();
+        articles.forEach((article) => {
+          (article.entities || []).forEach((entity) => {
+            if (entity.category === category) {
+              counts.set(entity.name, (counts.get(entity.name) || 0) + 1);
+            }
+          });
+        });
+        return Array.from(counts.entries())
+          .sort((a, b) => b[1] - a[1])
+          .map(([name, count]) => ({ name, count }));
+      }
+
+      function getEntityArticles(articles, category, selectedEntity) {
+        const limit = selectedEntity ? Infinity : 25;
+        return articles
+          .filter((article) =>
+            (article.entities || []).some(
+              (e) => e.category === category && (selectedEntity === null || e.name === selectedEntity)
+            )
+          )
+          .sort((a, b) => {
+            const scoreDiff = (b.priorityScore || 0) - (a.priorityScore || 0);
+            if (scoreDiff !== 0) return scoreDiff;
+            const left = a.publishedAt ? new Date(a.publishedAt).getTime() : 0;
+            const right = b.publishedAt ? new Date(b.publishedAt).getTime() : 0;
+            return right - left;
+          })
+          .slice(0, limit);
+      }
+
+      function renderEntitySection(container, catConfig, audienceArticles) {
+        const { key, label, subtitle } = catConfig;
+        const selectedEntity = state.selectedEntities[key];
+        const entities = getEntitiesForCategory(audienceArticles, key);
+        const articles = getEntityArticles(audienceArticles, key, selectedEntity);
+
+        const panel = document.createElement("section");
+        panel.className = "entity-panel";
+        panel.dataset.category = key;
+
+        const head = document.createElement("div");
+        head.className = "entity-panel-head";
+        const titleBlock = document.createElement("div");
+        titleBlock.appendChild(createTextElement("h3", label));
+        titleBlock.appendChild(createTextElement("div", subtitle, "bucket-subtitle"));
+        head.appendChild(titleBlock);
+        head.appendChild(createTextElement("span", String(articles.length), "count-pill"));
+        panel.appendChild(head);
+
+        if (entities.length > 0) {
+          const chips = document.createElement("div");
+          chips.className = "entity-chips";
+
+          const allChip = document.createElement("button");
+          allChip.type = "button";
+          allChip.className = "entity-chip" + (selectedEntity === null ? " active" : "");
+          allChip.dataset.category = key;
+          allChip.textContent = "All";
+          allChip.addEventListener("click", () => {
+            state.selectedEntities[key] = null;
+            renderEntitySections();
+          });
+          chips.appendChild(allChip);
+
+          entities.forEach(({ name, count }) => {
+            const chip = document.createElement("button");
+            chip.type = "button";
+            chip.className = "entity-chip" + (selectedEntity === name ? " active" : "");
+            chip.dataset.category = key;
+            chip.textContent = `${name} (${count})`;
+            chip.addEventListener("click", () => {
+              state.selectedEntities[key] = state.selectedEntities[key] === name ? null : name;
+              renderEntitySections();
+            });
+            chips.appendChild(chip);
+          });
+
+          panel.appendChild(chips);
+        }
+
+        const body = document.createElement("div");
+        body.className = "entity-panel-body";
+
+        if (articles.length === 0) {
+          body.appendChild(
+            createTextElement("div", "No articles found for the current audience and selection.", "empty-state")
+          );
+        } else {
+          articles.forEach((article) => body.appendChild(createArticleRow(article)));
+        }
+
+        panel.appendChild(body);
+        container.appendChild(panel);
+      }
+
+      function renderEntitySections() {
+        const container = document.getElementById("entityContainer");
+        if (!container) return;
+        container.innerHTML = "";
+        const audienceArticles = (state.data.articles || []).filter(matchesAudience);
+        ENTITY_CATEGORY_CONFIG.forEach((catConfig) => renderEntitySection(container, catConfig, audienceArticles));
+      }
+
       function render() {
         updateAudienceMeta();
         const filtered = sortArticles((state.data.articles || []).filter(matchesFilters));
@@ -1268,6 +1470,7 @@
         renderBoardSummary(filtered);
         renderBuckets(buckets);
         elements.visibleCount.textContent = String(filtered.length);
+        renderEntitySections();
       }
 
       function syncDataToUi() {

@@ -499,6 +499,69 @@ def filter_recent_articles(articles: List[Dict], lookback_days: int, now: dateti
     return filtered
 
 
+def to_clean_article(article: Dict) -> Dict:
+    return {
+        "id": article["id"],
+        "title": article["title"],
+        "source": article["source"],
+        "sourceId": article["sourceId"],
+        "url": article["url"],
+        "publishedAt": article["publishedAt"],
+        "excerpt": article["excerpt"],
+        "tags": article["tags"],
+        "audience": article["audience"],
+        "paywalled": article["paywalled"],
+        "entities": article.get("entities", []),
+        "locations": article.get("locations", []),
+        "businessTags": article.get("businessTags", []),
+        "priorityScore": article.get("priorityScore", 0),
+        "priorityBand": article.get("priorityBand", "low"),
+        "priorityReasons": article.get("priorityReasons", []),
+        "boardBucket": article.get("boardBucket", "Other Relevant"),
+    }
+
+
+def load_history(history_path: Path) -> List[Dict]:
+    if history_path.exists():
+        try:
+            data = json.loads(history_path.read_text(encoding="utf-8"))
+            return data.get("articles", [])
+        except (json.JSONDecodeError, KeyError):
+            return []
+    return []
+
+
+def merge_with_history(new_articles: List[Dict], existing_history: List[Dict]) -> List[Dict]:
+    seen_ids = {article["id"] for article in new_articles}
+    merged = list(new_articles)
+    for article in existing_history:
+        if article["id"] not in seen_ids:
+            seen_ids.add(article["id"])
+            merged.append(article)
+    return merged
+
+
+def prune_history(articles: List[Dict], lookback_days: int, now: datetime) -> List[Dict]:
+    if lookback_days <= 0:
+        return articles
+    cutoff = now - timedelta(days=lookback_days)
+    return [
+        article for article in articles
+        if parse_iso_datetime(article.get("publishedAt")) is not None
+        and parse_iso_datetime(article["publishedAt"]) >= cutoff
+    ]
+
+
+def write_history(articles: List[Dict], history_path: Path, generated_at: datetime) -> None:
+    history_path.parent.mkdir(parents=True, exist_ok=True)
+    output = {
+        "generatedAt": generated_at.isoformat().replace("+00:00", "Z"),
+        "articleCount": len(articles),
+        "articles": articles,
+    }
+    history_path.write_text(json.dumps(output, ensure_ascii=True, indent=2) + "\n", encoding="utf-8")
+
+
 def build_output(articles: List[Dict], config: Dict, errors: List[Dict], generated_at: datetime) -> Dict:
     lookback_days = int(config["output"].get("lookback_days", 0))
     cutoff_at = None
@@ -517,29 +580,7 @@ def build_output(articles: List[Dict], config: Dict, errors: List[Dict], generat
         }
     )
 
-    clean_articles = []
-    for article in trimmed_articles:
-        clean_articles.append(
-            {
-                "id": article["id"],
-                "title": article["title"],
-                "source": article["source"],
-                "sourceId": article["sourceId"],
-                "url": article["url"],
-                "publishedAt": article["publishedAt"],
-                "excerpt": article["excerpt"],
-                "tags": article["tags"],
-                "audience": article["audience"],
-                "paywalled": article["paywalled"],
-                "entities": article.get("entities", []),
-                "locations": article.get("locations", []),
-                "businessTags": article.get("businessTags", []),
-                "priorityScore": article.get("priorityScore", 0),
-                "priorityBand": article.get("priorityBand", "low"),
-                "priorityReasons": article.get("priorityReasons", []),
-                "boardBucket": article.get("boardBucket", "Other Relevant"),
-            }
-        )
+    clean_articles = [to_clean_article(article) for article in trimmed_articles]
 
     return {
         "generatedAt": generated_at.isoformat().replace("+00:00", "Z"),
@@ -592,6 +633,17 @@ def main() -> int:
     write_output(output, config)
 
     print(f"[done] wrote {output['articleCount']} articles to {config['output']['json_path']}")
+
+    # History accumulation: merge new relevant articles with existing history, prune to 180 days
+    history_path = ROOT / config["output"].get("history_json_path", "data/articles-history.json")
+    history_lookback_days = int(config["output"].get("history_lookback_days", 180))
+    new_clean = [to_clean_article(a) for a in deduped if a["audience"] != "Irrelevant"]
+    existing_history = load_history(history_path)
+    merged = merge_with_history(new_clean, existing_history)
+    pruned = prune_history(merged, history_lookback_days, generated_at)
+    write_history(pruned, history_path, generated_at)
+
+    print(f"[done] wrote {len(pruned)} articles to history ({history_path.name})")
     if errors:
         print(f"[done] {len(errors)} source errors recorded")
     return 0
