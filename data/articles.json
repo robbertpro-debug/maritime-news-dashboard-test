@@ -1,14 +1,13 @@
 {
-  "generatedAt": "2026-04-22T17:59:18.569082Z",
+  "generatedAt": "2026-04-22T19:25:20.589826Z",
   "lookbackDays": 30,
-  "cutoffAt": "2026-03-23T17:59:18.569082Z",
+  "cutoffAt": "2026-03-23T19:25:20.589826Z",
   "articleCount": 180,
   "sourceCount": 100,
   "sources": [
     "Africa Ports & Ships",
     "Baird Maritime",
     "Boskalis News",
-    "DEME Group News",
     "DFDS News",
     "Damen Shipyards News",
     "Damen Yachting News",
@@ -22,7 +21,6 @@
     "Rigzone",
     "Riviera: Air Pollution & GHG Emissions",
     "Riviera: Ports & Terminals",
-    "Riviera: Propulsion",
     "Riviera: Regulations & Compliance",
     "Riviera: Safety & Incidents",
     "SWZ Maritime",
@@ -53,12 +51,12 @@
     "Heavy-Lift",
     "Incidents",
     "Industry",
-    "Marine-Construction",
     "Maritime",
     "Markets",
     "Netherlands",
     "News",
     "Offshore",
+    "Offshore Support",
     "Operations",
     "Port Services",
     "Ports",
@@ -483,6 +481,39 @@
       "boardBucket": "High Priority"
     },
     {
+      "id": "489771a6163bba35",
+      "title": "Fred Olsen Seawind acquires full ownership of Scottish wind project",
+      "source": "Baird Maritime",
+      "sourceId": "baird-maritime",
+      "url": "https://www.bairdmaritime.com/offshore/renewables/offshore-wind/fred-olsen-seawind-acquires-full-ownership-of-scottish-wind-project",
+      "publishedAt": "2026-04-22T18:45:46Z",
+      "excerpt": "Fred Olsen Seawind has reached an agreement to purchase the 50 per cent stake held by Vattenfall in the Muir Mh\u00f2r floating offshore wind farm in Scotland. This share sale will result in the company, a subsidiary of Bonheur, assuming 100 pe\u2026",
+      "tags": [
+        "Workboats",
+        "Technology"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [
+        {
+          "name": "Vattenfall",
+          "category": "clients"
+        }
+      ],
+      "locations": [],
+      "businessTags": [
+        "Client",
+        "Commercial"
+      ],
+      "priorityScore": 8,
+      "priorityBand": "medium",
+      "priorityReasons": [
+        "Client mention: Vattenfall",
+        "Signal: Commercial"
+      ],
+      "boardBucket": "Clients & Projects"
+    },
+    {
       "id": "7287d0d2b602edcf",
       "title": "Drax extends Ultrabulk wood pellet shipping contract through 2031 - lesprom.com",
       "source": "Ultrabulk News",
@@ -643,6 +674,40 @@
       "boardBucket": "Competitors & Market"
     },
     {
+      "id": "61f22423bdb9f4e6",
+      "title": "Port Authority of Puerto Quetzal to Receive Damen ASD Tug 2312 - Marine News Magazine",
+      "source": "Damen Shipyards News",
+      "sourceId": "bing-damen",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQVEFqbmhwbWVuSUtWWjA2RVZWeWRUTk5sdERZRVlzNGYxWkIyRzRFSjlCNlNiMVdoQWg3T3dpdENlcm5Rai1ZYnE1LWdwclJLaUo3WXpvc1ZEQ3hqTnRtdXdPQnFUZTFZT3B1d1BabmtMT192SnM2N05uSy1vTjV3cWVB?oc=5",
+      "publishedAt": "2026-03-31T07:00:00Z",
+      "excerpt": "Port Authority of Puerto Quetzal to Receive Damen ASD Tug 2312 Marine News Magazine",
+      "tags": [
+        "Towage",
+        "Shipbuilding",
+        "Supplier"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [
+        {
+          "name": "Damen Shipyards Group",
+          "category": "suppliers"
+        }
+      ],
+      "locations": [],
+      "businessTags": [
+        "Supplier",
+        "Regulation"
+      ],
+      "priorityScore": 8,
+      "priorityBand": "medium",
+      "priorityReasons": [
+        "Supplier mention: Damen Shipyards Group",
+        "Signal: Regulation"
+      ],
+      "boardBucket": "Regulation, Safety & Incidents"
+    },
+    {
       "id": "ccff44b4d18e20aa",
       "title": "Damen Shipyards sees profit rise along with deliveries as legal cases linger - Tradewinds News",
       "source": "Damen Shipyards News",
@@ -734,6 +799,65 @@
       "priorityReasons": [
         "Signal: Infrastructure",
         "Signal: Commercial"
+      ],
+      "boardBucket": "Regulation, Safety & Incidents"
+    },
+    {
+      "id": "fb1dbe2fa0bd6165",
+      "title": "Damen Signs Contract to Deliver Combi Freighters (CF) 3850 to the Polidano Group - Marine News Magazine",
+      "source": "Damen Shipyards News",
+      "sourceId": "bing-damen",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBjeTVMcEthaHZ3cmpkWHIwUW1ELVBEci00UFJOV3NPd3dZbzBwdEV4ZjgxSTRPNVhpYTFQMlZlTGY3ZHl1R3lKOURSUmxDUGJsVVo2UEJfekZMdkgzTFc5TUlRYzAxQWdzbUhkc1pUOHdDYlgzQ3NSZ0V2ekMxUQ?oc=5",
+      "publishedAt": "2026-03-30T07:00:00Z",
+      "excerpt": "Damen Signs Contract to Deliver Combi Freighters (CF) 3850 to the Polidano Group Marine News Magazine",
+      "tags": [
+        "Shipbuilding",
+        "Supplier"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [
+        {
+          "name": "Damen Shipyards Group",
+          "category": "suppliers"
+        }
+      ],
+      "locations": [],
+      "businessTags": [
+        "Supplier",
+        "Commercial"
+      ],
+      "priorityScore": 7,
+      "priorityBand": "medium",
+      "priorityReasons": [
+        "Supplier mention: Damen Shipyards Group",
+        "Signal: Commercial"
+      ],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "6e742b77be664be6",
+      "title": "Iran Ship Seizures Show \u2018Weaponization of Trade\u2019 in Hormuz, Xeneta Warns",
+      "source": "gCaptain",
+      "sourceId": "gcaptain",
+      "url": "https://gcaptain.com/iran-ship-seizures-show-weaponization-of-trade-in-hormuz-xeneta-warns/",
+      "publishedAt": "2026-04-22T18:44:16Z",
+      "excerpt": "Iran\u2019s reported seizure of two MSC containerships in the Strait of Hormuz is the latest sign the crisis in the strategic waterway has evolved beyond a shipping disruption into what...",
+      "tags": [
+        "Maritime",
+        "Operations"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [
+        "Disruption"
+      ],
+      "priorityScore": 6,
+      "priorityBand": "medium",
+      "priorityReasons": [
+        "Signal: Disruption"
       ],
       "boardBucket": "Regulation, Safety & Incidents"
     },
@@ -1240,11 +1364,11 @@
       "boardBucket": "Competitors & Market"
     },
     {
-      "id": "120b77fbfe343797",
+      "id": "c7034f627cd008ac",
       "title": "Norwegian co to supply 18 big waterjet systems for Indian Navy's next-gen missile vessel project",
       "source": "Kongsberg Maritime News",
       "sourceId": "bing-kongsberg",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=69e90c7d39d44dbc83de1deee603fe34&url=https%3a%2f%2fwww.msn.com%2fen-in%2fnews%2fother%2fnorwegian-co-to-supply-18-big-waterjet-systems-for-indian-navy-s-next-gen-missile-vessel-project%2far-AA20Nuet&c=4609846177532778353&mkt=en-us",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=69e920a732cf41968e89c784e5389185&url=https%3a%2f%2fwww.msn.com%2fen-in%2fnews%2fother%2fnorwegian-co-to-supply-18-big-waterjet-systems-for-indian-navy-s-next-gen-missile-vessel-project%2far-AA20Nuet&c=4609846177532778353&mkt=en-us",
       "publishedAt": "2026-04-13T16:47:00Z",
       "excerpt": "India's Navy is set to receive 18 advanced Kamewa waterjet propulsion systems from Norway's Kongsberg Maritime for its new missile vessels. This significant contract, awarded in partnership with ...",
       "tags": [
@@ -1300,70 +1424,6 @@
         "Signal: Incident"
       ],
       "boardBucket": "Regulation, Safety & Incidents"
-    },
-    {
-      "id": "82303d0be81eae01",
-      "title": "Deme Group NV MT0",
-      "source": "DEME Group News",
-      "sourceId": "bing-deme",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=69e90c7f4e1540419fa4ae1815dcec26&url=https%3a%2f%2fwww.morningstar.com%2fstocks%2fxstu%2fmt0%2fquote&c=702618500465205373&mkt=en-us",
-      "publishedAt": "2026-04-10T05:55:00Z",
-      "excerpt": "Morningstar Quantitative Ratings for Stocks are generated using an algorithm that compares companies that are not under analyst coverage to peer companies that do receive analyst-driven ratings.",
-      "tags": [
-        "Offshore",
-        "Marine-Construction"
-      ],
-      "audience": "Multraship",
-      "paywalled": false,
-      "entities": [
-        {
-          "name": "DEME Group",
-          "category": "clients"
-        }
-      ],
-      "locations": [],
-      "businessTags": [
-        "Client"
-      ],
-      "priorityScore": 6,
-      "priorityBand": "medium",
-      "priorityReasons": [
-        "Client mention: DEME Group"
-      ],
-      "boardBucket": "Clients & Projects"
-    },
-    {
-      "id": "d8d12466ef748bff",
-      "title": "Kongsberg Maritime secures largest-ever waterjet contract",
-      "source": "Kongsberg Maritime News",
-      "sourceId": "bing-kongsberg",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=69e90c7d39d44dbc83de1deee603fe34&url=https%3a%2f%2fmaritimt.com%2fkongsberg-maritime-secures-largest-ever-waterjet-contract&c=2989329961921340396&mkt=en-us",
-      "publishedAt": "2026-04-08T02:34:00Z",
-      "excerpt": "Kongsberg Maritime has signed a landmark contract to supply 18 large Kamewa waterjets for the Indian Navy\u2019s Next Generation Missile Vessel (NGMV) programme. Each of the vessels will feature waterjets, ...",
-      "tags": [
-        "Technology",
-        "Supplier"
-      ],
-      "audience": "Both",
-      "paywalled": false,
-      "entities": [
-        {
-          "name": "Kongsberg Maritime",
-          "category": "suppliers"
-        }
-      ],
-      "locations": [],
-      "businessTags": [
-        "Supplier",
-        "Commercial"
-      ],
-      "priorityScore": 6,
-      "priorityBand": "medium",
-      "priorityReasons": [
-        "Supplier mention: Kongsberg Maritime",
-        "Signal: Commercial"
-      ],
-      "boardBucket": "Other Relevant"
     },
     {
       "id": "8c15e609326590e5",
@@ -1741,6 +1801,37 @@
       "boardBucket": "Clients & Projects"
     },
     {
+      "id": "64ba12e4e58a94dd",
+      "title": "Shell eyes Sierra Leone\u2019s offshore potential in new survey deal",
+      "source": "Baird Maritime",
+      "sourceId": "baird-maritime",
+      "url": "https://www.bairdmaritime.com/offshore/exploration-development/subsea-surveying/shell-eyes-sierra-leones-offshore-potential-in-new-survey-deal",
+      "publishedAt": "2026-04-22T18:49:09Z",
+      "excerpt": "Sierra Leone has signed an agreement with Shell that allows the oil major to conduct advanced geological and geophysical surveys across multiple offshore blocks, the country's petroleum directorate said on Wednesday. The reconnaissance per\u2026",
+      "tags": [
+        "Workboats",
+        "Technology"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [
+        {
+          "name": "Shell Nederland",
+          "category": "suppliers"
+        }
+      ],
+      "locations": [],
+      "businessTags": [
+        "Supplier"
+      ],
+      "priorityScore": 5,
+      "priorityBand": "medium",
+      "priorityReasons": [
+        "Supplier mention: Shell Nederland"
+      ],
+      "boardBucket": "Other Relevant"
+    },
+    {
       "id": "a855ffe62aeb7ea7",
       "title": "Vopak reports lower profit and revenue in Q1 2026",
       "source": "Baird Maritime",
@@ -1820,35 +1911,6 @@
       "priorityBand": "medium",
       "priorityReasons": [
         "Signal: Regulation",
-        "Signal: Energy Transition"
-      ],
-      "boardBucket": "Regulation, Safety & Incidents"
-    },
-    {
-      "id": "6b86e14f9655c818",
-      "title": "Cavotec Launches Redesigned PowerMove RoRo NxG Platform",
-      "source": "MarineLink",
-      "sourceId": "marinelink",
-      "url": "https://www.marinelink.com/news/cavotec-launches-redesigned-powermove-538355",
-      "publishedAt": "2026-04-22T13:16:32Z",
-      "excerpt": "Cavotec has launched PowerMove RoRo NxG, a mobile cable management system designed to simplify shore power connections for RoRo and RoPax vessels and support ports in their transition to cleaner operations.Cavotec\u2019s PowerMove shore power t\u2026",
-      "tags": [
-        "Electrification",
-        "Maritime",
-        "Industry"
-      ],
-      "audience": "Novatug",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [
-        "Infrastructure",
-        "Energy Transition"
-      ],
-      "priorityScore": 5,
-      "priorityBand": "medium",
-      "priorityReasons": [
-        "Signal: Infrastructure",
         "Signal: Energy Transition"
       ],
       "boardBucket": "Regulation, Safety & Incidents"
@@ -2394,13 +2456,13 @@
       "boardBucket": "Clients & Projects"
     },
     {
-      "id": "ffc26ae403641d46",
-      "title": "Damen launches MPV 10720 for the Portuguese Navy - Damen Shipyards",
+      "id": "fe2e08cbdbd1725c",
+      "title": "Damen launches \u2018Drone Carrier\u2019 for the Portuguese Navy - navalnews.com",
       "source": "Damen Shipyards News",
       "sourceId": "bing-damen",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxORjVJRmliSV9uNkJOdWVUaTRBTVgwTC1sY0ZYOXo4RmN0VVJtbWlXWkE0eVd1M29SSXpZRlBWazBpZXNOaXVxLW0wMkNoOEJ0WlNTMHdGbF9VVHZDQ05BMk9pZDVONXRpQkw1YXlyTUVRdEd1SHNvN0NtZXo0VktpS0JRcDJRR00tNWxTTUh5VGt0ay1hUnBaOU1wTQ?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPTU5EQWIxN1A3anBUUzlUellxLTR6Y2ZnWTZqWEJzWVNVMS00OHBvdW1MbWFYUWhodEFPLXAtUDBkdUhHQ2hDU2tXN0FxbE4yYmVDRFdMQVJiM2lSVXBJWXg3bEx3bzFFSlpGbml2UWtmdkNkeWc5emVhVjlaZEFRcW4wRXIyeVVEQ2NHTGJodFo2VTc2WVJudElfUl9IdjA?oc=5",
       "publishedAt": "2026-04-07T07:00:00Z",
-      "excerpt": "Damen launches MPV 10720 for the Portuguese Navy Damen Shipyards",
+      "excerpt": "Damen launches \u2018Drone Carrier\u2019 for the Portuguese Navy navalnews.com",
       "tags": [
         "Towage",
         "Shipbuilding",
@@ -3084,11 +3146,11 @@
       "boardBucket": "Other Relevant"
     },
     {
-      "id": "00631ad0f40fc474",
+      "id": "0be7d4a94f4856c2",
       "title": "Kongsberg Maritime shares begin trading in Oslo after parent spin-off",
       "source": "Kongsberg Maritime News",
       "sourceId": "bing-kongsberg",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=69e90c7d39d44dbc83de1deee603fe34&url=https%3a%2f%2fwww.tradewindsnews.com%2ftechnology%2fkongsberg-maritime-shares-begin-trading-in-oslo-after-parent-spin-off%2f2-1-1977683&c=2727161669190424549&mkt=en-us",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=69e920a732cf41968e89c784e5389185&url=https%3a%2f%2fwww.tradewindsnews.com%2ftechnology%2fkongsberg-maritime-shares-begin-trading-in-oslo-after-parent-spin-off%2f2-1-1977683&c=2727161669190424549&mkt=en-us",
       "publishedAt": "2026-04-21T06:21:00Z",
       "excerpt": "A new pure-play maritime technology company is set to hit the public markets, as Kongsberg Maritime begins trading today on the Oslo Stock Exchange after its spin-off from Kongsberg Gruppen.",
       "tags": [
@@ -3222,70 +3284,6 @@
       "priorityBand": "medium",
       "priorityReasons": [
         "Signal: Commercial"
-      ],
-      "boardBucket": "Other Relevant"
-    },
-    {
-      "id": "f14f58198c7b2c7f",
-      "title": "Indian Navy to equip 6 stealth corvettes with Kongsberg Kamewa",
-      "source": "Kongsberg Maritime News",
-      "sourceId": "bing-kongsberg",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=69e90c7d39d44dbc83de1deee603fe34&url=https%3a%2f%2fwww.newsbytesapp.com%2fnews%2findia%2findian-navy-to-equip-6-stealth-corvettes-with-kongsberg-kamewa%2ftldr&c=14647400517899959803&mkt=en-us",
-      "publishedAt": "2026-04-13T23:57:00Z",
-      "excerpt": "Kongsberg Maritime will supply 18 advanced Kamewa waterjet propulsion systems to the Indian Navy, enhancing speed and stealth capabilities of their next-gen missile vessels.",
-      "tags": [
-        "Clean Propulsion",
-        "Technology",
-        "Supplier"
-      ],
-      "audience": "Both",
-      "paywalled": false,
-      "entities": [
-        {
-          "name": "Kongsberg Maritime",
-          "category": "suppliers"
-        }
-      ],
-      "locations": [],
-      "businessTags": [
-        "Supplier"
-      ],
-      "priorityScore": 4,
-      "priorityBand": "medium",
-      "priorityReasons": [
-        "Supplier mention: Kongsberg Maritime"
-      ],
-      "boardBucket": "Other Relevant"
-    },
-    {
-      "id": "a0041d9805b25f69",
-      "title": "Indian Navy to get next-gen missile vessel with Norwegian jet propulsion: Check how it will make ships faster & stealthier",
-      "source": "Kongsberg Maritime News",
-      "sourceId": "bing-kongsberg",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=69e90c7d39d44dbc83de1deee603fe34&url=https%3a%2f%2fwww.msn.com%2fen-in%2fmoney%2fnews%2findian-navy-to-get-next-gen-missile-vessel-with-norwegian-jet-propulsion-check-how-it-will-make-ships-faster-stealthier%2far-AA20OZNX&c=5482301997127798460&mkt=en-us",
-      "publishedAt": "2026-04-13T23:18:12Z",
-      "excerpt": "Kongsberg Maritime has secured its largest waterjet order to date, supplying 18 advanced Kamewa systems for the Indian Navy's next-generation missile vessel program. This collaboration with Cochin ...",
-      "tags": [
-        "Clean Propulsion",
-        "Technology",
-        "Supplier"
-      ],
-      "audience": "Both",
-      "paywalled": false,
-      "entities": [
-        {
-          "name": "Kongsberg Maritime",
-          "category": "suppliers"
-        }
-      ],
-      "locations": [],
-      "businessTags": [
-        "Supplier"
-      ],
-      "priorityScore": 4,
-      "priorityBand": "medium",
-      "priorityReasons": [
-        "Supplier mention: Kongsberg Maritime"
       ],
       "boardBucket": "Other Relevant"
     },
@@ -3883,6 +3881,207 @@
       "boardBucket": "Other Relevant"
     },
     {
+      "id": "11267aa7a83817c1",
+      "title": "Bourbon adds 13 vessels to offshore fleet following financial restructuring",
+      "source": "Baird Maritime",
+      "sourceId": "baird-maritime",
+      "url": "https://www.bairdmaritime.com/offshore/offshore-support-maintenance/bourbon-adds-13-vessels-to-offshore-fleet-following-financial-restructuring",
+      "publishedAt": "2026-04-22T19:05:11Z",
+      "excerpt": "Bourbon reported a significant expansion of its fleet with the addition of 13 new offshore support vessels since the beginning of 2026, representing a total value exceeding $180 million. The company attributed this expansion to the support\u2026",
+      "tags": [
+        "Offshore Support",
+        "Workboats",
+        "Technology"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [],
+      "priorityScore": 2,
+      "priorityBand": "low",
+      "priorityReasons": [],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "bb5bac2f98d8a786",
+      "title": "Three bidders remain in the race for VW\u2019s Everllence",
+      "source": "Baird Maritime",
+      "sourceId": "baird-maritime",
+      "url": "https://www.bairdmaritime.com/shipping/three-bidders-remain-in-the-race-for-vws-everllence",
+      "publishedAt": "2026-04-22T18:56:42Z",
+      "excerpt": "Volkswagen has selected three suitors for the next round of bidding for its heavy diesel engine division Everllence, Bloomberg News reported on Wednesday, citing people familiar with the matter. CVC Capital Partners, Bain Capital and a con\u2026",
+      "tags": [
+        "Workboats",
+        "Technology"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [],
+      "priorityScore": 2,
+      "priorityBand": "low",
+      "priorityReasons": [],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "1b37f79d0c1a496c",
+      "title": "Saipem looks to profit from Middle East post-war reconstruction work",
+      "source": "Baird Maritime",
+      "sourceId": "baird-maritime",
+      "url": "https://www.bairdmaritime.com/offshore/exploration-development/offshore-construction/saipem-looks-to-profit-from-middle-east-post-war-reconstruction-work",
+      "publishedAt": "2026-04-22T18:53:13Z",
+      "excerpt": "Italy's Saipem can win contracts for post-Iran-war repair work in the Middle East by leveraging its long-term relationships with customers in the region, the energy services group's chief executive said on Wednesday. The cost of repairing\u2026",
+      "tags": [
+        "Workboats",
+        "Technology"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [],
+      "priorityScore": 2,
+      "priorityBand": "low",
+      "priorityReasons": [],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "49c2caf9bf2da4e6",
+      "title": "GECF chief warns Iran conflict may kill natural gas demand for good",
+      "source": "Baird Maritime",
+      "sourceId": "baird-maritime",
+      "url": "https://www.bairdmaritime.com/shipping/tankers/gas/gecf-chief-warns-iran-conflict-may-kill-natural-gas-demand-for-good",
+      "publishedAt": "2026-04-22T18:29:59Z",
+      "excerpt": "The natural gas demand destruction currently resulting from the Iran war as governments implement measures to mitigate the crisis risks becoming structural if the conflict persists, the head of the Gas Exporting Countries Forum said on Wed\u2026",
+      "tags": [
+        "Workboats",
+        "Technology"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [],
+      "priorityScore": 2,
+      "priorityBand": "low",
+      "priorityReasons": [],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "1dc2f48b8a55c818",
+      "title": "Risk appetite divides Asian and Western shipping in Strait of Hormuz",
+      "source": "Baird Maritime",
+      "sourceId": "baird-maritime",
+      "url": "https://www.bairdmaritime.com/shipping/risk-appetite-divides-asian-and-western-shipping-in-strait-of-hormuz",
+      "publishedAt": "2026-04-22T18:24:36Z",
+      "excerpt": "Asian ship owners might begin to sail through the Strait of Hormuz soon amid a fragile US-Iran ceasefire as they have a higher risk tolerance and can manage paying tolls unlike sanctions-complying Western firms, shipping executives said at\u2026",
+      "tags": [
+        "Incidents",
+        "Workboats",
+        "Technology"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [],
+      "priorityScore": 2,
+      "priorityBand": "low",
+      "priorityReasons": [],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "822be5413b80bcb3",
+      "title": "FACTBOX | The EU's 20th package of Russia sanctions, in detail",
+      "source": "Baird Maritime",
+      "sourceId": "baird-maritime",
+      "url": "https://www.bairdmaritime.com/security/incidents/piracy/factbox-the-eus-20th-package-of-russia-sanctions-in-detail",
+      "publishedAt": "2026-04-22T18:17:10Z",
+      "excerpt": "EU envoys are poised to adopt a 20th package of sanctions against Russia over its war in Ukraine with Slovakia and Hungary expected to drop their opposition to the move following the repair of the Druzhba oil pipeline, EU diplomats said. T\u2026",
+      "tags": [
+        "Workboats",
+        "Technology"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [],
+      "priorityScore": 2,
+      "priorityBand": "low",
+      "priorityReasons": [],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "ce4452b872b96147",
+      "title": "Odfjell orders four newbuild stainless steel tankers from Japanese builder",
+      "source": "Baird Maritime",
+      "sourceId": "baird-maritime",
+      "url": "https://www.bairdmaritime.com/shipping/tankers/odfjell-orders-four-newbuild-stainless-steel-tankers-from-japanese-builder",
+      "publishedAt": "2026-04-22T18:05:13Z",
+      "excerpt": "Odfjell Group has reached an agreement to acquire four 40,000 DWT stainless steel tankers to be constructed at Kitanihon Shipbuilding in Japan. Scheduled for delivery between January 1, 2027 and June 30, 2029, the ships will be purchased f\u2026",
+      "tags": [
+        "Workboats",
+        "Technology"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [],
+      "priorityScore": 2,
+      "priorityBand": "low",
+      "priorityReasons": [],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "203240b033da1b7c",
+      "title": "EU to roll out 20th sanctions package against Russia after Slovakia and Hungary end holdout",
+      "source": "Baird Maritime",
+      "sourceId": "baird-maritime",
+      "url": "https://www.bairdmaritime.com/security/incidents/piracy/eu-to-roll-out-20th-sanctions-package-against-russia-after-slovakia-and-hungary-end-holdout",
+      "publishedAt": "2026-04-22T17:55:48Z",
+      "excerpt": "European Union envoys are set to adopt a 20th package of sanctions against Russia, with Slovakia and Hungary expected to drop their opposition to the move following the repair of the Druzhba oil pipeline, EU diplomats said on Wednesday. Th\u2026",
+      "tags": [
+        "Workboats",
+        "Technology"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [],
+      "priorityScore": 2,
+      "priorityBand": "low",
+      "priorityReasons": [],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "ee812a1f0b28b671",
+      "title": "FEATURE | Trump\u2019s ceasefire extension followed by Iranian ship seizures in new escalation",
+      "source": "Baird Maritime",
+      "sourceId": "baird-maritime",
+      "url": "https://www.bairdmaritime.com/security/incidents/piracy/feature-trumps-ceasefire-extension-followed-by-iranian-ship-seizures-in-new-escalation",
+      "publishedAt": "2026-04-22T17:47:51Z",
+      "excerpt": "Iran seized two ships in the Strait of Hormuz on Wednesday, tightening its grip on the strategic waterway after US President Donald Trump called off attacks with no sign of peace talks restarting. Trump maintained the US Navy blockade of I\u2026",
+      "tags": [
+        "Incidents",
+        "Workboats",
+        "Technology"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [],
+      "priorityScore": 2,
+      "priorityBand": "low",
+      "priorityReasons": [],
+      "boardBucket": "Other Relevant"
+    },
+    {
       "id": "58d655ac94da3e06",
       "title": "Routine transit or power play? Chinese warships pass through Okinawa",
       "source": "Baird Maritime",
@@ -4240,13 +4439,13 @@
       "boardBucket": "Other Relevant"
     },
     {
-      "id": "3107bbd2526b0500",
-      "title": "Global Shipping Reforms Cast Shadow Over Tanzania\u2019s Fishing Communities - Global Issues.org",
+      "id": "1acee87b124f0403",
+      "title": "Global Shipping Reforms Cast Shadow Over Tanzania\u2019s Fishing Communities - ipsnews.net",
       "source": "Mesh Maritime News",
       "sourceId": "bing-mesh-maritime",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBnWWx4TmN0NDl6ckM4Y2lEemtIajNWNm5icDM2VWtLRFFuSDZ3MzRiekZJSUVkRnF3QkVzWlEwSTFvQnRCc0tQMFdONGRBUlpPRlNxQno3aEdJSEdVUmtN0gFkQVVfeXFMTlN0OU9iTktrLU9KbFJwTkZZX0MyYlVFbVBaMUZETFY0aGUxNy05bk54bktZWVdNQUl3ZlFDaTNNV2c0VzVqS3EyTjloZGhXV3JoNDMxa0N0WXhVV0pzcHh1NnBzYg?oc=5",
-      "publishedAt": "2026-04-22T07:16:04Z",
-      "excerpt": "Global Shipping Reforms Cast Shadow Over Tanzania\u2019s Fishing Communities Global Issues.org",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNSnA4NHdodHplM0otOHgtdHV4X0JrVXF3bG1aTDFoSXp6b3J5SGhyYUozQ3k2NDZXd1h0Y0JSc1ZBRkRleVpGdXluWkYzOWJBQUcwTDNZcEVWZjRiUmdEZGpSMGZoYUlrS0ZUelA3cmJFMV9vaVlxeG9Bd1JMYndNRlduczhmcmhFdkVKdk5idllUdXZpQmhzMHBJQTN2UVI5TjMzSWhn?oc=5",
+      "publishedAt": "2026-04-22T00:33:37Z",
+      "excerpt": "Global Shipping Reforms Cast Shadow Over Tanzania\u2019s Fishing Communities ipsnews.net",
       "tags": [
         "Maritime",
         "Supplier"
@@ -4376,28 +4575,6 @@
       "priorityReasons": [
         "Signal: Energy Transition"
       ],
-      "boardBucket": "Other Relevant"
-    },
-    {
-      "id": "45442d332c8dfc66",
-      "title": "Shipping Traffic Through Hormuz Still Largely Halted",
-      "source": "gCaptain",
-      "sourceId": "gcaptain",
-      "url": "https://gcaptain.com/shipping-traffic-through-hormuz-still-largely-halted/",
-      "publishedAt": "2026-04-21T16:54:51Z",
-      "excerpt": "Shipping traffic through the Strait of Hormuz remained broadly halted on Tuesday with only three ships passing the waterway in the past 24 hours, shipping data showed.",
-      "tags": [
-        "Maritime",
-        "Operations"
-      ],
-      "audience": "Multraship",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [],
-      "priorityScore": 2,
-      "priorityBand": "low",
-      "priorityReasons": [],
       "boardBucket": "Other Relevant"
     },
     {
@@ -4872,189 +5049,6 @@
         "Towage",
         "Incidents",
         "Safety"
-      ],
-      "audience": "Multraship",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [],
-      "priorityScore": 2,
-      "priorityBand": "low",
-      "priorityReasons": [],
-      "boardBucket": "Other Relevant"
-    },
-    {
-      "id": "f12f5b0ba24db77d",
-      "title": "Trump claims immediate US blockade of Strait of Hormuz in social media post",
-      "source": "Riviera: Safety & Incidents",
-      "sourceId": "riviera-safety",
-      "url": "https://www.rivieramm.com/news-content-hub/trump-claims-immediate-us-blockade-of-strait-of-hormuz-in-social-media-post-88437",
-      "publishedAt": "2026-04-14T18:21:32Z",
-      "excerpt": "US President says forthcoming blockade will apply to \u2019any and all ships trying to enter or leave the Strait of Hormuz\u2019",
-      "tags": [
-        "Safety",
-        "Incidents"
-      ],
-      "audience": "Multraship",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [],
-      "priorityScore": 2,
-      "priorityBand": "low",
-      "priorityReasons": [],
-      "boardBucket": "Other Relevant"
-    },
-    {
-      "id": "85e2e06e5770ff4d",
-      "title": "US Navy to use underwater drones to clear mines in Strait of Hormuz",
-      "source": "Riviera: Safety & Incidents",
-      "sourceId": "riviera-safety",
-      "url": "https://www.rivieramm.com/news-content-hub/us-navy-to-use-underwater-drones-to-clear-mines-in-strait-of-hormuz-88438",
-      "publishedAt": "2026-04-14T09:13:59Z",
-      "excerpt": "Unmanned underwater vehicles will be deployed by the US Navy as part of an effort to clear sea mines from the Strait of Hormuz in an attempt to open the waterway to commercial shipping traffic",
-      "tags": [
-        "Safety",
-        "Incidents"
-      ],
-      "audience": "Multraship",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [],
-      "priorityScore": 2,
-      "priorityBand": "low",
-      "priorityReasons": [],
-      "boardBucket": "Other Relevant"
-    },
-    {
-      "id": "6a3102fd7a830c95",
-      "title": "US military clarifies Trump Hormuz blockade statements; analyst predicts 'tit-for-tat' vessel seizures",
-      "source": "Riviera: Safety & Incidents",
-      "sourceId": "riviera-safety",
-      "url": "https://www.rivieramm.com/news-content-hub/us-military-clarifies-trump-hormuz-blockade-statements-analyst-predicts-tit-for-tat-vessel-seizures-88443",
-      "publishedAt": "2026-04-14T09:13:43Z",
-      "excerpt": "US Central Command says blockade will apply to \u2019all maritime traffic entering and exiting Iranian ports\u2019 and will begin in the evening, local time, of 13 April",
-      "tags": [
-        "Safety",
-        "Incidents"
-      ],
-      "audience": "Multraship",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [],
-      "priorityScore": 2,
-      "priorityBand": "low",
-      "priorityReasons": [],
-      "boardBucket": "Other Relevant"
-    },
-    {
-      "id": "2adce82672679b39",
-      "title": "Hanwha Engine finalises deal for electric propulsion specialists SEAM",
-      "source": "Riviera: Propulsion",
-      "sourceId": "riviera-propulsion",
-      "url": "https://www.rivieramm.com/news-content-hub/hanwha-engine-finalises-deal-for-electric-propulsion-specialists-88428",
-      "publishedAt": "2026-04-10T14:28:03Z",
-      "excerpt": "Hanwha Engine, a division of South Korean conglomerate Hanwha Group, has acquired Norway-based electric propulsion and system integration specialist SEAM",
-      "tags": [
-        "Electrification",
-        "Clean Propulsion",
-        "Propulsion",
-        "Technology"
-      ],
-      "audience": "Novatug",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [
-        "Energy Transition"
-      ],
-      "priorityScore": 2,
-      "priorityBand": "low",
-      "priorityReasons": [
-        "Signal: Energy Transition"
-      ],
-      "boardBucket": "Other Relevant"
-    },
-    {
-      "id": "26e49303a65d486c",
-      "title": "Segregate connectivity networks to mitigate cyber risk",
-      "source": "Riviera: Safety & Incidents",
-      "sourceId": "riviera-safety",
-      "url": "https://www.rivieramm.com/news-content-hub/segregate-connectivity-networks-to-mitigate-cyber-risk-88423",
-      "publishedAt": "2026-04-10T09:30:00Z",
-      "excerpt": "Operators of ferries and cruise ships should isolate passenger, business and operational networks",
-      "tags": [
-        "Safety",
-        "Incidents"
-      ],
-      "audience": "Multraship",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [],
-      "priorityScore": 2,
-      "priorityBand": "low",
-      "priorityReasons": [],
-      "boardBucket": "Other Relevant"
-    },
-    {
-      "id": "98e30353d6706854",
-      "title": "Suderman & Young expands into Texan ports",
-      "source": "Riviera: Ports & Terminals",
-      "sourceId": "riviera-ports",
-      "url": "https://www.rivieramm.com/news-content-hub/suderman-amp-young-expands-into-two-texan-ports-88406",
-      "publishedAt": "2026-04-10T08:30:00Z",
-      "excerpt": "US tug owner reinforces towage services in harbours close to the Mexican border",
-      "tags": [
-        "Towage",
-        "Ports",
-        "Terminals"
-      ],
-      "audience": "Multraship",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [],
-      "priorityScore": 2,
-      "priorityBand": "low",
-      "priorityReasons": [],
-      "boardBucket": "Other Relevant"
-    },
-    {
-      "id": "02244b4cbf28093a",
-      "title": "Threatening mines, Iran claims new Hormuz traffic scheme; vessels told Strait closed",
-      "source": "Riviera: Safety & Incidents",
-      "sourceId": "riviera-safety",
-      "url": "https://www.rivieramm.com/news-content-hub/threatening-mines-iran-claims-new-hormuz-traffic-scheme-vessels-told-strait-closed-88419",
-      "publishedAt": "2026-04-09T13:40:53Z",
-      "excerpt": "Iranian communications to vessels mirror observed ship movements as a temporary, conditional ceasefire deal quickly began to unravel amid Israeli strikes in Lebanon that killed more than 200",
-      "tags": [
-        "Incidents",
-        "Safety"
-      ],
-      "audience": "Multraship",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [],
-      "priorityScore": 2,
-      "priorityBand": "low",
-      "priorityReasons": [],
-      "boardBucket": "Other Relevant"
-    },
-    {
-      "id": "c4076502d3a2c11e",
-      "title": "UK enhances maritime security, deploys 50 radar systems",
-      "source": "Riviera: Safety & Incidents",
-      "sourceId": "riviera-safety",
-      "url": "https://www.rivieramm.com/news-content-hub/uk-enhances-maritime-security-with-50-radar-systems-deployed-88415",
-      "publishedAt": "2026-04-09T10:08:58Z",
-      "excerpt": "Solid-state radar transceivers will be deployed around the UK to improve coastal surveillance",
-      "tags": [
-        "Safety",
-        "Incidents"
       ],
       "audience": "Multraship",
       "paywalled": false,

@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-04-22T17:59:18.569082Z",
-  "articleCount": 3072,
+  "generatedAt": "2026-04-22T19:25:20.589826Z",
+  "articleCount": 3096,
   "articles": [
     {
       "id": "e2d6c1330faf292d",
@@ -1569,6 +1569,44 @@
       "boardBucket": "High Priority"
     },
     {
+      "id": "6eae86db573ca291",
+      "title": "Damen Delivers New Tugs to Fairplay Towage Group and Louis Meyer - Marine News Magazine",
+      "source": "Damen Shipyards News",
+      "sourceId": "bing-damen",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQMHhqNEI4Ylh1dk5Za19oZlR0Q1ZmU2tVSnJzZGFnZldsTGZuVERxbjMxVUc1QmNQbjRtTHNDTG5LMGpoV0Z2TFJOZlptWEZUT1RZRHBDWVpfblY5OU1KUy0zMmpEdGxmU3RBekxTcWlJczdxd0U1RFBRM25rNFpwZmdoZm0?oc=5",
+      "publishedAt": "2025-12-17T08:00:00Z",
+      "excerpt": "Damen Delivers New Tugs to Fairplay Towage Group and Louis Meyer Marine News Magazine",
+      "tags": [
+        "Towage",
+        "Shipbuilding",
+        "Supplier"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [
+        {
+          "name": "Damen Shipyards Group",
+          "category": "suppliers"
+        },
+        {
+          "name": "Fairplay Towage",
+          "category": "competitors"
+        }
+      ],
+      "locations": [],
+      "businessTags": [
+        "Supplier",
+        "Competitor"
+      ],
+      "priorityScore": 9,
+      "priorityBand": "high",
+      "priorityReasons": [
+        "Supplier mention: Damen Shipyards Group",
+        "Competitor mention: Fairplay Towage"
+      ],
+      "boardBucket": "High Priority"
+    },
+    {
       "id": "5256432ba42893b1",
       "title": "Damen Yachting announces the sale of the latest Amels 60 yacht - SuperYacht Times",
       "source": "Damen Yachting News",
@@ -1895,6 +1933,39 @@
       "boardBucket": "High Priority"
     },
     {
+      "id": "489771a6163bba35",
+      "title": "Fred Olsen Seawind acquires full ownership of Scottish wind project",
+      "source": "Baird Maritime",
+      "sourceId": "baird-maritime",
+      "url": "https://www.bairdmaritime.com/offshore/renewables/offshore-wind/fred-olsen-seawind-acquires-full-ownership-of-scottish-wind-project",
+      "publishedAt": "2026-04-22T18:45:46Z",
+      "excerpt": "Fred Olsen Seawind has reached an agreement to purchase the 50 per cent stake held by Vattenfall in the Muir Mh\u00f2r floating offshore wind farm in Scotland. This share sale will result in the company, a subsidiary of Bonheur, assuming 100 pe\u2026",
+      "tags": [
+        "Workboats",
+        "Technology"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [
+        {
+          "name": "Vattenfall",
+          "category": "clients"
+        }
+      ],
+      "locations": [],
+      "businessTags": [
+        "Client",
+        "Commercial"
+      ],
+      "priorityScore": 8,
+      "priorityBand": "medium",
+      "priorityReasons": [
+        "Client mention: Vattenfall",
+        "Signal: Commercial"
+      ],
+      "boardBucket": "Clients & Projects"
+    },
+    {
       "id": "7287d0d2b602edcf",
       "title": "Drax extends Ultrabulk wood pellet shipping contract through 2031 - lesprom.com",
       "source": "Ultrabulk News",
@@ -2055,6 +2126,40 @@
       "boardBucket": "Competitors & Market"
     },
     {
+      "id": "61f22423bdb9f4e6",
+      "title": "Port Authority of Puerto Quetzal to Receive Damen ASD Tug 2312 - Marine News Magazine",
+      "source": "Damen Shipyards News",
+      "sourceId": "bing-damen",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQVEFqbmhwbWVuSUtWWjA2RVZWeWRUTk5sdERZRVlzNGYxWkIyRzRFSjlCNlNiMVdoQWg3T3dpdENlcm5Rai1ZYnE1LWdwclJLaUo3WXpvc1ZEQ3hqTnRtdXdPQnFUZTFZT3B1d1BabmtMT192SnM2N05uSy1vTjV3cWVB?oc=5",
+      "publishedAt": "2026-03-31T07:00:00Z",
+      "excerpt": "Port Authority of Puerto Quetzal to Receive Damen ASD Tug 2312 Marine News Magazine",
+      "tags": [
+        "Towage",
+        "Shipbuilding",
+        "Supplier"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [
+        {
+          "name": "Damen Shipyards Group",
+          "category": "suppliers"
+        }
+      ],
+      "locations": [],
+      "businessTags": [
+        "Supplier",
+        "Regulation"
+      ],
+      "priorityScore": 8,
+      "priorityBand": "medium",
+      "priorityReasons": [
+        "Supplier mention: Damen Shipyards Group",
+        "Signal: Regulation"
+      ],
+      "boardBucket": "Regulation, Safety & Incidents"
+    },
+    {
       "id": "ccff44b4d18e20aa",
       "title": "Damen Shipyards sees profit rise along with deliveries as legal cases linger - Tradewinds News",
       "source": "Damen Shipyards News",
@@ -2086,39 +2191,6 @@
         "Signal: Regulation"
       ],
       "boardBucket": "Regulation, Safety & Incidents"
-    },
-    {
-      "id": "ec824377994e752e",
-      "title": "Van Oord secures final award for dyke reinforcement project in Limburg, Netherlands - Baird Maritime",
-      "source": "Van Oord News",
-      "sourceId": "bing-van-oord",
-      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPanlQSU5aTk1JaFFMamtrVTlTbnc0U3hXZGNFNnRFakJLUnpabjlEajFwQm9BU3pSY1hrY3ZmTHBPYkk4Z2VJZml5OG1xZnRENlh3NG1tYXBiWDdzeW42TXNJeGFzN21sa2t6b08ybUJNMjdla2QxSk5kZVA4OWswalY0UGRYTVFzX0J2bmN0bzBSZHJVMUszVmVvWjhvTlRzVjF2RXJrQXc3Z3lWODlBMEhTLTFzZHhUY0hwN2luQVkwSzlJMXIwMldzbElBQ1o4Q2JfWEZLanVFb085R0VhS2drTE3SAfIBQVVfeXFMUENRbEo0cnUxV3FMVE42cEV2NTRISlNqMXN2aEdYVDVtdEFiSjdQUVFvdXdwcXVVN2tHdUkyTUZ4MWo2TmRpbmVnbFdPX2VoVmNSd1hvRnZyV1NDWlphNEsxeTZ0dzFiLXhUd3ltSVBXMTB5QVlsLVBTVXA4bjlpbVZqRVdEbG12RHJnR0dNNGZTS1ZZT0t5VlZRLXBLNlo2UDd3TUo5VHhoUDNlMGhLMzUyMEsxNG82NW5uZjVuTXpKbF9paURFWHluZkEzTXY0SS1MTE1fdEc4di1HaHRaMTl4UEhLbEhCbkNvYUdyZkN6TUE?oc=5",
-      "publishedAt": "2026-03-12T07:00:00Z",
-      "excerpt": "Van Oord secures final award for dyke reinforcement project in Limburg, Netherlands Baird Maritime",
-      "tags": [
-        "Offshore",
-        "Dredging"
-      ],
-      "audience": "Multraship",
-      "paywalled": false,
-      "entities": [
-        {
-          "name": "Van Oord",
-          "category": "clients"
-        }
-      ],
-      "locations": [],
-      "businessTags": [
-        "Client",
-        "Commercial"
-      ],
-      "priorityScore": 8,
-      "priorityBand": "medium",
-      "priorityReasons": [
-        "Client mention: Van Oord",
-        "Signal: Commercial"
-      ],
-      "boardBucket": "Clients & Projects"
     },
     {
       "id": "05e9d3119e8303ee",
@@ -3098,6 +3170,39 @@
       "boardBucket": "Regulation, Safety & Incidents"
     },
     {
+      "id": "fb1dbe2fa0bd6165",
+      "title": "Damen Signs Contract to Deliver Combi Freighters (CF) 3850 to the Polidano Group - Marine News Magazine",
+      "source": "Damen Shipyards News",
+      "sourceId": "bing-damen",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBjeTVMcEthaHZ3cmpkWHIwUW1ELVBEci00UFJOV3NPd3dZbzBwdEV4ZjgxSTRPNVhpYTFQMlZlTGY3ZHl1R3lKOURSUmxDUGJsVVo2UEJfekZMdkgzTFc5TUlRYzAxQWdzbUhkc1pUOHdDYlgzQ3NSZ0V2ekMxUQ?oc=5",
+      "publishedAt": "2026-03-30T07:00:00Z",
+      "excerpt": "Damen Signs Contract to Deliver Combi Freighters (CF) 3850 to the Polidano Group Marine News Magazine",
+      "tags": [
+        "Shipbuilding",
+        "Supplier"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [
+        {
+          "name": "Damen Shipyards Group",
+          "category": "suppliers"
+        }
+      ],
+      "locations": [],
+      "businessTags": [
+        "Supplier",
+        "Commercial"
+      ],
+      "priorityScore": 7,
+      "priorityBand": "medium",
+      "priorityReasons": [
+        "Supplier mention: Damen Shipyards Group",
+        "Signal: Commercial"
+      ],
+      "boardBucket": "Other Relevant"
+    },
+    {
       "id": "db8e9e230ecd1164",
       "title": "Damen Shipyards unveils electric ferry for public transport - electrive.com",
       "source": "Damen Shipyards News",
@@ -3199,6 +3304,73 @@
       "boardBucket": "Other Relevant"
     },
     {
+      "id": "46e0ec3c3aac837e",
+      "title": "W\u00e4rtsil\u00e4 Water & Waste Achieves 98.2% Compliance in Alaskan Cruise Wastewater Testing - Marine News Magazine",
+      "source": "W\u00e4rtsil\u00e4 News",
+      "sourceId": "bing-wartsila",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOV3d4a0xaN3o2YXBabmxwSm5SMGJKeUM2UTBKT0xFcEJUbktNdmtaRDA1LXRYMWFGMnNSYktDeFJIUE45M3Y0U0V3NVpLbVFQVXpRb1JTU2hMN2htQVMxV3RmQ1Q0MXJPX0ZtYVp2czFrNHVJM2xVS2VIVlB6TkV2aEl0VQ?oc=5",
+      "publishedAt": "2025-11-19T08:00:00Z",
+      "excerpt": "W\u00e4rtsil\u00e4 Water & Waste Achieves 98.2% Compliance in Alaskan Cruise Wastewater Testing Marine News Magazine",
+      "tags": [
+        "Regulation",
+        "Propulsion",
+        "Technology"
+      ],
+      "audience": "Both",
+      "paywalled": false,
+      "entities": [
+        {
+          "name": "W\u00e4rtsil\u00e4",
+          "category": "suppliers"
+        }
+      ],
+      "locations": [],
+      "businessTags": [
+        "Supplier",
+        "Regulation"
+      ],
+      "priorityScore": 7,
+      "priorityBand": "medium",
+      "priorityReasons": [
+        "Supplier mention: W\u00e4rtsil\u00e4",
+        "Signal: Regulation"
+      ],
+      "boardBucket": "Regulation, Safety & Incidents"
+    },
+    {
+      "id": "930a6417d0cbe3f3",
+      "title": "Damen and Germany in ongoing talks over future of F126 frigate project - NavalToday.com",
+      "source": "Damen Shipyards News",
+      "sourceId": "bing-damen",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQQ3BScHVVVVZVUUoyaFJhdDd0UkNtLUxxVWJBa3JXcXc2SjYzc0MxcXlOajVBZWlEQmR6SnZadkRLRy11NFJYbW9lSjZXal91VE1rNGpKSlkzdU5pd1R2aXpfdzVVa2d5ckRWNERSU2YwWG5uWUtkaVZJZEhaTE5xMURIVzQyQktsSEVpSzhGLWROczVWTXAyc1lwMHNKeHVfUEU1WnROeThvdVpkUHc?oc=5",
+      "publishedAt": "2025-11-17T08:00:00Z",
+      "excerpt": "Damen and Germany in ongoing talks over future of F126 frigate project NavalToday.com",
+      "tags": [
+        "Shipbuilding",
+        "Supplier"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [
+        {
+          "name": "Damen Shipyards Group",
+          "category": "suppliers"
+        }
+      ],
+      "locations": [],
+      "businessTags": [
+        "Supplier",
+        "Commercial"
+      ],
+      "priorityScore": 7,
+      "priorityBand": "medium",
+      "priorityReasons": [
+        "Supplier mention: Damen Shipyards Group",
+        "Signal: Commercial"
+      ],
+      "boardBucket": "Other Relevant"
+    },
+    {
       "id": "ae21eb9afd1dd72f",
       "title": "Two strong bidding groups to vie for \u20b919,239 crore dredging and offshore reclamation contract for Vadhvan Port - DredgeWire",
       "source": "Boskalis News",
@@ -3252,6 +3424,32 @@
       "priorityReasons": [
         "Signal: Infrastructure",
         "Signal: Energy Transition"
+      ],
+      "boardBucket": "Regulation, Safety & Incidents"
+    },
+    {
+      "id": "6e742b77be664be6",
+      "title": "Iran Ship Seizures Show \u2018Weaponization of Trade\u2019 in Hormuz, Xeneta Warns",
+      "source": "gCaptain",
+      "sourceId": "gcaptain",
+      "url": "https://gcaptain.com/iran-ship-seizures-show-weaponization-of-trade-in-hormuz-xeneta-warns/",
+      "publishedAt": "2026-04-22T18:44:16Z",
+      "excerpt": "Iran\u2019s reported seizure of two MSC containerships in the Strait of Hormuz is the latest sign the crisis in the strategic waterway has evolved beyond a shipping disruption into what...",
+      "tags": [
+        "Maritime",
+        "Operations"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [
+        "Disruption"
+      ],
+      "priorityScore": 6,
+      "priorityBand": "medium",
+      "priorityReasons": [
+        "Signal: Disruption"
       ],
       "boardBucket": "Regulation, Safety & Incidents"
     },
@@ -3758,11 +3956,11 @@
       "boardBucket": "Competitors & Market"
     },
     {
-      "id": "120b77fbfe343797",
+      "id": "c7034f627cd008ac",
       "title": "Norwegian co to supply 18 big waterjet systems for Indian Navy's next-gen missile vessel project",
       "source": "Kongsberg Maritime News",
       "sourceId": "bing-kongsberg",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=69e90c7d39d44dbc83de1deee603fe34&url=https%3a%2f%2fwww.msn.com%2fen-in%2fnews%2fother%2fnorwegian-co-to-supply-18-big-waterjet-systems-for-indian-navy-s-next-gen-missile-vessel-project%2far-AA20Nuet&c=4609846177532778353&mkt=en-us",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=69e920a732cf41968e89c784e5389185&url=https%3a%2f%2fwww.msn.com%2fen-in%2fnews%2fother%2fnorwegian-co-to-supply-18-big-waterjet-systems-for-indian-navy-s-next-gen-missile-vessel-project%2far-AA20Nuet&c=4609846177532778353&mkt=en-us",
       "publishedAt": "2026-04-13T16:47:00Z",
       "excerpt": "India's Navy is set to receive 18 advanced Kamewa waterjet propulsion systems from Norway's Kongsberg Maritime for its new missile vessels. This significant contract, awarded in partnership with ...",
       "tags": [
@@ -3818,70 +4016,6 @@
         "Signal: Incident"
       ],
       "boardBucket": "Regulation, Safety & Incidents"
-    },
-    {
-      "id": "82303d0be81eae01",
-      "title": "Deme Group NV MT0",
-      "source": "DEME Group News",
-      "sourceId": "bing-deme",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=69e90c7f4e1540419fa4ae1815dcec26&url=https%3a%2f%2fwww.morningstar.com%2fstocks%2fxstu%2fmt0%2fquote&c=702618500465205373&mkt=en-us",
-      "publishedAt": "2026-04-10T05:55:00Z",
-      "excerpt": "Morningstar Quantitative Ratings for Stocks are generated using an algorithm that compares companies that are not under analyst coverage to peer companies that do receive analyst-driven ratings.",
-      "tags": [
-        "Offshore",
-        "Marine-Construction"
-      ],
-      "audience": "Multraship",
-      "paywalled": false,
-      "entities": [
-        {
-          "name": "DEME Group",
-          "category": "clients"
-        }
-      ],
-      "locations": [],
-      "businessTags": [
-        "Client"
-      ],
-      "priorityScore": 6,
-      "priorityBand": "medium",
-      "priorityReasons": [
-        "Client mention: DEME Group"
-      ],
-      "boardBucket": "Clients & Projects"
-    },
-    {
-      "id": "d8d12466ef748bff",
-      "title": "Kongsberg Maritime secures largest-ever waterjet contract",
-      "source": "Kongsberg Maritime News",
-      "sourceId": "bing-kongsberg",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=69e90c7d39d44dbc83de1deee603fe34&url=https%3a%2f%2fmaritimt.com%2fkongsberg-maritime-secures-largest-ever-waterjet-contract&c=2989329961921340396&mkt=en-us",
-      "publishedAt": "2026-04-08T02:34:00Z",
-      "excerpt": "Kongsberg Maritime has signed a landmark contract to supply 18 large Kamewa waterjets for the Indian Navy\u2019s Next Generation Missile Vessel (NGMV) programme. Each of the vessels will feature waterjets, ...",
-      "tags": [
-        "Technology",
-        "Supplier"
-      ],
-      "audience": "Both",
-      "paywalled": false,
-      "entities": [
-        {
-          "name": "Kongsberg Maritime",
-          "category": "suppliers"
-        }
-      ],
-      "locations": [],
-      "businessTags": [
-        "Supplier",
-        "Commercial"
-      ],
-      "priorityScore": 6,
-      "priorityBand": "medium",
-      "priorityReasons": [
-        "Supplier mention: Kongsberg Maritime",
-        "Signal: Commercial"
-      ],
-      "boardBucket": "Other Relevant"
     },
     {
       "id": "8c15e609326590e5",
@@ -4259,6 +4393,36 @@
       "boardBucket": "Clients & Projects"
     },
     {
+      "id": "f0e1b6fceb7b988c",
+      "title": "Fifth Amels 80 sold shortly after arrival in Vlissingen - BOAT International",
+      "source": "Damen Yachting News",
+      "sourceId": "bing-damen-yachting",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPSmNLdFdvRVk1a2k4cE50TXJmeEdVYmdQWGdVYkdTeGVXQ1M5ZFc0eHpuaWpVZGxsZ0RwN18zOGt1VXRiYW9DMUZNMC1pSTBISml2N2pvTk9MN28teGNqQ3FIWm9MdVZBTFVZM2d3LUpxWEg5RDd1QkxvTzVFa2hhUFVOY19HYm5Xcms2OW9WQXlsdzJIS1pFMHNlVGI?oc=5",
+      "publishedAt": "2026-03-20T07:00:00Z",
+      "excerpt": "Fifth Amels 80 sold shortly after arrival in Vlissingen BOAT International",
+      "tags": [
+        "Yachting"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [],
+      "locations": [
+        {
+          "name": "Vlissingen",
+          "type": "core-port"
+        }
+      ],
+      "businessTags": [
+        "Port: Vlissingen"
+      ],
+      "priorityScore": 6,
+      "priorityBand": "medium",
+      "priorityReasons": [
+        "Core port watch: Vlissingen"
+      ],
+      "boardBucket": "Port Watch"
+    },
+    {
       "id": "84387c248c513ed0",
       "title": "Hydrogen-fuelled ships carry greater risks than LNG-powered vessels, DNV concludes after multi-year EU-commissioned study - Hydrogen Insight",
       "source": "DNV News",
@@ -4514,11 +4678,11 @@
       "boardBucket": "Other Relevant"
     },
     {
-      "id": "d6a9d35730cd77d6",
+      "id": "db31cc62c29b46da",
       "title": "DEME Group (ENXTBR:DEME) Price Target Increased by 11.16% to 202.30",
       "source": "DEME Group News",
       "sourceId": "bing-deme",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=69e90c7f4e1540419fa4ae1815dcec26&url=https%3a%2f%2fwww.nasdaq.com%2farticles%2fdeme-group-enxtbr-deme-price-target-increased-1116-20230&c=10211048898713798937&mkt=en-us",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=69e920a824a840f5a8b861c4fd6f9767&url=https%3a%2f%2fwww.nasdaq.com%2farticles%2fdeme-group-enxtbr-deme-price-target-increased-1116-20230&c=10211048898713798937&mkt=en-us",
       "publishedAt": "2026-02-23T16:00:00Z",
       "excerpt": "The average one-year price target for DEME Group (ENXTBR:DEME) has been revised to 202,30 \u20ac / share. This is an increase of 11.16% from the prior estimate of 182,00 \u20ac dated February 1, 2026. The price ...",
       "tags": [
@@ -4583,6 +4747,37 @@
       "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOSThmVE1wTzB2Q0JEckJqbFdNVV9UNW9ad0JjSDlDRC1YcWpsRTdrS0htWTBNemlYRGpXd2ozSWRZcF9EWWdIX3ppY1lvMHN3dHlhVnYxcFY2NDI0dUlHSHg4U3ljd3YwXy0yV3ExVjB5aDFlYWcxVlFiZHQ2eXhLNVJiQ2gwRldzVzUxWlp6UGVGY2dUZUR2b2F2VXdtSzNxMjRlQ3VR?oc=5",
       "publishedAt": "2026-02-17T08:00:00Z",
       "excerpt": "Oldendorff Carriers bags 25m tonne Emsteel freight agreement Seatrade Maritime News",
+      "tags": [
+        "Shipping",
+        "Bulk"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [
+        {
+          "name": "Oldendorff Carriers",
+          "category": "clients"
+        }
+      ],
+      "locations": [],
+      "businessTags": [
+        "Client"
+      ],
+      "priorityScore": 6,
+      "priorityBand": "medium",
+      "priorityReasons": [
+        "Client mention: Oldendorff Carriers"
+      ],
+      "boardBucket": "Clients & Projects"
+    },
+    {
+      "id": "dd63eb06e0aea85c",
+      "title": "Emsteel, Oldendorff Carriers sign AED600 million five-year raw material freight agreement - MSN",
+      "source": "Oldendorff Carriers News",
+      "sourceId": "bing-oldendorff",
+      "url": "https://news.google.com/rss/articles/CBMi6gJBVV95cUxPRmJxZ0lEM2piQi04UlR1QklIUzBkZkVjVnVkNkZnSHI1MHIwLVpYdFFmUG5wSjgtQktuRkNKLUV3MG9iZWxUWUpWY3BPbXRhSnNlSDljamFRWUdEWXZOYm00cHdCVnA1dlNKZlJYS045RnZMdUtoSENuNEI4dWV4dkdOaE1SdzJmZWw3d3Iyb1hrVm9rRVhRSDh2WHJVcUM1cFdnVWZXY2lFbW16ZjFWWGlJZlVGckFfdmJucmhDd2xTWU5hRkhudkN1UlNObEhUM0hhUWFGdkY2LXdfTGNseXBVbkVmTGlKeXdJa2p5V084dkhpUHhHSVhrZ25Ta2gtY0FKLWM3SGNUNEJOVTA4OTBHNVJvTUk0YTFfYkFiUEl3bzdJVU5qUjVEbnk0cHFRZVlXRU51WTRGWUZJekxTUDg4VmJTRFRyd19wSWkzdEs3SkxZYVV5eEd0WXdrOW1iVDUyQkl3Y2I5Zw?oc=5",
+      "publishedAt": "2026-02-17T08:00:00Z",
+      "excerpt": "Emsteel, Oldendorff Carriers sign AED600 million five-year raw material freight agreement MSN",
       "tags": [
         "Shipping",
         "Bulk"
@@ -4824,6 +5019,37 @@
       "boardBucket": "Clients & Projects"
     },
     {
+      "id": "242cd9f951dc3fa1",
+      "title": "Oldendorff-backed lender M&M Bank sees shipping loans soar amid high level of credit - Tradewinds News",
+      "source": "Oldendorff Carriers News",
+      "sourceId": "bing-oldendorff",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQRlZHQWxKaEdJYzVPeEdMaGxoM0ZmXzJWR0pZdkVpa2l6QXlKc2QxUW45eThqVzRvQXh3c2NzU3pnNFZKaE1QaXVDeFRBVTFId0lTNTlTVUFJM1B5OEpIMmFTZEo4ZnQwMUFWeTBYY0FNQm9BVmI0NmZlall1RHhQWmtWeWF4ZFhkZG9FUTJ0V0JtMlgxaVBsc1pRaWVqNnZuMzlhUVl5SGhadUtQODZoVnotNElBRXpnUlJ2V3NCMW9kWnRJVFZVcW1kenZ5WFZr?oc=5",
+      "publishedAt": "2026-02-12T08:00:00Z",
+      "excerpt": "Oldendorff-backed lender M&M Bank sees shipping loans soar amid high level of credit Tradewinds News",
+      "tags": [
+        "Shipping",
+        "Bulk"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [
+        {
+          "name": "Oldendorff Carriers",
+          "category": "clients"
+        }
+      ],
+      "locations": [],
+      "businessTags": [
+        "Client"
+      ],
+      "priorityScore": 6,
+      "priorityBand": "medium",
+      "priorityReasons": [
+        "Client mention: Oldendorff Carriers"
+      ],
+      "boardBucket": "Clients & Projects"
+    },
+    {
       "id": "adf4818815d74b47",
       "title": "DFDS back-up freight vessel due to commence operations from today - Jersey Evening Post",
       "source": "DFDS News",
@@ -5029,37 +5255,6 @@
       "priorityBand": "medium",
       "priorityReasons": [
         "Client mention: DFDS"
-      ],
-      "boardBucket": "Clients & Projects"
-    },
-    {
-      "id": "6f98846700956621",
-      "title": "Glamox to supply marine lighting for Van Oord subsea rock installation vessel - Windtech International",
-      "source": "Van Oord News",
-      "sourceId": "bing-van-oord",
-      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQTDAwdWlOaHBuekNQYnRVd1NhVU9NeFN0Uk1rOEFzU05HNjV0SUJac2cwOTZhd3lIMFN5QngzN3NCOWZmMUVtME1CYnNhSEphTkEya1ZockNwM05hNTJiVDVzblUwNWFZVW5MQTA4NC1kcWUyUGx0Z2dVOXRWMTh1TTJVVXNFZWNkWTUtek12QVpQNHBMYWFlRmNWWjY0dU5zSHlEQnc4NmRSSWxvSTN4MkI1Y1JlOTZVNzRWYWFXZVFaQW9MSTVaYy1ha1dXdlhwLUV3WlB3?oc=5",
-      "publishedAt": "2026-02-04T08:00:00Z",
-      "excerpt": "Glamox to supply marine lighting for Van Oord subsea rock installation vessel Windtech International",
-      "tags": [
-        "Offshore",
-        "Dredging"
-      ],
-      "audience": "Multraship",
-      "paywalled": false,
-      "entities": [
-        {
-          "name": "Van Oord",
-          "category": "clients"
-        }
-      ],
-      "locations": [],
-      "businessTags": [
-        "Client"
-      ],
-      "priorityScore": 6,
-      "priorityBand": "medium",
-      "priorityReasons": [
-        "Client mention: Van Oord"
       ],
       "boardBucket": "Clients & Projects"
     },
@@ -5379,38 +5574,6 @@
       "priorityBand": "medium",
       "priorityReasons": [
         "Client mention: Maersk Tankers"
-      ],
-      "boardBucket": "Clients & Projects"
-    },
-    {
-      "id": "56ffe73f39e6e2a3",
-      "title": "Van Oord selected for beach restoration works in Portugal - Baird Maritime",
-      "source": "Van Oord News",
-      "sourceId": "bing-van-oord",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPZ0RDNkZGOE5UUWVHaDVTSEhWRGdzc3RtZTIxSFdlODNGYTRkNmJKbzdLZ1RsMkJnN21VNVN1RllZX3M5bXVsSmREc1RNbS12TkdUMG5Ma2hURkhNUWRTWW1KMzlweGp3bzJGcGRpSnNlVldaSVVjSFZySEhmWDU4TW9DV2NveG9mQ1Axd2RwMVhlam92dW5NRzFwc0EzZHRFTUV2V0t5V25iNTAyQW56bzV30gG_AUFVX3lxTE9FLUVHNWJHYThjLU54MlVsUnhNZ2JJU2RWaGZCQTdDQ2JNcDhhRzNKWldJUi1xLVdOTEdGZ24zOHpvUHN0Z0psTnJaeTI3STRUeVEtQ2VXNEFkeDdvUk5LWUp6U0lMV3EzVWt2VG90OTV2TFJXbHJkNUFUVWN4eDlteXZZSkswbndUekNHM1ZFMWU5MGt4RWtPY1h1ODdmY3VRVjVTUGlKenF1cHQ4NFAwZzdxRW5NNWZJWUJtMkFv?oc=5",
-      "publishedAt": "2026-01-21T08:00:00Z",
-      "excerpt": "Van Oord selected for beach restoration works in Portugal Baird Maritime",
-      "tags": [
-        "Towage",
-        "Offshore",
-        "Dredging"
-      ],
-      "audience": "Multraship",
-      "paywalled": false,
-      "entities": [
-        {
-          "name": "Van Oord",
-          "category": "clients"
-        }
-      ],
-      "locations": [],
-      "businessTags": [
-        "Client"
-      ],
-      "priorityScore": 6,
-      "priorityBand": "medium",
-      "priorityReasons": [
-        "Client mention: Van Oord"
       ],
       "boardBucket": "Clients & Projects"
     },
@@ -6091,6 +6254,37 @@
       "priorityBand": "medium",
       "priorityReasons": [
         "Client mention: DFDS"
+      ],
+      "boardBucket": "Clients & Projects"
+    },
+    {
+      "id": "47e0d0b75a40ad24",
+      "title": "Van Oord completes offshore works in West White Rose - Inspenet",
+      "source": "Van Oord News",
+      "sourceId": "bing-van-oord",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQNnFDZXU0TUpfZHoyWnktbml2bktDVnRWTHFyMWEzdDJVQmdmQ3k0aTNEc0VUclVpX2ppRnRIZ2pJai0zd19rLWg1LVoxWEUtM0JROC1UYlh0Y1hqOW0taGF0bmliaWRpTDNmMWxlLWtPWjVBb0dldU1fbnl4RU5IQWVpa1NBQQ?oc=5",
+      "publishedAt": "2025-12-11T08:00:00Z",
+      "excerpt": "Van Oord completes offshore works in West White Rose Inspenet",
+      "tags": [
+        "Offshore",
+        "Dredging"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [
+        {
+          "name": "Van Oord",
+          "category": "clients"
+        }
+      ],
+      "locations": [],
+      "businessTags": [
+        "Client"
+      ],
+      "priorityScore": 6,
+      "priorityBand": "medium",
+      "priorityReasons": [
+        "Client mention: Van Oord"
       ],
       "boardBucket": "Clients & Projects"
     },
@@ -7030,6 +7224,37 @@
       "boardBucket": "Clients & Projects"
     },
     {
+      "id": "64ba12e4e58a94dd",
+      "title": "Shell eyes Sierra Leone\u2019s offshore potential in new survey deal",
+      "source": "Baird Maritime",
+      "sourceId": "baird-maritime",
+      "url": "https://www.bairdmaritime.com/offshore/exploration-development/subsea-surveying/shell-eyes-sierra-leones-offshore-potential-in-new-survey-deal",
+      "publishedAt": "2026-04-22T18:49:09Z",
+      "excerpt": "Sierra Leone has signed an agreement with Shell that allows the oil major to conduct advanced geological and geophysical surveys across multiple offshore blocks, the country's petroleum directorate said on Wednesday. The reconnaissance per\u2026",
+      "tags": [
+        "Workboats",
+        "Technology"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [
+        {
+          "name": "Shell Nederland",
+          "category": "suppliers"
+        }
+      ],
+      "locations": [],
+      "businessTags": [
+        "Supplier"
+      ],
+      "priorityScore": 5,
+      "priorityBand": "medium",
+      "priorityReasons": [
+        "Supplier mention: Shell Nederland"
+      ],
+      "boardBucket": "Other Relevant"
+    },
+    {
       "id": "a855ffe62aeb7ea7",
       "title": "Vopak reports lower profit and revenue in Q1 2026",
       "source": "Baird Maritime",
@@ -7109,35 +7334,6 @@
       "priorityBand": "medium",
       "priorityReasons": [
         "Signal: Regulation",
-        "Signal: Energy Transition"
-      ],
-      "boardBucket": "Regulation, Safety & Incidents"
-    },
-    {
-      "id": "6b86e14f9655c818",
-      "title": "Cavotec Launches Redesigned PowerMove RoRo NxG Platform",
-      "source": "MarineLink",
-      "sourceId": "marinelink",
-      "url": "https://www.marinelink.com/news/cavotec-launches-redesigned-powermove-538355",
-      "publishedAt": "2026-04-22T13:16:32Z",
-      "excerpt": "Cavotec has launched PowerMove RoRo NxG, a mobile cable management system designed to simplify shore power connections for RoRo and RoPax vessels and support ports in their transition to cleaner operations.Cavotec\u2019s PowerMove shore power t\u2026",
-      "tags": [
-        "Electrification",
-        "Maritime",
-        "Industry"
-      ],
-      "audience": "Novatug",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [
-        "Infrastructure",
-        "Energy Transition"
-      ],
-      "priorityScore": 5,
-      "priorityBand": "medium",
-      "priorityReasons": [
-        "Signal: Infrastructure",
         "Signal: Energy Transition"
       ],
       "boardBucket": "Regulation, Safety & Incidents"
@@ -7683,13 +7879,13 @@
       "boardBucket": "Clients & Projects"
     },
     {
-      "id": "ffc26ae403641d46",
-      "title": "Damen launches MPV 10720 for the Portuguese Navy - Damen Shipyards",
+      "id": "fe2e08cbdbd1725c",
+      "title": "Damen launches \u2018Drone Carrier\u2019 for the Portuguese Navy - navalnews.com",
       "source": "Damen Shipyards News",
       "sourceId": "bing-damen",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxORjVJRmliSV9uNkJOdWVUaTRBTVgwTC1sY0ZYOXo4RmN0VVJtbWlXWkE0eVd1M29SSXpZRlBWazBpZXNOaXVxLW0wMkNoOEJ0WlNTMHdGbF9VVHZDQ05BMk9pZDVONXRpQkw1YXlyTUVRdEd1SHNvN0NtZXo0VktpS0JRcDJRR00tNWxTTUh5VGt0ay1hUnBaOU1wTQ?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPTU5EQWIxN1A3anBUUzlUellxLTR6Y2ZnWTZqWEJzWVNVMS00OHBvdW1MbWFYUWhodEFPLXAtUDBkdUhHQ2hDU2tXN0FxbE4yYmVDRFdMQVJiM2lSVXBJWXg3bEx3bzFFSlpGbml2UWtmdkNkeWc5emVhVjlaZEFRcW4wRXIyeVVEQ2NHTGJodFo2VTc2WVJudElfUl9IdjA?oc=5",
       "publishedAt": "2026-04-07T07:00:00Z",
-      "excerpt": "Damen launches MPV 10720 for the Portuguese Navy Damen Shipyards",
+      "excerpt": "Damen launches \u2018Drone Carrier\u2019 for the Portuguese Navy navalnews.com",
       "tags": [
         "Towage",
         "Shipbuilding",
@@ -7838,44 +8034,13 @@
       "boardBucket": "Other Relevant"
     },
     {
-      "id": "c8ec2d5dc0ac2b24",
-      "title": "Damen launches tenth Island Class ferry for BC Ferries - Damen Shipyards",
+      "id": "b5fc0adab30f96c7",
+      "title": "Damen Shipyards Group to Deliver Stan Patrol 5009 Vessels to Dutch Caribbean Coast Guard - Marine News Magazine",
       "source": "Damen Shipyards News",
       "sourceId": "bing-damen",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPbUN6UWluUWRUTVFNMk5DZ0tvNmJpLTExUWluYnhaSU9oOFNpek1WYzFNdk4xMXF4TG50dXpuYkZoTmdfSzgzR3JucDhqWjRSU1pKVFRHMFlDOV9aTjRXYWtpdDJtNFRGQ3ZWX0JydTI3ZVpGbXhzUDZheXNhcXpaZFVkTEZUOFltUUlMZ3o4TWxmYkJPTUZ0T3dVX3RWUQ?oc=5",
-      "publishedAt": "2026-03-20T10:22:08Z",
-      "excerpt": "Damen launches tenth Island Class ferry for BC Ferries Damen Shipyards",
-      "tags": [
-        "Shipbuilding",
-        "Supplier"
-      ],
-      "audience": "Multraship",
-      "paywalled": false,
-      "entities": [
-        {
-          "name": "Damen Shipyards Group",
-          "category": "suppliers"
-        }
-      ],
-      "locations": [],
-      "businessTags": [
-        "Supplier"
-      ],
-      "priorityScore": 5,
-      "priorityBand": "medium",
-      "priorityReasons": [
-        "Supplier mention: Damen Shipyards Group"
-      ],
-      "boardBucket": "Other Relevant"
-    },
-    {
-      "id": "6d4079eb01faa139",
-      "title": "Damen SPa 5009 to strengthen Dutch Caribbean Coast Guard - Damen Shipyards",
-      "source": "Damen Shipyards News",
-      "sourceId": "bing-damen",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOdEhBMHlOclM0QzlheWRicTN4NUUyZDd6ZEJSR2dWb2VfanNjdXpzdjVWbVY2bmZ5blpoaVhES3NQVWJ2dUcwVkZmdXQzWHotLU1kSl9qVnNPYnByTzRoWEYxV0UwMHgwMnFnU0FwemU4bHVqbFViSlFSTTREdXhpenhmUnZHXzJ5MERRcUtUTHJpVGl6dWE5RG52dEdCVUFX?oc=5",
-      "publishedAt": "2026-03-16T07:00:00Z",
-      "excerpt": "Damen SPa 5009 to strengthen Dutch Caribbean Coast Guard Damen Shipyards",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOQlZjOE1uQzlENGFRaW8yTldocUdqNXdXNWZjbmJ4Nmx5YVRhYzNYTW1YWDFjVF8xNzQwSVVTVjI2c0t3ZHBWemJrbjNRYUJ6S2dpYWlGc2xPanVhYzJHdm1xRVdLYnRvbHNmWUNyMDd1QmJtazExM3NNSUIxNEVYUWxLSjFfUzA?oc=5",
+      "publishedAt": "2026-03-18T07:00:00Z",
+      "excerpt": "Damen Shipyards Group to Deliver Stan Patrol 5009 Vessels to Dutch Caribbean Coast Guard Marine News Magazine",
       "tags": [
         "Shipbuilding",
         "Supplier"
@@ -7907,6 +8072,37 @@
       "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPeDZ3NXVWZG9Bd0NqMXNoNHVTOVVKclJWS2xUamhoa3NnX1Z4cHl2TDlUUDYyQ3F5LTFJbHhCX0NJZ0c5dDlHRE9MOUxrQzUyNU9PS01xbFZKRjgwQ0wwSVpLX0JaMGF6NHNIdG9rdmxrUmJ1aE1NM0JlQkQ5NVZLbzJOVGc1am5CNHNDZG1JbmhwdFkyYnAxZy1vOTlTZWVyZC1YSzQ5VWpZTnA1S2pFUA?oc=5",
       "publishedAt": "2026-03-12T07:00:00Z",
       "excerpt": "FN and Damen join forces to develop next-generation maritime defence solutions Damen Shipyards",
+      "tags": [
+        "Shipbuilding",
+        "Supplier"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [
+        {
+          "name": "Damen Shipyards Group",
+          "category": "suppliers"
+        }
+      ],
+      "locations": [],
+      "businessTags": [
+        "Supplier"
+      ],
+      "priorityScore": 5,
+      "priorityBand": "medium",
+      "priorityReasons": [
+        "Supplier mention: Damen Shipyards Group"
+      ],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "a8a979a6f5cd5b59",
+      "title": "FN And Damen To Develop Defense Solutions - Marine News Magazine",
+      "source": "Damen Shipyards News",
+      "sourceId": "bing-damen",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5KZC13cl90SzAzcTMzam95cVhzODhnMFBQWUJiWWxxcFc5XzE0LVF1dktvaFJMUzQyczJPUnVwSkpWMDM2REJlUmNZN2M0c2dIc3FWOUcwbEJwWUJZNkN3VkxwZmhJS3VrVjlVYkVxdm5PTjMzeG9wYV9WbXNSZw?oc=5",
+      "publishedAt": "2026-03-12T07:00:00Z",
+      "excerpt": "FN And Damen To Develop Defense Solutions Marine News Magazine",
       "tags": [
         "Shipbuilding",
         "Supplier"
@@ -8024,6 +8220,37 @@
       "boardBucket": "Other Relevant"
     },
     {
+      "id": "e33daab90cb9daa1",
+      "title": "Damen to Serve as Partner for Construction of LST 100 Vessels for the Australian Army - Marine News Magazine",
+      "source": "Damen Shipyards News",
+      "sourceId": "bing-damen",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNcFFucXlOaFl6RnhQbVI3T1NvRXMwd1FXdHRPN1pvaFlnY3JGa0hoRWE3VkNJTXBFQWdTQ0RaUFVlN0ZJbHdmZTMzek53dWp6MHVIeWF2TkZnNEdZZmNSeGRObkwxTVZhSDJPZ1VhNWgzM0p1a1JEcFphRHdVZWxWag?oc=5",
+      "publishedAt": "2026-03-03T08:00:00Z",
+      "excerpt": "Damen to Serve as Partner for Construction of LST 100 Vessels for the Australian Army Marine News Magazine",
+      "tags": [
+        "Shipbuilding",
+        "Supplier"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [
+        {
+          "name": "Damen Shipyards Group",
+          "category": "suppliers"
+        }
+      ],
+      "locations": [],
+      "businessTags": [
+        "Supplier"
+      ],
+      "priorityScore": 5,
+      "priorityBand": "medium",
+      "priorityReasons": [
+        "Supplier mention: Damen Shipyards Group"
+      ],
+      "boardBucket": "Other Relevant"
+    },
+    {
       "id": "43ee7d2814b4e9ca",
       "title": "'A paradigm shift in marine technology': nuclear-ready, diesel-electric hybrid propulsion",
       "source": "Riviera: Propulsion",
@@ -8054,13 +8281,13 @@
       "boardBucket": "Regulation, Safety & Incidents"
     },
     {
-      "id": "1a8331c30d6ec255",
-      "title": "Damen and Blue Water Autonomy\u2019s Liberty Class Autonomous Ship for the US Navy - Ships Monthly",
+      "id": "352e285e6f7fcb0e",
+      "title": "Damen and Blue Water sign licence deal to build 60-metre autonomous Liberty Class for U.S. Navy fleet expansion - Defence Industry Europe",
       "source": "Damen Shipyards News",
       "sourceId": "bing-damen",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPbUdjQm41NnMwNUxpVDhGRXh3VllyUkQ3c3FiMXNZV1FrbWlVbGh2VXVvZVYyNE82V2MzOVd3ZjVvc2N4VFFKcHUwR0p1elBlTG8tZnRrR2dqWUxYVGN0UWpTa3lFZ20wcElzTTJ5RjBWb2EwaEdtQzRJUE51b05ab1B6eF9wZGNlX1FIRlFyd2ZITHdFZjk3a2lXSVpTdEd3RnpfZnZ5SUo4YlE?oc=5",
-      "publishedAt": "2026-02-17T13:53:33Z",
-      "excerpt": "Damen and Blue Water Autonomy\u2019s Liberty Class Autonomous Ship for the US Navy Ships Monthly",
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPN2hFNEN4dnFrX0ZVVDE1aHp0QVRjcTVKdFRkUGlmc2lHTGJmWHUtVkNpTlRSM3VyQ3FKSUJ6dlh2TUxlZ2pfMjM1X1V4T3YwNnp5TTFzenY5blZNVFd3eVV3VG9XdWZ4NF9peDlVcHNXbk1VMVhGb2M5Umx2blYtXzNMTEhmQUtNVFJUMldmRlZFWndTWDVpTmY4bVBDcHFWVWdzSzJBdFpwMXhGNW1BelR2ZWJrdjZyVmVlVVRjTUxBY0N0V00wSjNGNi0xaDZONUZ4TXRB?oc=5",
+      "publishedAt": "2026-02-14T08:00:00Z",
+      "excerpt": "Damen and Blue Water sign licence deal to build 60-metre autonomous Liberty Class for U.S. Navy fleet expansion Defence Industry Europe",
       "tags": [
         "Shipbuilding",
         "Supplier"
@@ -8116,13 +8343,40 @@
       "boardBucket": "Other Relevant"
     },
     {
-      "id": "efed5221d05d4666",
-      "title": "Island Class ferry for BC Ferries completes sea trials - Damen Shipyards",
+      "id": "d0d41b9a7873d744",
+      "title": "Wireless Below Deck: How ScanReach Is Redefining Maritime Safety and Data Infrastructure - Sea News",
+      "source": "Mesh Maritime News",
+      "sourceId": "bing-mesh-maritime",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPTVFPNkJYNVdHQjdETUJnOGl3dFUtYjlXTUFvbTEwaUw5NHN3a1RpeWhpd3M5TXlmYzBmOHA1MFFONVVVMm5Nbkp0TFY0NmRLbUFFQmpWVXRsTzdGTjNYTklhbmY5S2FnWFgxaGN1T2dDOG5GZXdTbkRNal85cXNjQ0ZVTXAxNElpMU50bG8yZlNQbUNfVkFkT2FtQ0tpUzZFX0FtYmdoZGlFcjJ2NUIxaDZoLU8tLWRDT3c?oc=5",
+      "publishedAt": "2026-01-22T01:13:37Z",
+      "excerpt": "Wireless Below Deck: How ScanReach Is Redefining Maritime Safety and Data Infrastructure Sea News",
+      "tags": [
+        "Safety",
+        "Maritime",
+        "Supplier"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [
+        "Infrastructure"
+      ],
+      "priorityScore": 5,
+      "priorityBand": "medium",
+      "priorityReasons": [
+        "Signal: Infrastructure"
+      ],
+      "boardBucket": "Regulation, Safety & Incidents"
+    },
+    {
+      "id": "0ed5e60a3a917a42",
+      "title": "Offshore Patrol Vessel Market Report 2026-2030 and 2035 Featuring Key Players - Austal, BAE Systems, Damen Shipyards, and Fincantieri - Yahoo Finance",
       "source": "Damen Shipyards News",
       "sourceId": "bing-damen",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPRGpFbjhPclgtSW50X3FiZ0poekowUTdXVU5TdDgzRVQ4MzBRWWMyaHZUcGpURi1UOFB5UWEya3ZPT3hKbXV5MV9tbkJYVHlRZUdpRWNhRmI1TDhEVThwQnE4SXV0RmY3d29ENXl5LU1uZUJlbl9VNUVPSVJnNUVEQkQ4YkNrbHNJcklxem1USnpWT3JheF9wSmZKRDQ0cm4wdnk0NS1zZ0NsRXRpSXNlRzA4MA?oc=5",
-      "publishedAt": "2026-02-05T08:00:00Z",
-      "excerpt": "Island Class ferry for BC Ferries completes sea trials Damen Shipyards",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQMHE2WEZYS0JTZlFwaXJWbmRhc2pScWxVdGZpdmxZU2tKRFBCa2VBR05hMlBELWl3cF94NXN5UXNsMFRKR3dERVdNcVpCM1VMMlpfdldZRlN2OFdvLW9qakRmRnY3YmpnTTQ0SVVvX3M3RUcwR1VPc1M3UFBkaUVkVnl1TUJZNDNfWGc?oc=5",
+      "publishedAt": "2026-01-13T08:00:00Z",
+      "excerpt": "Offshore Patrol Vessel Market Report 2026-2030 and 2035 Featuring Key Players - Austal, BAE Systems, Damen Shipyards, and Fincantieri Yahoo Finance",
       "tags": [
         "Shipbuilding",
         "Supplier"
@@ -8209,6 +8463,68 @@
       "boardBucket": "Other Relevant"
     },
     {
+      "id": "e1a6079c43f9c5ba",
+      "title": "Damen starts construction of new multi-purpose vessel for Herman Senior - Offshore-Energy.biz",
+      "source": "Damen Shipyards News",
+      "sourceId": "bing-damen",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQRi1TOVlpbFpRa1Z6WmJtdWQ4WmxEaThlalJmdzVyT0lZaEN4cmNVLUNRWlp5QmpURTJQb3NwR1dzZG1MSjFKcVh4dWEtWEJPTEgySTJmcngxSGR3V3pBZ0prMGVYYnV5dURJNFJQZHFQOHlhaDMtU3AzdEI1OWxOdGNSdVlJVXJ5b1d3RUEyN29fUWxiaF9fck1CeDlwYkl2LURxakZLWQ?oc=5",
+      "publishedAt": "2025-12-19T08:00:00Z",
+      "excerpt": "Damen starts construction of new multi-purpose vessel for Herman Senior Offshore-Energy.biz",
+      "tags": [
+        "Shipbuilding",
+        "Supplier"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [
+        {
+          "name": "Damen Shipyards Group",
+          "category": "suppliers"
+        }
+      ],
+      "locations": [],
+      "businessTags": [
+        "Supplier"
+      ],
+      "priorityScore": 5,
+      "priorityBand": "medium",
+      "priorityReasons": [
+        "Supplier mention: Damen Shipyards Group"
+      ],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "33ae39ae1af36741",
+      "title": "Authorities raid home of former Damen CEO week after sanctions trial begins - DredgeWire",
+      "source": "Damen Shipyards News",
+      "sourceId": "bing-damen",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPZ20xSGdHM2tfR2g0cnc2el92MTM3cHNYOHRPYkh5M3Z4YXE3TlFsMkdyOTFzTE84NFU0UlAzMGRSMGxER1hGSVNNTmN1OFlySFRIc0F0QUplVnEtX3NGRWFoUkRxWGxNVDFDYlJpNGFQcnRXS2lKMzI1V0w2T1dpSjBMSDBJMGVjUDNxUGpSa21fZDZ0TFRBYmVhVmlVaG9z?oc=5",
+      "publishedAt": "2025-12-18T08:00:00Z",
+      "excerpt": "Authorities raid home of former Damen CEO week after sanctions trial begins DredgeWire",
+      "tags": [
+        "Shipbuilding",
+        "Supplier"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [
+        {
+          "name": "Damen Shipyards Group",
+          "category": "suppliers"
+        }
+      ],
+      "locations": [],
+      "businessTags": [
+        "Supplier"
+      ],
+      "priorityScore": 5,
+      "priorityBand": "medium",
+      "priorityReasons": [
+        "Supplier mention: Damen Shipyards Group"
+      ],
+      "boardBucket": "Other Relevant"
+    },
+    {
       "id": "8a2548842a2713b8",
       "title": "Damen design chosen for US Navy Landing Ship Medium program - WorkBoat",
       "source": "Damen Shipyards News",
@@ -8247,68 +8563,6 @@
       "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxObEc1S2hLOUZXNFJxbWxkZlVsWWlkampCUnB0WXNqV1A3V3RwY3V5bDFGbE9qdVB0ck1MOUhPek9WR3E3cU00S3Q2ZExWYm1yU3FzYW9hdEJlMGNPcC1pcElDbGY5aUNaZmtTMWJac3ZubzlHcU5INkRJelpPbDVkX05xcExYVDA1Qnh3UFdZa2J0UDh4eDlpaXNUd0x2QUZmYklGVnRGNWFZamQtcFE?oc=5",
       "publishedAt": "2025-12-09T08:00:00Z",
       "excerpt": "Damen LST 100 design selected by NAVSEA for US Navy Damen Shipyards",
-      "tags": [
-        "Shipbuilding",
-        "Supplier"
-      ],
-      "audience": "Multraship",
-      "paywalled": false,
-      "entities": [
-        {
-          "name": "Damen Shipyards Group",
-          "category": "suppliers"
-        }
-      ],
-      "locations": [],
-      "businessTags": [
-        "Supplier"
-      ],
-      "priorityScore": 5,
-      "priorityBand": "medium",
-      "priorityReasons": [
-        "Supplier mention: Damen Shipyards Group"
-      ],
-      "boardBucket": "Other Relevant"
-    },
-    {
-      "id": "624eecfa2b996793",
-      "title": "Dutch Authorities Arrest 2 At Damen Shipyards For Alleged Sanctions Violations Against Russia - Marine Insight",
-      "source": "Damen Shipyards News",
-      "sourceId": "bing-damen",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNVG1jMG1QbW00VTVKTk94UEdkdG1PQWxzSmJpYkhsZ3Q2N0sxZW5OcXo1cDBOaTlFM0JEUzhkWnVPSHNlcUlIRjdCSjExMFkwem14eHFpU2dfUmd2RS1tVXI4MUlmeWhhSmNzdXN6NkZrb2JPVGlrcnpPU0pwckw0cUpEcG53eFdFMzhqYVZIbmw0b3JaaThDVjZZc05GekpaV09CUjMtTU9QNkp3N1NpLWsyelVIZEZxZmprcnViOExxQQ?oc=5",
-      "publishedAt": "2025-12-06T08:00:00Z",
-      "excerpt": "Dutch Authorities Arrest 2 At Damen Shipyards For Alleged Sanctions Violations Against Russia Marine Insight",
-      "tags": [
-        "Shipbuilding",
-        "Supplier"
-      ],
-      "audience": "Multraship",
-      "paywalled": false,
-      "entities": [
-        {
-          "name": "Damen Shipyards Group",
-          "category": "suppliers"
-        }
-      ],
-      "locations": [],
-      "businessTags": [
-        "Supplier"
-      ],
-      "priorityScore": 5,
-      "priorityBand": "medium",
-      "priorityReasons": [
-        "Supplier mention: Damen Shipyards Group"
-      ],
-      "boardBucket": "Other Relevant"
-    },
-    {
-      "id": "34a214e45e1b51de",
-      "title": "Two arrested over \u2018sanctions probe into Damen Shipyards\u2019 - Tradewinds News",
-      "source": "Damen Shipyards News",
-      "sourceId": "bing-damen",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOSENab1ZEV0UwX2NNUG1TWTRDVWZPX3lBUUs5TTl1bnBCa3NrTlhrR2tnM1hjbi1GU3pyRFJxQkp4Ny1kemx0dDFNMEpHWTJQckExWnMyOEhYYVQ3VDVHbmdsaWN6VmNBOFNvNjB2cjdwMGdQay1tUUoxWFB2OEk5cW5NTGQxX0hsMnMyODlLSDRQTVo5UC1jV1k0dnpVMkdfN2F5T091MUFoZFc5?oc=5",
-      "publishedAt": "2025-12-05T08:00:00Z",
-      "excerpt": "Two arrested over \u2018sanctions probe into Damen Shipyards\u2019 Tradewinds News",
       "tags": [
         "Shipbuilding",
         "Supplier"
@@ -8517,37 +8771,6 @@
       "boardBucket": "Other Relevant"
     },
     {
-      "id": "21f2ace3c965c332",
-      "title": "Damen launched the Island Class 9 for Canada\u2019s BC Ferries - Damen Shipyards",
-      "source": "Damen Shipyards News",
-      "sourceId": "bing-damen",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOLWNKOHZ2TEhLNzJuQzlpRjlMdnlNaV95ejNsYk9PM0JCaUNPSzNjTXBuNmF6WmFuVHh2cEs5SVA1TkppNExmM2VualdyOHZVSGJDWUZ6ZWhobDlkNUgyNEhINkJqQW5Wam5FZjRaZEZhYXRjaWpBanpTM0tWaWpMUUZjNGhTVU9CTUZQSDh4VVQwWl9SN2wtdWgtTHdCTFRQaFE?oc=5",
-      "publishedAt": "2025-11-27T08:00:00Z",
-      "excerpt": "Damen launched the Island Class 9 for Canada\u2019s BC Ferries Damen Shipyards",
-      "tags": [
-        "Shipbuilding",
-        "Supplier"
-      ],
-      "audience": "Multraship",
-      "paywalled": false,
-      "entities": [
-        {
-          "name": "Damen Shipyards Group",
-          "category": "suppliers"
-        }
-      ],
-      "locations": [],
-      "businessTags": [
-        "Supplier"
-      ],
-      "priorityScore": 5,
-      "priorityBand": "medium",
-      "priorityReasons": [
-        "Supplier mention: Damen Shipyards Group"
-      ],
-      "boardBucket": "Other Relevant"
-    },
-    {
       "id": "a38ef9062f2c08e0",
       "title": "Damen and Windcat introduce a new class of OSV - Damen Shipyards",
       "source": "Damen Shipyards News",
@@ -8556,38 +8779,6 @@
       "publishedAt": "2025-11-26T08:00:00Z",
       "excerpt": "Damen and Windcat introduce a new class of OSV Damen Shipyards",
       "tags": [
-        "Shipbuilding",
-        "Supplier"
-      ],
-      "audience": "Multraship",
-      "paywalled": false,
-      "entities": [
-        {
-          "name": "Damen Shipyards Group",
-          "category": "suppliers"
-        }
-      ],
-      "locations": [],
-      "businessTags": [
-        "Supplier"
-      ],
-      "priorityScore": 5,
-      "priorityBand": "medium",
-      "priorityReasons": [
-        "Supplier mention: Damen Shipyards Group"
-      ],
-      "boardBucket": "Other Relevant"
-    },
-    {
-      "id": "f88c9d8c2a00b7d3",
-      "title": "Damen, Windcat Introduce New Class of Offshore Support Vessels - Marine News Magazine",
-      "source": "Damen Shipyards News",
-      "sourceId": "bing-damen",
-      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBadXVmNG5CQS1LRUNsZFI4MEpYM2ZhUGJydS1vRWN5VG5BVUJfYXd4Z002YmhNb0E1SXlQOTBUSkFOc0tlUXh6a2xuYkZuZU5GOUlJWFQyNnRwNDd0SnJXMmdCdG82dDBlLXJSejdfd1ZKd09lTnRiWmF3MUo?oc=5",
-      "publishedAt": "2025-11-26T08:00:00Z",
-      "excerpt": "Damen, Windcat Introduce New Class of Offshore Support Vessels Marine News Magazine",
-      "tags": [
-        "Offshore Support",
         "Shipbuilding",
         "Supplier"
       ],
@@ -8795,37 +8986,6 @@
       "boardBucket": "Regulation, Safety & Incidents"
     },
     {
-      "id": "8813f5e9ae361cb3",
-      "title": "Damen unveils Combi Freighter 5000 ICE - Damen Shipyards",
-      "source": "Damen Shipyards News",
-      "sourceId": "bing-damen",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFB0akxEOVB1dWRVLUladFJZam5ZQ2RGRXZGZ0hac3pHTXpzZktFd3RfZkhVWm5RcDNlM194U0lwOExOMmtrc05NSHZ1T21OMVhNUGZPTlotRXdla0NPNU44cjY3VWhzc1FOY0loa0ZoVnFpVV8xVWdZ?oc=5",
-      "publishedAt": "2025-11-04T08:00:00Z",
-      "excerpt": "Damen unveils Combi Freighter 5000 ICE Damen Shipyards",
-      "tags": [
-        "Shipbuilding",
-        "Supplier"
-      ],
-      "audience": "Multraship",
-      "paywalled": false,
-      "entities": [
-        {
-          "name": "Damen Shipyards Group",
-          "category": "suppliers"
-        }
-      ],
-      "locations": [],
-      "businessTags": [
-        "Supplier"
-      ],
-      "priorityScore": 5,
-      "priorityBand": "medium",
-      "priorityReasons": [
-        "Supplier mention: Damen Shipyards Group"
-      ],
-      "boardBucket": "Other Relevant"
-    },
-    {
       "id": "cd09adecccecb549",
       "title": "Damen Shipyards Group reports profit and full order book in 2024 annual report - DredgeWire",
       "source": "Damen Shipyards News",
@@ -8895,37 +9055,6 @@
       "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOREVJZEFvdWpKRlBENGtWY081b2tiQnFNWE1aMXZHMklWQUNHMWdNNTBVR1YwQ0stRlpNZzRtNTBnaGVDRUNkd0hBUVI1Q0g4TlM1SGw1RXdjcTFnbVlLRS1ydXZTWUhjYTRxLWhockQwblR5Qkd0WVUxNnJqakJLVQ?oc=5",
       "publishedAt": "2025-10-30T07:00:00Z",
       "excerpt": "Damen Shipyards Group Reports Profit, Order Book in 2024 Report Marine News Magazine",
-      "tags": [
-        "Shipbuilding",
-        "Supplier"
-      ],
-      "audience": "Multraship",
-      "paywalled": false,
-      "entities": [
-        {
-          "name": "Damen Shipyards Group",
-          "category": "suppliers"
-        }
-      ],
-      "locations": [],
-      "businessTags": [
-        "Supplier"
-      ],
-      "priorityScore": 5,
-      "priorityBand": "medium",
-      "priorityReasons": [
-        "Supplier mention: Damen Shipyards Group"
-      ],
-      "boardBucket": "Other Relevant"
-    },
-    {
-      "id": "e05348e274e71fd7",
-      "title": "Damen Shipyards adds record number of newbuildings as orderbook hits $12bn - Tradewinds News",
-      "source": "Damen Shipyards News",
-      "sourceId": "bing-damen",
-      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxORFNsS2xXZnJDcWhZZEpWQ2JQaG04YmdsNmVtYUZUNllzVTdza19sQU40VHd3ZVFLQXVlWUd2SmZiSXk1VkhTMlg5N2FfalFqeDB5elFZaXprdEdxYWdBdWU4TS1aVnM2SXM3Qk1tSUFVaWE1REJOQ3RmNlpkM3J3MGlpNXpQSU45MDBLSzZrUXJRUkFJY3FHTWhBcV84cExzQUp3V2ZLVlBOcmpxcE1BZEVxZkdlWlNqSV9LbFUtZ3ctWmUy?oc=5",
-      "publishedAt": "2025-10-30T07:00:00Z",
-      "excerpt": "Damen Shipyards adds record number of newbuildings as orderbook hits $12bn Tradewinds News",
       "tags": [
         "Shipbuilding",
         "Supplier"
@@ -9548,11 +9677,11 @@
       "boardBucket": "Other Relevant"
     },
     {
-      "id": "00631ad0f40fc474",
+      "id": "0be7d4a94f4856c2",
       "title": "Kongsberg Maritime shares begin trading in Oslo after parent spin-off",
       "source": "Kongsberg Maritime News",
       "sourceId": "bing-kongsberg",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=69e90c7d39d44dbc83de1deee603fe34&url=https%3a%2f%2fwww.tradewindsnews.com%2ftechnology%2fkongsberg-maritime-shares-begin-trading-in-oslo-after-parent-spin-off%2f2-1-1977683&c=2727161669190424549&mkt=en-us",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=69e920a732cf41968e89c784e5389185&url=https%3a%2f%2fwww.tradewindsnews.com%2ftechnology%2fkongsberg-maritime-shares-begin-trading-in-oslo-after-parent-spin-off%2f2-1-1977683&c=2727161669190424549&mkt=en-us",
       "publishedAt": "2026-04-21T06:21:00Z",
       "excerpt": "A new pure-play maritime technology company is set to hit the public markets, as Kongsberg Maritime begins trading today on the Oslo Stock Exchange after its spin-off from Kongsberg Gruppen.",
       "tags": [
@@ -9686,70 +9815,6 @@
       "priorityBand": "medium",
       "priorityReasons": [
         "Signal: Commercial"
-      ],
-      "boardBucket": "Other Relevant"
-    },
-    {
-      "id": "f14f58198c7b2c7f",
-      "title": "Indian Navy to equip 6 stealth corvettes with Kongsberg Kamewa",
-      "source": "Kongsberg Maritime News",
-      "sourceId": "bing-kongsberg",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=69e90c7d39d44dbc83de1deee603fe34&url=https%3a%2f%2fwww.newsbytesapp.com%2fnews%2findia%2findian-navy-to-equip-6-stealth-corvettes-with-kongsberg-kamewa%2ftldr&c=14647400517899959803&mkt=en-us",
-      "publishedAt": "2026-04-13T23:57:00Z",
-      "excerpt": "Kongsberg Maritime will supply 18 advanced Kamewa waterjet propulsion systems to the Indian Navy, enhancing speed and stealth capabilities of their next-gen missile vessels.",
-      "tags": [
-        "Clean Propulsion",
-        "Technology",
-        "Supplier"
-      ],
-      "audience": "Both",
-      "paywalled": false,
-      "entities": [
-        {
-          "name": "Kongsberg Maritime",
-          "category": "suppliers"
-        }
-      ],
-      "locations": [],
-      "businessTags": [
-        "Supplier"
-      ],
-      "priorityScore": 4,
-      "priorityBand": "medium",
-      "priorityReasons": [
-        "Supplier mention: Kongsberg Maritime"
-      ],
-      "boardBucket": "Other Relevant"
-    },
-    {
-      "id": "a0041d9805b25f69",
-      "title": "Indian Navy to get next-gen missile vessel with Norwegian jet propulsion: Check how it will make ships faster & stealthier",
-      "source": "Kongsberg Maritime News",
-      "sourceId": "bing-kongsberg",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=69e90c7d39d44dbc83de1deee603fe34&url=https%3a%2f%2fwww.msn.com%2fen-in%2fmoney%2fnews%2findian-navy-to-get-next-gen-missile-vessel-with-norwegian-jet-propulsion-check-how-it-will-make-ships-faster-stealthier%2far-AA20OZNX&c=5482301997127798460&mkt=en-us",
-      "publishedAt": "2026-04-13T23:18:12Z",
-      "excerpt": "Kongsberg Maritime has secured its largest waterjet order to date, supplying 18 advanced Kamewa systems for the Indian Navy's next-generation missile vessel program. This collaboration with Cochin ...",
-      "tags": [
-        "Clean Propulsion",
-        "Technology",
-        "Supplier"
-      ],
-      "audience": "Both",
-      "paywalled": false,
-      "entities": [
-        {
-          "name": "Kongsberg Maritime",
-          "category": "suppliers"
-        }
-      ],
-      "locations": [],
-      "businessTags": [
-        "Supplier"
-      ],
-      "priorityScore": 4,
-      "priorityBand": "medium",
-      "priorityReasons": [
-        "Supplier mention: Kongsberg Maritime"
       ],
       "boardBucket": "Other Relevant"
     },
@@ -10093,6 +10158,62 @@
       "boardBucket": "Other Relevant"
     },
     {
+      "id": "1d33f1bded572815",
+      "title": "Kongsberg Gruppen ASA",
+      "source": "Kongsberg Maritime News",
+      "sourceId": "bing-kongsberg",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=69e920a732cf41968e89c784e5389185&url=https%3a%2f%2fwww.barrons.com%2fmarket-data%2fstocks%2fkog%2fcompany-people%3fcountrycode%3dno%26gaa_at%3deafs%26gaa_n%3dAWEtsqc-LbddEIMrWJdd-16IKWRq068IYDtYV8qowDJSLG4A5zPrhFQBDhGs%26gaa_sig%3dHYx2Jmb-mkuVKaiDViqPxVrlAXukDv4ykR830PuU4YndJMDGBAPym9gPVrY3LWM2oGuUvTLrI9uGD5xurWwcyQ%25253D%25253D%26gaa_ts%3d69a572bf&c=14246340585959178717&mkt=en-us",
+      "publishedAt": "2026-03-02T08:45:00Z",
+      "excerpt": "Kongsberg Gruppen ASA engages in delivering technology systems and solutions to clients within the oil and gas industry, merchant marine, defence, and aerospace. It operates through the following ...",
+      "tags": [
+        "Technology",
+        "Supplier"
+      ],
+      "audience": "Both",
+      "paywalled": false,
+      "entities": [
+        {
+          "name": "Kongsberg Maritime",
+          "category": "suppliers"
+        }
+      ],
+      "locations": [],
+      "businessTags": [
+        "Supplier"
+      ],
+      "priorityScore": 4,
+      "priorityBand": "medium",
+      "priorityReasons": [
+        "Supplier mention: Kongsberg Maritime"
+      ],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "416f1661dc70f10f",
+      "title": "Third Amels 80 superyacht Project Zurich hits the water - BOAT International",
+      "source": "Damen Yachting News",
+      "sourceId": "bing-damen-yachting",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQQ2dsd04wNml6N3N5R21vNHZHV3VDZHJoRFF3Y0kyYi1aOFRIVTYyM1FqQXQ0b1Z2bWNHR21VWWpzcm55bjRBMWVWRFdDellNemdhWEV5M3g5U1ZHQ0V6akxaUk9ROTNBbU5qa2FjaDd6VjhfdEFGU2NxUXJhczM3Tm5uS2M5blBseHVXenRNcko1UQ?oc=5",
+      "publishedAt": "2026-03-02T08:00:00Z",
+      "excerpt": "Third Amels 80 superyacht Project Zurich hits the water BOAT International",
+      "tags": [
+        "Yachting"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [
+        "Commercial"
+      ],
+      "priorityScore": 4,
+      "priorityBand": "medium",
+      "priorityReasons": [
+        "Signal: Commercial"
+      ],
+      "boardBucket": "Other Relevant"
+    },
+    {
       "id": "24a6ec5af04e8803",
       "title": "Middle East erupts and markets jolt - Heavy Lift & Project Forwarding International",
       "source": "Inchcape Shipping Services News",
@@ -10118,11 +10239,11 @@
       "boardBucket": "Other Relevant"
     },
     {
-      "id": "081c50200b5c0303",
+      "id": "df2d16bd9c9254ed",
       "title": "Earnings call transcript: Kongsberg Maritime Q4 2025 misses forecasts, stock rises",
       "source": "Kongsberg Maritime News",
       "sourceId": "bing-kongsberg",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=69e90c7d39d44dbc83de1deee603fe34&url=https%3a%2f%2fuk.investing.com%2fnews%2ftranscripts%2fearnings-call-transcript-kongsberg-maritime-q4-2025-misses-forecasts-stock-rises-93CH-4534385&c=13642004652290162899&mkt=en-us",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=69e920a732cf41968e89c784e5389185&url=https%3a%2f%2fuk.investing.com%2fnews%2ftranscripts%2fearnings-call-transcript-kongsberg-maritime-q4-2025-misses-forecasts-stock-rises-93CH-4534385&c=13642004652290162899&mkt=en-us",
       "publishedAt": "2026-03-02T05:17:00Z",
       "excerpt": "Kongsberg Maritime\u2019s Q4 2025 earnings call revealed a significant miss on both earnings per share (EPS) and revenue forecasts. The company reported an EPS of $1.97, falling short of the expected ...",
       "tags": [
@@ -10175,11 +10296,11 @@
       "boardBucket": "Other Relevant"
     },
     {
-      "id": "6309a765fc5345a5",
+      "id": "3b34b759b686b2a6",
       "title": "Kongsberg Gruppen: Defense Repositioning Powers Growth, Valuation Now Tight",
       "source": "Kongsberg Maritime News",
       "sourceId": "bing-kongsberg",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=69e90c7d39d44dbc83de1deee603fe34&url=https%3a%2f%2fseekingalpha.com%2farticle%2f4867540-kongsberg-gruppen-stock-q4-defense-repositioning-powers-growth-valuation-now-tight&c=6879829873577128762&mkt=en-us",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=69e920a732cf41968e89c784e5389185&url=https%3a%2f%2fseekingalpha.com%2farticle%2f4867540-kongsberg-gruppen-stock-q4-defense-repositioning-powers-growth-valuation-now-tight&c=6879829873577128762&mkt=en-us",
       "publishedAt": "2026-02-08T11:34:00Z",
       "excerpt": "The risks and opportunities for Kongsberg Gruppen have not materially changed. Globally, we are seeing that there is end market growth in aerospace and defense, and as a Norwegian aerospace and ...",
       "tags": [
@@ -10202,37 +10323,6 @@
       "priorityBand": "medium",
       "priorityReasons": [
         "Supplier mention: Kongsberg Maritime"
-      ],
-      "boardBucket": "Other Relevant"
-    },
-    {
-      "id": "365fe9f3c5385b00",
-      "title": "W\u00e4rtsil\u00e4 to divest its Water & Waste business to Solix Group AB - W\u00e4rtsil\u00e4",
-      "source": "W\u00e4rtsil\u00e4 News",
-      "sourceId": "bing-wartsila",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPVDR1Vnh4NEExbmtNQjI2QU5VZTNIb2FLaGh5cGtmSDFsX1l1T01taEFwR3RJTE1MRGtOTGlCR1N2UnU5UDg3eHNIOVJ1UVoxbDBObldJZ1VSTjdsNXluNXNxbmEwQUlybGFiVUlwa2hhMjRKUnFrdGNNdW9LZGNMUm9aTUNFakRvc2tSZmplWDAyR2xrSmV6SXhmWnE3eVRhMGhqSTl2TWdpMl9zR1JUaktBb0VwNGc?oc=5",
-      "publishedAt": "2026-02-05T08:00:00Z",
-      "excerpt": "W\u00e4rtsil\u00e4 to divest its Water & Waste business to Solix Group AB W\u00e4rtsil\u00e4",
-      "tags": [
-        "Propulsion",
-        "Technology"
-      ],
-      "audience": "Both",
-      "paywalled": false,
-      "entities": [
-        {
-          "name": "W\u00e4rtsil\u00e4",
-          "category": "suppliers"
-        }
-      ],
-      "locations": [],
-      "businessTags": [
-        "Supplier"
-      ],
-      "priorityScore": 4,
-      "priorityBand": "medium",
-      "priorityReasons": [
-        "Supplier mention: W\u00e4rtsil\u00e4"
       ],
       "boardBucket": "Other Relevant"
     },
@@ -10407,37 +10497,6 @@
       "boardBucket": "Other Relevant"
     },
     {
-      "id": "8e8c89f75e97e514",
-      "title": "W\u00e4rtsil\u00e4 to Supply Engine for Hartman Seatrade Heavy Lift Vessel Newbuild - Marine News Magazine",
-      "source": "W\u00e4rtsil\u00e4 News",
-      "sourceId": "bing-wartsila",
-      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNalRZbHFoN19nS3NFeWI4N2V4dWRCVWI2NTdMck1DakhIS0JWcHdaUTFXM254NlNBdUloeVhwOTJ3WXVQV0JhQ2s0Rk5ZQlJRdjY0RHpid2d0ZjV3R2lmcEhNdHhJeVlQbjNmVlBZYUFPWjhhRzZPNGZOWHFiZzF6MHd3?oc=5",
-      "publishedAt": "2026-01-13T08:00:00Z",
-      "excerpt": "W\u00e4rtsil\u00e4 to Supply Engine for Hartman Seatrade Heavy Lift Vessel Newbuild Marine News Magazine",
-      "tags": [
-        "Propulsion",
-        "Technology"
-      ],
-      "audience": "Both",
-      "paywalled": false,
-      "entities": [
-        {
-          "name": "W\u00e4rtsil\u00e4",
-          "category": "suppliers"
-        }
-      ],
-      "locations": [],
-      "businessTags": [
-        "Supplier"
-      ],
-      "priorityScore": 4,
-      "priorityBand": "medium",
-      "priorityReasons": [
-        "Supplier mention: W\u00e4rtsil\u00e4"
-      ],
-      "boardBucket": "Other Relevant"
-    },
-    {
       "id": "8e7e6d8ff1ede2ef",
       "title": "V.Group acquires Njord to strengthen decarbonisation options - Smart Maritime Network",
       "source": "Maersk Tankers News",
@@ -10532,37 +10591,6 @@
       "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOZi1Id0s0UnUtUi1ndzVSLWljOVA0U3dvTDM5VVdaWFZWUzU0YzZaNFVYdjV4R2lDWGtSQ3ZBVHFaTG5OWHk5djU3ZXdkWHM1MDl3STkyd09DZC11MHhzRUM5aHhGSTIyR2tmUXl3cGNmaVpVai1mcWh4RkRfS1F5TkpHakFLQ0ZibENfNXB5OVpCdDRkNFc2Ql9zb3FieHJLemFCQkY0S3JzMURZb3pmV0xCUVBrNUtFcEdEZnhGeUtYQQ?oc=5",
       "publishedAt": "2025-12-03T08:00:00Z",
       "excerpt": "From big data to lifecycle optimisation \u2013 4 trends that will affect shipping in 2026 W\u00e4rtsil\u00e4",
-      "tags": [
-        "Propulsion",
-        "Technology"
-      ],
-      "audience": "Both",
-      "paywalled": false,
-      "entities": [
-        {
-          "name": "W\u00e4rtsil\u00e4",
-          "category": "suppliers"
-        }
-      ],
-      "locations": [],
-      "businessTags": [
-        "Supplier"
-      ],
-      "priorityScore": 4,
-      "priorityBand": "medium",
-      "priorityReasons": [
-        "Supplier mention: W\u00e4rtsil\u00e4"
-      ],
-      "boardBucket": "Other Relevant"
-    },
-    {
-      "id": "bd07d0283e1a7dd2",
-      "title": "W\u00e4rtsil\u00e4 Flags Key Trends Set to Shape Global Shipping in 2026 - Marine News Magazine",
-      "source": "W\u00e4rtsil\u00e4 News",
-      "sourceId": "bing-wartsila",
-      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOdFI0dHZfR3Y0dnQyRm1yMDVUdjdMRkpUeVBkWnJ3R3J4ZmlBMUF3ZEJ3VzFWY1gxcGxnMFp3QUtGbEpET1V5bkVJWUMya29EVzhZRFdLaE5rWWlPMmIyNGh3RXBpQ0RWNFpkVkEzRXhxT196bHlQcDdTNEVRQlhvZjk1dVJwdw?oc=5",
-      "publishedAt": "2025-12-03T08:00:00Z",
-      "excerpt": "W\u00e4rtsil\u00e4 Flags Key Trends Set to Shape Global Shipping in 2026 Marine News Magazine",
       "tags": [
         "Propulsion",
         "Technology"
@@ -10709,11 +10737,43 @@
       "boardBucket": "Other Relevant"
     },
     {
-      "id": "c1b3d03ae5262f53",
+      "id": "b76f5ccf55476066",
+      "title": "W\u00e4rtsil\u00e4 has completed the transaction of the Marine Electrical Systems divestment to VINCI Energies - DredgeWire",
+      "source": "W\u00e4rtsil\u00e4 News",
+      "sourceId": "bing-wartsila",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPWHJST1pkMFVvWTM4NVNHTDJkNV9iaUM2b2ZiRUFrMDZ3UkwwX2g5SFhGdE1wRWxKek5Yd3Eyak10bDF4Y0Ixczk5VDFSdDdOdkFBNVoxQkRXX2dsYlo3NW1tMXpPZWhJeFlhU3UwRDRTdW1DaGk1eERxNGM3QUNFamVqOXNmYlM4MnRpZlBsOVRaNW01WDJfNUNYZVYtWTFHbXVPNmlnd1JHUjRKZDlaT0RHQUhfclFURVFZdTBxYlo3UQ?oc=5",
+      "publishedAt": "2025-11-03T08:00:00Z",
+      "excerpt": "W\u00e4rtsil\u00e4 has completed the transaction of the Marine Electrical Systems divestment to VINCI Energies DredgeWire",
+      "tags": [
+        "Electrification",
+        "Propulsion",
+        "Technology"
+      ],
+      "audience": "Both",
+      "paywalled": false,
+      "entities": [
+        {
+          "name": "W\u00e4rtsil\u00e4",
+          "category": "suppliers"
+        }
+      ],
+      "locations": [],
+      "businessTags": [
+        "Supplier"
+      ],
+      "priorityScore": 4,
+      "priorityBand": "medium",
+      "priorityReasons": [
+        "Supplier mention: W\u00e4rtsil\u00e4"
+      ],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "5c8df6171cb8a7b4",
       "title": "Kongsberg Earnings: Strong Results, Demerger to Drive Possible Defense Rerating; Raise FVE by 3%",
       "source": "Kongsberg Maritime News",
       "sourceId": "bing-kongsberg",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=69e90c7d39d44dbc83de1deee603fe34&url=https%3a%2f%2fwww.morningstar.com%2fcompany-reports%2f1351722-kongsberg-earnings-strong-results-demerger-to-drive-possible-defense-rerating-raise-fve-by-3&c=11142137425932232772&mkt=en-us",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=69e920a732cf41968e89c784e5389185&url=https%3a%2f%2fwww.morningstar.com%2fcompany-reports%2f1351722-kongsberg-earnings-strong-results-demerger-to-drive-possible-defense-rerating-raise-fve-by-3&c=11142137425932232772&mkt=en-us",
       "publishedAt": "2025-10-29T17:00:00Z",
       "excerpt": "Kongsberg Gruppen's revenue rose 12% year on year, driven by a 38% surge in defense and aerospace, with 15.2% group EBIT margin for the quarter. The key highlight was the plan to demerge Kongsberg ...",
       "tags": [
@@ -10736,6 +10796,32 @@
       "priorityBand": "medium",
       "priorityReasons": [
         "Supplier mention: Kongsberg Maritime"
+      ],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "2fc761cb6269720f",
+      "title": "First hybrid Amels 80 superyacht Pangea delivered - BOAT International",
+      "source": "Damen Yachting News",
+      "sourceId": "bing-damen-yachting",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNMzZSbDFra2VwcnJSMGtYR2NvRWdZeVFLOUVReHI0ZXRoRXBHUGxhMEc1eG1fcUdveGJBV292T0d5VU5HVnJwZnhHZFF6aWhySkJ6LUVERW55NC1LcEVhNGw4dUFpc3lUSjI1eFNtd0otM2pBZkc3dWVBaFV1ZHZfTWZpc1JGd3Z4Mm9fQjBqbw?oc=5",
+      "publishedAt": "2025-10-28T07:00:00Z",
+      "excerpt": "First hybrid Amels 80 superyacht Pangea delivered BOAT International",
+      "tags": [
+        "Electrification",
+        "Yachting"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [
+        "Energy Transition"
+      ],
+      "priorityScore": 4,
+      "priorityBand": "medium",
+      "priorityReasons": [
+        "Signal: Energy Transition"
       ],
       "boardBucket": "Other Relevant"
     },
@@ -11067,6 +11153,207 @@
       "priorityReasons": [
         "Signal: Energy Transition"
       ],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "11267aa7a83817c1",
+      "title": "Bourbon adds 13 vessels to offshore fleet following financial restructuring",
+      "source": "Baird Maritime",
+      "sourceId": "baird-maritime",
+      "url": "https://www.bairdmaritime.com/offshore/offshore-support-maintenance/bourbon-adds-13-vessels-to-offshore-fleet-following-financial-restructuring",
+      "publishedAt": "2026-04-22T19:05:11Z",
+      "excerpt": "Bourbon reported a significant expansion of its fleet with the addition of 13 new offshore support vessels since the beginning of 2026, representing a total value exceeding $180 million. The company attributed this expansion to the support\u2026",
+      "tags": [
+        "Offshore Support",
+        "Workboats",
+        "Technology"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [],
+      "priorityScore": 2,
+      "priorityBand": "low",
+      "priorityReasons": [],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "bb5bac2f98d8a786",
+      "title": "Three bidders remain in the race for VW\u2019s Everllence",
+      "source": "Baird Maritime",
+      "sourceId": "baird-maritime",
+      "url": "https://www.bairdmaritime.com/shipping/three-bidders-remain-in-the-race-for-vws-everllence",
+      "publishedAt": "2026-04-22T18:56:42Z",
+      "excerpt": "Volkswagen has selected three suitors for the next round of bidding for its heavy diesel engine division Everllence, Bloomberg News reported on Wednesday, citing people familiar with the matter. CVC Capital Partners, Bain Capital and a con\u2026",
+      "tags": [
+        "Workboats",
+        "Technology"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [],
+      "priorityScore": 2,
+      "priorityBand": "low",
+      "priorityReasons": [],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "1b37f79d0c1a496c",
+      "title": "Saipem looks to profit from Middle East post-war reconstruction work",
+      "source": "Baird Maritime",
+      "sourceId": "baird-maritime",
+      "url": "https://www.bairdmaritime.com/offshore/exploration-development/offshore-construction/saipem-looks-to-profit-from-middle-east-post-war-reconstruction-work",
+      "publishedAt": "2026-04-22T18:53:13Z",
+      "excerpt": "Italy's Saipem can win contracts for post-Iran-war repair work in the Middle East by leveraging its long-term relationships with customers in the region, the energy services group's chief executive said on Wednesday. The cost of repairing\u2026",
+      "tags": [
+        "Workboats",
+        "Technology"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [],
+      "priorityScore": 2,
+      "priorityBand": "low",
+      "priorityReasons": [],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "49c2caf9bf2da4e6",
+      "title": "GECF chief warns Iran conflict may kill natural gas demand for good",
+      "source": "Baird Maritime",
+      "sourceId": "baird-maritime",
+      "url": "https://www.bairdmaritime.com/shipping/tankers/gas/gecf-chief-warns-iran-conflict-may-kill-natural-gas-demand-for-good",
+      "publishedAt": "2026-04-22T18:29:59Z",
+      "excerpt": "The natural gas demand destruction currently resulting from the Iran war as governments implement measures to mitigate the crisis risks becoming structural if the conflict persists, the head of the Gas Exporting Countries Forum said on Wed\u2026",
+      "tags": [
+        "Workboats",
+        "Technology"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [],
+      "priorityScore": 2,
+      "priorityBand": "low",
+      "priorityReasons": [],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "1dc2f48b8a55c818",
+      "title": "Risk appetite divides Asian and Western shipping in Strait of Hormuz",
+      "source": "Baird Maritime",
+      "sourceId": "baird-maritime",
+      "url": "https://www.bairdmaritime.com/shipping/risk-appetite-divides-asian-and-western-shipping-in-strait-of-hormuz",
+      "publishedAt": "2026-04-22T18:24:36Z",
+      "excerpt": "Asian ship owners might begin to sail through the Strait of Hormuz soon amid a fragile US-Iran ceasefire as they have a higher risk tolerance and can manage paying tolls unlike sanctions-complying Western firms, shipping executives said at\u2026",
+      "tags": [
+        "Incidents",
+        "Workboats",
+        "Technology"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [],
+      "priorityScore": 2,
+      "priorityBand": "low",
+      "priorityReasons": [],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "822be5413b80bcb3",
+      "title": "FACTBOX | The EU's 20th package of Russia sanctions, in detail",
+      "source": "Baird Maritime",
+      "sourceId": "baird-maritime",
+      "url": "https://www.bairdmaritime.com/security/incidents/piracy/factbox-the-eus-20th-package-of-russia-sanctions-in-detail",
+      "publishedAt": "2026-04-22T18:17:10Z",
+      "excerpt": "EU envoys are poised to adopt a 20th package of sanctions against Russia over its war in Ukraine with Slovakia and Hungary expected to drop their opposition to the move following the repair of the Druzhba oil pipeline, EU diplomats said. T\u2026",
+      "tags": [
+        "Workboats",
+        "Technology"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [],
+      "priorityScore": 2,
+      "priorityBand": "low",
+      "priorityReasons": [],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "ce4452b872b96147",
+      "title": "Odfjell orders four newbuild stainless steel tankers from Japanese builder",
+      "source": "Baird Maritime",
+      "sourceId": "baird-maritime",
+      "url": "https://www.bairdmaritime.com/shipping/tankers/odfjell-orders-four-newbuild-stainless-steel-tankers-from-japanese-builder",
+      "publishedAt": "2026-04-22T18:05:13Z",
+      "excerpt": "Odfjell Group has reached an agreement to acquire four 40,000 DWT stainless steel tankers to be constructed at Kitanihon Shipbuilding in Japan. Scheduled for delivery between January 1, 2027 and June 30, 2029, the ships will be purchased f\u2026",
+      "tags": [
+        "Workboats",
+        "Technology"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [],
+      "priorityScore": 2,
+      "priorityBand": "low",
+      "priorityReasons": [],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "203240b033da1b7c",
+      "title": "EU to roll out 20th sanctions package against Russia after Slovakia and Hungary end holdout",
+      "source": "Baird Maritime",
+      "sourceId": "baird-maritime",
+      "url": "https://www.bairdmaritime.com/security/incidents/piracy/eu-to-roll-out-20th-sanctions-package-against-russia-after-slovakia-and-hungary-end-holdout",
+      "publishedAt": "2026-04-22T17:55:48Z",
+      "excerpt": "European Union envoys are set to adopt a 20th package of sanctions against Russia, with Slovakia and Hungary expected to drop their opposition to the move following the repair of the Druzhba oil pipeline, EU diplomats said on Wednesday. Th\u2026",
+      "tags": [
+        "Workboats",
+        "Technology"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [],
+      "priorityScore": 2,
+      "priorityBand": "low",
+      "priorityReasons": [],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "ee812a1f0b28b671",
+      "title": "FEATURE | Trump\u2019s ceasefire extension followed by Iranian ship seizures in new escalation",
+      "source": "Baird Maritime",
+      "sourceId": "baird-maritime",
+      "url": "https://www.bairdmaritime.com/security/incidents/piracy/feature-trumps-ceasefire-extension-followed-by-iranian-ship-seizures-in-new-escalation",
+      "publishedAt": "2026-04-22T17:47:51Z",
+      "excerpt": "Iran seized two ships in the Strait of Hormuz on Wednesday, tightening its grip on the strategic waterway after US President Donald Trump called off attacks with no sign of peace talks restarting. Trump maintained the US Navy blockade of I\u2026",
+      "tags": [
+        "Incidents",
+        "Workboats",
+        "Technology"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [],
+      "priorityScore": 2,
+      "priorityBand": "low",
+      "priorityReasons": [],
       "boardBucket": "Other Relevant"
     },
     {
@@ -11427,13 +11714,13 @@
       "boardBucket": "Other Relevant"
     },
     {
-      "id": "3107bbd2526b0500",
-      "title": "Global Shipping Reforms Cast Shadow Over Tanzania\u2019s Fishing Communities - Global Issues.org",
+      "id": "1acee87b124f0403",
+      "title": "Global Shipping Reforms Cast Shadow Over Tanzania\u2019s Fishing Communities - ipsnews.net",
       "source": "Mesh Maritime News",
       "sourceId": "bing-mesh-maritime",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBnWWx4TmN0NDl6ckM4Y2lEemtIajNWNm5icDM2VWtLRFFuSDZ3MzRiekZJSUVkRnF3QkVzWlEwSTFvQnRCc0tQMFdONGRBUlpPRlNxQno3aEdJSEdVUmtN0gFkQVVfeXFMTlN0OU9iTktrLU9KbFJwTkZZX0MyYlVFbVBaMUZETFY0aGUxNy05bk54bktZWVdNQUl3ZlFDaTNNV2c0VzVqS3EyTjloZGhXV3JoNDMxa0N0WXhVV0pzcHh1NnBzYg?oc=5",
-      "publishedAt": "2026-04-22T07:16:04Z",
-      "excerpt": "Global Shipping Reforms Cast Shadow Over Tanzania\u2019s Fishing Communities Global Issues.org",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNSnA4NHdodHplM0otOHgtdHV4X0JrVXF3bG1aTDFoSXp6b3J5SGhyYUozQ3k2NDZXd1h0Y0JSc1ZBRkRleVpGdXluWkYzOWJBQUcwTDNZcEVWZjRiUmdEZGpSMGZoYUlrS0ZUelA3cmJFMV9vaVlxeG9Bd1JMYndNRlduczhmcmhFdkVKdk5idllUdXZpQmhzMHBJQTN2UVI5TjMzSWhn?oc=5",
+      "publishedAt": "2026-04-22T00:33:37Z",
+      "excerpt": "Global Shipping Reforms Cast Shadow Over Tanzania\u2019s Fishing Communities ipsnews.net",
       "tags": [
         "Maritime",
         "Supplier"
@@ -11563,28 +11850,6 @@
       "priorityReasons": [
         "Signal: Energy Transition"
       ],
-      "boardBucket": "Other Relevant"
-    },
-    {
-      "id": "45442d332c8dfc66",
-      "title": "Shipping Traffic Through Hormuz Still Largely Halted",
-      "source": "gCaptain",
-      "sourceId": "gcaptain",
-      "url": "https://gcaptain.com/shipping-traffic-through-hormuz-still-largely-halted/",
-      "publishedAt": "2026-04-21T16:54:51Z",
-      "excerpt": "Shipping traffic through the Strait of Hormuz remained broadly halted on Tuesday with only three ships passing the waterway in the past 24 hours, shipping data showed.",
-      "tags": [
-        "Maritime",
-        "Operations"
-      ],
-      "audience": "Multraship",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [],
-      "priorityScore": 2,
-      "priorityBand": "low",
-      "priorityReasons": [],
       "boardBucket": "Other Relevant"
     },
     {
@@ -12833,16 +13098,15 @@
       "boardBucket": "Other Relevant"
     },
     {
-      "id": "39e48d770da2b122",
-      "title": "Review finds Jersey's ferry service needs to improve - BBC",
-      "source": "DFDS News",
-      "sourceId": "bing-dfds",
-      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1naFptTGQyaXdqS3laSFo1VmxscUhyNzVzOV93MmwxdHlzazN4U1A4WlhQNHRzbkh0SHpnX1VmNm54Mktkekk2c193azBkZFdJaWdwNFBrWVVqSVE3?oc=5",
+      "id": "fba40a3f322a2ede",
+      "title": "Latest Amels 60 superyacht Alva delivered to owners - BOAT International",
+      "source": "Damen Yachting News",
+      "sourceId": "bing-damen-yachting",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQQURRUDlNMTJkNElMd3dfR3NOT0N2bXRjaXQzVDdzeXBBMnZCWEJJTm9WSmg4eGRvVXhKdnpkcmlSdGZkVUhXN1JrN1dEbk9nQWN4eEVkWDllWGZtU3VfZGZTNW9xRGpaZTFzWF9XclQ5RFZtclp1eHB5OFdETTRrME44VWVMQkFxSzNkZWxyZEk4X1NnRGFZQWlFRXY?oc=5",
       "publishedAt": "2026-03-06T08:00:00Z",
-      "excerpt": "Review finds Jersey's ferry service needs to improve BBC",
+      "excerpt": "Latest Amels 60 superyacht Alva delivered to owners BOAT International",
       "tags": [
-        "Ferry",
-        "Shipping"
+        "Yachting"
       ],
       "audience": "Multraship",
       "paywalled": false,
@@ -12855,15 +13119,16 @@
       "boardBucket": "Other Relevant"
     },
     {
-      "id": "15d4b441efaa4cb7",
-      "title": "Container lines reroute via Cape, MSC suspends bookings - freightnews.co.za",
-      "source": "Inchcape Shipping Services News",
-      "sourceId": "bing-inchcape",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNdXQ2MUh4WE5hOHI3aWhvR2o1Y0RmYWNQOHc2SU9oMzAxSk93WHA5OE5LM0FnRGVKeElFM0Z5ZU9XX1ByYWpfOUlGLTlRX0NlQjAxMDR1bnlYNTdBSHNIdkZhdzhJaFlrUVpmanJlVXNzX1JKWVktR21ScXVfcWhHU1VnUWYwUU1XV2hyMEtEYW9aTjRJejJv?oc=5",
-      "publishedAt": "2026-03-02T06:34:37Z",
-      "excerpt": "Container lines reroute via Cape, MSC suspends bookings freightnews.co.za",
+      "id": "39e48d770da2b122",
+      "title": "Review finds Jersey's ferry service needs to improve - BBC",
+      "source": "DFDS News",
+      "sourceId": "bing-dfds",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1naFptTGQyaXdqS3laSFo1VmxscUhyNzVzOV93MmwxdHlzazN4U1A4WlhQNHRzbkh0SHpnX1VmNm54Mktkekk2c193azBkZFdJaWdwNFBrWVVqSVE3?oc=5",
+      "publishedAt": "2026-03-06T08:00:00Z",
+      "excerpt": "Review finds Jersey's ferry service needs to improve BBC",
       "tags": [
-        "Ship-Agency"
+        "Ferry",
+        "Shipping"
       ],
       "audience": "Multraship",
       "paywalled": false,
@@ -12921,6 +13186,28 @@
       "boardBucket": "Other Relevant"
     },
     {
+      "id": "1f1c91b6809284b7",
+      "title": "Enabling Arctic Sentry: The Key Role for Maritime Autonomous Systems - Second Line of Defense - SLDinfo.com",
+      "source": "Mesh Maritime News",
+      "sourceId": "bing-mesh-maritime",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOeGs4Tzl1NFNucUZfbnlPbzlrMGh6MjZrU0FwS3k1U1dMUTZjaWdfdmgtQVZtOTk4WkJsZnNSdktoN3VrSkR5R3FaaWVWc0ZVdmc0anJyR01KeV9PWnhSaENzNTFBMkFwaUwxYUpYdWlPZ3FYd2NDVlRSWE4zU0FkVXlsZmczUzh0Q1Z0R0NKSmVycHN3dUF5RTV1cEw?oc=5",
+      "publishedAt": "2026-02-25T08:00:00Z",
+      "excerpt": "Enabling Arctic Sentry: The Key Role for Maritime Autonomous Systems - Second Line of Defense SLDinfo.com",
+      "tags": [
+        "Maritime",
+        "Supplier"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [],
+      "priorityScore": 2,
+      "priorityBand": "low",
+      "priorityReasons": [],
+      "boardBucket": "Other Relevant"
+    },
+    {
       "id": "b996676e0eedee17",
       "title": "- Cyprus Shipping News - Cyprus Shipping News",
       "source": "Oldendorff Carriers News",
@@ -12931,6 +13218,27 @@
       "tags": [
         "Shipping",
         "Bulk"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [],
+      "priorityScore": 2,
+      "priorityBand": "low",
+      "priorityReasons": [],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "1ff2ef4de3ad65b3",
+      "title": "True Blue Netto II Yacht Touches Water as Floating Speakeasy - Megayacht News",
+      "source": "Damen Yachting News",
+      "sourceId": "bing-damen-yachting",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFB1aXdnN0JkTzJaTlhQVDRVZ0Y4ZkRoYkVjbXN2NjVUaGFWLWdSZWR6RUo3ZUN5R1ZVel9vZHNhaGlES18wSVZFdWdoZ1NxZHYtVGxUUzgtS0FjeHFkLWptSnNLYm5iOGw2RVE?oc=5",
+      "publishedAt": "2026-02-16T16:54:00Z",
+      "excerpt": "True Blue Netto II Yacht Touches Water as Floating Speakeasy Megayacht News",
+      "tags": [
+        "Yachting"
       ],
       "audience": "Multraship",
       "paywalled": false,
@@ -13083,6 +13391,27 @@
       "priorityReasons": [
         "Signal: Energy Transition"
       ],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "42bf02adeffdb875",
+      "title": "Amels 60 superyacht sold and launched - SuperYacht Times",
+      "source": "Damen Yachting News",
+      "sourceId": "bing-damen-yachting",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE84dW15YkdRQ05tUTQ2d1FQRUljTHh4X2RXWENpRy1fX0dMS1IycnA1WEJ3Nmh5UzlmdVYzcjc2cU5YUFl3TGNzV2lBaE9GZ3c5VUFhSDNyY1JWRmxoYWlUaVFNZVRlc19rUk0teWExT0QwYXNYYUlj?oc=5",
+      "publishedAt": "2026-02-02T08:00:00Z",
+      "excerpt": "Amels 60 superyacht sold and launched SuperYacht Times",
+      "tags": [
+        "Yachting"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [],
+      "priorityScore": 2,
+      "priorityBand": "low",
+      "priorityReasons": [],
       "boardBucket": "Other Relevant"
     },
     {
@@ -13329,6 +13658,50 @@
       "boardBucket": "Other Relevant"
     },
     {
+      "id": "6c9d39159d1af955",
+      "title": "Pole Star Global launches Maritime Transparency Index offering instant vessel and voyage risk verdicts \u2014 SMI DIGITAL - shipmanagementinternational.com",
+      "source": "Mesh Maritime News",
+      "sourceId": "bing-mesh-maritime",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOYnQ1TGVELS0yWEN0N2FVd2NRTnRkd1BZcU84SlNFeWxELW1SRV9OMWo4bVhra3JzcjA3ZjRnbUdCMXJ6N2puZTVtOG84a0ltQWFsTDZNbGtMUC1senRHNkgwR25hMFZOY2E5YS1EZHA4TWJIbjcwclFyRXVPZUMydU53?oc=5",
+      "publishedAt": "2026-01-07T08:00:00Z",
+      "excerpt": "Pole Star Global launches Maritime Transparency Index offering instant vessel and voyage risk verdicts \u2014 SMI DIGITAL shipmanagementinternational.com",
+      "tags": [
+        "Maritime",
+        "Supplier"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [],
+      "priorityScore": 2,
+      "priorityBand": "low",
+      "priorityReasons": [],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "acddbaba500adbb6",
+      "title": "New Pole Star index scores ships on transparency and dark risk - Splash247",
+      "source": "Mesh Maritime News",
+      "sourceId": "bing-mesh-maritime",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOU2h3M0pDclZCNlRYRDJUZXJwX05LdnVPWGhMQmQ0MVdVRWF2QnFhV0JVMEFLMFEyZGI2SjVWWVQyS0EtY0c3cE1FU25sQkx1dDl0ZjI3UFhjZVZhOTRXNDlLdkEtY1ZmalNaQVhjNkpHMURwd3FVVXFOMHozY1FpOENNZDBWTFRQci1hZlZ3?oc=5",
+      "publishedAt": "2026-01-07T08:00:00Z",
+      "excerpt": "New Pole Star index scores ships on transparency and dark risk Splash247",
+      "tags": [
+        "Maritime",
+        "Supplier"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [],
+      "priorityScore": 2,
+      "priorityBand": "low",
+      "priorityReasons": [],
+      "boardBucket": "Other Relevant"
+    },
+    {
       "id": "b3a6258e6e0da36e",
       "title": "V Group Acquires Fuel Efficiency Firm Njord - Ship & Bunker",
       "source": "Maersk Tankers News",
@@ -13361,28 +13734,6 @@
       "tags": [
         "Tankers",
         "Shipping"
-      ],
-      "audience": "Multraship",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [],
-      "priorityScore": 2,
-      "priorityBand": "low",
-      "priorityReasons": [],
-      "boardBucket": "Other Relevant"
-    },
-    {
-      "id": "270f16a0d24b5df6",
-      "title": "Pole Star Global launches Maritime Transparency Index - turning 25 years of maritime intelligence into instant vessel and voyage risk verdicts - The Malaysian Reserve",
-      "source": "Mesh Maritime News",
-      "sourceId": "bing-mesh-maritime",
-      "url": "https://news.google.com/rss/articles/CBMikgJBVV95cUxNSl9RWnhzem5kVVdFT3pCNm5rRThGdDRtWDh0Rl91SW5ZTmRZMGM4c09yM1N5dF84R2E4c3RDVS01dlFlbHhQZHhlUV9fcHJITURQS2QwR1ZWb1lYV1k5WlNUU3F1aXJfM0JuSEJicm9EZmVZMzZSWm0yd2lWekxDdUY2a1N0RmIwWExjQ0MtZ1JsTVFYd21Sb2hSTkNKMTVTbUh6RDVpajdlelI0c29tcEttUXJ4bzZBS0FxekVrYVlQUDFvbWZxQ1RLVTNkYW9oTzhPMHpGZmdKM0N0ZFdrUHFZVElVR05MX2VXcDVScjZGdWRfVGVsSWVxSG1DNE1rN2hnb3kxMVUwSF9wcE9hejh3?oc=5",
-      "publishedAt": "2026-01-06T08:00:00Z",
-      "excerpt": "Pole Star Global launches Maritime Transparency Index - turning 25 years of maritime intelligence into instant vessel and voyage risk verdicts The Malaysian Reserve",
-      "tags": [
-        "Maritime",
-        "Supplier"
       ],
       "audience": "Multraship",
       "paywalled": false,
@@ -13793,6 +14144,28 @@
       "boardBucket": "Other Relevant"
     },
     {
+      "id": "f5e86960a715d382",
+      "title": "Total revenue of major dry bulk carriers in 2022 - Statista",
+      "source": "Oldendorff Carriers News",
+      "sourceId": "bing-oldendorff",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOSDZCOGI1YTlFVkRJNXVtUmtuYWZqNF9NN1owdHd4UzEtY0hRWE1yMm9sY0JHREg5OWo2bXRrZGJpVGFBT1NrbS1vYk9KMGNqSnIwZmZyYXUwUFE2ZjlNMnBDb0dTQTJlQjE4a0dELVAyMFpuekRoV2p5VmNEd0FHcU5R?oc=5",
+      "publishedAt": "2025-11-29T08:00:00Z",
+      "excerpt": "Total revenue of major dry bulk carriers in 2022 Statista",
+      "tags": [
+        "Shipping",
+        "Bulk"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [],
+      "priorityScore": 2,
+      "priorityBand": "low",
+      "priorityReasons": [],
+      "boardBucket": "Other Relevant"
+    },
+    {
       "id": "e648327eb0f93e00",
       "title": "Deal targets retrofit upgrades for X-DF engines as emissions regulations loom",
       "source": "Riviera: Air Pollution & GHG Emissions",
@@ -13817,6 +14190,50 @@
       "priorityReasons": [
         "Signal: Energy Transition"
       ],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "5093bcfdde0c8b45",
+      "title": "Jifmar, Seacontractors finalise transfer of workboat fleet - Baird Maritime",
+      "source": "Seacontractors Marine Service News",
+      "sourceId": "bing-seacontractors",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNcTNqdHhIbDlCT0p3WW5MaXZwQV9wNlRwMldjTWdxR1RaMjEtcHlkWi1tdFV1SUxodXpxbmRTVHNfdzhUV1M1Z1VycUFoOUw1aEthNHloRUE5eUFsUHl4eTdEN2ZYdmE1Vllxb0pkdGs0NUJ5bVg2R2gwZklXSVBGMmxPZW1GTUFPSUNCZ3VfNzk1T2VxWWJtQ2k2eVF6X3EySFZrMHJVaHhSYThCWUo0NkNiRE_SAcIBQVVfeXFMUDNSb1ZtVF9vNGFtX1plbUl4cnB5R2N1b3VfcUQ0Z21VV1ZOM3V5elpzaFBtbkpKSG5TUmFIaDBpOXpBaThQaFoyRVBObk5ubkxLSnZkR0VNcTZlZVpiNVUwaWwzY0ctZzQxYlpOSG1ucU91OXE3bTRIMXNyNEpWNlJ2VGZoY3o4enRvTVJERWJyeE1ja3RWTFBuZ1ZiMEZHN3dvUVUtRkstVnpyS2VMZVpPa0g0eVNMNVMyZHpIS0xKQnc?oc=5",
+      "publishedAt": "2025-11-26T08:00:00Z",
+      "excerpt": "Jifmar, Seacontractors finalise transfer of workboat fleet Baird Maritime",
+      "tags": [
+        "Towage",
+        "Competitor"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [],
+      "priorityScore": 2,
+      "priorityBand": "low",
+      "priorityReasons": [],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "ef922c7be49ba0d5",
+      "title": "Main - Odessa Journal",
+      "source": "Damen Shipyards News",
+      "sourceId": "bing-damen",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPMWktMk9Pb0lGdEZXb3dMUVJGSGhFSmhxQnBwNl9CTkJ0QXkxWVlRWDRwZ283czRQaVRSWHhVMnUzTHlOTGRTclktVWVKZ2c0eHhMSlpmMlBpbi1xcS1xakFJWHFZTXNOUjlYYkE2b29CRnJFNm1Mdll1cGtzT0JTRUZuSFRFMEgza25MeERJeEtzdENfcElIRy1waElQQQ?oc=5",
+      "publishedAt": "2025-11-25T08:00:00Z",
+      "excerpt": "Main Odessa Journal",
+      "tags": [
+        "Shipbuilding",
+        "Supplier"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [],
+      "priorityScore": 2,
+      "priorityBand": "low",
+      "priorityReasons": [],
       "boardBucket": "Other Relevant"
     },
     {
@@ -13910,28 +14327,6 @@
       "priorityReasons": [
         "Signal: Energy Transition"
       ],
-      "boardBucket": "Other Relevant"
-    },
-    {
-      "id": "0cf4c551e6aba903",
-      "title": "The Last Caretaker: Complete Ship Guide - TheGamer",
-      "source": "Mesh Maritime News",
-      "sourceId": "bing-mesh-maritime",
-      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBBdmN0aVZid2lwUUhVVnEzWEhLOHFaYUw4QXN1VTEtendQZTU2aGxpbjdKRTNSQ1F1Y0VnSThBNkhhSVVOa3VTOVVZRmJfTzJmb2hYdE50NzlfcmJFcGV0YUVGZlE2aE5SNnY5SXRFaGVpSkdndmJrdEVKRVZhUQ?oc=5",
-      "publishedAt": "2025-11-13T08:00:00Z",
-      "excerpt": "The Last Caretaker: Complete Ship Guide TheGamer",
-      "tags": [
-        "Maritime",
-        "Supplier"
-      ],
-      "audience": "Multraship",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [],
-      "priorityScore": 2,
-      "priorityBand": "low",
-      "priorityReasons": [],
       "boardBucket": "Other Relevant"
     },
     {
@@ -14084,6 +14479,28 @@
       "locations": [],
       "businessTags": [],
       "priorityScore": 2,
+      "priorityBand": "low",
+      "priorityReasons": [],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "4aa272d58879419e",
+      "title": "Body Recovered from Capsized Cargo Ship as USCG Looks for Missing Raft",
+      "source": "The Maritime Executive",
+      "sourceId": "maritime-executive",
+      "url": "https://maritime-executive.com/article/body-recovered-from-capsized-cargo-ship-as-uscg-looks-for-missing-raft",
+      "publishedAt": "2026-04-22T18:18:11Z",
+      "excerpt": "The US Coast Guard reported that the search efforts are intensifying after the loss of the U.S.-flagged cargo ship Mariana as Super Typhoon Sinlaku o...",
+      "tags": [
+        "Maritime",
+        "News"
+      ],
+      "audience": "Both",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [],
+      "priorityScore": 1,
       "priorityBand": "low",
       "priorityReasons": [],
       "boardBucket": "Other Relevant"
@@ -15063,28 +15480,6 @@
       "boardBucket": "Other Relevant"
     },
     {
-      "id": "c43e2b21b424c7ae",
-      "title": "India Commits $1.4 Billion to the Creation of a Domestic P&I Club",
-      "source": "The Maritime Executive",
-      "sourceId": "maritime-executive",
-      "url": "https://maritime-executive.com/article/india-commits-1-4-billion-to-the-creation-of-a-domestic-p-i-club",
-      "publishedAt": "2026-04-19T20:32:00Z",
-      "excerpt": "India has made progress in establishing a local P&I club to protect the country\u2019s shipping interests. Over the weekend, the cabinet approved creation...",
-      "tags": [
-        "Maritime",
-        "News"
-      ],
-      "audience": "Both",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [],
-      "priorityScore": 1,
-      "priorityBand": "low",
-      "priorityReasons": [],
-      "boardBucket": "Other Relevant"
-    },
-    {
       "id": "4989c1cae4dcd3a1",
       "title": "Fugro opens ROV test pool facility in Singapore",
       "source": "SWZ Maritime",
@@ -15256,6 +15651,29 @@
       "locations": [],
       "businessTags": [],
       "priorityScore": 1,
+      "priorityBand": "low",
+      "priorityReasons": [],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "a7965a9134910649",
+      "title": "International Chamber of Shipping Releases Sixth Edition of Tanker Safety Guide (Chemicals)",
+      "source": "MarineLink",
+      "sourceId": "marinelink",
+      "url": "https://www.marinelink.com/news/international-chamber-shipping-releases-538370",
+      "publishedAt": "2026-04-22T19:04:05Z",
+      "excerpt": "The International Chamber of Shipping (ICS) announced the launch of the sixth edition of its benchmark publication, the Tanker Safety Guide (Chemicals). First published in 1971, the Tanker Safety Guide (Chemicals) is an industry reference\u2026",
+      "tags": [
+        "Safety",
+        "Maritime",
+        "Industry"
+      ],
+      "audience": "Novatug",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [],
+      "priorityScore": 0,
       "priorityBand": "low",
       "priorityReasons": [],
       "boardBucket": "Other Relevant"
@@ -16060,6 +16478,1015 @@
       "boardBucket": "Other Relevant"
     },
     {
+      "id": "ec824377994e752e",
+      "title": "Van Oord secures final award for dyke reinforcement project in Limburg, Netherlands - Baird Maritime",
+      "source": "Van Oord News",
+      "sourceId": "bing-van-oord",
+      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPanlQSU5aTk1JaFFMamtrVTlTbnc0U3hXZGNFNnRFakJLUnpabjlEajFwQm9BU3pSY1hrY3ZmTHBPYkk4Z2VJZml5OG1xZnRENlh3NG1tYXBiWDdzeW42TXNJeGFzN21sa2t6b08ybUJNMjdla2QxSk5kZVA4OWswalY0UGRYTVFzX0J2bmN0bzBSZHJVMUszVmVvWjhvTlRzVjF2RXJrQXc3Z3lWODlBMEhTLTFzZHhUY0hwN2luQVkwSzlJMXIwMldzbElBQ1o4Q2JfWEZLanVFb085R0VhS2drTE3SAfIBQVVfeXFMUENRbEo0cnUxV3FMVE42cEV2NTRISlNqMXN2aEdYVDVtdEFiSjdQUVFvdXdwcXVVN2tHdUkyTUZ4MWo2TmRpbmVnbFdPX2VoVmNSd1hvRnZyV1NDWlphNEsxeTZ0dzFiLXhUd3ltSVBXMTB5QVlsLVBTVXA4bjlpbVZqRVdEbG12RHJnR0dNNGZTS1ZZT0t5VlZRLXBLNlo2UDd3TUo5VHhoUDNlMGhLMzUyMEsxNG82NW5uZjVuTXpKbF9paURFWHluZkEzTXY0SS1MTE1fdEc4di1HaHRaMTl4UEhLbEhCbkNvYUdyZkN6TUE?oc=5",
+      "publishedAt": "2026-03-12T07:00:00Z",
+      "excerpt": "Van Oord secures final award for dyke reinforcement project in Limburg, Netherlands Baird Maritime",
+      "tags": [
+        "Offshore",
+        "Dredging"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [
+        {
+          "name": "Van Oord",
+          "category": "clients"
+        }
+      ],
+      "locations": [],
+      "businessTags": [
+        "Client",
+        "Commercial"
+      ],
+      "priorityScore": 8,
+      "priorityBand": "medium",
+      "priorityReasons": [
+        "Client mention: Van Oord",
+        "Signal: Commercial"
+      ],
+      "boardBucket": "Clients & Projects"
+    },
+    {
+      "id": "120b77fbfe343797",
+      "title": "Norwegian co to supply 18 big waterjet systems for Indian Navy's next-gen missile vessel project",
+      "source": "Kongsberg Maritime News",
+      "sourceId": "bing-kongsberg",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=69e90c7d39d44dbc83de1deee603fe34&url=https%3a%2f%2fwww.msn.com%2fen-in%2fnews%2fother%2fnorwegian-co-to-supply-18-big-waterjet-systems-for-indian-navy-s-next-gen-missile-vessel-project%2far-AA20Nuet&c=4609846177532778353&mkt=en-us",
+      "publishedAt": "2026-04-13T16:47:00Z",
+      "excerpt": "India's Navy is set to receive 18 advanced Kamewa waterjet propulsion systems from Norway's Kongsberg Maritime for its new missile vessels. This significant contract, awarded in partnership with ...",
+      "tags": [
+        "Clean Propulsion",
+        "Technology",
+        "Supplier"
+      ],
+      "audience": "Both",
+      "paywalled": false,
+      "entities": [
+        {
+          "name": "Kongsberg Maritime",
+          "category": "suppliers"
+        }
+      ],
+      "locations": [],
+      "businessTags": [
+        "Supplier",
+        "Commercial"
+      ],
+      "priorityScore": 6,
+      "priorityBand": "medium",
+      "priorityReasons": [
+        "Supplier mention: Kongsberg Maritime",
+        "Signal: Commercial"
+      ],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "82303d0be81eae01",
+      "title": "Deme Group NV MT0",
+      "source": "DEME Group News",
+      "sourceId": "bing-deme",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=69e90c7f4e1540419fa4ae1815dcec26&url=https%3a%2f%2fwww.morningstar.com%2fstocks%2fxstu%2fmt0%2fquote&c=702618500465205373&mkt=en-us",
+      "publishedAt": "2026-04-10T05:55:00Z",
+      "excerpt": "Morningstar Quantitative Ratings for Stocks are generated using an algorithm that compares companies that are not under analyst coverage to peer companies that do receive analyst-driven ratings.",
+      "tags": [
+        "Offshore",
+        "Marine-Construction"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [
+        {
+          "name": "DEME Group",
+          "category": "clients"
+        }
+      ],
+      "locations": [],
+      "businessTags": [
+        "Client"
+      ],
+      "priorityScore": 6,
+      "priorityBand": "medium",
+      "priorityReasons": [
+        "Client mention: DEME Group"
+      ],
+      "boardBucket": "Clients & Projects"
+    },
+    {
+      "id": "d8d12466ef748bff",
+      "title": "Kongsberg Maritime secures largest-ever waterjet contract",
+      "source": "Kongsberg Maritime News",
+      "sourceId": "bing-kongsberg",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=69e90c7d39d44dbc83de1deee603fe34&url=https%3a%2f%2fmaritimt.com%2fkongsberg-maritime-secures-largest-ever-waterjet-contract&c=2989329961921340396&mkt=en-us",
+      "publishedAt": "2026-04-08T02:34:00Z",
+      "excerpt": "Kongsberg Maritime has signed a landmark contract to supply 18 large Kamewa waterjets for the Indian Navy\u2019s Next Generation Missile Vessel (NGMV) programme. Each of the vessels will feature waterjets, ...",
+      "tags": [
+        "Technology",
+        "Supplier"
+      ],
+      "audience": "Both",
+      "paywalled": false,
+      "entities": [
+        {
+          "name": "Kongsberg Maritime",
+          "category": "suppliers"
+        }
+      ],
+      "locations": [],
+      "businessTags": [
+        "Supplier",
+        "Commercial"
+      ],
+      "priorityScore": 6,
+      "priorityBand": "medium",
+      "priorityReasons": [
+        "Supplier mention: Kongsberg Maritime",
+        "Signal: Commercial"
+      ],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "d6a9d35730cd77d6",
+      "title": "DEME Group (ENXTBR:DEME) Price Target Increased by 11.16% to 202.30",
+      "source": "DEME Group News",
+      "sourceId": "bing-deme",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=69e90c7f4e1540419fa4ae1815dcec26&url=https%3a%2f%2fwww.nasdaq.com%2farticles%2fdeme-group-enxtbr-deme-price-target-increased-1116-20230&c=10211048898713798937&mkt=en-us",
+      "publishedAt": "2026-02-23T16:00:00Z",
+      "excerpt": "The average one-year price target for DEME Group (ENXTBR:DEME) has been revised to 202,30 \u20ac / share. This is an increase of 11.16% from the prior estimate of 182,00 \u20ac dated February 1, 2026. The price ...",
+      "tags": [
+        "Offshore",
+        "Marine-Construction"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [
+        {
+          "name": "DEME Group",
+          "category": "clients"
+        }
+      ],
+      "locations": [],
+      "businessTags": [
+        "Client"
+      ],
+      "priorityScore": 6,
+      "priorityBand": "medium",
+      "priorityReasons": [
+        "Client mention: DEME Group"
+      ],
+      "boardBucket": "Clients & Projects"
+    },
+    {
+      "id": "6f98846700956621",
+      "title": "Glamox to supply marine lighting for Van Oord subsea rock installation vessel - Windtech International",
+      "source": "Van Oord News",
+      "sourceId": "bing-van-oord",
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQTDAwdWlOaHBuekNQYnRVd1NhVU9NeFN0Uk1rOEFzU05HNjV0SUJac2cwOTZhd3lIMFN5QngzN3NCOWZmMUVtME1CYnNhSEphTkEya1ZockNwM05hNTJiVDVzblUwNWFZVW5MQTA4NC1kcWUyUGx0Z2dVOXRWMTh1TTJVVXNFZWNkWTUtek12QVpQNHBMYWFlRmNWWjY0dU5zSHlEQnc4NmRSSWxvSTN4MkI1Y1JlOTZVNzRWYWFXZVFaQW9MSTVaYy1ha1dXdlhwLUV3WlB3?oc=5",
+      "publishedAt": "2026-02-04T08:00:00Z",
+      "excerpt": "Glamox to supply marine lighting for Van Oord subsea rock installation vessel Windtech International",
+      "tags": [
+        "Offshore",
+        "Dredging"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [
+        {
+          "name": "Van Oord",
+          "category": "clients"
+        }
+      ],
+      "locations": [],
+      "businessTags": [
+        "Client"
+      ],
+      "priorityScore": 6,
+      "priorityBand": "medium",
+      "priorityReasons": [
+        "Client mention: Van Oord"
+      ],
+      "boardBucket": "Clients & Projects"
+    },
+    {
+      "id": "56ffe73f39e6e2a3",
+      "title": "Van Oord selected for beach restoration works in Portugal - Baird Maritime",
+      "source": "Van Oord News",
+      "sourceId": "bing-van-oord",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPZ0RDNkZGOE5UUWVHaDVTSEhWRGdzc3RtZTIxSFdlODNGYTRkNmJKbzdLZ1RsMkJnN21VNVN1RllZX3M5bXVsSmREc1RNbS12TkdUMG5Ma2hURkhNUWRTWW1KMzlweGp3bzJGcGRpSnNlVldaSVVjSFZySEhmWDU4TW9DV2NveG9mQ1Axd2RwMVhlam92dW5NRzFwc0EzZHRFTUV2V0t5V25iNTAyQW56bzV30gG_AUFVX3lxTE9FLUVHNWJHYThjLU54MlVsUnhNZ2JJU2RWaGZCQTdDQ2JNcDhhRzNKWldJUi1xLVdOTEdGZ24zOHpvUHN0Z0psTnJaeTI3STRUeVEtQ2VXNEFkeDdvUk5LWUp6U0lMV3EzVWt2VG90OTV2TFJXbHJkNUFUVWN4eDlteXZZSkswbndUekNHM1ZFMWU5MGt4RWtPY1h1ODdmY3VRVjVTUGlKenF1cHQ4NFAwZzdxRW5NNWZJWUJtMkFv?oc=5",
+      "publishedAt": "2026-01-21T08:00:00Z",
+      "excerpt": "Van Oord selected for beach restoration works in Portugal Baird Maritime",
+      "tags": [
+        "Towage",
+        "Offshore",
+        "Dredging"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [
+        {
+          "name": "Van Oord",
+          "category": "clients"
+        }
+      ],
+      "locations": [],
+      "businessTags": [
+        "Client"
+      ],
+      "priorityScore": 6,
+      "priorityBand": "medium",
+      "priorityReasons": [
+        "Client mention: Van Oord"
+      ],
+      "boardBucket": "Clients & Projects"
+    },
+    {
+      "id": "6b86e14f9655c818",
+      "title": "Cavotec Launches Redesigned PowerMove RoRo NxG Platform",
+      "source": "MarineLink",
+      "sourceId": "marinelink",
+      "url": "https://www.marinelink.com/news/cavotec-launches-redesigned-powermove-538355",
+      "publishedAt": "2026-04-22T13:16:32Z",
+      "excerpt": "Cavotec has launched PowerMove RoRo NxG, a mobile cable management system designed to simplify shore power connections for RoRo and RoPax vessels and support ports in their transition to cleaner operations.Cavotec\u2019s PowerMove shore power t\u2026",
+      "tags": [
+        "Electrification",
+        "Maritime",
+        "Industry"
+      ],
+      "audience": "Novatug",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [
+        "Infrastructure",
+        "Energy Transition"
+      ],
+      "priorityScore": 5,
+      "priorityBand": "medium",
+      "priorityReasons": [
+        "Signal: Infrastructure",
+        "Signal: Energy Transition"
+      ],
+      "boardBucket": "Regulation, Safety & Incidents"
+    },
+    {
+      "id": "ffc26ae403641d46",
+      "title": "Damen launches MPV 10720 for the Portuguese Navy - Damen Shipyards",
+      "source": "Damen Shipyards News",
+      "sourceId": "bing-damen",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxORjVJRmliSV9uNkJOdWVUaTRBTVgwTC1sY0ZYOXo4RmN0VVJtbWlXWkE0eVd1M29SSXpZRlBWazBpZXNOaXVxLW0wMkNoOEJ0WlNTMHdGbF9VVHZDQ05BMk9pZDVONXRpQkw1YXlyTUVRdEd1SHNvN0NtZXo0VktpS0JRcDJRR00tNWxTTUh5VGt0ay1hUnBaOU1wTQ?oc=5",
+      "publishedAt": "2026-04-07T07:00:00Z",
+      "excerpt": "Damen launches MPV 10720 for the Portuguese Navy Damen Shipyards",
+      "tags": [
+        "Towage",
+        "Shipbuilding",
+        "Supplier"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [
+        {
+          "name": "Damen Shipyards Group",
+          "category": "suppliers"
+        }
+      ],
+      "locations": [],
+      "businessTags": [
+        "Supplier"
+      ],
+      "priorityScore": 5,
+      "priorityBand": "medium",
+      "priorityReasons": [
+        "Supplier mention: Damen Shipyards Group"
+      ],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "c8ec2d5dc0ac2b24",
+      "title": "Damen launches tenth Island Class ferry for BC Ferries - Damen Shipyards",
+      "source": "Damen Shipyards News",
+      "sourceId": "bing-damen",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPbUN6UWluUWRUTVFNMk5DZ0tvNmJpLTExUWluYnhaSU9oOFNpek1WYzFNdk4xMXF4TG50dXpuYkZoTmdfSzgzR3JucDhqWjRSU1pKVFRHMFlDOV9aTjRXYWtpdDJtNFRGQ3ZWX0JydTI3ZVpGbXhzUDZheXNhcXpaZFVkTEZUOFltUUlMZ3o4TWxmYkJPTUZ0T3dVX3RWUQ?oc=5",
+      "publishedAt": "2026-03-20T10:22:08Z",
+      "excerpt": "Damen launches tenth Island Class ferry for BC Ferries Damen Shipyards",
+      "tags": [
+        "Shipbuilding",
+        "Supplier"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [
+        {
+          "name": "Damen Shipyards Group",
+          "category": "suppliers"
+        }
+      ],
+      "locations": [],
+      "businessTags": [
+        "Supplier"
+      ],
+      "priorityScore": 5,
+      "priorityBand": "medium",
+      "priorityReasons": [
+        "Supplier mention: Damen Shipyards Group"
+      ],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "6d4079eb01faa139",
+      "title": "Damen SPa 5009 to strengthen Dutch Caribbean Coast Guard - Damen Shipyards",
+      "source": "Damen Shipyards News",
+      "sourceId": "bing-damen",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOdEhBMHlOclM0QzlheWRicTN4NUUyZDd6ZEJSR2dWb2VfanNjdXpzdjVWbVY2bmZ5blpoaVhES3NQVWJ2dUcwVkZmdXQzWHotLU1kSl9qVnNPYnByTzRoWEYxV0UwMHgwMnFnU0FwemU4bHVqbFViSlFSTTREdXhpenhmUnZHXzJ5MERRcUtUTHJpVGl6dWE5RG52dEdCVUFX?oc=5",
+      "publishedAt": "2026-03-16T07:00:00Z",
+      "excerpt": "Damen SPa 5009 to strengthen Dutch Caribbean Coast Guard Damen Shipyards",
+      "tags": [
+        "Shipbuilding",
+        "Supplier"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [
+        {
+          "name": "Damen Shipyards Group",
+          "category": "suppliers"
+        }
+      ],
+      "locations": [],
+      "businessTags": [
+        "Supplier"
+      ],
+      "priorityScore": 5,
+      "priorityBand": "medium",
+      "priorityReasons": [
+        "Supplier mention: Damen Shipyards Group"
+      ],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "1a8331c30d6ec255",
+      "title": "Damen and Blue Water Autonomy\u2019s Liberty Class Autonomous Ship for the US Navy - Ships Monthly",
+      "source": "Damen Shipyards News",
+      "sourceId": "bing-damen",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPbUdjQm41NnMwNUxpVDhGRXh3VllyUkQ3c3FiMXNZV1FrbWlVbGh2VXVvZVYyNE82V2MzOVd3ZjVvc2N4VFFKcHUwR0p1elBlTG8tZnRrR2dqWUxYVGN0UWpTa3lFZ20wcElzTTJ5RjBWb2EwaEdtQzRJUE51b05ab1B6eF9wZGNlX1FIRlFyd2ZITHdFZjk3a2lXSVpTdEd3RnpfZnZ5SUo4YlE?oc=5",
+      "publishedAt": "2026-02-17T13:53:33Z",
+      "excerpt": "Damen and Blue Water Autonomy\u2019s Liberty Class Autonomous Ship for the US Navy Ships Monthly",
+      "tags": [
+        "Shipbuilding",
+        "Supplier"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [
+        {
+          "name": "Damen Shipyards Group",
+          "category": "suppliers"
+        }
+      ],
+      "locations": [],
+      "businessTags": [
+        "Supplier"
+      ],
+      "priorityScore": 5,
+      "priorityBand": "medium",
+      "priorityReasons": [
+        "Supplier mention: Damen Shipyards Group"
+      ],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "efed5221d05d4666",
+      "title": "Island Class ferry for BC Ferries completes sea trials - Damen Shipyards",
+      "source": "Damen Shipyards News",
+      "sourceId": "bing-damen",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPRGpFbjhPclgtSW50X3FiZ0poekowUTdXVU5TdDgzRVQ4MzBRWWMyaHZUcGpURi1UOFB5UWEya3ZPT3hKbXV5MV9tbkJYVHlRZUdpRWNhRmI1TDhEVThwQnE4SXV0RmY3d29ENXl5LU1uZUJlbl9VNUVPSVJnNUVEQkQ4YkNrbHNJcklxem1USnpWT3JheF9wSmZKRDQ0cm4wdnk0NS1zZ0NsRXRpSXNlRzA4MA?oc=5",
+      "publishedAt": "2026-02-05T08:00:00Z",
+      "excerpt": "Island Class ferry for BC Ferries completes sea trials Damen Shipyards",
+      "tags": [
+        "Shipbuilding",
+        "Supplier"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [
+        {
+          "name": "Damen Shipyards Group",
+          "category": "suppliers"
+        }
+      ],
+      "locations": [],
+      "businessTags": [
+        "Supplier"
+      ],
+      "priorityScore": 5,
+      "priorityBand": "medium",
+      "priorityReasons": [
+        "Supplier mention: Damen Shipyards Group"
+      ],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "624eecfa2b996793",
+      "title": "Dutch Authorities Arrest 2 At Damen Shipyards For Alleged Sanctions Violations Against Russia - Marine Insight",
+      "source": "Damen Shipyards News",
+      "sourceId": "bing-damen",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNVG1jMG1QbW00VTVKTk94UEdkdG1PQWxzSmJpYkhsZ3Q2N0sxZW5OcXo1cDBOaTlFM0JEUzhkWnVPSHNlcUlIRjdCSjExMFkwem14eHFpU2dfUmd2RS1tVXI4MUlmeWhhSmNzdXN6NkZrb2JPVGlrcnpPU0pwckw0cUpEcG53eFdFMzhqYVZIbmw0b3JaaThDVjZZc05GekpaV09CUjMtTU9QNkp3N1NpLWsyelVIZEZxZmprcnViOExxQQ?oc=5",
+      "publishedAt": "2025-12-06T08:00:00Z",
+      "excerpt": "Dutch Authorities Arrest 2 At Damen Shipyards For Alleged Sanctions Violations Against Russia Marine Insight",
+      "tags": [
+        "Shipbuilding",
+        "Supplier"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [
+        {
+          "name": "Damen Shipyards Group",
+          "category": "suppliers"
+        }
+      ],
+      "locations": [],
+      "businessTags": [
+        "Supplier"
+      ],
+      "priorityScore": 5,
+      "priorityBand": "medium",
+      "priorityReasons": [
+        "Supplier mention: Damen Shipyards Group"
+      ],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "34a214e45e1b51de",
+      "title": "Two arrested over \u2018sanctions probe into Damen Shipyards\u2019 - Tradewinds News",
+      "source": "Damen Shipyards News",
+      "sourceId": "bing-damen",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOSENab1ZEV0UwX2NNUG1TWTRDVWZPX3lBUUs5TTl1bnBCa3NrTlhrR2tnM1hjbi1GU3pyRFJxQkp4Ny1kemx0dDFNMEpHWTJQckExWnMyOEhYYVQ3VDVHbmdsaWN6VmNBOFNvNjB2cjdwMGdQay1tUUoxWFB2OEk5cW5NTGQxX0hsMnMyODlLSDRQTVo5UC1jV1k0dnpVMkdfN2F5T091MUFoZFc5?oc=5",
+      "publishedAt": "2025-12-05T08:00:00Z",
+      "excerpt": "Two arrested over \u2018sanctions probe into Damen Shipyards\u2019 Tradewinds News",
+      "tags": [
+        "Shipbuilding",
+        "Supplier"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [
+        {
+          "name": "Damen Shipyards Group",
+          "category": "suppliers"
+        }
+      ],
+      "locations": [],
+      "businessTags": [
+        "Supplier"
+      ],
+      "priorityScore": 5,
+      "priorityBand": "medium",
+      "priorityReasons": [
+        "Supplier mention: Damen Shipyards Group"
+      ],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "21f2ace3c965c332",
+      "title": "Damen launched the Island Class 9 for Canada\u2019s BC Ferries - Damen Shipyards",
+      "source": "Damen Shipyards News",
+      "sourceId": "bing-damen",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOLWNKOHZ2TEhLNzJuQzlpRjlMdnlNaV95ejNsYk9PM0JCaUNPSzNjTXBuNmF6WmFuVHh2cEs5SVA1TkppNExmM2VualdyOHZVSGJDWUZ6ZWhobDlkNUgyNEhINkJqQW5Wam5FZjRaZEZhYXRjaWpBanpTM0tWaWpMUUZjNGhTVU9CTUZQSDh4VVQwWl9SN2wtdWgtTHdCTFRQaFE?oc=5",
+      "publishedAt": "2025-11-27T08:00:00Z",
+      "excerpt": "Damen launched the Island Class 9 for Canada\u2019s BC Ferries Damen Shipyards",
+      "tags": [
+        "Shipbuilding",
+        "Supplier"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [
+        {
+          "name": "Damen Shipyards Group",
+          "category": "suppliers"
+        }
+      ],
+      "locations": [],
+      "businessTags": [
+        "Supplier"
+      ],
+      "priorityScore": 5,
+      "priorityBand": "medium",
+      "priorityReasons": [
+        "Supplier mention: Damen Shipyards Group"
+      ],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "f88c9d8c2a00b7d3",
+      "title": "Damen, Windcat Introduce New Class of Offshore Support Vessels - Marine News Magazine",
+      "source": "Damen Shipyards News",
+      "sourceId": "bing-damen",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBadXVmNG5CQS1LRUNsZFI4MEpYM2ZhUGJydS1vRWN5VG5BVUJfYXd4Z002YmhNb0E1SXlQOTBUSkFOc0tlUXh6a2xuYkZuZU5GOUlJWFQyNnRwNDd0SnJXMmdCdG82dDBlLXJSejdfd1ZKd09lTnRiWmF3MUo?oc=5",
+      "publishedAt": "2025-11-26T08:00:00Z",
+      "excerpt": "Damen, Windcat Introduce New Class of Offshore Support Vessels Marine News Magazine",
+      "tags": [
+        "Offshore Support",
+        "Shipbuilding",
+        "Supplier"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [
+        {
+          "name": "Damen Shipyards Group",
+          "category": "suppliers"
+        }
+      ],
+      "locations": [],
+      "businessTags": [
+        "Supplier"
+      ],
+      "priorityScore": 5,
+      "priorityBand": "medium",
+      "priorityReasons": [
+        "Supplier mention: Damen Shipyards Group"
+      ],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "8813f5e9ae361cb3",
+      "title": "Damen unveils Combi Freighter 5000 ICE - Damen Shipyards",
+      "source": "Damen Shipyards News",
+      "sourceId": "bing-damen",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFB0akxEOVB1dWRVLUladFJZam5ZQ2RGRXZGZ0hac3pHTXpzZktFd3RfZkhVWm5RcDNlM194U0lwOExOMmtrc05NSHZ1T21OMVhNUGZPTlotRXdla0NPNU44cjY3VWhzc1FOY0loa0ZoVnFpVV8xVWdZ?oc=5",
+      "publishedAt": "2025-11-04T08:00:00Z",
+      "excerpt": "Damen unveils Combi Freighter 5000 ICE Damen Shipyards",
+      "tags": [
+        "Shipbuilding",
+        "Supplier"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [
+        {
+          "name": "Damen Shipyards Group",
+          "category": "suppliers"
+        }
+      ],
+      "locations": [],
+      "businessTags": [
+        "Supplier"
+      ],
+      "priorityScore": 5,
+      "priorityBand": "medium",
+      "priorityReasons": [
+        "Supplier mention: Damen Shipyards Group"
+      ],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "e05348e274e71fd7",
+      "title": "Damen Shipyards adds record number of newbuildings as orderbook hits $12bn - Tradewinds News",
+      "source": "Damen Shipyards News",
+      "sourceId": "bing-damen",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxORFNsS2xXZnJDcWhZZEpWQ2JQaG04YmdsNmVtYUZUNllzVTdza19sQU40VHd3ZVFLQXVlWUd2SmZiSXk1VkhTMlg5N2FfalFqeDB5elFZaXprdEdxYWdBdWU4TS1aVnM2SXM3Qk1tSUFVaWE1REJOQ3RmNlpkM3J3MGlpNXpQSU45MDBLSzZrUXJRUkFJY3FHTWhBcV84cExzQUp3V2ZLVlBOcmpxcE1BZEVxZkdlWlNqSV9LbFUtZ3ctWmUy?oc=5",
+      "publishedAt": "2025-10-30T07:00:00Z",
+      "excerpt": "Damen Shipyards adds record number of newbuildings as orderbook hits $12bn Tradewinds News",
+      "tags": [
+        "Shipbuilding",
+        "Supplier"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [
+        {
+          "name": "Damen Shipyards Group",
+          "category": "suppliers"
+        }
+      ],
+      "locations": [],
+      "businessTags": [
+        "Supplier"
+      ],
+      "priorityScore": 5,
+      "priorityBand": "medium",
+      "priorityReasons": [
+        "Supplier mention: Damen Shipyards Group"
+      ],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "00631ad0f40fc474",
+      "title": "Kongsberg Maritime shares begin trading in Oslo after parent spin-off",
+      "source": "Kongsberg Maritime News",
+      "sourceId": "bing-kongsberg",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=69e90c7d39d44dbc83de1deee603fe34&url=https%3a%2f%2fwww.tradewindsnews.com%2ftechnology%2fkongsberg-maritime-shares-begin-trading-in-oslo-after-parent-spin-off%2f2-1-1977683&c=2727161669190424549&mkt=en-us",
+      "publishedAt": "2026-04-21T06:21:00Z",
+      "excerpt": "A new pure-play maritime technology company is set to hit the public markets, as Kongsberg Maritime begins trading today on the Oslo Stock Exchange after its spin-off from Kongsberg Gruppen.",
+      "tags": [
+        "Technology",
+        "Supplier"
+      ],
+      "audience": "Both",
+      "paywalled": false,
+      "entities": [
+        {
+          "name": "Kongsberg Maritime",
+          "category": "suppliers"
+        }
+      ],
+      "locations": [],
+      "businessTags": [
+        "Supplier"
+      ],
+      "priorityScore": 4,
+      "priorityBand": "medium",
+      "priorityReasons": [
+        "Supplier mention: Kongsberg Maritime"
+      ],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "f14f58198c7b2c7f",
+      "title": "Indian Navy to equip 6 stealth corvettes with Kongsberg Kamewa",
+      "source": "Kongsberg Maritime News",
+      "sourceId": "bing-kongsberg",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=69e90c7d39d44dbc83de1deee603fe34&url=https%3a%2f%2fwww.newsbytesapp.com%2fnews%2findia%2findian-navy-to-equip-6-stealth-corvettes-with-kongsberg-kamewa%2ftldr&c=14647400517899959803&mkt=en-us",
+      "publishedAt": "2026-04-13T23:57:00Z",
+      "excerpt": "Kongsberg Maritime will supply 18 advanced Kamewa waterjet propulsion systems to the Indian Navy, enhancing speed and stealth capabilities of their next-gen missile vessels.",
+      "tags": [
+        "Clean Propulsion",
+        "Technology",
+        "Supplier"
+      ],
+      "audience": "Both",
+      "paywalled": false,
+      "entities": [
+        {
+          "name": "Kongsberg Maritime",
+          "category": "suppliers"
+        }
+      ],
+      "locations": [],
+      "businessTags": [
+        "Supplier"
+      ],
+      "priorityScore": 4,
+      "priorityBand": "medium",
+      "priorityReasons": [
+        "Supplier mention: Kongsberg Maritime"
+      ],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "a0041d9805b25f69",
+      "title": "Indian Navy to get next-gen missile vessel with Norwegian jet propulsion: Check how it will make ships faster & stealthier",
+      "source": "Kongsberg Maritime News",
+      "sourceId": "bing-kongsberg",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=69e90c7d39d44dbc83de1deee603fe34&url=https%3a%2f%2fwww.msn.com%2fen-in%2fmoney%2fnews%2findian-navy-to-get-next-gen-missile-vessel-with-norwegian-jet-propulsion-check-how-it-will-make-ships-faster-stealthier%2far-AA20OZNX&c=5482301997127798460&mkt=en-us",
+      "publishedAt": "2026-04-13T23:18:12Z",
+      "excerpt": "Kongsberg Maritime has secured its largest waterjet order to date, supplying 18 advanced Kamewa systems for the Indian Navy's next-generation missile vessel program. This collaboration with Cochin ...",
+      "tags": [
+        "Clean Propulsion",
+        "Technology",
+        "Supplier"
+      ],
+      "audience": "Both",
+      "paywalled": false,
+      "entities": [
+        {
+          "name": "Kongsberg Maritime",
+          "category": "suppliers"
+        }
+      ],
+      "locations": [],
+      "businessTags": [
+        "Supplier"
+      ],
+      "priorityScore": 4,
+      "priorityBand": "medium",
+      "priorityReasons": [
+        "Supplier mention: Kongsberg Maritime"
+      ],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "081c50200b5c0303",
+      "title": "Earnings call transcript: Kongsberg Maritime Q4 2025 misses forecasts, stock rises",
+      "source": "Kongsberg Maritime News",
+      "sourceId": "bing-kongsberg",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=69e90c7d39d44dbc83de1deee603fe34&url=https%3a%2f%2fuk.investing.com%2fnews%2ftranscripts%2fearnings-call-transcript-kongsberg-maritime-q4-2025-misses-forecasts-stock-rises-93CH-4534385&c=13642004652290162899&mkt=en-us",
+      "publishedAt": "2026-03-02T05:17:00Z",
+      "excerpt": "Kongsberg Maritime\u2019s Q4 2025 earnings call revealed a significant miss on both earnings per share (EPS) and revenue forecasts. The company reported an EPS of $1.97, falling short of the expected ...",
+      "tags": [
+        "Technology",
+        "Supplier"
+      ],
+      "audience": "Both",
+      "paywalled": false,
+      "entities": [
+        {
+          "name": "Kongsberg Maritime",
+          "category": "suppliers"
+        }
+      ],
+      "locations": [],
+      "businessTags": [
+        "Supplier"
+      ],
+      "priorityScore": 4,
+      "priorityBand": "medium",
+      "priorityReasons": [
+        "Supplier mention: Kongsberg Maritime"
+      ],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "6309a765fc5345a5",
+      "title": "Kongsberg Gruppen: Defense Repositioning Powers Growth, Valuation Now Tight",
+      "source": "Kongsberg Maritime News",
+      "sourceId": "bing-kongsberg",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=69e90c7d39d44dbc83de1deee603fe34&url=https%3a%2f%2fseekingalpha.com%2farticle%2f4867540-kongsberg-gruppen-stock-q4-defense-repositioning-powers-growth-valuation-now-tight&c=6879829873577128762&mkt=en-us",
+      "publishedAt": "2026-02-08T11:34:00Z",
+      "excerpt": "The risks and opportunities for Kongsberg Gruppen have not materially changed. Globally, we are seeing that there is end market growth in aerospace and defense, and as a Norwegian aerospace and ...",
+      "tags": [
+        "Technology",
+        "Supplier"
+      ],
+      "audience": "Both",
+      "paywalled": false,
+      "entities": [
+        {
+          "name": "Kongsberg Maritime",
+          "category": "suppliers"
+        }
+      ],
+      "locations": [],
+      "businessTags": [
+        "Supplier"
+      ],
+      "priorityScore": 4,
+      "priorityBand": "medium",
+      "priorityReasons": [
+        "Supplier mention: Kongsberg Maritime"
+      ],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "365fe9f3c5385b00",
+      "title": "W\u00e4rtsil\u00e4 to divest its Water & Waste business to Solix Group AB - W\u00e4rtsil\u00e4",
+      "source": "W\u00e4rtsil\u00e4 News",
+      "sourceId": "bing-wartsila",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPVDR1Vnh4NEExbmtNQjI2QU5VZTNIb2FLaGh5cGtmSDFsX1l1T01taEFwR3RJTE1MRGtOTGlCR1N2UnU5UDg3eHNIOVJ1UVoxbDBObldJZ1VSTjdsNXluNXNxbmEwQUlybGFiVUlwa2hhMjRKUnFrdGNNdW9LZGNMUm9aTUNFakRvc2tSZmplWDAyR2xrSmV6SXhmWnE3eVRhMGhqSTl2TWdpMl9zR1JUaktBb0VwNGc?oc=5",
+      "publishedAt": "2026-02-05T08:00:00Z",
+      "excerpt": "W\u00e4rtsil\u00e4 to divest its Water & Waste business to Solix Group AB W\u00e4rtsil\u00e4",
+      "tags": [
+        "Propulsion",
+        "Technology"
+      ],
+      "audience": "Both",
+      "paywalled": false,
+      "entities": [
+        {
+          "name": "W\u00e4rtsil\u00e4",
+          "category": "suppliers"
+        }
+      ],
+      "locations": [],
+      "businessTags": [
+        "Supplier"
+      ],
+      "priorityScore": 4,
+      "priorityBand": "medium",
+      "priorityReasons": [
+        "Supplier mention: W\u00e4rtsil\u00e4"
+      ],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "8e8c89f75e97e514",
+      "title": "W\u00e4rtsil\u00e4 to Supply Engine for Hartman Seatrade Heavy Lift Vessel Newbuild - Marine News Magazine",
+      "source": "W\u00e4rtsil\u00e4 News",
+      "sourceId": "bing-wartsila",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNalRZbHFoN19nS3NFeWI4N2V4dWRCVWI2NTdMck1DakhIS0JWcHdaUTFXM254NlNBdUloeVhwOTJ3WXVQV0JhQ2s0Rk5ZQlJRdjY0RHpid2d0ZjV3R2lmcEhNdHhJeVlQbjNmVlBZYUFPWjhhRzZPNGZOWHFiZzF6MHd3?oc=5",
+      "publishedAt": "2026-01-13T08:00:00Z",
+      "excerpt": "W\u00e4rtsil\u00e4 to Supply Engine for Hartman Seatrade Heavy Lift Vessel Newbuild Marine News Magazine",
+      "tags": [
+        "Propulsion",
+        "Technology"
+      ],
+      "audience": "Both",
+      "paywalled": false,
+      "entities": [
+        {
+          "name": "W\u00e4rtsil\u00e4",
+          "category": "suppliers"
+        }
+      ],
+      "locations": [],
+      "businessTags": [
+        "Supplier"
+      ],
+      "priorityScore": 4,
+      "priorityBand": "medium",
+      "priorityReasons": [
+        "Supplier mention: W\u00e4rtsil\u00e4"
+      ],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "bd07d0283e1a7dd2",
+      "title": "W\u00e4rtsil\u00e4 Flags Key Trends Set to Shape Global Shipping in 2026 - Marine News Magazine",
+      "source": "W\u00e4rtsil\u00e4 News",
+      "sourceId": "bing-wartsila",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOdFI0dHZfR3Y0dnQyRm1yMDVUdjdMRkpUeVBkWnJ3R3J4ZmlBMUF3ZEJ3VzFWY1gxcGxnMFp3QUtGbEpET1V5bkVJWUMya29EVzhZRFdLaE5rWWlPMmIyNGh3RXBpQ0RWNFpkVkEzRXhxT196bHlQcDdTNEVRQlhvZjk1dVJwdw?oc=5",
+      "publishedAt": "2025-12-03T08:00:00Z",
+      "excerpt": "W\u00e4rtsil\u00e4 Flags Key Trends Set to Shape Global Shipping in 2026 Marine News Magazine",
+      "tags": [
+        "Propulsion",
+        "Technology"
+      ],
+      "audience": "Both",
+      "paywalled": false,
+      "entities": [
+        {
+          "name": "W\u00e4rtsil\u00e4",
+          "category": "suppliers"
+        }
+      ],
+      "locations": [],
+      "businessTags": [
+        "Supplier"
+      ],
+      "priorityScore": 4,
+      "priorityBand": "medium",
+      "priorityReasons": [
+        "Supplier mention: W\u00e4rtsil\u00e4"
+      ],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "c1b3d03ae5262f53",
+      "title": "Kongsberg Earnings: Strong Results, Demerger to Drive Possible Defense Rerating; Raise FVE by 3%",
+      "source": "Kongsberg Maritime News",
+      "sourceId": "bing-kongsberg",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=69e90c7d39d44dbc83de1deee603fe34&url=https%3a%2f%2fwww.morningstar.com%2fcompany-reports%2f1351722-kongsberg-earnings-strong-results-demerger-to-drive-possible-defense-rerating-raise-fve-by-3&c=11142137425932232772&mkt=en-us",
+      "publishedAt": "2025-10-29T17:00:00Z",
+      "excerpt": "Kongsberg Gruppen's revenue rose 12% year on year, driven by a 38% surge in defense and aerospace, with 15.2% group EBIT margin for the quarter. The key highlight was the plan to demerge Kongsberg ...",
+      "tags": [
+        "Technology",
+        "Supplier"
+      ],
+      "audience": "Both",
+      "paywalled": false,
+      "entities": [
+        {
+          "name": "Kongsberg Maritime",
+          "category": "suppliers"
+        }
+      ],
+      "locations": [],
+      "businessTags": [
+        "Supplier"
+      ],
+      "priorityScore": 4,
+      "priorityBand": "medium",
+      "priorityReasons": [
+        "Supplier mention: Kongsberg Maritime"
+      ],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "3107bbd2526b0500",
+      "title": "Global Shipping Reforms Cast Shadow Over Tanzania\u2019s Fishing Communities - Global Issues.org",
+      "source": "Mesh Maritime News",
+      "sourceId": "bing-mesh-maritime",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBnWWx4TmN0NDl6ckM4Y2lEemtIajNWNm5icDM2VWtLRFFuSDZ3MzRiekZJSUVkRnF3QkVzWlEwSTFvQnRCc0tQMFdONGRBUlpPRlNxQno3aEdJSEdVUmtN0gFkQVVfeXFMTlN0OU9iTktrLU9KbFJwTkZZX0MyYlVFbVBaMUZETFY0aGUxNy05bk54bktZWVdNQUl3ZlFDaTNNV2c0VzVqS3EyTjloZGhXV3JoNDMxa0N0WXhVV0pzcHh1NnBzYg?oc=5",
+      "publishedAt": "2026-04-22T07:16:04Z",
+      "excerpt": "Global Shipping Reforms Cast Shadow Over Tanzania\u2019s Fishing Communities Global Issues.org",
+      "tags": [
+        "Maritime",
+        "Supplier"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [],
+      "priorityScore": 2,
+      "priorityBand": "low",
+      "priorityReasons": [],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "45442d332c8dfc66",
+      "title": "Shipping Traffic Through Hormuz Still Largely Halted",
+      "source": "gCaptain",
+      "sourceId": "gcaptain",
+      "url": "https://gcaptain.com/shipping-traffic-through-hormuz-still-largely-halted/",
+      "publishedAt": "2026-04-21T16:54:51Z",
+      "excerpt": "Shipping traffic through the Strait of Hormuz remained broadly halted on Tuesday with only three ships passing the waterway in the past 24 hours, shipping data showed.",
+      "tags": [
+        "Maritime",
+        "Operations"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [],
+      "priorityScore": 2,
+      "priorityBand": "low",
+      "priorityReasons": [],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "15d4b441efaa4cb7",
+      "title": "Container lines reroute via Cape, MSC suspends bookings - freightnews.co.za",
+      "source": "Inchcape Shipping Services News",
+      "sourceId": "bing-inchcape",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNdXQ2MUh4WE5hOHI3aWhvR2o1Y0RmYWNQOHc2SU9oMzAxSk93WHA5OE5LM0FnRGVKeElFM0Z5ZU9XX1ByYWpfOUlGLTlRX0NlQjAxMDR1bnlYNTdBSHNIdkZhdzhJaFlrUVpmanJlVXNzX1JKWVktR21ScXVfcWhHU1VnUWYwUU1XV2hyMEtEYW9aTjRJejJv?oc=5",
+      "publishedAt": "2026-03-02T06:34:37Z",
+      "excerpt": "Container lines reroute via Cape, MSC suspends bookings freightnews.co.za",
+      "tags": [
+        "Ship-Agency"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [],
+      "priorityScore": 2,
+      "priorityBand": "low",
+      "priorityReasons": [],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "270f16a0d24b5df6",
+      "title": "Pole Star Global launches Maritime Transparency Index - turning 25 years of maritime intelligence into instant vessel and voyage risk verdicts - The Malaysian Reserve",
+      "source": "Mesh Maritime News",
+      "sourceId": "bing-mesh-maritime",
+      "url": "https://news.google.com/rss/articles/CBMikgJBVV95cUxNSl9RWnhzem5kVVdFT3pCNm5rRThGdDRtWDh0Rl91SW5ZTmRZMGM4c09yM1N5dF84R2E4c3RDVS01dlFlbHhQZHhlUV9fcHJITURQS2QwR1ZWb1lYV1k5WlNUU3F1aXJfM0JuSEJicm9EZmVZMzZSWm0yd2lWekxDdUY2a1N0RmIwWExjQ0MtZ1JsTVFYd21Sb2hSTkNKMTVTbUh6RDVpajdlelI0c29tcEttUXJ4bzZBS0FxekVrYVlQUDFvbWZxQ1RLVTNkYW9oTzhPMHpGZmdKM0N0ZFdrUHFZVElVR05MX2VXcDVScjZGdWRfVGVsSWVxSG1DNE1rN2hnb3kxMVUwSF9wcE9hejh3?oc=5",
+      "publishedAt": "2026-01-06T08:00:00Z",
+      "excerpt": "Pole Star Global launches Maritime Transparency Index - turning 25 years of maritime intelligence into instant vessel and voyage risk verdicts The Malaysian Reserve",
+      "tags": [
+        "Maritime",
+        "Supplier"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [],
+      "priorityScore": 2,
+      "priorityBand": "low",
+      "priorityReasons": [],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "0cf4c551e6aba903",
+      "title": "The Last Caretaker: Complete Ship Guide - TheGamer",
+      "source": "Mesh Maritime News",
+      "sourceId": "bing-mesh-maritime",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBBdmN0aVZid2lwUUhVVnEzWEhLOHFaYUw4QXN1VTEtendQZTU2aGxpbjdKRTNSQ1F1Y0VnSThBNkhhSVVOa3VTOVVZRmJfTzJmb2hYdE50NzlfcmJFcGV0YUVGZlE2aE5SNnY5SXRFaGVpSkdndmJrdEVKRVZhUQ?oc=5",
+      "publishedAt": "2025-11-13T08:00:00Z",
+      "excerpt": "The Last Caretaker: Complete Ship Guide TheGamer",
+      "tags": [
+        "Maritime",
+        "Supplier"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [],
+      "priorityScore": 2,
+      "priorityBand": "low",
+      "priorityReasons": [],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "c43e2b21b424c7ae",
+      "title": "India Commits $1.4 Billion to the Creation of a Domestic P&I Club",
+      "source": "The Maritime Executive",
+      "sourceId": "maritime-executive",
+      "url": "https://maritime-executive.com/article/india-commits-1-4-billion-to-the-creation-of-a-domestic-p-i-club",
+      "publishedAt": "2026-04-19T20:32:00Z",
+      "excerpt": "India has made progress in establishing a local P&I club to protect the country\u2019s shipping interests. Over the weekend, the cabinet approved creation...",
+      "tags": [
+        "Maritime",
+        "News"
+      ],
+      "audience": "Both",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [],
+      "priorityScore": 1,
+      "priorityBand": "low",
+      "priorityReasons": [],
+      "boardBucket": "Other Relevant"
+    },
+    {
       "id": "7b3b48d1a04592f9",
       "title": "Buks\u00e9r og Berging and Svitzer join forces - Yahoo Finance",
       "source": "Svitzer News",
@@ -16132,44 +17559,6 @@
       "boardBucket": "High Priority"
     },
     {
-      "id": "6eae86db573ca291",
-      "title": "Damen Delivers New Tugs to Fairplay Towage Group and Louis Meyer - Marine News Magazine",
-      "source": "Damen Shipyards News",
-      "sourceId": "bing-damen",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQMHhqNEI4Ylh1dk5Za19oZlR0Q1ZmU2tVSnJzZGFnZldsTGZuVERxbjMxVUc1QmNQbjRtTHNDTG5LMGpoV0Z2TFJOZlptWEZUT1RZRHBDWVpfblY5OU1KUy0zMmpEdGxmU3RBekxTcWlJczdxd0U1RFBRM25rNFpwZmdoZm0?oc=5",
-      "publishedAt": "2025-12-17T08:00:00Z",
-      "excerpt": "Damen Delivers New Tugs to Fairplay Towage Group and Louis Meyer Marine News Magazine",
-      "tags": [
-        "Towage",
-        "Shipbuilding",
-        "Supplier"
-      ],
-      "audience": "Multraship",
-      "paywalled": false,
-      "entities": [
-        {
-          "name": "Damen Shipyards Group",
-          "category": "suppliers"
-        },
-        {
-          "name": "Fairplay Towage",
-          "category": "competitors"
-        }
-      ],
-      "locations": [],
-      "businessTags": [
-        "Supplier",
-        "Competitor"
-      ],
-      "priorityScore": 9,
-      "priorityBand": "high",
-      "priorityReasons": [
-        "Supplier mention: Damen Shipyards Group",
-        "Competitor mention: Fairplay Towage"
-      ],
-      "boardBucket": "High Priority"
-    },
-    {
       "id": "f7fc475ccf11c099",
       "title": "Porto do A\u00e7u and Van Oord launch first dredging operation using HVO biofuel in 2026 - DredgeWire",
       "source": "Van Oord News",
@@ -16201,40 +17590,6 @@
         "Signal: Infrastructure"
       ],
       "boardBucket": "High Priority"
-    },
-    {
-      "id": "61f22423bdb9f4e6",
-      "title": "Port Authority of Puerto Quetzal to Receive Damen ASD Tug 2312 - Marine News Magazine",
-      "source": "Damen Shipyards News",
-      "sourceId": "bing-damen",
-      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQVEFqbmhwbWVuSUtWWjA2RVZWeWRUTk5sdERZRVlzNGYxWkIyRzRFSjlCNlNiMVdoQWg3T3dpdENlcm5Rai1ZYnE1LWdwclJLaUo3WXpvc1ZEQ3hqTnRtdXdPQnFUZTFZT3B1d1BabmtMT192SnM2N05uSy1vTjV3cWVB?oc=5",
-      "publishedAt": "2026-03-31T07:00:00Z",
-      "excerpt": "Port Authority of Puerto Quetzal to Receive Damen ASD Tug 2312 Marine News Magazine",
-      "tags": [
-        "Towage",
-        "Shipbuilding",
-        "Supplier"
-      ],
-      "audience": "Multraship",
-      "paywalled": false,
-      "entities": [
-        {
-          "name": "Damen Shipyards Group",
-          "category": "suppliers"
-        }
-      ],
-      "locations": [],
-      "businessTags": [
-        "Supplier",
-        "Regulation"
-      ],
-      "priorityScore": 8,
-      "priorityBand": "medium",
-      "priorityReasons": [
-        "Supplier mention: Damen Shipyards Group",
-        "Signal: Regulation"
-      ],
-      "boardBucket": "Regulation, Safety & Incidents"
     },
     {
       "id": "301e8a06a5a8311a",
@@ -16271,39 +17626,6 @@
       "boardBucket": "Clients & Projects"
     },
     {
-      "id": "fb1dbe2fa0bd6165",
-      "title": "Damen Signs Contract to Deliver Combi Freighters (CF) 3850 to the Polidano Group - Marine News Magazine",
-      "source": "Damen Shipyards News",
-      "sourceId": "bing-damen",
-      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBjeTVMcEthaHZ3cmpkWHIwUW1ELVBEci00UFJOV3NPd3dZbzBwdEV4ZjgxSTRPNVhpYTFQMlZlTGY3ZHl1R3lKOURSUmxDUGJsVVo2UEJfekZMdkgzTFc5TUlRYzAxQWdzbUhkc1pUOHdDYlgzQ3NSZ0V2ekMxUQ?oc=5",
-      "publishedAt": "2026-03-30T07:00:00Z",
-      "excerpt": "Damen Signs Contract to Deliver Combi Freighters (CF) 3850 to the Polidano Group Marine News Magazine",
-      "tags": [
-        "Shipbuilding",
-        "Supplier"
-      ],
-      "audience": "Multraship",
-      "paywalled": false,
-      "entities": [
-        {
-          "name": "Damen Shipyards Group",
-          "category": "suppliers"
-        }
-      ],
-      "locations": [],
-      "businessTags": [
-        "Supplier",
-        "Commercial"
-      ],
-      "priorityScore": 7,
-      "priorityBand": "medium",
-      "priorityReasons": [
-        "Supplier mention: Damen Shipyards Group",
-        "Signal: Commercial"
-      ],
-      "boardBucket": "Other Relevant"
-    },
-    {
       "id": "530a36d672d43cd2",
       "title": "ABS surpasses DNV as largest classification society by gross tonnage - PortNews IAA",
       "source": "DNV News",
@@ -16336,39 +17658,6 @@
       "priorityReasons": [
         "Supplier mention: American Bureau of Shipping",
         "Supplier mention: DNV"
-      ],
-      "boardBucket": "Other Relevant"
-    },
-    {
-      "id": "930a6417d0cbe3f3",
-      "title": "Damen and Germany in ongoing talks over future of F126 frigate project - NavalToday.com",
-      "source": "Damen Shipyards News",
-      "sourceId": "bing-damen",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQQ3BScHVVVVZVUUoyaFJhdDd0UkNtLUxxVWJBa3JXcXc2SjYzc0MxcXlOajVBZWlEQmR6SnZadkRLRy11NFJYbW9lSjZXal91VE1rNGpKSlkzdU5pd1R2aXpfdzVVa2d5ckRWNERSU2YwWG5uWUtkaVZJZEhaTE5xMURIVzQyQktsSEVpSzhGLWROczVWTXAyc1lwMHNKeHVfUEU1WnROeThvdVpkUHc?oc=5",
-      "publishedAt": "2025-11-17T08:00:00Z",
-      "excerpt": "Damen and Germany in ongoing talks over future of F126 frigate project NavalToday.com",
-      "tags": [
-        "Shipbuilding",
-        "Supplier"
-      ],
-      "audience": "Multraship",
-      "paywalled": false,
-      "entities": [
-        {
-          "name": "Damen Shipyards Group",
-          "category": "suppliers"
-        }
-      ],
-      "locations": [],
-      "businessTags": [
-        "Supplier",
-        "Commercial"
-      ],
-      "priorityScore": 7,
-      "priorityBand": "medium",
-      "priorityReasons": [
-        "Supplier mention: Damen Shipyards Group",
-        "Signal: Commercial"
       ],
       "boardBucket": "Other Relevant"
     },
@@ -16497,36 +17786,6 @@
       "boardBucket": "Competitors & Market"
     },
     {
-      "id": "f0e1b6fceb7b988c",
-      "title": "Fifth Amels 80 sold shortly after arrival in Vlissingen - BOAT International",
-      "source": "Damen Yachting News",
-      "sourceId": "bing-damen-yachting",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPSmNLdFdvRVk1a2k4cE50TXJmeEdVYmdQWGdVYkdTeGVXQ1M5ZFc0eHpuaWpVZGxsZ0RwN18zOGt1VXRiYW9DMUZNMC1pSTBISml2N2pvTk9MN28teGNqQ3FIWm9MdVZBTFVZM2d3LUpxWEg5RDd1QkxvTzVFa2hhUFVOY19HYm5Xcms2OW9WQXlsdzJIS1pFMHNlVGI?oc=5",
-      "publishedAt": "2026-03-20T07:00:00Z",
-      "excerpt": "Fifth Amels 80 sold shortly after arrival in Vlissingen BOAT International",
-      "tags": [
-        "Yachting"
-      ],
-      "audience": "Multraship",
-      "paywalled": false,
-      "entities": [],
-      "locations": [
-        {
-          "name": "Vlissingen",
-          "type": "core-port"
-        }
-      ],
-      "businessTags": [
-        "Port: Vlissingen"
-      ],
-      "priorityScore": 6,
-      "priorityBand": "medium",
-      "priorityReasons": [
-        "Core port watch: Vlissingen"
-      ],
-      "boardBucket": "Port Watch"
-    },
-    {
       "id": "738c5e80b749eee9",
       "title": "News Content Hub - DP World, Svitzer partner to bunker tugboats with biofuel - rivieramm.com",
       "source": "Svitzer News",
@@ -16585,37 +17844,6 @@
       "priorityBand": "medium",
       "priorityReasons": [
         "Client mention: DEME Group"
-      ],
-      "boardBucket": "Clients & Projects"
-    },
-    {
-      "id": "dd63eb06e0aea85c",
-      "title": "Emsteel, Oldendorff Carriers sign AED600 million five-year raw material freight agreement - MSN",
-      "source": "Oldendorff Carriers News",
-      "sourceId": "bing-oldendorff",
-      "url": "https://news.google.com/rss/articles/CBMi6gJBVV95cUxPRmJxZ0lEM2piQi04UlR1QklIUzBkZkVjVnVkNkZnSHI1MHIwLVpYdFFmUG5wSjgtQktuRkNKLUV3MG9iZWxUWUpWY3BPbXRhSnNlSDljamFRWUdEWXZOYm00cHdCVnA1dlNKZlJYS045RnZMdUtoSENuNEI4dWV4dkdOaE1SdzJmZWw3d3Iyb1hrVm9rRVhRSDh2WHJVcUM1cFdnVWZXY2lFbW16ZjFWWGlJZlVGckFfdmJucmhDd2xTWU5hRkhudkN1UlNObEhUM0hhUWFGdkY2LXdfTGNseXBVbkVmTGlKeXdJa2p5V084dkhpUHhHSVhrZ25Ta2gtY0FKLWM3SGNUNEJOVTA4OTBHNVJvTUk0YTFfYkFiUEl3bzdJVU5qUjVEbnk0cHFRZVlXRU51WTRGWUZJekxTUDg4VmJTRFRyd19wSWkzdEs3SkxZYVV5eEd0WXdrOW1iVDUyQkl3Y2I5Zw?oc=5",
-      "publishedAt": "2026-02-17T08:00:00Z",
-      "excerpt": "Emsteel, Oldendorff Carriers sign AED600 million five-year raw material freight agreement MSN",
-      "tags": [
-        "Shipping",
-        "Bulk"
-      ],
-      "audience": "Multraship",
-      "paywalled": false,
-      "entities": [
-        {
-          "name": "Oldendorff Carriers",
-          "category": "clients"
-        }
-      ],
-      "locations": [],
-      "businessTags": [
-        "Client"
-      ],
-      "priorityScore": 6,
-      "priorityBand": "medium",
-      "priorityReasons": [
-        "Client mention: Oldendorff Carriers"
       ],
       "boardBucket": "Clients & Projects"
     },
@@ -16713,37 +17941,6 @@
       "boardBucket": "Clients & Projects"
     },
     {
-      "id": "47e0d0b75a40ad24",
-      "title": "Van Oord completes offshore works in West White Rose - Inspenet",
-      "source": "Van Oord News",
-      "sourceId": "bing-van-oord",
-      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQNnFDZXU0TUpfZHoyWnktbml2bktDVnRWTHFyMWEzdDJVQmdmQ3k0aTNEc0VUclVpX2ppRnRIZ2pJai0zd19rLWg1LVoxWEUtM0JROC1UYlh0Y1hqOW0taGF0bmliaWRpTDNmMWxlLWtPWjVBb0dldU1fbnl4RU5IQWVpa1NBQQ?oc=5",
-      "publishedAt": "2025-12-11T08:00:00Z",
-      "excerpt": "Van Oord completes offshore works in West White Rose Inspenet",
-      "tags": [
-        "Offshore",
-        "Dredging"
-      ],
-      "audience": "Multraship",
-      "paywalled": false,
-      "entities": [
-        {
-          "name": "Van Oord",
-          "category": "clients"
-        }
-      ],
-      "locations": [],
-      "businessTags": [
-        "Client"
-      ],
-      "priorityScore": 6,
-      "priorityBand": "medium",
-      "priorityReasons": [
-        "Client mention: Van Oord"
-      ],
-      "boardBucket": "Clients & Projects"
-    },
-    {
       "id": "bba62649192e6d92",
       "title": "Shipping Industry Closes Ranks Behind IMO Ahead of High-Stakes Climate Talks",
       "source": "gCaptain",
@@ -16771,38 +17968,6 @@
       "boardBucket": "Regulation, Safety & Incidents"
     },
     {
-      "id": "fe2e08cbdbd1725c",
-      "title": "Damen launches \u2018Drone Carrier\u2019 for the Portuguese Navy - navalnews.com",
-      "source": "Damen Shipyards News",
-      "sourceId": "bing-damen",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPTU5EQWIxN1A3anBUUzlUellxLTR6Y2ZnWTZqWEJzWVNVMS00OHBvdW1MbWFYUWhodEFPLXAtUDBkdUhHQ2hDU2tXN0FxbE4yYmVDRFdMQVJiM2lSVXBJWXg3bEx3bzFFSlpGbml2UWtmdkNkeWc5emVhVjlaZEFRcW4wRXIyeVVEQ2NHTGJodFo2VTc2WVJudElfUl9IdjA?oc=5",
-      "publishedAt": "2026-04-07T07:00:00Z",
-      "excerpt": "Damen launches \u2018Drone Carrier\u2019 for the Portuguese Navy navalnews.com",
-      "tags": [
-        "Towage",
-        "Shipbuilding",
-        "Supplier"
-      ],
-      "audience": "Multraship",
-      "paywalled": false,
-      "entities": [
-        {
-          "name": "Damen Shipyards Group",
-          "category": "suppliers"
-        }
-      ],
-      "locations": [],
-      "businessTags": [
-        "Supplier"
-      ],
-      "priorityScore": 5,
-      "priorityBand": "medium",
-      "priorityReasons": [
-        "Supplier mention: Damen Shipyards Group"
-      ],
-      "boardBucket": "Other Relevant"
-    },
-    {
       "id": "24ce014f21845d50",
       "title": "Damen Launches Tenth Island Class Ferry For BC Ferries - Ocean News & Technology",
       "source": "Damen Shipyards News",
@@ -16810,219 +17975,6 @@
       "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNejB3UnFoanVvVlhGeUpxM2JPZmxpSFI1QVVLMERMbk1HYWRBZC1xakQ2ZUZfQTF2RXpqOVhIMXQ5UVNDX1NxMXNBblZWSjlVVUxWcWNPcFFGd1RDd0I2S0JwV040LWdMd05xNHhGYzJkY25VSjNPQVZBNDlTT0ZaSlZXSnQ1V2NHalljN1JfYjVkQUFhek5oMg?oc=5",
       "publishedAt": "2026-03-20T07:00:00Z",
       "excerpt": "Damen Launches Tenth Island Class Ferry For BC Ferries Ocean News & Technology",
-      "tags": [
-        "Shipbuilding",
-        "Supplier"
-      ],
-      "audience": "Multraship",
-      "paywalled": false,
-      "entities": [
-        {
-          "name": "Damen Shipyards Group",
-          "category": "suppliers"
-        }
-      ],
-      "locations": [],
-      "businessTags": [
-        "Supplier"
-      ],
-      "priorityScore": 5,
-      "priorityBand": "medium",
-      "priorityReasons": [
-        "Supplier mention: Damen Shipyards Group"
-      ],
-      "boardBucket": "Other Relevant"
-    },
-    {
-      "id": "b5fc0adab30f96c7",
-      "title": "Damen Shipyards Group to Deliver Stan Patrol 5009 Vessels to Dutch Caribbean Coast Guard - Marine News Magazine",
-      "source": "Damen Shipyards News",
-      "sourceId": "bing-damen",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOQlZjOE1uQzlENGFRaW8yTldocUdqNXdXNWZjbmJ4Nmx5YVRhYzNYTW1YWDFjVF8xNzQwSVVTVjI2c0t3ZHBWemJrbjNRYUJ6S2dpYWlGc2xPanVhYzJHdm1xRVdLYnRvbHNmWUNyMDd1QmJtazExM3NNSUIxNEVYUWxLSjFfUzA?oc=5",
-      "publishedAt": "2026-03-18T07:00:00Z",
-      "excerpt": "Damen Shipyards Group to Deliver Stan Patrol 5009 Vessels to Dutch Caribbean Coast Guard Marine News Magazine",
-      "tags": [
-        "Shipbuilding",
-        "Supplier"
-      ],
-      "audience": "Multraship",
-      "paywalled": false,
-      "entities": [
-        {
-          "name": "Damen Shipyards Group",
-          "category": "suppliers"
-        }
-      ],
-      "locations": [],
-      "businessTags": [
-        "Supplier"
-      ],
-      "priorityScore": 5,
-      "priorityBand": "medium",
-      "priorityReasons": [
-        "Supplier mention: Damen Shipyards Group"
-      ],
-      "boardBucket": "Other Relevant"
-    },
-    {
-      "id": "a8a979a6f5cd5b59",
-      "title": "FN And Damen To Develop Defense Solutions - Marine News Magazine",
-      "source": "Damen Shipyards News",
-      "sourceId": "bing-damen",
-      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5KZC13cl90SzAzcTMzam95cVhzODhnMFBQWUJiWWxxcFc5XzE0LVF1dktvaFJMUzQyczJPUnVwSkpWMDM2REJlUmNZN2M0c2dIc3FWOUcwbEJwWUJZNkN3VkxwZmhJS3VrVjlVYkVxdm5PTjMzeG9wYV9WbXNSZw?oc=5",
-      "publishedAt": "2026-03-12T07:00:00Z",
-      "excerpt": "FN And Damen To Develop Defense Solutions Marine News Magazine",
-      "tags": [
-        "Shipbuilding",
-        "Supplier"
-      ],
-      "audience": "Multraship",
-      "paywalled": false,
-      "entities": [
-        {
-          "name": "Damen Shipyards Group",
-          "category": "suppliers"
-        }
-      ],
-      "locations": [],
-      "businessTags": [
-        "Supplier"
-      ],
-      "priorityScore": 5,
-      "priorityBand": "medium",
-      "priorityReasons": [
-        "Supplier mention: Damen Shipyards Group"
-      ],
-      "boardBucket": "Other Relevant"
-    },
-    {
-      "id": "e33daab90cb9daa1",
-      "title": "Damen to Serve as Partner for Construction of LST 100 Vessels for the Australian Army - Marine News Magazine",
-      "source": "Damen Shipyards News",
-      "sourceId": "bing-damen",
-      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNcFFucXlOaFl6RnhQbVI3T1NvRXMwd1FXdHRPN1pvaFlnY3JGa0hoRWE3VkNJTXBFQWdTQ0RaUFVlN0ZJbHdmZTMzek53dWp6MHVIeWF2TkZnNEdZZmNSeGRObkwxTVZhSDJPZ1VhNWgzM0p1a1JEcFphRHdVZWxWag?oc=5",
-      "publishedAt": "2026-03-03T08:00:00Z",
-      "excerpt": "Damen to Serve as Partner for Construction of LST 100 Vessels for the Australian Army Marine News Magazine",
-      "tags": [
-        "Shipbuilding",
-        "Supplier"
-      ],
-      "audience": "Multraship",
-      "paywalled": false,
-      "entities": [
-        {
-          "name": "Damen Shipyards Group",
-          "category": "suppliers"
-        }
-      ],
-      "locations": [],
-      "businessTags": [
-        "Supplier"
-      ],
-      "priorityScore": 5,
-      "priorityBand": "medium",
-      "priorityReasons": [
-        "Supplier mention: Damen Shipyards Group"
-      ],
-      "boardBucket": "Other Relevant"
-    },
-    {
-      "id": "352e285e6f7fcb0e",
-      "title": "Damen and Blue Water sign licence deal to build 60-metre autonomous Liberty Class for U.S. Navy fleet expansion - Defence Industry Europe",
-      "source": "Damen Shipyards News",
-      "sourceId": "bing-damen",
-      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPN2hFNEN4dnFrX0ZVVDE1aHp0QVRjcTVKdFRkUGlmc2lHTGJmWHUtVkNpTlRSM3VyQ3FKSUJ6dlh2TUxlZ2pfMjM1X1V4T3YwNnp5TTFzenY5blZNVFd3eVV3VG9XdWZ4NF9peDlVcHNXbk1VMVhGb2M5Umx2blYtXzNMTEhmQUtNVFJUMldmRlZFWndTWDVpTmY4bVBDcHFWVWdzSzJBdFpwMXhGNW1BelR2ZWJrdjZyVmVlVVRjTUxBY0N0V00wSjNGNi0xaDZONUZ4TXRB?oc=5",
-      "publishedAt": "2026-02-14T08:00:00Z",
-      "excerpt": "Damen and Blue Water sign licence deal to build 60-metre autonomous Liberty Class for U.S. Navy fleet expansion Defence Industry Europe",
-      "tags": [
-        "Shipbuilding",
-        "Supplier"
-      ],
-      "audience": "Multraship",
-      "paywalled": false,
-      "entities": [
-        {
-          "name": "Damen Shipyards Group",
-          "category": "suppliers"
-        }
-      ],
-      "locations": [],
-      "businessTags": [
-        "Supplier"
-      ],
-      "priorityScore": 5,
-      "priorityBand": "medium",
-      "priorityReasons": [
-        "Supplier mention: Damen Shipyards Group"
-      ],
-      "boardBucket": "Other Relevant"
-    },
-    {
-      "id": "d0d41b9a7873d744",
-      "title": "Wireless Below Deck: How ScanReach Is Redefining Maritime Safety and Data Infrastructure - Sea News",
-      "source": "Mesh Maritime News",
-      "sourceId": "bing-mesh-maritime",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPTVFPNkJYNVdHQjdETUJnOGl3dFUtYjlXTUFvbTEwaUw5NHN3a1RpeWhpd3M5TXlmYzBmOHA1MFFONVVVMm5Nbkp0TFY0NmRLbUFFQmpWVXRsTzdGTjNYTklhbmY5S2FnWFgxaGN1T2dDOG5GZXdTbkRNal85cXNjQ0ZVTXAxNElpMU50bG8yZlNQbUNfVkFkT2FtQ0tpUzZFX0FtYmdoZGlFcjJ2NUIxaDZoLU8tLWRDT3c?oc=5",
-      "publishedAt": "2026-01-22T01:13:37Z",
-      "excerpt": "Wireless Below Deck: How ScanReach Is Redefining Maritime Safety and Data Infrastructure Sea News",
-      "tags": [
-        "Safety",
-        "Maritime",
-        "Supplier"
-      ],
-      "audience": "Multraship",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [
-        "Infrastructure"
-      ],
-      "priorityScore": 5,
-      "priorityBand": "medium",
-      "priorityReasons": [
-        "Signal: Infrastructure"
-      ],
-      "boardBucket": "Regulation, Safety & Incidents"
-    },
-    {
-      "id": "0ed5e60a3a917a42",
-      "title": "Offshore Patrol Vessel Market Report 2026-2030 and 2035 Featuring Key Players - Austal, BAE Systems, Damen Shipyards, and Fincantieri - Yahoo Finance",
-      "source": "Damen Shipyards News",
-      "sourceId": "bing-damen",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQMHE2WEZYS0JTZlFwaXJWbmRhc2pScWxVdGZpdmxZU2tKRFBCa2VBR05hMlBELWl3cF94NXN5UXNsMFRKR3dERVdNcVpCM1VMMlpfdldZRlN2OFdvLW9qakRmRnY3YmpnTTQ0SVVvX3M3RUcwR1VPc1M3UFBkaUVkVnl1TUJZNDNfWGc?oc=5",
-      "publishedAt": "2026-01-13T08:00:00Z",
-      "excerpt": "Offshore Patrol Vessel Market Report 2026-2030 and 2035 Featuring Key Players - Austal, BAE Systems, Damen Shipyards, and Fincantieri Yahoo Finance",
-      "tags": [
-        "Shipbuilding",
-        "Supplier"
-      ],
-      "audience": "Multraship",
-      "paywalled": false,
-      "entities": [
-        {
-          "name": "Damen Shipyards Group",
-          "category": "suppliers"
-        }
-      ],
-      "locations": [],
-      "businessTags": [
-        "Supplier"
-      ],
-      "priorityScore": 5,
-      "priorityBand": "medium",
-      "priorityReasons": [
-        "Supplier mention: Damen Shipyards Group"
-      ],
-      "boardBucket": "Other Relevant"
-    },
-    {
-      "id": "e1a6079c43f9c5ba",
-      "title": "Damen starts construction of new multi-purpose vessel for Herman Senior - Offshore-Energy.biz",
-      "source": "Damen Shipyards News",
-      "sourceId": "bing-damen",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQRi1TOVlpbFpRa1Z6WmJtdWQ4WmxEaThlalJmdzVyT0lZaEN4cmNVLUNRWlp5QmpURTJQb3NwR1dzZG1MSjFKcVh4dWEtWEJPTEgySTJmcngxSGR3V3pBZ0prMGVYYnV5dURJNFJQZHFQOHlhaDMtU3AzdEI1OWxOdGNSdVlJVXJ5b1d3RUEyN29fUWxiaF9fck1CeDlwYkl2LURxakZLWQ?oc=5",
-      "publishedAt": "2025-12-19T08:00:00Z",
-      "excerpt": "Damen starts construction of new multi-purpose vessel for Herman Senior Offshore-Energy.biz",
       "tags": [
         "Shipbuilding",
         "Supplier"
@@ -17142,32 +18094,6 @@
       "boardBucket": "Other Relevant"
     },
     {
-      "id": "2fc761cb6269720f",
-      "title": "First hybrid Amels 80 superyacht Pangea delivered - BOAT International",
-      "source": "Damen Yachting News",
-      "sourceId": "bing-damen-yachting",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNMzZSbDFra2VwcnJSMGtYR2NvRWdZeVFLOUVReHI0ZXRoRXBHUGxhMEc1eG1fcUdveGJBV292T0d5VU5HVnJwZnhHZFF6aWhySkJ6LUVERW55NC1LcEVhNGw4dUFpc3lUSjI1eFNtd0otM2pBZkc3dWVBaFV1ZHZfTWZpc1JGd3Z4Mm9fQjBqbw?oc=5",
-      "publishedAt": "2025-10-28T07:00:00Z",
-      "excerpt": "First hybrid Amels 80 superyacht Pangea delivered BOAT International",
-      "tags": [
-        "Electrification",
-        "Yachting"
-      ],
-      "audience": "Multraship",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [
-        "Energy Transition"
-      ],
-      "priorityScore": 4,
-      "priorityBand": "medium",
-      "priorityReasons": [
-        "Signal: Energy Transition"
-      ],
-      "boardBucket": "Other Relevant"
-    },
-    {
       "id": "d56d2aea40380c51",
       "title": "Chinese researchers propose near-zero-emission coal power technology",
       "source": "Hellenic Shipping News",
@@ -17206,28 +18132,6 @@
         "Incidents",
         "Shipping",
         "Markets"
-      ],
-      "audience": "Multraship",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [],
-      "priorityScore": 2,
-      "priorityBand": "low",
-      "priorityReasons": [],
-      "boardBucket": "Other Relevant"
-    },
-    {
-      "id": "1acee87b124f0403",
-      "title": "Global Shipping Reforms Cast Shadow Over Tanzania\u2019s Fishing Communities - ipsnews.net",
-      "source": "Mesh Maritime News",
-      "sourceId": "bing-mesh-maritime",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNSnA4NHdodHplM0otOHgtdHV4X0JrVXF3bG1aTDFoSXp6b3J5SGhyYUozQ3k2NDZXd1h0Y0JSc1ZBRkRleVpGdXluWkYzOWJBQUcwTDNZcEVWZjRiUmdEZGpSMGZoYUlrS0ZUelA3cmJFMV9vaVlxeG9Bd1JMYndNRlduczhmcmhFdkVKdk5idllUdXZpQmhzMHBJQTN2UVI5TjMzSWhn?oc=5",
-      "publishedAt": "2026-04-22T00:33:37Z",
-      "excerpt": "Global Shipping Reforms Cast Shadow Over Tanzania\u2019s Fishing Communities ipsnews.net",
-      "tags": [
-        "Maritime",
-        "Supplier"
       ],
       "audience": "Multraship",
       "paywalled": false,
@@ -17305,91 +18209,6 @@
       "boardBucket": "Other Relevant"
     },
     {
-      "id": "fba40a3f322a2ede",
-      "title": "Latest Amels 60 superyacht Alva delivered to owners - BOAT International",
-      "source": "Damen Yachting News",
-      "sourceId": "bing-damen-yachting",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQQURRUDlNMTJkNElMd3dfR3NOT0N2bXRjaXQzVDdzeXBBMnZCWEJJTm9WSmg4eGRvVXhKdnpkcmlSdGZkVUhXN1JrN1dEbk9nQWN4eEVkWDllWGZtU3VfZGZTNW9xRGpaZTFzWF9XclQ5RFZtclp1eHB5OFdETTRrME44VWVMQkFxSzNkZWxyZEk4X1NnRGFZQWlFRXY?oc=5",
-      "publishedAt": "2026-03-06T08:00:00Z",
-      "excerpt": "Latest Amels 60 superyacht Alva delivered to owners BOAT International",
-      "tags": [
-        "Yachting"
-      ],
-      "audience": "Multraship",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [],
-      "priorityScore": 2,
-      "priorityBand": "low",
-      "priorityReasons": [],
-      "boardBucket": "Other Relevant"
-    },
-    {
-      "id": "1f1c91b6809284b7",
-      "title": "Enabling Arctic Sentry: The Key Role for Maritime Autonomous Systems - Second Line of Defense - SLDinfo.com",
-      "source": "Mesh Maritime News",
-      "sourceId": "bing-mesh-maritime",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOeGs4Tzl1NFNucUZfbnlPbzlrMGh6MjZrU0FwS3k1U1dMUTZjaWdfdmgtQVZtOTk4WkJsZnNSdktoN3VrSkR5R3FaaWVWc0ZVdmc0anJyR01KeV9PWnhSaENzNTFBMkFwaUwxYUpYdWlPZ3FYd2NDVlRSWE4zU0FkVXlsZmczUzh0Q1Z0R0NKSmVycHN3dUF5RTV1cEw?oc=5",
-      "publishedAt": "2026-02-25T08:00:00Z",
-      "excerpt": "Enabling Arctic Sentry: The Key Role for Maritime Autonomous Systems - Second Line of Defense SLDinfo.com",
-      "tags": [
-        "Maritime",
-        "Supplier"
-      ],
-      "audience": "Multraship",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [],
-      "priorityScore": 2,
-      "priorityBand": "low",
-      "priorityReasons": [],
-      "boardBucket": "Other Relevant"
-    },
-    {
-      "id": "1ff2ef4de3ad65b3",
-      "title": "True Blue Netto II Yacht Touches Water as Floating Speakeasy - Megayacht News",
-      "source": "Damen Yachting News",
-      "sourceId": "bing-damen-yachting",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFB1aXdnN0JkTzJaTlhQVDRVZ0Y4ZkRoYkVjbXN2NjVUaGFWLWdSZWR6RUo3ZUN5R1ZVel9vZHNhaGlES18wSVZFdWdoZ1NxZHYtVGxUUzgtS0FjeHFkLWptSnNLYm5iOGw2RVE?oc=5",
-      "publishedAt": "2026-02-16T16:54:00Z",
-      "excerpt": "True Blue Netto II Yacht Touches Water as Floating Speakeasy Megayacht News",
-      "tags": [
-        "Yachting"
-      ],
-      "audience": "Multraship",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [],
-      "priorityScore": 2,
-      "priorityBand": "low",
-      "priorityReasons": [],
-      "boardBucket": "Other Relevant"
-    },
-    {
-      "id": "42bf02adeffdb875",
-      "title": "Amels 60 superyacht sold and launched - SuperYacht Times",
-      "source": "Damen Yachting News",
-      "sourceId": "bing-damen-yachting",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE84dW15YkdRQ05tUTQ2d1FQRUljTHh4X2RXWENpRy1fX0dMS1IycnA1WEJ3Nmh5UzlmdVYzcjc2cU5YUFl3TGNzV2lBaE9GZ3c5VUFhSDNyY1JWRmxoYWlUaVFNZVRlc19rUk0teWExT0QwYXNYYUlj?oc=5",
-      "publishedAt": "2026-02-02T08:00:00Z",
-      "excerpt": "Amels 60 superyacht sold and launched SuperYacht Times",
-      "tags": [
-        "Yachting"
-      ],
-      "audience": "Multraship",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [],
-      "priorityScore": 2,
-      "priorityBand": "low",
-      "priorityReasons": [],
-      "boardBucket": "Other Relevant"
-    },
-    {
       "id": "f272c00f371f9458",
       "title": "Mega cranes explained: the world\u2019s largest lifting machines and who builds them - Crane & Transport Briefing",
       "source": "Sarens News",
@@ -17411,50 +18230,6 @@
       "boardBucket": "Other Relevant"
     },
     {
-      "id": "6c9d39159d1af955",
-      "title": "Pole Star Global launches Maritime Transparency Index offering instant vessel and voyage risk verdicts \u2014 SMI DIGITAL - shipmanagementinternational.com",
-      "source": "Mesh Maritime News",
-      "sourceId": "bing-mesh-maritime",
-      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOYnQ1TGVELS0yWEN0N2FVd2NRTnRkd1BZcU84SlNFeWxELW1SRV9OMWo4bVhra3JzcjA3ZjRnbUdCMXJ6N2puZTVtOG84a0ltQWFsTDZNbGtMUC1senRHNkgwR25hMFZOY2E5YS1EZHA4TWJIbjcwclFyRXVPZUMydU53?oc=5",
-      "publishedAt": "2026-01-07T08:00:00Z",
-      "excerpt": "Pole Star Global launches Maritime Transparency Index offering instant vessel and voyage risk verdicts \u2014 SMI DIGITAL shipmanagementinternational.com",
-      "tags": [
-        "Maritime",
-        "Supplier"
-      ],
-      "audience": "Multraship",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [],
-      "priorityScore": 2,
-      "priorityBand": "low",
-      "priorityReasons": [],
-      "boardBucket": "Other Relevant"
-    },
-    {
-      "id": "acddbaba500adbb6",
-      "title": "New Pole Star index scores ships on transparency and dark risk - Splash247",
-      "source": "Mesh Maritime News",
-      "sourceId": "bing-mesh-maritime",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOU2h3M0pDclZCNlRYRDJUZXJwX05LdnVPWGhMQmQ0MVdVRWF2QnFhV0JVMEFLMFEyZGI2SjVWWVQyS0EtY0c3cE1FU25sQkx1dDl0ZjI3UFhjZVZhOTRXNDlLdkEtY1ZmalNaQVhjNkpHMURwd3FVVXFOMHozY1FpOENNZDBWTFRQci1hZlZ3?oc=5",
-      "publishedAt": "2026-01-07T08:00:00Z",
-      "excerpt": "New Pole Star index scores ships on transparency and dark risk Splash247",
-      "tags": [
-        "Maritime",
-        "Supplier"
-      ],
-      "audience": "Multraship",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [],
-      "priorityScore": 2,
-      "priorityBand": "low",
-      "priorityReasons": [],
-      "boardBucket": "Other Relevant"
-    },
-    {
       "id": "445050377741f48e",
       "title": "Amels 80 Yacht Hull Number 5 Greets New Year - Megayacht News",
       "source": "Damen Yachting News",
@@ -17464,28 +18239,6 @@
       "excerpt": "Amels 80 Yacht Hull Number 5 Greets New Year Megayacht News",
       "tags": [
         "Yachting"
-      ],
-      "audience": "Multraship",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [],
-      "priorityScore": 2,
-      "priorityBand": "low",
-      "priorityReasons": [],
-      "boardBucket": "Other Relevant"
-    },
-    {
-      "id": "ef922c7be49ba0d5",
-      "title": "Main - Odessa Journal",
-      "source": "Damen Shipyards News",
-      "sourceId": "bing-damen",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPMWktMk9Pb0lGdEZXb3dMUVJGSGhFSmhxQnBwNl9CTkJ0QXkxWVlRWDRwZ283czRQaVRSWHhVMnUzTHlOTGRTclktVWVKZ2c0eHhMSlpmMlBpbi1xcS1xakFJWHFZTXNOUjlYYkE2b29CRnJFNm1Mdll1cGtzT0JTRUZuSFRFMEgza25MeERJeEtzdENfcElIRy1waElQQQ?oc=5",
-      "publishedAt": "2025-11-25T08:00:00Z",
-      "excerpt": "Main Odessa Journal",
-      "tags": [
-        "Shipbuilding",
-        "Supplier"
       ],
       "audience": "Multraship",
       "paywalled": false,
@@ -18391,37 +19144,6 @@
       "boardBucket": "Regulation, Safety & Incidents"
     },
     {
-      "id": "242cd9f951dc3fa1",
-      "title": "Oldendorff-backed lender M&M Bank sees shipping loans soar amid high level of credit - Tradewinds News",
-      "source": "Oldendorff Carriers News",
-      "sourceId": "bing-oldendorff",
-      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQRlZHQWxKaEdJYzVPeEdMaGxoM0ZmXzJWR0pZdkVpa2l6QXlKc2QxUW45eThqVzRvQXh3c2NzU3pnNFZKaE1QaXVDeFRBVTFId0lTNTlTVUFJM1B5OEpIMmFTZEo4ZnQwMUFWeTBYY0FNQm9BVmI0NmZlall1RHhQWmtWeWF4ZFhkZG9FUTJ0V0JtMlgxaVBsc1pRaWVqNnZuMzlhUVl5SGhadUtQODZoVnotNElBRXpnUlJ2V3NCMW9kWnRJVFZVcW1kenZ5WFZr?oc=5",
-      "publishedAt": "2026-02-12T08:00:00Z",
-      "excerpt": "Oldendorff-backed lender M&M Bank sees shipping loans soar amid high level of credit Tradewinds News",
-      "tags": [
-        "Shipping",
-        "Bulk"
-      ],
-      "audience": "Multraship",
-      "paywalled": false,
-      "entities": [
-        {
-          "name": "Oldendorff Carriers",
-          "category": "clients"
-        }
-      ],
-      "locations": [],
-      "businessTags": [
-        "Client"
-      ],
-      "priorityScore": 6,
-      "priorityBand": "medium",
-      "priorityReasons": [
-        "Client mention: Oldendorff Carriers"
-      ],
-      "boardBucket": "Clients & Projects"
-    },
-    {
       "id": "7b11a13b3fdab2ae",
       "title": "Ukraine's Odesa port infrastructure hit in overnight Russian drone wave",
       "source": "Baird Maritime",
@@ -18623,31 +19345,6 @@
       "priorityBand": "medium",
       "priorityReasons": [
         "Supplier mention: Shell Nederland"
-      ],
-      "boardBucket": "Other Relevant"
-    },
-    {
-      "id": "416f1661dc70f10f",
-      "title": "Third Amels 80 superyacht Project Zurich hits the water - BOAT International",
-      "source": "Damen Yachting News",
-      "sourceId": "bing-damen-yachting",
-      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQQ2dsd04wNml6N3N5R21vNHZHV3VDZHJoRFF3Y0kyYi1aOFRIVTYyM1FqQXQ0b1Z2bWNHR21VWWpzcm55bjRBMWVWRFdDellNemdhWEV5M3g5U1ZHQ0V6akxaUk9ROTNBbU5qa2FjaDd6VjhfdEFGU2NxUXJhczM3Tm5uS2M5blBseHVXenRNcko1UQ?oc=5",
-      "publishedAt": "2026-03-02T08:00:00Z",
-      "excerpt": "Third Amels 80 superyacht Project Zurich hits the water BOAT International",
-      "tags": [
-        "Yachting"
-      ],
-      "audience": "Multraship",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [
-        "Commercial"
-      ],
-      "priorityScore": 4,
-      "priorityBand": "medium",
-      "priorityReasons": [
-        "Signal: Commercial"
       ],
       "boardBucket": "Other Relevant"
     },
@@ -18884,28 +19581,6 @@
       "excerpt": "The AMELS 80 Continues Evolving with First 2026 Arrival Superyachts.com",
       "tags": [
         "Yachting"
-      ],
-      "audience": "Multraship",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [],
-      "priorityScore": 2,
-      "priorityBand": "low",
-      "priorityReasons": [],
-      "boardBucket": "Other Relevant"
-    },
-    {
-      "id": "5093bcfdde0c8b45",
-      "title": "Jifmar, Seacontractors finalise transfer of workboat fleet - Baird Maritime",
-      "source": "Seacontractors Marine Service News",
-      "sourceId": "bing-seacontractors",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNcTNqdHhIbDlCT0p3WW5MaXZwQV9wNlRwMldjTWdxR1RaMjEtcHlkWi1tdFV1SUxodXpxbmRTVHNfdzhUV1M1Z1VycUFoOUw1aEthNHloRUE5eUFsUHl4eTdEN2ZYdmE1Vllxb0pkdGs0NUJ5bVg2R2gwZklXSVBGMmxPZW1GTUFPSUNCZ3VfNzk1T2VxWWJtQ2k2eVF6X3EySFZrMHJVaHhSYThCWUo0NkNiRE_SAcIBQVVfeXFMUDNSb1ZtVF9vNGFtX1plbUl4cnB5R2N1b3VfcUQ0Z21VV1ZOM3V5elpzaFBtbkpKSG5TUmFIaDBpOXpBaThQaFoyRVBObk5ubkxLSnZkR0VNcTZlZVpiNVUwaWwzY0ctZzQxYlpOSG1ucU91OXE3bTRIMXNyNEpWNlJ2VGZoY3o4enRvTVJERWJyeE1ja3RWTFBuZ1ZiMEZHN3dvUVUtRkstVnpyS2VMZVpPa0g0eVNMNVMyZHpIS0xKQnc?oc=5",
-      "publishedAt": "2025-11-26T08:00:00Z",
-      "excerpt": "Jifmar, Seacontractors finalise transfer of workboat fleet Baird Maritime",
-      "tags": [
-        "Towage",
-        "Competitor"
       ],
       "audience": "Multraship",
       "paywalled": false,
@@ -19356,28 +20031,6 @@
       "tags": [
         "Maritime",
         "Supplier"
-      ],
-      "audience": "Multraship",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [],
-      "priorityScore": 2,
-      "priorityBand": "low",
-      "priorityReasons": [],
-      "boardBucket": "Other Relevant"
-    },
-    {
-      "id": "f5e86960a715d382",
-      "title": "Total revenue of major dry bulk carriers in 2022 - Statista",
-      "source": "Oldendorff Carriers News",
-      "sourceId": "bing-oldendorff",
-      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOSDZCOGI1YTlFVkRJNXVtUmtuYWZqNF9NN1owdHd4UzEtY0hRWE1yMm9sY0JHREg5OWo2bXRrZGJpVGFBT1NrbS1vYk9KMGNqSnIwZmZyYXUwUFE2ZjlNMnBDb0dTQTJlQjE4a0dELVAyMFpuekRoV2p5VmNEd0FHcU5R?oc=5",
-      "publishedAt": "2025-11-29T08:00:00Z",
-      "excerpt": "Total revenue of major dry bulk carriers in 2022 Statista",
-      "tags": [
-        "Shipping",
-        "Bulk"
       ],
       "audience": "Multraship",
       "paywalled": false,
