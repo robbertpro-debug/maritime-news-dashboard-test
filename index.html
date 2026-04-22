@@ -644,6 +644,33 @@
         display: grid;
       }
 
+      .entity-range-row {
+        display: flex;
+        gap: 4px;
+        padding: 10px 18px;
+        border-bottom: 1px solid var(--line);
+        background: var(--surface-muted);
+      }
+
+      .entity-range-btn {
+        padding: 4px 10px;
+        border-radius: 999px;
+        border: 1px solid var(--line);
+        background: var(--surface);
+        color: var(--text-soft);
+        font-size: 11px;
+        font-weight: 700;
+        letter-spacing: 0.04em;
+        text-transform: uppercase;
+        cursor: pointer;
+      }
+
+      .entity-range-btn.active {
+        background: var(--accent);
+        border-color: var(--accent);
+        color: #fff;
+      }
+
       @media (max-width: 1180px) {
         .overview {
           align-items: start;
@@ -867,6 +894,13 @@
         { key: "competitors", label: "Competitor News", subtitle: "News mentioning tracked competitors" }
       ];
 
+      const DATE_RANGE_OPTIONS = [
+        { value: "7d", label: "7d", days: 7 },
+        { value: "30d", label: "30d", days: 30 },
+        { value: "90d", label: "90d", days: 90 },
+        { value: "6mo", label: "6mo", days: 180 }
+      ];
+
       const state = {
         data: window.__DASHBOARD_DATA__ || {
           articles: [],
@@ -877,7 +911,10 @@
         },
         activeAudience: "Multraship",
         bucketVisibility: {},
-        selectedEntities: { suppliers: null, clients: null, competitors: null }
+        selectedEntities: { suppliers: null, clients: null, competitors: null },
+        entityDateRange: { suppliers: "30d", clients: "30d", competitors: "30d" },
+        historyData: null,
+        historyLoading: false
       };
 
       const audienceMeta = {
@@ -1357,6 +1394,34 @@
         });
       }
 
+      async function loadHistoryData() {
+        if (state.historyLoading || state.historyData !== null) return;
+        state.historyLoading = true;
+        try {
+          const response = await fetch("./data/articles-history.json", { cache: "no-store" });
+          if (response.ok) state.historyData = await response.json();
+        } catch {
+          // fall back to dashboard data silently
+        } finally {
+          state.historyLoading = false;
+        }
+      }
+
+      function getArticlesForEntitySection(category) {
+        const range = state.entityDateRange[category] || "30d";
+        const option = DATE_RANGE_OPTIONS.find((o) => o.value === range) || DATE_RANGE_OPTIONS[1];
+        const cutoffMs = Date.now() - option.days * 24 * 60 * 60 * 1000;
+        const source =
+          option.days > 30 && state.historyData
+            ? state.historyData.articles || []
+            : state.data.articles || [];
+        return source.filter((article) => {
+          if (!matchesAudience(article)) return false;
+          if (!article.publishedAt) return false;
+          return new Date(article.publishedAt).getTime() >= cutoffMs;
+        });
+      }
+
       function getEntitiesForCategory(articles, category) {
         const counts = new Map();
         articles.forEach((article) => {
@@ -1389,11 +1454,12 @@
           .slice(0, limit);
       }
 
-      function renderEntitySection(container, catConfig, audienceArticles) {
+      function renderEntitySection(container, catConfig) {
         const { key, label, subtitle } = catConfig;
         const selectedEntity = state.selectedEntities[key];
-        const entities = getEntitiesForCategory(audienceArticles, key);
-        const articles = getEntityArticles(audienceArticles, key, selectedEntity);
+        const panelArticles = getArticlesForEntitySection(key);
+        const entities = getEntitiesForCategory(panelArticles, key);
+        const articles = getEntityArticles(panelArticles, key, selectedEntity);
 
         const panel = document.createElement("section");
         panel.className = "entity-panel";
@@ -1407,6 +1473,23 @@
         head.appendChild(titleBlock);
         head.appendChild(createTextElement("span", String(articles.length), "count-pill"));
         panel.appendChild(head);
+
+        const rangeRow = document.createElement("div");
+        rangeRow.className = "entity-range-row";
+        const currentRange = state.entityDateRange[key] || "30d";
+        DATE_RANGE_OPTIONS.forEach(({ value, label: rangeLabel, days }) => {
+          const btn = document.createElement("button");
+          btn.type = "button";
+          btn.className = "entity-range-btn" + (currentRange === value ? " active" : "");
+          btn.textContent = rangeLabel;
+          btn.addEventListener("click", async () => {
+            state.entityDateRange[key] = value;
+            if (days > 30 && state.historyData === null) await loadHistoryData();
+            renderEntitySections();
+          });
+          rangeRow.appendChild(btn);
+        });
+        panel.appendChild(rangeRow);
 
         if (entities.length > 0) {
           const chips = document.createElement("div");
@@ -1458,8 +1541,7 @@
         const container = document.getElementById("entityContainer");
         if (!container) return;
         container.innerHTML = "";
-        const audienceArticles = (state.data.articles || []).filter(matchesAudience);
-        ENTITY_CATEGORY_CONFIG.forEach((catConfig) => renderEntitySection(container, catConfig, audienceArticles));
+        ENTITY_CATEGORY_CONFIG.forEach((catConfig) => renderEntitySection(container, catConfig));
       }
 
       function render() {

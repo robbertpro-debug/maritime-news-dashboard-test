@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-04-22T07:02:33.537595Z",
-  "articleCount": 249,
+  "generatedAt": "2026-04-22T07:13:37.934702Z",
+  "articleCount": 269,
   "articles": [
     {
       "id": "e2d6c1330faf292d",
@@ -103,6 +103,42 @@
         "Signal: Regulation",
         "Signal: Infrastructure",
         "Signal: Energy Transition"
+      ],
+      "boardBucket": "High Priority"
+    },
+    {
+      "id": "e69b3eb2aef544c4",
+      "title": "Buks\u00e9r og Berging and Svitzer join forces",
+      "source": "Svitzer News",
+      "sourceId": "bing-svitzer",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=69e8752866e44d15ba668b6b1486f9f6&url=https%3a%2f%2ffinance.yahoo.com%2fnews%2fbuks-r-og-berging-svitzer-153100736.html&c=1420020822430314297&mkt=en-us",
+      "publishedAt": "2025-11-09T16:00:00Z",
+      "excerpt": "Copenhagen, Denmark: Global towage and marine solutions provider, Svitzer Group A/S (Svitzer), has acquired a 66.6% stake in leading Norwegian towage and marine service company, Buks\u00e9r og Berging AS, ...",
+      "tags": [
+        "Towage",
+        "Competitor"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [
+        {
+          "name": "Svitzer",
+          "category": "competitors"
+        },
+        {
+          "name": "Buks\u00e9r og Berging",
+          "category": "competitors"
+        }
+      ],
+      "locations": [],
+      "businessTags": [
+        "Competitor"
+      ],
+      "priorityScore": 10,
+      "priorityBand": "high",
+      "priorityReasons": [
+        "Competitor mention: Svitzer",
+        "Competitor mention: Buks\u00e9r og Berging"
       ],
       "boardBucket": "High Priority"
     },
@@ -363,6 +399,39 @@
       "boardBucket": "Port Watch"
     },
     {
+      "id": "26998493a3f5adc7",
+      "title": "Boskalis makes first successful ROV deployment following \u00a340m investment",
+      "source": "Boskalis News",
+      "sourceId": "bing-boskalis",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=69e87528d6ab4dfb992f148d60711973&url=https%3a%2f%2fwww.insidermedia.com%2fnews%2fscotland%2fboskalis-makes-first-successful-rov-deployment-following-40m-investment&c=10984532099390922739&mkt=en-us",
+      "publishedAt": "2026-04-15T02:08:00Z",
+      "excerpt": "Boskalis has made the first deployment of remotely operated vehicles (ROVs) from its new Remote Operations Center (ROC) in Aberdeen, following an 18-mon ...",
+      "tags": [
+        "Dredging",
+        "Offshore"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [
+        {
+          "name": "Boskalis",
+          "category": "clients"
+        }
+      ],
+      "locations": [],
+      "businessTags": [
+        "Client",
+        "Commercial"
+      ],
+      "priorityScore": 8,
+      "priorityBand": "medium",
+      "priorityReasons": [
+        "Client mention: Boskalis",
+        "Signal: Commercial"
+      ],
+      "boardBucket": "Clients & Projects"
+    },
+    {
       "id": "cd8eb4003ded51c6",
       "title": "Iran-backed cyber incidents drive shipping to rescan onboard systems",
       "source": "Riviera: Safety & Incidents",
@@ -420,6 +489,39 @@
       "boardBucket": "Regulation, Safety & Incidents"
     },
     {
+      "id": "79ab840b0a47e020",
+      "title": "Damen signs contract with Polidano for two Combi Freighters (CF) 3850",
+      "source": "Damen Shipyards News",
+      "sourceId": "bing-damen",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=69e87527dba44a1dbe66ee35be0a28fc&url=https%3a%2f%2fwww.drycargomag.com%2fdamen-signs-contract-with-polidano-for-two-combi-freighters-cf-3850&c=13539053897842588448&mkt=en-us",
+      "publishedAt": "2026-04-08T01:57:00Z",
+      "excerpt": "Damen Shipyards Group has signed a contract with Polidano for the delivery of two Combi Freighters (CF) 3850. The Malta-based company will use the vessels primarily for the transport of aggregates for ...",
+      "tags": [
+        "Shipbuilding",
+        "Supplier"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [
+        {
+          "name": "Damen Shipyards Group",
+          "category": "suppliers"
+        }
+      ],
+      "locations": [],
+      "businessTags": [
+        "Supplier",
+        "Commercial"
+      ],
+      "priorityScore": 7,
+      "priorityBand": "medium",
+      "priorityReasons": [
+        "Supplier mention: Damen Shipyards Group",
+        "Signal: Commercial"
+      ],
+      "boardBucket": "Other Relevant"
+    },
+    {
       "id": "f71bdddd83f2c18c",
       "title": "Possible Piracy Incident with Product Tanker off Somalia Being Investigated",
       "source": "The Maritime Executive",
@@ -475,6 +577,71 @@
       "boardBucket": "Regulation, Safety & Incidents"
     },
     {
+      "id": "e4837f168961669a",
+      "title": "Svitzer\u2019s first three TRAnsverse tugs near 3,000 commercial tug job total",
+      "source": "Svitzer News",
+      "sourceId": "bing-svitzer",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=69e8752866e44d15ba668b6b1486f9f6&url=https%3a%2f%2fwww.marinelog.com%2fnews%2fsvitzers-first-three-transverse-tugs-near-3000-commercial-tug-job-total%2f&c=8334571993702572403&mkt=en-us",
+      "publishedAt": "2026-04-15T11:11:00Z",
+      "excerpt": "Copenhagen, headquartered towage specialist Svitzer reports that its three TRAnsverse class tugboats are approaching completion of 3,000 commercial tug jobs, with on-water operations showing superior ...",
+      "tags": [
+        "Towage",
+        "Competitor"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [
+        {
+          "name": "Svitzer",
+          "category": "competitors"
+        }
+      ],
+      "locations": [],
+      "businessTags": [
+        "Competitor"
+      ],
+      "priorityScore": 6,
+      "priorityBand": "medium",
+      "priorityReasons": [
+        "Competitor mention: Svitzer"
+      ],
+      "boardBucket": "Competitors & Market"
+    },
+    {
+      "id": "8261121513b1fe77",
+      "title": "Norwegian co to supply 18 big waterjet systems for Indian Navy's next-gen missile vessel project",
+      "source": "Kongsberg Maritime News",
+      "sourceId": "bing-kongsberg",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=69e87527ace3408699c561f16c9ac774&url=https%3a%2f%2fwww.msn.com%2fen-in%2fnews%2fother%2fnorwegian-co-to-supply-18-big-waterjet-systems-for-indian-navy-s-next-gen-missile-vessel-project%2far-AA20Nuet&c=4609846177532778353&mkt=en-us",
+      "publishedAt": "2026-04-13T16:47:00Z",
+      "excerpt": "India's Navy is set to receive 18 advanced Kamewa waterjet propulsion systems from Norway's Kongsberg Maritime for its new missile vessels. This significant contract, awarded in partnership with ...",
+      "tags": [
+        "Clean Propulsion",
+        "Technology",
+        "Supplier"
+      ],
+      "audience": "Both",
+      "paywalled": false,
+      "entities": [
+        {
+          "name": "Kongsberg Maritime",
+          "category": "suppliers"
+        }
+      ],
+      "locations": [],
+      "businessTags": [
+        "Supplier",
+        "Commercial"
+      ],
+      "priorityScore": 6,
+      "priorityBand": "medium",
+      "priorityReasons": [
+        "Supplier mention: Kongsberg Maritime",
+        "Signal: Commercial"
+      ],
+      "boardBucket": "Other Relevant"
+    },
+    {
       "id": "a78bacec2cdfc31e",
       "title": "Voting opens for ITS 2026 towage industry awards",
       "source": "Riviera: Ports & Terminals",
@@ -501,6 +668,71 @@
         "Signal: Incident"
       ],
       "boardBucket": "Regulation, Safety & Incidents"
+    },
+    {
+      "id": "04fe2836ec34cd79",
+      "title": "Boskalis marks first successful ROV deployment from its new Remote Operations Center in Aberdeen",
+      "source": "Boskalis News",
+      "sourceId": "bing-boskalis",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=69e87528d6ab4dfb992f148d60711973&url=https%3a%2f%2fuk.finance.yahoo.com%2fnews%2fboskalis-marks-first-successful-rov-080000628.html&c=6923325144661067003&mkt=en-us",
+      "publishedAt": "2026-04-13T01:00:00Z",
+      "excerpt": "This milestone reflects the company\u2019s continuous focus on innovation, safety and future-proof offshore solutions. The ROC significantly expands Boskalis\u2019 remote ...",
+      "tags": [
+        "Safety",
+        "Dredging",
+        "Offshore"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [
+        {
+          "name": "Boskalis",
+          "category": "clients"
+        }
+      ],
+      "locations": [],
+      "businessTags": [
+        "Client"
+      ],
+      "priorityScore": 6,
+      "priorityBand": "medium",
+      "priorityReasons": [
+        "Client mention: Boskalis"
+      ],
+      "boardBucket": "Clients & Projects"
+    },
+    {
+      "id": "4b988ac066b0319b",
+      "title": "Kongsberg Maritime secures largest-ever waterjet contract",
+      "source": "Kongsberg Maritime News",
+      "sourceId": "bing-kongsberg",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=69e87527ace3408699c561f16c9ac774&url=https%3a%2f%2fmaritimt.com%2fkongsberg-maritime-secures-largest-ever-waterjet-contract&c=2989329961921340396&mkt=en-us",
+      "publishedAt": "2026-04-08T02:34:00Z",
+      "excerpt": "Kongsberg Maritime has signed a landmark contract to supply 18 large Kamewa waterjets for the Indian Navy\u2019s Next Generation Missile Vessel (NGMV) programme. Each of the vessels will feature waterjets, ...",
+      "tags": [
+        "Technology",
+        "Supplier"
+      ],
+      "audience": "Both",
+      "paywalled": false,
+      "entities": [
+        {
+          "name": "Kongsberg Maritime",
+          "category": "suppliers"
+        }
+      ],
+      "locations": [],
+      "businessTags": [
+        "Supplier",
+        "Commercial"
+      ],
+      "priorityScore": 6,
+      "priorityBand": "medium",
+      "priorityReasons": [
+        "Supplier mention: Kongsberg Maritime",
+        "Signal: Commercial"
+      ],
+      "boardBucket": "Other Relevant"
     },
     {
       "id": "8c15e609326590e5",
@@ -721,6 +953,68 @@
         "Competitor mention: Boluda Towage"
       ],
       "boardBucket": "Competitors & Market"
+    },
+    {
+      "id": "d3dfdb1dfd05f499",
+      "title": "Boskalis 2025 annual results: strong financial performance with EBITDA of EUR 1.3 billion and net profit of EUR 775 million",
+      "source": "Boskalis News",
+      "sourceId": "bing-boskalis",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=69e87528d6ab4dfb992f148d60711973&url=https%3a%2f%2fwww.finanznachrichten.de%2fnachrichten-2026-03%2f67860640-boskalis-2025-annual-results-strong-financial-performance-with-ebitda-of-eur-1-3-billion-and-net-profit-of-eur-775-million-399.htm&c=13579346276812743386&mkt=en-us",
+      "publishedAt": "2026-03-05T00:10:00Z",
+      "excerpt": "Revenue: EUR 4.5 billion (2024: EUR 4.4 billion) EBITDA: EUR 1.3 billion (2024: EUR 1.3 billion) Operating Result: EUR 886 million (2024: EUR 782 million) Net profit: EUR 775 million (2024: EUR ...",
+      "tags": [
+        "Dredging",
+        "Offshore"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [
+        {
+          "name": "Boskalis",
+          "category": "clients"
+        }
+      ],
+      "locations": [],
+      "businessTags": [
+        "Client"
+      ],
+      "priorityScore": 6,
+      "priorityBand": "medium",
+      "priorityReasons": [
+        "Client mention: Boskalis"
+      ],
+      "boardBucket": "Clients & Projects"
+    },
+    {
+      "id": "e400a100af442c3c",
+      "title": "DEME Group (ENXTBR:DEME) Price Target Increased by 11.16% to 202.30",
+      "source": "DEME Group News",
+      "sourceId": "bing-deme",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=69e87528ce604d9b8a6cf8978f78a669&url=https%3a%2f%2fwww.nasdaq.com%2farticles%2fdeme-group-enxtbr-deme-price-target-increased-1116-20230&c=10211048898713798937&mkt=en-us",
+      "publishedAt": "2026-02-23T16:00:00Z",
+      "excerpt": "The average one-year price target for DEME Group (ENXTBR:DEME) has been revised to 202,30 \u20ac / share. This is an increase of 11.16% from the prior estimate of 182,00 \u20ac dated February 1, 2026. The price ...",
+      "tags": [
+        "Offshore",
+        "Marine-Construction"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [
+        {
+          "name": "DEME Group",
+          "category": "clients"
+        }
+      ],
+      "locations": [],
+      "businessTags": [
+        "Client"
+      ],
+      "priorityScore": 6,
+      "priorityBand": "medium",
+      "priorityReasons": [
+        "Client mention: DEME Group"
+      ],
+      "boardBucket": "Clients & Projects"
     },
     {
       "id": "529c8ee46e22b2c7",
@@ -1202,6 +1496,133 @@
       "boardBucket": "Clients & Projects"
     },
     {
+      "id": "d1685d36512311e3",
+      "title": "Damen shipyard in Romania launches aircraft carrier for Portuguese Navy",
+      "source": "Damen Shipyards News",
+      "sourceId": "bing-damen",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=69e87527dba44a1dbe66ee35be0a28fc&url=https%3a%2f%2fwww.romania-insider.com%2fdamen-carrier-portuguese-navy-apr-2026&c=8357441190567815764&mkt=en-us",
+      "publishedAt": "2026-04-08T01:31:00Z",
+      "excerpt": "The Damen shipyard in Gala\u021bi, southeast Romania, launched a multi-purpose vessel on Tuesday, April 7. The vessel was produced for the Portuguese Naval Forces for EUR 132 million, financed through ...",
+      "tags": [
+        "Towage",
+        "Shipbuilding",
+        "Supplier"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [
+        {
+          "name": "Damen Shipyards Group",
+          "category": "suppliers"
+        }
+      ],
+      "locations": [],
+      "businessTags": [
+        "Supplier"
+      ],
+      "priorityScore": 5,
+      "priorityBand": "medium",
+      "priorityReasons": [
+        "Supplier mention: Damen Shipyards Group"
+      ],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "686d8292daca8fe3",
+      "title": "Damen launches \u2018Drone Carrier\u2019 for the Portuguese Navy",
+      "source": "Damen Shipyards News",
+      "sourceId": "bing-damen",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=69e87527dba44a1dbe66ee35be0a28fc&url=https%3a%2f%2fwww.navalnews.com%2fnaval-news%2f2026%2f04%2fdamen-launches-drone-carrier-for-the-portuguese-navy%2f&c=5745402376117431012&mkt=en-us",
+      "publishedAt": "2026-04-07T13:58:00Z",
+      "excerpt": "Damen Shipyards Group has launched the NRP D. Jo\u00e3o II a Multi-Purpose Vessel (MPV) 10720 for the Portuguese Navy. The vessel entered the water at Damen Shipyards Galati in Romania on April 7.",
+      "tags": [
+        "Towage",
+        "Shipbuilding",
+        "Supplier"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [
+        {
+          "name": "Damen Shipyards Group",
+          "category": "suppliers"
+        }
+      ],
+      "locations": [],
+      "businessTags": [
+        "Supplier"
+      ],
+      "priorityScore": 5,
+      "priorityBand": "medium",
+      "priorityReasons": [
+        "Supplier mention: Damen Shipyards Group"
+      ],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "03e69e4c2ba07f4e",
+      "title": "Damen Launches Multi-Purpose Vessel for the Portuguese Navy",
+      "source": "Damen Shipyards News",
+      "sourceId": "bing-damen",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=69e87527dba44a1dbe66ee35be0a28fc&url=https%3a%2f%2fwww.marinelink.com%2fnews%2fdamen-launches-multipurpose-vessel-537767&c=11375641692144553663&mkt=en-us",
+      "publishedAt": "2026-04-07T09:02:00Z",
+      "excerpt": "Damen Shipyards Group has launched the NRP D. Jo\u00e3o II a Multi-Purpose Vessel (MPV) 10720 for the Portuguese Navy. The vessel ...",
+      "tags": [
+        "Towage",
+        "Shipbuilding",
+        "Supplier"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [
+        {
+          "name": "Damen Shipyards Group",
+          "category": "suppliers"
+        }
+      ],
+      "locations": [],
+      "businessTags": [
+        "Supplier"
+      ],
+      "priorityScore": 5,
+      "priorityBand": "medium",
+      "priorityReasons": [
+        "Supplier mention: Damen Shipyards Group"
+      ],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "09ed7b65de78a8d0",
+      "title": "Creditors of Romania\u2019s Mangalia Shipyard reject reorganization plan, bankruptcy and liquidation to begin",
+      "source": "Damen Shipyards News",
+      "sourceId": "bing-damen",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=69e87527dba44a1dbe66ee35be0a28fc&url=https%3a%2f%2fwww.romania-insider.com%2fmangalia-shipyard-bankruptcy-april-2026&c=6396200990071912376&mkt=en-us",
+      "publishedAt": "2026-04-06T06:01:00Z",
+      "excerpt": "CITR, the judicial administrator of the Damen Shipyards Mangalia, announced on Monday, April 6, that creditors of the company rejected its reorganization plan at the last meeting, marking the ...",
+      "tags": [
+        "Shipbuilding",
+        "Supplier"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [
+        {
+          "name": "Damen Shipyards Group",
+          "category": "suppliers"
+        }
+      ],
+      "locations": [],
+      "businessTags": [
+        "Supplier"
+      ],
+      "priorityScore": 5,
+      "priorityBand": "medium",
+      "priorityReasons": [
+        "Supplier mention: Damen Shipyards Group"
+      ],
+      "boardBucket": "Other Relevant"
+    },
+    {
       "id": "cec8098d238fca37",
       "title": "At least US$25Bn, and years, to restore energy infrastructure damaged in Iran war",
       "source": "Riviera: Ports & Terminals",
@@ -1256,6 +1677,37 @@
         "Signal: Energy Transition"
       ],
       "boardBucket": "Regulation, Safety & Incidents"
+    },
+    {
+      "id": "c6dcadba9c757503",
+      "title": "US NAVSEA selects Damen\u2019s LST100 design for LSM Programme",
+      "source": "Damen Shipyards News",
+      "sourceId": "bing-damen",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=69e87527dba44a1dbe66ee35be0a28fc&url=https%3a%2f%2fwww.msn.com%2fen-us%2ftechnology%2faviation%2fus-navsea-selects-damen-s-lst100-design-for-lsm-programme%2far-AA1Spl9f&c=9776754679786699594&mkt=en-us",
+      "publishedAt": "2025-12-15T13:57:00Z",
+      "excerpt": "The US Naval Sea Systems Command (NAVSEA) has chosen Damen Shipyards Group\u2019s Landing Ship Transport (LST)100 design for its Medium Landing Ship (LSM) programme. The selection follows a technical data ...",
+      "tags": [
+        "Shipbuilding",
+        "Supplier"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [
+        {
+          "name": "Damen Shipyards Group",
+          "category": "suppliers"
+        }
+      ],
+      "locations": [],
+      "businessTags": [
+        "Supplier"
+      ],
+      "priorityScore": 5,
+      "priorityBand": "medium",
+      "priorityReasons": [
+        "Supplier mention: Damen Shipyards Group"
+      ],
+      "boardBucket": "Other Relevant"
     },
     {
       "id": "57cc1f64dfdaf5bf",
@@ -1474,6 +1926,37 @@
       "boardBucket": "Regulation, Safety & Incidents"
     },
     {
+      "id": "150fce924454a828",
+      "title": "Kongsberg Maritime shares begin trading in Oslo after parent spin-off",
+      "source": "Kongsberg Maritime News",
+      "sourceId": "bing-kongsberg",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=69e87527ace3408699c561f16c9ac774&url=https%3a%2f%2fwww.tradewindsnews.com%2ftechnology%2fkongsberg-maritime-shares-begin-trading-in-oslo-after-parent-spin-off%2f2-1-1977683&c=2727161669190424549&mkt=en-us",
+      "publishedAt": "2026-04-21T06:21:00Z",
+      "excerpt": "A new pure-play maritime technology company is set to hit the public markets, as Kongsberg Maritime begins trading today on the Oslo Stock Exchange after its spin-off from Kongsberg Gruppen.",
+      "tags": [
+        "Technology",
+        "Supplier"
+      ],
+      "audience": "Both",
+      "paywalled": false,
+      "entities": [
+        {
+          "name": "Kongsberg Maritime",
+          "category": "suppliers"
+        }
+      ],
+      "locations": [],
+      "businessTags": [
+        "Supplier"
+      ],
+      "priorityScore": 4,
+      "priorityBand": "medium",
+      "priorityReasons": [
+        "Supplier mention: Kongsberg Maritime"
+      ],
+      "boardBucket": "Other Relevant"
+    },
+    {
       "id": "76e1cb78922fdf7e",
       "title": "C&C Marine and Repair Celebrates Keel Laying for Hybrid Escort Tugs",
       "source": "The Maritime Executive",
@@ -1555,6 +2038,38 @@
         "Signal: Regulation"
       ],
       "boardBucket": "Regulation, Safety & Incidents"
+    },
+    {
+      "id": "0c986e6d063db387",
+      "title": "Indian Navy to get next-gen missile vessel with Norwegian jet propulsion: Check how it will make ships faster & stealthier",
+      "source": "Kongsberg Maritime News",
+      "sourceId": "bing-kongsberg",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=69e87527ace3408699c561f16c9ac774&url=https%3a%2f%2fwww.msn.com%2fen-in%2fmoney%2fnews%2findian-navy-to-get-next-gen-missile-vessel-with-norwegian-jet-propulsion-check-how-it-will-make-ships-faster-stealthier%2far-AA20OZNX&c=5482301997127798460&mkt=en-us",
+      "publishedAt": "2026-04-13T23:18:12Z",
+      "excerpt": "Kongsberg Maritime has secured its largest waterjet order to date, supplying 18 advanced Kamewa systems for the Indian Navy's next-generation missile vessel program. This collaboration with Cochin ...",
+      "tags": [
+        "Clean Propulsion",
+        "Technology",
+        "Supplier"
+      ],
+      "audience": "Both",
+      "paywalled": false,
+      "entities": [
+        {
+          "name": "Kongsberg Maritime",
+          "category": "suppliers"
+        }
+      ],
+      "locations": [],
+      "businessTags": [
+        "Supplier"
+      ],
+      "priorityScore": 4,
+      "priorityBand": "medium",
+      "priorityReasons": [
+        "Supplier mention: Kongsberg Maritime"
+      ],
+      "boardBucket": "Other Relevant"
     },
     {
       "id": "016bd81df2772304",
@@ -1770,6 +2285,68 @@
       "boardBucket": "Other Relevant"
     },
     {
+      "id": "cdc700e102420d49",
+      "title": "Kongsberg Maritime As News",
+      "source": "Kongsberg Maritime News",
+      "sourceId": "bing-kongsberg",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=69e87527ace3408699c561f16c9ac774&url=https%3a%2f%2fwww.marinelink.com%2fnews%2fmaritime%2fkongsberg-maritime-as&c=5214729760993416847&mkt=en-us",
+      "publishedAt": "2026-03-03T16:00:00Z",
+      "excerpt": "Seadrill Limited, an offshore drilling contractor, Kongsberg Maritime AS, a global technology leader, and Hanwha Drilling, a provider of offshore drilling services, announced a strategic alliance to ...",
+      "tags": [
+        "Technology",
+        "Supplier"
+      ],
+      "audience": "Both",
+      "paywalled": false,
+      "entities": [
+        {
+          "name": "Kongsberg Maritime",
+          "category": "suppliers"
+        }
+      ],
+      "locations": [],
+      "businessTags": [
+        "Supplier"
+      ],
+      "priorityScore": 4,
+      "priorityBand": "medium",
+      "priorityReasons": [
+        "Supplier mention: Kongsberg Maritime"
+      ],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "8302697e8f78a727",
+      "title": "Kongsberg Gruppen ASA (KBGGY) Q4 2025 Earnings Call Transcript",
+      "source": "Kongsberg Maritime News",
+      "sourceId": "bing-kongsberg",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=69e87527ace3408699c561f16c9ac774&url=https%3a%2f%2fseekingalpha.com%2farticle%2f4866991-kongsberg-gruppen-asa-kbggy-q4-2025-earnings-call-transcript&c=2658782570888441421&mkt=en-us",
+      "publishedAt": "2026-02-06T03:04:00Z",
+      "excerpt": "[Audio Gap] As well as Executive Vice President and Chief Financial Officer, Mette Toft Bjorgen. Later today, you will also have the opportunity to follow company presentations of Kongsberg Maritime ...",
+      "tags": [
+        "Technology",
+        "Supplier"
+      ],
+      "audience": "Both",
+      "paywalled": false,
+      "entities": [
+        {
+          "name": "Kongsberg Maritime",
+          "category": "suppliers"
+        }
+      ],
+      "locations": [],
+      "businessTags": [
+        "Supplier"
+      ],
+      "priorityScore": 4,
+      "priorityBand": "medium",
+      "priorityReasons": [
+        "Supplier mention: Kongsberg Maritime"
+      ],
+      "boardBucket": "Other Relevant"
+    },
+    {
       "id": "cd0681c7ee9ae131",
       "title": "NZF delay: MEPC adjournment opens seven pathways",
       "source": "Riviera: Air Pollution & GHG Emissions",
@@ -1968,6 +2545,32 @@
         "Signal: Regulation"
       ],
       "boardBucket": "Regulation, Safety & Incidents"
+    },
+    {
+      "id": "3aa6833ee6fec68b",
+      "title": "Saipem starts preliminary work on ExxonMobil project in Guyana",
+      "source": "Splash247",
+      "sourceId": "splash247",
+      "url": "https://splash247.com/saipem-starts-preliminary-work-on-exxonmobil-project-in-guyana/",
+      "publishedAt": "2026-04-22T02:40:00Z",
+      "excerpt": "Italian energy services contractor Saipem has been awarded a new limited notice to proceed worth around $150m by ExxonMobil for work on the Longtail project offshore Guyana. The limited notice to proceed allows Saipem to commence prelimina\u2026",
+      "tags": [
+        "Maritime",
+        "News"
+      ],
+      "audience": "Both",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [
+        "Commercial"
+      ],
+      "priorityScore": 3,
+      "priorityBand": "low",
+      "priorityReasons": [
+        "Signal: Commercial"
+      ],
+      "boardBucket": "Other Relevant"
     },
     {
       "id": "e652f1e3489ed807",
@@ -2660,33 +3263,6 @@
       "boardBucket": "Other Relevant"
     },
     {
-      "id": "956b9a7f37cbed51",
-      "title": "Rio Tinto locks in methanol-ready bulker charters",
-      "source": "Splash247",
-      "sourceId": "splash247",
-      "url": "https://splash247.com/rio-tinto-locks-in-methanol-ready-bulker-charters/",
-      "publishedAt": "2026-04-21T07:00:32Z",
-      "excerpt": "Mining giant Rio Tinto has secured long-term freight cover with a deal to charter two methanol-capable dual-fuel newcastlemax bulkers from Japan\u2019s NS United Kaiun Kaisha, with deliveries set from 2028. The move gives the miner added flexib\u2026",
-      "tags": [
-        "Clean Propulsion",
-        "Maritime",
-        "News"
-      ],
-      "audience": "Novatug",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [
-        "Energy Transition"
-      ],
-      "priorityScore": 2,
-      "priorityBand": "low",
-      "priorityReasons": [
-        "Signal: Energy Transition"
-      ],
-      "boardBucket": "Other Relevant"
-    },
-    {
       "id": "f97dc98eb6b3f4a7",
       "title": "Innovex expands with acquisition of 2013-founded US firm",
       "source": "Offshore Energy",
@@ -3222,6 +3798,28 @@
         "Towage",
         "Incidents",
         "Safety"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [],
+      "priorityScore": 2,
+      "priorityBand": "low",
+      "priorityReasons": [],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "3f0c9de716799164",
+      "title": "HAL Trust: Still Trading At A Discount",
+      "source": "Boskalis News",
+      "sourceId": "bing-boskalis",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=69e87528d6ab4dfb992f148d60711973&url=https%3a%2f%2fseekingalpha.com%2farticle%2f4890731-hal-trust-still-trading-at-a-discount&c=17550158604506206562&mkt=en-us",
+      "publishedAt": "2026-04-14T20:20:00Z",
+      "excerpt": "East 72 Dynasty Trust reports that HAL Trust shares trade at a 32% discount to their estimated net asset value. Read the full analysis for more details.",
+      "tags": [
+        "Dredging",
+        "Offshore"
       ],
       "audience": "Multraship",
       "paywalled": false,
@@ -6159,6 +6757,33 @@
       "priorityScore": 0,
       "priorityBand": "low",
       "priorityReasons": [],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "956b9a7f37cbed51",
+      "title": "Rio Tinto locks in methanol-ready bulker charters",
+      "source": "Splash247",
+      "sourceId": "splash247",
+      "url": "https://splash247.com/rio-tinto-locks-in-methanol-ready-bulker-charters/",
+      "publishedAt": "2026-04-21T07:00:32Z",
+      "excerpt": "Mining giant Rio Tinto has secured long-term freight cover with a deal to charter two methanol-capable dual-fuel newcastlemax bulkers from Japan\u2019s NS United Kaiun Kaisha, with deliveries set from 2028. The move gives the miner added flexib\u2026",
+      "tags": [
+        "Clean Propulsion",
+        "Maritime",
+        "News"
+      ],
+      "audience": "Novatug",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [
+        "Energy Transition"
+      ],
+      "priorityScore": 2,
+      "priorityBand": "low",
+      "priorityReasons": [
+        "Signal: Energy Transition"
+      ],
       "boardBucket": "Other Relevant"
     }
   ]

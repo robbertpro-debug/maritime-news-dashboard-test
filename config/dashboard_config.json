@@ -162,6 +162,62 @@
       "audience_bias": {
         "Novatug": 2
       }
+    },
+    {
+      "id": "bing-damen",
+      "name": "Damen Shipyards News",
+      "url": "https://www.bing.com/news/search?q=Damen+Shipyards&format=rss&mkt=en-US",
+      "default_tags": ["shipbuilding", "supplier"],
+      "audience_bias": {
+        "Multraship": 5,
+        "Novatug": 2
+      }
+    },
+    {
+      "id": "bing-kongsberg",
+      "name": "Kongsberg Maritime News",
+      "url": "https://www.bing.com/news/search?q=Kongsberg+Maritime&format=rss&mkt=en-US",
+      "default_tags": ["technology", "supplier"],
+      "audience_bias": {
+        "Multraship": 4,
+        "Novatug": 3
+      }
+    },
+    {
+      "id": "bing-boskalis",
+      "name": "Boskalis News",
+      "url": "https://www.bing.com/news/search?q=Boskalis&format=rss&mkt=en-US",
+      "default_tags": ["dredging", "offshore"],
+      "audience_bias": {
+        "Multraship": 5
+      }
+    },
+    {
+      "id": "bing-svitzer",
+      "name": "Svitzer News",
+      "url": "https://www.bing.com/news/search?q=Svitzer+towage&format=rss&mkt=en-US",
+      "default_tags": ["towage", "competitor"],
+      "audience_bias": {
+        "Multraship": 5
+      }
+    },
+    {
+      "id": "bing-deme",
+      "name": "DEME Group News",
+      "url": "https://www.bing.com/news/search?q=DEME+Group&format=rss&mkt=en-US",
+      "default_tags": ["offshore", "marine-construction"],
+      "audience_bias": {
+        "Multraship": 5
+      }
+    },
+    {
+      "id": "bing-van-oord",
+      "name": "Van Oord News",
+      "url": "https://www.bing.com/news/search?q=Van+Oord+maritime&format=rss&mkt=en-US",
+      "default_tags": ["offshore", "dredging"],
+      "audience_bias": {
+        "Multraship": 5
+      }
     }
   ],
   "classification": {
