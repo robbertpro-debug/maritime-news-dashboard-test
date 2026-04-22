@@ -286,6 +286,50 @@
         border-color: var(--both);
       }
 
+      .view-mode-row {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        margin-top: 14px;
+      }
+
+      .view-mode-label {
+        font-size: 0.78rem;
+        color: var(--text-soft);
+        font-weight: 500;
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+        white-space: nowrap;
+      }
+
+      .view-mode-btn {
+        padding: 5px 12px;
+        font-size: 0.78rem;
+        border: 1px solid var(--line);
+        background: var(--surface);
+        color: var(--text-soft);
+        cursor: pointer;
+        border-radius: 4px;
+      }
+
+      .view-mode-btn.active[data-view="all"] {
+        background: #475569;
+        border-color: #475569;
+        color: #fff;
+      }
+
+      .view-mode-btn.active[data-view="procurement"] {
+        background: #b45309;
+        border-color: #b45309;
+        color: #fff;
+      }
+
+      .view-mode-btn.active[data-view="management"] {
+        background: #1d4ed8;
+        border-color: #1d4ed8;
+        color: #fff;
+      }
+
       .overview {
         display: flex;
         justify-content: space-between;
@@ -806,6 +850,13 @@
               <span id="visibleCount" class="status-value">0</span>
             </div>
           </div>
+          <div class="view-mode-row">
+            <span class="view-mode-label">View:</span>
+            <button class="view-mode-btn" data-view="all" type="button">All</button>
+            <button class="view-mode-btn" data-view="procurement" type="button">Procurement</button>
+            <button class="view-mode-btn" data-view="management" type="button">Management</button>
+          </div>
+
           <div class="meta-row">
             <span>Current feed window: last <strong><span id="lookbackDays">7</span> days</strong></span>
             <span>Refresh data with <strong><code>python3 scripts/fetch_feeds.py</code></strong></span>
@@ -908,6 +959,7 @@
     <script src="./data/articles.js"></script>
     <script>
       const AUTH_KEY = "mnd_auth";
+      const VIEW_MODE_KEY = "mnd_view_mode";
       const PASSWORD_HASH = "9175c025fea32b1448a98927bb679160119657ac11cbd028b51264a21af91db8";
 
       async function sha256hex(text) {
@@ -1011,7 +1063,8 @@
         entityDateRange: { suppliers: "30d", clients: "30d", competitors: "30d" },
         entityVisibility: { suppliers: 10, clients: 10, competitors: 10 },
         historyData: null,
-        historyLoading: false
+        historyLoading: false,
+        viewMode: localStorage.getItem(VIEW_MODE_KEY) || "all"
       };
 
       const audienceMeta = {
@@ -1664,7 +1717,20 @@
         const container = document.getElementById("entityContainer");
         if (!container) return;
         container.innerHTML = "";
-        ENTITY_CATEGORY_CONFIG.forEach((catConfig) => renderEntitySection(container, catConfig));
+        const visible = {
+          all: ["suppliers", "clients", "competitors"],
+          procurement: ["suppliers"],
+          management: ["clients", "competitors"]
+        }[state.viewMode] || ["suppliers", "clients", "competitors"];
+        ENTITY_CATEGORY_CONFIG
+          .filter((c) => visible.includes(c.key))
+          .forEach((catConfig) => renderEntitySection(container, catConfig));
+      }
+
+      function syncViewModeButtons() {
+        document.querySelectorAll(".view-mode-btn").forEach((btn) => {
+          btn.classList.toggle("active", btn.dataset.view === state.viewMode);
+        });
       }
 
       function render() {
@@ -1772,6 +1838,16 @@
             render();
           });
         });
+
+        document.querySelectorAll(".view-mode-btn").forEach((btn) => {
+          btn.addEventListener("click", () => {
+            state.viewMode = btn.dataset.view;
+            localStorage.setItem(VIEW_MODE_KEY, state.viewMode);
+            syncViewModeButtons();
+            renderEntitySections();
+          });
+        });
+        syncViewModeButtons();
 
         render();
       }
