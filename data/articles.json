@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-04-23T03:53:22.423692Z",
+  "generatedAt": "2026-04-23T06:04:16.089713Z",
   "lookbackDays": 30,
-  "cutoffAt": "2026-03-24T03:53:22.423692Z",
+  "cutoffAt": "2026-03-24T06:04:16.089713Z",
   "articleCount": 180,
   "sourceCount": 100,
   "sources": [
@@ -117,6 +117,42 @@
         "Client mention: Boskalis",
         "Signal: Infrastructure",
         "Signal: Terminal Expansion",
+        "Signal: Commercial"
+      ],
+      "boardBucket": "High Priority"
+    },
+    {
+      "id": "212c93a120007b08",
+      "title": "Port of Aberdeen invests in tug-supported harbour dredging",
+      "source": "Riviera: Ports & Terminals",
+      "sourceId": "riviera-ports",
+      "url": "https://www.rivieramm.com/news-content-hub/port-of-aberdeen-invests-in-tug-supported-harbour-dredging-88534",
+      "publishedAt": "2026-04-23T05:30:00Z",
+      "excerpt": "In Scotland, the Port of Aberdeen has awarded a three-year maintenance dredging contract to Boskalis Westminster",
+      "tags": [
+        "Towage",
+        "Ports",
+        "Terminals"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [
+        {
+          "name": "Boskalis",
+          "category": "clients"
+        }
+      ],
+      "locations": [],
+      "businessTags": [
+        "Client",
+        "Infrastructure",
+        "Commercial"
+      ],
+      "priorityScore": 11,
+      "priorityBand": "high",
+      "priorityReasons": [
+        "Client mention: Boskalis",
+        "Signal: Infrastructure",
         "Signal: Commercial"
       ],
       "boardBucket": "High Priority"
@@ -325,35 +361,6 @@
         "Core port watch: Rotterdam",
         "Signal: Regulation",
         "Signal: Commercial"
-      ],
-      "boardBucket": "High Priority"
-    },
-    {
-      "id": "3034b7008baa42ac",
-      "title": "Ukraine Attacks Russian Black Sea Port of Tuapse Starting Large Fire",
-      "source": "The Maritime Executive",
-      "sourceId": "maritime-executive",
-      "url": "https://maritime-executive.com/article/ukraine-attacks-russian-black-sea-port-of-tuapse-starting-large-fire",
-      "publishedAt": "2026-04-20T18:31:52Z",
-      "excerpt": "Ukraine is continuing its pressure on the Russian oil export infrastructure as it seeks to interrupt the revenues coming from the surging oil market....",
-      "tags": [
-        "Incidents",
-        "Maritime",
-        "News"
-      ],
-      "audience": "Multraship",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [
-        "Incident",
-        "Infrastructure"
-      ],
-      "priorityScore": 9,
-      "priorityBand": "high",
-      "priorityReasons": [
-        "Signal: Incident",
-        "Signal: Infrastructure"
       ],
       "boardBucket": "High Priority"
     },
@@ -676,6 +683,35 @@
       "priorityReasons": [
         "Supplier mention: Damen Shipyards Group",
         "Signal: Regulation"
+      ],
+      "boardBucket": "Regulation, Safety & Incidents"
+    },
+    {
+      "id": "0bdfb449045be482",
+      "title": "Saltchuk Marine, Harbor Docking and Towing form new joint venture",
+      "source": "Baird Maritime",
+      "sourceId": "baird-maritime",
+      "url": "https://www.bairdmaritime.com/tugs/harbour-tugs-and-operation/saltchuk-marine-harbor-docking-and-towing-form-new-joint-venture",
+      "publishedAt": "2026-04-23T05:11:10Z",
+      "excerpt": "Towage company Saltchuk Marine and Harbor Docking and Towing (HDT) have formed Green Tug Towing (GTT), a new joint venture company established to provide towage, escort, and terminal support services in the United States. GTT will provide\u2026",
+      "tags": [
+        "Towage",
+        "Workboats",
+        "Technology"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [
+        "Infrastructure",
+        "Commercial"
+      ],
+      "priorityScore": 7,
+      "priorityBand": "medium",
+      "priorityReasons": [
+        "Signal: Infrastructure",
+        "Signal: Commercial"
       ],
       "boardBucket": "Regulation, Safety & Incidents"
     },
@@ -1391,11 +1427,11 @@
       "boardBucket": "Competitors & Market"
     },
     {
-      "id": "1548568e30b320ec",
+      "id": "92094c71bb6cff2a",
       "title": "Norwegian co to supply 18 big waterjet systems for Indian Navy's next-gen missile vessel project",
       "source": "Kongsberg Maritime News",
       "sourceId": "bing-kongsberg",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=69e997bca54f4a788914de5baa9c30fb&url=https%3a%2f%2fwww.msn.com%2fen-in%2fnews%2fother%2fnorwegian-co-to-supply-18-big-waterjet-systems-for-indian-navy-s-next-gen-missile-vessel-project%2far-AA20Nuet&c=4609846177532778353&mkt=en-us",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=69e9b66a32bb4ee8aba368b6f0093fa3&url=https%3a%2f%2fwww.msn.com%2fen-in%2fnews%2fother%2fnorwegian-co-to-supply-18-big-waterjet-systems-for-indian-navy-s-next-gen-missile-vessel-project%2far-AA20Nuet&c=4609846177532778353&mkt=en-us",
       "publishedAt": "2026-04-13T16:47:00Z",
       "excerpt": "India's Navy is set to receive 18 advanced Kamewa waterjet propulsion systems from Norway's Kongsberg Maritime for its new missile vessels. This significant contract, awarded in partnership with ...",
       "tags": [
@@ -1453,11 +1489,11 @@
       "boardBucket": "Regulation, Safety & Incidents"
     },
     {
-      "id": "5dcd340c3f129ba1",
+      "id": "fbe8faaa1efe0a75",
       "title": "Deme Group NV MT0",
       "source": "DEME Group News",
       "sourceId": "bing-deme",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=69e997bdbc3e493082a8595b9f516590&url=https%3a%2f%2fwww.morningstar.com%2fstocks%2fxstu%2fmt0%2fquote&c=702618500465205373&mkt=en-us",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=69e9b66bc06a46818e9222e3e744bcd0&url=https%3a%2f%2fwww.morningstar.com%2fstocks%2fxstu%2fmt0%2fquote&c=702618500465205373&mkt=en-us",
       "publishedAt": "2026-04-10T05:55:00Z",
       "excerpt": "Morningstar Quantitative Ratings for Stocks are generated using an algorithm that compares companies that are not under analyst coverage to peer companies that do receive analyst-driven ratings.",
       "tags": [
@@ -1795,6 +1831,37 @@
         "Competitor mention: Boluda Towage"
       ],
       "boardBucket": "Competitors & Market"
+    },
+    {
+      "id": "746f80d8e93299ac",
+      "title": "DFDS hopes to progress in Jersey after challenging first year - BBC",
+      "source": "DFDS News",
+      "sourceId": "bing-dfds",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9wclVlNkQ4Z014TnRsbHdpWHhiaHcxOUhLeHJaaW11MmwzY01zMjBwRGFES0dqeUFRcnZhUjVTU2xGYW5OWDNMd2gyOXNRb0lrZWhoQW9xaHJISDZR?oc=5",
+      "publishedAt": "2026-03-27T07:00:00Z",
+      "excerpt": "DFDS hopes to progress in Jersey after challenging first year BBC",
+      "tags": [
+        "Ferry",
+        "Shipping"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [
+        {
+          "name": "DFDS",
+          "category": "clients"
+        }
+      ],
+      "locations": [],
+      "businessTags": [
+        "Client"
+      ],
+      "priorityScore": 6,
+      "priorityBand": "medium",
+      "priorityReasons": [
+        "Client mention: DFDS"
+      ],
+      "boardBucket": "Clients & Projects"
     },
     {
       "id": "1c0e779e11fd2262",
@@ -2549,6 +2616,95 @@
       "boardBucket": "Regulation, Safety & Incidents"
     },
     {
+      "id": "14b3da3cacc7f550",
+      "title": "Damen Delivers Second Combi Freighter 3850 to Reederei Bernd Sibum - Marine News Magazine",
+      "source": "Damen Shipyards News",
+      "sourceId": "bing-damen",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQeVJiYTJ5UEktTldJWXR5V1E5UnB5dUVuMzBoN0p5YVFHNTBKYlFXXzF3YTZCNXIzaTRyaFNySS0yRFY1OTJhNTJMQWI5bDF5aWFseTM2RWhWVmFKX3hGcUEySGNKeHFiOVBvcGJBZE1YR29UM2NoLU1iWnhCRDZOM0x3?oc=5",
+      "publishedAt": "2026-03-27T07:00:00Z",
+      "excerpt": "Damen Delivers Second Combi Freighter 3850 to Reederei Bernd Sibum Marine News Magazine",
+      "tags": [
+        "Shipbuilding",
+        "Supplier"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [
+        {
+          "name": "Damen Shipyards Group",
+          "category": "suppliers"
+        }
+      ],
+      "locations": [],
+      "businessTags": [
+        "Supplier"
+      ],
+      "priorityScore": 5,
+      "priorityBand": "medium",
+      "priorityReasons": [
+        "Supplier mention: Damen Shipyards Group"
+      ],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "0f76b0dfcefde692",
+      "title": "Why the ship recycling debate needs a reality check",
+      "source": "Splash247",
+      "sourceId": "splash247",
+      "url": "https://splash247.com/why-the-ship-recycling-debate-needs-a-reality-check/",
+      "publishedAt": "2026-04-23T05:53:09Z",
+      "excerpt": "Dr Anand Hiremath, the CEO of the Sustainable Ship and Offshore Recycling Program, on demo capacity, compliance and credibility. The ship recycling debate is entering a critical phase. With a major wave of vessels approaching end of life,\u2026",
+      "tags": [
+        "Regulation",
+        "Maritime",
+        "News"
+      ],
+      "audience": "Both",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [
+        "Regulation"
+      ],
+      "priorityScore": 4,
+      "priorityBand": "medium",
+      "priorityReasons": [
+        "Signal: Regulation"
+      ],
+      "boardBucket": "Regulation, Safety & Incidents"
+    },
+    {
+      "id": "907838813ef6c9bd",
+      "title": "W\u00e4rtsil\u00e4 launches next-generation simulation platform to support future-ready maritime training - DredgeWire",
+      "source": "W\u00e4rtsil\u00e4 News",
+      "sourceId": "bing-wartsila",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQcFVRRkxKcTgzSHZSTWhTaXk5cHg3Mmx2Y3doZ3pPODhDQ3lfMGp6REJfYTFwNXdXTEFUUXlqa09aRUtfeHc5YU4wQ0NkRWh3TDd1YzF0LUlza3E5emZLeXh3NF9FcENkVFhPVmZReFpMQTNqVVItQU1QUFMyVXh5YktBUm9LOGFWckZrMGllMDhZcGl2Ri1HWlZOYzVzWFZicUFXaW5idWMzTllQRVVHeWR0LVZLRkoyQnF3?oc=5",
+      "publishedAt": "2026-04-22T22:36:14Z",
+      "excerpt": "W\u00e4rtsil\u00e4 launches next-generation simulation platform to support future-ready maritime training DredgeWire",
+      "tags": [
+        "Propulsion",
+        "Technology"
+      ],
+      "audience": "Both",
+      "paywalled": false,
+      "entities": [
+        {
+          "name": "W\u00e4rtsil\u00e4",
+          "category": "suppliers"
+        }
+      ],
+      "locations": [],
+      "businessTags": [
+        "Supplier"
+      ],
+      "priorityScore": 4,
+      "priorityBand": "medium",
+      "priorityReasons": [
+        "Supplier mention: W\u00e4rtsil\u00e4"
+      ],
+      "boardBucket": "Other Relevant"
+    },
+    {
       "id": "618c9177e9e7f257",
       "title": "W\u00e4rtsil\u00e4 Launches NTPRO 7: The Future of Maritime Training - Travel And Tour World",
       "source": "W\u00e4rtsil\u00e4 News",
@@ -2975,42 +3131,11 @@
       "boardBucket": "Other Relevant"
     },
     {
-      "id": "4ab2f1dcd95bfe35",
-      "title": "W\u00e4rtsil\u00e4 launches next-generation simulation platform to support future-ready maritime training - W\u00e4rtsil\u00e4",
-      "source": "W\u00e4rtsil\u00e4 News",
-      "sourceId": "bing-wartsila",
-      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPMEFOcXctaGtCWU5KVGNFc1c1Ri1wQTgwUm9MNTNmLUVEM2x5TG9DTTZHMTlvTmt0emI5dDhMNjR3Q2NTYUxvTFBGWk1LUGcyS3A2d280bkVaSi0tSEJ3dUF1dWVvaEFEWVNWWXEwWDJoSWlwWEE3b0xBOVdBNWVWMDhXRUJZOTJhcnQzYjdfSllOWm5LWHlhcVVKUDk4ZmIzLTBfXzFJdmtpaXJSbEFHdFhscnJoN3RfdG9JejRVc1pRNEw5MjZ4c1JvSEt5WENfdFY1VXUwaXJFWkdkSVMxSEQ1ZVk?oc=5",
-      "publishedAt": "2026-04-21T09:00:00Z",
-      "excerpt": "W\u00e4rtsil\u00e4 launches next-generation simulation platform to support future-ready maritime training W\u00e4rtsil\u00e4",
-      "tags": [
-        "Propulsion",
-        "Technology"
-      ],
-      "audience": "Both",
-      "paywalled": false,
-      "entities": [
-        {
-          "name": "W\u00e4rtsil\u00e4",
-          "category": "suppliers"
-        }
-      ],
-      "locations": [],
-      "businessTags": [
-        "Supplier"
-      ],
-      "priorityScore": 4,
-      "priorityBand": "medium",
-      "priorityReasons": [
-        "Supplier mention: W\u00e4rtsil\u00e4"
-      ],
-      "boardBucket": "Other Relevant"
-    },
-    {
-      "id": "32370eeedc4039ff",
+      "id": "295aec860753f2b4",
       "title": "Kongsberg Maritime shares begin trading in Oslo after parent spin-off",
       "source": "Kongsberg Maritime News",
       "sourceId": "bing-kongsberg",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=69e997bca54f4a788914de5baa9c30fb&url=https%3a%2f%2fwww.tradewindsnews.com%2ftechnology%2fkongsberg-maritime-shares-begin-trading-in-oslo-after-parent-spin-off%2f2-1-1977683&c=2727161669190424549&mkt=en-us",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=69e9b66a32bb4ee8aba368b6f0093fa3&url=https%3a%2f%2fwww.tradewindsnews.com%2ftechnology%2fkongsberg-maritime-shares-begin-trading-in-oslo-after-parent-spin-off%2f2-1-1977683&c=2727161669190424549&mkt=en-us",
       "publishedAt": "2026-04-21T06:21:00Z",
       "excerpt": "A new pure-play maritime technology company is set to hit the public markets, as Kongsberg Maritime begins trading today on the Oslo Stock Exchange after its spin-off from Kongsberg Gruppen.",
       "tags": [
@@ -3148,11 +3273,11 @@
       "boardBucket": "Other Relevant"
     },
     {
-      "id": "ee5cbab40cbe2ca8",
+      "id": "9144d17bd479bcc8",
       "title": "Indian Navy to equip 6 stealth corvettes with Kongsberg Kamewa",
       "source": "Kongsberg Maritime News",
       "sourceId": "bing-kongsberg",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=69e997bca54f4a788914de5baa9c30fb&url=https%3a%2f%2fwww.newsbytesapp.com%2fnews%2findia%2findian-navy-to-equip-6-stealth-corvettes-with-kongsberg-kamewa%2ftldr&c=14647400517899959803&mkt=en-us",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=69e9b66a32bb4ee8aba368b6f0093fa3&url=https%3a%2f%2fwww.newsbytesapp.com%2fnews%2findia%2findian-navy-to-equip-6-stealth-corvettes-with-kongsberg-kamewa%2ftldr&c=14647400517899959803&mkt=en-us",
       "publishedAt": "2026-04-13T23:57:00Z",
       "excerpt": "Kongsberg Maritime will supply 18 advanced Kamewa waterjet propulsion systems to the Indian Navy, enhancing speed and stealth capabilities of their next-gen missile vessels.",
       "tags": [
@@ -3180,11 +3305,11 @@
       "boardBucket": "Other Relevant"
     },
     {
-      "id": "be35d786822cc778",
+      "id": "cb68a03415468eb4",
       "title": "Indian Navy to get next-gen missile vessel with Norwegian jet propulsion: Check how it will make ships faster & stealthier",
       "source": "Kongsberg Maritime News",
       "sourceId": "bing-kongsberg",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=69e997bca54f4a788914de5baa9c30fb&url=https%3a%2f%2fwww.msn.com%2fen-in%2fmoney%2fnews%2findian-navy-to-get-next-gen-missile-vessel-with-norwegian-jet-propulsion-check-how-it-will-make-ships-faster-stealthier%2far-AA20OZNX&c=5482301997127798460&mkt=en-us",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=69e9b66a32bb4ee8aba368b6f0093fa3&url=https%3a%2f%2fwww.msn.com%2fen-in%2fmoney%2fnews%2findian-navy-to-get-next-gen-missile-vessel-with-norwegian-jet-propulsion-check-how-it-will-make-ships-faster-stealthier%2far-AA20OZNX&c=5482301997127798460&mkt=en-us",
       "publishedAt": "2026-04-13T23:18:12Z",
       "excerpt": "Kongsberg Maritime has secured its largest waterjet order to date, supplying 18 advanced Kamewa systems for the Indian Navy's next-generation missile vessel program. This collaboration with Cochin ...",
       "tags": [
@@ -3475,29 +3600,28 @@
       "boardBucket": "Regulation, Safety & Incidents"
     },
     {
-      "id": "7d922145b0eed53b",
-      "title": "Grimaldi takes delivery of 11th ammonia-ready car carrier",
-      "source": "Baird Maritime",
-      "sourceId": "baird-maritime",
-      "url": "https://www.bairdmaritime.com/shipping/dry-cargo/pcc-pctc/grimaldi-takes-delivery-of-11th-ammonia-ready-car-carrier",
-      "publishedAt": "2026-04-23T01:28:47Z",
-      "excerpt": "Italian shipowner Grimaldi recently took delivery of the eleventh overall ammonia-ready pure car and truck carrier (PCTC) to join its fleet. Grande Inghilterra is a sister ship of Grande Shanghai and Grande Svezia , which were delivered in\u2026",
+      "id": "519e020cc3078a42",
+      "title": "Ring Power Strengthens Cox Marine Network Across the U.S. South",
+      "source": "The Maritime Executive",
+      "sourceId": "maritime-executive",
+      "url": "https://maritime-executive.com/article/ring-power-strengthens-cox-marine-network-across-the-u-s-south",
+      "publishedAt": "2026-04-23T02:41:52Z",
+      "excerpt": "Cox Marine today announced the expansion of its long-standing partnership with U.S. distributor Ring Power, extending the company\u2019s territory to inclu...",
       "tags": [
-        "Clean Propulsion",
-        "Workboats",
-        "Technology"
+        "Maritime",
+        "News"
       ],
       "audience": "Both",
       "paywalled": false,
       "entities": [],
       "locations": [],
       "businessTags": [
-        "Energy Transition"
+        "Commercial"
       ],
       "priorityScore": 3,
       "priorityBand": "low",
       "priorityReasons": [
-        "Signal: Energy Transition"
+        "Signal: Commercial"
       ],
       "boardBucket": "Other Relevant"
     },
@@ -3799,6 +3923,28 @@
       "boardBucket": "Other Relevant"
     },
     {
+      "id": "925b9d8ab6096f88",
+      "title": "Families of 2012 Hong Kong ferry tragedy victims call for judicial review of coroner's inquest",
+      "source": "Baird Maritime",
+      "sourceId": "baird-maritime",
+      "url": "https://www.bairdmaritime.com/security/incidents/accidents/families-of-2012-hong-kong-ferry-tragedy-victims-call-for-judicial-review-of-coroners-inquest",
+      "publishedAt": "2026-04-23T04:19:34Z",
+      "excerpt": "The families of some of the people who died in a passenger vessel accident in Hong Kong waters in 2012 have called for a judicial review of the coroner's findings in the wake of the tragedy. The families claimed that there was irrationalit\u2026",
+      "tags": [
+        "Workboats",
+        "Technology"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [],
+      "priorityScore": 2,
+      "priorityBand": "low",
+      "priorityReasons": [],
+      "boardBucket": "Other Relevant"
+    },
+    {
       "id": "1f2c240d20d3a8e1",
       "title": "- Cyprus Shipping News - Cyprus Shipping News",
       "source": "Yara International News",
@@ -3828,95 +3974,6 @@
       "url": "https://www.bairdmaritime.com/security/naval/us-secretary-of-the-navy-john-phelan-steps-down-from-post",
       "publishedAt": "2026-04-23T01:55:37Z",
       "excerpt": "John Phelan has stepped down from his post as US Secretary of the Navy, Pentagon spokesperson Sean Parnell confirmed in a social media post on Wednesday, April 22. Parnell said that Phelan, \"is departing the administration, effective immed\u2026",
-      "tags": [
-        "Workboats",
-        "Technology"
-      ],
-      "audience": "Multraship",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [],
-      "priorityScore": 2,
-      "priorityBand": "low",
-      "priorityReasons": [],
-      "boardBucket": "Other Relevant"
-    },
-    {
-      "id": "c59303ca11bcdc09",
-      "title": "US Coast Guard repatriates 21 illegal aliens to Dominican Republic following migrant vessel interdiction off Puerto Rico",
-      "source": "Baird Maritime",
-      "sourceId": "baird-maritime",
-      "url": "https://www.bairdmaritime.com/security/non-naval-security/coast-guard/us-coast-guard-repatriates-21-illegal-aliens-to-dominican-republic-following-migrant-vessel-interdiction-off-puerto-rico",
-      "publishedAt": "2026-04-23T01:40:48Z",
-      "excerpt": "The crew of the US Coast Guard fast response cutter USCGC Joseph Tezanos repatriated 21 illegal aliens to the Dominican Republic earlier this week following the interdiction of an unlawful migration vessel voyage in Mona Passage waters nor\u2026",
-      "tags": [
-        "Workboats",
-        "Technology"
-      ],
-      "audience": "Multraship",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [],
-      "priorityScore": 2,
-      "priorityBand": "low",
-      "priorityReasons": [],
-      "boardBucket": "Other Relevant"
-    },
-    {
-      "id": "0a15e4c99ce843ba",
-      "title": "Japan's Seagate Corporation christens new biofuel-powered tug",
-      "source": "Baird Maritime",
-      "sourceId": "baird-maritime",
-      "url": "https://www.bairdmaritime.com/tugs/harbour-tugs-and-operation/japans-seagate-corporation-christens-new-biofuel-powered-tug",
-      "publishedAt": "2026-04-23T01:15:59Z",
-      "excerpt": "Seagate Corporation, a subsidiary of the Japanese shipping company Kawasaki Kisen Kaisha (K Line), held a naming and launching ceremony for its newest tug on Wednesday, April 22. Bisan Maru is being built by Kanagawa Dockyard. The tug will\u2026",
-      "tags": [
-        "Towage",
-        "Workboats",
-        "Technology"
-      ],
-      "audience": "Multraship",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [],
-      "priorityScore": 2,
-      "priorityBand": "low",
-      "priorityReasons": [],
-      "boardBucket": "Other Relevant"
-    },
-    {
-      "id": "5b963266e4a496fd",
-      "title": "First turbine installed at UK's East Anglia Three offshore wind farm",
-      "source": "Baird Maritime",
-      "sourceId": "baird-maritime",
-      "url": "https://www.bairdmaritime.com/offshore/renewables/offshore-wind/first-turbine-installed-at-uks-east-anglia-three-offshore-wind-farm",
-      "publishedAt": "2026-04-23T00:58:27Z",
-      "excerpt": "ScottishPower Renewables has confirmed the installation of the first wind turbine at the East Anglia Three offshore wind farm in UK waters. The turbine features blades that each measure 115 metres. ScottishPower Renewables said the turbine\u2026",
-      "tags": [
-        "Workboats",
-        "Technology"
-      ],
-      "audience": "Multraship",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [],
-      "priorityScore": 2,
-      "priorityBand": "low",
-      "priorityReasons": [],
-      "boardBucket": "Other Relevant"
-    },
-    {
-      "id": "5a1ac77d73728864",
-      "title": "Marine Projects Vessel News Roundup | April 23 \u2013 TSHD delivery to US owner, Russian support boat launch and more",
-      "source": "Baird Maritime",
-      "sourceId": "baird-maritime",
-      "url": "https://www.bairdmaritime.com/marine-projects/dredging/marine-projects-vessel-news-roundup-april-23-tshd-delivery-to-us-owner-russian-support-boat-launch-and-more",
-      "publishedAt": "2026-04-23T00:49:06Z",
-      "excerpt": "A new hopper dredger has entered service with a US operator while a support workboat has been launched by a Russian shipyard. Construction continues on a dredger for another US operator. Lastly, orders have been confirmed for dredgers to b\u2026",
       "tags": [
         "Workboats",
         "Technology"
@@ -4280,13 +4337,13 @@
       "boardBucket": "Other Relevant"
     },
     {
-      "id": "1acee87b124f0403",
-      "title": "Global Shipping Reforms Cast Shadow Over Tanzania\u2019s Fishing Communities - ipsnews.net",
+      "id": "3107bbd2526b0500",
+      "title": "Global Shipping Reforms Cast Shadow Over Tanzania\u2019s Fishing Communities - Global Issues.org",
       "source": "Mesh Maritime News",
       "sourceId": "bing-mesh-maritime",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNSnA4NHdodHplM0otOHgtdHV4X0JrVXF3bG1aTDFoSXp6b3J5SGhyYUozQ3k2NDZXd1h0Y0JSc1ZBRkRleVpGdXluWkYzOWJBQUcwTDNZcEVWZjRiUmdEZGpSMGZoYUlrS0ZUelA3cmJFMV9vaVlxeG9Bd1JMYndNRlduczhmcmhFdkVKdk5idllUdXZpQmhzMHBJQTN2UVI5TjMzSWhn?oc=5",
-      "publishedAt": "2026-04-22T00:33:37Z",
-      "excerpt": "Global Shipping Reforms Cast Shadow Over Tanzania\u2019s Fishing Communities ipsnews.net",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBnWWx4TmN0NDl6ckM4Y2lEemtIajNWNm5icDM2VWtLRFFuSDZ3MzRiekZJSUVkRnF3QkVzWlEwSTFvQnRCc0tQMFdONGRBUlpPRlNxQno3aEdJSEdVUmtN0gFkQVVfeXFMTlN0OU9iTktrLU9KbFJwTkZZX0MyYlVFbVBaMUZETFY0aGUxNy05bk54bktZWVdNQUl3ZlFDaTNNV2c0VzVqS3EyTjloZGhXV3JoNDMxa0N0WXhVV0pzcHh1NnBzYg?oc=5",
+      "publishedAt": "2026-04-22T07:16:04Z",
+      "excerpt": "Global Shipping Reforms Cast Shadow Over Tanzania\u2019s Fishing Communities Global Issues.org",
       "tags": [
         "Maritime",
         "Supplier"
@@ -5004,28 +5061,6 @@
       "tags": [
         "Incidents",
         "Safety"
-      ],
-      "audience": "Multraship",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [],
-      "priorityScore": 2,
-      "priorityBand": "low",
-      "priorityReasons": [],
-      "boardBucket": "Other Relevant"
-    },
-    {
-      "id": "c4076502d3a2c11e",
-      "title": "UK enhances maritime security, deploys 50 radar systems",
-      "source": "Riviera: Safety & Incidents",
-      "sourceId": "riviera-safety",
-      "url": "https://www.rivieramm.com/news-content-hub/uk-enhances-maritime-security-with-50-radar-systems-deployed-88415",
-      "publishedAt": "2026-04-09T10:08:58Z",
-      "excerpt": "Solid-state radar transceivers will be deployed around the UK to improve coastal surveillance",
-      "tags": [
-        "Safety",
-        "Incidents"
       ],
       "audience": "Multraship",
       "paywalled": false,
