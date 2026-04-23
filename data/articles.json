@@ -1,18 +1,18 @@
 {
-  "generatedAt": "2026-04-23T16:59:57.874291Z",
+  "generatedAt": "2026-04-23T18:11:04.490828Z",
   "lookbackDays": 30,
-  "cutoffAt": "2026-03-24T16:59:57.874291Z",
+  "cutoffAt": "2026-03-24T18:11:04.490828Z",
   "articleCount": 180,
   "sourceCount": 100,
   "sources": [
     "Africa Ports & Ships",
+    "Baird Maritime",
     "Boskalis News",
     "DFDS News",
     "Damen Shipyards News",
     "Damen Yachting News",
     "Hellenic Shipping News",
     "Inchcape Shipping Services News",
-    "Kongsberg Maritime News",
     "Maersk Tankers News",
     "MarineLink",
     "Mesh Maritime News",
@@ -72,12 +72,26 @@
     "Technology",
     "Terminals",
     "Towage",
+    "Workboats",
     "Yachting"
   ],
   "locations": [
     "Rotterdam"
   ],
-  "errors": [],
+  "errors": [
+    {
+      "source": "Kongsberg Maritime News",
+      "message": "not well-formed (invalid token): line 1, column 41"
+    },
+    {
+      "source": "DEME Group News",
+      "message": "not well-formed (invalid token): line 1, column 41"
+    },
+    {
+      "source": "Ovet Shipping News",
+      "message": "not well-formed (invalid token): line 1, column 41"
+    }
+  ],
   "articles": [
     {
       "id": "e2d6c1330faf292d",
@@ -581,6 +595,40 @@
       "boardBucket": "Regulation, Safety & Incidents"
     },
     {
+      "id": "221a094549c9b8cb",
+      "title": "News Content Hub - Svitzer Europe plans electric TRAnsverse tug deployments - rivieramm.com",
+      "source": "Svitzer News",
+      "sourceId": "bing-svitzer",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNQ3Jac3oyV0F5a19iQmJTSVFIZDVFczRyZlQyODdlVjNsMjBvU1IxWnpuU1l2bE1XWG1odHlreUFpV1paSENRR3IwczRFZzRVUEcxSnJzRXpYT1hvUXdrd09ld0NhS1k0SWVmd2hLbm1wWnBGeGJkM2dqT3ptd2kwTHV5cTExUjl3bV9Sc2hVdDdzNVVlSmpDYTRrMzhPYzRVMTdUN29WTTl4QTI5dV8wdlRubWJHQ2dlQnJSY1A2dw?oc=5",
+      "publishedAt": "2026-04-08T11:02:35Z",
+      "excerpt": "News Content Hub - Svitzer Europe plans electric TRAnsverse tug deployments rivieramm.com",
+      "tags": [
+        "Towage",
+        "Electrification",
+        "Competitor"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [
+        {
+          "name": "Svitzer",
+          "category": "competitors"
+        }
+      ],
+      "locations": [],
+      "businessTags": [
+        "Competitor",
+        "Energy Transition"
+      ],
+      "priorityScore": 8,
+      "priorityBand": "medium",
+      "priorityReasons": [
+        "Competitor mention: Svitzer",
+        "Signal: Energy Transition"
+      ],
+      "boardBucket": "Competitors & Market"
+    },
+    {
       "id": "ccff44b4d18e20aa",
       "title": "Damen Shipyards sees profit rise along with deliveries as legal cases linger - Tradewinds News",
       "source": "Damen Shipyards News",
@@ -672,6 +720,33 @@
       "priorityReasons": [
         "Signal: Infrastructure",
         "Signal: Commercial"
+      ],
+      "boardBucket": "Regulation, Safety & Incidents"
+    },
+    {
+      "id": "3aefc801cf09b0b4",
+      "title": "Pirates Trade Gunfire with Security Team on Cargo Ship off Somalia",
+      "source": "The Maritime Executive",
+      "sourceId": "maritime-executive",
+      "url": "https://maritime-executive.com/article/pirates-trade-gunfire-with-security-team-on-cargo-ship-off-somalia",
+      "publishedAt": "2026-04-23T17:29:48Z",
+      "excerpt": "A cargo ship departing Somalia is reporting that it was shot at by an approaching small boat and returned fire. It is the second report of a possible...",
+      "tags": [
+        "Incidents",
+        "Maritime",
+        "News"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [
+        "Incident"
+      ],
+      "priorityScore": 6,
+      "priorityBand": "medium",
+      "priorityReasons": [
+        "Signal: Incident"
       ],
       "boardBucket": "Regulation, Safety & Incidents"
     },
@@ -771,33 +846,6 @@
         "Client mention: ExxonMobil"
       ],
       "boardBucket": "Clients & Projects"
-    },
-    {
-      "id": "86f4a3680f48b11f",
-      "title": "Ceasefire without relief: oil disruptions persist, Barclays warns",
-      "source": "Hellenic Shipping News",
-      "sourceId": "hellenic-shipping-news",
-      "url": "https://www.hellenicshippingnews.com/ceasefire-without-relief-oil-disruptions-persist-barclays-warns/",
-      "publishedAt": "2026-04-23T10:00:25Z",
-      "excerpt": "The U.S. extension of the ceasefire with Iran has done little to restore oil and gas flows through the Strait of Hormuz, with Barclays warning that the scale of disruption remains significantly underpriced in both oil futures and energy eq\u2026",
-      "tags": [
-        "Incidents",
-        "Shipping",
-        "Markets"
-      ],
-      "audience": "Multraship",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [
-        "Disruption"
-      ],
-      "priorityScore": 6,
-      "priorityBand": "medium",
-      "priorityReasons": [
-        "Signal: Disruption"
-      ],
-      "boardBucket": "Regulation, Safety & Incidents"
     },
     {
       "id": "69b2f01a935e94ca",
@@ -1829,6 +1877,41 @@
       "boardBucket": "Clients & Projects"
     },
     {
+      "id": "79aa4374bedc7eb6",
+      "title": "ABS, Marinteknik, Seatech, and VINSSEN Launch Hydrogen Fuel Cell Harbor Craft Pilot Study in Singapore",
+      "source": "Hellenic Shipping News",
+      "sourceId": "hellenic-shipping-news",
+      "url": "https://www.hellenicshippingnews.com/abs-marinteknik-seatech-and-vinssen-launch-hydrogen-fuel-cell-harbor-craft-pilot-study-in-singapore/",
+      "publishedAt": "2026-04-23T17:00:55Z",
+      "excerpt": "In an important step to lowering emissions in one of the world\u2019s busiest ports, ABS, Marinteknik Shipbuilders (S) Pte. Ltd., SeaTech Solutions International (S) Pte. Ltd., and VINSSEN Co., Ltd., signed a research collaboration agreement to\u2026",
+      "tags": [
+        "Decarbonization",
+        "Clean Propulsion",
+        "Shipping",
+        "Markets"
+      ],
+      "audience": "Novatug",
+      "paywalled": false,
+      "entities": [
+        {
+          "name": "American Bureau of Shipping",
+          "category": "suppliers"
+        }
+      ],
+      "locations": [],
+      "businessTags": [
+        "Supplier",
+        "Energy Transition"
+      ],
+      "priorityScore": 5,
+      "priorityBand": "medium",
+      "priorityReasons": [
+        "Supplier mention: American Bureau of Shipping",
+        "Signal: Energy Transition"
+      ],
+      "boardBucket": "Other Relevant"
+    },
+    {
       "id": "fafd6a8cead842b1",
       "title": "Golden Pass Ships First LNG Cargo, Launching Major New U.S. Export Supply",
       "source": "gCaptain",
@@ -1853,41 +1936,6 @@
         "Signal: Infrastructure"
       ],
       "boardBucket": "Regulation, Safety & Incidents"
-    },
-    {
-      "id": "c8f859ffef5dd975",
-      "title": "ABS, Marinteknik, Seatech, and VINSSEN Launch Hydrogen Fuel Cell Harbor Craft Pilot Study in Singapore",
-      "source": "gCaptain",
-      "sourceId": "gcaptain",
-      "url": "https://gcaptain.com/abs-marinteknik-seatech-and-vinssen-launch-hydrogen-fuel-cell-harbor-craft-pilot-study-in-singapore/",
-      "publishedAt": "2026-04-23T14:45:13Z",
-      "excerpt": "In an important step to lowering emissions in one of the world\u2019s busiest ports, ABS, Marinteknik Shipbuilders (S) Pte. Ltd., SeaTech Solutions International (S) Pte. Ltd., and VINSSEN Co., Ltd.,...",
-      "tags": [
-        "Decarbonization",
-        "Clean Propulsion",
-        "Maritime",
-        "Operations"
-      ],
-      "audience": "Novatug",
-      "paywalled": false,
-      "entities": [
-        {
-          "name": "American Bureau of Shipping",
-          "category": "suppliers"
-        }
-      ],
-      "locations": [],
-      "businessTags": [
-        "Supplier",
-        "Energy Transition"
-      ],
-      "priorityScore": 5,
-      "priorityBand": "medium",
-      "priorityReasons": [
-        "Supplier mention: American Bureau of Shipping",
-        "Signal: Energy Transition"
-      ],
-      "boardBucket": "Other Relevant"
     },
     {
       "id": "ac7f7d0de962ff1b",
@@ -2779,37 +2827,6 @@
       "boardBucket": "Other Relevant"
     },
     {
-      "id": "bfa0e21248dfd9f8",
-      "title": "Kongsberg Maritime shares begin trading in Oslo after parent spin-off",
-      "source": "Kongsberg Maritime News",
-      "sourceId": "bing-kongsberg",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=69ea5017b45f4a1c9905739dca830d5d&url=https%3a%2f%2fwww.tradewindsnews.com%2ftechnology%2fkongsberg-maritime-shares-begin-trading-in-oslo-after-parent-spin-off%2f2-1-1978439&c=3776947611517546205&mkt=en-us",
-      "publishedAt": "2026-04-23T00:35:00Z",
-      "excerpt": "A new pure-play maritime technology company is set to hit the public markets, as Kongsberg Maritime begins trading today on the Oslo Stock Exchange after its spin-off from Kongsberg Gruppen. The ...",
-      "tags": [
-        "Technology",
-        "Supplier"
-      ],
-      "audience": "Both",
-      "paywalled": false,
-      "entities": [
-        {
-          "name": "Kongsberg Maritime",
-          "category": "suppliers"
-        }
-      ],
-      "locations": [],
-      "businessTags": [
-        "Supplier"
-      ],
-      "priorityScore": 4,
-      "priorityBand": "medium",
-      "priorityReasons": [
-        "Supplier mention: Kongsberg Maritime"
-      ],
-      "boardBucket": "Other Relevant"
-    },
-    {
       "id": "618c9177e9e7f257",
       "title": "W\u00e4rtsil\u00e4 Launches NTPRO 7: The Future of Maritime Training - Travel And Tour World",
       "source": "W\u00e4rtsil\u00e4 News",
@@ -3208,69 +3225,6 @@
       "priorityBand": "medium",
       "priorityReasons": [
         "Signal: Commercial"
-      ],
-      "boardBucket": "Other Relevant"
-    },
-    {
-      "id": "d3530939e68f40c1",
-      "title": "Indian Navy to get next-gen missile vessel with Norwegian jet propulsion: Check how it will make ships faster & stealthier",
-      "source": "Kongsberg Maritime News",
-      "sourceId": "bing-kongsberg",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=69ea5017b45f4a1c9905739dca830d5d&url=https%3a%2f%2fwww.msn.com%2fen-in%2fmoney%2fnews%2findian-navy-to-get-next-gen-missile-vessel-with-norwegian-jet-propulsion-check-how-it-will-make-ships-faster-stealthier%2far-AA20OZNX&c=5482301997127798460&mkt=en-us",
-      "publishedAt": "2026-04-13T23:18:12Z",
-      "excerpt": "Kongsberg Maritime has secured its largest waterjet order to date, supplying 18 advanced Kamewa systems for the Indian Navy's next-generation missile vessel program. This collaboration with Cochin ...",
-      "tags": [
-        "Clean Propulsion",
-        "Technology",
-        "Supplier"
-      ],
-      "audience": "Both",
-      "paywalled": false,
-      "entities": [
-        {
-          "name": "Kongsberg Maritime",
-          "category": "suppliers"
-        }
-      ],
-      "locations": [],
-      "businessTags": [
-        "Supplier"
-      ],
-      "priorityScore": 4,
-      "priorityBand": "medium",
-      "priorityReasons": [
-        "Supplier mention: Kongsberg Maritime"
-      ],
-      "boardBucket": "Other Relevant"
-    },
-    {
-      "id": "bbe9ff5b286f6377",
-      "title": "Kongsberg Gruppen ASA ADR",
-      "source": "Kongsberg Maritime News",
-      "sourceId": "bing-kongsberg",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=69ea5017b45f4a1c9905739dca830d5d&url=https%3a%2f%2fwww.barrons.com%2fmarket-data%2fstocks%2fkbggy%3fgaa_ts%3d699ccb16&c=7284812280315245111&mkt=en-us",
-      "publishedAt": "2026-04-10T12:50:00Z",
-      "excerpt": "Kongsberg Gruppen ASA engages in delivering technology systems and solutions to clients within the oil and gas industry, merchant marine, defence, and aerospace. It operates through the following ...",
-      "tags": [
-        "Technology",
-        "Supplier"
-      ],
-      "audience": "Both",
-      "paywalled": false,
-      "entities": [
-        {
-          "name": "Kongsberg Maritime",
-          "category": "suppliers"
-        }
-      ],
-      "locations": [],
-      "businessTags": [
-        "Supplier"
-      ],
-      "priorityScore": 4,
-      "priorityBand": "medium",
-      "priorityReasons": [
-        "Supplier mention: Kongsberg Maritime"
       ],
       "boardBucket": "Other Relevant"
     },
@@ -3944,6 +3898,94 @@
       "boardBucket": "Other Relevant"
     },
     {
+      "id": "248c2c5e3fbd218d",
+      "title": "Italian defence firms contracted to upgrade navy warships",
+      "source": "Baird Maritime",
+      "sourceId": "baird-maritime",
+      "url": "https://www.bairdmaritime.com/security/naval/naval-ships/italian-defence-firms-contracted-to-upgrade-navy-warships",
+      "publishedAt": "2026-04-23T18:01:30Z",
+      "excerpt": "Fincantieri and Leonardo have signed a contractual agreement with the Organisation for Joint Armament Cooperation - Executive Administration (OCCAR-EA) to upgrade the Italian Navy's PPA frigates to a full combat system configuration. Under\u2026",
+      "tags": [
+        "Workboats",
+        "Technology"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [],
+      "priorityScore": 2,
+      "priorityBand": "low",
+      "priorityReasons": [],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "ae5c4edfdf8e457f",
+      "title": "MSC-linked container ships seized by Iranian forces taken to port, crews taken captive",
+      "source": "Baird Maritime",
+      "sourceId": "baird-maritime",
+      "url": "https://www.bairdmaritime.com/security/incidents/msc-linked-container-ships-seized-by-iranian-forces-taken-to-port-crews-taken-captive",
+      "publishedAt": "2026-04-23T17:55:14Z",
+      "excerpt": "Two container ships seized by Iran near the Strait of Hormuz with about 40 crew aboard have been taken towards the port of Bandar Abbas, sources said on Thursday, Tehran having vowed to retaliate after US forces seized an Iranian vessel th\u2026",
+      "tags": [
+        "Workboats",
+        "Technology"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [],
+      "priorityScore": 2,
+      "priorityBand": "low",
+      "priorityReasons": [],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "0632dd5edccf0833",
+      "title": "Iranian oil finds a way past the US Navy\u2019s blockade",
+      "source": "Baird Maritime",
+      "sourceId": "baird-maritime",
+      "url": "https://www.bairdmaritime.com/shipping/tankers/iranian-oil-finds-a-way-past-the-us-navys-blockade",
+      "publishedAt": "2026-04-23T17:38:39Z",
+      "excerpt": "About 10.7 million barrels of Iranian crude exports crossed through the Strait of Hormuz and exited the area blockaded by the US Navy between April 13 and 21, data analytics firm Vortexa said. The shipments transited on six crude carriers\u2026",
+      "tags": [
+        "Workboats",
+        "Technology"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [],
+      "priorityScore": 2,
+      "priorityBand": "low",
+      "priorityReasons": [],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "019ae307b9f6e174",
+      "title": "Saudi Arabia buys more Russian fuel oil to save its crude for export",
+      "source": "Baird Maritime",
+      "sourceId": "baird-maritime",
+      "url": "https://www.bairdmaritime.com/shipping/tankers/saudi-arabia-buys-more-russian-fuel-oil-to-save-its-crude-for-export",
+      "publishedAt": "2026-04-23T17:34:01Z",
+      "excerpt": "Russia's seaborne exports of fuel oil and vacuum gasoil (VGO) to Saudi Arabia jumped 18 per cent in March from February to one million tonnes as soaring oil prices driven by the Iran war reshaped flows, data from traders and LSEG showed. S\u2026",
+      "tags": [
+        "Workboats",
+        "Technology"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [],
+      "priorityScore": 2,
+      "priorityBand": "low",
+      "priorityReasons": [],
+      "boardBucket": "Other Relevant"
+    },
+    {
       "id": "b3952ade0f3e822e",
       "title": "BIMCO Warns Hormuz Reopening Hinges on Mine Clearance as Trump Orders Sweep Surge",
       "source": "gCaptain",
@@ -4415,13 +4457,13 @@
       "boardBucket": "Other Relevant"
     },
     {
-      "id": "3107bbd2526b0500",
-      "title": "Global Shipping Reforms Cast Shadow Over Tanzania\u2019s Fishing Communities - Global Issues.org",
+      "id": "1acee87b124f0403",
+      "title": "Global Shipping Reforms Cast Shadow Over Tanzania\u2019s Fishing Communities - ipsnews.net",
       "source": "Mesh Maritime News",
       "sourceId": "bing-mesh-maritime",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBnWWx4TmN0NDl6ckM4Y2lEemtIajNWNm5icDM2VWtLRFFuSDZ3MzRiekZJSUVkRnF3QkVzWlEwSTFvQnRCc0tQMFdONGRBUlpPRlNxQno3aEdJSEdVUmtN0gFkQVVfeXFMTlN0OU9iTktrLU9KbFJwTkZZX0MyYlVFbVBaMUZETFY0aGUxNy05bk54bktZWVdNQUl3ZlFDaTNNV2c0VzVqS3EyTjloZGhXV3JoNDMxa0N0WXhVV0pzcHh1NnBzYg?oc=5",
-      "publishedAt": "2026-04-22T07:16:04Z",
-      "excerpt": "Global Shipping Reforms Cast Shadow Over Tanzania\u2019s Fishing Communities Global Issues.org",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNSnA4NHdodHplM0otOHgtdHV4X0JrVXF3bG1aTDFoSXp6b3J5SGhyYUozQ3k2NDZXd1h0Y0JSc1ZBRkRleVpGdXluWkYzOWJBQUcwTDNZcEVWZjRiUmdEZGpSMGZoYUlrS0ZUelA3cmJFMV9vaVlxeG9Bd1JMYndNRlduczhmcmhFdkVKdk5idllUdXZpQmhzMHBJQTN2UVI5TjMzSWhn?oc=5",
+      "publishedAt": "2026-04-22T00:33:37Z",
+      "excerpt": "Global Shipping Reforms Cast Shadow Over Tanzania\u2019s Fishing Communities ipsnews.net",
       "tags": [
         "Maritime",
         "Supplier"
@@ -5026,51 +5068,6 @@
       "tags": [
         "Incidents",
         "Safety"
-      ],
-      "audience": "Multraship",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [],
-      "priorityScore": 2,
-      "priorityBand": "low",
-      "priorityReasons": [],
-      "boardBucket": "Other Relevant"
-    },
-    {
-      "id": "c4076502d3a2c11e",
-      "title": "UK enhances maritime security, deploys 50 radar systems",
-      "source": "Riviera: Safety & Incidents",
-      "sourceId": "riviera-safety",
-      "url": "https://www.rivieramm.com/news-content-hub/uk-enhances-maritime-security-with-50-radar-systems-deployed-88415",
-      "publishedAt": "2026-04-09T10:08:58Z",
-      "excerpt": "Solid-state radar transceivers will be deployed around the UK to improve coastal surveillance",
-      "tags": [
-        "Safety",
-        "Incidents"
-      ],
-      "audience": "Multraship",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [],
-      "priorityScore": 2,
-      "priorityBand": "low",
-      "priorityReasons": [],
-      "boardBucket": "Other Relevant"
-    },
-    {
-      "id": "8e64ad3778b97f61",
-      "title": "Tugboat, towboat sales plummet as availability dries up",
-      "source": "Riviera: Ports & Terminals",
-      "sourceId": "riviera-ports",
-      "url": "https://www.rivieramm.com/news-content-hub/tugboat-towboat-sales-plummet-as-availability-dries-up-88357",
-      "publishedAt": "2026-04-09T07:00:00Z",
-      "excerpt": "The secondhand tug and pushboat market remains particularly tight, with fewer vessels for sale",
-      "tags": [
-        "Towage",
-        "Ports",
-        "Terminals"
       ],
       "audience": "Multraship",
       "paywalled": false,
