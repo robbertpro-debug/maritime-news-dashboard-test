@@ -1,7 +1,7 @@
 window.__DASHBOARD_DATA__ = {
-  "generatedAt": "2026-04-23T20:49:31.140129Z",
+  "generatedAt": "2026-04-23T21:43:01.196680Z",
   "lookbackDays": 30,
-  "cutoffAt": "2026-03-24T20:49:31.140129Z",
+  "cutoffAt": "2026-03-24T21:43:01.196680Z",
   "articleCount": 180,
   "sourceCount": 100,
   "sources": [
@@ -10,11 +10,12 @@ window.__DASHBOARD_DATA__ = {
     "Boskalis News",
     "DFDS News",
     "Damen Shipyards News",
-    "Damen Yachting News",
     "Hellenic Shipping News",
     "Inchcape Shipping Services News",
+    "Kongsberg Maritime News",
     "Maersk Tankers News",
     "MarineLink",
+    "Mesh Maritime News",
     "Offshore Energy",
     "Oldendorff Carriers News",
     "Rigzone",
@@ -70,26 +71,12 @@ window.__DASHBOARD_DATA__ = {
     "Technology",
     "Terminals",
     "Towage",
-    "Workboats",
-    "Yachting"
+    "Workboats"
   ],
   "locations": [
     "Rotterdam"
   ],
-  "errors": [
-    {
-      "source": "Kongsberg Maritime News",
-      "message": "HTTP Error 503: Service Unavailable"
-    },
-    {
-      "source": "DEME Group News",
-      "message": "not well-formed (invalid token): line 1, column 41"
-    },
-    {
-      "source": "Ovet Shipping News",
-      "message": "not well-formed (invalid token): line 1, column 41"
-    }
-  ],
+  "errors": [],
   "articles": [
     {
       "id": "e2d6c1330faf292d",
@@ -621,40 +608,6 @@ window.__DASHBOARD_DATA__ = {
       "boardBucket": "Regulation, Safety & Incidents"
     },
     {
-      "id": "221a094549c9b8cb",
-      "title": "News Content Hub - Svitzer Europe plans electric TRAnsverse tug deployments - rivieramm.com",
-      "source": "Svitzer News",
-      "sourceId": "bing-svitzer",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNQ3Jac3oyV0F5a19iQmJTSVFIZDVFczRyZlQyODdlVjNsMjBvU1IxWnpuU1l2bE1XWG1odHlreUFpV1paSENRR3IwczRFZzRVUEcxSnJzRXpYT1hvUXdrd09ld0NhS1k0SWVmd2hLbm1wWnBGeGJkM2dqT3ptd2kwTHV5cTExUjl3bV9Sc2hVdDdzNVVlSmpDYTRrMzhPYzRVMTdUN29WTTl4QTI5dV8wdlRubWJHQ2dlQnJSY1A2dw?oc=5",
-      "publishedAt": "2026-04-08T11:02:35Z",
-      "excerpt": "News Content Hub - Svitzer Europe plans electric TRAnsverse tug deployments rivieramm.com",
-      "tags": [
-        "Towage",
-        "Electrification",
-        "Competitor"
-      ],
-      "audience": "Multraship",
-      "paywalled": false,
-      "entities": [
-        {
-          "name": "Svitzer",
-          "category": "competitors"
-        }
-      ],
-      "locations": [],
-      "businessTags": [
-        "Competitor",
-        "Energy Transition"
-      ],
-      "priorityScore": 8,
-      "priorityBand": "medium",
-      "priorityReasons": [
-        "Competitor mention: Svitzer",
-        "Signal: Energy Transition"
-      ],
-      "boardBucket": "Competitors & Market"
-    },
-    {
       "id": "ccff44b4d18e20aa",
       "title": "Damen Shipyards sees profit rise along with deliveries as legal cases linger - Tradewinds News",
       "source": "Damen Shipyards News",
@@ -748,6 +701,72 @@ window.__DASHBOARD_DATA__ = {
         "Signal: Commercial"
       ],
       "boardBucket": "Regulation, Safety & Incidents"
+    },
+    {
+      "id": "fb1dbe2fa0bd6165",
+      "title": "Damen Signs Contract to Deliver Combi Freighters (CF) 3850 to the Polidano Group - Marine News Magazine",
+      "source": "Damen Shipyards News",
+      "sourceId": "bing-damen",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBjeTVMcEthaHZ3cmpkWHIwUW1ELVBEci00UFJOV3NPd3dZbzBwdEV4ZjgxSTRPNVhpYTFQMlZlTGY3ZHl1R3lKOURSUmxDUGJsVVo2UEJfekZMdkgzTFc5TUlRYzAxQWdzbUhkc1pUOHdDYlgzQ3NSZ0V2ekMxUQ?oc=5",
+      "publishedAt": "2026-03-30T07:00:00Z",
+      "excerpt": "Damen Signs Contract to Deliver Combi Freighters (CF) 3850 to the Polidano Group Marine News Magazine",
+      "tags": [
+        "Shipbuilding",
+        "Supplier"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [
+        {
+          "name": "Damen Shipyards Group",
+          "category": "suppliers"
+        }
+      ],
+      "locations": [],
+      "businessTags": [
+        "Supplier",
+        "Commercial"
+      ],
+      "priorityScore": 7,
+      "priorityBand": "medium",
+      "priorityReasons": [
+        "Supplier mention: Damen Shipyards Group",
+        "Signal: Commercial"
+      ],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "9a6a186afbe153b9",
+      "title": "Damen signs contract with the Polidano Group for two CF 3850 | Damen - Damen Shipyards",
+      "source": "Damen Shipyards News",
+      "sourceId": "bing-damen",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQRVp2WWJtR2NLNjdzMW5ScU5fb0djWk5VYktPa0tMMDFIdlNPLW1yblRxYnB1V1lKcVZqOEpyTzA4UTVqM0pFWXFMVUZoblNlejRnd0xhX2MtMnB0dG1Xb3BRU1BpSjRkVnRHQmVTWUZUdVpXOGh6NE5ZU1Fmb1QxVzRYOW9jNFdPR2NhQjloQnRrOU4wdHFGQWVFWGthZ1pTR3dMbTdR?oc=5",
+      "publishedAt": "2026-03-30T07:00:00Z",
+      "excerpt": "Damen signs contract with the Polidano Group for two CF 3850 | Damen Damen Shipyards",
+      "tags": [
+        "Shipbuilding",
+        "Supplier"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [
+        {
+          "name": "Damen Shipyards Group",
+          "category": "suppliers"
+        }
+      ],
+      "locations": [],
+      "businessTags": [
+        "Supplier",
+        "Commercial"
+      ],
+      "priorityScore": 7,
+      "priorityBand": "medium",
+      "priorityReasons": [
+        "Supplier mention: Damen Shipyards Group",
+        "Signal: Commercial"
+      ],
+      "boardBucket": "Other Relevant"
     },
     {
       "id": "3d380817174cd768",
@@ -1180,32 +1199,6 @@ window.__DASHBOARD_DATA__ = {
       "boardBucket": "Regulation, Safety & Incidents"
     },
     {
-      "id": "6e742b77be664be6",
-      "title": "Iran Ship Seizures Show \u2018Weaponization of Trade\u2019 in Hormuz, Xeneta Warns",
-      "source": "gCaptain",
-      "sourceId": "gcaptain",
-      "url": "https://gcaptain.com/iran-ship-seizures-show-weaponization-of-trade-in-hormuz-xeneta-warns/",
-      "publishedAt": "2026-04-22T18:44:16Z",
-      "excerpt": "Iran\u2019s reported seizure of two MSC containerships in the Strait of Hormuz is the latest sign the crisis in the strategic waterway has evolved beyond a shipping disruption into what...",
-      "tags": [
-        "Maritime",
-        "Operations"
-      ],
-      "audience": "Multraship",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [
-        "Disruption"
-      ],
-      "priorityScore": 6,
-      "priorityBand": "medium",
-      "priorityReasons": [
-        "Signal: Disruption"
-      ],
-      "boardBucket": "Regulation, Safety & Incidents"
-    },
-    {
       "id": "3a11a17e44d50559",
       "title": "W\u00e4rtsil\u00e4 Gas Solutions to Provide Cargo Handling, Fuel Gas Supply for Two Ammonia Carriers - Marine News Magazine",
       "source": "W\u00e4rtsil\u00e4 News",
@@ -1448,6 +1441,37 @@ window.__DASHBOARD_DATA__ = {
       "priorityBand": "medium",
       "priorityReasons": [
         "Client mention: Inchcape Shipping Services"
+      ],
+      "boardBucket": "Clients & Projects"
+    },
+    {
+      "id": "aa3428c26ff33669",
+      "title": "Van Oord Installs Monopiles with VibroJet in the North Sea - Inspenet",
+      "source": "Van Oord News",
+      "sourceId": "bing-van-oord",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPaldvd3BidEJkcmV1dnZzeXNkckZKNm1kWEtyOHRWTjVfdDFsYUpQZEI5Zl9iQkZLbHByOXk0dnhLcjdJWEpMekZoa3REMDNETzFSMTAwcV9jNXBGNzg3b0IyYTVZbUY3VGgwMUNHdk83SVBGbXlKYldsRmxlcUFFT0lva0k?oc=5",
+      "publishedAt": "2026-04-17T13:42:00Z",
+      "excerpt": "Van Oord Installs Monopiles with VibroJet in the North Sea Inspenet",
+      "tags": [
+        "Offshore",
+        "Dredging"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [
+        {
+          "name": "Van Oord",
+          "category": "clients"
+        }
+      ],
+      "locations": [],
+      "businessTags": [
+        "Client"
+      ],
+      "priorityScore": 6,
+      "priorityBand": "medium",
+      "priorityReasons": [
+        "Client mention: Van Oord"
       ],
       "boardBucket": "Clients & Projects"
     },
@@ -1925,39 +1949,92 @@ window.__DASHBOARD_DATA__ = {
       "boardBucket": "Clients & Projects"
     },
     {
-      "id": "79aa4374bedc7eb6",
-      "title": "ABS, Marinteknik, Seatech, and VINSSEN Launch Hydrogen Fuel Cell Harbor Craft Pilot Study in Singapore",
+      "id": "6157265897bb6fe9",
+      "title": "Van Oord's profits more than doubled in strong operational year - Baird Maritime",
+      "source": "Van Oord News",
+      "sourceId": "bing-van-oord",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQVjh3U0hoU24xUlpXY3ZOR0xKUkhsUmc4bUtNbHpDaFdtMk9qWUxaU2tLNW9iMG8ycFZTUElTVWZ1N0VWdVIyZEpFclBNNlpYMjRZUjdwVllSNGZhZHE4aDVvVkdzU09BM0xOSkJOWHRSX3NMOVlsUkxBZ2VQRWNYNWNXbkhVU3Y1SWRlSDVpaGZtQ0ljT0Qtd2FTM0dwazhnUENiYXVVeGUxa29pNTViZjZwLXJQRXpZ?oc=5",
+      "publishedAt": "2026-03-26T08:19:47Z",
+      "excerpt": "Van Oord's profits more than doubled in strong operational year Baird Maritime",
+      "tags": [
+        "Offshore",
+        "Dredging"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [
+        {
+          "name": "Van Oord",
+          "category": "clients"
+        }
+      ],
+      "locations": [],
+      "businessTags": [
+        "Client"
+      ],
+      "priorityScore": 6,
+      "priorityBand": "medium",
+      "priorityReasons": [
+        "Client mention: Van Oord"
+      ],
+      "boardBucket": "Clients & Projects"
+    },
+    {
+      "id": "a95698d86d3f8bbd",
+      "title": "Trump Moves to Extend Jones Act Waiver 90 Days as Maritime Industry Says Fuel Relief Never Came",
+      "source": "gCaptain",
+      "sourceId": "gcaptain",
+      "url": "https://gcaptain.com/trump-moves-to-extend-jones-act-waiver-90-days-as-maritime-industry-says-fuel-relief-never-came/",
+      "publishedAt": "2026-04-23T21:04:00Z",
+      "excerpt": "The Trump administration is preparing to extend its controversial Jones Act waiver for up to 90 days, a move that would deepen an already contentious policy experiment launched during the...",
+      "tags": [
+        "Regulation",
+        "Maritime",
+        "Operations"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [
+        "Regulation"
+      ],
+      "priorityScore": 5,
+      "priorityBand": "medium",
+      "priorityReasons": [
+        "Signal: Regulation"
+      ],
+      "boardBucket": "Regulation, Safety & Incidents"
+    },
+    {
+      "id": "8b8722fdb6c5e9a4",
+      "title": "Everllence Warns of 50GW Gap in Meeting IMO\u2019s GHG Strategy Goals",
       "source": "Hellenic Shipping News",
       "sourceId": "hellenic-shipping-news",
-      "url": "https://www.hellenicshippingnews.com/abs-marinteknik-seatech-and-vinssen-launch-hydrogen-fuel-cell-harbor-craft-pilot-study-in-singapore/",
-      "publishedAt": "2026-04-23T17:00:55Z",
-      "excerpt": "In an important step to lowering emissions in one of the world\u2019s busiest ports, ABS, Marinteknik Shipbuilders (S) Pte. Ltd., SeaTech Solutions International (S) Pte. Ltd., and VINSSEN Co., Ltd., signed a research collaboration agreement to\u2026",
+      "url": "https://www.hellenicshippingnews.com/everllence-warns-of-50gw-gap-in-meeting-imos-ghg-strategy-goals/",
+      "publishedAt": "2026-04-23T21:00:51Z",
+      "excerpt": "Everllence has expressed concern over the current viability of the IMO\u2019s 2023 GHG Strategy that aims for net\u2011zero emissions from international shipping by or around 2050. Essentially, it believes that the NZF (Net-Zero Framework) is only a\u2026",
       "tags": [
+        "Regulation",
         "Decarbonization",
-        "Clean Propulsion",
         "Shipping",
         "Markets"
       ],
       "audience": "Novatug",
       "paywalled": false,
-      "entities": [
-        {
-          "name": "American Bureau of Shipping",
-          "category": "suppliers"
-        }
-      ],
+      "entities": [],
       "locations": [],
       "businessTags": [
-        "Supplier",
+        "Regulation",
         "Energy Transition"
       ],
       "priorityScore": 5,
       "priorityBand": "medium",
       "priorityReasons": [
-        "Supplier mention: American Bureau of Shipping",
+        "Signal: Regulation",
         "Signal: Energy Transition"
       ],
-      "boardBucket": "Other Relevant"
+      "boardBucket": "Regulation, Safety & Incidents"
     },
     {
       "id": "fafd6a8cead842b1",
@@ -1984,6 +2061,41 @@ window.__DASHBOARD_DATA__ = {
         "Signal: Infrastructure"
       ],
       "boardBucket": "Regulation, Safety & Incidents"
+    },
+    {
+      "id": "c8f859ffef5dd975",
+      "title": "ABS, Marinteknik, Seatech, and VINSSEN Launch Hydrogen Fuel Cell Harbor Craft Pilot Study in Singapore",
+      "source": "gCaptain",
+      "sourceId": "gcaptain",
+      "url": "https://gcaptain.com/abs-marinteknik-seatech-and-vinssen-launch-hydrogen-fuel-cell-harbor-craft-pilot-study-in-singapore/",
+      "publishedAt": "2026-04-23T14:45:13Z",
+      "excerpt": "In an important step to lowering emissions in one of the world\u2019s busiest ports, ABS, Marinteknik Shipbuilders (S) Pte. Ltd., SeaTech Solutions International (S) Pte. Ltd., and VINSSEN Co., Ltd.,...",
+      "tags": [
+        "Decarbonization",
+        "Clean Propulsion",
+        "Maritime",
+        "Operations"
+      ],
+      "audience": "Novatug",
+      "paywalled": false,
+      "entities": [
+        {
+          "name": "American Bureau of Shipping",
+          "category": "suppliers"
+        }
+      ],
+      "locations": [],
+      "businessTags": [
+        "Supplier",
+        "Energy Transition"
+      ],
+      "priorityScore": 5,
+      "priorityBand": "medium",
+      "priorityReasons": [
+        "Supplier mention: American Bureau of Shipping",
+        "Signal: Energy Transition"
+      ],
+      "boardBucket": "Other Relevant"
     },
     {
       "id": "ac7f7d0de962ff1b",
@@ -2117,33 +2229,6 @@ window.__DASHBOARD_DATA__ = {
       "priorityBand": "medium",
       "priorityReasons": [
         "Signal: Infrastructure"
-      ],
-      "boardBucket": "Regulation, Safety & Incidents"
-    },
-    {
-      "id": "23ce24903b7b0f05",
-      "title": "Geelong Refinery to Restore 90 Pct of Transport Fuel Production in Weeks",
-      "source": "Rigzone",
-      "sourceId": "rigzone-latest",
-      "url": "https://www.rigzone.com/news/geelong_refinery_to_restore_90_pct_of_transport_fuel_production_in_weeks-22-apr-2026-183506-article/?rss=true",
-      "publishedAt": "2026-04-22T08:50:12Z",
-      "excerpt": "Viva Energy expects to raise the production level for transportation fuels at its fire-hit Geelong Refinery in the Australian state of Victoria to over 90 percent of capacity in a 'few weeks'.",
-      "tags": [
-        "Incidents",
-        "Offshore",
-        "Energy"
-      ],
-      "audience": "Both",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [
-        "Incident"
-      ],
-      "priorityScore": 5,
-      "priorityBand": "medium",
-      "priorityReasons": [
-        "Signal: Incident"
       ],
       "boardBucket": "Regulation, Safety & Incidents"
     },
@@ -2463,6 +2548,37 @@ window.__DASHBOARD_DATA__ = {
       "boardBucket": "Other Relevant"
     },
     {
+      "id": "2155450ebb7b70a4",
+      "title": "Damen, IOM, Turkish Coast Guard, EU Hold Meeting for SAR Vessel Order - Marine News Magazine",
+      "source": "Damen Shipyards News",
+      "sourceId": "bing-damen",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOai1mdDN6QlVLUVYxMWExTEpwTG96VDA0cThPRWx2enMxb3hSUTJubnlCTnl0emhvRHQyUVVaMENHZ2I2OXR1OVQ1RDFnQUFMYlBsSW9QMkZyYVNvNjhvUGk2d05nU21wZXVsSkNKMGREU1dySXpTcmNBakc5bV9wVXhR?oc=5",
+      "publishedAt": "2026-04-09T15:46:23Z",
+      "excerpt": "Damen, IOM, Turkish Coast Guard, EU Hold Meeting for SAR Vessel Order Marine News Magazine",
+      "tags": [
+        "Shipbuilding",
+        "Supplier"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [
+        {
+          "name": "Damen Shipyards Group",
+          "category": "suppliers"
+        }
+      ],
+      "locations": [],
+      "businessTags": [
+        "Supplier"
+      ],
+      "priorityScore": 5,
+      "priorityBand": "medium",
+      "priorityReasons": [
+        "Supplier mention: Damen Shipyards Group"
+      ],
+      "boardBucket": "Other Relevant"
+    },
+    {
       "id": "e5246d97e52bbb26",
       "title": "ST LNG advances offshore export terminal plans",
       "source": "Riviera: Ports & Terminals",
@@ -2487,37 +2603,6 @@ window.__DASHBOARD_DATA__ = {
         "Signal: Infrastructure"
       ],
       "boardBucket": "Regulation, Safety & Incidents"
-    },
-    {
-      "id": "c923bef1c2537edf",
-      "title": "Damen hold a meeting for latest SAR vessel order in Antalya | Damen - Damen Shipyards",
-      "source": "Damen Shipyards News",
-      "sourceId": "bing-damen",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNM3R6WW5RUUJSRGh3NnFSeFRlYUl4NXluVGtzSGVEcjJ1eXZFbEhYOHJrUHNydEpWaTRlWUtsa0pzN1dTdElmVVJjVGx5OXp0Ni1GenlfWEExdERrQ202aXdTczJZeXJlNGpwNnN0YnpCVk1VVWEweHN1YTJWMDZPTDBiSF9JSzFnNi1EUUVmb2lFS085amp2WC1TOWFPUWtpb1ZBWVNZbEZvTkJaYjZ5ag?oc=5",
-      "publishedAt": "2026-04-09T07:00:00Z",
-      "excerpt": "Damen hold a meeting for latest SAR vessel order in Antalya | Damen Damen Shipyards",
-      "tags": [
-        "Shipbuilding",
-        "Supplier"
-      ],
-      "audience": "Multraship",
-      "paywalled": false,
-      "entities": [
-        {
-          "name": "Damen Shipyards Group",
-          "category": "suppliers"
-        }
-      ],
-      "locations": [],
-      "businessTags": [
-        "Supplier"
-      ],
-      "priorityScore": 5,
-      "priorityBand": "medium",
-      "priorityReasons": [
-        "Supplier mention: Damen Shipyards Group"
-      ],
-      "boardBucket": "Other Relevant"
     },
     {
       "id": "3d65af2830df38f8",
@@ -2642,37 +2727,6 @@ window.__DASHBOARD_DATA__ = {
         "Signal: Infrastructure"
       ],
       "boardBucket": "Regulation, Safety & Incidents"
-    },
-    {
-      "id": "8017600bd3131ace",
-      "title": "Damen Shipyards Group in 2025: profit growth and a well-filled order book - Damen Shipyards",
-      "source": "Damen Shipyards News",
-      "sourceId": "bing-damen",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPUnROcGJ0T0JKekd6TkcybGdCYlBOWnpsQ0tjS2htSU9OSmRsblRmQm9yUTlaUEpmRm1lRUN4UjlzVERPaWRhQ3hoSHlmSWstUUZxSTBNZl9GcWZoaUdaWk5vQk43d1owUmpsZlBoQU8wQ3c3bjZwNXZWTFBucWgwc2FyMUZHYlROa0RjY0FuaDJHOE91bnJEUFpsOG93TGZrTndSYTVmQVZHZGNRTkRSenRtdmVWdw?oc=5",
-      "publishedAt": "2026-03-26T07:00:00Z",
-      "excerpt": "Damen Shipyards Group in 2025: profit growth and a well-filled order book Damen Shipyards",
-      "tags": [
-        "Shipbuilding",
-        "Supplier"
-      ],
-      "audience": "Multraship",
-      "paywalled": false,
-      "entities": [
-        {
-          "name": "Damen Shipyards Group",
-          "category": "suppliers"
-        }
-      ],
-      "locations": [],
-      "businessTags": [
-        "Supplier"
-      ],
-      "priorityScore": 5,
-      "priorityBand": "medium",
-      "priorityReasons": [
-        "Supplier mention: Damen Shipyards Group"
-      ],
-      "boardBucket": "Other Relevant"
     },
     {
       "id": "9e5fc0b9e84e0ab3",
@@ -2842,6 +2896,37 @@ window.__DASHBOARD_DATA__ = {
         "Signal: Regulation"
       ],
       "boardBucket": "Regulation, Safety & Incidents"
+    },
+    {
+      "id": "40b1326741b6bbf7",
+      "title": "Kongsberg Maritime shares begin trading in Oslo after parent spin-off",
+      "source": "Kongsberg Maritime News",
+      "sourceId": "bing-kongsberg",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=69ea926ed3674d259411b504a099afd9&url=https%3a%2f%2fwww.tradewindsnews.com%2ftechnology%2fkongsberg-maritime-shares-begin-trading-in-oslo-after-parent-spin-off%2f2-1-1978439&c=3776947611517546205&mkt=en-us",
+      "publishedAt": "2026-04-23T02:01:00Z",
+      "excerpt": "A new pure-play maritime technology company is set to hit the public markets, as Kongsberg Maritime begins trading today on the Oslo Stock Exchange after its spin-off from Kongsberg Gruppen. The ...",
+      "tags": [
+        "Technology",
+        "Supplier"
+      ],
+      "audience": "Both",
+      "paywalled": false,
+      "entities": [
+        {
+          "name": "Kongsberg Maritime",
+          "category": "suppliers"
+        }
+      ],
+      "locations": [],
+      "businessTags": [
+        "Supplier"
+      ],
+      "priorityScore": 4,
+      "priorityBand": "medium",
+      "priorityReasons": [
+        "Supplier mention: Kongsberg Maritime"
+      ],
+      "boardBucket": "Other Relevant"
     },
     {
       "id": "12bee263e638b827",
@@ -3249,6 +3334,69 @@ window.__DASHBOARD_DATA__ = {
       "boardBucket": "Other Relevant"
     },
     {
+      "id": "1bd87e08971fdd26",
+      "title": "Indian Navy to equip 6 stealth corvettes with Kongsberg Kamewa",
+      "source": "Kongsberg Maritime News",
+      "sourceId": "bing-kongsberg",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=69ea926ed3674d259411b504a099afd9&url=https%3a%2f%2fwww.newsbytesapp.com%2fnews%2findia%2findian-navy-to-equip-6-stealth-corvettes-with-kongsberg-kamewa%2ftldr&c=14647400517899959803&mkt=en-us",
+      "publishedAt": "2026-04-13T23:57:00Z",
+      "excerpt": "Kongsberg Maritime will supply 18 advanced Kamewa waterjet propulsion systems to the Indian Navy, enhancing speed and stealth capabilities of their next-gen missile vessels.",
+      "tags": [
+        "Clean Propulsion",
+        "Technology",
+        "Supplier"
+      ],
+      "audience": "Both",
+      "paywalled": false,
+      "entities": [
+        {
+          "name": "Kongsberg Maritime",
+          "category": "suppliers"
+        }
+      ],
+      "locations": [],
+      "businessTags": [
+        "Supplier"
+      ],
+      "priorityScore": 4,
+      "priorityBand": "medium",
+      "priorityReasons": [
+        "Supplier mention: Kongsberg Maritime"
+      ],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "26df799168a29b22",
+      "title": "Kongsberg Gruppen ASA ADR",
+      "source": "Kongsberg Maritime News",
+      "sourceId": "bing-kongsberg",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=69ea926ed3674d259411b504a099afd9&url=https%3a%2f%2fwww.barrons.com%2fmarket-data%2fstocks%2fkbggy%3fgaa_ts%3d699ccb16&c=7284812280315245111&mkt=en-us",
+      "publishedAt": "2026-04-10T12:50:00Z",
+      "excerpt": "Kongsberg Gruppen ASA engages in delivering technology systems and solutions to clients within the oil and gas industry, merchant marine, defence, and aerospace. It operates through the following ...",
+      "tags": [
+        "Technology",
+        "Supplier"
+      ],
+      "audience": "Both",
+      "paywalled": false,
+      "entities": [
+        {
+          "name": "Kongsberg Maritime",
+          "category": "suppliers"
+        }
+      ],
+      "locations": [],
+      "businessTags": [
+        "Supplier"
+      ],
+      "priorityScore": 4,
+      "priorityBand": "medium",
+      "priorityReasons": [
+        "Supplier mention: Kongsberg Maritime"
+      ],
+      "boardBucket": "Other Relevant"
+    },
+    {
       "id": "aded5adbab5512b6",
       "title": "Ocean7 Ranger kickstarts Duluth\u2019s 2026 navigation season - Heavy Lift & Project Forwarding International",
       "source": "Sarens News",
@@ -3512,6 +3660,32 @@ window.__DASHBOARD_DATA__ = {
       "boardBucket": "Regulation, Safety & Incidents"
     },
     {
+      "id": "060c90169105f7ec",
+      "title": "Senator Todd Young Receives Legislator of the Year Award for Great Lakes Advocacy",
+      "source": "MarineLink",
+      "sourceId": "marinelink",
+      "url": "https://www.marinelink.com/news/senator-todd-young-receives-legislator-538422",
+      "publishedAt": "2026-04-23T21:16:05Z",
+      "excerpt": "On Wednesday, April 22, 2026, the Great Lakes Maritime Task Force (GLMTF) recognized Indiana Senator Todd Young for his commitment to the Great Lakes Navigation System and the nation\u2019s maritime revitalization.\u201cSenator Young understands the\u2026",
+      "tags": [
+        "Maritime",
+        "Industry"
+      ],
+      "audience": "Both",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [
+        "Commercial"
+      ],
+      "priorityScore": 3,
+      "priorityBand": "low",
+      "priorityReasons": [
+        "Signal: Commercial"
+      ],
+      "boardBucket": "Other Relevant"
+    },
+    {
       "id": "e9601fb0cb84e9c3",
       "title": "MacGregor to Supply Deck Machinery for Ultra-Large Cable-Laying Vessel",
       "source": "MarineLink",
@@ -3560,33 +3734,6 @@ window.__DASHBOARD_DATA__ = {
       "priorityBand": "low",
       "priorityReasons": [
         "Signal: Infrastructure"
-      ],
-      "boardBucket": "Regulation, Safety & Incidents"
-    },
-    {
-      "id": "144713551c663e2c",
-      "title": "ClassNK issues Approval in Principle (AiP) for a Liquified CO\u2082 Carrier installing Wind-Assisted Propulsion System",
-      "source": "Hellenic Shipping News",
-      "sourceId": "hellenic-shipping-news",
-      "url": "https://www.hellenicshippingnews.com/classnk-issues-approval-in-principle-aip-for-a-liquified-co%e2%82%82-carrier-installing-wind-assisted-propulsion-system/",
-      "publishedAt": "2026-04-23T10:00:53Z",
-      "excerpt": "ClassNK has issued an Approval in Principle (AiP) for a Liquified CO\u2082 carrier installing the \u2018Wind Challenger,\u2019 a hard sail wind propulsion system. The ship is jointly developed by Mitsui O.S.K. Lines, Ltd. (MOL) and Samsung Heavy Industri\u2026",
-      "tags": [
-        "Clean Propulsion",
-        "Shipping",
-        "Markets"
-      ],
-      "audience": "Novatug",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [
-        "Regulation"
-      ],
-      "priorityScore": 3,
-      "priorityBand": "low",
-      "priorityReasons": [
-        "Signal: Regulation"
       ],
       "boardBucket": "Regulation, Safety & Incidents"
     },
@@ -3915,6 +4062,119 @@ window.__DASHBOARD_DATA__ = {
       "priorityReasons": [
         "Signal: Energy Transition"
       ],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "8545089bc7df5fc6",
+      "title": "Iran\u2019s Swarm Tactics Show Why Hormuz Is Far From Safe",
+      "source": "gCaptain",
+      "sourceId": "gcaptain",
+      "url": "https://gcaptain.com/irans-swarm-tactics-show-why-hormuz-is-far-from-safe/",
+      "publishedAt": "2026-04-23T21:10:00Z",
+      "excerpt": "Iran's use of a swarm of small, fast boats to seize two container ships near the Strait of Hormuz could undermine suggestions U.S. forces have disabled its naval threat and reveals the challenges facing reopening one of the world's most im\u2026",
+      "tags": [
+        "Maritime",
+        "Operations"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [],
+      "priorityScore": 2,
+      "priorityBand": "low",
+      "priorityReasons": [],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "25e5bac10ce282c7",
+      "title": "Shipping Caught in the Crossfire",
+      "source": "Hellenic Shipping News",
+      "sourceId": "hellenic-shipping-news",
+      "url": "https://www.hellenicshippingnews.com/shipping-caught-in-the-crossfire/",
+      "publishedAt": "2026-04-23T21:00:59Z",
+      "excerpt": "The events of the past week, surrounding the situation in Hormuz, have shown a clear disconnect between what\u2019s been said and the harsh reality. In its latest weekly report, shipbroker Xclusiv said that \u201ceven though Iran and the US formally\u2026",
+      "tags": [
+        "Incidents",
+        "Shipping",
+        "Markets"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [],
+      "priorityScore": 2,
+      "priorityBand": "low",
+      "priorityReasons": [],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "c5464131567b7f2d",
+      "title": "Three Non-Iranian Container Ships Attempt Crossing the Hormuz, All Three Attacked",
+      "source": "Hellenic Shipping News",
+      "sourceId": "hellenic-shipping-news",
+      "url": "https://www.hellenicshippingnews.com/three-non-iranian-container-ships-attempt-crossing-the-hormuz-all-three-attacked/",
+      "publishedAt": "2026-04-23T21:00:55Z",
+      "excerpt": "All three non-Iranian container ships attempting to transit the Strait of Hormuz on yesterday reportedly came under attack, with two confirmed seized. EPAMINONDAS (7,200 TEU, Technomar-owned, on MSC charter) was hit by gunfire and rocket-p\u2026",
+      "tags": [
+        "Incidents",
+        "Shipping",
+        "Markets"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [],
+      "priorityScore": 2,
+      "priorityBand": "low",
+      "priorityReasons": [],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "9829e49307662c0e",
+      "title": "MABUX: Bunker Price Volatility Could Persist Next Week",
+      "source": "Hellenic Shipping News",
+      "sourceId": "hellenic-shipping-news",
+      "url": "https://www.hellenicshippingnews.com/mabux-bunker-price-volatility-could-persist-next-week/",
+      "publishedAt": "2026-04-23T21:00:49Z",
+      "excerpt": "During the week, the global bunker market remained in a downward correction phase, driven by easing geopolitical tensions following the ceasefire in the Middle East, in effect since April 8. By the end of the reporting period, the 380 HSFO\u2026",
+      "tags": [
+        "Incidents",
+        "Shipping",
+        "Markets"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [],
+      "priorityScore": 2,
+      "priorityBand": "low",
+      "priorityReasons": [],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "4eade71e4ead889d",
+      "title": "US-Iran Tensions Build Over Hormuz in Absence of Peace Talks",
+      "source": "gCaptain",
+      "sourceId": "gcaptain",
+      "url": "https://gcaptain.com/us-iran-tensions-build-over-hormuz-in-absence-of-peace-talks/",
+      "publishedAt": "2026-04-23T20:54:46Z",
+      "excerpt": "US and Iran tensions grew over the Strait of Hormuz with both sides maintaining their blockades of the critical waterway, creating an uneasy standoff with no sign of peace talks on the horizon.",
+      "tags": [
+        "Maritime",
+        "Operations"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [],
+      "priorityScore": 2,
+      "priorityBand": "low",
+      "priorityReasons": [],
       "boardBucket": "Other Relevant"
     },
     {
@@ -4271,60 +4531,6 @@ window.__DASHBOARD_DATA__ = {
       "boardBucket": "Other Relevant"
     },
     {
-      "id": "a18c3454a1e4993d",
-      "title": "Rio Tinto to charter two methanol dual-fuel bulk carriers",
-      "source": "Hellenic Shipping News",
-      "sourceId": "hellenic-shipping-news",
-      "url": "https://www.hellenicshippingnews.com/rio-tinto-to-charter-two-methanol-dual-fuel-bulk-carriers/",
-      "publishedAt": "2026-04-23T10:00:55Z",
-      "excerpt": "Mining company Rio Tinto has entered into an agreement to charter two methanol dual-fuel newbuild vessels from Japanese bulk operator NS United Kaiun Kaisha (NSU). Each bulk carrier will have a capacity of 209,000 dwt and will be designed\u2026",
-      "tags": [
-        "Clean Propulsion",
-        "Shipping",
-        "Markets"
-      ],
-      "audience": "Novatug",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [
-        "Energy Transition"
-      ],
-      "priorityScore": 2,
-      "priorityBand": "low",
-      "priorityReasons": [
-        "Signal: Energy Transition"
-      ],
-      "boardBucket": "Other Relevant"
-    },
-    {
-      "id": "6c32b19cfe26c7d2",
-      "title": "Hong Kong patent granted for fuel oil reclamation",
-      "source": "Hellenic Shipping News",
-      "sourceId": "hellenic-shipping-news",
-      "url": "https://www.hellenicshippingnews.com/hong-kong-patent-granted-for-fuel-oil-reclamation/",
-      "publishedAt": "2026-04-23T10:00:43Z",
-      "excerpt": "Sulnox, the greentech company delivering lower fuel costs and emissions with zero capex, is pleased to announce that it has secured its second important patent in Hong Kong. Focused on the significant fuel oil reclamation market, the intel\u2026",
-      "tags": [
-        "Decarbonization",
-        "Shipping",
-        "Markets"
-      ],
-      "audience": "Novatug",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [
-        "Energy Transition"
-      ],
-      "priorityScore": 2,
-      "priorityBand": "low",
-      "priorityReasons": [
-        "Signal: Energy Transition"
-      ],
-      "boardBucket": "Other Relevant"
-    },
-    {
       "id": "a68f71d87707be9b",
       "title": "Iran boards box ships after Strait of Hormuz strikes",
       "source": "Riviera: Safety & Incidents",
@@ -4556,51 +4762,6 @@ window.__DASHBOARD_DATA__ = {
       "boardBucket": "Other Relevant"
     },
     {
-      "id": "7018d02adc318e71",
-      "title": "Congress Confronts U.S. Shipbuilding Crisis as Maritime Buildout Meets Reality Check",
-      "source": "gCaptain",
-      "sourceId": "gcaptain",
-      "url": "https://gcaptain.com/congress-confronts-u-s-shipbuilding-crisis-as-maritime-buildout-meets-reality-check/",
-      "publishedAt": "2026-04-22T20:04:19Z",
-      "excerpt": "A rare joint House hearing on Wednesday laid bare both the ambition and the friction behind Washington\u2019s growing push to revive American shipbuilding, as administration officials promoted an expansive maritime...",
-      "tags": [
-        "Maritime",
-        "Operations"
-      ],
-      "audience": "Multraship",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [],
-      "priorityScore": 2,
-      "priorityBand": "low",
-      "priorityReasons": [],
-      "boardBucket": "Other Relevant"
-    },
-    {
-      "id": "ad6be37a67d25810",
-      "title": "Iran Menaces Hormuz as Its Own Oil Tankers Test US Blockade",
-      "source": "gCaptain",
-      "sourceId": "gcaptain",
-      "url": "https://gcaptain.com/iran-menaces-hormuz-as-its-own-oil-tankers-test-us-blockade/",
-      "publishedAt": "2026-04-22T17:05:46Z",
-      "excerpt": "By Weilun Soon and Rakteem Katakey (Bloomberg) \u2014 Iranian gunboats fired on commercial ships in the Strait of Hormuz on Wednesday as Tehran maintained its grip on the vital energy...",
-      "tags": [
-        "Incidents",
-        "Maritime",
-        "Operations"
-      ],
-      "audience": "Multraship",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [],
-      "priorityScore": 2,
-      "priorityBand": "low",
-      "priorityReasons": [],
-      "boardBucket": "Other Relevant"
-    },
-    {
       "id": "167ff57373e60eb3",
       "title": "EnerMech takes on topside process duty on UKCS",
       "source": "Offshore Energy",
@@ -4650,6 +4811,28 @@ window.__DASHBOARD_DATA__ = {
       "priorityReasons": [
         "Signal: Commercial"
       ],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "3107bbd2526b0500",
+      "title": "Global Shipping Reforms Cast Shadow Over Tanzania\u2019s Fishing Communities - Global Issues.org",
+      "source": "Mesh Maritime News",
+      "sourceId": "bing-mesh-maritime",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBnWWx4TmN0NDl6ckM4Y2lEemtIajNWNm5icDM2VWtLRFFuSDZ3MzRiekZJSUVkRnF3QkVzWlEwSTFvQnRCc0tQMFdONGRBUlpPRlNxQno3aEdJSEdVUmtN0gFkQVVfeXFMTlN0OU9iTktrLU9KbFJwTkZZX0MyYlVFbVBaMUZETFY0aGUxNy05bk54bktZWVdNQUl3ZlFDaTNNV2c0VzVqS3EyTjloZGhXV3JoNDMxa0N0WXhVV0pzcHh1NnBzYg?oc=5",
+      "publishedAt": "2026-04-22T07:16:04Z",
+      "excerpt": "Global Shipping Reforms Cast Shadow Over Tanzania\u2019s Fishing Communities Global Issues.org",
+      "tags": [
+        "Maritime",
+        "Supplier"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [],
+      "priorityScore": 2,
+      "priorityBand": "low",
+      "priorityReasons": [],
       "boardBucket": "Other Relevant"
     },
     {
@@ -4725,27 +4908,6 @@ window.__DASHBOARD_DATA__ = {
       "boardBucket": "Other Relevant"
     },
     {
-      "id": "cfe6e4456d488e27",
-      "title": "Amels 80 NETTO II Begins North Sea Trials Ahead of Summer Delivery - Superyachts.com",
-      "source": "Damen Yachting News",
-      "sourceId": "bing-damen-yachting",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQX2d4elpHYmROX0RiZGh0dGpyOW1vM2FmVndfQzVJM3RRekgxV09DNVFIRnE1QU14VDF3bmJCNmh4UHpNbHR2eGJISW9QQUNZWklKb2w3R0tiRzlIQnJ3d3hadEkwVWxTb2hRVW1uYXJIQU1tYy1VYThuS0FXYTlKSXFVX05ETTZxYUVSQ0MzZlN4ZnJjdmJfSHlvTWs1a3JwMDJrclJRMzBCOHdQLU5jZzFB?oc=5",
-      "publishedAt": "2026-04-21T07:00:00Z",
-      "excerpt": "Amels 80 NETTO II Begins North Sea Trials Ahead of Summer Delivery Superyachts.com",
-      "tags": [
-        "Yachting"
-      ],
-      "audience": "Multraship",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [],
-      "priorityScore": 2,
-      "priorityBand": "low",
-      "priorityReasons": [],
-      "boardBucket": "Other Relevant"
-    },
-    {
       "id": "9a8b3e9f10fa4ec7",
       "title": "Crew over carbon: Dry bulk giants pivot focus to safety as volatility becomes \u2018structurally baked\u2019 - Tradewinds News",
       "source": "Oldendorff Carriers News",
@@ -4801,33 +4963,6 @@ window.__DASHBOARD_DATA__ = {
       "excerpt": "Everllence has announced the successful Factory Acceptance Test (FAT) of its first ammonia-burning engine built by licensee, Engine & Machinery of Hyu...",
       "tags": [
         "Clean Propulsion",
-        "Maritime",
-        "News"
-      ],
-      "audience": "Novatug",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [
-        "Energy Transition"
-      ],
-      "priorityScore": 2,
-      "priorityBand": "low",
-      "priorityReasons": [
-        "Signal: Energy Transition"
-      ],
-      "boardBucket": "Other Relevant"
-    },
-    {
-      "id": "b87cb7e2e8f53a9b",
-      "title": "China Puts Fully-Electric, Intelligent Containership in Service",
-      "source": "The Maritime Executive",
-      "sourceId": "maritime-executive",
-      "url": "https://maritime-executive.com/article/china-puts-fully-electric-intelligent-containership-in-service",
-      "publishedAt": "2026-04-20T22:20:34Z",
-      "excerpt": "The first of two large, fully-electric containerships was placed in service in China. Built for Ningbo Ocean Shipping, they are being promoted as a k...",
-      "tags": [
-        "Electrification",
         "Maritime",
         "News"
       ],
@@ -4944,119 +5079,6 @@ window.__DASHBOARD_DATA__ = {
       "tags": [
         "Ports",
         "Africa"
-      ],
-      "audience": "Multraship",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [],
-      "priorityScore": 2,
-      "priorityBand": "low",
-      "priorityReasons": [],
-      "boardBucket": "Other Relevant"
-    },
-    {
-      "id": "b1922477f2993da5",
-      "title": "Amels 80 yacht Netto II begins sea trials - SuperYacht Times",
-      "source": "Damen Yachting News",
-      "sourceId": "bing-damen-yachting",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNYXg3alNPaHJTTFpQdGJjTmRDZXRQb3hwUHU5bnBXajZvNGpEb3FoRFVXS3pueGlIdU81Q0lfUHk2LXRITG1QMU1FZnRDZjZ6VjdxdVlSSnF2WnFLM1RjOXE2Y09hRWZhTkN1YWpmOFp6dTh4Q3dYTWhYblUxOGJNVGJtWQ?oc=5",
-      "publishedAt": "2026-04-17T10:47:05Z",
-      "excerpt": "Amels 80 yacht Netto II begins sea trials SuperYacht Times",
-      "tags": [
-        "Yachting"
-      ],
-      "audience": "Multraship",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [],
-      "priorityScore": 2,
-      "priorityBand": "low",
-      "priorityReasons": [],
-      "boardBucket": "Other Relevant"
-    },
-    {
-      "id": "71182c2e05f60a61",
-      "title": "Study: LNG lifecycle emissions lowering, but performance still marred by methane slip",
-      "source": "Riviera: Regulations & Compliance",
-      "sourceId": "riviera-regulation",
-      "url": "https://www.rivieramm.com/news-content-hub/study-shows-lng-lifecycle-ghg-gap-with-mgo-narrowing-but-methane-slip-remains-decisive-88466",
-      "publishedAt": "2026-04-17T09:30:00Z",
-      "excerpt": "Low-pressure engines burning LNG offer moderate emissions reductions compared with marine gas oil, according to a study commissioned by shipowner-, class society- and oil major-backed Society for Gas as a Marine Fuel",
-      "tags": [
-        "Decarbonization",
-        "Regulation",
-        "Compliance"
-      ],
-      "audience": "Novatug",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [
-        "Energy Transition"
-      ],
-      "priorityScore": 2,
-      "priorityBand": "low",
-      "priorityReasons": [
-        "Signal: Energy Transition"
-      ],
-      "boardBucket": "Other Relevant"
-    },
-    {
-      "id": "94f8234daafdb006",
-      "title": "\"Dolphin blue\" Amels 80 superyacht Netto II on sea trials - BOAT International",
-      "source": "Damen Yachting News",
-      "sourceId": "bing-damen-yachting",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQTVpjanpKOXdmbmNhZFNFVlc5RWVEYmZORnhTWm1FZElfQUZjNl9oUHdpU1dSaXNodzgwdms5c3EzTXNrX0gzRDExOUdBY1NmZkhzcnlmRzMxQjdhTVc3Y192RGM3R1lHR0tHSG1Cem9nbTJEUkRsU0doVmJjQUxXOGl6UFdKdGtITGk0dk9rcG0?oc=5",
-      "publishedAt": "2026-04-17T07:00:00Z",
-      "excerpt": "\"Dolphin blue\" Amels 80 superyacht Netto II on sea trials BOAT International",
-      "tags": [
-        "Yachting"
-      ],
-      "audience": "Multraship",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [],
-      "priorityScore": 2,
-      "priorityBand": "low",
-      "priorityReasons": [],
-      "boardBucket": "Other Relevant"
-    },
-    {
-      "id": "4d2808615123deea",
-      "title": "Greece's Alexandroupolis FLNG shuttered to new cargos for planned maintenance",
-      "source": "Riviera: Ports & Terminals",
-      "sourceId": "riviera-ports",
-      "url": "https://www.rivieramm.com/news-content-hub/greeces-alexandroupolis-flng-shuttered-to-new-cargos-for-planned-maintenance-88483",
-      "publishedAt": "2026-04-16T08:57:35Z",
-      "excerpt": "Gastrade says the facility is undergoing scheduled maintenance less than a year after a restart",
-      "tags": [
-        "Ports",
-        "Terminals"
-      ],
-      "audience": "Multraship",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [],
-      "priorityScore": 2,
-      "priorityBand": "low",
-      "priorityReasons": [],
-      "boardBucket": "Other Relevant"
-    },
-    {
-      "id": "022e49c56c803130",
-      "title": "NorthStandard study demonstrates benefits of AI navigation support",
-      "source": "Riviera: Safety & Incidents",
-      "sourceId": "riviera-safety",
-      "url": "https://www.rivieramm.com/news-content-hub/northstandard-study-demonstrates-ai-navigation-support-benefits-88473",
-      "publishedAt": "2026-04-16T07:00:00Z",
-      "excerpt": "Using artificial intelligence reduces close ship encounters by more than 50%",
-      "tags": [
-        "Safety",
-        "Incidents"
       ],
       "audience": "Multraship",
       "paywalled": false,
