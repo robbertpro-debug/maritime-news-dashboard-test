@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-04-24T17:29:31.577382Z",
+  "generatedAt": "2026-04-24T18:08:21.054957Z",
   "lookbackDays": 30,
-  "cutoffAt": "2026-03-25T17:29:31.577382Z",
+  "cutoffAt": "2026-03-25T18:08:21.054957Z",
   "articleCount": 180,
   "sourceCount": 100,
   "sources": [
@@ -16,7 +16,6 @@
     "Maersk Tankers News",
     "MarineLink",
     "Mesh Maritime News",
-    "Offshore Energy",
     "Oldendorff Carriers News",
     "Rigzone",
     "Riviera: Air Pollution & GHG Emissions",
@@ -50,7 +49,6 @@
     "Electrification",
     "Emissions",
     "Energy",
-    "Energy-Transition",
     "Ferry",
     "Heavy-Lift",
     "Incidents",
@@ -81,7 +79,12 @@
     "Antwerp",
     "Rotterdam"
   ],
-  "errors": [],
+  "errors": [
+    {
+      "source": "Offshore Energy",
+      "message": "HTTP Error 403: Forbidden"
+    }
+  ],
   "articles": [
     {
       "id": "e2d6c1330faf292d",
@@ -729,6 +732,33 @@
       "priorityReasons": [
         "Signal: Infrastructure",
         "Signal: Commercial"
+      ],
+      "boardBucket": "Regulation, Safety & Incidents"
+    },
+    {
+      "id": "104a7422ffa4ff4d",
+      "title": "China Conducts Live-Fire Drills Near Luzon Island as US, Philippines Hold Annual Military Exercises",
+      "source": "MarineLink",
+      "sourceId": "marinelink",
+      "url": "https://www.marinelink.com/news/china-conducts-livefire-drills-near-luzon-538459",
+      "publishedAt": "2026-04-24T17:58:47Z",
+      "excerpt": "China conducted military drills recently including live-fire exercises in waters east of the Philippines' Luzon Island, it said on Friday, as Manila and Washington host annual drills that extend towards disputed areas of the South China Se\u2026",
+      "tags": [
+        "Incidents",
+        "Maritime",
+        "Industry"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [
+        "Incident"
+      ],
+      "priorityScore": 6,
+      "priorityBand": "medium",
+      "priorityReasons": [
+        "Signal: Incident"
       ],
       "boardBucket": "Regulation, Safety & Incidents"
     },
@@ -1382,11 +1412,11 @@
       "boardBucket": "Competitors & Market"
     },
     {
-      "id": "f8b448adc5ccc6cb",
+      "id": "25b76f42473217e8",
       "title": "Norwegian co to supply 18 big waterjet systems for Indian Navy's next-gen missile vessel project",
       "source": "Kongsberg Maritime News",
       "sourceId": "bing-kongsberg",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=69eba884b3434883a91b05ec3a0408c2&url=https%3a%2f%2fwww.msn.com%2fen-in%2fnews%2fother%2fnorwegian-co-to-supply-18-big-waterjet-systems-for-indian-navy-s-next-gen-missile-vessel-project%2far-AA20Nuet&c=4609846177532778353&mkt=en-us",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=69ebb19fe8b54606ab29152fd48d35b2&url=https%3a%2f%2fwww.msn.com%2fen-in%2fnews%2fother%2fnorwegian-co-to-supply-18-big-waterjet-systems-for-indian-navy-s-next-gen-missile-vessel-project%2far-AA20Nuet&c=4609846177532778353&mkt=en-us",
       "publishedAt": "2026-04-13T16:47:00Z",
       "excerpt": "India's Navy is set to receive 18 advanced Kamewa waterjet propulsion systems from Norway's Kongsberg Maritime for its new missile vessels. This significant contract, awarded in partnership with ...",
       "tags": [
@@ -1916,40 +1946,6 @@
       "boardBucket": "Other Relevant"
     },
     {
-      "id": "0282dc7112300f3f",
-      "title": "Two ammonia-fueled ammonia carriers to sport W\u00e4rtsil\u00e4 systems in 2027",
-      "source": "Offshore Energy",
-      "sourceId": "offshore-energy",
-      "url": "https://www.offshore-energy.biz/two-ammonia-fueled-ammonia-carriers-to-sport-wartsila-systems-in-2027/",
-      "publishedAt": "2026-04-24T07:52:43Z",
-      "excerpt": "W\u00e4rtsil\u00e4 Gas Solutions, part of technology group W\u00e4rtsil\u00e4, is set to supply the cargo handling and fuel [\u2026] The post Two ammonia-fueled ammonia carriers to sport W\u00e4rtsil\u00e4 systems in 2027 appeared first on Offshore Energy .",
-      "tags": [
-        "Clean Propulsion",
-        "Energy-Transition",
-        "Technology"
-      ],
-      "audience": "Novatug",
-      "paywalled": false,
-      "entities": [
-        {
-          "name": "W\u00e4rtsil\u00e4",
-          "category": "suppliers"
-        }
-      ],
-      "locations": [],
-      "businessTags": [
-        "Supplier",
-        "Energy Transition"
-      ],
-      "priorityScore": 5,
-      "priorityBand": "medium",
-      "priorityReasons": [
-        "Supplier mention: W\u00e4rtsil\u00e4",
-        "Signal: Energy Transition"
-      ],
-      "boardBucket": "Other Relevant"
-    },
-    {
       "id": "b1aec6651c3dfd05",
       "title": "Port of Antwerp-Bruges Reports Weak Start to the Year",
       "source": "MarineLink",
@@ -2091,32 +2087,6 @@
       "priorityBand": "medium",
       "priorityReasons": [
         "Signal: Regulation"
-      ],
-      "boardBucket": "Regulation, Safety & Incidents"
-    },
-    {
-      "id": "fafd6a8cead842b1",
-      "title": "Golden Pass Ships First LNG Cargo, Launching Major New U.S. Export Supply",
-      "source": "gCaptain",
-      "sourceId": "gcaptain",
-      "url": "https://gcaptain.com/golden-pass-ships-first-lng-cargo-launching-major-new-u-s-export-supply/",
-      "publishedAt": "2026-04-23T14:59:52Z",
-      "excerpt": "The departure of the first export cargo from the Golden Pass LNG terminal marks the formal entry of one of America\u2019s largest new liquefied natural gas projects into global trade,...",
-      "tags": [
-        "Maritime",
-        "Operations"
-      ],
-      "audience": "Multraship",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [
-        "Infrastructure"
-      ],
-      "priorityScore": 5,
-      "priorityBand": "medium",
-      "priorityReasons": [
-        "Signal: Infrastructure"
       ],
       "boardBucket": "Regulation, Safety & Incidents"
     },
@@ -2821,11 +2791,11 @@
       "boardBucket": "Other Relevant"
     },
     {
-      "id": "5e40c92af9f70c1d",
+      "id": "31e4a8b29b5f8fca",
       "title": "Kongsberg Maritime Begins Trading on the Oslo Stock Exchange",
       "source": "Kongsberg Maritime News",
       "sourceId": "bing-kongsberg",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=69eba884b3434883a91b05ec3a0408c2&url=https%3a%2f%2fwww.marinelink.com%2fnews%2fkongsberg-maritime-begins-trading-oslo-538424&c=15974813936108799403&mkt=en-us",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=69ebb19fe8b54606ab29152fd48d35b2&url=https%3a%2f%2fwww.marinelink.com%2fnews%2fkongsberg-maritime-begins-trading-oslo-538424&c=15974813936108799403&mkt=en-us",
       "publishedAt": "2026-04-23T14:52:00Z",
       "excerpt": "Kongsberg Maritime ASA, a global leader in maritime technology, began trading on Euronext Oslo Stock Exchange on April 23 under the ticker symbol KMAR.",
       "tags": [
@@ -2878,11 +2848,11 @@
       "boardBucket": "Regulation, Safety & Incidents"
     },
     {
-      "id": "e2b503a7926760d0",
+      "id": "28c790d2bf4bc281",
       "title": "Kongsberg Maritime shares begin trading in Oslo after parent spin-off",
       "source": "Kongsberg Maritime News",
       "sourceId": "bing-kongsberg",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=69eba884b3434883a91b05ec3a0408c2&url=https%3a%2f%2fwww.tradewindsnews.com%2ftechnology%2fkongsberg-maritime-shares-begin-trading-in-oslo-after-parent-spin-off%2f2-1-1978439&c=3776947611517546205&mkt=en-us",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=69ebb19fe8b54606ab29152fd48d35b2&url=https%3a%2f%2fwww.tradewindsnews.com%2ftechnology%2fkongsberg-maritime-shares-begin-trading-in-oslo-after-parent-spin-off%2f2-1-1978439&c=3776947611517546205&mkt=en-us",
       "publishedAt": "2026-04-23T02:01:00Z",
       "excerpt": "A new pure-play maritime technology company is set to hit the public markets, as Kongsberg Maritime begins trading today on the Oslo Stock Exchange after its spin-off from Kongsberg Gruppen. The ...",
       "tags": [
@@ -3011,32 +2981,6 @@
       "excerpt": "A new grain transloading facility at the Port of Baltimore Seagirt Marine Terminal will make it easier for Maryland farmers to get their products to...",
       "tags": [
         "Regulation",
-        "Maritime",
-        "News"
-      ],
-      "audience": "Both",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [
-        "Infrastructure"
-      ],
-      "priorityScore": 4,
-      "priorityBand": "medium",
-      "priorityReasons": [
-        "Signal: Infrastructure"
-      ],
-      "boardBucket": "Regulation, Safety & Incidents"
-    },
-    {
-      "id": "87ba4ea3dad84375",
-      "title": "First Quays of the New Cruise Terminal Completed at Port of Klaipeda",
-      "source": "The Maritime Executive",
-      "sourceId": "maritime-executive",
-      "url": "https://maritime-executive.com/article/first-quays-of-the-new-cruise-terminal-completed-at-port-of-klaipeda",
-      "publishedAt": "2026-04-21T20:25:46Z",
-      "excerpt": "Construction of the new cruise ship terminal at the Port of Klaipeda has picked up speed and is moving forward rapidly. Work on the first quays, where...",
-      "tags": [
         "Maritime",
         "News"
       ],
@@ -3288,11 +3232,11 @@
       "boardBucket": "Other Relevant"
     },
     {
-      "id": "e22c0a4018c15c85",
+      "id": "7028b4b11c2a1a8e",
       "title": "Indian Navy to equip 6 stealth corvettes with Kongsberg Kamewa",
       "source": "Kongsberg Maritime News",
       "sourceId": "bing-kongsberg",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=69eba884b3434883a91b05ec3a0408c2&url=https%3a%2f%2fwww.newsbytesapp.com%2fnews%2findia%2findian-navy-to-equip-6-stealth-corvettes-with-kongsberg-kamewa%2ftldr&c=14647400517899959803&mkt=en-us",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=69ebb19fe8b54606ab29152fd48d35b2&url=https%3a%2f%2fwww.newsbytesapp.com%2fnews%2findia%2findian-navy-to-equip-6-stealth-corvettes-with-kongsberg-kamewa%2ftldr&c=14647400517899959803&mkt=en-us",
       "publishedAt": "2026-04-13T23:57:00Z",
       "excerpt": "Kongsberg Maritime will supply 18 advanced Kamewa waterjet propulsion systems to the Indian Navy, enhancing speed and stealth capabilities of their next-gen missile vessels.",
       "tags": [
@@ -3320,11 +3264,11 @@
       "boardBucket": "Other Relevant"
     },
     {
-      "id": "5bb2cbba81325b62",
+      "id": "3894260b75701b5c",
       "title": "Kongsberg Gruppen ASA ADR",
       "source": "Kongsberg Maritime News",
       "sourceId": "bing-kongsberg",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=69eba884b3434883a91b05ec3a0408c2&url=https%3a%2f%2fwww.barrons.com%2fmarket-data%2fstocks%2fkbggy%3fgaa_ts%3d699ccb16&c=7284812280315245111&mkt=en-us",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=69ebb19fe8b54606ab29152fd48d35b2&url=https%3a%2f%2fwww.barrons.com%2fmarket-data%2fstocks%2fkbggy%3fgaa_ts%3d699ccb16&c=7284812280315245111&mkt=en-us",
       "publishedAt": "2026-04-10T12:50:00Z",
       "excerpt": "Kongsberg Gruppen ASA engages in delivering technology systems and solutions to clients within the oil and gas industry, merchant marine, defence, and aerospace. It operates through the following ...",
       "tags": [
@@ -3778,32 +3722,6 @@
       "boardBucket": "Other Relevant"
     },
     {
-      "id": "9161fb93579da5d5",
-      "title": "Five European TSOs launch joint initiative on North Sea subsea cable infrastructure",
-      "source": "Offshore Energy",
-      "sourceId": "offshore-energy",
-      "url": "https://www.offshore-energy.biz/five-european-tsos-launch-joint-initiative-on-north-sea-subsea-cable-infrastructure/",
-      "publishedAt": "2026-04-23T13:46:50Z",
-      "excerpt": "Five European transmission system operators (TSOs) have signed a memorandum of understanding (MoU) to [\u2026] The post Five European TSOs launch joint initiative on North Sea subsea cable infrastructure appeared first on Offshore Energy .",
-      "tags": [
-        "Energy-Transition",
-        "Technology"
-      ],
-      "audience": "Novatug",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [
-        "Infrastructure"
-      ],
-      "priorityScore": 3,
-      "priorityBand": "low",
-      "priorityReasons": [
-        "Signal: Infrastructure"
-      ],
-      "boardBucket": "Regulation, Safety & Incidents"
-    },
-    {
       "id": "0bd8eef8295b4801",
       "title": "W\u00e4rtsil\u00e4 launches digital-ready maritime simulator",
       "source": "SWZ Maritime",
@@ -3947,6 +3865,55 @@
       "boardBucket": "Other Relevant"
     },
     {
+      "id": "e77c6546070b460e",
+      "title": "EU Continues to Push for Shipping Carbon Levy",
+      "source": "MarineLink",
+      "sourceId": "marinelink",
+      "url": "https://www.marinelink.com/news/eu-continues-push-shipping-carbon-levy-538460",
+      "publishedAt": "2026-04-24T18:02:20Z",
+      "excerpt": "European Union countries agreed on Friday to keep pushing for a global price on shipping's CO2 emissions in U.N. talks next week, setting up another potential clash with the United States over the proposal.Governments at the International\u2026",
+      "tags": [
+        "Decarbonization",
+        "Maritime",
+        "Industry"
+      ],
+      "audience": "Novatug",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [
+        "Energy Transition"
+      ],
+      "priorityScore": 2,
+      "priorityBand": "low",
+      "priorityReasons": [
+        "Signal: Energy Transition"
+      ],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "c5f2c67558283565",
+      "title": "Iran Conflict Premium Fades From Asia-Europe Box Rates",
+      "source": "gCaptain",
+      "sourceId": "gcaptain",
+      "url": "https://gcaptain.com/iran-conflict-premium-fades-from-asia-europe-box-rates/",
+      "publishedAt": "2026-04-24T17:32:42Z",
+      "excerpt": "Container freight spot rates on the Asia-Europe trades largely returned to pre-Iran conflict levels this week, as container supply chains settled after the war\u2019s outbreak and settled into what appears to be the normal seasonal slowdown.",
+      "tags": [
+        "Maritime",
+        "Operations"
+      ],
+      "audience": "Multraship",
+      "paywalled": true,
+      "entities": [],
+      "locations": [],
+      "businessTags": [],
+      "priorityScore": 2,
+      "priorityBand": "low",
+      "priorityReasons": [],
+      "boardBucket": "Other Relevant"
+    },
+    {
       "id": "f8f194f859c6dbb6",
       "title": "Pentagon Chief Hegseth Says US Blockade on Iran \u2018Going Global\u2019",
       "source": "gCaptain",
@@ -3991,32 +3958,6 @@
       "boardBucket": "Other Relevant"
     },
     {
-      "id": "f26e6cfddefce6be",
-      "title": "Australian FPSO production ramp-up on Santos\u2019 agenda next week",
-      "source": "Offshore Energy",
-      "sourceId": "offshore-energy",
-      "url": "https://www.offshore-energy.biz/australian-fpso-production-ramp-up-on-santos-agenda-next-week/",
-      "publishedAt": "2026-04-24T13:50:45Z",
-      "excerpt": "Australia\u2019s energy player Santos has disclosed a timeline for a production increase following a restart of output from a floating production, storage, and offloading (FPSO) vessel deployed at its gas project off the coast of Australia\u2019s No\u2026",
-      "tags": [
-        "Energy-Transition",
-        "Technology"
-      ],
-      "audience": "Novatug",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [
-        "Commercial"
-      ],
-      "priorityScore": 2,
-      "priorityBand": "low",
-      "priorityReasons": [
-        "Signal: Commercial"
-      ],
-      "boardBucket": "Other Relevant"
-    },
-    {
       "id": "e8ce220faa796c9f",
       "title": "Spliethoff Group Hires Fuel Procurement Manager in Amsterdam - Ship & Bunker",
       "source": "Oldendorff Carriers News",
@@ -4036,60 +3977,6 @@
       "priorityScore": 2,
       "priorityBand": "low",
       "priorityReasons": [],
-      "boardBucket": "Other Relevant"
-    },
-    {
-      "id": "5c1adbcfa98c269f",
-      "title": "Court case ends in settlement with Woodside and Greenpeace agreeing to foot their own bills",
-      "source": "Offshore Energy",
-      "sourceId": "offshore-energy",
-      "url": "https://www.offshore-energy.biz/court-case-ends-in-settlement-with-woodside-and-greenpeace-agreeing-to-foot-their-own-bills/",
-      "publishedAt": "2026-04-24T11:34:08Z",
-      "excerpt": "Australian energy giant Woodside and Greenpeace Australia Pacific (GAP), an independent campaigning organization, have reached a settlement in an emissions lawsuit, which has now been dismissed in the Federal Court of Australia. The post C\u2026",
-      "tags": [
-        "Decarbonization",
-        "Energy-Transition",
-        "Technology"
-      ],
-      "audience": "Novatug",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [
-        "Energy Transition"
-      ],
-      "priorityScore": 2,
-      "priorityBand": "low",
-      "priorityReasons": [
-        "Signal: Energy Transition"
-      ],
-      "boardBucket": "Other Relevant"
-    },
-    {
-      "id": "99ffe874efef8389",
-      "title": "Hydrogen-fueled AUV breaks range expectations with 2,000-kilometer subsea run",
-      "source": "Offshore Energy",
-      "sourceId": "offshore-energy",
-      "url": "https://www.offshore-energy.biz/hydrogen-fueled-auv-breaks-range-expectations-with-2000-kilometer-subsea-run/",
-      "publishedAt": "2026-04-24T11:09:07Z",
-      "excerpt": "An autonomous underwater vehicle (AUV) developed by Canada\u2019s Cellula Robotics has traveled over 2,000 [\u2026] The post Hydrogen-fueled AUV breaks range expectations with 2,000-kilometer subsea run appeared first on Offshore Energy .",
-      "tags": [
-        "Clean Propulsion",
-        "Energy-Transition",
-        "Technology"
-      ],
-      "audience": "Novatug",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [
-        "Energy Transition"
-      ],
-      "priorityScore": 2,
-      "priorityBand": "low",
-      "priorityReasons": [
-        "Signal: Energy Transition"
-      ],
       "boardBucket": "Other Relevant"
     },
     {
@@ -4136,32 +4023,6 @@
       "priorityScore": 2,
       "priorityBand": "low",
       "priorityReasons": [],
-      "boardBucket": "Other Relevant"
-    },
-    {
-      "id": "52881b7da0cf99fc",
-      "title": "Texas company to start archaeological survey for US East Coast offshore wind project",
-      "source": "Offshore Energy",
-      "sourceId": "offshore-energy",
-      "url": "https://www.offshore-energy.biz/texas-company-to-start-archaeological-survey-for-us-east-coast-offshore-wind-project/",
-      "publishedAt": "2026-04-24T09:21:47Z",
-      "excerpt": "Nauticus Robotics, an ocean robotics developer based in Texas, has been awarded a contract [\u2026] The post Texas company to start archaeological survey for US East Coast offshore wind project appeared first on Offshore Energy .",
-      "tags": [
-        "Energy-Transition",
-        "Technology"
-      ],
-      "audience": "Novatug",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [
-        "Commercial"
-      ],
-      "priorityScore": 2,
-      "priorityBand": "low",
-      "priorityReasons": [
-        "Signal: Commercial"
-      ],
       "boardBucket": "Other Relevant"
     },
     {
@@ -5074,6 +4935,118 @@
       "url": "https://www.rivieramm.com/news-content-hub/what-we-know-about-co2-shipping-aips-88024",
       "publishedAt": "2026-04-06T09:30:00Z",
       "excerpt": "Ahead of Posidonia 2026, five years of AiPs trace CO2 carrier sizing, floating storage concepts and onboard capture",
+      "tags": [
+        "Ports",
+        "Terminals"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [],
+      "priorityScore": 2,
+      "priorityBand": "low",
+      "priorityReasons": [],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "29b4e0940d97a605",
+      "title": "Simulator centres train the next generation of tug masters, pilots",
+      "source": "Riviera: Safety & Incidents",
+      "sourceId": "riviera-safety",
+      "url": "https://www.rivieramm.com/news-content-hub/simulator-centres-train-the-next-generation-of-tug-masters-pilots-88237",
+      "publishedAt": "2026-04-06T06:00:00Z",
+      "excerpt": "Training simulation centres improve tug and pilot interactions in manoeuvring and docking ships in ports",
+      "tags": [
+        "Towage",
+        "Safety",
+        "Incidents"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [],
+      "priorityScore": 2,
+      "priorityBand": "low",
+      "priorityReasons": [],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "9365e39ae5343f46",
+      "title": "Ardmore undertakes cargo tank recoating, expands cargo flexibility",
+      "source": "Riviera: Ports & Terminals",
+      "sourceId": "riviera-ports",
+      "url": "https://www.rivieramm.com/news-content-hub/ardmore-undertakes-cargo-tank-recoating-and-expands-cargo-flexibility-88358",
+      "publishedAt": "2026-04-03T05:59:00Z",
+      "excerpt": "Six Ardmore product and chemical tankers have undergone mid-life cargo tank recoating, with the owner citing cleaner turnarounds and broader cargo options",
+      "tags": [
+        "Ports",
+        "Terminals"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [],
+      "priorityScore": 2,
+      "priorityBand": "low",
+      "priorityReasons": [],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "f2a28267aad67edf",
+      "title": "Kuwaiti tanker hit off Dubai; Iran plan for Strait of Hormuz tolls approved",
+      "source": "Riviera: Safety & Incidents",
+      "sourceId": "riviera-safety",
+      "url": "https://www.rivieramm.com/news-content-hub/kuwaiti-tanker-hit-off-dubai-iran-plan-for-strait-of-hormuz-tolls-approved-88340",
+      "publishedAt": "2026-03-31T21:11:49Z",
+      "excerpt": "State-owned Kuwait Petroleum Corp says vessel damaged by \u2019direct Iranian attack\u2019, as plan to impose tolls for Hormuz transits reportedly approved in Iranian parliament",
+      "tags": [
+        "Safety",
+        "Incidents"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [],
+      "priorityScore": 2,
+      "priorityBand": "low",
+      "priorityReasons": [],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "64f995bbd82a1299",
+      "title": "Middle East owners bolster fleets with ASD newbuilds",
+      "source": "Riviera: Ports & Terminals",
+      "sourceId": "riviera-ports",
+      "url": "https://www.rivieramm.com/news-content-hub/middle-east-owners-bolster-fleets-with-asd-newbuilds-88162",
+      "publishedAt": "2026-03-31T10:00:00Z",
+      "excerpt": "Shipyards delivered several tugboats to UAE-headquartered owners in 2025 for operations in the region and in Africa",
+      "tags": [
+        "Towage",
+        "Ports",
+        "Terminals"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [],
+      "priorityScore": 2,
+      "priorityBand": "low",
+      "priorityReasons": [],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "3c6af7b21165c8b4",
+      "title": "Data shows COSCO box ships transit Hormuz after aborted attempt, as transits remain down",
+      "source": "Riviera: Ports & Terminals",
+      "sourceId": "riviera-ports",
+      "url": "https://www.rivieramm.com/news-content-hub/data-shows-cosco-boxships-transit-hormuz-after-aborted-attempt-88320",
+      "publishedAt": "2026-03-30T13:05:49Z",
+      "excerpt": "According to MarineTraffic, this marks the first confirmed transit by a major container carrier since the conflict began",
       "tags": [
         "Ports",
         "Terminals"
