@@ -1,12 +1,11 @@
 {
-  "generatedAt": "2026-04-25T22:49:49.433221Z",
+  "generatedAt": "2026-04-25T23:35:24.166945Z",
   "lookbackDays": 30,
-  "cutoffAt": "2026-03-26T22:49:49.433221Z",
+  "cutoffAt": "2026-03-26T23:35:24.166945Z",
   "articleCount": 180,
   "sourceCount": 100,
   "sources": [
     "Africa Ports & Ships",
-    "Baird Maritime",
     "Boskalis News",
     "DFDS News",
     "Damen Shipyards News",
@@ -31,7 +30,6 @@
     "Svitzer News",
     "The Maritime Executive",
     "Ultrabulk News",
-    "Van Oord News",
     "W\u00e4rtsil\u00e4 News",
     "Yara International News",
     "gCaptain"
@@ -76,7 +74,6 @@
     "Technology",
     "Terminals",
     "Towage",
-    "Workboats",
     "Yachting"
   ],
   "locations": [
@@ -1258,37 +1255,6 @@
       "boardBucket": "Clients & Projects"
     },
     {
-      "id": "aa3428c26ff33669",
-      "title": "Van Oord Installs Monopiles with VibroJet in the North Sea - Inspenet",
-      "source": "Van Oord News",
-      "sourceId": "bing-van-oord",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPaldvd3BidEJkcmV1dnZzeXNkckZKNm1kWEtyOHRWTjVfdDFsYUpQZEI5Zl9iQkZLbHByOXk0dnhLcjdJWEpMekZoa3REMDNETzFSMTAwcV9jNXBGNzg3b0IyYTVZbUY3VGgwMUNHdk83SVBGbXlKYldsRmxlcUFFT0lva0k?oc=5",
-      "publishedAt": "2026-04-17T13:42:00Z",
-      "excerpt": "Van Oord Installs Monopiles with VibroJet in the North Sea Inspenet",
-      "tags": [
-        "Offshore",
-        "Dredging"
-      ],
-      "audience": "Multraship",
-      "paywalled": false,
-      "entities": [
-        {
-          "name": "Van Oord",
-          "category": "clients"
-        }
-      ],
-      "locations": [],
-      "businessTags": [
-        "Client"
-      ],
-      "priorityScore": 6,
-      "priorityBand": "medium",
-      "priorityReasons": [
-        "Client mention: Van Oord"
-      ],
-      "boardBucket": "Clients & Projects"
-    },
-    {
       "id": "9e8d36fc1f002e66",
       "title": "W\u00e4rtsil\u00e4\u2019s 34SG engine makes its data center debut with new 412 MW U.S. project - W\u00e4rtsil\u00e4",
       "source": "W\u00e4rtsil\u00e4 News",
@@ -1418,11 +1384,11 @@
       "boardBucket": "Competitors & Market"
     },
     {
-      "id": "d7f64630c5737879",
+      "id": "587d1a1230dd6c87",
       "title": "Norwegian co to supply 18 big waterjet systems for Indian Navy's next-gen missile vessel project",
       "source": "Kongsberg Maritime News",
       "sourceId": "bing-kongsberg",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=69ed45163f004e75a0eda08a1b8100e8&url=https%3a%2f%2fwww.msn.com%2fen-in%2fnews%2fother%2fnorwegian-co-to-supply-18-big-waterjet-systems-for-indian-navy-s-next-gen-missile-vessel-project%2far-AA20Nuet&c=4609846177532778353&mkt=en-us",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=69ed4fc2bb1e4598b2b208d0d332c1e1&url=https%3a%2f%2fwww.msn.com%2fen-in%2fnews%2fother%2fnorwegian-co-to-supply-18-big-waterjet-systems-for-indian-navy-s-next-gen-missile-vessel-project%2far-AA20Nuet&c=4609846177532778353&mkt=en-us",
       "publishedAt": "2026-04-13T16:47:00Z",
       "excerpt": "India's Navy is set to receive 18 advanced Kamewa waterjet propulsion systems from Norway's Kongsberg Maritime for its new missile vessels. This significant contract, awarded in partnership with ...",
       "tags": [
@@ -1825,32 +1791,6 @@
         "Client mention: DFDS"
       ],
       "boardBucket": "Clients & Projects"
-    },
-    {
-      "id": "e1295bcffb308d29",
-      "title": "FEATURE | US law enforcement raids offices of Houston fuel trader Ikon Midstream",
-      "source": "Baird Maritime",
-      "sourceId": "baird-maritime",
-      "url": "https://www.bairdmaritime.com/shipping/tankers/feature-us-law-enforcement-raids-offices-of-houston-fuel-trader-ikon-midstream",
-      "publishedAt": "2026-04-25T19:07:01Z",
-      "excerpt": "US authorities raided the offices of Ikon Midstream, a Houston fuel trader whose diesel exports are part of fuel-smuggling investigations in Mexico, according to a Department of Homeland Security spokesperson, two US officials and a Mexica\u2026",
-      "tags": [
-        "Workboats",
-        "Technology"
-      ],
-      "audience": "Multraship",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [
-        "Regulation"
-      ],
-      "priorityScore": 5,
-      "priorityBand": "medium",
-      "priorityReasons": [
-        "Signal: Regulation"
-      ],
-      "boardBucket": "Regulation, Safety & Incidents"
     },
     {
       "id": "dc705fe6bb02d199",
@@ -2389,32 +2329,6 @@
       "boardBucket": "Regulation, Safety & Incidents"
     },
     {
-      "id": "c1bd2e3cfc80a3e8",
-      "title": "Hypersonic weapon startup Castelion wins $105m US navy contract for F/A-18 integration",
-      "source": "Baird Maritime",
-      "sourceId": "baird-maritime",
-      "url": "https://www.bairdmaritime.com/security/weaponry/hypersonic-weapon-startup-castelion-wins-105m-us-navy-contract-for-fa-18-integration",
-      "publishedAt": "2026-04-25T18:54:55Z",
-      "excerpt": "Castelion, a small California defense startup, has won a $105 million US Navy contract to ready its Blackbeard hypersonic missile for use aboard the navy's carrier-based F/A-18 fighter jets, clearing the way for the weapon to move from the\u2026",
-      "tags": [
-        "Workboats",
-        "Technology"
-      ],
-      "audience": "Multraship",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [
-        "Commercial"
-      ],
-      "priorityScore": 4,
-      "priorityBand": "medium",
-      "priorityReasons": [
-        "Signal: Commercial"
-      ],
-      "boardBucket": "Other Relevant"
-    },
-    {
       "id": "abd5b8b591dad2e5",
       "title": "ABS & Fleet Robotics to Bring Autonomous Robotic Systems to Maritime",
       "source": "The Maritime Executive",
@@ -2675,37 +2589,6 @@
       "boardBucket": "Regulation, Safety & Incidents"
     },
     {
-      "id": "093754f3e4e90ba4",
-      "title": "Kongsberg Maritime begins trading on Oslo Stock Exchange",
-      "source": "Kongsberg Maritime News",
-      "sourceId": "bing-kongsberg",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=69ed45163f004e75a0eda08a1b8100e8&url=https%3a%2f%2fwww.shippingherald.com%2fkongsberg-maritime-begins-trading-on-oslo-stock-exchange%2f&c=14629483978363247787&mkt=en-us",
-      "publishedAt": "2026-04-24T00:19:00Z",
-      "excerpt": "Kongsberg Maritime ASA, a global leader in maritime technology, begins trading on Euronext Oslo Stock Exchange under the ticker symbol KMAR. The company has been spun off from Kongsberg Gruppen ASA.",
-      "tags": [
-        "Technology",
-        "Supplier"
-      ],
-      "audience": "Both",
-      "paywalled": false,
-      "entities": [
-        {
-          "name": "Kongsberg Maritime",
-          "category": "suppliers"
-        }
-      ],
-      "locations": [],
-      "businessTags": [
-        "Supplier"
-      ],
-      "priorityScore": 4,
-      "priorityBand": "medium",
-      "priorityReasons": [
-        "Supplier mention: Kongsberg Maritime"
-      ],
-      "boardBucket": "Other Relevant"
-    },
-    {
       "id": "dc7acc85a3893ce2",
       "title": "Paying the Piper",
       "source": "The Maritime Executive",
@@ -2765,6 +2648,37 @@
       "boardBucket": "Other Relevant"
     },
     {
+      "id": "6af275ba71760778",
+      "title": "Kongsberg Maritime Begins Trading on the Oslo Stock Exchange",
+      "source": "Kongsberg Maritime News",
+      "sourceId": "bing-kongsberg",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=69ed4fc2bb1e4598b2b208d0d332c1e1&url=https%3a%2f%2fwww.marinelink.com%2fnews%2fkongsberg-maritime-begins-trading-oslo-538424&c=15974813936108799403&mkt=en-us",
+      "publishedAt": "2026-04-23T14:52:00Z",
+      "excerpt": "Kongsberg Maritime ASA, a global leader in maritime technology, began trading on Euronext Oslo Stock Exchange on April 23 under the ticker symbol KMAR.",
+      "tags": [
+        "Technology",
+        "Supplier"
+      ],
+      "audience": "Both",
+      "paywalled": false,
+      "entities": [
+        {
+          "name": "Kongsberg Maritime",
+          "category": "suppliers"
+        }
+      ],
+      "locations": [],
+      "businessTags": [
+        "Supplier"
+      ],
+      "priorityScore": 4,
+      "priorityBand": "medium",
+      "priorityReasons": [
+        "Supplier mention: Kongsberg Maritime"
+      ],
+      "boardBucket": "Other Relevant"
+    },
+    {
       "id": "3144d286e74c30e4",
       "title": "Marine engineers offer 'solution to unite the industry' on climate regulation debate",
       "source": "Riviera: Regulations & Compliance",
@@ -2791,11 +2705,11 @@
       "boardBucket": "Regulation, Safety & Incidents"
     },
     {
-      "id": "1503e0ee193de777",
+      "id": "35d945989a9b9973",
       "title": "Kongsberg Maritime shares begin trading in Oslo after parent spin-off",
       "source": "Kongsberg Maritime News",
       "sourceId": "bing-kongsberg",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=69ed45163f004e75a0eda08a1b8100e8&url=https%3a%2f%2fwww.tradewindsnews.com%2ftechnology%2fkongsberg-maritime-shares-begin-trading-in-oslo-after-parent-spin-off%2f2-1-1978439&c=3776947611517546205&mkt=en-us",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=69ed4fc2bb1e4598b2b208d0d332c1e1&url=https%3a%2f%2fwww.tradewindsnews.com%2ftechnology%2fkongsberg-maritime-shares-begin-trading-in-oslo-after-parent-spin-off%2f2-1-1978439&c=3776947611517546205&mkt=en-us",
       "publishedAt": "2026-04-23T02:01:00Z",
       "excerpt": "A new pure-play maritime technology company is set to hit the public markets, as Kongsberg Maritime begins trading today on the Oslo Stock Exchange after its spin-off from Kongsberg Gruppen. The ...",
       "tags": [
@@ -3024,6 +2938,38 @@
       "boardBucket": "Other Relevant"
     },
     {
+      "id": "a1e51dd8eec60432",
+      "title": "Indian Navy to equip 6 stealth corvettes with Kongsberg Kamewa",
+      "source": "Kongsberg Maritime News",
+      "sourceId": "bing-kongsberg",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=69ed4fc2bb1e4598b2b208d0d332c1e1&url=https%3a%2f%2fwww.newsbytesapp.com%2fnews%2findia%2findian-navy-to-equip-6-stealth-corvettes-with-kongsberg-kamewa%2ftldr&c=14647400517899959803&mkt=en-us",
+      "publishedAt": "2026-04-13T23:57:00Z",
+      "excerpt": "Kongsberg Maritime will supply 18 advanced Kamewa waterjet propulsion systems to the Indian Navy, enhancing speed and stealth capabilities of their next-gen missile vessels.",
+      "tags": [
+        "Clean Propulsion",
+        "Technology",
+        "Supplier"
+      ],
+      "audience": "Both",
+      "paywalled": false,
+      "entities": [
+        {
+          "name": "Kongsberg Maritime",
+          "category": "suppliers"
+        }
+      ],
+      "locations": [],
+      "businessTags": [
+        "Supplier"
+      ],
+      "priorityScore": 4,
+      "priorityBand": "medium",
+      "priorityReasons": [
+        "Supplier mention: Kongsberg Maritime"
+      ],
+      "boardBucket": "Other Relevant"
+    },
+    {
       "id": "aded5adbab5512b6",
       "title": "Ocean7 Ranger kickstarts Duluth\u2019s 2026 navigation season - Heavy Lift & Project Forwarding International",
       "source": "Sarens News",
@@ -3049,11 +2995,11 @@
       "boardBucket": "Other Relevant"
     },
     {
-      "id": "bdc0c505c24f3a51",
+      "id": "6c2a90e86747bdf2",
       "title": "Indian Navy selects Kongsberg waterjets for NGMV fleet propulsion",
       "source": "Kongsberg Maritime News",
       "sourceId": "bing-kongsberg",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=69ed45163f004e75a0eda08a1b8100e8&url=https%3a%2f%2fwww.msn.com%2fen-us%2fmoney%2fother%2findian-navy-selects-kongsberg-waterjets-for-ngmv-fleet-propulsion%2far-AA20C6ox&c=12293673536723939590&mkt=en-us",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=69ed4fc2bb1e4598b2b208d0d332c1e1&url=https%3a%2f%2fwww.msn.com%2fen-us%2fmoney%2fother%2findian-navy-selects-kongsberg-waterjets-for-ngmv-fleet-propulsion%2far-AA20C6ox&c=12293673536723939590&mkt=en-us",
       "publishedAt": "2026-04-10T08:47:04Z",
       "excerpt": "The next generations missile vessels are being constructed at Cochin Shipyard in India.",
       "tags": [
@@ -3689,50 +3635,6 @@
         "Incidents",
         "Maritime",
         "News"
-      ],
-      "audience": "Multraship",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [],
-      "priorityScore": 2,
-      "priorityBand": "low",
-      "priorityReasons": [],
-      "boardBucket": "Other Relevant"
-    },
-    {
-      "id": "97a9a358d0feadcb",
-      "title": "Beleaguered Iran says it will not accept \"maximalist\" US demands as Pakistan pursues peace",
-      "source": "Baird Maritime",
-      "sourceId": "baird-maritime",
-      "url": "https://www.bairdmaritime.com/security/beleaguered-iran-says-it-will-not-accept-maximalist-us-demands-as-pakistan-pursues-peace",
-      "publishedAt": "2026-04-25T19:19:08Z",
-      "excerpt": "Iranian Foreign Minister Abbas Araqchi laid out the Iranian regime's demands and its reservations about US positions on Saturday as Pakistan made a new push to end a war that has shaken global energy markets. After holding talks with Prime\u2026",
-      "tags": [
-        "Workboats",
-        "Technology"
-      ],
-      "audience": "Multraship",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [],
-      "priorityScore": 2,
-      "priorityBand": "low",
-      "priorityReasons": [],
-      "boardBucket": "Other Relevant"
-    },
-    {
-      "id": "b1022b482d356265",
-      "title": "VIDEO | US military strikes narco boat in Eastern Pacific, killing two",
-      "source": "Baird Maritime",
-      "sourceId": "baird-maritime",
-      "url": "https://www.bairdmaritime.com/security/incidents/piracy/video-us-military-strikes-narco-boat-in-eastern-pacific-killing-two",
-      "publishedAt": "2026-04-25T19:12:09Z",
-      "excerpt": "The US military said on Friday it struck a vessel in the Eastern Pacific, killing two people, in the latest such attack targeting narco-terrorists. The US Southern Command alleged that the vessel struck on Friday was operated by designated\u2026",
-      "tags": [
-        "Workboats",
-        "Technology"
       ],
       "audience": "Multraship",
       "paywalled": false,
@@ -5018,6 +4920,94 @@
       "locations": [],
       "businessTags": [],
       "priorityScore": 2,
+      "priorityBand": "low",
+      "priorityReasons": [],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "2f1593e04c3967b9",
+      "title": "Sailings cancelled as passenger ferry crashes into St Helier Harbour | ITV News - ITVX",
+      "source": "DFDS News",
+      "sourceId": "bing-dfds",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQUTdLeV95cVZuRHRhMFBMUHJETGZIU3hMbWtzaUJEUWpCWFkwV3JfVllWYklNeGhJbURGTnVzdWpwYVgyTlVfZ0w1X0hfa3Z2dFZ3dUFwY05rSTRVb1JvSGVfU095Vmx1bWpweElnSExMMVJDaUQ4UkRqbTJhWEpHVUp0Q2VfT1NVZHNjaXRR?oc=5",
+      "publishedAt": "2026-03-30T07:00:00Z",
+      "excerpt": "Sailings cancelled as passenger ferry crashes into St Helier Harbour | ITV News ITVX",
+      "tags": [
+        "Ferry",
+        "Shipping"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [],
+      "priorityScore": 2,
+      "priorityBand": "low",
+      "priorityReasons": [],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "041f23eeb0f090b4",
+      "title": "Poland\u2019s Orlen adds two LNG carriers to fleet",
+      "source": "Riviera: Ports & Terminals",
+      "sourceId": "riviera-ports",
+      "url": "https://www.rivieramm.com/news-content-hub/polands-orlen-adds-two-lng-carriers-to-fleet-88233",
+      "publishedAt": "2026-03-30T06:00:00Z",
+      "excerpt": "Polish company has named two LNG carriers in South Korea, taking its fleet to eight ships and expanding its LNG transport capacity",
+      "tags": [
+        "Ports",
+        "Terminals"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [],
+      "priorityScore": 2,
+      "priorityBand": "low",
+      "priorityReasons": [],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "6ca83db3fb987f91",
+      "title": "Government provides up to \u00a364M for Port Talbot floating wind hub",
+      "source": "Riviera: Ports & Terminals",
+      "sourceId": "riviera-ports",
+      "url": "https://www.rivieramm.com/news-content-hub/government-provides-up-to-64m-for-port-talbot-floating-wind-hub-88297",
+      "publishedAt": "2026-03-27T12:26:35Z",
+      "excerpt": "Funding will enable development of first port in the Celtic Sea that will support floating offshore wind",
+      "tags": [
+        "Ports",
+        "Terminals"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [],
+      "priorityScore": 2,
+      "priorityBand": "low",
+      "priorityReasons": [],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "b3305f839db7ba97",
+      "title": "Disney and Port of San Diego Extend Homeport Through At Least 2031",
+      "source": "The Maritime Executive",
+      "sourceId": "maritime-executive",
+      "url": "https://maritime-executive.com/article/disney-and-port-of-san-diego-extend-homeport-through-at-least-2031",
+      "publishedAt": "2026-04-25T18:51:56Z",
+      "excerpt": "Disney Cruise Line and the Port of San Diego today announced a new agreement through at least 2031, which will approximately double the number of Disn...",
+      "tags": [
+        "Maritime",
+        "News"
+      ],
+      "audience": "Both",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [],
+      "priorityScore": 1,
       "priorityBand": "low",
       "priorityReasons": [],
       "boardBucket": "Other Relevant"
