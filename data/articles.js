@@ -1,7 +1,7 @@
 window.__DASHBOARD_DATA__ = {
-  "generatedAt": "2026-04-25T12:59:10.656844Z",
+  "generatedAt": "2026-04-25T14:05:22.200682Z",
   "lookbackDays": 30,
-  "cutoffAt": "2026-03-26T12:59:10.656844Z",
+  "cutoffAt": "2026-03-26T14:05:22.200682Z",
   "articleCount": 180,
   "sourceCount": 100,
   "sources": [
@@ -28,7 +28,6 @@ window.__DASHBOARD_DATA__ = {
     "Svitzer News",
     "The Maritime Executive",
     "Ultrabulk News",
-    "Van Oord News",
     "W\u00e4rtsil\u00e4 News",
     "gCaptain"
   ],
@@ -300,6 +299,40 @@ window.__DASHBOARD_DATA__ = {
         "Signal: Regulation",
         "Signal: Infrastructure",
         "Signal: Energy Transition"
+      ],
+      "boardBucket": "High Priority"
+    },
+    {
+      "id": "1f55eef44b12ce52",
+      "title": "DFDS makes changes \"to support travel arrangements over the Easter weekend\" following fast ferry incident - Jersey Evening Post",
+      "source": "DFDS News",
+      "sourceId": "bing-dfds",
+      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPbVVEc1NSeFVPVnBqcXJUOHR2cWZlQnN0LV82R0xpM2lfbjBrQ3g2TnZIMzdxaDlqZDRMd05DSi1fMnZmZVpvbllwUTh0NmRGTjN3OVNzckJ1THhmcDNCMlI5Ykl6dGt6dHFpX3BRcjRpUDhTVWZBY3ByS3A0bnh2N2dOdldMUjcyLXhrYTJVU01FMWgtZWs1cFNlSDRfbnNOeHd4TnY5V1Z1c29zbndHeG1wTEZEblNIQnB2SEc3UmU1RDNUWkJaLUxabWQ3ZG50bHBXWWRUSGxhU0dvTERyRnFiNXY?oc=5",
+      "publishedAt": "2026-04-01T07:00:00Z",
+      "excerpt": "DFDS makes changes \"to support travel arrangements over the Easter weekend\" following fast ferry incident Jersey Evening Post",
+      "tags": [
+        "Incidents",
+        "Ferry",
+        "Shipping"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [
+        {
+          "name": "DFDS",
+          "category": "clients"
+        }
+      ],
+      "locations": [],
+      "businessTags": [
+        "Client",
+        "Incident"
+      ],
+      "priorityScore": 10,
+      "priorityBand": "high",
+      "priorityReasons": [
+        "Client mention: DFDS",
+        "Signal: Incident"
       ],
       "boardBucket": "High Priority"
     },
@@ -1198,37 +1231,6 @@ window.__DASHBOARD_DATA__ = {
       "boardBucket": "Clients & Projects"
     },
     {
-      "id": "aa3428c26ff33669",
-      "title": "Van Oord Installs Monopiles with VibroJet in the North Sea - Inspenet",
-      "source": "Van Oord News",
-      "sourceId": "bing-van-oord",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPaldvd3BidEJkcmV1dnZzeXNkckZKNm1kWEtyOHRWTjVfdDFsYUpQZEI5Zl9iQkZLbHByOXk0dnhLcjdJWEpMekZoa3REMDNETzFSMTAwcV9jNXBGNzg3b0IyYTVZbUY3VGgwMUNHdk83SVBGbXlKYldsRmxlcUFFT0lva0k?oc=5",
-      "publishedAt": "2026-04-17T13:42:00Z",
-      "excerpt": "Van Oord Installs Monopiles with VibroJet in the North Sea Inspenet",
-      "tags": [
-        "Offshore",
-        "Dredging"
-      ],
-      "audience": "Multraship",
-      "paywalled": false,
-      "entities": [
-        {
-          "name": "Van Oord",
-          "category": "clients"
-        }
-      ],
-      "locations": [],
-      "businessTags": [
-        "Client"
-      ],
-      "priorityScore": 6,
-      "priorityBand": "medium",
-      "priorityReasons": [
-        "Client mention: Van Oord"
-      ],
-      "boardBucket": "Clients & Projects"
-    },
-    {
       "id": "9e8d36fc1f002e66",
       "title": "W\u00e4rtsil\u00e4\u2019s 34SG engine makes its data center debut with new 412 MW U.S. project - W\u00e4rtsil\u00e4",
       "source": "W\u00e4rtsil\u00e4 News",
@@ -1669,6 +1671,37 @@ window.__DASHBOARD_DATA__ = {
         "Competitor mention: Boluda Towage"
       ],
       "boardBucket": "Competitors & Market"
+    },
+    {
+      "id": "746f80d8e93299ac",
+      "title": "DFDS hopes to progress in Jersey after challenging first year - BBC",
+      "source": "DFDS News",
+      "sourceId": "bing-dfds",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9wclVlNkQ4Z014TnRsbHdpWHhiaHcxOUhLeHJaaW11MmwzY01zMjBwRGFES0dqeUFRcnZhUjVTU2xGYW5OWDNMd2gyOXNRb0lrZWhoQW9xaHJISDZR?oc=5",
+      "publishedAt": "2026-03-27T07:00:00Z",
+      "excerpt": "DFDS hopes to progress in Jersey after challenging first year BBC",
+      "tags": [
+        "Ferry",
+        "Shipping"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [
+        {
+          "name": "DFDS",
+          "category": "clients"
+        }
+      ],
+      "locations": [],
+      "businessTags": [
+        "Client"
+      ],
+      "priorityScore": 6,
+      "priorityBand": "medium",
+      "priorityReasons": [
+        "Client mention: DFDS"
+      ],
+      "boardBucket": "Clients & Projects"
     },
     {
       "id": "dae174e47e7c3f8c",
@@ -3002,6 +3035,37 @@ window.__DASHBOARD_DATA__ = {
       "boardBucket": "Other Relevant"
     },
     {
+      "id": "32b074ce363b9924",
+      "title": "Long-term W\u00e4rtsil\u00e4 Lifecycle Agreement supports Margaritaville at Sea\u2019s commitment to excellence, reliability, and operational performance - W\u00e4rtsil\u00e4",
+      "source": "W\u00e4rtsil\u00e4 News",
+      "sourceId": "bing-wartsila",
+      "url": "https://news.google.com/rss/articles/CBMimwJBVV95cUxOd3N6N3hUMFN3WU1oeTZVSnBjSG5CaXA5MEI5RV82X3VtU05oUVRBNnJqMTlzYmZoN0c2S05QMzlDUVBTWHBycHdmei1UTGRsN2dyU0tsTDcxRGthZl95clZ4NVFMVzJ1R0tWUGZuRkZubEY5SWZIT3NxR0JNWFREdmJRVExNQ1MzUWpDUXNkdndkMUpGb2F5VjhLVG5TbUxLaXc3Ymw4eVM1NnF6SG5HZ0ZIcnVpX2psbHZKSnJkUXFzeUdvZ3hSUXFDNWtpYkViYW1NRXlQWHRlTjg5VTFjMHZpdnFxakh6a0MzQ1c4LWFIR0wxUENJNXVjNzlSMmVzMWhMTU1BQUpYV1g4OHpuVG1jSEo4T1hmVFJz?oc=5",
+      "publishedAt": "2026-04-08T07:00:00Z",
+      "excerpt": "Long-term W\u00e4rtsil\u00e4 Lifecycle Agreement supports Margaritaville at Sea\u2019s commitment to excellence, reliability, and operational performance W\u00e4rtsil\u00e4",
+      "tags": [
+        "Propulsion",
+        "Technology"
+      ],
+      "audience": "Both",
+      "paywalled": false,
+      "entities": [
+        {
+          "name": "W\u00e4rtsil\u00e4",
+          "category": "suppliers"
+        }
+      ],
+      "locations": [],
+      "businessTags": [
+        "Supplier"
+      ],
+      "priorityScore": 4,
+      "priorityBand": "medium",
+      "priorityReasons": [
+        "Supplier mention: W\u00e4rtsil\u00e4"
+      ],
+      "boardBucket": "Other Relevant"
+    },
+    {
       "id": "dbdb2598aade432f",
       "title": "Design flexibility moves to front of shipbuilding",
       "source": "Riviera: Regulations & Compliance",
@@ -3869,27 +3933,6 @@ window.__DASHBOARD_DATA__ = {
       "boardBucket": "Other Relevant"
     },
     {
-      "id": "cfe6e4456d488e27",
-      "title": "Amels 80 NETTO II Begins North Sea Trials Ahead of Summer Delivery - Superyachts.com",
-      "source": "Damen Yachting News",
-      "sourceId": "bing-damen-yachting",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQX2d4elpHYmROX0RiZGh0dGpyOW1vM2FmVndfQzVJM3RRekgxV09DNVFIRnE1QU14VDF3bmJCNmh4UHpNbHR2eGJISW9QQUNZWklKb2w3R0tiRzlIQnJ3d3hadEkwVWxTb2hRVW1uYXJIQU1tYy1VYThuS0FXYTlKSXFVX05ETTZxYUVSQ0MzZlN4ZnJjdmJfSHlvTWs1a3JwMDJrclJRMzBCOHdQLU5jZzFB?oc=5",
-      "publishedAt": "2026-04-21T07:00:00Z",
-      "excerpt": "Amels 80 NETTO II Begins North Sea Trials Ahead of Summer Delivery Superyachts.com",
-      "tags": [
-        "Yachting"
-      ],
-      "audience": "Multraship",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [],
-      "priorityScore": 2,
-      "priorityBand": "low",
-      "priorityReasons": [],
-      "boardBucket": "Other Relevant"
-    },
-    {
       "id": "9a8b3e9f10fa4ec7",
       "title": "Crew over carbon: Dry bulk giants pivot focus to safety as volatility becomes \u2018structurally baked\u2019 - Tradewinds News",
       "source": "Oldendorff Carriers News",
@@ -4633,6 +4676,28 @@ window.__DASHBOARD_DATA__ = {
       "boardBucket": "Other Relevant"
     },
     {
+      "id": "2f1593e04c3967b9",
+      "title": "Sailings cancelled as passenger ferry crashes into St Helier Harbour | ITV News - ITVX",
+      "source": "DFDS News",
+      "sourceId": "bing-dfds",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQUTdLeV95cVZuRHRhMFBMUHJETGZIU3hMbWtzaUJEUWpCWFkwV3JfVllWYklNeGhJbURGTnVzdWpwYVgyTlVfZ0w1X0hfa3Z2dFZ3dUFwY05rSTRVb1JvSGVfU095Vmx1bWpweElnSExMMVJDaUQ4UkRqbTJhWEpHVUp0Q2VfT1NVZHNjaXRR?oc=5",
+      "publishedAt": "2026-03-30T07:00:00Z",
+      "excerpt": "Sailings cancelled as passenger ferry crashes into St Helier Harbour | ITV News ITVX",
+      "tags": [
+        "Ferry",
+        "Shipping"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [],
+      "priorityScore": 2,
+      "priorityBand": "low",
+      "priorityReasons": [],
+      "boardBucket": "Other Relevant"
+    },
+    {
       "id": "041f23eeb0f090b4",
       "title": "Poland\u2019s Orlen adds two LNG carriers to fleet",
       "source": "Riviera: Ports & Terminals",
@@ -4885,50 +4950,6 @@ window.__DASHBOARD_DATA__ = {
       "tags": [
         "Maritime",
         "News"
-      ],
-      "audience": "Both",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [],
-      "priorityScore": 1,
-      "priorityBand": "low",
-      "priorityReasons": [],
-      "boardBucket": "Other Relevant"
-    },
-    {
-      "id": "dd825bca9854c65d",
-      "title": "Coast Guard Offloads $19.3m of Illicit Drugs Seized in the Caribbean Sea",
-      "source": "MarineLink",
-      "sourceId": "marinelink",
-      "url": "https://www.marinelink.com/news/coast-guard-offloads-m-illicit-drugs-538454",
-      "publishedAt": "2026-04-24T13:25:21Z",
-      "excerpt": "U.S. Coast Guard Cutter Resolute\u2019s crew offloaded approximately 2,570 pounds of cocaine worth more than $19.3 million and transferred six suspected drug smugglers to federal authorities, Thursday, at Base Miami Beach.The seized contraband\u2026",
-      "tags": [
-        "Maritime",
-        "Industry"
-      ],
-      "audience": "Both",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [],
-      "priorityScore": 1,
-      "priorityBand": "low",
-      "priorityReasons": [],
-      "boardBucket": "Other Relevant"
-    },
-    {
-      "id": "21f6779e3cf5e3bd",
-      "title": "Helix, Hornbeck Merger to Form \u2018Premier\u2019 Offshore Services Company",
-      "source": "MarineLink",
-      "sourceId": "marinelink",
-      "url": "https://www.marinelink.com/news/helix-hornbeck-merger-form-premier-538443",
-      "publishedAt": "2026-04-24T09:10:35Z",
-      "excerpt": "Helix Energy Solutions and Hornbeck Offshore Services have agreed to combine in an all-stock transaction to create an integrated offshore services company.Under the agreement, Hornbeck shareholders will own about 55% of the combined compan\u2026",
-      "tags": [
-        "Maritime",
-        "Industry"
       ],
       "audience": "Both",
       "paywalled": false,
