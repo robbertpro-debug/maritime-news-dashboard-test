@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-04-25T07:11:16.707965Z",
+  "generatedAt": "2026-04-25T08:30:29.107032Z",
   "lookbackDays": 30,
-  "cutoffAt": "2026-03-26T07:11:16.707965Z",
+  "cutoffAt": "2026-03-26T08:30:29.107032Z",
   "articleCount": 180,
   "sourceCount": 100,
   "sources": [
@@ -14,6 +14,7 @@
     "Inchcape Shipping Services News",
     "Maersk Tankers News",
     "MarineLink",
+    "Mesh Maritime News",
     "Offshore Energy",
     "Oldendorff Carriers News",
     "Rigzone",
@@ -82,6 +83,10 @@
     },
     {
       "source": "DEME Group News",
+      "message": "not well-formed (invalid token): line 1, column 41"
+    },
+    {
+      "source": "Ovet Shipping News",
       "message": "not well-formed (invalid token): line 1, column 41"
     }
   ],
@@ -1793,37 +1798,6 @@
       "boardBucket": "Clients & Projects"
     },
     {
-      "id": "6157265897bb6fe9",
-      "title": "Van Oord's profits more than doubled in strong operational year - Baird Maritime",
-      "source": "Van Oord News",
-      "sourceId": "bing-van-oord",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQVjh3U0hoU24xUlpXY3ZOR0xKUkhsUmc4bUtNbHpDaFdtMk9qWUxaU2tLNW9iMG8ycFZTUElTVWZ1N0VWdVIyZEpFclBNNlpYMjRZUjdwVllSNGZhZHE4aDVvVkdzU09BM0xOSkJOWHRSX3NMOVlsUkxBZ2VQRWNYNWNXbkhVU3Y1SWRlSDVpaGZtQ0ljT0Qtd2FTM0dwazhnUENiYXVVeGUxa29pNTViZjZwLXJQRXpZ?oc=5",
-      "publishedAt": "2026-03-26T08:19:47Z",
-      "excerpt": "Van Oord's profits more than doubled in strong operational year Baird Maritime",
-      "tags": [
-        "Offshore",
-        "Dredging"
-      ],
-      "audience": "Multraship",
-      "paywalled": false,
-      "entities": [
-        {
-          "name": "Van Oord",
-          "category": "clients"
-        }
-      ],
-      "locations": [],
-      "businessTags": [
-        "Client"
-      ],
-      "priorityScore": 6,
-      "priorityBand": "medium",
-      "priorityReasons": [
-        "Client mention: Van Oord"
-      ],
-      "boardBucket": "Clients & Projects"
-    },
-    {
       "id": "dae174e47e7c3f8c",
       "title": "Damen agrees TSHD build for Associated British Ports - Maritime Journal",
       "source": "Damen Shipyards News",
@@ -3189,37 +3163,6 @@
       "boardBucket": "Other Relevant"
     },
     {
-      "id": "d36d2351cbafb28a",
-      "title": "Long-term W\u00e4rtsil\u00e4 Lifecycle Agreement supports Margaritaville at Sea\u2019s commitment to excellence, reliability, and operational performance - Cision News",
-      "source": "W\u00e4rtsil\u00e4 News",
-      "sourceId": "bing-wartsila",
-      "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPclcxZWEtVEZzOFJaVFhWVGdESmt2REl1MWNtTmxQUUpwVlptRF83Tl9RbGFlb2NEdXBtclBYWmF0a2lHTUFGcFh3TXByMjZ1d1V3SUNGRGE0OGtWWl9NckZhSy1nSWU3ZldKWWpqXzJLMldtSVo0TzN5bTFrcTBKRktOM1l0bXV1dDBpbUQ0X1dVRWt2QUgxa0dNVVFDLTR2dlNOeklHbnJONGF2dmVjMjBZVWo4R19qUWhEYl84bktQVzJNWVR4QUFIRU5lUEJlNXNxbHJlVVBrZ3gybHZVdjlBVkdLU0ZIRDdFRg?oc=5",
-      "publishedAt": "2026-04-08T07:00:00Z",
-      "excerpt": "Long-term W\u00e4rtsil\u00e4 Lifecycle Agreement supports Margaritaville at Sea\u2019s commitment to excellence, reliability, and operational performance Cision News",
-      "tags": [
-        "Propulsion",
-        "Technology"
-      ],
-      "audience": "Both",
-      "paywalled": false,
-      "entities": [
-        {
-          "name": "W\u00e4rtsil\u00e4",
-          "category": "suppliers"
-        }
-      ],
-      "locations": [],
-      "businessTags": [
-        "Supplier"
-      ],
-      "priorityScore": 4,
-      "priorityBand": "medium",
-      "priorityReasons": [
-        "Supplier mention: W\u00e4rtsil\u00e4"
-      ],
-      "boardBucket": "Other Relevant"
-    },
-    {
       "id": "dbdb2598aade432f",
       "title": "Design flexibility moves to front of shipbuilding",
       "source": "Riviera: Regulations & Compliance",
@@ -4175,16 +4118,16 @@
       "boardBucket": "Other Relevant"
     },
     {
-      "id": "545c144062d67f40",
-      "title": "Tramped cruise ships flee through Strait of Hormuz",
-      "source": "Riviera: Safety & Incidents",
-      "sourceId": "riviera-safety",
-      "url": "https://www.rivieramm.com/news-content-hub/tramped-cruise-ships-flee-through-strait-of-hormuz-88520",
-      "publishedAt": "2026-04-21T10:05:56Z",
-      "excerpt": "Five cruise ships sail through the Strait of Hormuz, fleeing the Persian Gulf for repositioning for new sailings in Europe",
+      "id": "3107bbd2526b0500",
+      "title": "Global Shipping Reforms Cast Shadow Over Tanzania\u2019s Fishing Communities - Global Issues.org",
+      "source": "Mesh Maritime News",
+      "sourceId": "bing-mesh-maritime",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBnWWx4TmN0NDl6ckM4Y2lEemtIajNWNm5icDM2VWtLRFFuSDZ3MzRiekZJSUVkRnF3QkVzWlEwSTFvQnRCc0tQMFdONGRBUlpPRlNxQno3aEdJSEdVUmtN0gFkQVVfeXFMTlN0OU9iTktrLU9KbFJwTkZZX0MyYlVFbVBaMUZETFY0aGUxNy05bk54bktZWVdNQUl3ZlFDaTNNV2c0VzVqS3EyTjloZGhXV3JoNDMxa0N0WXhVV0pzcHh1NnBzYg?oc=5",
+      "publishedAt": "2026-04-22T07:16:04Z",
+      "excerpt": "Global Shipping Reforms Cast Shadow Over Tanzania\u2019s Fishing Communities Global Issues.org",
       "tags": [
-        "Safety",
-        "Incidents"
+        "Maritime",
+        "Supplier"
       ],
       "audience": "Multraship",
       "paywalled": false,
@@ -4197,15 +4140,16 @@
       "boardBucket": "Other Relevant"
     },
     {
-      "id": "cfe6e4456d488e27",
-      "title": "Amels 80 NETTO II Begins North Sea Trials Ahead of Summer Delivery - Superyachts.com",
-      "source": "Damen Yachting News",
-      "sourceId": "bing-damen-yachting",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQX2d4elpHYmROX0RiZGh0dGpyOW1vM2FmVndfQzVJM3RRekgxV09DNVFIRnE1QU14VDF3bmJCNmh4UHpNbHR2eGJISW9QQUNZWklKb2w3R0tiRzlIQnJ3d3hadEkwVWxTb2hRVW1uYXJIQU1tYy1VYThuS0FXYTlKSXFVX05ETTZxYUVSQ0MzZlN4ZnJjdmJfSHlvTWs1a3JwMDJrclJRMzBCOHdQLU5jZzFB?oc=5",
-      "publishedAt": "2026-04-21T07:00:00Z",
-      "excerpt": "Amels 80 NETTO II Begins North Sea Trials Ahead of Summer Delivery Superyachts.com",
+      "id": "545c144062d67f40",
+      "title": "Tramped cruise ships flee through Strait of Hormuz",
+      "source": "Riviera: Safety & Incidents",
+      "sourceId": "riviera-safety",
+      "url": "https://www.rivieramm.com/news-content-hub/tramped-cruise-ships-flee-through-strait-of-hormuz-88520",
+      "publishedAt": "2026-04-21T10:05:56Z",
+      "excerpt": "Five cruise ships sail through the Strait of Hormuz, fleeing the Persian Gulf for repositioning for new sailings in Europe",
       "tags": [
-        "Yachting"
+        "Safety",
+        "Incidents"
       ],
       "audience": "Multraship",
       "paywalled": false,
@@ -5021,6 +4965,50 @@
       "locations": [],
       "businessTags": [],
       "priorityScore": 2,
+      "priorityBand": "low",
+      "priorityReasons": [],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "b3305f839db7ba97",
+      "title": "Disney and Port of San Diego Extend Homeport Through At Least 2031",
+      "source": "The Maritime Executive",
+      "sourceId": "maritime-executive",
+      "url": "https://maritime-executive.com/article/disney-and-port-of-san-diego-extend-homeport-through-at-least-2031",
+      "publishedAt": "2026-04-25T00:51:56Z",
+      "excerpt": "Disney Cruise Line and the Port of San Diego today announced a new agreement through at least 2031, which will approximately double the number of Disn...",
+      "tags": [
+        "Maritime",
+        "News"
+      ],
+      "audience": "Both",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [],
+      "priorityScore": 1,
+      "priorityBand": "low",
+      "priorityReasons": [],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "40b2b628f96349a4",
+      "title": "The Maritime Executive's Annual Energy Edition is Now Available Online",
+      "source": "The Maritime Executive",
+      "sourceId": "maritime-executive",
+      "url": "https://maritime-executive.com/article/the-maritime-executive-s-annual-energy-edition-is-now-available-online",
+      "publishedAt": "2026-04-25T00:29:38Z",
+      "excerpt": "\u201cStrait Outa Compton\"That's the witty title of View From the E.U. columnist Erik Kravets' tongue-in-cheek comparison of N.W.A's hip-hop hit from 198...",
+      "tags": [
+        "Maritime",
+        "News"
+      ],
+      "audience": "Both",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [],
+      "priorityScore": 1,
       "priorityBand": "low",
       "priorityReasons": [],
       "boardBucket": "Other Relevant"
