@@ -1,15 +1,16 @@
 {
-  "generatedAt": "2026-04-25T00:03:39.710689Z",
+  "generatedAt": "2026-04-25T03:38:52.208854Z",
   "lookbackDays": 30,
-  "cutoffAt": "2026-03-26T00:03:39.710689Z",
+  "cutoffAt": "2026-03-26T03:38:52.208854Z",
   "articleCount": 180,
   "sourceCount": 100,
   "sources": [
     "Africa Ports & Ships",
-    "Baird Maritime",
     "Boskalis News",
+    "DEME Group News",
     "DFDS News",
     "Damen Shipyards News",
+    "Damen Yachting News",
     "Hellenic Shipping News",
     "Inchcape Shipping Services News",
     "Maersk Tankers News",
@@ -29,6 +30,7 @@
     "Svitzer News",
     "The Maritime Executive",
     "Ultrabulk News",
+    "Van Oord News",
     "W\u00e4rtsil\u00e4 News",
     "Yara International News",
     "gCaptain"
@@ -53,6 +55,7 @@
     "Heavy-Lift",
     "Incidents",
     "Industry",
+    "Marine-Construction",
     "Maritime",
     "Markets",
     "Netherlands",
@@ -73,7 +76,7 @@
     "Technology",
     "Terminals",
     "Towage",
-    "Workboats"
+    "Yachting"
   ],
   "locations": [
     "Rotterdam"
@@ -84,7 +87,7 @@
       "message": "not well-formed (invalid token): line 1, column 41"
     },
     {
-      "source": "DEME Group News",
+      "source": "Ovet Shipping News",
       "message": "not well-formed (invalid token): line 1, column 41"
     }
   ],
@@ -334,35 +337,6 @@
       "boardBucket": "High Priority"
     },
     {
-      "id": "2968d799063fc5bc",
-      "title": "Fire at Russian Black Sea port finally put out days after Ukraine drone attack",
-      "source": "Baird Maritime",
-      "sourceId": "baird-maritime",
-      "url": "https://www.bairdmaritime.com/shipping/ports/fire-at-russian-black-sea-port-finally-put-out-days-after-ukraine-drone-attack",
-      "publishedAt": "2026-04-24T19:57:32Z",
-      "excerpt": "A fire at Russia's Black Sea port of Tuapse has been extinguished, local authorities said on Friday, days after it broke out following a Ukrainian drone attack on April 20. \"The fire at the maritime terminal in Tuapse has been completely e\u2026",
-      "tags": [
-        "Incidents",
-        "Workboats",
-        "Technology"
-      ],
-      "audience": "Multraship",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [
-        "Incident",
-        "Infrastructure"
-      ],
-      "priorityScore": 9,
-      "priorityBand": "high",
-      "priorityReasons": [
-        "Signal: Incident",
-        "Signal: Infrastructure"
-      ],
-      "boardBucket": "High Priority"
-    },
-    {
       "id": "e4ece92e3365362a",
       "title": "IMO\u2019s MEPC 84 Opens as Key Test for Delayed Shipping Climate Pact",
       "source": "gCaptain",
@@ -544,6 +518,38 @@
         "Signal: Regulation"
       ],
       "boardBucket": "Regulation, Safety & Incidents"
+    },
+    {
+      "id": "669c13b4e53c9e10",
+      "title": "Sarens\u2019 ACBT role highlights Canada\u2019s offshore wind potential - Heavy Lift & Project Forwarding International",
+      "source": "Sarens News",
+      "sourceId": "bing-sarens",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPQXkzblFpaVJIOW9ERVZLTXZkLTc1Sy1jcjBRTzhRVzdENElFVHdId3JvbEJFZm9XVUV5X0V1ZTRGbFkwYUNXalpkaEk5SlJ5MUswaWJ3ZVlvQlRqNlRwWFFpeWtVUV93SWlETkpSc1BBZWlZcGhQbHN1bm95YVZ1aXJqaFlORTZ1Z2tPdTlERkYxb0dzYmZaU0RCU1g3SGFIZVVwUUJuLTYzaDA2Qmc?oc=5",
+      "publishedAt": "2026-04-23T10:32:59Z",
+      "excerpt": "Sarens\u2019 ACBT role highlights Canada\u2019s offshore wind potential Heavy Lift & Project Forwarding International",
+      "tags": [
+        "Heavy-Lift"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [
+        {
+          "name": "Sarens",
+          "category": "clients"
+        }
+      ],
+      "locations": [],
+      "businessTags": [
+        "Client",
+        "Commercial"
+      ],
+      "priorityScore": 8,
+      "priorityBand": "medium",
+      "priorityReasons": [
+        "Client mention: Sarens",
+        "Signal: Commercial"
+      ],
+      "boardBucket": "Clients & Projects"
     },
     {
       "id": "7287d0d2b602edcf",
@@ -1103,40 +1109,6 @@
       "boardBucket": "Regulation, Safety & Incidents"
     },
     {
-      "id": "3a11a17e44d50559",
-      "title": "W\u00e4rtsil\u00e4 Gas Solutions to Provide Cargo Handling, Fuel Gas Supply for Two Ammonia Carriers - Marine News Magazine",
-      "source": "W\u00e4rtsil\u00e4 News",
-      "sourceId": "bing-wartsila",
-      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9MeFpYYzJYd0tZWmpDRGxxQ3BRZUJGdWtqcGtSMnRNNEpKNDdkT2xiOTUtLU9qMzlrcGRyQnJSanM3U3kzbUduNS1sOF9pOFQ0U0lOaE5nX2JzZkY5MkZFUUZ0aExSa29vMGt3LTN1ZVdjdmFJR09TTnBCS2xNUQ?oc=5",
-      "publishedAt": "2026-04-22T13:19:50Z",
-      "excerpt": "W\u00e4rtsil\u00e4 Gas Solutions to Provide Cargo Handling, Fuel Gas Supply for Two Ammonia Carriers Marine News Magazine",
-      "tags": [
-        "Clean Propulsion",
-        "Propulsion",
-        "Technology"
-      ],
-      "audience": "Both",
-      "paywalled": false,
-      "entities": [
-        {
-          "name": "W\u00e4rtsil\u00e4",
-          "category": "suppliers"
-        }
-      ],
-      "locations": [],
-      "businessTags": [
-        "Supplier",
-        "Energy Transition"
-      ],
-      "priorityScore": 6,
-      "priorityBand": "medium",
-      "priorityReasons": [
-        "Supplier mention: W\u00e4rtsil\u00e4",
-        "Signal: Energy Transition"
-      ],
-      "boardBucket": "Other Relevant"
-    },
-    {
       "id": "c3309570b197c81f",
       "title": "W\u00e4rtsil\u00e4 Gas Solutions Cargo Handling and Fuel Gas Supply systems selected for two new midsize liquid ammonia carriers for Navigator Gas and Amon Maritime JV - W\u00e4rtsil\u00e4",
       "source": "W\u00e4rtsil\u00e4 News",
@@ -1322,6 +1294,37 @@
       "boardBucket": "Clients & Projects"
     },
     {
+      "id": "aa3428c26ff33669",
+      "title": "Van Oord Installs Monopiles with VibroJet in the North Sea - Inspenet",
+      "source": "Van Oord News",
+      "sourceId": "bing-van-oord",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPaldvd3BidEJkcmV1dnZzeXNkckZKNm1kWEtyOHRWTjVfdDFsYUpQZEI5Zl9iQkZLbHByOXk0dnhLcjdJWEpMekZoa3REMDNETzFSMTAwcV9jNXBGNzg3b0IyYTVZbUY3VGgwMUNHdk83SVBGbXlKYldsRmxlcUFFT0lva0k?oc=5",
+      "publishedAt": "2026-04-17T13:42:00Z",
+      "excerpt": "Van Oord Installs Monopiles with VibroJet in the North Sea Inspenet",
+      "tags": [
+        "Offshore",
+        "Dredging"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [
+        {
+          "name": "Van Oord",
+          "category": "clients"
+        }
+      ],
+      "locations": [],
+      "businessTags": [
+        "Client"
+      ],
+      "priorityScore": 6,
+      "priorityBand": "medium",
+      "priorityReasons": [
+        "Client mention: Van Oord"
+      ],
+      "boardBucket": "Clients & Projects"
+    },
+    {
       "id": "127e90407a4d3364",
       "title": "Power increase for W\u00e4rtsil\u00e4 25 Ammonia engine supports more efficient ammonia\u2011fuelled vessel designs - W\u00e4rtsil\u00e4",
       "source": "W\u00e4rtsil\u00e4 News",
@@ -1418,6 +1421,37 @@
         "Competitor mention: Svitzer"
       ],
       "boardBucket": "Competitors & Market"
+    },
+    {
+      "id": "11672d3c099e7419",
+      "title": "Deme Group NV MT0",
+      "source": "DEME Group News",
+      "sourceId": "bing-deme",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=69ec37559d2e4fda9e3a0016eea0d541&url=https%3a%2f%2fwww.morningstar.com%2fstocks%2fxstu%2fmt0%2fquote&c=702618500465205373&mkt=en-us",
+      "publishedAt": "2026-04-10T05:55:00Z",
+      "excerpt": "Morningstar Quantitative Ratings for Stocks are generated using an algorithm that compares companies that are not under analyst coverage to peer companies that do receive analyst-driven ratings.",
+      "tags": [
+        "Offshore",
+        "Marine-Construction"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [
+        {
+          "name": "DEME Group",
+          "category": "clients"
+        }
+      ],
+      "locations": [],
+      "businessTags": [
+        "Client"
+      ],
+      "priorityScore": 6,
+      "priorityBand": "medium",
+      "priorityReasons": [
+        "Client mention: DEME Group"
+      ],
+      "boardBucket": "Clients & Projects"
     },
     {
       "id": "8c15e609326590e5",
@@ -1791,6 +1825,37 @@
       "priorityBand": "medium",
       "priorityReasons": [
         "Client mention: DFDS"
+      ],
+      "boardBucket": "Clients & Projects"
+    },
+    {
+      "id": "6157265897bb6fe9",
+      "title": "Van Oord's profits more than doubled in strong operational year - Baird Maritime",
+      "source": "Van Oord News",
+      "sourceId": "bing-van-oord",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQVjh3U0hoU24xUlpXY3ZOR0xKUkhsUmc4bUtNbHpDaFdtMk9qWUxaU2tLNW9iMG8ycFZTUElTVWZ1N0VWdVIyZEpFclBNNlpYMjRZUjdwVllSNGZhZHE4aDVvVkdzU09BM0xOSkJOWHRSX3NMOVlsUkxBZ2VQRWNYNWNXbkhVU3Y1SWRlSDVpaGZtQ0ljT0Qtd2FTM0dwazhnUENiYXVVeGUxa29pNTViZjZwLXJQRXpZ?oc=5",
+      "publishedAt": "2026-03-26T08:19:47Z",
+      "excerpt": "Van Oord's profits more than doubled in strong operational year Baird Maritime",
+      "tags": [
+        "Offshore",
+        "Dredging"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [
+        {
+          "name": "Van Oord",
+          "category": "clients"
+        }
+      ],
+      "locations": [],
+      "businessTags": [
+        "Client"
+      ],
+      "priorityScore": 6,
+      "priorityBand": "medium",
+      "priorityReasons": [
+        "Client mention: Van Oord"
       ],
       "boardBucket": "Clients & Projects"
     },
@@ -2388,32 +2453,6 @@
       "boardBucket": "Regulation, Safety & Incidents"
     },
     {
-      "id": "78d7f8633dba47d7",
-      "title": "Higher oil exploration spending anticipated as global supplies tighten",
-      "source": "Baird Maritime",
-      "sourceId": "baird-maritime",
-      "url": "https://www.bairdmaritime.com/offshore/exploration-development/higher-oil-exploration-spending-anticipated-as-global-supplies-tighten",
-      "publishedAt": "2026-04-24T20:23:25Z",
-      "excerpt": "Top oilfield services companies SLB and Baker Hughes said on Friday they expect higher spending on oil exploration and production, as tighter global supplies driven by the Middle East conflict highlight the need for investment, particularl\u2026",
-      "tags": [
-        "Workboats",
-        "Technology"
-      ],
-      "audience": "Multraship",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [
-        "Commercial"
-      ],
-      "priorityScore": 4,
-      "priorityBand": "medium",
-      "priorityReasons": [
-        "Signal: Commercial"
-      ],
-      "boardBucket": "Other Relevant"
-    },
-    {
       "id": "67e67251054e81a3",
       "title": "W\u00e4rtsil\u00e4 launches next-gen maritime training simulator - Chamber of Shipping",
       "source": "W\u00e4rtsil\u00e4 News",
@@ -2761,33 +2800,6 @@
         "Supplier mention: W\u00e4rtsil\u00e4"
       ],
       "boardBucket": "Other Relevant"
-    },
-    {
-      "id": "8a16fe7c9c28f8fd",
-      "title": "Port of Baltimore Gets New Grain Facility",
-      "source": "The Maritime Executive",
-      "sourceId": "maritime-executive",
-      "url": "https://maritime-executive.com/article/port-of-baltimore-gets-new-grain-facility",
-      "publishedAt": "2026-04-21T23:38:54Z",
-      "excerpt": "A new grain transloading facility at the Port of Baltimore Seagirt Marine Terminal will make it easier for Maryland farmers to get their products to...",
-      "tags": [
-        "Regulation",
-        "Maritime",
-        "News"
-      ],
-      "audience": "Both",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [
-        "Infrastructure"
-      ],
-      "priorityScore": 4,
-      "priorityBand": "medium",
-      "priorityReasons": [
-        "Signal: Infrastructure"
-      ],
-      "boardBucket": "Regulation, Safety & Incidents"
     },
     {
       "id": "37ad98210f46eb2a",
@@ -3151,6 +3163,37 @@
       "boardBucket": "Other Relevant"
     },
     {
+      "id": "d36d2351cbafb28a",
+      "title": "Long-term W\u00e4rtsil\u00e4 Lifecycle Agreement supports Margaritaville at Sea\u2019s commitment to excellence, reliability, and operational performance - Cision News",
+      "source": "W\u00e4rtsil\u00e4 News",
+      "sourceId": "bing-wartsila",
+      "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPclcxZWEtVEZzOFJaVFhWVGdESmt2REl1MWNtTmxQUUpwVlptRF83Tl9RbGFlb2NEdXBtclBYWmF0a2lHTUFGcFh3TXByMjZ1d1V3SUNGRGE0OGtWWl9NckZhSy1nSWU3ZldKWWpqXzJLMldtSVo0TzN5bTFrcTBKRktOM1l0bXV1dDBpbUQ0X1dVRWt2QUgxa0dNVVFDLTR2dlNOeklHbnJONGF2dmVjMjBZVWo4R19qUWhEYl84bktQVzJNWVR4QUFIRU5lUEJlNXNxbHJlVVBrZ3gybHZVdjlBVkdLU0ZIRDdFRg?oc=5",
+      "publishedAt": "2026-04-08T07:00:00Z",
+      "excerpt": "Long-term W\u00e4rtsil\u00e4 Lifecycle Agreement supports Margaritaville at Sea\u2019s commitment to excellence, reliability, and operational performance Cision News",
+      "tags": [
+        "Propulsion",
+        "Technology"
+      ],
+      "audience": "Both",
+      "paywalled": false,
+      "entities": [
+        {
+          "name": "W\u00e4rtsil\u00e4",
+          "category": "suppliers"
+        }
+      ],
+      "locations": [],
+      "businessTags": [
+        "Supplier"
+      ],
+      "priorityScore": 4,
+      "priorityBand": "medium",
+      "priorityReasons": [
+        "Supplier mention: W\u00e4rtsil\u00e4"
+      ],
+      "boardBucket": "Other Relevant"
+    },
+    {
       "id": "dbdb2598aade432f",
       "title": "Design flexibility moves to front of shipbuilding",
       "source": "Riviera: Regulations & Compliance",
@@ -3281,6 +3324,32 @@
       "boardBucket": "Other Relevant"
     },
     {
+      "id": "df52f97da8b302e9",
+      "title": "SINAY Boosts Maritime Intelligence Platform with MariTrace Acquisition",
+      "source": "The Maritime Executive",
+      "sourceId": "maritime-executive",
+      "url": "https://maritime-executive.com/article/sinay-boosts-maritime-intelligence-platform-with-maritrace-acquisition",
+      "publishedAt": "2026-04-24T21:38:25Z",
+      "excerpt": "Maritime intelligence specialist SINAY has acquired UK-based vessel tracking platform MariTrace, strengthening the French company's position as an int...",
+      "tags": [
+        "Maritime",
+        "News"
+      ],
+      "audience": "Both",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [
+        "Commercial"
+      ],
+      "priorityScore": 3,
+      "priorityBand": "low",
+      "priorityReasons": [
+        "Signal: Commercial"
+      ],
+      "boardBucket": "Other Relevant"
+    },
+    {
       "id": "db2b7e41b22677d4",
       "title": "Countries sideline Trump in moving forward on global shipping carbon price, at IMO technical talks",
       "source": "Hellenic Shipping News",
@@ -3369,32 +3438,6 @@
       "url": "https://splash247.com/union-maritime-expands-offshore-footprint-with-new-joint-venture/",
       "publishedAt": "2026-04-24T02:30:00Z",
       "excerpt": "Laurent Cadji-led shipowner Union Maritime has expanded its offshore presence by forming a new joint venture with Vega Maritime. According to Union Maritime, the joint venture, named Union Vega Offshore (UVO), was established to drive grow\u2026",
-      "tags": [
-        "Maritime",
-        "News"
-      ],
-      "audience": "Both",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [
-        "Commercial"
-      ],
-      "priorityScore": 3,
-      "priorityBand": "low",
-      "priorityReasons": [
-        "Signal: Commercial"
-      ],
-      "boardBucket": "Other Relevant"
-    },
-    {
-      "id": "df52f97da8b302e9",
-      "title": "SINAY Boosts Maritime Intelligence Platform with MariTrace Acquisition",
-      "source": "The Maritime Executive",
-      "sourceId": "maritime-executive",
-      "url": "https://maritime-executive.com/article/sinay-boosts-maritime-intelligence-platform-with-maritrace-acquisition",
-      "publishedAt": "2026-04-23T21:38:25Z",
-      "excerpt": "Maritime intelligence specialist SINAY has acquired UK-based vessel tracking platform MariTrace, strengthening the French company's position as an int...",
       "tags": [
         "Maritime",
         "News"
@@ -3669,72 +3712,6 @@
         "Incidents",
         "Shipping",
         "Markets"
-      ],
-      "audience": "Multraship",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [],
-      "priorityScore": 2,
-      "priorityBand": "low",
-      "priorityReasons": [],
-      "boardBucket": "Other Relevant"
-    },
-    {
-      "id": "1e5d190b6031ca93",
-      "title": "Metal fatigue caused ramp collapse at Danish ferry port",
-      "source": "Baird Maritime",
-      "sourceId": "baird-maritime",
-      "url": "https://www.bairdmaritime.com/security/incidents/accidents/metal-fatigue-caused-ramp-collapse-at-danish-ferry-port",
-      "publishedAt": "2026-04-24T20:45:49Z",
-      "excerpt": "Molslinjen has concluded its investigation into the February 9 ramp collapse at the Port of Nordby in Denmark's Fan\u00f8 Island, which forced the temporary suspension of ferry services between Esbjerg and Fan\u00f8. Technical experts and metallurgi\u2026",
-      "tags": [
-        "Workboats",
-        "Technology"
-      ],
-      "audience": "Multraship",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [],
-      "priorityScore": 2,
-      "priorityBand": "low",
-      "priorityReasons": [],
-      "boardBucket": "Other Relevant"
-    },
-    {
-      "id": "d84d13594d206463",
-      "title": "US sanctions Chinese \"teapot\" refinery for buying billions of dollars worth of Iran crude",
-      "source": "Baird Maritime",
-      "sourceId": "baird-maritime",
-      "url": "https://www.bairdmaritime.com/offshore/refining-processing/us-sanctions-chinese-teapot-refinery-for-buying-iran-crude-in-latest-crackdown",
-      "publishedAt": "2026-04-24T20:31:40Z",
-      "excerpt": "The Trump administration said on Friday it imposed sanctions on an independent \"teapot\" refinery in China for buying billions of dollars' worth of Iranian oil as Washington and Tehran struggle to restart peace talks. The Treasury Departmen\u2026",
-      "tags": [
-        "Workboats",
-        "Technology"
-      ],
-      "audience": "Multraship",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [],
-      "priorityScore": 2,
-      "priorityBand": "low",
-      "priorityReasons": [],
-      "boardBucket": "Other Relevant"
-    },
-    {
-      "id": "aacb0b62d91e0a41",
-      "title": "China Offshore Oil Engineering posts lower profit in Q1 2026",
-      "source": "Baird Maritime",
-      "sourceId": "baird-maritime",
-      "url": "https://www.bairdmaritime.com/offshore/exploration-development/offshore-construction/china-offshore-oil-engineering-posts-lower-profit-in-q1-2026",
-      "publishedAt": "2026-04-24T20:13:38Z",
-      "excerpt": "China\u2019s Offshore Oil Engineering Corporation (COOEC) reported a net profit of CNY438.4 million ($60.6 million) for the first quarter of 2026, which is an 18.94 per cent decrease from the previous year. This result followed a two per cent d\u2026",
-      "tags": [
-        "Workboats",
-        "Technology"
       ],
       "audience": "Multraship",
       "paywalled": false,
@@ -4216,17 +4193,15 @@
       "boardBucket": "Other Relevant"
     },
     {
-      "id": "9a8b3e9f10fa4ec7",
-      "title": "Crew over carbon: Dry bulk giants pivot focus to safety as volatility becomes \u2018structurally baked\u2019 - Tradewinds News",
-      "source": "Oldendorff Carriers News",
-      "sourceId": "bing-oldendorff",
-      "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQTmU3OUtuZTJkd29UbDd1UWQ4ZjRsZldMeXVudXVZLTlYSFdvNXMxd0kwWjlZQ2VRLWQ2MzNtRzhjWnNiQ0lHQ0ttWWJIZEw2azNFTUxoOGdIUFFtUlNMRXN0ZXBpTlRJQ29Vc3pJemhSWVA1Rmx2ZVBkLVl3b1RPRXR5bUw0U09mVmRnR3dGRmpWbmVKcldJWk4tT3I1Wi1FVmhia29kaUxleV8taGNIeHJzUUhEQ0NKT1J2WTB4dFJqRTFKVUxQcEhacEI4b2llYmZKekRGU24zX3NLd2F1Y3AtVDY5WTEzVWc?oc=5",
-      "publishedAt": "2026-04-21T00:58:24Z",
-      "excerpt": "Crew over carbon: Dry bulk giants pivot focus to safety as volatility becomes \u2018structurally baked\u2019 Tradewinds News",
+      "id": "cfe6e4456d488e27",
+      "title": "Amels 80 NETTO II Begins North Sea Trials Ahead of Summer Delivery - Superyachts.com",
+      "source": "Damen Yachting News",
+      "sourceId": "bing-damen-yachting",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQX2d4elpHYmROX0RiZGh0dGpyOW1vM2FmVndfQzVJM3RRekgxV09DNVFIRnE1QU14VDF3bmJCNmh4UHpNbHR2eGJISW9QQUNZWklKb2w3R0tiRzlIQnJ3d3hadEkwVWxTb2hRVW1uYXJIQU1tYy1VYThuS0FXYTlKSXFVX05ETTZxYUVSQ0MzZlN4ZnJjdmJfSHlvTWs1a3JwMDJrclJRMzBCOHdQLU5jZzFB?oc=5",
+      "publishedAt": "2026-04-21T07:00:00Z",
+      "excerpt": "Amels 80 NETTO II Begins North Sea Trials Ahead of Summer Delivery Superyachts.com",
       "tags": [
-        "Safety",
-        "Shipping",
-        "Bulk"
+        "Yachting"
       ],
       "audience": "Multraship",
       "paywalled": false,
@@ -4373,6 +4348,27 @@
       "priorityReasons": [
         "Signal: Energy Transition"
       ],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "94f8234daafdb006",
+      "title": "\"Dolphin blue\" Amels 80 superyacht Netto II on sea trials - BOAT International",
+      "source": "Damen Yachting News",
+      "sourceId": "bing-damen-yachting",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQTVpjanpKOXdmbmNhZFNFVlc5RWVEYmZORnhTWm1FZElfQUZjNl9oUHdpU1dSaXNodzgwdms5c3EzTXNrX0gzRDExOUdBY1NmZkhzcnlmRzMxQjdhTVc3Y192RGM3R1lHR0tHSG1Cem9nbTJEUkRsU0doVmJjQUxXOGl6UFdKdGtITGk0dk9rcG0?oc=5",
+      "publishedAt": "2026-04-17T07:00:00Z",
+      "excerpt": "\"Dolphin blue\" Amels 80 superyacht Netto II on sea trials BOAT International",
+      "tags": [
+        "Yachting"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [],
+      "priorityScore": 2,
+      "priorityBand": "low",
+      "priorityReasons": [],
       "boardBucket": "Other Relevant"
     },
     {
@@ -4926,6 +4922,27 @@
       "tags": [
         "Ports",
         "Terminals"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [],
+      "priorityScore": 2,
+      "priorityBand": "low",
+      "priorityReasons": [],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "16a3ca3d826bc92e",
+      "title": "How Superyachts Are Staged For Sale, According To Industry Insiders - Forbes",
+      "source": "Damen Yachting News",
+      "sourceId": "bing-damen-yachting",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOZmhMTlhVamlWbEdicHRMVTBxNldyRUo5WVdYYmlnajVrbzZ5eUVqUnV6Q3MxcGo0cDQ0Uk5MRkxQUW9OeUgwYXV5QVp1c0FkYTZ0Si13MHp6dUZCbmdwRS1aazBtSmVtYUVma0xoNzBDcGw2TU1uVS1ySEFOS0t0eDBOUUhzXzJPWEhhRnAzMmhfNXladjhNUTU3ZGZUclJpMXlnM2pIQVQ5RVRxRE5tX2QzQVE4aEhfVm45NlZvNA?oc=5",
+      "publishedAt": "2026-03-30T07:00:00Z",
+      "excerpt": "How Superyachts Are Staged For Sale, According To Industry Insiders Forbes",
+      "tags": [
+        "Yachting"
       ],
       "audience": "Multraship",
       "paywalled": false,
