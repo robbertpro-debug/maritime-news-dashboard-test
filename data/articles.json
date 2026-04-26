@@ -1,15 +1,15 @@
 {
-  "generatedAt": "2026-04-26T16:05:12.032428Z",
+  "generatedAt": "2026-04-26T17:08:59.560923Z",
   "lookbackDays": 30,
-  "cutoffAt": "2026-03-27T16:05:12.032428Z",
+  "cutoffAt": "2026-03-27T17:08:59.560923Z",
   "articleCount": 180,
   "sourceCount": 100,
   "sources": [
     "Africa Ports & Ships",
     "Boskalis News",
-    "DEME Group News",
     "DFDS News",
     "Damen Shipyards News",
+    "Damen Yachting News",
     "Hellenic Shipping News",
     "Inchcape Shipping Services News",
     "Kongsberg Maritime News",
@@ -32,17 +32,14 @@
     "Ultrabulk News",
     "Van Oord News",
     "W\u00e4rtsil\u00e4 News",
-    "Yara International News",
     "gCaptain"
   ],
   "topics": [
     "Africa",
     "Batteries",
     "Bulk",
-    "Chemicals",
     "Classification",
     "Clean Propulsion",
-    "Client",
     "Competitor",
     "Compliance",
     "Decarbonization",
@@ -55,7 +52,6 @@
     "Heavy-Lift",
     "Incidents",
     "Industry",
-    "Marine-Construction",
     "Maritime",
     "Markets",
     "Netherlands",
@@ -75,7 +71,8 @@
     "Tankers",
     "Technology",
     "Terminals",
-    "Towage"
+    "Towage",
+    "Yachting"
   ],
   "locations": [
     "Rotterdam"
@@ -323,35 +320,6 @@
       "priorityReasons": [
         "Client mention: DFDS",
         "Signal: Incident"
-      ],
-      "boardBucket": "High Priority"
-    },
-    {
-      "id": "e4ece92e3365362a",
-      "title": "IMO\u2019s MEPC 84 Opens as Key Test for Delayed Shipping Climate Pact",
-      "source": "gCaptain",
-      "sourceId": "gcaptain",
-      "url": "https://gcaptain.com/imos-mepc-84-opens-as-key-test-for-delayed-shipping-climate-pact/",
-      "publishedAt": "2026-04-24T18:18:50Z",
-      "excerpt": "The International Maritime Organization convenes its 84th Marine Environment Protection Committee session in London next week under the shadow of last year\u2019s dramatic delay of the sector\u2019s proposed Net-Zero Framework, but with...",
-      "tags": [
-        "Regulation",
-        "Maritime",
-        "Operations"
-      ],
-      "audience": "Multraship",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [
-        "Disruption",
-        "Regulation"
-      ],
-      "priorityScore": 9,
-      "priorityBand": "high",
-      "priorityReasons": [
-        "Signal: Disruption",
-        "Signal: Regulation"
       ],
       "boardBucket": "High Priority"
     },
@@ -730,6 +698,32 @@
       "boardBucket": "Other Relevant"
     },
     {
+      "id": "e214e6d281be1a29",
+      "title": "Trump\u2019s Hormuz Blockade Has Deepened A Historic Shipping Crisis",
+      "source": "gCaptain",
+      "sourceId": "gcaptain",
+      "url": "https://gcaptain.com/trumps-hormuz-blockade-has-deepened-a-historic-shipping-crisis/",
+      "publishedAt": "2026-04-26T16:36:57Z",
+      "excerpt": "By Weilun Soon Apr 26, 2026 (Bloomberg) \u2013In early April \u2014 after a month of disruption around one of the world\u2019s most important energy chokepoints \u2014 US President Donald Trump wrote...",
+      "tags": [
+        "Maritime",
+        "Operations"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [
+        "Disruption"
+      ],
+      "priorityScore": 6,
+      "priorityBand": "medium",
+      "priorityReasons": [
+        "Signal: Disruption"
+      ],
+      "boardBucket": "Regulation, Safety & Incidents"
+    },
+    {
       "id": "b3fd928abc86efbf",
       "title": "France Reaffirms Efforts To Reopen Strait Of Hormuz",
       "source": "gCaptain",
@@ -820,37 +814,6 @@
         "Signal: Incident"
       ],
       "boardBucket": "Regulation, Safety & Incidents"
-    },
-    {
-      "id": "84033176c945f18a",
-      "title": "Yara ups deliveries in 1Q as Iran war jolts fertiliser market - The Edge Malaysia",
-      "source": "Yara International News",
-      "sourceId": "bing-yara",
-      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5DRGVWTmZ0ZkhIRVN2SzQ3SmN4dzZKZWJhc0xJVnhzSG55UzZQOHQ4akprdjBSSTJpOXExT2R0QWdZRVlLQVZyNmVjaE45NE9PZ3N3?oc=5",
-      "publishedAt": "2026-04-24T13:33:02Z",
-      "excerpt": "Yara ups deliveries in 1Q as Iran war jolts fertiliser market The Edge Malaysia",
-      "tags": [
-        "Chemicals",
-        "Client"
-      ],
-      "audience": "Multraship",
-      "paywalled": false,
-      "entities": [
-        {
-          "name": "Yara International",
-          "category": "clients"
-        }
-      ],
-      "locations": [],
-      "businessTags": [
-        "Client"
-      ],
-      "priorityScore": 6,
-      "priorityBand": "medium",
-      "priorityReasons": [
-        "Client mention: Yara International"
-      ],
-      "boardBucket": "Clients & Projects"
     },
     {
       "id": "3aefc801cf09b0b4",
@@ -1342,71 +1305,6 @@
         "Competitor mention: Svitzer"
       ],
       "boardBucket": "Competitors & Market"
-    },
-    {
-      "id": "bb5f0ac1fbacb16b",
-      "title": "Norwegian co to supply 18 big waterjet systems for Indian Navy's next-gen missile vessel project",
-      "source": "Kongsberg Maritime News",
-      "sourceId": "bing-kongsberg",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=69ee37c194534b5c9c3bc709120df8bf&url=https%3a%2f%2fwww.msn.com%2fen-in%2fnews%2fother%2fnorwegian-co-to-supply-18-big-waterjet-systems-for-indian-navy-s-next-gen-missile-vessel-project%2far-AA20Nuet&c=4609846177532778353&mkt=en-us",
-      "publishedAt": "2026-04-13T16:47:00Z",
-      "excerpt": "India's Navy is set to receive 18 advanced Kamewa waterjet propulsion systems from Norway's Kongsberg Maritime for its new missile vessels. This significant contract, awarded in partnership with ...",
-      "tags": [
-        "Clean Propulsion",
-        "Technology",
-        "Supplier"
-      ],
-      "audience": "Both",
-      "paywalled": false,
-      "entities": [
-        {
-          "name": "Kongsberg Maritime",
-          "category": "suppliers"
-        }
-      ],
-      "locations": [],
-      "businessTags": [
-        "Supplier",
-        "Commercial"
-      ],
-      "priorityScore": 6,
-      "priorityBand": "medium",
-      "priorityReasons": [
-        "Supplier mention: Kongsberg Maritime",
-        "Signal: Commercial"
-      ],
-      "boardBucket": "Other Relevant"
-    },
-    {
-      "id": "2f6a63b0ce5af872",
-      "title": "Deme Group NV MT0",
-      "source": "DEME Group News",
-      "sourceId": "bing-deme",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=69ee37c2a1ca40dcb54be2dae3283f42&url=https%3a%2f%2fwww.morningstar.com%2fstocks%2fxstu%2fmt0%2fquote&c=702618500465205373&mkt=en-us",
-      "publishedAt": "2026-04-10T05:55:00Z",
-      "excerpt": "Morningstar Quantitative Ratings for Stocks are generated using an algorithm that compares companies that are not under analyst coverage to peer companies that do receive analyst-driven ratings.",
-      "tags": [
-        "Offshore",
-        "Marine-Construction"
-      ],
-      "audience": "Multraship",
-      "paywalled": false,
-      "entities": [
-        {
-          "name": "DEME Group",
-          "category": "clients"
-        }
-      ],
-      "locations": [],
-      "businessTags": [
-        "Client"
-      ],
-      "priorityScore": 6,
-      "priorityBand": "medium",
-      "priorityReasons": [
-        "Client mention: DEME Group"
-      ],
-      "boardBucket": "Clients & Projects"
     },
     {
       "id": "8c15e609326590e5",
@@ -2076,6 +1974,37 @@
       "boardBucket": "Other Relevant"
     },
     {
+      "id": "81087e2d5d9a8c59",
+      "title": "Damen, IOM, Turkish Coast Guard, and European Union hold kick-off meeting for latest SAR vessel order in Antalya - gCaptain",
+      "source": "Damen Shipyards News",
+      "sourceId": "bing-damen",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQMEViTUt3bjljckxmQ294d0E1Z1dROVJPYXN6dmw5UTlLYTVHVU4wSVJseHNTUmhZSEYtT1JjWjdBOE10YURfay1jaW9YbTgxMDViX2lTWFhwOEg0QVdVaHMtSmYyQm9KbzRNZWZOQXdSQmhaUkEwaDN5UlM1M2ZVajVMV2Z2S3hTcDV4UVBocW83a29wYUZ6Mmw2Q1g2eEJxUE1CLVNTOG5KaVNjUC00TFZvYmZwTkd4a1ZFZnVlcHNzbWMwRXozWVJNUQ?oc=5",
+      "publishedAt": "2026-04-09T12:00:17Z",
+      "excerpt": "Damen, IOM, Turkish Coast Guard, and European Union hold kick-off meeting for latest SAR vessel order in Antalya gCaptain",
+      "tags": [
+        "Shipbuilding",
+        "Supplier"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [
+        {
+          "name": "Damen Shipyards Group",
+          "category": "suppliers"
+        }
+      ],
+      "locations": [],
+      "businessTags": [
+        "Supplier"
+      ],
+      "priorityScore": 5,
+      "priorityBand": "medium",
+      "priorityReasons": [
+        "Supplier mention: Damen Shipyards Group"
+      ],
+      "boardBucket": "Other Relevant"
+    },
+    {
       "id": "e5246d97e52bbb26",
       "title": "ST LNG advances offshore export terminal plans",
       "source": "Riviera: Ports & Terminals",
@@ -2100,37 +2029,6 @@
         "Signal: Infrastructure"
       ],
       "boardBucket": "Regulation, Safety & Incidents"
-    },
-    {
-      "id": "c923bef1c2537edf",
-      "title": "Damen hold a meeting for latest SAR vessel order in Antalya | Damen - Damen Shipyards",
-      "source": "Damen Shipyards News",
-      "sourceId": "bing-damen",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNM3R6WW5RUUJSRGh3NnFSeFRlYUl4NXluVGtzSGVEcjJ1eXZFbEhYOHJrUHNydEpWaTRlWUtsa0pzN1dTdElmVVJjVGx5OXp0Ni1GenlfWEExdERrQ202aXdTczJZeXJlNGpwNnN0YnpCVk1VVWEweHN1YTJWMDZPTDBiSF9JSzFnNi1EUUVmb2lFS085amp2WC1TOWFPUWtpb1ZBWVNZbEZvTkJaYjZ5ag?oc=5",
-      "publishedAt": "2026-04-09T07:00:00Z",
-      "excerpt": "Damen hold a meeting for latest SAR vessel order in Antalya | Damen Damen Shipyards",
-      "tags": [
-        "Shipbuilding",
-        "Supplier"
-      ],
-      "audience": "Multraship",
-      "paywalled": false,
-      "entities": [
-        {
-          "name": "Damen Shipyards Group",
-          "category": "suppliers"
-        }
-      ],
-      "locations": [],
-      "businessTags": [
-        "Supplier"
-      ],
-      "priorityScore": 5,
-      "priorityBand": "medium",
-      "priorityReasons": [
-        "Supplier mention: Damen Shipyards Group"
-      ],
-      "boardBucket": "Other Relevant"
     },
     {
       "id": "3d65af2830df38f8",
@@ -2162,6 +2060,38 @@
         "Client mention: TotalEnergies"
       ],
       "boardBucket": "Clients & Projects"
+    },
+    {
+      "id": "9c4e9d4556cd3bed",
+      "title": "Damen launches advanced NRP D. Jo\u00e3o II multi-purpose vessel for Portuguese Navy - Defence Industry Europe",
+      "source": "Damen Shipyards News",
+      "sourceId": "bing-damen",
+      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQYWRrNEhGTzFFWFRvLW8tZXZDaEhOQUw2TFF2ejE1UkQ3WWJ4b1lnVmswR0ptNHNtRVNmT2RobzEzSWZ5Mm5RODRybTBIXzJZTFNvb1ZOc0E0TXBfMWtCc19aMWhzVHRiMWx1bUZQR1gxSTFfX1lZVnFKMTRyWUxiUFZpR0NtQXgxVjJPVlJzbEVpOWVuaDl0b0JvamtqbHU3bVpWT0xEWW52cV9COVJEWEp5eUVSZF9iU3V3aWFENEFZUU1sLUNWS3BWSFFpeDcxdzltRElXM1c5OGRMdVQ4?oc=5",
+      "publishedAt": "2026-04-08T07:00:00Z",
+      "excerpt": "Damen launches advanced NRP D. Jo\u00e3o II multi-purpose vessel for Portuguese Navy Defence Industry Europe",
+      "tags": [
+        "Towage",
+        "Shipbuilding",
+        "Supplier"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [
+        {
+          "name": "Damen Shipyards Group",
+          "category": "suppliers"
+        }
+      ],
+      "locations": [],
+      "businessTags": [
+        "Supplier"
+      ],
+      "priorityScore": 5,
+      "priorityBand": "medium",
+      "priorityReasons": [
+        "Supplier mention: Damen Shipyards Group"
+      ],
+      "boardBucket": "Other Relevant"
     },
     {
       "id": "fe2e08cbdbd1725c",
@@ -2549,11 +2479,11 @@
       "boardBucket": "Regulation, Safety & Incidents"
     },
     {
-      "id": "6edfacfcfeec6536",
+      "id": "c9f4a39e03aefe0d",
       "title": "Kongsberg Maritime Begins Trading on the Oslo Stock Exchange",
       "source": "Kongsberg Maritime News",
       "sourceId": "bing-kongsberg",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=69ee37c194534b5c9c3bc709120df8bf&url=https%3a%2f%2fwww.marinelink.com%2fnews%2fkongsberg-maritime-begins-trading-oslo-538424&c=15974813936108799403&mkt=en-us",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=69ee46b512eb426da9052964d1c5b05b&url=https%3a%2f%2fwww.marinelink.com%2fnews%2fkongsberg-maritime-begins-trading-oslo-538424&c=15974813936108799403&mkt=en-us",
       "publishedAt": "2026-04-23T14:52:00Z",
       "excerpt": "Kongsberg Maritime ASA, a global leader in maritime technology, began trading on Euronext Oslo Stock Exchange on April 23 under the ticker symbol KMAR.",
       "tags": [
@@ -2606,11 +2536,11 @@
       "boardBucket": "Regulation, Safety & Incidents"
     },
     {
-      "id": "abb26d6d9ea3c225",
+      "id": "d036a249b793f146",
       "title": "Kongsberg Maritime shares begin trading in Oslo after parent spin-off",
       "source": "Kongsberg Maritime News",
       "sourceId": "bing-kongsberg",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=69ee37c194534b5c9c3bc709120df8bf&url=https%3a%2f%2fwww.tradewindsnews.com%2ftechnology%2fkongsberg-maritime-shares-begin-trading-in-oslo-after-parent-spin-off%2f2-1-1978439&c=3776947611517546205&mkt=en-us",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=69ee46b512eb426da9052964d1c5b05b&url=https%3a%2f%2fwww.tradewindsnews.com%2ftechnology%2fkongsberg-maritime-shares-begin-trading-in-oslo-after-parent-spin-off%2f2-1-1978439&c=3776947611517546205&mkt=en-us",
       "publishedAt": "2026-04-23T02:01:00Z",
       "excerpt": "A new pure-play maritime technology company is set to hit the public markets, as Kongsberg Maritime begins trading today on the Oslo Stock Exchange after its spin-off from Kongsberg Gruppen. The ...",
       "tags": [
@@ -2963,11 +2893,11 @@
       "boardBucket": "Other Relevant"
     },
     {
-      "id": "a15455ae9a417697",
+      "id": "6957d9dea07f90c2",
       "title": "Indian Navy to equip 6 stealth corvettes with Kongsberg Kamewa",
       "source": "Kongsberg Maritime News",
       "sourceId": "bing-kongsberg",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=69ee37c194534b5c9c3bc709120df8bf&url=https%3a%2f%2fwww.newsbytesapp.com%2fnews%2findia%2findian-navy-to-equip-6-stealth-corvettes-with-kongsberg-kamewa%2ftldr&c=14647400517899959803&mkt=en-us",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=69ee46b512eb426da9052964d1c5b05b&url=https%3a%2f%2fwww.newsbytesapp.com%2fnews%2findia%2findian-navy-to-equip-6-stealth-corvettes-with-kongsberg-kamewa%2ftldr&c=14647400517899959803&mkt=en-us",
       "publishedAt": "2026-04-13T23:57:00Z",
       "excerpt": "Kongsberg Maritime will supply 18 advanced Kamewa waterjet propulsion systems to the Indian Navy, enhancing speed and stealth capabilities of their next-gen missile vessels.",
       "tags": [
@@ -3020,11 +2950,11 @@
       "boardBucket": "Other Relevant"
     },
     {
-      "id": "0cd866bf969c4126",
+      "id": "2117b8ab7eaf5236",
       "title": "Indian Navy selects Kongsberg waterjets for NGMV fleet propulsion",
       "source": "Kongsberg Maritime News",
       "sourceId": "bing-kongsberg",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=69ee37c194534b5c9c3bc709120df8bf&url=https%3a%2f%2fwww.msn.com%2fen-us%2fmoney%2fother%2findian-navy-selects-kongsberg-waterjets-for-ngmv-fleet-propulsion%2far-AA20C6ox&c=12293673536723939590&mkt=en-us",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=69ee46b512eb426da9052964d1c5b05b&url=https%3a%2f%2fwww.msn.com%2fen-us%2fmoney%2fother%2findian-navy-selects-kongsberg-waterjets-for-ngmv-fleet-propulsion%2far-AA20C6ox&c=12293673536723939590&mkt=en-us",
       "publishedAt": "2026-04-10T08:47:04Z",
       "excerpt": "The next generations missile vessels are being constructed at Cochin Shipyard in India.",
       "tags": [
@@ -4158,13 +4088,13 @@
       "boardBucket": "Other Relevant"
     },
     {
-      "id": "3107bbd2526b0500",
-      "title": "Global Shipping Reforms Cast Shadow Over Tanzania\u2019s Fishing Communities - Global Issues.org",
+      "id": "1acee87b124f0403",
+      "title": "Global Shipping Reforms Cast Shadow Over Tanzania\u2019s Fishing Communities - ipsnews.net",
       "source": "Mesh Maritime News",
       "sourceId": "bing-mesh-maritime",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBnWWx4TmN0NDl6ckM4Y2lEemtIajNWNm5icDM2VWtLRFFuSDZ3MzRiekZJSUVkRnF3QkVzWlEwSTFvQnRCc0tQMFdONGRBUlpPRlNxQno3aEdJSEdVUmtN0gFkQVVfeXFMTlN0OU9iTktrLU9KbFJwTkZZX0MyYlVFbVBaMUZETFY0aGUxNy05bk54bktZWVdNQUl3ZlFDaTNNV2c0VzVqS3EyTjloZGhXV3JoNDMxa0N0WXhVV0pzcHh1NnBzYg?oc=5",
-      "publishedAt": "2026-04-22T07:16:04Z",
-      "excerpt": "Global Shipping Reforms Cast Shadow Over Tanzania\u2019s Fishing Communities Global Issues.org",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNSnA4NHdodHplM0otOHgtdHV4X0JrVXF3bG1aTDFoSXp6b3J5SGhyYUozQ3k2NDZXd1h0Y0JSc1ZBRkRleVpGdXluWkYzOWJBQUcwTDNZcEVWZjRiUmdEZGpSMGZoYUlrS0ZUelA3cmJFMV9vaVlxeG9Bd1JMYndNRlduczhmcmhFdkVKdk5idllUdXZpQmhzMHBJQTN2UVI5TjMzSWhn?oc=5",
+      "publishedAt": "2026-04-22T00:33:37Z",
+      "excerpt": "Global Shipping Reforms Cast Shadow Over Tanzania\u2019s Fishing Communities ipsnews.net",
       "tags": [
         "Maritime",
         "Supplier"
@@ -4190,6 +4120,27 @@
       "tags": [
         "Safety",
         "Incidents"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [],
+      "priorityScore": 2,
+      "priorityBand": "low",
+      "priorityReasons": [],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "cfe6e4456d488e27",
+      "title": "Amels 80 NETTO II Begins North Sea Trials Ahead of Summer Delivery - Superyachts.com",
+      "source": "Damen Yachting News",
+      "sourceId": "bing-damen-yachting",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQX2d4elpHYmROX0RiZGh0dGpyOW1vM2FmVndfQzVJM3RRekgxV09DNVFIRnE1QU14VDF3bmJCNmh4UHpNbHR2eGJISW9QQUNZWklKb2w3R0tiRzlIQnJ3d3hadEkwVWxTb2hRVW1uYXJIQU1tYy1VYThuS0FXYTlKSXFVX05ETTZxYUVSQ0MzZlN4ZnJjdmJfSHlvTWs1a3JwMDJrclJRMzBCOHdQLU5jZzFB?oc=5",
+      "publishedAt": "2026-04-21T07:00:00Z",
+      "excerpt": "Amels 80 NETTO II Begins North Sea Trials Ahead of Summer Delivery Superyachts.com",
+      "tags": [
+        "Yachting"
       ],
       "audience": "Multraship",
       "paywalled": false,
@@ -4336,6 +4287,27 @@
       "priorityReasons": [
         "Signal: Energy Transition"
       ],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "94f8234daafdb006",
+      "title": "\"Dolphin blue\" Amels 80 superyacht Netto II on sea trials - BOAT International",
+      "source": "Damen Yachting News",
+      "sourceId": "bing-damen-yachting",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQTVpjanpKOXdmbmNhZFNFVlc5RWVEYmZORnhTWm1FZElfQUZjNl9oUHdpU1dSaXNodzgwdms5c3EzTXNrX0gzRDExOUdBY1NmZkhzcnlmRzMxQjdhTVc3Y192RGM3R1lHR0tHSG1Cem9nbTJEUkRsU0doVmJjQUxXOGl6UFdKdGtITGk0dk9rcG0?oc=5",
+      "publishedAt": "2026-04-17T07:00:00Z",
+      "excerpt": "\"Dolphin blue\" Amels 80 superyacht Netto II on sea trials BOAT International",
+      "tags": [
+        "Yachting"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [],
+      "priorityScore": 2,
+      "priorityBand": "low",
+      "priorityReasons": [],
       "boardBucket": "Other Relevant"
     },
     {
@@ -4901,6 +4873,28 @@
       "boardBucket": "Other Relevant"
     },
     {
+      "id": "2f1593e04c3967b9",
+      "title": "Sailings cancelled as passenger ferry crashes into St Helier Harbour | ITV News - ITVX",
+      "source": "DFDS News",
+      "sourceId": "bing-dfds",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQUTdLeV95cVZuRHRhMFBMUHJETGZIU3hMbWtzaUJEUWpCWFkwV3JfVllWYklNeGhJbURGTnVzdWpwYVgyTlVfZ0w1X0hfa3Z2dFZ3dUFwY05rSTRVb1JvSGVfU095Vmx1bWpweElnSExMMVJDaUQ4UkRqbTJhWEpHVUp0Q2VfT1NVZHNjaXRR?oc=5",
+      "publishedAt": "2026-03-30T07:00:00Z",
+      "excerpt": "Sailings cancelled as passenger ferry crashes into St Helier Harbour | ITV News ITVX",
+      "tags": [
+        "Ferry",
+        "Shipping"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [],
+      "priorityScore": 2,
+      "priorityBand": "low",
+      "priorityReasons": [],
+      "boardBucket": "Other Relevant"
+    },
+    {
       "id": "041f23eeb0f090b4",
       "title": "Poland\u2019s Orlen adds two LNG carriers to fleet",
       "source": "Riviera: Ports & Terminals",
@@ -4974,28 +4968,6 @@
       "url": "https://maritime-executive.com/article/the-maritime-executive-s-annual-energy-edition-is-now-available-online",
       "publishedAt": "2026-04-25T00:29:38Z",
       "excerpt": "\u201cStrait Outa Compton\"That's the witty title of View From the E.U. columnist Erik Kravets' tongue-in-cheek comparison of N.W.A's hip-hop hit from 198...",
-      "tags": [
-        "Maritime",
-        "News"
-      ],
-      "audience": "Both",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [],
-      "priorityScore": 1,
-      "priorityBand": "low",
-      "priorityReasons": [],
-      "boardBucket": "Other Relevant"
-    },
-    {
-      "id": "9e604f0f8972c098",
-      "title": "DP World Joins Clean Seas Initiative to Cut Maritime Plastic Waste",
-      "source": "The Maritime Executive",
-      "sourceId": "maritime-executive",
-      "url": "https://maritime-executive.com/article/dp-world-joins-clean-seas-initiative-to-cut-maritime-plastic-waste",
-      "publishedAt": "2026-04-24T21:43:49Z",
-      "excerpt": "DP World has joined the Maritime Association for Clean Seas (MACS), expanding its efforts to reduce plastic waste across global supply chains and supp...",
       "tags": [
         "Maritime",
         "News"
