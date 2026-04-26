@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-04-26T20:02:56.733095Z",
+  "generatedAt": "2026-04-26T21:03:30.437751Z",
   "lookbackDays": 30,
-  "cutoffAt": "2026-03-27T20:02:56.733095Z",
+  "cutoffAt": "2026-03-27T21:03:30.437751Z",
   "articleCount": 180,
   "sourceCount": 100,
   "sources": [
@@ -32,14 +32,17 @@
     "The Maritime Executive",
     "Ultrabulk News",
     "W\u00e4rtsil\u00e4 News",
+    "Yara International News",
     "gCaptain"
   ],
   "topics": [
     "Africa",
     "Batteries",
     "Bulk",
+    "Chemicals",
     "Classification",
     "Clean Propulsion",
+    "Client",
     "Competitor",
     "Compliance",
     "Decarbonization",
@@ -783,6 +786,37 @@
       "boardBucket": "Regulation, Safety & Incidents"
     },
     {
+      "id": "84033176c945f18a",
+      "title": "Yara ups deliveries in 1Q as Iran war jolts fertiliser market - The Edge Malaysia",
+      "source": "Yara International News",
+      "sourceId": "bing-yara",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5DRGVWTmZ0ZkhIRVN2SzQ3SmN4dzZKZWJhc0xJVnhzSG55UzZQOHQ4akprdjBSSTJpOXExT2R0QWdZRVlLQVZyNmVjaE45NE9PZ3N3?oc=5",
+      "publishedAt": "2026-04-24T13:33:02Z",
+      "excerpt": "Yara ups deliveries in 1Q as Iran war jolts fertiliser market The Edge Malaysia",
+      "tags": [
+        "Chemicals",
+        "Client"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [
+        {
+          "name": "Yara International",
+          "category": "clients"
+        }
+      ],
+      "locations": [],
+      "businessTags": [
+        "Client"
+      ],
+      "priorityScore": 6,
+      "priorityBand": "medium",
+      "priorityReasons": [
+        "Client mention: Yara International"
+      ],
+      "boardBucket": "Clients & Projects"
+    },
+    {
       "id": "3aefc801cf09b0b4",
       "title": "Pirates Trade Gunfire with Security Team on Cargo Ship off Somalia",
       "source": "The Maritime Executive",
@@ -1243,11 +1277,42 @@
       "boardBucket": "Competitors & Market"
     },
     {
-      "id": "bfe0e4e99d96a34e",
+      "id": "b8d9a8d5dbbff37b",
+      "title": "DFDS reports increase in March freight and passenger volumes - Baird Maritime",
+      "source": "DFDS News",
+      "sourceId": "bing-dfds",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPSnhTTWZpbWVnNHYwbmdzbUt0SUNhQy1MU1ZQUGNQczBraXo3R24wNXpMYTlzMk05aXNpTW1CRk1TeTNNWElmSlo0c29Oa2QxTkZXb29KbUZORk9qZDh6ZjRqMVpQeUR5MC1wRy1sTjlxY1VQdzFYS1VIbUJSd2ZnM0hUWkZzNE1nbDBPUzNWU2FVS1pEem1lYkNreFN1WEFmbjRqVDhWMnBRUdIBtwFBVV95cUxQYk03bG50U285UTBBVWJyNjA1eUs1QzJEaVFXcGwwODNmYml5WTVKbTViVWNBT1o5ZnBTV2RPQzllVDMwYWQwU2o3TlhhaGttRkszRDVwZldtWElSSWtLdVRWZm1EaUp3OWVWNXJOa2ExZXRXZmFfSUFsR0J3a0d5UE1sX1dtMzlrbmtQNnFsa0M1RWpkNDN3SEY4aHJkY2RHeFc4MDFrazRfLWVMWEtiQmJnMnBJaEk?oc=5",
+      "publishedAt": "2026-04-14T07:00:00Z",
+      "excerpt": "DFDS reports increase in March freight and passenger volumes Baird Maritime",
+      "tags": [
+        "Ferry",
+        "Shipping"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [
+        {
+          "name": "DFDS",
+          "category": "clients"
+        }
+      ],
+      "locations": [],
+      "businessTags": [
+        "Client"
+      ],
+      "priorityScore": 6,
+      "priorityBand": "medium",
+      "priorityReasons": [
+        "Client mention: DFDS"
+      ],
+      "boardBucket": "Clients & Projects"
+    },
+    {
+      "id": "0737ab7fc591d588",
       "title": "Deme Group NV MT0",
       "source": "DEME Group News",
       "sourceId": "bing-deme",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=69ee6f7a7bf94193ab77d2033d73e7ba&url=https%3a%2f%2fwww.morningstar.com%2fstocks%2fxstu%2fmt0%2fquote&c=702618500465205373&mkt=en-us",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=69ee7daa140f408aa39b824132cd773b&url=https%3a%2f%2fwww.morningstar.com%2fstocks%2fxstu%2fmt0%2fquote&c=702618500465205373&mkt=en-us",
       "publishedAt": "2026-04-10T05:55:00Z",
       "excerpt": "Morningstar Quantitative Ratings for Stocks are generated using an algorithm that compares companies that are not under analyst coverage to peer companies that do receive analyst-driven ratings.",
       "tags": [
@@ -1438,37 +1503,6 @@
       "boardBucket": "Regulation, Safety & Incidents"
     },
     {
-      "id": "dea1ab6a95fd740d",
-      "title": "DFDS expands capacity on Rosslare-Dunkirk route with third vessel - Shippax",
-      "source": "DFDS News",
-      "sourceId": "bing-dfds",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQMDhSVlZIWWpjM2pJbS1yaDFiampPS01PMkhXVEwtaGlXQzFnVF9nNFNjdWc1QzNjN2swSHROa3dKUXlzWXNGc2cyTHlkSjZoYV9vSmJUM243T2gxWHJEczVrem12VURDcW50SDRDTnVMalF3Y1ozV09oeXFjdjdHdVVhU0FHNWZGRUp3WW83ZUFxc2tsTHJJRDRES21CNzBCVktxdg?oc=5",
-      "publishedAt": "2026-03-31T07:00:00Z",
-      "excerpt": "DFDS expands capacity on Rosslare-Dunkirk route with third vessel Shippax",
-      "tags": [
-        "Ferry",
-        "Shipping"
-      ],
-      "audience": "Multraship",
-      "paywalled": false,
-      "entities": [
-        {
-          "name": "DFDS",
-          "category": "clients"
-        }
-      ],
-      "locations": [],
-      "businessTags": [
-        "Client"
-      ],
-      "priorityScore": 6,
-      "priorityBand": "medium",
-      "priorityReasons": [
-        "Client mention: DFDS"
-      ],
-      "boardBucket": "Clients & Projects"
-    },
-    {
       "id": "9e08eab90dbea159",
       "title": "DFDS Adds Third Ship On Rosslare Dunkirk Route - afloat.ie",
       "source": "DFDS News",
@@ -1584,6 +1618,40 @@
         "Signal: Incident"
       ],
       "boardBucket": "Regulation, Safety & Incidents"
+    },
+    {
+      "id": "04d9abfe9f003638",
+      "title": "ABS and PIL to Advance Maritime Decarbonisation with Alternative Marine Fuel Emissions Verification",
+      "source": "Hellenic Shipping News",
+      "sourceId": "hellenic-shipping-news",
+      "url": "https://www.hellenicshippingnews.com/abs-and-pil-to-advance-maritime-decarbonisation-with-alternative-marine-fuel-emissions-verification/",
+      "publishedAt": "2026-04-26T21:00:36Z",
+      "excerpt": "ABS and Pacific International Lines (PIL) have announced a formal collaboration through the signing of a Memorandum of Understanding (MOU) to support PIL\u2019s participation in Book and Claim registries, enabling credible and independently ver\u2026",
+      "tags": [
+        "Decarbonization",
+        "Shipping",
+        "Markets"
+      ],
+      "audience": "Novatug",
+      "paywalled": false,
+      "entities": [
+        {
+          "name": "American Bureau of Shipping",
+          "category": "suppliers"
+        }
+      ],
+      "locations": [],
+      "businessTags": [
+        "Supplier",
+        "Energy Transition"
+      ],
+      "priorityScore": 5,
+      "priorityBand": "medium",
+      "priorityReasons": [
+        "Supplier mention: American Bureau of Shipping",
+        "Signal: Energy Transition"
+      ],
+      "boardBucket": "Other Relevant"
     },
     {
       "id": "dc705fe6bb02d199",
@@ -2442,11 +2510,11 @@
       "boardBucket": "Regulation, Safety & Incidents"
     },
     {
-      "id": "ff6c029387878e4d",
+      "id": "2342ba1f4e9ac700",
       "title": "Kongsberg Maritime Begins Trading on the Oslo Stock Exchange",
       "source": "Kongsberg Maritime News",
       "sourceId": "bing-kongsberg",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=69ee6f79bce14c38a6d58a2f88ff0db5&url=https%3a%2f%2fwww.marinelink.com%2fnews%2fkongsberg-maritime-begins-trading-oslo-538424&c=15974813936108799403&mkt=en-us",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=69ee7da954614498a6fa06ea26a3637a&url=https%3a%2f%2fwww.marinelink.com%2fnews%2fkongsberg-maritime-begins-trading-oslo-538424&c=15974813936108799403&mkt=en-us",
       "publishedAt": "2026-04-23T14:52:00Z",
       "excerpt": "Kongsberg Maritime ASA, a global leader in maritime technology, began trading on Euronext Oslo Stock Exchange on April 23 under the ticker symbol KMAR.",
       "tags": [
@@ -2499,11 +2567,11 @@
       "boardBucket": "Regulation, Safety & Incidents"
     },
     {
-      "id": "60a72cec6b6bf8c4",
+      "id": "2e2fabd05bdb6a39",
       "title": "Kongsberg Maritime shares begin trading in Oslo after parent spin-off",
       "source": "Kongsberg Maritime News",
       "sourceId": "bing-kongsberg",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=69ee6f79bce14c38a6d58a2f88ff0db5&url=https%3a%2f%2fwww.tradewindsnews.com%2ftechnology%2fkongsberg-maritime-shares-begin-trading-in-oslo-after-parent-spin-off%2f2-1-1978439&c=3776947611517546205&mkt=en-us",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=69ee7da954614498a6fa06ea26a3637a&url=https%3a%2f%2fwww.tradewindsnews.com%2ftechnology%2fkongsberg-maritime-shares-begin-trading-in-oslo-after-parent-spin-off%2f2-1-1978439&c=3776947611517546205&mkt=en-us",
       "publishedAt": "2026-04-23T02:01:00Z",
       "excerpt": "A new pure-play maritime technology company is set to hit the public markets, as Kongsberg Maritime begins trading today on the Oslo Stock Exchange after its spin-off from Kongsberg Gruppen. The ...",
       "tags": [
@@ -2561,11 +2629,11 @@
       "boardBucket": "Other Relevant"
     },
     {
-      "id": "240668ca77aafa70",
+      "id": "ce5f74cfb0a8910a",
       "title": "Kongsberg Maritime As News",
       "source": "Kongsberg Maritime News",
       "sourceId": "bing-kongsberg",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=69ee6f79bce14c38a6d58a2f88ff0db5&url=https%3a%2f%2fwww.marinelink.com%2fnews%2fmaritime%2fkongsberg-maritime-as&c=5214729760993416847&mkt=en-us",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=69ee7da954614498a6fa06ea26a3637a&url=https%3a%2f%2fwww.marinelink.com%2fnews%2fmaritime%2fkongsberg-maritime-as&c=5214729760993416847&mkt=en-us",
       "publishedAt": "2026-04-22T16:59:00Z",
       "excerpt": "Kongsberg Maritime ASA, a global leader in maritime technology, began trading on Euronext Oslo Stock Exchange on April 23 under the ticker symbol KMAR. The company has been spun off from Kongsberg ...",
       "tags": [
@@ -2862,36 +2930,11 @@
       "boardBucket": "Other Relevant"
     },
     {
-      "id": "436557ebadd437a6",
-      "title": "Meriaura adds Bravoland to fleet - Heavy Lift & Project Forwarding International",
-      "source": "Sarens News",
-      "sourceId": "bing-sarens",
-      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOTjlFMklXeXpPZDV5SWkxV2JQY05VVS14NUlSU1o0cjZVYWdRbFZMbl90SWRYX2Y2WFVNTE9KUzJMNkxsWlJVT3lYM3hudDJqb2hVUWhZU1d3VUJ5VTBxU09YalFONktfQUppdzVmZXN3TTRPYzBtTDBDbl9PcTEtTERjWkdfXzVfNmZB?oc=5",
-      "publishedAt": "2026-04-14T06:05:29Z",
-      "excerpt": "Meriaura adds Bravoland to fleet Heavy Lift & Project Forwarding International",
-      "tags": [
-        "Heavy-Lift"
-      ],
-      "audience": "Multraship",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [
-        "Commercial"
-      ],
-      "priorityScore": 4,
-      "priorityBand": "medium",
-      "priorityReasons": [
-        "Signal: Commercial"
-      ],
-      "boardBucket": "Other Relevant"
-    },
-    {
-      "id": "0a7c70631b845ece",
+      "id": "93f91f66a4c6b07e",
       "title": "Indian Navy to equip 6 stealth corvettes with Kongsberg Kamewa",
       "source": "Kongsberg Maritime News",
       "sourceId": "bing-kongsberg",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=69ee6f79bce14c38a6d58a2f88ff0db5&url=https%3a%2f%2fwww.newsbytesapp.com%2fnews%2findia%2findian-navy-to-equip-6-stealth-corvettes-with-kongsberg-kamewa%2ftldr&c=14647400517899959803&mkt=en-us",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=69ee7da954614498a6fa06ea26a3637a&url=https%3a%2f%2fwww.newsbytesapp.com%2fnews%2findia%2findian-navy-to-equip-6-stealth-corvettes-with-kongsberg-kamewa%2ftldr&c=14647400517899959803&mkt=en-us",
       "publishedAt": "2026-04-13T23:57:00Z",
       "excerpt": "Kongsberg Maritime will supply 18 advanced Kamewa waterjet propulsion systems to the Indian Navy, enhancing speed and stealth capabilities of their next-gen missile vessels.",
       "tags": [
@@ -2944,11 +2987,11 @@
       "boardBucket": "Other Relevant"
     },
     {
-      "id": "722e07430ab6adc9",
+      "id": "c123bdaf46012b08",
       "title": "Indian Navy selects Kongsberg waterjets for NGMV fleet propulsion",
       "source": "Kongsberg Maritime News",
       "sourceId": "bing-kongsberg",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=69ee6f79bce14c38a6d58a2f88ff0db5&url=https%3a%2f%2fwww.msn.com%2fen-us%2fmoney%2fother%2findian-navy-selects-kongsberg-waterjets-for-ngmv-fleet-propulsion%2far-AA20C6ox&c=12293673536723939590&mkt=en-us",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=69ee7da954614498a6fa06ea26a3637a&url=https%3a%2f%2fwww.msn.com%2fen-us%2fmoney%2fother%2findian-navy-selects-kongsberg-waterjets-for-ngmv-fleet-propulsion%2far-AA20C6ox&c=12293673536723939590&mkt=en-us",
       "publishedAt": "2026-04-10T08:47:04Z",
       "excerpt": "The next generations missile vessels are being constructed at Cochin Shipyard in India.",
       "tags": [
@@ -3214,6 +3257,34 @@
       "boardBucket": "Regulation, Safety & Incidents"
     },
     {
+      "id": "efea6ffd6d9e5b89",
+      "title": "Working Group On GHG Makes Positive Progress Before Climate Talks Next Week And Engagement Shows The Net Zero Fund Is A High Priority To Many Member States",
+      "source": "Hellenic Shipping News",
+      "sourceId": "hellenic-shipping-news",
+      "url": "https://www.hellenicshippingnews.com/working-group-on-ghg-makes-positive-progress-before-climate-talks-next-week-and-engagement-shows-the-net-zero-fund-is-a-high-priority-to-many-member-states/",
+      "publishedAt": "2026-04-26T21:00:48Z",
+      "excerpt": "Readout from UCL Shipping and Oceans Research group shows IMO\u2019s Intersessional working group on GHGs has made good progress on a range of important debates and guidelines, that all relate to the implementation of the IMO\u2019s Net Zero Framewo\u2026",
+      "tags": [
+        "Regulation",
+        "Decarbonization",
+        "Shipping",
+        "Markets"
+      ],
+      "audience": "Novatug",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [
+        "Regulation"
+      ],
+      "priorityScore": 3,
+      "priorityBand": "low",
+      "priorityReasons": [
+        "Signal: Regulation"
+      ],
+      "boardBucket": "Regulation, Safety & Incidents"
+    },
+    {
       "id": "ff4e3dc7e9371856",
       "title": "Odfjell Advances Fleet Renewal After Committing $290M for Four Newbuilds",
       "source": "The Maritime Executive",
@@ -3264,34 +3335,6 @@
         "Signal: Commercial"
       ],
       "boardBucket": "Other Relevant"
-    },
-    {
-      "id": "db2b7e41b22677d4",
-      "title": "Countries sideline Trump in moving forward on global shipping carbon price, at IMO technical talks",
-      "source": "Hellenic Shipping News",
-      "sourceId": "hellenic-shipping-news",
-      "url": "https://www.hellenicshippingnews.com/countries-sideline-trump-in-moving-forward-on-global-shipping-carbon-price-at-imo-technical-talks/",
-      "publishedAt": "2026-04-24T21:00:59Z",
-      "excerpt": "Governments made progress on finalising technical elements in the Net-Zero Framework (NZF), the world\u2019s first global carbon pricing on any polluter, at working group negotiations (ISWG-GHG-21) on 20-24 April in London. The International Ma\u2026",
-      "tags": [
-        "Regulation",
-        "Decarbonization",
-        "Shipping",
-        "Markets"
-      ],
-      "audience": "Novatug",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [
-        "Regulation"
-      ],
-      "priorityScore": 3,
-      "priorityBand": "low",
-      "priorityReasons": [
-        "Signal: Regulation"
-      ],
-      "boardBucket": "Regulation, Safety & Incidents"
     },
     {
       "id": "74a002df53db9fa9",
@@ -3518,6 +3561,33 @@
       "boardBucket": "Other Relevant"
     },
     {
+      "id": "309c09d47dc0f422",
+      "title": "Ulsan hosts Lotte Fine Chemical\u2019s ammonia bunkering breakthrough",
+      "source": "Hellenic Shipping News",
+      "sourceId": "hellenic-shipping-news",
+      "url": "https://www.hellenicshippingnews.com/ulsan-hosts-lotte-fine-chemicals-ammonia-bunkering-breakthrough-2/",
+      "publishedAt": "2026-04-26T21:00:42Z",
+      "excerpt": "South Korean chemical company Lotte Fine Chemical has bunkered an undisclosed volume of ammonia to an ammonia-capable vessel built by HD Hyundai Heavy Industries at the Port of Ulsan. The ammonia was produced entirely from renewable energy\u2026",
+      "tags": [
+        "Clean Propulsion",
+        "Shipping",
+        "Markets"
+      ],
+      "audience": "Novatug",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [
+        "Energy Transition"
+      ],
+      "priorityScore": 2,
+      "priorityBand": "low",
+      "priorityReasons": [
+        "Signal: Energy Transition"
+      ],
+      "boardBucket": "Other Relevant"
+    },
+    {
       "id": "dec21e46e954b58f",
       "title": "US-Iran Peace Hopes Fade As Trump Scraps Talks",
       "source": "gCaptain",
@@ -3572,6 +3642,72 @@
       "tags": [
         "Maritime",
         "Operations"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [],
+      "priorityScore": 2,
+      "priorityBand": "low",
+      "priorityReasons": [],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "86e60f89afa156c6",
+      "title": "PORT ELIZABETH SHIP MOVEMENTS",
+      "source": "Africa Ports & Ships",
+      "sourceId": "africa-ports",
+      "url": "https://africaports.co.za/2026/04/26/portelizabeth/",
+      "publishedAt": "2026-04-25T22:02:48Z",
+      "excerpt": "Sips in port, at the anchorage and ETAs of ships expected in Port Elizabeth.",
+      "tags": [
+        "Ports",
+        "Africa"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [],
+      "priorityScore": 2,
+      "priorityBand": "low",
+      "priorityReasons": [],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "4fa0ee7ed39be8d5",
+      "title": "CAPE TOWN SHIP MOVEMENTS",
+      "source": "Africa Ports & Ships",
+      "sourceId": "africa-ports",
+      "url": "https://africaports.co.za/2026/04/26/cape-town-2-3/",
+      "publishedAt": "2026-04-25T22:01:53Z",
+      "excerpt": "Ships in port, at the V&A, at the Table Bay anchorage, at the OPL and ETAs of ships expected in the port of Cape Town.",
+      "tags": [
+        "Ports",
+        "Africa"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [],
+      "priorityScore": 2,
+      "priorityBand": "low",
+      "priorityReasons": [],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "c212148ef5ccaf15",
+      "title": "NGQURA (COEGA) SHIP MOVEMENTS",
+      "source": "Africa Ports & Ships",
+      "sourceId": "africa-ports",
+      "url": "https://africaports.co.za/2026/04/26/ngqura-coega-4/",
+      "publishedAt": "2026-04-25T22:01:05Z",
+      "excerpt": "Ships in port, at the anchorage and ETAs of ships expected in the port of Ngqura/Coega.",
+      "tags": [
+        "Ports",
+        "Africa"
       ],
       "audience": "Multraship",
       "paywalled": false,
@@ -3727,29 +3863,6 @@
       "tags": [
         "Ports",
         "Africa"
-      ],
-      "audience": "Multraship",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [],
-      "priorityScore": 2,
-      "priorityBand": "low",
-      "priorityReasons": [],
-      "boardBucket": "Other Relevant"
-    },
-    {
-      "id": "ef8e95a1e4cb2f57",
-      "title": "The Strait After the Ceasefire. Seven Weeks of Data from the Gulf\u2019s Only Maritime Exit",
-      "source": "Hellenic Shipping News",
-      "sourceId": "hellenic-shipping-news",
-      "url": "https://www.hellenicshippingnews.com/the-strait-after-the-ceasefire-seven-weeks-of-data-from-the-gulfs-only-maritime-exit/",
-      "publishedAt": "2026-04-24T21:00:58Z",
-      "excerpt": "AXSMarine AIS-derived crossing data, collected continuously from 1 March through 21 April 2026, documents how the Strait of Hormuz has functioned \u2013 and who has been willing to use it \u2013 in the weeks since the conflict began. From Stillness\u2026",
-      "tags": [
-        "Incidents",
-        "Shipping",
-        "Markets"
       ],
       "audience": "Multraship",
       "paywalled": false,
@@ -4010,28 +4123,6 @@
       "boardBucket": "Other Relevant"
     },
     {
-      "id": "1a20de076c21538e",
-      "title": "CAPE TOWN SHIP MOVEMENTS",
-      "source": "Africa Ports & Ships",
-      "sourceId": "africa-ports",
-      "url": "https://africaports.co.za/2026/04/24/cape-town-2-3/",
-      "publishedAt": "2026-04-23T22:01:53Z",
-      "excerpt": "Ships in port, at the V&A, at the Table Bay anchorage, at the OPL and ETAs of ships expected in the port of Cape Town.",
-      "tags": [
-        "Ports",
-        "Africa"
-      ],
-      "audience": "Multraship",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [],
-      "priorityScore": 2,
-      "priorityBand": "low",
-      "priorityReasons": [],
-      "boardBucket": "Other Relevant"
-    },
-    {
       "id": "5641962142bc36e5",
       "title": "DURBAN MULTI-PURPOSE TERMINALS",
       "source": "Africa Ports & Ships",
@@ -4120,6 +4211,27 @@
       "boardBucket": "Other Relevant"
     },
     {
+      "id": "cfe6e4456d488e27",
+      "title": "Amels 80 NETTO II Begins North Sea Trials Ahead of Summer Delivery - Superyachts.com",
+      "source": "Damen Yachting News",
+      "sourceId": "bing-damen-yachting",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQX2d4elpHYmROX0RiZGh0dGpyOW1vM2FmVndfQzVJM3RRekgxV09DNVFIRnE1QU14VDF3bmJCNmh4UHpNbHR2eGJISW9QQUNZWklKb2w3R0tiRzlIQnJ3d3hadEkwVWxTb2hRVW1uYXJIQU1tYy1VYThuS0FXYTlKSXFVX05ETTZxYUVSQ0MzZlN4ZnJjdmJfSHlvTWs1a3JwMDJrclJRMzBCOHdQLU5jZzFB?oc=5",
+      "publishedAt": "2026-04-21T07:00:00Z",
+      "excerpt": "Amels 80 NETTO II Begins North Sea Trials Ahead of Summer Delivery Superyachts.com",
+      "tags": [
+        "Yachting"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [],
+      "priorityScore": 2,
+      "priorityBand": "low",
+      "priorityReasons": [],
+      "boardBucket": "Other Relevant"
+    },
+    {
       "id": "9ab191b5fdfc2739",
       "title": "Video: Tensions rise after US seizes Iranian ship, peace talks uncertain",
       "source": "Riviera: Safety & Incidents",
@@ -4149,50 +4261,6 @@
       "url": "https://africaports.co.za/2026/04/20/saldanha/",
       "publishedAt": "2026-04-19T23:04:59Z",
       "excerpt": "Ships in port at Saldanha port, at the inner anchorage, at the St Helena Bay anchorage and ETAs of ships expected",
-      "tags": [
-        "Ports",
-        "Africa"
-      ],
-      "audience": "Multraship",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [],
-      "priorityScore": 2,
-      "priorityBand": "low",
-      "priorityReasons": [],
-      "boardBucket": "Other Relevant"
-    },
-    {
-      "id": "cd9d52b1462ea778",
-      "title": "PORT ELIZABETH SHIP MOVEMENTS",
-      "source": "Africa Ports & Ships",
-      "sourceId": "africa-ports",
-      "url": "https://africaports.co.za/2026/04/20/portelizabeth/",
-      "publishedAt": "2026-04-19T22:02:48Z",
-      "excerpt": "Sips in port, at the anchorage and ETAs of ships expected in Port Elizabeth.",
-      "tags": [
-        "Ports",
-        "Africa"
-      ],
-      "audience": "Multraship",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [],
-      "priorityScore": 2,
-      "priorityBand": "low",
-      "priorityReasons": [],
-      "boardBucket": "Other Relevant"
-    },
-    {
-      "id": "1d665190b937e533",
-      "title": "Port of BEIRA",
-      "source": "Africa Ports & Ships",
-      "sourceId": "africa-ports",
-      "url": "https://africaports.co.za/2026/04/20/beira-2/",
-      "publishedAt": "2026-04-19T22:01:49Z",
-      "excerpt": "Ships in port, at the anchorage nd ETAs of ships expected in the port of Beira.",
       "tags": [
         "Ports",
         "Africa"
@@ -4840,6 +4908,28 @@
       "boardBucket": "Other Relevant"
     },
     {
+      "id": "8f4f9a9188ab7db8",
+      "title": "Report: Arctic Routes to Remain Peripheral, Especially for Boxships",
+      "source": "The Maritime Executive",
+      "sourceId": "maritime-executive",
+      "url": "https://maritime-executive.com/article/report-arctic-routes-to-remain-peripheral-especially-for-boxships",
+      "publishedAt": "2026-04-26T20:30:00Z",
+      "excerpt": "In the past few years, there has been a lot of hype about the growing ship traffic along the Arctic routes. But recent analysis shows that whle Arcti...",
+      "tags": [
+        "Maritime",
+        "News"
+      ],
+      "audience": "Both",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [],
+      "priorityScore": 1,
+      "priorityBand": "low",
+      "priorityReasons": [],
+      "boardBucket": "Other Relevant"
+    },
+    {
       "id": "971380eaa9ab95a7",
       "title": "Churn in Horn of Africa Political Alliances",
       "source": "The Maritime Executive",
@@ -4891,72 +4981,6 @@
       "url": "https://maritime-executive.com/article/birdon-america-and-mythos-ai-jointly-pursuing-u-s-navy-musv-opportunities",
       "publishedAt": "2026-04-25T17:51:56Z",
       "excerpt": "Birdon America and Mythos AI yesterday announced the signing of a memorandum of understanding at Sea-Air-Space 2026 to collaborate on the development...",
-      "tags": [
-        "Maritime",
-        "News"
-      ],
-      "audience": "Both",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [],
-      "priorityScore": 1,
-      "priorityBand": "low",
-      "priorityReasons": [],
-      "boardBucket": "Other Relevant"
-    },
-    {
-      "id": "40b2b628f96349a4",
-      "title": "The Maritime Executive's Annual Energy Edition is Now Available Online",
-      "source": "The Maritime Executive",
-      "sourceId": "maritime-executive",
-      "url": "https://maritime-executive.com/article/the-maritime-executive-s-annual-energy-edition-is-now-available-online",
-      "publishedAt": "2026-04-25T00:29:38Z",
-      "excerpt": "\u201cStrait Outa Compton\"That's the witty title of View From the E.U. columnist Erik Kravets' tongue-in-cheek comparison of N.W.A's hip-hop hit from 198...",
-      "tags": [
-        "Maritime",
-        "News"
-      ],
-      "audience": "Both",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [],
-      "priorityScore": 1,
-      "priorityBand": "low",
-      "priorityReasons": [],
-      "boardBucket": "Other Relevant"
-    },
-    {
-      "id": "9e604f0f8972c098",
-      "title": "DP World Joins Clean Seas Initiative to Cut Maritime Plastic Waste",
-      "source": "The Maritime Executive",
-      "sourceId": "maritime-executive",
-      "url": "https://maritime-executive.com/article/dp-world-joins-clean-seas-initiative-to-cut-maritime-plastic-waste",
-      "publishedAt": "2026-04-24T21:43:49Z",
-      "excerpt": "DP World has joined the Maritime Association for Clean Seas (MACS), expanding its efforts to reduce plastic waste across global supply chains and supp...",
-      "tags": [
-        "Maritime",
-        "News"
-      ],
-      "audience": "Both",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [],
-      "priorityScore": 1,
-      "priorityBand": "low",
-      "priorityReasons": [],
-      "boardBucket": "Other Relevant"
-    },
-    {
-      "id": "dc026cbea1b9d60d",
-      "title": "Iranian Shipping Blockade to Expand Says US as Hormuz Remains at Standstill",
-      "source": "The Maritime Executive",
-      "sourceId": "maritime-executive",
-      "url": "https://maritime-executive.com/article/iranian-shipping-blockade-to-expand-says-us-as-hormuz-remains-at-standstill",
-      "publishedAt": "2026-04-24T21:16:22Z",
-      "excerpt": "The Pentagon on Friday, during a press briefing on the conflict with Iran, vowed to expand the blockade on shipping while saying it was becoming more...",
       "tags": [
         "Maritime",
         "News"
