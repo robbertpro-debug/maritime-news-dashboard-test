@@ -1,13 +1,12 @@
 window.__DASHBOARD_DATA__ = {
-  "generatedAt": "2026-04-26T11:37:28.316356Z",
+  "generatedAt": "2026-04-26T13:00:46.328742Z",
   "lookbackDays": 30,
-  "cutoffAt": "2026-03-27T11:37:28.316356Z",
+  "cutoffAt": "2026-03-27T13:00:46.328742Z",
   "articleCount": 180,
   "sourceCount": 100,
   "sources": [
     "Africa Ports & Ships",
     "Boskalis News",
-    "DEME Group News",
     "DFDS News",
     "Damen Shipyards News",
     "Damen Yachting News",
@@ -33,14 +32,17 @@ window.__DASHBOARD_DATA__ = {
     "Ultrabulk News",
     "Van Oord News",
     "W\u00e4rtsil\u00e4 News",
+    "Yara International News",
     "gCaptain"
   ],
   "topics": [
     "Africa",
     "Batteries",
     "Bulk",
+    "Chemicals",
     "Classification",
     "Clean Propulsion",
+    "Client",
     "Competitor",
     "Compliance",
     "Decarbonization",
@@ -53,7 +55,6 @@ window.__DASHBOARD_DATA__ = {
     "Heavy-Lift",
     "Incidents",
     "Industry",
-    "Marine-Construction",
     "Maritime",
     "Markets",
     "Netherlands",
@@ -821,6 +822,37 @@ window.__DASHBOARD_DATA__ = {
       "boardBucket": "Regulation, Safety & Incidents"
     },
     {
+      "id": "84033176c945f18a",
+      "title": "Yara ups deliveries in 1Q as Iran war jolts fertiliser market - The Edge Malaysia",
+      "source": "Yara International News",
+      "sourceId": "bing-yara",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5DRGVWTmZ0ZkhIRVN2SzQ3SmN4dzZKZWJhc0xJVnhzSG55UzZQOHQ4akprdjBSSTJpOXExT2R0QWdZRVlLQVZyNmVjaE45NE9PZ3N3?oc=5",
+      "publishedAt": "2026-04-24T13:33:02Z",
+      "excerpt": "Yara ups deliveries in 1Q as Iran war jolts fertiliser market The Edge Malaysia",
+      "tags": [
+        "Chemicals",
+        "Client"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [
+        {
+          "name": "Yara International",
+          "category": "clients"
+        }
+      ],
+      "locations": [],
+      "businessTags": [
+        "Client"
+      ],
+      "priorityScore": 6,
+      "priorityBand": "medium",
+      "priorityReasons": [
+        "Client mention: Yara International"
+      ],
+      "boardBucket": "Clients & Projects"
+    },
+    {
       "id": "3aefc801cf09b0b4",
       "title": "Pirates Trade Gunfire with Security Team on Cargo Ship off Somalia",
       "source": "The Maritime Executive",
@@ -1281,35 +1313,69 @@ window.__DASHBOARD_DATA__ = {
       "boardBucket": "Competitors & Market"
     },
     {
-      "id": "fa4ef85c49efa1f6",
-      "title": "Deme Group NV MT0",
-      "source": "DEME Group News",
-      "sourceId": "bing-deme",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=69edf903dee1431d8cbfe55ff254baf4&url=https%3a%2f%2fwww.morningstar.com%2fstocks%2fxstu%2fmt0%2fquote&c=702618500465205373&mkt=en-us",
-      "publishedAt": "2026-04-10T05:55:00Z",
-      "excerpt": "Morningstar Quantitative Ratings for Stocks are generated using an algorithm that compares companies that are not under analyst coverage to peer companies that do receive analyst-driven ratings.",
+      "id": "886d8c7b85dc7d36",
+      "title": "Executive Moves - Svitzer hires managing director in Brazil - rivieramm.com",
+      "source": "Svitzer News",
+      "sourceId": "bing-svitzer",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQYjloSEx0Zk8taEw0RTJNeGJJYnlmYXRrTFRYLVpJejJhYWpUXzBFT19uX094cHNTUkdoZTVrUm5uWUNWMGQtQjJQUU5TLTlVOEFqMHE4MWNHX0ZNT0g3T3NxRTMtZWxEdXZWQXdYWFV6c0hnSUlqRVdKQVNIMnRERTN0NEUzM1p5LS1YRWcxcWV3bW10Z2RHdHE2MlZzcVBJUXdUaXlRSUZMaktLeDRfR3ZzUWpfbm9RYTY0?oc=5",
+      "publishedAt": "2026-04-15T01:01:32Z",
+      "excerpt": "Executive Moves - Svitzer hires managing director in Brazil rivieramm.com",
       "tags": [
-        "Offshore",
-        "Marine-Construction"
+        "Towage",
+        "Competitor"
       ],
       "audience": "Multraship",
       "paywalled": false,
       "entities": [
         {
-          "name": "DEME Group",
-          "category": "clients"
+          "name": "Svitzer",
+          "category": "competitors"
         }
       ],
       "locations": [],
       "businessTags": [
-        "Client"
+        "Competitor"
       ],
       "priorityScore": 6,
       "priorityBand": "medium",
       "priorityReasons": [
-        "Client mention: DEME Group"
+        "Competitor mention: Svitzer"
       ],
-      "boardBucket": "Clients & Projects"
+      "boardBucket": "Competitors & Market"
+    },
+    {
+      "id": "a2372afff1883e48",
+      "title": "Norwegian co to supply 18 big waterjet systems for Indian Navy's next-gen missile vessel project",
+      "source": "Kongsberg Maritime News",
+      "sourceId": "bing-kongsberg",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=69ee0c86884a44df973f9a58da09fa58&url=https%3a%2f%2fwww.msn.com%2fen-in%2fnews%2fother%2fnorwegian-co-to-supply-18-big-waterjet-systems-for-indian-navy-s-next-gen-missile-vessel-project%2far-AA20Nuet&c=4609846177532778353&mkt=en-us",
+      "publishedAt": "2026-04-13T16:47:00Z",
+      "excerpt": "India's Navy is set to receive 18 advanced Kamewa waterjet propulsion systems from Norway's Kongsberg Maritime for its new missile vessels. This significant contract, awarded in partnership with ...",
+      "tags": [
+        "Clean Propulsion",
+        "Technology",
+        "Supplier"
+      ],
+      "audience": "Both",
+      "paywalled": false,
+      "entities": [
+        {
+          "name": "Kongsberg Maritime",
+          "category": "suppliers"
+        }
+      ],
+      "locations": [],
+      "businessTags": [
+        "Supplier",
+        "Commercial"
+      ],
+      "priorityScore": 6,
+      "priorityBand": "medium",
+      "priorityReasons": [
+        "Supplier mention: Kongsberg Maritime",
+        "Signal: Commercial"
+      ],
+      "boardBucket": "Other Relevant"
     },
     {
       "id": "8c15e609326590e5",
@@ -2447,11 +2513,11 @@ window.__DASHBOARD_DATA__ = {
       "boardBucket": "Regulation, Safety & Incidents"
     },
     {
-      "id": "d6194a054a1cdde7",
+      "id": "89ea7ebf23b3dd87",
       "title": "Kongsberg Maritime Begins Trading on the Oslo Stock Exchange",
       "source": "Kongsberg Maritime News",
       "sourceId": "bing-kongsberg",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=69edf901b9924359b417490f70fa238b&url=https%3a%2f%2fwww.marinelink.com%2fnews%2fkongsberg-maritime-begins-trading-oslo-538424&c=15974813936108799403&mkt=en-us",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=69ee0c86884a44df973f9a58da09fa58&url=https%3a%2f%2fwww.marinelink.com%2fnews%2fkongsberg-maritime-begins-trading-oslo-538424&c=15974813936108799403&mkt=en-us",
       "publishedAt": "2026-04-23T14:52:00Z",
       "excerpt": "Kongsberg Maritime ASA, a global leader in maritime technology, began trading on Euronext Oslo Stock Exchange on April 23 under the ticker symbol KMAR.",
       "tags": [
@@ -2504,11 +2570,11 @@ window.__DASHBOARD_DATA__ = {
       "boardBucket": "Regulation, Safety & Incidents"
     },
     {
-      "id": "1e18f9338965da9f",
+      "id": "4edb4d08e3f56f95",
       "title": "Kongsberg Maritime shares begin trading in Oslo after parent spin-off",
       "source": "Kongsberg Maritime News",
       "sourceId": "bing-kongsberg",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=69edf901b9924359b417490f70fa238b&url=https%3a%2f%2fwww.tradewindsnews.com%2ftechnology%2fkongsberg-maritime-shares-begin-trading-in-oslo-after-parent-spin-off%2f2-1-1978439&c=3776947611517546205&mkt=en-us",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=69ee0c86884a44df973f9a58da09fa58&url=https%3a%2f%2fwww.tradewindsnews.com%2ftechnology%2fkongsberg-maritime-shares-begin-trading-in-oslo-after-parent-spin-off%2f2-1-1978439&c=3776947611517546205&mkt=en-us",
       "publishedAt": "2026-04-23T02:01:00Z",
       "excerpt": "A new pure-play maritime technology company is set to hit the public markets, as Kongsberg Maritime begins trading today on the Oslo Stock Exchange after its spin-off from Kongsberg Gruppen. The ...",
       "tags": [
@@ -2861,11 +2927,11 @@ window.__DASHBOARD_DATA__ = {
       "boardBucket": "Other Relevant"
     },
     {
-      "id": "c012cf2a6a0e1675",
+      "id": "f372358c6fd0d20b",
       "title": "Indian Navy to equip 6 stealth corvettes with Kongsberg Kamewa",
       "source": "Kongsberg Maritime News",
       "sourceId": "bing-kongsberg",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=69edf901b9924359b417490f70fa238b&url=https%3a%2f%2fwww.newsbytesapp.com%2fnews%2findia%2findian-navy-to-equip-6-stealth-corvettes-with-kongsberg-kamewa%2ftldr&c=14647400517899959803&mkt=en-us",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=69ee0c86884a44df973f9a58da09fa58&url=https%3a%2f%2fwww.newsbytesapp.com%2fnews%2findia%2findian-navy-to-equip-6-stealth-corvettes-with-kongsberg-kamewa%2ftldr&c=14647400517899959803&mkt=en-us",
       "publishedAt": "2026-04-13T23:57:00Z",
       "excerpt": "Kongsberg Maritime will supply 18 advanced Kamewa waterjet propulsion systems to the Indian Navy, enhancing speed and stealth capabilities of their next-gen missile vessels.",
       "tags": [
@@ -2918,11 +2984,11 @@ window.__DASHBOARD_DATA__ = {
       "boardBucket": "Other Relevant"
     },
     {
-      "id": "111ce326450e7e58",
+      "id": "e32802c03d9e16ec",
       "title": "Indian Navy selects Kongsberg waterjets for NGMV fleet propulsion",
       "source": "Kongsberg Maritime News",
       "sourceId": "bing-kongsberg",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=69edf901b9924359b417490f70fa238b&url=https%3a%2f%2fwww.msn.com%2fen-us%2fmoney%2fother%2findian-navy-selects-kongsberg-waterjets-for-ngmv-fleet-propulsion%2far-AA20C6ox&c=12293673536723939590&mkt=en-us",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=69ee0c86884a44df973f9a58da09fa58&url=https%3a%2f%2fwww.msn.com%2fen-us%2fmoney%2fother%2findian-navy-selects-kongsberg-waterjets-for-ngmv-fleet-propulsion%2far-AA20C6ox&c=12293673536723939590&mkt=en-us",
       "publishedAt": "2026-04-10T08:47:04Z",
       "excerpt": "The next generations missile vessels are being constructed at Cochin Shipyard in India.",
       "tags": [
@@ -3520,6 +3586,28 @@ window.__DASHBOARD_DATA__ = {
       "boardBucket": "Other Relevant"
     },
     {
+      "id": "dec21e46e954b58f",
+      "title": "US-Iran Peace Hopes Fade As Trump Scraps Talks",
+      "source": "gCaptain",
+      "sourceId": "gcaptain",
+      "url": "https://gcaptain.com/us-iran-peace-hopes-fade-as-trump-scraps-talks/",
+      "publishedAt": "2026-04-26T12:45:12Z",
+      "excerpt": "By Saad Sayeed, Ariba Shahid and Steve Holland ISLAMABAD/WASHINGTON, April 26 (Reuters) \u2013 Hopes of a diplomatic breakthrough in the U.S.-Israeli war with Iran faded on Sunday, as efforts to revive talks stalled and...",
+      "tags": [
+        "Maritime",
+        "Operations"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [],
+      "priorityScore": 2,
+      "priorityBand": "low",
+      "priorityReasons": [],
+      "boardBucket": "Other Relevant"
+    },
+    {
       "id": "b70ababd94cdce87",
       "title": "US Says Navy Intercepted Iran-Linked Vessel in Arabian Sea",
       "source": "gCaptain",
@@ -3788,28 +3876,6 @@ window.__DASHBOARD_DATA__ = {
       "priorityReasons": [
         "Signal: Energy Transition"
       ],
-      "boardBucket": "Other Relevant"
-    },
-    {
-      "id": "c5f2c67558283565",
-      "title": "Iran Conflict Premium Fades From Asia-Europe Box Rates",
-      "source": "gCaptain",
-      "sourceId": "gcaptain",
-      "url": "https://gcaptain.com/iran-conflict-premium-fades-from-asia-europe-box-rates/",
-      "publishedAt": "2026-04-24T17:32:42Z",
-      "excerpt": "Container freight spot rates on the Asia-Europe trades largely returned to pre-Iran conflict levels this week, as container supply chains settled after the war\u2019s outbreak and settled into what appears to be the normal seasonal slowdown.",
-      "tags": [
-        "Maritime",
-        "Operations"
-      ],
-      "audience": "Multraship",
-      "paywalled": true,
-      "entities": [],
-      "locations": [],
-      "businessTags": [],
-      "priorityScore": 2,
-      "priorityBand": "low",
-      "priorityReasons": [],
       "boardBucket": "Other Relevant"
     },
     {
@@ -4885,28 +4951,6 @@ window.__DASHBOARD_DATA__ = {
       "boardBucket": "Other Relevant"
     },
     {
-      "id": "6ca83db3fb987f91",
-      "title": "Government provides up to \u00a364M for Port Talbot floating wind hub",
-      "source": "Riviera: Ports & Terminals",
-      "sourceId": "riviera-ports",
-      "url": "https://www.rivieramm.com/news-content-hub/government-provides-up-to-64m-for-port-talbot-floating-wind-hub-88297",
-      "publishedAt": "2026-03-27T12:26:35Z",
-      "excerpt": "Funding will enable development of first port in the Celtic Sea that will support floating offshore wind",
-      "tags": [
-        "Ports",
-        "Terminals"
-      ],
-      "audience": "Multraship",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [],
-      "priorityScore": 2,
-      "priorityBand": "low",
-      "priorityReasons": [],
-      "boardBucket": "Other Relevant"
-    },
-    {
       "id": "b3305f839db7ba97",
       "title": "Disney and Port of San Diego Extend Homeport Through At Least 2031",
       "source": "The Maritime Executive",
@@ -4936,28 +4980,6 @@ window.__DASHBOARD_DATA__ = {
       "url": "https://maritime-executive.com/article/birdon-america-and-mythos-ai-jointly-pursuing-u-s-navy-musv-opportunities",
       "publishedAt": "2026-04-25T17:51:56Z",
       "excerpt": "Birdon America and Mythos AI yesterday announced the signing of a memorandum of understanding at Sea-Air-Space 2026 to collaborate on the development...",
-      "tags": [
-        "Maritime",
-        "News"
-      ],
-      "audience": "Both",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [],
-      "priorityScore": 1,
-      "priorityBand": "low",
-      "priorityReasons": [],
-      "boardBucket": "Other Relevant"
-    },
-    {
-      "id": "40b2b628f96349a4",
-      "title": "The Maritime Executive's Annual Energy Edition is Now Available Online",
-      "source": "The Maritime Executive",
-      "sourceId": "maritime-executive",
-      "url": "https://maritime-executive.com/article/the-maritime-executive-s-annual-energy-edition-is-now-available-online",
-      "publishedAt": "2026-04-25T00:29:38Z",
-      "excerpt": "\u201cStrait Outa Compton\"That's the witty title of View From the E.U. columnist Erik Kravets' tongue-in-cheek comparison of N.W.A's hip-hop hit from 198...",
       "tags": [
         "Maritime",
         "News"
