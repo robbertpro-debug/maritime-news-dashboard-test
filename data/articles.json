@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-04-27T20:06:46.756214Z",
+  "generatedAt": "2026-04-27T21:33:47.184122Z",
   "lookbackDays": 30,
-  "cutoffAt": "2026-03-28T20:06:46.756214Z",
+  "cutoffAt": "2026-03-28T21:33:47.184122Z",
   "articleCount": 180,
   "sourceCount": 100,
   "sources": [
@@ -10,7 +10,7 @@
     "Boskalis News",
     "DFDS News",
     "Damen Shipyards News",
-    "Damen Yachting News",
+    "Inchcape Shipping Services News",
     "Maersk Tankers News",
     "MarineLink",
     "Mesh Maritime News",
@@ -59,6 +59,7 @@
     "Regulation",
     "Safety",
     "Salvage",
+    "Ship-Agency",
     "Shipbuilding",
     "Shipping",
     "Supplier",
@@ -67,8 +68,7 @@
     "Technology",
     "Terminals",
     "Towage",
-    "Workboats",
-    "Yachting"
+    "Workboats"
   ],
   "locations": [
     "Rotterdam"
@@ -436,40 +436,6 @@
       "boardBucket": "High Priority"
     },
     {
-      "id": "3d1052733726e658",
-      "title": "Six Search and Rescue Boats from Damen Shipyards Antalya - Defence Turkey",
-      "source": "Damen Shipyards News",
-      "sourceId": "bing-damen",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNQTVERF9GWlMwd04zSVFaaWhRUW12OEJ2aVZXeEZjV1ZMNXowTkYtM3lqMDZfM0FwWjdtZlZYLU8yWHlJWXh1dG1mNmZEUUd5VmVmUnpJZllPQjgtN3FaNXlkX0xObi1OVFd1NC1id1VpSGY3QWYtSmtzOXJsaEZaVjlMdUFQTFE4NlBCSWxGWEd2TTQ?oc=5",
-      "publishedAt": "2026-04-06T07:00:00Z",
-      "excerpt": "Six Search and Rescue Boats from Damen Shipyards Antalya Defence Turkey",
-      "tags": [
-        "Salvage",
-        "Shipbuilding",
-        "Supplier"
-      ],
-      "audience": "Multraship",
-      "paywalled": false,
-      "entities": [
-        {
-          "name": "Damen Shipyards Group",
-          "category": "suppliers"
-        }
-      ],
-      "locations": [],
-      "businessTags": [
-        "Supplier",
-        "Incident"
-      ],
-      "priorityScore": 9,
-      "priorityBand": "high",
-      "priorityReasons": [
-        "Supplier mention: Damen Shipyards Group",
-        "Signal: Incident"
-      ],
-      "boardBucket": "High Priority"
-    },
-    {
       "id": "9daaed89fcad4bc0",
       "title": "TotalEnergies Greenlights Battery-Backed Wind Project in Kazakhstan",
       "source": "Rigzone",
@@ -690,39 +656,6 @@
         "Signal: Infrastructure"
       ],
       "boardBucket": "Regulation, Safety & Incidents"
-    },
-    {
-      "id": "dc9111ac70da9bcd",
-      "title": "Archer secures $320m Equinor contract extension",
-      "source": "Splash247",
-      "sourceId": "splash247",
-      "url": "https://splash247.com/archer-secures-320m-equinor-contract-extension/",
-      "publishedAt": "2026-04-27T02:40:00Z",
-      "excerpt": "Norwegian offshore service provider Archer has been awarded a three-year contract extension by Equinor to provide wireline and intervention services on the Norwegian Continental Shelf. The contract extension builds on the integrated wireli\u2026",
-      "tags": [
-        "Maritime",
-        "News"
-      ],
-      "audience": "Both",
-      "paywalled": false,
-      "entities": [
-        {
-          "name": "Equinor",
-          "category": "clients"
-        }
-      ],
-      "locations": [],
-      "businessTags": [
-        "Client",
-        "Commercial"
-      ],
-      "priorityScore": 7,
-      "priorityBand": "medium",
-      "priorityReasons": [
-        "Client mention: Equinor",
-        "Signal: Commercial"
-      ],
-      "boardBucket": "Clients & Projects"
     },
     {
       "id": "6b42949ec3379f0c",
@@ -1214,6 +1147,36 @@
         "Signal: Incident"
       ],
       "boardBucket": "Regulation, Safety & Incidents"
+    },
+    {
+      "id": "95f0c9b1ba12628d",
+      "title": "Inchcape to participate in Posidonia Shipping Forum 2019 in Athens - Tornos News",
+      "source": "Inchcape Shipping Services News",
+      "sourceId": "bing-inchcape",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNNW5IZmRhdUtlRmg4YTRhSVVrbEoxeHVwMkhlOGluTVdoeFljanlaSVBiMUdITUdOMlFMZHVSZng3UEZlV0h1aVR0ZlhsR0NZcFZfWWRqNnpucHgzMTNzdlA3ZDUyMTMzOEdUNzd3M3B3aUJaZkM4by1iTDlNeHpXU3daNkE3S21qSVRjNkMzNDI3Z1pEMl82cExqR2NUdjRRMl92aDRqd2kzTDRtZVJzQnFnOGQ1dE0?oc=5",
+      "publishedAt": "2026-04-20T01:30:55Z",
+      "excerpt": "Inchcape to participate in Posidonia Shipping Forum 2019 in Athens Tornos News",
+      "tags": [
+        "Ship-Agency"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [
+        {
+          "name": "Inchcape Shipping Services",
+          "category": "clients"
+        }
+      ],
+      "locations": [],
+      "businessTags": [
+        "Client"
+      ],
+      "priorityScore": 6,
+      "priorityBand": "medium",
+      "priorityReasons": [
+        "Client mention: Inchcape Shipping Services"
+      ],
+      "boardBucket": "Clients & Projects"
     },
     {
       "id": "aa3428c26ff33669",
@@ -1717,6 +1680,35 @@
       "boardBucket": "Regulation, Safety & Incidents"
     },
     {
+      "id": "9c88e0ea56726998",
+      "title": "Ulsan Port Claims World\u2019s First Ammonia Bunkering in Alternative Fuel Milestone",
+      "source": "gCaptain",
+      "sourceId": "gcaptain",
+      "url": "https://gcaptain.com/ulsan-port-claims-worlds-first-ammonia-bunkering-in-alternative-fuel-milestone/",
+      "publishedAt": "2026-04-27T20:20:40Z",
+      "excerpt": "South Korea\u2019s Ulsan Port Authority said it has completed what it describes as the world\u2019s first port-to-ship ammonia bunkering operation for a commercial vessel, marking a new step in shipping\u2019s search for scalable zero-carbon fuels.",
+      "tags": [
+        "Clean Propulsion",
+        "Maritime",
+        "Operations"
+      ],
+      "audience": "Novatug",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [
+        "Regulation",
+        "Energy Transition"
+      ],
+      "priorityScore": 5,
+      "priorityBand": "medium",
+      "priorityReasons": [
+        "Signal: Regulation",
+        "Signal: Energy Transition"
+      ],
+      "boardBucket": "Regulation, Safety & Incidents"
+    },
+    {
       "id": "4a435685261190cf",
       "title": "Ukraine warns Israel against receiving ship with \"stolen\" grain from occupied territory",
       "source": "Baird Maritime",
@@ -2071,36 +2063,6 @@
       "boardBucket": "Regulation, Safety & Incidents"
     },
     {
-      "id": "3e96849d8f73e1da",
-      "title": "From Fossil Fuels to Shore Power With the Port of San Diego",
-      "source": "The Maritime Executive",
-      "sourceId": "maritime-executive",
-      "url": "https://maritime-executive.com/article/from-fossil-fuels-to-shore-power-at-the-port-of-san-diego",
-      "publishedAt": "2026-04-22T23:44:00Z",
-      "excerpt": "The maritime industry has evolved to integrate renewable energy, emissions reduction strategies, and eco-efficiency within every aspect of its operati...",
-      "tags": [
-        "Electrification",
-        "Decarbonization",
-        "Maritime",
-        "News"
-      ],
-      "audience": "Novatug",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [
-        "Infrastructure",
-        "Energy Transition"
-      ],
-      "priorityScore": 5,
-      "priorityBand": "medium",
-      "priorityReasons": [
-        "Signal: Infrastructure",
-        "Signal: Energy Transition"
-      ],
-      "boardBucket": "Regulation, Safety & Incidents"
-    },
-    {
       "id": "529c8ee46e22b2c7",
       "title": "Van Oord accelerates offshore wind in Poland",
       "source": "SWZ Maritime",
@@ -2366,38 +2328,6 @@
         "Client mention: TotalEnergies"
       ],
       "boardBucket": "Clients & Projects"
-    },
-    {
-      "id": "9c4e9d4556cd3bed",
-      "title": "Damen launches advanced NRP D. Jo\u00e3o II multi-purpose vessel for Portuguese Navy - Defence Industry Europe",
-      "source": "Damen Shipyards News",
-      "sourceId": "bing-damen",
-      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQYWRrNEhGTzFFWFRvLW8tZXZDaEhOQUw2TFF2ejE1UkQ3WWJ4b1lnVmswR0ptNHNtRVNmT2RobzEzSWZ5Mm5RODRybTBIXzJZTFNvb1ZOc0E0TXBfMWtCc19aMWhzVHRiMWx1bUZQR1gxSTFfX1lZVnFKMTRyWUxiUFZpR0NtQXgxVjJPVlJzbEVpOWVuaDl0b0JvamtqbHU3bVpWT0xEWW52cV9COVJEWEp5eUVSZF9iU3V3aWFENEFZUU1sLUNWS3BWSFFpeDcxdzltRElXM1c5OGRMdVQ4?oc=5",
-      "publishedAt": "2026-04-08T07:00:00Z",
-      "excerpt": "Damen launches advanced NRP D. Jo\u00e3o II multi-purpose vessel for Portuguese Navy Defence Industry Europe",
-      "tags": [
-        "Towage",
-        "Shipbuilding",
-        "Supplier"
-      ],
-      "audience": "Multraship",
-      "paywalled": false,
-      "entities": [
-        {
-          "name": "Damen Shipyards Group",
-          "category": "suppliers"
-        }
-      ],
-      "locations": [],
-      "businessTags": [
-        "Supplier"
-      ],
-      "priorityScore": 5,
-      "priorityBand": "medium",
-      "priorityReasons": [
-        "Supplier mention: Damen Shipyards Group"
-      ],
-      "boardBucket": "Other Relevant"
     },
     {
       "id": "fe2e08cbdbd1725c",
@@ -2879,37 +2809,6 @@
       "boardBucket": "Regulation, Safety & Incidents"
     },
     {
-      "id": "12bee263e638b827",
-      "title": "BV Opens New Offshore Center of Excellence in the Asia-Pacific",
-      "source": "The Maritime Executive",
-      "sourceId": "maritime-executive",
-      "url": "https://maritime-executive.com/article/bv-opens-new-offshore-center-of-excellence-in-the-asia-pacific",
-      "publishedAt": "2026-04-23T01:46:00Z",
-      "excerpt": "[By BV]Bureau Veritas Marine & Offshore (BV), a global leader in Testing, Inspection and Certification (TIC), has announced the launch of its Offshor...",
-      "tags": [
-        "Maritime",
-        "News"
-      ],
-      "audience": "Both",
-      "paywalled": false,
-      "entities": [
-        {
-          "name": "Bureau Veritas",
-          "category": "suppliers"
-        }
-      ],
-      "locations": [],
-      "businessTags": [
-        "Supplier"
-      ],
-      "priorityScore": 4,
-      "priorityBand": "medium",
-      "priorityReasons": [
-        "Supplier mention: Bureau Veritas"
-      ],
-      "boardBucket": "Other Relevant"
-    },
-    {
       "id": "4ab2f1dcd95bfe35",
       "title": "W\u00e4rtsil\u00e4 launches next-generation simulation platform to support future-ready maritime training - W\u00e4rtsil\u00e4",
       "source": "W\u00e4rtsil\u00e4 News",
@@ -3262,6 +3161,58 @@
       "boardBucket": "Regulation, Safety & Incidents"
     },
     {
+      "id": "3a599ad31ffcf603",
+      "title": "U.S. Agrees to Deal to Cancel Two More Offshore Wind Farm Leases",
+      "source": "The Maritime Executive",
+      "sourceId": "maritime-executive",
+      "url": "https://maritime-executive.com/article/u-s-agrees-to-deal-to-cancel-two-more-offshore-wind-farm-leases",
+      "publishedAt": "2026-04-27T21:22:55Z",
+      "excerpt": "The U.S. Department of the Interior announced today that it has reached agreements to redirect the planned investment for two offshore wind farm proj...",
+      "tags": [
+        "Maritime",
+        "News"
+      ],
+      "audience": "Both",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [
+        "Commercial"
+      ],
+      "priorityScore": 3,
+      "priorityBand": "low",
+      "priorityReasons": [
+        "Signal: Commercial"
+      ],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "cb5f1c8a397f175f",
+      "title": "US Government to End Two Offshore Wind Leases",
+      "source": "MarineLink",
+      "sourceId": "marinelink",
+      "url": "https://www.marinelink.com/news/us-government-end-two-offshore-wind-538511",
+      "publishedAt": "2026-04-27T19:50:30Z",
+      "excerpt": "The U.S. Interior Department said on Monday that it had reached a deal to end two offshore wind leases off the coasts of New Jersey and California.Both projects are managed by Ocean Winds, a joint venture between ENGIE and EDP Renewables.(\u2026",
+      "tags": [
+        "Maritime",
+        "Industry"
+      ],
+      "audience": "Both",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [
+        "Commercial"
+      ],
+      "priorityScore": 3,
+      "priorityBand": "low",
+      "priorityReasons": [
+        "Signal: Commercial"
+      ],
+      "boardBucket": "Other Relevant"
+    },
+    {
       "id": "915bd3800ef70984",
       "title": "BP Emerges as Top Big Oil Stock During Iran War",
       "source": "Rigzone",
@@ -3457,6 +3408,50 @@
       "priorityReasons": [
         "Signal: Commercial"
       ],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "df62b0b35917aa9e",
+      "title": "Trump Expands Offshore Wind Buyout Strategy With New Deals Steering Capital Into LNG and Oil",
+      "source": "gCaptain",
+      "sourceId": "gcaptain",
+      "url": "https://gcaptain.com/trump-expands-offshore-wind-buyout-strategy-with-new-deals-steering-capital-into-lng-and-oil/",
+      "publishedAt": "2026-04-27T20:12:49Z",
+      "excerpt": "The Trump administration has expanded its newfound strategy of unwinding offshore wind development through negotiated buyouts, announcing two new agreements that will see two projects give up federal offshore leases...",
+      "tags": [
+        "Maritime",
+        "Operations"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [],
+      "priorityScore": 2,
+      "priorityBand": "low",
+      "priorityReasons": [],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "d09ab9e481a792e0",
+      "title": "Deep-sea miner American Ocean Minerals deploys vessel for scientific research post-Odyssey merger",
+      "source": "Baird Maritime",
+      "sourceId": "baird-maritime",
+      "url": "https://www.bairdmaritime.com/offshore/undersea-mining/deep-sea-miner-american-ocean-minerals-deploys-vessel-for-scientific-research-post-odyssey-merger",
+      "publishedAt": "2026-04-27T19:49:31Z",
+      "excerpt": "American Ocean Minerals Corporation (AOMC) has deployed the Anuanua Moana to conduct scientific research in its deep-sea exploration areas around the Cook Islands. The development follows a merger agreement between the company and Odyssey\u2026",
+      "tags": [
+        "Workboats",
+        "Technology"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [],
+      "priorityScore": 2,
+      "priorityBand": "low",
+      "priorityReasons": [],
       "boardBucket": "Other Relevant"
     },
     {
@@ -4023,28 +4018,6 @@
       "boardBucket": "Other Relevant"
     },
     {
-      "id": "31e7448d15eb18db",
-      "title": "Iran War Leaves Seafarers Stranded In The Gulf",
-      "source": "gCaptain",
-      "sourceId": "gcaptain",
-      "url": "https://gcaptain.com/iran-war-leaves-seafarers-stranded-in-the-gulf/",
-      "publishedAt": "2026-04-26T00:46:54Z",
-      "excerpt": "By Saurabh Sharma NEW DELHI, April 24 (Reuters) \u2013 Ankit Yadav, a seafarer from India, has been stuck on a boat at an inland Iranian port for about 2-1/2 weeks, surviving with...",
-      "tags": [
-        "Maritime",
-        "Operations"
-      ],
-      "audience": "Multraship",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [],
-      "priorityScore": 2,
-      "priorityBand": "low",
-      "priorityReasons": [],
-      "boardBucket": "Other Relevant"
-    },
-    {
       "id": "86e60f89afa156c6",
       "title": "PORT ELIZABETH SHIP MOVEMENTS",
       "source": "Africa Ports & Ships",
@@ -4112,16 +4085,16 @@
       "boardBucket": "Other Relevant"
     },
     {
-      "id": "25b05c5ae4d16af5",
-      "title": "Strait of Hormuz Remains Near-Empty With Just A Few Iran Ships Moving",
-      "source": "gCaptain",
-      "sourceId": "gcaptain",
-      "url": "https://gcaptain.com/strait-of-hormuz-remains-near-empty-with-just-a-few-iran-ships-moving/",
-      "publishedAt": "2026-04-25T18:01:40Z",
-      "excerpt": "By Prejula Prem and Julian Lee Apr 25, 2026 (Bloomberg) \u2013The Strait of Hormuz remains largely empty of merchant ships, with only a few Tehran-linked vessels moving through the waterway, following...",
+      "id": "e8ce220faa796c9f",
+      "title": "Spliethoff Group Hires Fuel Procurement Manager in Amsterdam - Ship & Bunker",
+      "source": "Oldendorff Carriers News",
+      "sourceId": "bing-oldendorff",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNdm55bzlhRUhma25kZGhGQU5QM21MOXVheHFBMjB1cmhheGlGbjQxdVZ2eUdrYTN1Y2pCbEVQUUlqOThBbTY2RWx5cUU1ZzlKc1lYLVBRa1Q3WlpKOWFMS2h6YXJIMlpXb09HNkZESkI0UC1qMW9hcm1GVXlKX1Z3M1I5bVN2MHBZZndTUVZIZGtGaW16UGpiTUlISnR3Nk1HTmxTcmR3?oc=5",
+      "publishedAt": "2026-04-24T13:45:36Z",
+      "excerpt": "Spliethoff Group Hires Fuel Procurement Manager in Amsterdam Ship & Bunker",
       "tags": [
-        "Maritime",
-        "Operations"
+        "Shipping",
+        "Bulk"
       ],
       "audience": "Multraship",
       "paywalled": false,
@@ -4131,32 +4104,6 @@
       "priorityScore": 2,
       "priorityBand": "low",
       "priorityReasons": [],
-      "boardBucket": "Other Relevant"
-    },
-    {
-      "id": "2883135800b5472d",
-      "title": "EIV Capital Raises $1.1B for New Oil and Gas Funds",
-      "source": "Rigzone",
-      "sourceId": "rigzone-latest",
-      "url": "https://www.rigzone.com/news/eiv_capital_raises_11b_for_new_oil_and_gas_funds-24-apr-2026-183527-article/?rss=true",
-      "publishedAt": "2026-04-24T06:30:01Z",
-      "excerpt": "The Houston-based private equity firm completed a capital raise to launch two oil and gas investment funds, attracting a total of around $1.1 billion.",
-      "tags": [
-        "Offshore",
-        "Energy"
-      ],
-      "audience": "Novatug",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [
-        "Commercial"
-      ],
-      "priorityScore": 2,
-      "priorityBand": "low",
-      "priorityReasons": [
-        "Signal: Commercial"
-      ],
       "boardBucket": "Other Relevant"
     },
     {
@@ -4237,27 +4184,6 @@
       "tags": [
         "Safety",
         "Incidents"
-      ],
-      "audience": "Multraship",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [],
-      "priorityScore": 2,
-      "priorityBand": "low",
-      "priorityReasons": [],
-      "boardBucket": "Other Relevant"
-    },
-    {
-      "id": "1fa2534e42c6f2be",
-      "title": "Amels 80 NETTO II Begins North Sea Trials Ahead of Summer Delivery - Superyachts.com",
-      "source": "Damen Yachting News",
-      "sourceId": "bing-damen-yachting",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPS2E1THZhT2pRRUhvNDNNZTFVYjBOZE5nT0xLU2MtRkNkY1d0SE1paVNmdzU1NmE0d2FHY09XaVpNNll0eFZqWlJBbWJaMkhxMFRwbXdfX3ZlUU53Sk0wS181dU9xVkJ1eTdEZ3RpamtpUElaaUpGUWltbTFBbUFqbEdVTVEwVHp5ZnZkb0JBWU9uaDNFMEJla2xZUm1uaWNwN2NvSVhVRGIyQWRialJpYnNXR2pqaTg?oc=5",
-      "publishedAt": "2026-04-21T07:00:00Z",
-      "excerpt": "Amels 80 NETTO II Begins North Sea Trials Ahead of Summer Delivery Superyachts.com",
-      "tags": [
-        "Yachting"
       ],
       "audience": "Multraship",
       "paywalled": false,
@@ -4943,6 +4869,50 @@
       "locations": [],
       "businessTags": [],
       "priorityScore": 2,
+      "priorityBand": "low",
+      "priorityReasons": [],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "1eb1179c5ef4e17e",
+      "title": "US Navy Wants to Spend $2B on Foreign Shipbuilding \"Study and Procurement\"",
+      "source": "The Maritime Executive",
+      "sourceId": "maritime-executive",
+      "url": "https://maritime-executive.com/article/us-navy-wants-to-spend-2b-on-foreign-shipbuilding-study-and-procurement",
+      "publishedAt": "2026-04-27T21:16:34Z",
+      "excerpt": "The U.S. Navy's next annual budget is going to contain an unheard-of line item: a pair of multibillion-dollar studies of foreign shipbuilding options...",
+      "tags": [
+        "Maritime",
+        "News"
+      ],
+      "audience": "Both",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [],
+      "priorityScore": 1,
+      "priorityBand": "low",
+      "priorityReasons": [],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "a459ceda830cfac4",
+      "title": "Fujian Highton ramps up MPP push with fresh newbuilds",
+      "source": "Splash247",
+      "sourceId": "splash247",
+      "url": "https://splash247.com/fujian-highton-ramps-up-mpp-push-with-fresh-newbuilds/",
+      "publishedAt": "2026-04-27T21:02:00Z",
+      "excerpt": "Chinese owner Fujian Highton Development is stepping up its move into the multipurpose and heavylift segment, placing fresh orders for four vessels as it works towards building a 100-ship fleet. The Shanghai-listed company said its wholly\u2026",
+      "tags": [
+        "Maritime",
+        "News"
+      ],
+      "audience": "Both",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [],
+      "priorityScore": 1,
       "priorityBand": "low",
       "priorityReasons": [],
       "boardBucket": "Other Relevant"
