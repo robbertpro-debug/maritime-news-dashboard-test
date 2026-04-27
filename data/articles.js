@@ -1,14 +1,13 @@
 window.__DASHBOARD_DATA__ = {
-  "generatedAt": "2026-04-27T04:06:29.525417Z",
+  "generatedAt": "2026-04-27T07:13:40.102366Z",
   "lookbackDays": 30,
-  "cutoffAt": "2026-03-28T04:06:29.525417Z",
+  "cutoffAt": "2026-03-28T07:13:40.102366Z",
   "articleCount": 180,
   "sourceCount": 100,
   "sources": [
     "Africa Ports & Ships",
     "Baird Maritime",
     "Boskalis News",
-    "DEME Group News",
     "DFDS News",
     "Damen Shipyards News",
     "Hellenic Shipping News",
@@ -53,7 +52,6 @@ window.__DASHBOARD_DATA__ = {
     "Heavy-Lift",
     "Incidents",
     "Industry",
-    "Marine-Construction",
     "Maritime",
     "Markets",
     "Netherlands",
@@ -640,6 +638,39 @@ window.__DASHBOARD_DATA__ = {
       "boardBucket": "Regulation, Safety & Incidents"
     },
     {
+      "id": "dc9111ac70da9bcd",
+      "title": "Archer secures $320m Equinor contract extension",
+      "source": "Splash247",
+      "sourceId": "splash247",
+      "url": "https://splash247.com/archer-secures-320m-equinor-contract-extension/",
+      "publishedAt": "2026-04-27T02:40:00Z",
+      "excerpt": "Norwegian offshore service provider Archer has been awarded a three-year contract extension by Equinor to provide wireline and intervention services on the Norwegian Continental Shelf. The contract extension builds on the integrated wireli\u2026",
+      "tags": [
+        "Maritime",
+        "News"
+      ],
+      "audience": "Both",
+      "paywalled": false,
+      "entities": [
+        {
+          "name": "Equinor",
+          "category": "clients"
+        }
+      ],
+      "locations": [],
+      "businessTags": [
+        "Client",
+        "Commercial"
+      ],
+      "priorityScore": 7,
+      "priorityBand": "medium",
+      "priorityReasons": [
+        "Client mention: Equinor",
+        "Signal: Commercial"
+      ],
+      "boardBucket": "Clients & Projects"
+    },
+    {
       "id": "06bd8b9257b55370",
       "title": "Gulf LNG Tugs welcomes new tug at Texas terminal",
       "source": "Riviera: Ports & Terminals",
@@ -669,6 +700,69 @@ window.__DASHBOARD_DATA__ = {
       "boardBucket": "Regulation, Safety & Incidents"
     },
     {
+      "id": "924d8406b3b6e324",
+      "title": "Towage giant Boluda snaps up Seatrium assets in Singapore",
+      "source": "Splash247",
+      "sourceId": "splash247",
+      "url": "https://splash247.com/towage-giant-boluda-snaps-up-seatrium-assets-in-singapore/",
+      "publishedAt": "2026-04-27T05:00:00Z",
+      "excerpt": "European towage heavyweight Boluda has moved to strengthen its position in Southeast Asia, taking over tug assets and towage operations from Singapore\u2019s Seatrium Group in one of the world\u2019s busiest port hubs. The deal hands Boluda control\u2026",
+      "tags": [
+        "Towage",
+        "Maritime",
+        "News"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [
+        {
+          "name": "Boluda Towage",
+          "category": "competitors"
+        }
+      ],
+      "locations": [],
+      "businessTags": [
+        "Competitor"
+      ],
+      "priorityScore": 6,
+      "priorityBand": "medium",
+      "priorityReasons": [
+        "Competitor mention: Boluda Towage"
+      ],
+      "boardBucket": "Competitors & Market"
+    },
+    {
+      "id": "85f99b0bd88a42a3",
+      "title": "Jan De Nul unveils name of new trenching support vessel",
+      "source": "Baird Maritime",
+      "sourceId": "baird-maritime",
+      "url": "https://www.bairdmaritime.com/offshore/exploration-development/offshore-construction/jan-de-nul-unveils-name-of-new-trenching-support-vessel",
+      "publishedAt": "2026-04-27T04:33:40Z",
+      "excerpt": "Jan De Nul has confirmed that its newest trenching support vessel will be named Isambard K. Brunel after a famed British engineer from the 19th century. The vessel will be one of two large platforms that will be used for the installation o\u2026",
+      "tags": [
+        "Workboats",
+        "Technology"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [
+        {
+          "name": "Jan De Nul",
+          "category": "clients"
+        }
+      ],
+      "locations": [],
+      "businessTags": [
+        "Client"
+      ],
+      "priorityScore": 6,
+      "priorityBand": "medium",
+      "priorityReasons": [
+        "Client mention: Jan De Nul"
+      ],
+      "boardBucket": "Clients & Projects"
+    },
+    {
       "id": "6c1b97022a960d31",
       "title": "Singapore MPA Renews Partnership with Shanghai Maritime University",
       "source": "MarineLink",
@@ -695,38 +789,6 @@ window.__DASHBOARD_DATA__ = {
         "Signal: Commercial"
       ],
       "boardBucket": "Regulation, Safety & Incidents"
-    },
-    {
-      "id": "924d8406b3b6e324",
-      "title": "Towage giant Boluda snaps up Seatrium assets in Singapore",
-      "source": "Splash247",
-      "sourceId": "splash247",
-      "url": "https://splash247.com/towage-giant-boluda-snaps-up-seatrium-assets-in-singapore/",
-      "publishedAt": "2026-04-26T22:35:00Z",
-      "excerpt": "European towage heavyweight Boluda has moved to strengthen its position in Southeast Asia, taking over tug assets and towage operations from Singapore\u2019s Seatrium Group in one of the world\u2019s busiest port hubs. The deal hands Boluda control\u2026",
-      "tags": [
-        "Towage",
-        "Maritime",
-        "News"
-      ],
-      "audience": "Multraship",
-      "paywalled": false,
-      "entities": [
-        {
-          "name": "Boluda Towage",
-          "category": "competitors"
-        }
-      ],
-      "locations": [],
-      "businessTags": [
-        "Competitor"
-      ],
-      "priorityScore": 6,
-      "priorityBand": "medium",
-      "priorityReasons": [
-        "Competitor mention: Boluda Towage"
-      ],
-      "boardBucket": "Competitors & Market"
     },
     {
       "id": "e214e6d281be1a29",
@@ -784,40 +846,6 @@ window.__DASHBOARD_DATA__ = {
         "Client mention: TotalEnergies"
       ],
       "boardBucket": "Clients & Projects"
-    },
-    {
-      "id": "31a9fc7f646f7089",
-      "title": "W\u00e4rtsil\u00e4 boosts ammonia engine with increased power - Inspenet",
-      "source": "W\u00e4rtsil\u00e4 News",
-      "sourceId": "bing-wartsila",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOY2pwQThCVTBFQU55Q3luX0U5RE1iLWR6WnpkV2pERXF0aF9Ic1lpZzUtZ3dLcnRwNjlGUTRPYVhZdXFqSnp0ZzYzb2xoanhQcW5idTZpcDl3RmdHVEU5QXFIRWtFS3Y0LWpldmdDdTc4cWRRTGRRVmpnWGVVYWloRDE3RXNjbm12Ung0MUR1QXp2NjBB?oc=5",
-      "publishedAt": "2026-04-24T18:30:00Z",
-      "excerpt": "W\u00e4rtsil\u00e4 boosts ammonia engine with increased power Inspenet",
-      "tags": [
-        "Clean Propulsion",
-        "Propulsion",
-        "Technology"
-      ],
-      "audience": "Both",
-      "paywalled": false,
-      "entities": [
-        {
-          "name": "W\u00e4rtsil\u00e4",
-          "category": "suppliers"
-        }
-      ],
-      "locations": [],
-      "businessTags": [
-        "Supplier",
-        "Energy Transition"
-      ],
-      "priorityScore": 6,
-      "priorityBand": "medium",
-      "priorityReasons": [
-        "Supplier mention: W\u00e4rtsil\u00e4",
-        "Signal: Energy Transition"
-      ],
-      "boardBucket": "Other Relevant"
     },
     {
       "id": "104a7422ffa4ff4d",
@@ -1029,34 +1057,6 @@ window.__DASHBOARD_DATA__ = {
       "priorityBand": "medium",
       "priorityReasons": [
         "Signal: Incident"
-      ],
-      "boardBucket": "Regulation, Safety & Incidents"
-    },
-    {
-      "id": "7309259a90cf395d",
-      "title": "HD Hyundai Finalizes Its First International Contract for an Icebreaker",
-      "source": "The Maritime Executive",
-      "sourceId": "maritime-executive",
-      "url": "https://maritime-executive.com/article/hd-hyundai-finalizes-its-first-international-contract-for-an-icebreaker",
-      "publishedAt": "2026-04-22T21:17:06Z",
-      "excerpt": "The Swedish Maritime Authority and HD Hyundai Heavy Industries completed the contract for the construction of a new icebreaker to support operations...",
-      "tags": [
-        "Maritime",
-        "News"
-      ],
-      "audience": "Both",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [
-        "Regulation",
-        "Commercial"
-      ],
-      "priorityScore": 6,
-      "priorityBand": "medium",
-      "priorityReasons": [
-        "Signal: Regulation",
-        "Signal: Commercial"
       ],
       "boardBucket": "Regulation, Safety & Incidents"
     },
@@ -1471,11 +1471,11 @@ window.__DASHBOARD_DATA__ = {
       "boardBucket": "Clients & Projects"
     },
     {
-      "id": "47f78287f3d491b3",
+      "id": "956b608c3fc3878b",
       "title": "Norwegian co to supply 18 big waterjet systems for Indian Navy's next-gen missile vessel project",
       "source": "Kongsberg Maritime News",
       "sourceId": "bing-kongsberg",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=69eee0cc3e884cb4942a0fb2ad77b478&url=https%3a%2f%2fwww.msn.com%2fen-in%2fnews%2fother%2fnorwegian-co-to-supply-18-big-waterjet-systems-for-indian-navy-s-next-gen-missile-vessel-project%2far-AA20Nuet&c=4609846177532778353&mkt=en-us",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=69ef0cab7dbe436285611233a44e13e6&url=https%3a%2f%2fwww.msn.com%2fen-in%2fnews%2fother%2fnorwegian-co-to-supply-18-big-waterjet-systems-for-indian-navy-s-next-gen-missile-vessel-project%2far-AA20Nuet&c=4609846177532778353&mkt=en-us",
       "publishedAt": "2026-04-13T16:47:00Z",
       "excerpt": "India's Navy is set to receive 18 advanced Kamewa waterjet propulsion systems from Norway's Kongsberg Maritime for its new missile vessels. This significant contract, awarded in partnership with ...",
       "tags": [
@@ -1503,37 +1503,6 @@ window.__DASHBOARD_DATA__ = {
         "Signal: Commercial"
       ],
       "boardBucket": "Other Relevant"
-    },
-    {
-      "id": "49f20887a9062f57",
-      "title": "Deme Group NV MT0",
-      "source": "DEME Group News",
-      "sourceId": "bing-deme",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=69eee0cd315b4d9994d2b660bb21629c&url=https%3a%2f%2fwww.morningstar.com%2fstocks%2fxstu%2fmt0%2fquote&c=702618500465205373&mkt=en-us",
-      "publishedAt": "2026-04-10T05:55:00Z",
-      "excerpt": "Morningstar Quantitative Ratings for Stocks are generated using an algorithm that compares companies that are not under analyst coverage to peer companies that do receive analyst-driven ratings.",
-      "tags": [
-        "Offshore",
-        "Marine-Construction"
-      ],
-      "audience": "Multraship",
-      "paywalled": false,
-      "entities": [
-        {
-          "name": "DEME Group",
-          "category": "clients"
-        }
-      ],
-      "locations": [],
-      "businessTags": [
-        "Client"
-      ],
-      "priorityScore": 6,
-      "priorityBand": "medium",
-      "priorityReasons": [
-        "Client mention: DEME Group"
-      ],
-      "boardBucket": "Clients & Projects"
     },
     {
       "id": "8c15e609326590e5",
@@ -1853,7 +1822,7 @@ window.__DASHBOARD_DATA__ = {
       "source": "Splash247",
       "sourceId": "splash247",
       "url": "https://splash247.com/qatar-lng-faces-long-road-back-after-unprecedented-disruption/",
-      "publishedAt": "2026-04-27T00:56:00Z",
+      "publishedAt": "2026-04-27T06:50:00Z",
       "excerpt": "Qatar\u2019s LNG export machine has suffered its most severe disruption in more than two decades, with analysts warning that while flows could partially recover within months, a full return to pre-war levels may take years. Data compiled by tan\u2026",
       "tags": [
         "Maritime",
@@ -1870,6 +1839,35 @@ window.__DASHBOARD_DATA__ = {
       "priorityBand": "medium",
       "priorityReasons": [
         "Signal: Disruption"
+      ],
+      "boardBucket": "Regulation, Safety & Incidents"
+    },
+    {
+      "id": "a6ae38e60ef31666",
+      "title": "Everllence questions the viability of IMO GHG Strategy as NZF uncertainty \u2018freezes\u2019 investment in retrofits",
+      "source": "Riviera: Regulations & Compliance",
+      "sourceId": "riviera-regulation",
+      "url": "https://www.rivieramm.com/news-content-hub/everllence-questions-the-viability-of-imo-ghg-strategy-as-nzf-uncertainty-freezes-investment-in-retrofits-88596",
+      "publishedAt": "2026-04-27T05:36:00Z",
+      "excerpt": "As MEPC 84 opens in London, a major two\u2011stroke engine designer is questioning whether the IMO\u2019s GHG strategy can succeed without clarity on NZF needed to unlock large\u2011scale retrofit investment",
+      "tags": [
+        "Regulation",
+        "Decarbonization",
+        "Compliance"
+      ],
+      "audience": "Novatug",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [
+        "Regulation",
+        "Commercial"
+      ],
+      "priorityScore": 5,
+      "priorityBand": "medium",
+      "priorityReasons": [
+        "Signal: Regulation",
+        "Signal: Commercial"
       ],
       "boardBucket": "Regulation, Safety & Incidents"
     },
@@ -2440,28 +2438,86 @@ window.__DASHBOARD_DATA__ = {
       "boardBucket": "Other Relevant"
     },
     {
-      "id": "25bc9ca5eed1f238",
-      "title": "Japan to introduce new type of long-range coastal defence missile by 2032",
-      "source": "Baird Maritime",
-      "sourceId": "baird-maritime",
-      "url": "https://www.bairdmaritime.com/security/weaponry/japan-to-introduce-new-type-of-long-range-coastal-defence-missile-by-2032",
-      "publishedAt": "2026-04-27T02:29:02Z",
-      "excerpt": "Japan has unveiled plans to introduce a new type of coastal defence missile into service by 2032. The missile is developed by the Japanese Ministry of Defence's Acquisition, Technology and Logistics Agency (ATLA) as an improvement of the J\u2026",
+      "id": "4886e8d2a9d1ece4",
+      "title": "Trapped and forgotten: seafarers endure mounting toll in Gulf stand-off",
+      "source": "Splash247",
+      "sourceId": "splash247",
+      "url": "https://splash247.com/trapped-and-forgotten-seafarers-endure-mounting-toll-in-gulf-stand-off/",
+      "publishedAt": "2026-04-27T06:00:22Z",
+      "excerpt": "Twenty thousand seafarers aboard 1,600 vessels remain stranded in the Persian Gulf, and the men and women keeping global trade moving say the world has forgotten them. IMO Secretary General Arsenio Dominguez has given voice to their despai\u2026",
       "tags": [
-        "Workboats",
-        "Technology"
+        "Regulation",
+        "Maritime",
+        "News"
       ],
-      "audience": "Multraship",
+      "audience": "Both",
       "paywalled": false,
       "entities": [],
       "locations": [],
       "businessTags": [
-        "Commercial"
+        "Regulation"
       ],
       "priorityScore": 4,
       "priorityBand": "medium",
       "priorityReasons": [
-        "Signal: Commercial"
+        "Signal: Regulation"
+      ],
+      "boardBucket": "Regulation, Safety & Incidents"
+    },
+    {
+      "id": "8c131dd8631a759d",
+      "title": "Genco and Diana lock horns over meeting timing as takeover battle heats up",
+      "source": "Splash247",
+      "sourceId": "splash247",
+      "url": "https://splash247.com/genco-and-diana-lock-horns-over-meeting-timing-as-takeover-battle-heats-up/",
+      "publishedAt": "2026-04-27T05:45:00Z",
+      "excerpt": "A bitter boardroom battle between Genco Shipping & Trading and Diana Shipping has escalated further, with both sides trading accusations over governance, timing and control of the US-listed bulker owner. The latest flashpoint came after Ge\u2026",
+      "tags": [
+        "Maritime",
+        "News"
+      ],
+      "audience": "Both",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [
+        "Infrastructure"
+      ],
+      "priorityScore": 4,
+      "priorityBand": "medium",
+      "priorityReasons": [
+        "Signal: Infrastructure"
+      ],
+      "boardBucket": "Regulation, Safety & Incidents"
+    },
+    {
+      "id": "f3ea13994ae94011",
+      "title": "BV Calls for Greater Connectivity Across Value Chains",
+      "source": "The Maritime Executive",
+      "sourceId": "maritime-executive",
+      "url": "https://maritime-executive.com/article/bv-calls-for-greater-connectivity-across-value-chains",
+      "publishedAt": "2026-04-27T02:17:02Z",
+      "excerpt": "[By BV]Bureau Veritas Marine & Offshore (BV), a world leader in testing, inspection, and certification (TIC), declared its vision for the future of m...",
+      "tags": [
+        "Maritime",
+        "News"
+      ],
+      "audience": "Both",
+      "paywalled": false,
+      "entities": [
+        {
+          "name": "Bureau Veritas",
+          "category": "suppliers"
+        }
+      ],
+      "locations": [],
+      "businessTags": [
+        "Supplier"
+      ],
+      "priorityScore": 4,
+      "priorityBand": "medium",
+      "priorityReasons": [
+        "Supplier mention: Bureau Veritas"
       ],
       "boardBucket": "Other Relevant"
     },
@@ -2520,32 +2576,6 @@ window.__DASHBOARD_DATA__ = {
       "priorityBand": "medium",
       "priorityReasons": [
         "Signal: Regulation"
-      ],
-      "boardBucket": "Regulation, Safety & Incidents"
-    },
-    {
-      "id": "8c131dd8631a759d",
-      "title": "Genco and Diana lock horns over meeting timing as takeover battle heats up",
-      "source": "Splash247",
-      "sourceId": "splash247",
-      "url": "https://splash247.com/genco-and-diana-lock-horns-over-meeting-timing-as-takeover-battle-heats-up/",
-      "publishedAt": "2026-04-26T23:02:00Z",
-      "excerpt": "A bitter boardroom battle between Genco Shipping & Trading and Diana Shipping has escalated further, with both sides trading accusations over governance, timing and control of the US-listed bulker owner. The latest flashpoint came after Ge\u2026",
-      "tags": [
-        "Maritime",
-        "News"
-      ],
-      "audience": "Both",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [
-        "Infrastructure"
-      ],
-      "priorityScore": 4,
-      "priorityBand": "medium",
-      "priorityReasons": [
-        "Signal: Infrastructure"
       ],
       "boardBucket": "Regulation, Safety & Incidents"
     },
@@ -2837,11 +2867,43 @@ window.__DASHBOARD_DATA__ = {
       "boardBucket": "Regulation, Safety & Incidents"
     },
     {
-      "id": "d724ab9866e0cd14",
+      "id": "3fd06fa83ba41908",
+      "title": "W\u00e4rtsil\u00e4\u2019s strength in fishing vessel sector enhanced with propulsion orders for four new vessels - W\u00e4rtsil\u00e4",
+      "source": "W\u00e4rtsil\u00e4 News",
+      "sourceId": "bing-wartsila",
+      "url": "https://news.google.com/rss/articles/CBMixAJBVV95cUxObkYzLVBPZzczVlR5bW5qWXVjRXJxbmJheUt1YnU5bVVpS2xUUlJuZkgxRTlZTW9CLXRhc1dHa0wyMjYxVHdsNGh6WlhXWXVkVUh6bU9BU29OamlKMkVNQkNnOVlqTmN6U3A3cnRJTjdqUl93aElVN2NRVzZkMVVIVFZVOWlycktKYlhIdGpmbGxzLTRfanMtSHRvdW94R3lVQ3lCTzRVVUZBMzdlN0hIV0gtUlExQW1GdE5RTFB1RTU5eElwbU80cDNnZ0NGRU5fWGFJajdnSWJDRGRXX0MzVXdzMDg0S2h2WVBxa0VGQzJpcEJ5bEQ2UUtZV25FRU5ONmZqelh5bGJHYnFuVHZxOFlPUXd4VXJiclQ1TzFDbW1CajJ5TjR3aDhGSWhEVGNuSDI5c3gyWFdWaXM1SmpWb213LTY?oc=5",
+      "publishedAt": "2026-04-23T18:00:42Z",
+      "excerpt": "W\u00e4rtsil\u00e4\u2019s strength in fishing vessel sector enhanced with propulsion orders for four new vessels W\u00e4rtsil\u00e4",
+      "tags": [
+        "Clean Propulsion",
+        "Propulsion",
+        "Technology"
+      ],
+      "audience": "Both",
+      "paywalled": false,
+      "entities": [
+        {
+          "name": "W\u00e4rtsil\u00e4",
+          "category": "suppliers"
+        }
+      ],
+      "locations": [],
+      "businessTags": [
+        "Supplier"
+      ],
+      "priorityScore": 4,
+      "priorityBand": "medium",
+      "priorityReasons": [
+        "Supplier mention: W\u00e4rtsil\u00e4"
+      ],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "9d0e0a455ebf474c",
       "title": "Kongsberg Maritime Begins Trading on the Oslo Stock Exchange",
       "source": "Kongsberg Maritime News",
       "sourceId": "bing-kongsberg",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=69eee0cc3e884cb4942a0fb2ad77b478&url=https%3a%2f%2fwww.marinelink.com%2fnews%2fkongsberg-maritime-begins-trading-oslo-538424&c=15974813936108799403&mkt=en-us",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=69ef0cab7dbe436285611233a44e13e6&url=https%3a%2f%2fwww.marinelink.com%2fnews%2fkongsberg-maritime-begins-trading-oslo-538424&c=15974813936108799403&mkt=en-us",
       "publishedAt": "2026-04-23T14:52:00Z",
       "excerpt": "Kongsberg Maritime ASA, a global leader in maritime technology, began trading on Euronext Oslo Stock Exchange on April 23 under the ticker symbol KMAR.",
       "tags": [
@@ -2894,11 +2956,11 @@ window.__DASHBOARD_DATA__ = {
       "boardBucket": "Regulation, Safety & Incidents"
     },
     {
-      "id": "5eedef0d266b639c",
+      "id": "ad63e527e3a7dca0",
       "title": "Kongsberg Maritime shares begin trading in Oslo after parent spin-off",
       "source": "Kongsberg Maritime News",
       "sourceId": "bing-kongsberg",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=69eee0cc3e884cb4942a0fb2ad77b478&url=https%3a%2f%2fwww.tradewindsnews.com%2ftechnology%2fkongsberg-maritime-shares-begin-trading-in-oslo-after-parent-spin-off%2f2-1-1978439&c=3776947611517546205&mkt=en-us",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=69ef0cab7dbe436285611233a44e13e6&url=https%3a%2f%2fwww.tradewindsnews.com%2ftechnology%2fkongsberg-maritime-shares-begin-trading-in-oslo-after-parent-spin-off%2f2-1-1978439&c=3776947611517546205&mkt=en-us",
       "publishedAt": "2026-04-23T02:01:00Z",
       "excerpt": "A new pure-play maritime technology company is set to hit the public markets, as Kongsberg Maritime begins trading today on the Oslo Stock Exchange after its spin-off from Kongsberg Gruppen. The ...",
       "tags": [
@@ -2956,11 +3018,11 @@ window.__DASHBOARD_DATA__ = {
       "boardBucket": "Other Relevant"
     },
     {
-      "id": "d14c8b880075574c",
+      "id": "a024f0b01f94229c",
       "title": "Kongsberg Maritime As News",
       "source": "Kongsberg Maritime News",
       "sourceId": "bing-kongsberg",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=69eee0cc3e884cb4942a0fb2ad77b478&url=https%3a%2f%2fwww.marinelink.com%2fnews%2fmaritime%2fkongsberg-maritime-as&c=5214729760993416847&mkt=en-us",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=69ef0cab7dbe436285611233a44e13e6&url=https%3a%2f%2fwww.marinelink.com%2fnews%2fmaritime%2fkongsberg-maritime-as&c=5214729760993416847&mkt=en-us",
       "publishedAt": "2026-04-22T16:59:00Z",
       "excerpt": "Kongsberg Maritime ASA, a global leader in maritime technology, began trading on Euronext Oslo Stock Exchange on April 23 under the ticker symbol KMAR. The company has been spun off from Kongsberg ...",
       "tags": [
@@ -3226,38 +3288,6 @@ window.__DASHBOARD_DATA__ = {
       "boardBucket": "Other Relevant"
     },
     {
-      "id": "fcb1f7fc246d418a",
-      "title": "Indian Navy to equip 6 stealth corvettes with Kongsberg Kamewa",
-      "source": "Kongsberg Maritime News",
-      "sourceId": "bing-kongsberg",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=69eee0cc3e884cb4942a0fb2ad77b478&url=https%3a%2f%2fwww.newsbytesapp.com%2fnews%2findia%2findian-navy-to-equip-6-stealth-corvettes-with-kongsberg-kamewa%2ftldr&c=14647400517899959803&mkt=en-us",
-      "publishedAt": "2026-04-13T23:57:00Z",
-      "excerpt": "Kongsberg Maritime will supply 18 advanced Kamewa waterjet propulsion systems to the Indian Navy, enhancing speed and stealth capabilities of their next-gen missile vessels.",
-      "tags": [
-        "Clean Propulsion",
-        "Technology",
-        "Supplier"
-      ],
-      "audience": "Both",
-      "paywalled": false,
-      "entities": [
-        {
-          "name": "Kongsberg Maritime",
-          "category": "suppliers"
-        }
-      ],
-      "locations": [],
-      "businessTags": [
-        "Supplier"
-      ],
-      "priorityScore": 4,
-      "priorityBand": "medium",
-      "priorityReasons": [
-        "Supplier mention: Kongsberg Maritime"
-      ],
-      "boardBucket": "Other Relevant"
-    },
-    {
       "id": "aded5adbab5512b6",
       "title": "Ocean7 Ranger kickstarts Duluth\u2019s 2026 navigation season - Heavy Lift & Project Forwarding International",
       "source": "Sarens News",
@@ -3283,11 +3313,11 @@ window.__DASHBOARD_DATA__ = {
       "boardBucket": "Other Relevant"
     },
     {
-      "id": "e3d4ae6e14aefa4d",
+      "id": "75d4a1bb873cd3e3",
       "title": "Indian Navy selects Kongsberg waterjets for NGMV fleet propulsion",
       "source": "Kongsberg Maritime News",
       "sourceId": "bing-kongsberg",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=69eee0cc3e884cb4942a0fb2ad77b478&url=https%3a%2f%2fwww.msn.com%2fen-us%2fmoney%2fother%2findian-navy-selects-kongsberg-waterjets-for-ngmv-fleet-propulsion%2far-AA20C6ox&c=12293673536723939590&mkt=en-us",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=69ef0cab7dbe436285611233a44e13e6&url=https%3a%2f%2fwww.msn.com%2fen-us%2fmoney%2fother%2findian-navy-selects-kongsberg-waterjets-for-ngmv-fleet-propulsion%2far-AA20C6ox&c=12293673536723939590&mkt=en-us",
       "publishedAt": "2026-04-10T08:47:04Z",
       "excerpt": "The next generations missile vessels are being constructed at Cochin Shipyard in India.",
       "tags": [
@@ -3805,6 +3835,50 @@ window.__DASHBOARD_DATA__ = {
       "boardBucket": "Other Relevant"
     },
     {
+      "id": "3950a19daed28165",
+      "title": "Cyan Renewables christens new offshore wind SOV",
+      "source": "Baird Maritime",
+      "sourceId": "baird-maritime",
+      "url": "https://www.bairdmaritime.com/offshore/offshore-support-maintenance/cyan-renewables-christens-new-offshore-wind-sov",
+      "publishedAt": "2026-04-27T05:20:49Z",
+      "excerpt": "Singapore-based Cyan Renewables has formally named its newest service operation vessel (SOV). Cyan Wind Seeker was built by Vard Vung Tau in Vietnam and delivered ahead of schedule, according to Cyan Renewables. She will commence operation\u2026",
+      "tags": [
+        "Workboats",
+        "Technology"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [],
+      "priorityScore": 2,
+      "priorityBand": "low",
+      "priorityReasons": [],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "a2e123647d808f3c",
+      "title": "Royal Caribbean's newest LNG-powered cruise ship enters sea trials",
+      "source": "Baird Maritime",
+      "sourceId": "baird-maritime",
+      "url": "https://www.bairdmaritime.com/passenger/cruise/royal-caribbeans-newest-lng-powered-cruise-ship-enters-sea-trials",
+      "publishedAt": "2026-04-27T04:09:22Z",
+      "excerpt": "Finnish shipbuilder Meyer Turku has begun conducting sea trials of a new LNG-powered cruise ship ordered by US-based operator Royal Caribbean International. Legend of the Seas is the third ship in a series built by Meyer Turku. Series lead\u2026",
+      "tags": [
+        "Workboats",
+        "Technology"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [],
+      "priorityScore": 2,
+      "priorityBand": "low",
+      "priorityReasons": [],
+      "boardBucket": "Other Relevant"
+    },
+    {
       "id": "0128aa01aa7490b0",
       "title": "Seatrium completes divestment of Singapore tug fleet",
       "source": "Baird Maritime",
@@ -3850,57 +3924,13 @@ window.__DASHBOARD_DATA__ = {
       "boardBucket": "Other Relevant"
     },
     {
-      "id": "11ffeb3af0c9ec04",
-      "title": "Tanker targeted in suspected pirate attack off Somalia",
-      "source": "Baird Maritime",
-      "sourceId": "baird-maritime",
-      "url": "https://www.bairdmaritime.com/security/incidents/piracy/tanker-targeted-in-suspected-pirate-attack-off-somalia",
-      "publishedAt": "2026-04-27T02:49:23Z",
-      "excerpt": "The BBC has reported that a foreign-flagged commercial ship was hijacked last week off the northern coast of Somalia. The report identified the vessel as the 3,000DWT product tanker Honour 25 , which is registered to Palau. Neither local a\u2026",
-      "tags": [
-        "Workboats",
-        "Technology"
-      ],
-      "audience": "Multraship",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [],
-      "priorityScore": 2,
-      "priorityBand": "low",
-      "priorityReasons": [],
-      "boardBucket": "Other Relevant"
-    },
-    {
       "id": "0146f5401fa8708d",
-      "title": "Singapore shipbuilder secures order for yacht support vessel",
+      "title": "Singapore shipbuilder begins work on yacht support vessel",
       "source": "Baird Maritime",
       "sourceId": "baird-maritime",
       "url": "https://www.bairdmaritime.com/superyachts/singapore-shipbuilder-secures-order-for-yacht-support-vessel",
       "publishedAt": "2026-04-27T02:05:30Z",
       "excerpt": "Singapore shipbuilder Strategic Marine has begun work on a new yacht support vessel designed exclusively for the pleasure craft sector. The vessel is being developed in collaboration with MAG Subsea and Australian naval architecture firm S\u2026",
-      "tags": [
-        "Workboats",
-        "Technology"
-      ],
-      "audience": "Multraship",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [],
-      "priorityScore": 2,
-      "priorityBand": "low",
-      "priorityReasons": [],
-      "boardBucket": "Other Relevant"
-    },
-    {
-      "id": "d36398f541d01100",
-      "title": "US Navy commissions attack submarine Idaho",
-      "source": "Baird Maritime",
-      "sourceId": "baird-maritime",
-      "url": "https://www.bairdmaritime.com/security/naval/naval-submersibles/us-navy-commissions-attack-submarine-idaho",
-      "publishedAt": "2026-04-27T01:49:12Z",
-      "excerpt": "The US Navy commissioned its newest Virginia-class nuclear-powered attack submarine in a ceremony on Saturday, April 25. USS Idaho is the 26th Virginia-class submarine and the fifth US Navy ship to be named after the state of Idaho. She wi\u2026",
       "tags": [
         "Workboats",
         "Technology"
@@ -4522,13 +4552,13 @@ window.__DASHBOARD_DATA__ = {
       "boardBucket": "Other Relevant"
     },
     {
-      "id": "3107bbd2526b0500",
-      "title": "Global Shipping Reforms Cast Shadow Over Tanzania\u2019s Fishing Communities - Global Issues.org",
+      "id": "1acee87b124f0403",
+      "title": "Global Shipping Reforms Cast Shadow Over Tanzania\u2019s Fishing Communities - ipsnews.net",
       "source": "Mesh Maritime News",
       "sourceId": "bing-mesh-maritime",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBnWWx4TmN0NDl6ckM4Y2lEemtIajNWNm5icDM2VWtLRFFuSDZ3MzRiekZJSUVkRnF3QkVzWlEwSTFvQnRCc0tQMFdONGRBUlpPRlNxQno3aEdJSEdVUmtN0gFkQVVfeXFMTlN0OU9iTktrLU9KbFJwTkZZX0MyYlVFbVBaMUZETFY0aGUxNy05bk54bktZWVdNQUl3ZlFDaTNNV2c0VzVqS3EyTjloZGhXV3JoNDMxa0N0WXhVV0pzcHh1NnBzYg?oc=5",
-      "publishedAt": "2026-04-22T07:16:04Z",
-      "excerpt": "Global Shipping Reforms Cast Shadow Over Tanzania\u2019s Fishing Communities Global Issues.org",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNSnA4NHdodHplM0otOHgtdHV4X0JrVXF3bG1aTDFoSXp6b3J5SGhyYUozQ3k2NDZXd1h0Y0JSc1ZBRkRleVpGdXluWkYzOWJBQUcwTDNZcEVWZjRiUmdEZGpSMGZoYUlrS0ZUelA3cmJFMV9vaVlxeG9Bd1JMYndNRlduczhmcmhFdkVKdk5idllUdXZpQmhzMHBJQTN2UVI5TjMzSWhn?oc=5",
+      "publishedAt": "2026-04-22T00:33:37Z",
+      "excerpt": "Global Shipping Reforms Cast Shadow Over Tanzania\u2019s Fishing Communities ipsnews.net",
       "tags": [
         "Maritime",
         "Supplier"
@@ -5032,28 +5062,6 @@ window.__DASHBOARD_DATA__ = {
         "Towage",
         "Ports",
         "Terminals"
-      ],
-      "audience": "Multraship",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [],
-      "priorityScore": 2,
-      "priorityBand": "low",
-      "priorityReasons": [],
-      "boardBucket": "Other Relevant"
-    },
-    {
-      "id": "826188ca32df7f1e",
-      "title": "Give to gain: the power of trust in the workplace",
-      "source": "Riviera: Safety & Incidents",
-      "sourceId": "riviera-safety",
-      "url": "https://www.rivieramm.com/news-content-hub/give-to-gain-the-power-of-trust-in-the-workplace-88103",
-      "publishedAt": "2026-04-07T08:23:50Z",
-      "excerpt": "Speaking up, mentoring and consistent leadership all shape whether crews feel safe, supported and able to perform under pressure",
-      "tags": [
-        "Safety",
-        "Incidents"
       ],
       "audience": "Multraship",
       "paywalled": false,
