@@ -1,21 +1,19 @@
 {
-  "generatedAt": "2026-04-27T18:48:46.977746Z",
+  "generatedAt": "2026-04-27T20:06:46.756214Z",
   "lookbackDays": 30,
-  "cutoffAt": "2026-03-28T18:48:46.977746Z",
+  "cutoffAt": "2026-03-28T20:06:46.756214Z",
   "articleCount": 180,
   "sourceCount": 100,
   "sources": [
     "Africa Ports & Ships",
     "Baird Maritime",
     "Boskalis News",
-    "DEME Group News",
     "DFDS News",
     "Damen Shipyards News",
-    "Kongsberg Maritime News",
+    "Damen Yachting News",
     "Maersk Tankers News",
     "MarineLink",
     "Mesh Maritime News",
-    "Offshore Energy",
     "Oldendorff Carriers News",
     "Rigzone",
     "Riviera: Air Pollution & GHG Emissions",
@@ -46,12 +44,10 @@
     "Electrification",
     "Emissions",
     "Energy",
-    "Energy-Transition",
     "Ferry",
     "Heavy-Lift",
     "Incidents",
     "Industry",
-    "Marine-Construction",
     "Maritime",
     "Netherlands",
     "News",
@@ -71,12 +67,30 @@
     "Technology",
     "Terminals",
     "Towage",
-    "Workboats"
+    "Workboats",
+    "Yachting"
   ],
   "locations": [
     "Rotterdam"
   ],
-  "errors": [],
+  "errors": [
+    {
+      "source": "Offshore Energy",
+      "message": "HTTP Error 403: Forbidden"
+    },
+    {
+      "source": "Kongsberg Maritime News",
+      "message": "not well-formed (invalid token): line 1, column 41"
+    },
+    {
+      "source": "DEME Group News",
+      "message": "not well-formed (invalid token): line 1, column 41"
+    },
+    {
+      "source": "Ovet Shipping News",
+      "message": "not well-formed (invalid token): line 1, column 41"
+    }
+  ],
   "articles": [
     {
       "id": "e2d6c1330faf292d",
@@ -553,6 +567,38 @@
       "boardBucket": "Regulation, Safety & Incidents"
     },
     {
+      "id": "669c13b4e53c9e10",
+      "title": "Sarens\u2019 ACBT role highlights Canada\u2019s offshore wind potential - Heavy Lift & Project Forwarding International",
+      "source": "Sarens News",
+      "sourceId": "bing-sarens",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPQXkzblFpaVJIOW9ERVZLTXZkLTc1Sy1jcjBRTzhRVzdENElFVHdId3JvbEJFZm9XVUV5X0V1ZTRGbFkwYUNXalpkaEk5SlJ5MUswaWJ3ZVlvQlRqNlRwWFFpeWtVUV93SWlETkpSc1BBZWlZcGhQbHN1bm95YVZ1aXJqaFlORTZ1Z2tPdTlERkYxb0dzYmZaU0RCU1g3SGFIZVVwUUJuLTYzaDA2Qmc?oc=5",
+      "publishedAt": "2026-04-23T10:32:59Z",
+      "excerpt": "Sarens\u2019 ACBT role highlights Canada\u2019s offshore wind potential Heavy Lift & Project Forwarding International",
+      "tags": [
+        "Heavy-Lift"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [
+        {
+          "name": "Sarens",
+          "category": "clients"
+        }
+      ],
+      "locations": [],
+      "businessTags": [
+        "Client",
+        "Commercial"
+      ],
+      "priorityScore": 8,
+      "priorityBand": "medium",
+      "priorityReasons": [
+        "Client mention: Sarens",
+        "Signal: Commercial"
+      ],
+      "boardBucket": "Clients & Projects"
+    },
+    {
       "id": "7287d0d2b602edcf",
       "title": "Drax extends Ultrabulk wood pellet shipping contract through 2031 - lesprom.com",
       "source": "Ultrabulk News",
@@ -794,39 +840,6 @@
       "boardBucket": "Regulation, Safety & Incidents"
     },
     {
-      "id": "54b8f04c4a76876b",
-      "title": "Multimillion-dollar extension keeps Archer busy in Norway for three more years",
-      "source": "Offshore Energy",
-      "sourceId": "offshore-energy",
-      "url": "https://www.offshore-energy.biz/multimillion-dollar-extension-keeps-archer-busy-in-norway-for-three-more-years/",
-      "publishedAt": "2026-04-27T09:26:20Z",
-      "excerpt": "Oslo Stock Exchange-listed oil services company Archer has won a multi-year contract extension with Norway\u2019s state-owned energy giant Equinor for work on the Norwegian Continental Shelf (NCS). The post Multimillion-dollar extension keeps A\u2026",
-      "tags": [
-        "Energy-Transition",
-        "Technology"
-      ],
-      "audience": "Novatug",
-      "paywalled": false,
-      "entities": [
-        {
-          "name": "Equinor",
-          "category": "clients"
-        }
-      ],
-      "locations": [],
-      "businessTags": [
-        "Client",
-        "Commercial"
-      ],
-      "priorityScore": 6,
-      "priorityBand": "medium",
-      "priorityReasons": [
-        "Client mention: Equinor",
-        "Signal: Commercial"
-      ],
-      "boardBucket": "Clients & Projects"
-    },
-    {
       "id": "924d8406b3b6e324",
       "title": "Towage giant Boluda snaps up Seatrium assets in Singapore",
       "source": "Splash247",
@@ -1043,33 +1056,6 @@
         "Signal: Energy Transition"
       ],
       "boardBucket": "Other Relevant"
-    },
-    {
-      "id": "0327a9a0562390f4",
-      "title": "Report: Three Injured in Fire Aboard USS Zumwalt",
-      "source": "The Maritime Executive",
-      "sourceId": "maritime-executive",
-      "url": "https://maritime-executive.com/article/report-three-injured-in-fire-aboard-uss-zumwalt",
-      "publishedAt": "2026-04-22T23:37:00Z",
-      "excerpt": "A fire aboard the first-in-class destroyer USS Zumwalt has injured three sailors, according to the U.S. Navy. Zumwalt is currently at shipyard in Pas...",
-      "tags": [
-        "Incidents",
-        "Maritime",
-        "News"
-      ],
-      "audience": "Multraship",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [
-        "Incident"
-      ],
-      "priorityScore": 6,
-      "priorityBand": "medium",
-      "priorityReasons": [
-        "Signal: Incident"
-      ],
-      "boardBucket": "Regulation, Safety & Incidents"
     },
     {
       "id": "3a11a17e44d50559",
@@ -1326,6 +1312,37 @@
       "boardBucket": "Competitors & Market"
     },
     {
+      "id": "886d8c7b85dc7d36",
+      "title": "Executive Moves - Svitzer hires managing director in Brazil - rivieramm.com",
+      "source": "Svitzer News",
+      "sourceId": "bing-svitzer",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQYjloSEx0Zk8taEw0RTJNeGJJYnlmYXRrTFRYLVpJejJhYWpUXzBFT19uX094cHNTUkdoZTVrUm5uWUNWMGQtQjJQUU5TLTlVOEFqMHE4MWNHX0ZNT0g3T3NxRTMtZWxEdXZWQXdYWFV6c0hnSUlqRVdKQVNIMnRERTN0NEUzM1p5LS1YRWcxcWV3bW10Z2RHdHE2MlZzcVBJUXdUaXlRSUZMaktLeDRfR3ZzUWpfbm9RYTY0?oc=5",
+      "publishedAt": "2026-04-15T01:01:32Z",
+      "excerpt": "Executive Moves - Svitzer hires managing director in Brazil rivieramm.com",
+      "tags": [
+        "Towage",
+        "Competitor"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [
+        {
+          "name": "Svitzer",
+          "category": "competitors"
+        }
+      ],
+      "locations": [],
+      "businessTags": [
+        "Competitor"
+      ],
+      "priorityScore": 6,
+      "priorityBand": "medium",
+      "priorityReasons": [
+        "Competitor mention: Svitzer"
+      ],
+      "boardBucket": "Competitors & Market"
+    },
+    {
       "id": "b8d9a8d5dbbff37b",
       "title": "DFDS reports increase in March freight and passenger volumes - Baird Maritime",
       "source": "DFDS News",
@@ -1353,71 +1370,6 @@
       "priorityBand": "medium",
       "priorityReasons": [
         "Client mention: DFDS"
-      ],
-      "boardBucket": "Clients & Projects"
-    },
-    {
-      "id": "78f3a3c034e08835",
-      "title": "Norwegian co to supply 18 big waterjet systems for Indian Navy's next-gen missile vessel project",
-      "source": "Kongsberg Maritime News",
-      "sourceId": "bing-kongsberg",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=69efaf9808e5453c928302f1c43e8d0b&url=https%3a%2f%2fwww.msn.com%2fen-in%2fnews%2fother%2fnorwegian-co-to-supply-18-big-waterjet-systems-for-indian-navy-s-next-gen-missile-vessel-project%2far-AA20Nuet&c=4609846177532778353&mkt=en-us",
-      "publishedAt": "2026-04-13T16:47:00Z",
-      "excerpt": "India's Navy is set to receive 18 advanced Kamewa waterjet propulsion systems from Norway's Kongsberg Maritime for its new missile vessels. This significant contract, awarded in partnership with ...",
-      "tags": [
-        "Clean Propulsion",
-        "Technology",
-        "Supplier"
-      ],
-      "audience": "Both",
-      "paywalled": false,
-      "entities": [
-        {
-          "name": "Kongsberg Maritime",
-          "category": "suppliers"
-        }
-      ],
-      "locations": [],
-      "businessTags": [
-        "Supplier",
-        "Commercial"
-      ],
-      "priorityScore": 6,
-      "priorityBand": "medium",
-      "priorityReasons": [
-        "Supplier mention: Kongsberg Maritime",
-        "Signal: Commercial"
-      ],
-      "boardBucket": "Other Relevant"
-    },
-    {
-      "id": "166a6c0d426105a5",
-      "title": "Deme Group NV MT0",
-      "source": "DEME Group News",
-      "sourceId": "bing-deme",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=69efaf9af4744924910766f6b7e3b989&url=https%3a%2f%2fwww.morningstar.com%2fstocks%2fxstu%2fmt0%2fquote&c=702618500465205373&mkt=en-us",
-      "publishedAt": "2026-04-10T05:55:00Z",
-      "excerpt": "Morningstar Quantitative Ratings for Stocks are generated using an algorithm that compares companies that are not under analyst coverage to peer companies that do receive analyst-driven ratings.",
-      "tags": [
-        "Offshore",
-        "Marine-Construction"
-      ],
-      "audience": "Multraship",
-      "paywalled": false,
-      "entities": [
-        {
-          "name": "DEME Group",
-          "category": "clients"
-        }
-      ],
-      "locations": [],
-      "businessTags": [
-        "Client"
-      ],
-      "priorityScore": 6,
-      "priorityBand": "medium",
-      "priorityReasons": [
-        "Client mention: DEME Group"
       ],
       "boardBucket": "Clients & Projects"
     },
@@ -1765,6 +1717,32 @@
       "boardBucket": "Regulation, Safety & Incidents"
     },
     {
+      "id": "4a435685261190cf",
+      "title": "Ukraine warns Israel against receiving ship with \"stolen\" grain from occupied territory",
+      "source": "Baird Maritime",
+      "sourceId": "baird-maritime",
+      "url": "https://www.bairdmaritime.com/shipping/dry-cargo/bulkers/ukraine-warns-israel-against-receiving-ship-with-stolen-grain-from-occupied-territory",
+      "publishedAt": "2026-04-27T19:24:06Z",
+      "excerpt": "Israel risks a diplomatic and legal response from Kyiv if it allows a vessel carrying grain from Russian-occupied Ukraine to dock at the port of Haifa, a Ukrainian diplomatic source told Reuters on Monday. Israel's Haaretz newspaper report\u2026",
+      "tags": [
+        "Workboats",
+        "Technology"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [
+        "Regulation"
+      ],
+      "priorityScore": 5,
+      "priorityBand": "medium",
+      "priorityReasons": [
+        "Signal: Regulation"
+      ],
+      "boardBucket": "Regulation, Safety & Incidents"
+    },
+    {
       "id": "fe871ba6f26a7d86",
       "title": "Russian drones attack Odesa, port infrastructure and merchant ship hit",
       "source": "Baird Maritime",
@@ -1845,39 +1823,6 @@
         "Signal: Energy Transition"
       ],
       "boardBucket": "Regulation, Safety & Incidents"
-    },
-    {
-      "id": "5cde7cea280d058a",
-      "title": "Shell enriches gas business with $16.4 billion ARC Resources takeover",
-      "source": "Offshore Energy",
-      "sourceId": "offshore-energy",
-      "url": "https://www.offshore-energy.biz/shell-enriches-gas-business-with-16-4-billion-arc-resources-takeover/",
-      "publishedAt": "2026-04-27T12:47:45Z",
-      "excerpt": "UK-headquartered energy giant Shell has made a move to strengthen its liquefied natural gas (LNG) arsenal through a multibillion-dollar cash\u2011and\u2011share deal for the acquisition of Canada-based ARC Resources. The post Shell enriches gas busi\u2026",
-      "tags": [
-        "Energy-Transition",
-        "Technology"
-      ],
-      "audience": "Novatug",
-      "paywalled": false,
-      "entities": [
-        {
-          "name": "Shell Nederland",
-          "category": "suppliers"
-        }
-      ],
-      "locations": [],
-      "businessTags": [
-        "Supplier",
-        "Commercial"
-      ],
-      "priorityScore": 5,
-      "priorityBand": "medium",
-      "priorityReasons": [
-        "Supplier mention: Shell Nederland",
-        "Signal: Commercial"
-      ],
-      "boardBucket": "Other Relevant"
     },
     {
       "id": "99725c476f4701a8",
@@ -1967,7 +1912,7 @@
     },
     {
       "id": "010b6789eb29a1b2",
-      "title": "DURBAN CRUISE, RORO & TANKER TERMINAL",
+      "title": "DURBAN CRUISE, RORO & TANKER TERMINAL \u2013 updated",
       "source": "Africa Ports & Ships",
       "sourceId": "africa-ports",
       "url": "https://africaports.co.za/2026/04/27/durban-cruise-roro-tanker-terminals-2-4-2/",
@@ -2522,6 +2467,32 @@
       "boardBucket": "Other Relevant"
     },
     {
+      "id": "1c427497ecba0b50",
+      "title": "Mystery European shipowner orders two more 10,000 TEU containerships from South Korea",
+      "source": "Baird Maritime",
+      "sourceId": "baird-maritime",
+      "url": "https://www.bairdmaritime.com/shipping/boxships/mystery-european-shipowner-orders-two-more-10000-teu-containerships-from-south-korea",
+      "publishedAt": "2026-04-27T19:15:58Z",
+      "excerpt": "South Korea's HJ Shipbuilding and Construction has secured an additional order for two 10,100 TEU container ships from an unnamed European shipowner. This contract is valued at KRW357.2 billion ($257.2 million), which increases the total v\u2026",
+      "tags": [
+        "Workboats",
+        "Technology"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [
+        "Commercial"
+      ],
+      "priorityScore": 4,
+      "priorityBand": "medium",
+      "priorityReasons": [
+        "Signal: Commercial"
+      ],
+      "boardBucket": "Other Relevant"
+    },
+    {
       "id": "ee05e893137fefa2",
       "title": "COSCO Shipping units ink $219m internal acquisition deal",
       "source": "Baird Maritime",
@@ -2574,66 +2545,6 @@
       "boardBucket": "Regulation, Safety & Incidents"
     },
     {
-      "id": "af3c84d9f3dc2535",
-      "title": "Japanese trio launches demo project on ammonia supply for vessels in Singapore",
-      "source": "Offshore Energy",
-      "sourceId": "offshore-energy",
-      "url": "https://www.offshore-energy.biz/japanese-trio-launches-demo-project-on-ammonia-supply-for-vessels-in-singapore/",
-      "publishedAt": "2026-04-27T11:05:38Z",
-      "excerpt": "Japan\u2019s Sumitomo Corporation, Kawasaki Kisen Kaisha (\u201cK\u201d Line), and Nippon Yusen Kabushiki Kaisha (NYK [\u2026] The post Japanese trio launches demo project on ammonia supply for vessels in Singapore appeared first on Offshore Energy .",
-      "tags": [
-        "Clean Propulsion",
-        "Energy-Transition",
-        "Technology"
-      ],
-      "audience": "Novatug",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [
-        "Commercial",
-        "Energy Transition"
-      ],
-      "priorityScore": 4,
-      "priorityBand": "medium",
-      "priorityReasons": [
-        "Signal: Commercial",
-        "Signal: Energy Transition"
-      ],
-      "boardBucket": "Other Relevant"
-    },
-    {
-      "id": "dc026b241290f72f",
-      "title": "Kongsberg Gruppen ASA ADR",
-      "source": "Kongsberg Maritime News",
-      "sourceId": "bing-kongsberg",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=69efaf9808e5453c928302f1c43e8d0b&url=https%3a%2f%2fwww.barrons.com%2fmarket-data%2fstocks%2fkbggy%2finteractive-chart%3fgaa_sig%3dDvOuEtQg1Es3KzXCgkfV6bUP7Mnplyx1PFugYoEXBKCaG1LtGE2K1IywR2G64CK1sWRFnOHnBPvaRWIzCwl0ag%25253D%25253D&c=14892605341856397321&mkt=en-us",
-      "publishedAt": "2026-04-27T10:47:00Z",
-      "excerpt": "Kongsberg Gruppen ASA ADR advanced stock charts by Barron's. View KBGGY historical stock data and compare to other stocks, and exchanges.",
-      "tags": [
-        "Technology",
-        "Supplier"
-      ],
-      "audience": "Both",
-      "paywalled": false,
-      "entities": [
-        {
-          "name": "Kongsberg Maritime",
-          "category": "suppliers"
-        }
-      ],
-      "locations": [],
-      "businessTags": [
-        "Supplier"
-      ],
-      "priorityScore": 4,
-      "priorityBand": "medium",
-      "priorityReasons": [
-        "Supplier mention: Kongsberg Maritime"
-      ],
-      "boardBucket": "Other Relevant"
-    },
-    {
       "id": "8f91e649c16c97b5",
       "title": "Venture Global closes US$750M loan offering for Calcasieu Pass",
       "source": "Riviera: Ports & Terminals",
@@ -2656,37 +2567,6 @@
       "priorityBand": "medium",
       "priorityReasons": [
         "Signal: Commercial"
-      ],
-      "boardBucket": "Other Relevant"
-    },
-    {
-      "id": "9919175467bbb2bf",
-      "title": "Kongsberg: Correction In 2026",
-      "source": "Kongsberg Maritime News",
-      "sourceId": "bing-kongsberg",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=69efaf9808e5453c928302f1c43e8d0b&url=https%3a%2f%2fseekingalpha.com%2farticle%2f4894559-kongsberg-stock-correction-in-2026&c=17502940238032666986&mkt=en-us",
-      "publishedAt": "2026-04-27T08:44:00Z",
-      "excerpt": "Kongsberg Gruppen has underperformed the market, with a double-digit decline and 25% underperformance. Learn why KBGGY stock is a hold.",
-      "tags": [
-        "Technology",
-        "Supplier"
-      ],
-      "audience": "Both",
-      "paywalled": false,
-      "entities": [
-        {
-          "name": "Kongsberg Maritime",
-          "category": "suppliers"
-        }
-      ],
-      "locations": [],
-      "businessTags": [
-        "Supplier"
-      ],
-      "priorityScore": 4,
-      "priorityBand": "medium",
-      "priorityReasons": [
-        "Supplier mention: Kongsberg Maritime"
       ],
       "boardBucket": "Other Relevant"
     },
@@ -2973,37 +2853,6 @@
       "boardBucket": "Regulation, Safety & Incidents"
     },
     {
-      "id": "ded4dc1267a4d8cd",
-      "title": "Kongsberg Maritime Begins Trading on the Oslo Stock Exchange",
-      "source": "Kongsberg Maritime News",
-      "sourceId": "bing-kongsberg",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=69efaf9808e5453c928302f1c43e8d0b&url=https%3a%2f%2fwww.marinelink.com%2fnews%2fkongsberg-maritime-begins-trading-oslo-538424&c=15974813936108799403&mkt=en-us",
-      "publishedAt": "2026-04-23T14:52:00Z",
-      "excerpt": "Kongsberg Maritime ASA, a global leader in maritime technology, began trading on Euronext Oslo Stock Exchange on April 23 under the ticker symbol KMAR.",
-      "tags": [
-        "Technology",
-        "Supplier"
-      ],
-      "audience": "Both",
-      "paywalled": false,
-      "entities": [
-        {
-          "name": "Kongsberg Maritime",
-          "category": "suppliers"
-        }
-      ],
-      "locations": [],
-      "businessTags": [
-        "Supplier"
-      ],
-      "priorityScore": 4,
-      "priorityBand": "medium",
-      "priorityReasons": [
-        "Supplier mention: Kongsberg Maritime"
-      ],
-      "boardBucket": "Other Relevant"
-    },
-    {
       "id": "3144d286e74c30e4",
       "title": "Marine engineers offer 'solution to unite the industry' on climate regulation debate",
       "source": "Riviera: Regulations & Compliance",
@@ -3028,37 +2877,6 @@
         "Signal: Regulation"
       ],
       "boardBucket": "Regulation, Safety & Incidents"
-    },
-    {
-      "id": "38d7d8afff58a877",
-      "title": "Kongsberg Maritime shares begin trading in Oslo after parent spin-off",
-      "source": "Kongsberg Maritime News",
-      "sourceId": "bing-kongsberg",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=69efaf9808e5453c928302f1c43e8d0b&url=https%3a%2f%2fwww.tradewindsnews.com%2ftechnology%2fkongsberg-maritime-shares-begin-trading-in-oslo-after-parent-spin-off%2f2-1-1978439&c=3776947611517546205&mkt=en-us",
-      "publishedAt": "2026-04-23T02:01:00Z",
-      "excerpt": "A new pure-play maritime technology company is set to hit the public markets, as Kongsberg Maritime begins trading today on the Oslo Stock Exchange after its spin-off from Kongsberg Gruppen.",
-      "tags": [
-        "Technology",
-        "Supplier"
-      ],
-      "audience": "Both",
-      "paywalled": false,
-      "entities": [
-        {
-          "name": "Kongsberg Maritime",
-          "category": "suppliers"
-        }
-      ],
-      "locations": [],
-      "businessTags": [
-        "Supplier"
-      ],
-      "priorityScore": 4,
-      "priorityBand": "medium",
-      "priorityReasons": [
-        "Supplier mention: Kongsberg Maritime"
-      ],
-      "boardBucket": "Other Relevant"
     },
     {
       "id": "12bee263e638b827",
@@ -3088,37 +2906,6 @@
       "priorityBand": "medium",
       "priorityReasons": [
         "Supplier mention: Bureau Veritas"
-      ],
-      "boardBucket": "Other Relevant"
-    },
-    {
-      "id": "790908fc7af98253",
-      "title": "Kongsberg Maritime As News",
-      "source": "Kongsberg Maritime News",
-      "sourceId": "bing-kongsberg",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=69efaf9808e5453c928302f1c43e8d0b&url=https%3a%2f%2fwww.marinelink.com%2fnews%2fmaritime%2fkongsberg-maritime-as&c=5214729760993416847&mkt=en-us",
-      "publishedAt": "2026-04-22T16:59:00Z",
-      "excerpt": "Kongsberg Maritime ASA, a global leader in maritime technology, began trading on Euronext Oslo Stock Exchange on April 23 under the ticker symbol KMAR. The company has been spun off from Kongsberg ...",
-      "tags": [
-        "Technology",
-        "Supplier"
-      ],
-      "audience": "Both",
-      "paywalled": false,
-      "entities": [
-        {
-          "name": "Kongsberg Maritime",
-          "category": "suppliers"
-        }
-      ],
-      "locations": [],
-      "businessTags": [
-        "Supplier"
-      ],
-      "priorityScore": 4,
-      "priorityBand": "medium",
-      "priorityReasons": [
-        "Supplier mention: Kongsberg Maritime"
       ],
       "boardBucket": "Other Relevant"
     },
@@ -3233,38 +3020,6 @@
       "priorityBand": "medium",
       "priorityReasons": [
         "Signal: Commercial"
-      ],
-      "boardBucket": "Other Relevant"
-    },
-    {
-      "id": "222a6405d4aa7e2c",
-      "title": "Indian Navy selects Kongsberg waterjets for NGMV fleet propulsion",
-      "source": "Kongsberg Maritime News",
-      "sourceId": "bing-kongsberg",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=69efaf9808e5453c928302f1c43e8d0b&url=https%3a%2f%2fwww.msn.com%2fen-us%2fmoney%2fother%2findian-navy-selects-kongsberg-waterjets-for-ngmv-fleet-propulsion%2far-AA20C6ox&c=12293673536723939590&mkt=en-us",
-      "publishedAt": "2026-04-10T08:47:04Z",
-      "excerpt": "The next generations missile vessels are being constructed at Cochin Shipyard in India.",
-      "tags": [
-        "Clean Propulsion",
-        "Technology",
-        "Supplier"
-      ],
-      "audience": "Both",
-      "paywalled": false,
-      "entities": [
-        {
-          "name": "Kongsberg Maritime",
-          "category": "suppliers"
-        }
-      ],
-      "locations": [],
-      "businessTags": [
-        "Supplier"
-      ],
-      "priorityScore": 4,
-      "priorityBand": "medium",
-      "priorityReasons": [
-        "Supplier mention: Kongsberg Maritime"
       ],
       "boardBucket": "Other Relevant"
     },
@@ -3705,6 +3460,94 @@
       "boardBucket": "Other Relevant"
     },
     {
+      "id": "bb184a4146caa530",
+      "title": "US-Iran deadlock pushes oil prices to a two-week high",
+      "source": "Baird Maritime",
+      "sourceId": "baird-maritime",
+      "url": "https://www.bairdmaritime.com/shipping/tankers/us-iran-deadlock-pushes-oil-prices-to-a-two-week-high",
+      "publishedAt": "2026-04-27T19:31:31Z",
+      "excerpt": "Oil prices climbed about three per cent to a two-week high on Monday as peace talks between the US and Iran stalled and shipments through the Strait of Hormuz remained limited, keeping global oil supplies tight. Brent futures rose $3.13, o\u2026",
+      "tags": [
+        "Workboats",
+        "Technology"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [],
+      "priorityScore": 2,
+      "priorityBand": "low",
+      "priorityReasons": [],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "44e94418d903051c",
+      "title": "Iranian oil exports hit a wall as six tankers blockaded by US forces",
+      "source": "Baird Maritime",
+      "sourceId": "baird-maritime",
+      "url": "https://www.bairdmaritime.com/shipping/tankers/iranian-oil-exports-hit-a-wall-as-six-tankers-blockaded-by-us-forces",
+      "publishedAt": "2026-04-27T19:03:22Z",
+      "excerpt": "Six tankers loaded with Iranian oil have been forced back to Iran by the US blockade in recent days, ship-tracking data shows, underscoring the impact the Iran war is having on traffic through the Strait of Hormuz, a major global oil expor\u2026",
+      "tags": [
+        "Workboats",
+        "Technology"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [],
+      "priorityScore": 2,
+      "priorityBand": "low",
+      "priorityReasons": [],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "2d26a1349de8c6a9",
+      "title": "Superyacht owned by sanctioned Russian oligarch clears Strait of Hormuz",
+      "source": "Baird Maritime",
+      "sourceId": "baird-maritime",
+      "url": "https://www.bairdmaritime.com/superyachts/superyacht-owned-by-sanctioned-russian-oligarch-clears-strait-of-hormuz",
+      "publishedAt": "2026-04-27T18:56:31Z",
+      "excerpt": "A superyacht linked to sanctioned Russian billionaire Alexey Mordashov sailed through the Strait of Hormuz on Saturday, shipping data showed, one of very few vessels to transit the blockaded shipping lane at the heart of the US-Iran confli\u2026",
+      "tags": [
+        "Workboats",
+        "Technology"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [],
+      "priorityScore": 2,
+      "priorityBand": "low",
+      "priorityReasons": [],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "3e70c05bc37bdb87",
+      "title": "Germany's Merz says Iran is making US officials travel for nothing in talks",
+      "source": "Baird Maritime",
+      "sourceId": "baird-maritime",
+      "url": "https://www.bairdmaritime.com/security/germanys-merz-says-iran-is-making-us-officials-travel-for-nothing-in-talks",
+      "publishedAt": "2026-04-27T18:48:35Z",
+      "excerpt": "German Chancellor Friedrich Merz said on Monday Iran's leadership was humiliating the United States and getting US officials to travel to Pakistan and then leave without results, in an unusually abrupt rebuke over the conflict. Merz also s\u2026",
+      "tags": [
+        "Workboats",
+        "Technology"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [],
+      "priorityScore": 2,
+      "priorityBand": "low",
+      "priorityReasons": [],
+      "boardBucket": "Other Relevant"
+    },
+    {
       "id": "eb3c38ee0d6c8fee",
       "title": "SITC boxship changes hands in $12.2m internal sale to meet China-Taiwan regulations",
       "source": "Baird Maritime",
@@ -3907,59 +3750,6 @@
       "boardBucket": "Other Relevant"
     },
     {
-      "id": "46dd57fa8aa6fb44",
-      "title": "Stillstrom unveils new standalone monopile-based offshore charging tech",
-      "source": "Offshore Energy",
-      "sourceId": "offshore-energy",
-      "url": "https://www.offshore-energy.biz/stillstrom-unveils-new-standalone-monopile-based-offshore-charging-tech/",
-      "publishedAt": "2026-04-27T12:15:57Z",
-      "excerpt": "Stillstrom, part of A.P. Moller \u2013 Maersk, has introduced two new standalone offshore charging [\u2026] The post Stillstrom unveils new standalone monopile-based offshore charging tech appeared first on Offshore Energy .",
-      "tags": [
-        "Batteries",
-        "Energy-Transition",
-        "Technology"
-      ],
-      "audience": "Novatug",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [
-        "Energy Transition"
-      ],
-      "priorityScore": 2,
-      "priorityBand": "low",
-      "priorityReasons": [
-        "Signal: Energy Transition"
-      ],
-      "boardBucket": "Other Relevant"
-    },
-    {
-      "id": "896ef1bfc7614dd5",
-      "title": "Mermaid Maritime continues global expansion with joint venture in Brunei",
-      "source": "Offshore Energy",
-      "sourceId": "offshore-energy",
-      "url": "https://www.offshore-energy.biz/mermaid-maritime-continues-global-expansion-with-joint-venture-in-brunei/",
-      "publishedAt": "2026-04-27T12:12:34Z",
-      "excerpt": "After establishing joint venture companies in Taiwan and Equatorial Guinea, Thailand-headquartered subsea and offshore [\u2026] The post Mermaid Maritime continues global expansion with joint venture in Brunei appeared first on Offshore Energy .",
-      "tags": [
-        "Energy-Transition",
-        "Technology"
-      ],
-      "audience": "Novatug",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [
-        "Commercial"
-      ],
-      "priorityScore": 2,
-      "priorityBand": "low",
-      "priorityReasons": [
-        "Signal: Commercial"
-      ],
-      "boardBucket": "Other Relevant"
-    },
-    {
       "id": "3e36415511cff913",
       "title": "Shipping Traffic Through Hormuz Remains Muted With No US-Iran Deal in Sight, Data Shows",
       "source": "gCaptain",
@@ -4101,33 +3891,6 @@
       "boardBucket": "Other Relevant"
     },
     {
-      "id": "db457f35b9b212ae",
-      "title": "\u20ac100 million EU financing backs Port of Klaip\u0117da\u2019s energy transition path",
-      "source": "Offshore Energy",
-      "sourceId": "offshore-energy",
-      "url": "https://www.offshore-energy.biz/e100-million-eu-financing-backs-port-of-klaipedas-energy-transition-path/",
-      "publishedAt": "2026-04-27T08:54:45Z",
-      "excerpt": "The European Investment Bank (EIB) has approved approximately \u20ac100 million in financing to support [\u2026] The post \u20ac100 million EU financing backs Port of Klaip\u0117da\u2019s energy transition path appeared first on Offshore Energy .",
-      "tags": [
-        "Sustainability",
-        "Energy-Transition",
-        "Technology"
-      ],
-      "audience": "Novatug",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [
-        "Commercial"
-      ],
-      "priorityScore": 2,
-      "priorityBand": "low",
-      "priorityReasons": [
-        "Signal: Commercial"
-      ],
-      "boardBucket": "Other Relevant"
-    },
-    {
       "id": "f851b2897eaedad2",
       "title": "CAPE TOWN SHIP MOVEMENTS",
       "source": "Africa Ports & Ships",
@@ -4151,12 +3914,34 @@
     },
     {
       "id": "e8b268718714fd1e",
-      "title": "DURBAN MULTI-PURPOSE TERMINALS",
+      "title": "DURBAN MULTI-PURPOSE TERMINALS \u2013 UPDATED",
       "source": "Africa Ports & Ships",
       "sourceId": "africa-ports",
       "url": "https://africaports.co.za/2026/04/27/durban-muti-purpose-terminalsdurban-daily-ship-movements-2-2-2-2/",
       "publishedAt": "2026-04-26T22:01:50Z",
       "excerpt": "Ships in port, at the SBM, at the anchorage, arrivals and departures and ships passing Durban at the time of the report.",
+      "tags": [
+        "Ports",
+        "Africa"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [],
+      "priorityScore": 2,
+      "priorityBand": "low",
+      "priorityReasons": [],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "dcc3f16100dbaccb",
+      "title": "Port of BEIRA",
+      "source": "Africa Ports & Ships",
+      "sourceId": "africa-ports",
+      "url": "https://africaports.co.za/2026/04/27/beira-2/",
+      "publishedAt": "2026-04-26T22:01:49Z",
+      "excerpt": "Ships in port, at the anchorage nd ETAs of ships expected in the port of Beira.",
       "tags": [
         "Ports",
         "Africa"
@@ -4349,50 +4134,6 @@
       "boardBucket": "Other Relevant"
     },
     {
-      "id": "41eaab787c778dbd",
-      "title": "EAST LONDON",
-      "source": "Africa Ports & Ships",
-      "sourceId": "africa-ports",
-      "url": "https://africaports.co.za/2026/04/25/est-london-23-january2024/",
-      "publishedAt": "2026-04-24T23:02:16Z",
-      "excerpt": "Ships in port and ETAs of ships expected in the port of East London",
-      "tags": [
-        "Ports",
-        "Africa"
-      ],
-      "audience": "Multraship",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [],
-      "priorityScore": 2,
-      "priorityBand": "low",
-      "priorityReasons": [],
-      "boardBucket": "Other Relevant"
-    },
-    {
-      "id": "e8ce220faa796c9f",
-      "title": "Spliethoff Group Hires Fuel Procurement Manager in Amsterdam - Ship & Bunker",
-      "source": "Oldendorff Carriers News",
-      "sourceId": "bing-oldendorff",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNdm55bzlhRUhma25kZGhGQU5QM21MOXVheHFBMjB1cmhheGlGbjQxdVZ2eUdrYTN1Y2pCbEVQUUlqOThBbTY2RWx5cUU1ZzlKc1lYLVBRa1Q3WlpKOWFMS2h6YXJIMlpXb09HNkZESkI0UC1qMW9hcm1GVXlKX1Z3M1I5bVN2MHBZZndTUVZIZGtGaW16UGpiTUlISnR3Nk1HTmxTcmR3?oc=5",
-      "publishedAt": "2026-04-24T13:45:36Z",
-      "excerpt": "Spliethoff Group Hires Fuel Procurement Manager in Amsterdam Ship & Bunker",
-      "tags": [
-        "Shipping",
-        "Bulk"
-      ],
-      "audience": "Multraship",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [],
-      "priorityScore": 2,
-      "priorityBand": "low",
-      "priorityReasons": [],
-      "boardBucket": "Other Relevant"
-    },
-    {
       "id": "2883135800b5472d",
       "title": "EIV Capital Raises $1.1B for New Oil and Gas Funds",
       "source": "Rigzone",
@@ -4464,13 +4205,13 @@
       "boardBucket": "Other Relevant"
     },
     {
-      "id": "3107bbd2526b0500",
-      "title": "Global Shipping Reforms Cast Shadow Over Tanzania\u2019s Fishing Communities - Global Issues.org",
+      "id": "1acee87b124f0403",
+      "title": "Global Shipping Reforms Cast Shadow Over Tanzania\u2019s Fishing Communities - ipsnews.net",
       "source": "Mesh Maritime News",
       "sourceId": "bing-mesh-maritime",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBnWWx4TmN0NDl6ckM4Y2lEemtIajNWNm5icDM2VWtLRFFuSDZ3MzRiekZJSUVkRnF3QkVzWlEwSTFvQnRCc0tQMFdONGRBUlpPRlNxQno3aEdJSEdVUmtN0gFkQVVfeXFMTlN0OU9iTktrLU9KbFJwTkZZX0MyYlVFbVBaMUZETFY0aGUxNy05bk54bktZWVdNQUl3ZlFDaTNNV2c0VzVqS3EyTjloZGhXV3JoNDMxa0N0WXhVV0pzcHh1NnBzYg?oc=5",
-      "publishedAt": "2026-04-22T07:16:04Z",
-      "excerpt": "Global Shipping Reforms Cast Shadow Over Tanzania\u2019s Fishing Communities Global Issues.org",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNSnA4NHdodHplM0otOHgtdHV4X0JrVXF3bG1aTDFoSXp6b3J5SGhyYUozQ3k2NDZXd1h0Y0JSc1ZBRkRleVpGdXluWkYzOWJBQUcwTDNZcEVWZjRiUmdEZGpSMGZoYUlrS0ZUelA3cmJFMV9vaVlxeG9Bd1JMYndNRlduczhmcmhFdkVKdk5idllUdXZpQmhzMHBJQTN2UVI5TjMzSWhn?oc=5",
+      "publishedAt": "2026-04-22T00:33:37Z",
+      "excerpt": "Global Shipping Reforms Cast Shadow Over Tanzania\u2019s Fishing Communities ipsnews.net",
       "tags": [
         "Maritime",
         "Supplier"
@@ -4496,6 +4237,27 @@
       "tags": [
         "Safety",
         "Incidents"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [],
+      "priorityScore": 2,
+      "priorityBand": "low",
+      "priorityReasons": [],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "1fa2534e42c6f2be",
+      "title": "Amels 80 NETTO II Begins North Sea Trials Ahead of Summer Delivery - Superyachts.com",
+      "source": "Damen Yachting News",
+      "sourceId": "bing-damen-yachting",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPS2E1THZhT2pRRUhvNDNNZTFVYjBOZE5nT0xLU2MtRkNkY1d0SE1paVNmdzU1NmE0d2FHY09XaVpNNll0eFZqWlJBbWJaMkhxMFRwbXdfX3ZlUU53Sk0wS181dU9xVkJ1eTdEZ3RpamtpUElaaUpGUWltbTFBbUFqbEdVTVEwVHp5ZnZkb0JBWU9uaDNFMEJla2xZUm1uaWNwN2NvSVhVRGIyQWRialJpYnNXR2pqaTg?oc=5",
+      "publishedAt": "2026-04-21T07:00:00Z",
+      "excerpt": "Amels 80 NETTO II Begins North Sea Trials Ahead of Summer Delivery Superyachts.com",
+      "tags": [
+        "Yachting"
       ],
       "audience": "Multraship",
       "paywalled": false,
@@ -5015,6 +4777,162 @@
       "url": "https://www.rivieramm.com/news-content-hub/what-we-know-about-co2-shipping-aips-88024",
       "publishedAt": "2026-04-06T09:30:00Z",
       "excerpt": "Ahead of Posidonia 2026, five years of AiPs trace CO2 carrier sizing, floating storage concepts and onboard capture",
+      "tags": [
+        "Ports",
+        "Terminals"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [],
+      "priorityScore": 2,
+      "priorityBand": "low",
+      "priorityReasons": [],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "29b4e0940d97a605",
+      "title": "Simulator centres train the next generation of tug masters, pilots",
+      "source": "Riviera: Safety & Incidents",
+      "sourceId": "riviera-safety",
+      "url": "https://www.rivieramm.com/news-content-hub/simulator-centres-train-the-next-generation-of-tug-masters-pilots-88237",
+      "publishedAt": "2026-04-06T06:00:00Z",
+      "excerpt": "Training simulation centres improve tug and pilot interactions in manoeuvring and docking ships in ports",
+      "tags": [
+        "Towage",
+        "Safety",
+        "Incidents"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [],
+      "priorityScore": 2,
+      "priorityBand": "low",
+      "priorityReasons": [],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "9365e39ae5343f46",
+      "title": "Ardmore undertakes cargo tank recoating, expands cargo flexibility",
+      "source": "Riviera: Ports & Terminals",
+      "sourceId": "riviera-ports",
+      "url": "https://www.rivieramm.com/news-content-hub/ardmore-undertakes-cargo-tank-recoating-and-expands-cargo-flexibility-88358",
+      "publishedAt": "2026-04-03T05:59:00Z",
+      "excerpt": "Six Ardmore product and chemical tankers have undergone mid-life cargo tank recoating, with the owner citing cleaner turnarounds and broader cargo options",
+      "tags": [
+        "Ports",
+        "Terminals"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [],
+      "priorityScore": 2,
+      "priorityBand": "low",
+      "priorityReasons": [],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "f2a28267aad67edf",
+      "title": "Kuwaiti tanker hit off Dubai; Iran plan for Strait of Hormuz tolls approved",
+      "source": "Riviera: Safety & Incidents",
+      "sourceId": "riviera-safety",
+      "url": "https://www.rivieramm.com/news-content-hub/kuwaiti-tanker-hit-off-dubai-iran-plan-for-strait-of-hormuz-tolls-approved-88340",
+      "publishedAt": "2026-03-31T21:11:49Z",
+      "excerpt": "State-owned Kuwait Petroleum Corp says vessel damaged by \u2019direct Iranian attack\u2019, as plan to impose tolls for Hormuz transits reportedly approved in Iranian parliament",
+      "tags": [
+        "Safety",
+        "Incidents"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [],
+      "priorityScore": 2,
+      "priorityBand": "low",
+      "priorityReasons": [],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "64f995bbd82a1299",
+      "title": "Middle East owners bolster fleets with ASD newbuilds",
+      "source": "Riviera: Ports & Terminals",
+      "sourceId": "riviera-ports",
+      "url": "https://www.rivieramm.com/news-content-hub/middle-east-owners-bolster-fleets-with-asd-newbuilds-88162",
+      "publishedAt": "2026-03-31T10:00:00Z",
+      "excerpt": "Shipyards delivered several tugboats to UAE-headquartered owners in 2025 for operations in the region and in Africa",
+      "tags": [
+        "Towage",
+        "Ports",
+        "Terminals"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [],
+      "priorityScore": 2,
+      "priorityBand": "low",
+      "priorityReasons": [],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "3c6af7b21165c8b4",
+      "title": "Data shows COSCO box ships transit Hormuz after aborted attempt, as transits remain down",
+      "source": "Riviera: Ports & Terminals",
+      "sourceId": "riviera-ports",
+      "url": "https://www.rivieramm.com/news-content-hub/data-shows-cosco-boxships-transit-hormuz-after-aborted-attempt-88320",
+      "publishedAt": "2026-03-30T13:05:49Z",
+      "excerpt": "According to MarineTraffic, this marks the first confirmed transit by a major container carrier since the conflict began",
+      "tags": [
+        "Ports",
+        "Terminals"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [],
+      "priorityScore": 2,
+      "priorityBand": "low",
+      "priorityReasons": [],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "2f1593e04c3967b9",
+      "title": "Sailings cancelled as passenger ferry crashes into St Helier Harbour | ITV News - ITVX",
+      "source": "DFDS News",
+      "sourceId": "bing-dfds",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQUTdLeV95cVZuRHRhMFBMUHJETGZIU3hMbWtzaUJEUWpCWFkwV3JfVllWYklNeGhJbURGTnVzdWpwYVgyTlVfZ0w1X0hfa3Z2dFZ3dUFwY05rSTRVb1JvSGVfU095Vmx1bWpweElnSExMMVJDaUQ4UkRqbTJhWEpHVUp0Q2VfT1NVZHNjaXRR?oc=5",
+      "publishedAt": "2026-03-30T07:00:00Z",
+      "excerpt": "Sailings cancelled as passenger ferry crashes into St Helier Harbour | ITV News ITVX",
+      "tags": [
+        "Ferry",
+        "Shipping"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [],
+      "priorityScore": 2,
+      "priorityBand": "low",
+      "priorityReasons": [],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "041f23eeb0f090b4",
+      "title": "Poland\u2019s Orlen adds two LNG carriers to fleet",
+      "source": "Riviera: Ports & Terminals",
+      "sourceId": "riviera-ports",
+      "url": "https://www.rivieramm.com/news-content-hub/polands-orlen-adds-two-lng-carriers-to-fleet-88233",
+      "publishedAt": "2026-03-30T06:00:00Z",
+      "excerpt": "Polish company has named two LNG carriers in South Korea, taking its fleet to eight ships and expanding its LNG transport capacity",
       "tags": [
         "Ports",
         "Terminals"
