@@ -1,15 +1,15 @@
 {
-  "generatedAt": "2026-04-27T15:45:38.208539Z",
+  "generatedAt": "2026-04-27T17:19:35.438254Z",
   "stocks": {
     "Caterpillar Marine": {
       "ticker": "CAT",
       "exchange": "NYSE",
       "note": "Parent company Caterpillar Inc",
-      "price": 824.595,
+      "price": 826.23,
       "currency": "USD",
-      "change": -7.405,
-      "changePct": -0.89,
-      "updatedAt": "2026-04-27T15:45:38.208539Z"
+      "change": -5.77,
+      "changePct": -0.69,
+      "updatedAt": "2026-04-27T17:19:35.438254Z"
     },
     "Kongsberg Maritime": {
       "ticker": "KOG.OL",
@@ -19,17 +19,17 @@
       "currency": "NOK",
       "change": -4.8,
       "changePct": -1.52,
-      "updatedAt": "2026-04-27T15:45:38.208539Z"
+      "updatedAt": "2026-04-27T17:19:35.438254Z"
     },
     "Bureau Veritas": {
       "ticker": "BVI.PA",
       "exchange": "Euronext Paris",
       "note": null,
-      "price": 25.81,
+      "price": 25.86,
       "currency": "EUR",
-      "change": -0.2,
-      "changePct": -0.77,
-      "updatedAt": "2026-04-27T15:45:38.208539Z"
+      "change": -0.15,
+      "changePct": -0.58,
+      "updatedAt": "2026-04-27T17:19:35.438254Z"
     },
     "W\u00e4rtsil\u00e4": {
       "ticker": "WRT1V.HE",
@@ -39,17 +39,17 @@
       "currency": "EUR",
       "change": -0.35,
       "changePct": -0.91,
-      "updatedAt": "2026-04-27T15:45:38.208539Z"
+      "updatedAt": "2026-04-27T17:19:35.438254Z"
     },
     "Shell Nederland": {
       "ticker": "SHEL.L",
       "exchange": "London Stock Exchange",
       "note": "Parent company Shell plc",
-      "price": 3248.5,
+      "price": 3252.5,
       "currency": "GBp",
-      "change": -60.135,
-      "changePct": -1.82,
-      "updatedAt": "2026-04-27T15:45:38.208539Z"
+      "change": -55.0,
+      "changePct": -1.66,
+      "updatedAt": "2026-04-27T17:19:35.438254Z"
     },
     "BP Raffinaderij Rotterdam": {
       "ticker": "BP.L",
@@ -59,17 +59,17 @@
       "currency": "GBp",
       "change": 0.6,
       "changePct": 0.1,
-      "updatedAt": "2026-04-27T15:45:38.208539Z"
+      "updatedAt": "2026-04-27T17:19:35.438254Z"
     },
     "RWE Renewables": {
       "ticker": "RWE.DE",
       "exchange": "XETRA",
       "note": "Parent company RWE AG",
-      "price": 61.02,
+      "price": 60.74,
       "currency": "EUR",
-      "change": 1.18,
-      "changePct": 1.97,
-      "updatedAt": "2026-04-27T15:45:38.208539Z"
+      "change": 0.8,
+      "changePct": 1.33,
+      "updatedAt": "2026-04-27T17:19:35.438254Z"
     },
     "\u00d8rsted": {
       "ticker": "ORSTED.CO",
@@ -79,27 +79,27 @@
       "currency": "DKK",
       "change": 6.5,
       "changePct": 4.03,
-      "updatedAt": "2026-04-27T15:45:38.208539Z"
+      "updatedAt": "2026-04-27T17:19:35.438254Z"
     },
     "SSE Renewables": {
       "ticker": "SSE.L",
       "exchange": "London Stock Exchange",
       "note": "Parent company SSE plc",
-      "price": 2624.0,
+      "price": 2610.0,
       "currency": "GBp",
-      "change": 4.5,
-      "changePct": 0.17,
-      "updatedAt": "2026-04-27T15:45:38.208539Z"
+      "change": -25.0,
+      "changePct": -0.95,
+      "updatedAt": "2026-04-27T17:19:35.438254Z"
     },
     "TotalEnergies": {
       "ticker": "TTE.PA",
       "exchange": "Euronext Paris",
       "note": null,
-      "price": 76.73,
+      "price": 76.81,
       "currency": "EUR",
-      "change": -0.13,
-      "changePct": -0.17,
-      "updatedAt": "2026-04-27T15:45:38.208539Z"
+      "change": -0.05,
+      "changePct": -0.07,
+      "updatedAt": "2026-04-27T17:19:35.438254Z"
     },
     "DEME Group": {
       "ticker": "DEME.BR",
@@ -109,17 +109,17 @@
       "currency": "EUR",
       "change": -1.0,
       "changePct": -0.53,
-      "updatedAt": "2026-04-27T15:45:38.208539Z"
+      "updatedAt": "2026-04-27T17:19:35.438254Z"
     },
     "ArcelorMittal": {
       "ticker": "MT.AS",
       "exchange": "Euronext Amsterdam",
       "note": null,
-      "price": 50.38,
+      "price": 50.3,
       "currency": "EUR",
-      "change": -0.2,
-      "changePct": -0.4,
-      "updatedAt": "2026-04-27T15:45:38.208539Z"
+      "change": -0.28,
+      "changePct": -0.55,
+      "updatedAt": "2026-04-27T17:19:35.438254Z"
     },
     "Equinor": {
       "ticker": "EQNR.OL",
@@ -129,7 +129,7 @@
       "currency": "NOK",
       "change": -0.8,
       "changePct": -0.22,
-      "updatedAt": "2026-04-27T15:45:38.208539Z"
+      "updatedAt": "2026-04-27T17:19:35.438254Z"
     },
     "Yara International": {
       "ticker": "YAR.OL",
@@ -139,17 +139,17 @@
       "currency": "NOK",
       "change": -2.2,
       "changePct": -0.41,
-      "updatedAt": "2026-04-27T15:45:38.208539Z"
+      "updatedAt": "2026-04-27T17:19:35.438254Z"
     },
     "ExxonMobil": {
       "ticker": "XOM",
       "exchange": "NYSE",
       "note": null,
-      "price": 148.57,
+      "price": 148.69,
       "currency": "USD",
-      "change": -0.2893,
-      "changePct": -0.19,
-      "updatedAt": "2026-04-27T15:45:38.208539Z"
+      "change": -0.1693,
+      "changePct": -0.11,
+      "updatedAt": "2026-04-27T17:19:35.438254Z"
     },
     "Tata Steel": {
       "ticker": "TATASTEEL.NS",
@@ -159,7 +159,7 @@
       "currency": "INR",
       "change": 3.39,
       "changePct": 1.62,
-      "updatedAt": "2026-04-27T15:45:38.208539Z"
+      "updatedAt": "2026-04-27T17:19:35.438254Z"
     },
     "DFDS": {
       "ticker": "DFDS.CO",
@@ -169,7 +169,7 @@
       "currency": "DKK",
       "change": -7.0,
       "changePct": -4.58,
-      "updatedAt": "2026-04-27T15:45:38.208539Z"
+      "updatedAt": "2026-04-27T17:19:35.438254Z"
     }
   }
 }
