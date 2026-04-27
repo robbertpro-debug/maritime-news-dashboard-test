@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-04-27T13:46:37.182957Z",
+  "generatedAt": "2026-04-27T15:45:38.208539Z",
   "lookbackDays": 30,
-  "cutoffAt": "2026-03-28T13:46:37.182957Z",
+  "cutoffAt": "2026-03-28T15:45:38.208539Z",
   "articleCount": 180,
   "sourceCount": 100,
   "sources": [
     "Africa Ports & Ships",
-    "Baird Maritime",
     "Boskalis News",
+    "DEME Group News",
     "DFDS News",
     "Damen Shipyards News",
     "Hellenic Shipping News",
@@ -51,6 +51,7 @@
     "Heavy-Lift",
     "Incidents",
     "Industry",
+    "Marine-Construction",
     "Maritime",
     "Markets",
     "Netherlands",
@@ -70,8 +71,7 @@
     "Tankers",
     "Technology",
     "Terminals",
-    "Towage",
-    "Workboats"
+    "Towage"
   ],
   "locations": [
     "Rotterdam"
@@ -222,71 +222,6 @@
       "priorityBand": "high",
       "priorityReasons": [
         "Client mention: Boskalis",
-        "Signal: Infrastructure",
-        "Signal: Commercial"
-      ],
-      "boardBucket": "High Priority"
-    },
-    {
-      "id": "7de1f37f58a02537",
-      "title": "APM Terminals, Hateco Group team up for new terminal in Da Nang, Vietnam",
-      "source": "Baird Maritime",
-      "sourceId": "baird-maritime",
-      "url": "https://www.bairdmaritime.com/shipping/ports/apm-terminals-hateco-group-team-up-for-new-terminal-in-da-nang-vietnam",
-      "publishedAt": "2026-04-27T09:05:43Z",
-      "excerpt": "APM Terminals and Vietnam's Hateco Group have entered into an agreement with Da Nang City to develop, build and operate the Lien Chieu Container Port. The agreement includes an estimated investment of over US$1.7 billion to deliver a termi\u2026",
-      "tags": [
-        "Workboats",
-        "Technology"
-      ],
-      "audience": "Multraship",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [
-        "Infrastructure",
-        "Terminal Expansion",
-        "Commercial"
-      ],
-      "priorityScore": 10,
-      "priorityBand": "high",
-      "priorityReasons": [
-        "Signal: Infrastructure",
-        "Signal: Terminal Expansion",
-        "Signal: Commercial"
-      ],
-      "boardBucket": "High Priority"
-    },
-    {
-      "id": "adefe2621cfd533d",
-      "title": "UK Dredging signs contract with Damen for advanced new TSHD - Marine Log",
-      "source": "Damen Shipyards News",
-      "sourceId": "bing-damen",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNUGlVbl9zWlR0cndKTnlHRFhTcEg3c09rSFEzRGN1UVVNU3NuQy1yNDJUYzVOa0dUT2tJejhOWjZnN3pSbFpDRUx0MkxjWTY0S2cxWEowZV83aE5XTUxWUTJTQUM0Y1Y4eDByLWVBVDBOcktmUjhGZGo2V0xJcDY4Y2hSUVJNYllBVnRFQ1c2bHZfSXk2ZnE0ajh3d3I4aG45aC1ZSlZTdmFHN185NkQ4?oc=5",
-      "publishedAt": "2026-04-24T16:00:27Z",
-      "excerpt": "UK Dredging signs contract with Damen for advanced new TSHD Marine Log",
-      "tags": [
-        "Shipbuilding",
-        "Supplier"
-      ],
-      "audience": "Multraship",
-      "paywalled": false,
-      "entities": [
-        {
-          "name": "Damen Shipyards Group",
-          "category": "suppliers"
-        }
-      ],
-      "locations": [],
-      "businessTags": [
-        "Supplier",
-        "Infrastructure",
-        "Commercial"
-      ],
-      "priorityScore": 10,
-      "priorityBand": "high",
-      "priorityReasons": [
-        "Supplier mention: Damen Shipyards Group",
         "Signal: Infrastructure",
         "Signal: Commercial"
       ],
@@ -835,33 +770,6 @@
         "Signal: Commercial"
       ],
       "boardBucket": "Clients & Projects"
-    },
-    {
-      "id": "2cffcae8ba7a1ea6",
-      "title": "VESSEL REVIEW | All-weather harbour patrol and rescue boat delivered to Massachusetts State Police",
-      "source": "Baird Maritime",
-      "sourceId": "baird-maritime",
-      "url": "https://www.bairdmaritime.com/security/non-naval-security/police/vessel-review-all-weather-harbour-patrol-and-rescue-boat-delivered-to-massachusetts-state-police",
-      "publishedAt": "2026-04-27T08:56:00Z",
-      "excerpt": "Jeanerette, Louisiana-based boatbuilder Metal Shark recently handed over a new patrol vessel to the Massachusetts State Police (MSP) for operation by its Marine Unit. Designed in-house by Metal Shark, the new boat has a length of nearly 61\u2026",
-      "tags": [
-        "Salvage",
-        "Workboats",
-        "Technology"
-      ],
-      "audience": "Multraship",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [
-        "Incident"
-      ],
-      "priorityScore": 6,
-      "priorityBand": "medium",
-      "priorityReasons": [
-        "Signal: Incident"
-      ],
-      "boardBucket": "Regulation, Safety & Incidents"
     },
     {
       "id": "924d8406b3b6e324",
@@ -1484,11 +1392,11 @@
       "boardBucket": "Clients & Projects"
     },
     {
-      "id": "9a4c224d83e09832",
+      "id": "8cdcc89e90788c2b",
       "title": "Norwegian co to supply 18 big waterjet systems for Indian Navy's next-gen missile vessel project",
       "source": "Kongsberg Maritime News",
       "sourceId": "bing-kongsberg",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=69ef68c71d604831b1ce7b216773294c&url=https%3a%2f%2fwww.msn.com%2fen-in%2fnews%2fother%2fnorwegian-co-to-supply-18-big-waterjet-systems-for-indian-navy-s-next-gen-missile-vessel-project%2far-AA20Nuet&c=4609846177532778353&mkt=en-us",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=69ef84ad9cec4a43863dfc25384b1d3f&url=https%3a%2f%2fwww.msn.com%2fen-in%2fnews%2fother%2fnorwegian-co-to-supply-18-big-waterjet-systems-for-indian-navy-s-next-gen-missile-vessel-project%2far-AA20Nuet&c=4609846177532778353&mkt=en-us",
       "publishedAt": "2026-04-13T16:47:00Z",
       "excerpt": "India's Navy is set to receive 18 advanced Kamewa waterjet propulsion systems from Norway's Kongsberg Maritime for its new missile vessels. This significant contract, awarded in partnership with ...",
       "tags": [
@@ -1516,6 +1424,37 @@
         "Signal: Commercial"
       ],
       "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "3c253a5f990689d8",
+      "title": "Deme Group NV MT0",
+      "source": "DEME Group News",
+      "sourceId": "bing-deme",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=69ef84af3d7344ab9537a5190d38eb15&url=https%3a%2f%2fwww.morningstar.com%2fstocks%2fxstu%2fmt0%2fquote&c=702618500465205373&mkt=en-us",
+      "publishedAt": "2026-04-10T05:55:00Z",
+      "excerpt": "Morningstar Quantitative Ratings for Stocks are generated using an algorithm that compares companies that are not under analyst coverage to peer companies that do receive analyst-driven ratings.",
+      "tags": [
+        "Offshore",
+        "Marine-Construction"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [
+        {
+          "name": "DEME Group",
+          "category": "clients"
+        }
+      ],
+      "locations": [],
+      "businessTags": [
+        "Client"
+      ],
+      "priorityScore": 6,
+      "priorityBand": "medium",
+      "priorityReasons": [
+        "Client mention: DEME Group"
+      ],
+      "boardBucket": "Clients & Projects"
     },
     {
       "id": "8c15e609326590e5",
@@ -1744,6 +1683,37 @@
       "boardBucket": "Clients & Projects"
     },
     {
+      "id": "0f428dbd0187f285",
+      "title": "News Content Hub - Svitzer boosts ship handling in key Brazilian hub with new tugboat - rivieramm.com",
+      "source": "Svitzer News",
+      "sourceId": "bing-svitzer",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNQnNHZVI4NUY4WDIxelhueW52QVNnWWhrMkdFZkFUWFY4U2c1bVA3cUlFZ2dyQjg5Y0ZPVVZXY0NaSmNjTkx6MmVNZW5VbkRVdjNwc3F3andCZVo5VmdaMkxNUm9mMVdBNXFEY3BJRmpPZzVyN0d3SG5ycjZMTHNxWlFjbHpLckdIMzhub2Z0TFAtbmcybDJaS05wcTgwWXdBT2g2UGNUZmFLbWxmMWwxM2I5SHRLdw?oc=5",
+      "publishedAt": "2026-03-30T16:43:13Z",
+      "excerpt": "News Content Hub - Svitzer boosts ship handling in key Brazilian hub with new tugboat rivieramm.com",
+      "tags": [
+        "Towage",
+        "Competitor"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [
+        {
+          "name": "Svitzer",
+          "category": "competitors"
+        }
+      ],
+      "locations": [],
+      "businessTags": [
+        "Competitor"
+      ],
+      "priorityScore": 6,
+      "priorityBand": "medium",
+      "priorityReasons": [
+        "Competitor mention: Svitzer"
+      ],
+      "boardBucket": "Competitors & Market"
+    },
+    {
       "id": "7140ef0ba68275d3",
       "title": "Streamlined approval process will drive energy projects offshore Nova Scotia",
       "source": "Riviera: Regulations & Compliance",
@@ -1799,11 +1769,42 @@
       "boardBucket": "Regulation, Safety & Incidents"
     },
     {
-      "id": "7ac2aa15942ba7b5",
-      "title": "Shell enriches gas business with $22 billion ARC Resources takeover",
+      "id": "1dfd374d472577c0",
+      "title": "Damen Hosts DKF European Offset Conference - Ocean News & Technology",
+      "source": "Damen Shipyards News",
+      "sourceId": "bing-damen",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPRzZka3lleTZJLXdXRm1Hd0dvaWhFczN3YkZIODJjbzNiV2t6M2RrSVRubnJIVmo3STVMZVp4c3BlTW9Ma0Z4andyN0dtSXczbTJRSzc2VHcySkZrVUk5cnpUN01zZ09ycWt2U0oxVkljMlpuZzltZjI2U092aFIyM29mdUpNaU1B?oc=5",
+      "publishedAt": "2026-04-27T14:46:56Z",
+      "excerpt": "Damen Hosts DKF European Offset Conference Ocean News & Technology",
+      "tags": [
+        "Shipbuilding",
+        "Supplier"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [
+        {
+          "name": "Damen Shipyards Group",
+          "category": "suppliers"
+        }
+      ],
+      "locations": [],
+      "businessTags": [
+        "Supplier"
+      ],
+      "priorityScore": 5,
+      "priorityBand": "medium",
+      "priorityReasons": [
+        "Supplier mention: Damen Shipyards Group"
+      ],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "5cde7cea280d058a",
+      "title": "Shell enriches gas business with $16.4 billion ARC Resources takeover",
       "source": "Offshore Energy",
       "sourceId": "offshore-energy",
-      "url": "https://www.offshore-energy.biz/shell-enriches-gas-business-with-22-billion-arc-resources-takeover/",
+      "url": "https://www.offshore-energy.biz/shell-enriches-gas-business-with-16-4-billion-arc-resources-takeover/",
       "publishedAt": "2026-04-27T12:47:45Z",
       "excerpt": "UK-headquartered energy giant Shell has made a move to strengthen its liquefied natural gas (LNG) arsenal through a multibillion-dollar cash\u2011and\u2011share deal for the acquisition of Canada-based ARC Resources. The post Shell enriches gas busi\u2026",
       "tags": [
@@ -1940,6 +1941,58 @@
       "priorityBand": "medium",
       "priorityReasons": [
         "Signal: Infrastructure"
+      ],
+      "boardBucket": "Regulation, Safety & Incidents"
+    },
+    {
+      "id": "74ad32141155133c",
+      "title": "RICHARDS BAY COAL TERMINAL",
+      "source": "Africa Ports & Ships",
+      "sourceId": "africa-ports",
+      "url": "https://africaports.co.za/2026/04/27/richards-bay-coal-terminal-23-january-2024-2/",
+      "publishedAt": "2026-04-26T23:21:52Z",
+      "excerpt": "Ships in port, at the anchorage and ETAs of ships expected at the port of Richards Bay Coal Terminal.",
+      "tags": [
+        "Ports",
+        "Africa"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [
+        "Infrastructure"
+      ],
+      "priorityScore": 5,
+      "priorityBand": "medium",
+      "priorityReasons": [
+        "Signal: Infrastructure"
+      ],
+      "boardBucket": "Regulation, Safety & Incidents"
+    },
+    {
+      "id": "064294cb93415d2d",
+      "title": "Africa PORTS & SHIPS maritime news 27-28 April 2026",
+      "source": "Africa Ports & Ships",
+      "sourceId": "africa-ports",
+      "url": "https://africaports.co.za/2026/04/27/africa-ports-ships-maritime-news-27-28-april-2026/",
+      "publishedAt": "2026-04-26T22:01:45Z",
+      "excerpt": "Africa PORTS & SHIPS maritime news Here are the News Headlines: Beyond the Horizon: New Rail Plan, Old Problems? Pirates hijack oil tanker Honour 25 off Somali coast, raising fears of piracy resurgence Maputo port expansion to be completed\u2026",
+      "tags": [
+        "Ports",
+        "Africa"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [
+        "Terminal Expansion"
+      ],
+      "priorityScore": 5,
+      "priorityBand": "medium",
+      "priorityReasons": [
+        "Signal: Terminal Expansion"
       ],
       "boardBucket": "Regulation, Safety & Incidents"
     },
@@ -2139,32 +2192,6 @@
       "priorityBand": "medium",
       "priorityReasons": [
         "Signal: Regulation"
-      ],
-      "boardBucket": "Regulation, Safety & Incidents"
-    },
-    {
-      "id": "7af36d3389ae827b",
-      "title": "RICHARDS BAY COAL TERMINAL",
-      "source": "Africa Ports & Ships",
-      "sourceId": "africa-ports",
-      "url": "https://africaports.co.za/2026/04/20/richards-bay-coal-terminal-23-january-2024-2/",
-      "publishedAt": "2026-04-19T23:21:52Z",
-      "excerpt": "Ships in port, at the anchorage and ETAs of ships expected at the port of Richards Bay Coal Terminal.",
-      "tags": [
-        "Ports",
-        "Africa"
-      ],
-      "audience": "Multraship",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [
-        "Infrastructure"
-      ],
-      "priorityScore": 5,
-      "priorityBand": "medium",
-      "priorityReasons": [
-        "Signal: Infrastructure"
       ],
       "boardBucket": "Regulation, Safety & Incidents"
     },
@@ -2785,37 +2812,6 @@
       "boardBucket": "Regulation, Safety & Incidents"
     },
     {
-      "id": "6209846d01bbcd95",
-      "title": "W\u00e4rtsil\u00e4 names new Global Head of Sales in Marine - ship.energy",
-      "source": "W\u00e4rtsil\u00e4 News",
-      "sourceId": "bing-wartsila",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQZjUyclc4Zlp4QjBQa2JReGFFOXhaN0d3UHh1ejZ6RDFvVlJZd2wydHNlV2JhM09NUFVSeDJzN2lER3FhWlYwdkllS2h0UWJfaG03XzBRbGt3RzUyX2luTzEtWTVaU3o0VDFNQjZGNy0wOTdXR1RFazZQQjJld1VxNmh5VGZ6WkxQ?oc=5",
-      "publishedAt": "2026-04-24T08:25:00Z",
-      "excerpt": "W\u00e4rtsil\u00e4 names new Global Head of Sales in Marine ship.energy",
-      "tags": [
-        "Propulsion",
-        "Technology"
-      ],
-      "audience": "Both",
-      "paywalled": false,
-      "entities": [
-        {
-          "name": "W\u00e4rtsil\u00e4",
-          "category": "suppliers"
-        }
-      ],
-      "locations": [],
-      "businessTags": [
-        "Supplier"
-      ],
-      "priorityScore": 4,
-      "priorityBand": "medium",
-      "priorityReasons": [
-        "Supplier mention: W\u00e4rtsil\u00e4"
-      ],
-      "boardBucket": "Other Relevant"
-    },
-    {
       "id": "e60ae267fef136aa",
       "title": "LR assesses AI navigation tech in live trial",
       "source": "SWZ Maritime",
@@ -2874,11 +2870,11 @@
       "boardBucket": "Regulation, Safety & Incidents"
     },
     {
-      "id": "d71374c111c3285e",
+      "id": "06591629811544ce",
       "title": "Kongsberg Maritime Begins Trading on the Oslo Stock Exchange",
       "source": "Kongsberg Maritime News",
       "sourceId": "bing-kongsberg",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=69ef68c71d604831b1ce7b216773294c&url=https%3a%2f%2fwww.marinelink.com%2fnews%2fkongsberg-maritime-begins-trading-oslo-538424&c=15974813936108799403&mkt=en-us",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=69ef84ad9cec4a43863dfc25384b1d3f&url=https%3a%2f%2fwww.marinelink.com%2fnews%2fkongsberg-maritime-begins-trading-oslo-538424&c=15974813936108799403&mkt=en-us",
       "publishedAt": "2026-04-23T14:52:00Z",
       "excerpt": "Kongsberg Maritime ASA, a global leader in maritime technology, began trading on Euronext Oslo Stock Exchange on April 23 under the ticker symbol KMAR.",
       "tags": [
@@ -2931,11 +2927,11 @@
       "boardBucket": "Regulation, Safety & Incidents"
     },
     {
-      "id": "2921196cfed541c1",
+      "id": "c64780d34ec978dc",
       "title": "Kongsberg Maritime shares begin trading in Oslo after parent spin-off",
       "source": "Kongsberg Maritime News",
       "sourceId": "bing-kongsberg",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=69ef68c71d604831b1ce7b216773294c&url=https%3a%2f%2fwww.tradewindsnews.com%2ftechnology%2fkongsberg-maritime-shares-begin-trading-in-oslo-after-parent-spin-off%2f2-1-1978439&c=3776947611517546205&mkt=en-us",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=69ef84ad9cec4a43863dfc25384b1d3f&url=https%3a%2f%2fwww.tradewindsnews.com%2ftechnology%2fkongsberg-maritime-shares-begin-trading-in-oslo-after-parent-spin-off%2f2-1-1978439&c=3776947611517546205&mkt=en-us",
       "publishedAt": "2026-04-23T02:01:00Z",
       "excerpt": "A new pure-play maritime technology company is set to hit the public markets, as Kongsberg Maritime begins trading today on the Oslo Stock Exchange after its spin-off from Kongsberg Gruppen. The ...",
       "tags": [
@@ -2993,11 +2989,11 @@
       "boardBucket": "Other Relevant"
     },
     {
-      "id": "ed935d004c773077",
+      "id": "7d1316f9bc084d14",
       "title": "Kongsberg Maritime As News",
       "source": "Kongsberg Maritime News",
       "sourceId": "bing-kongsberg",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=69ef68c71d604831b1ce7b216773294c&url=https%3a%2f%2fwww.marinelink.com%2fnews%2fmaritime%2fkongsberg-maritime-as&c=5214729760993416847&mkt=en-us",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=69ef84ad9cec4a43863dfc25384b1d3f&url=https%3a%2f%2fwww.marinelink.com%2fnews%2fmaritime%2fkongsberg-maritime-as&c=5214729760993416847&mkt=en-us",
       "publishedAt": "2026-04-22T16:59:00Z",
       "excerpt": "Kongsberg Maritime ASA, a global leader in maritime technology, began trading on Euronext Oslo Stock Exchange on April 23 under the ticker symbol KMAR. The company has been spun off from Kongsberg ...",
       "tags": [
@@ -3113,11 +3109,11 @@
       "boardBucket": "Other Relevant"
     },
     {
-      "id": "5dcae007460d7cab",
+      "id": "d14b0e19998d39ae",
       "title": "Indian Navy to equip 6 stealth corvettes with Kongsberg Kamewa",
       "source": "Kongsberg Maritime News",
       "sourceId": "bing-kongsberg",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=69ef68c71d604831b1ce7b216773294c&url=https%3a%2f%2fwww.newsbytesapp.com%2fnews%2findia%2findian-navy-to-equip-6-stealth-corvettes-with-kongsberg-kamewa%2ftldr&c=14647400517899959803&mkt=en-us",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=69ef84ad9cec4a43863dfc25384b1d3f&url=https%3a%2f%2fwww.newsbytesapp.com%2fnews%2findia%2findian-navy-to-equip-6-stealth-corvettes-with-kongsberg-kamewa%2ftldr&c=14647400517899959803&mkt=en-us",
       "publishedAt": "2026-04-13T23:57:00Z",
       "excerpt": "Kongsberg Maritime will supply 18 advanced Kamewa waterjet propulsion systems to the Indian Navy, enhancing speed and stealth capabilities of their next-gen missile vessels.",
       "tags": [
@@ -3170,11 +3166,11 @@
       "boardBucket": "Other Relevant"
     },
     {
-      "id": "92c61d3e77dd742a",
+      "id": "b1d01356f75d6939",
       "title": "Indian Navy selects Kongsberg waterjets for NGMV fleet propulsion",
       "source": "Kongsberg Maritime News",
       "sourceId": "bing-kongsberg",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=69ef68c71d604831b1ce7b216773294c&url=https%3a%2f%2fwww.msn.com%2fen-us%2fmoney%2fother%2findian-navy-selects-kongsberg-waterjets-for-ngmv-fleet-propulsion%2far-AA20C6ox&c=12293673536723939590&mkt=en-us",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=69ef84ad9cec4a43863dfc25384b1d3f&url=https%3a%2f%2fwww.msn.com%2fen-us%2fmoney%2fother%2findian-navy-selects-kongsberg-waterjets-for-ngmv-fleet-propulsion%2far-AA20C6ox&c=12293673536723939590&mkt=en-us",
       "publishedAt": "2026-04-10T08:47:04Z",
       "excerpt": "The next generations missile vessels are being constructed at Cochin Shipyard in India.",
       "tags": [
@@ -3440,6 +3436,37 @@
       "boardBucket": "Regulation, Safety & Incidents"
     },
     {
+      "id": "915bd3800ef70984",
+      "title": "BP Emerges as Top Big Oil Stock During Iran War",
+      "source": "Rigzone",
+      "sourceId": "rigzone-latest",
+      "url": "https://www.rigzone.com/news/bp_emerges_as_top_big_oil_stock_during_iran_war-27-apr-2026-183546-article/?rss=true",
+      "publishedAt": "2026-04-27T13:25:34Z",
+      "excerpt": "BP Plc, long the laggard among oil supermajors, is emerging as the sector's top stock during the Iran war.",
+      "tags": [
+        "Offshore",
+        "Energy"
+      ],
+      "audience": "Novatug",
+      "paywalled": false,
+      "entities": [
+        {
+          "name": "BP Raffinaderij",
+          "category": "suppliers"
+        }
+      ],
+      "locations": [],
+      "businessTags": [
+        "Supplier"
+      ],
+      "priorityScore": 3,
+      "priorityBand": "low",
+      "priorityReasons": [
+        "Supplier mention: BP Raffinaderij"
+      ],
+      "boardBucket": "Other Relevant"
+    },
+    {
       "id": "df52f97da8b302e9",
       "title": "SINAY Boosts Maritime Intelligence Platform with MariTrace Acquisition",
       "source": "The Maritime Executive",
@@ -3488,37 +3515,6 @@
       "priorityBand": "low",
       "priorityReasons": [
         "Signal: Commercial"
-      ],
-      "boardBucket": "Other Relevant"
-    },
-    {
-      "id": "f73eba6981f55425",
-      "title": "BP's New Leadership Suffers Shareholder Revolt",
-      "source": "Rigzone",
-      "sourceId": "rigzone-latest",
-      "url": "https://www.rigzone.com/news/wire/bps_new_leadership_suffers_shareholder_revolt-23-apr-2026-183524-article/?rss=true",
-      "publishedAt": "2026-04-23T21:00:00Z",
-      "excerpt": "BP Plc faced a shareholder backlash at its annual general meeting.",
-      "tags": [
-        "Offshore",
-        "Energy"
-      ],
-      "audience": "Novatug",
-      "paywalled": false,
-      "entities": [
-        {
-          "name": "BP Raffinaderij",
-          "category": "suppliers"
-        }
-      ],
-      "locations": [],
-      "businessTags": [
-        "Supplier"
-      ],
-      "priorityScore": 3,
-      "priorityBand": "low",
-      "priorityReasons": [
-        "Supplier mention: BP Raffinaderij"
       ],
       "boardBucket": "Other Relevant"
     },
@@ -3635,6 +3631,28 @@
       "priorityReasons": [
         "Signal: Commercial"
       ],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "be23f00189031e0e",
+      "title": "Twin Hijackings Off Somalia Signal Dangerous Escalation in Pirate Resurgence",
+      "source": "gCaptain",
+      "sourceId": "gcaptain",
+      "url": "https://gcaptain.com/twin-hijackings-off-somalia-signal-dangerous-escalation-in-pirate-resurgence/",
+      "publishedAt": "2026-04-27T14:55:53Z",
+      "excerpt": "Fresh concerns over a widening resurgence in Somali piracy intensified over the weekend after the United Kingdom Maritime Trade Operations reported two apparent vessel hijackings off Somalia within hours of each other,...",
+      "tags": [
+        "Maritime",
+        "Operations"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [],
+      "priorityScore": 2,
+      "priorityBand": "low",
+      "priorityReasons": [],
       "boardBucket": "Other Relevant"
     },
     {
@@ -3782,94 +3800,6 @@
       "boardBucket": "Other Relevant"
     },
     {
-      "id": "044ed17c8e57c5f2",
-      "title": "Shearwater Geoservices to dispose of laid-up survey ship",
-      "source": "Baird Maritime",
-      "sourceId": "baird-maritime",
-      "url": "https://www.bairdmaritime.com/offshore/exploration-development/subsea-surveying/shearwater-geoservices-to-dispose-of-laid-up-survey-ship",
-      "publishedAt": "2026-04-27T11:15:24Z",
-      "excerpt": "Shearwater Geoservices has entered into an agreement to sell the 2012-built survey vessel SW Baret through one subsidiary. The vessel is being sold to an undisclosed party for conversion into a dedicated source vessel, the company said. Th\u2026",
-      "tags": [
-        "Workboats",
-        "Technology"
-      ],
-      "audience": "Multraship",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [],
-      "priorityScore": 2,
-      "priorityBand": "low",
-      "priorityReasons": [],
-      "boardBucket": "Other Relevant"
-    },
-    {
-      "id": "4f035aaa6eb56570",
-      "title": "US sanctions send Hengli Petrochemical shares into a sharp dive, company denies Iran ties",
-      "source": "Baird Maritime",
-      "sourceId": "baird-maritime",
-      "url": "https://www.bairdmaritime.com/offshore/refining-processing/us-sanctions-send-hengli-petrochemical-shares-into-a-sharp-dive-company-denies-iran-ties",
-      "publishedAt": "2026-04-27T10:58:48Z",
-      "excerpt": "Shares of Hengli Petrochemical fell 10 per cent on Monday after the US last week imposed sanctions on the firm , one of China's largest independent refiners, for allegedly buying Iranian oil. The US Treasury Department said on Friday that\u2026",
-      "tags": [
-        "Workboats",
-        "Technology"
-      ],
-      "audience": "Multraship",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [],
-      "priorityScore": 2,
-      "priorityBand": "low",
-      "priorityReasons": [],
-      "boardBucket": "Other Relevant"
-    },
-    {
-      "id": "2cc31ddf2eb66aa2",
-      "title": "War risks fail to dampen global appetite for newbuild LNG carriers",
-      "source": "Baird Maritime",
-      "sourceId": "baird-maritime",
-      "url": "https://www.bairdmaritime.com/shipping/tankers/gas/war-risks-fail-to-dampen-global-appetite-for-newbuild-lng-carriers",
-      "publishedAt": "2026-04-27T10:52:20Z",
-      "excerpt": "Global orders to build liquefied natural gas carriers (LNGC) are set to rebound this year after a 2025 slump as growing LNG output and vessel fuel efficiency drive demand, industry executives and analysts say. The rise in orders is offsett\u2026",
-      "tags": [
-        "Workboats",
-        "Technology"
-      ],
-      "audience": "Multraship",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [],
-      "priorityScore": 2,
-      "priorityBand": "low",
-      "priorityReasons": [],
-      "boardBucket": "Other Relevant"
-    },
-    {
-      "id": "0a18ed2cc3cee558",
-      "title": "OPINION | Sidelined OPEC watches as US takes the world energy reins",
-      "source": "Baird Maritime",
-      "sourceId": "baird-maritime",
-      "url": "https://www.bairdmaritime.com/shipping/tankers/opinion-sidelined-opec-watches-as-us-takes-the-world-energy-reins",
-      "publishedAt": "2026-04-27T10:46:31Z",
-      "excerpt": "The US has stepped in to shield the global economy from the oil crunch triggered by the Iran war by boosting exports, selectively easing sanctions and tapping strategic reserves. The conflict may be denting Washington\u2019s standing in some qu\u2026",
-      "tags": [
-        "Workboats",
-        "Technology"
-      ],
-      "audience": "Multraship",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [],
-      "priorityScore": 2,
-      "priorityBand": "low",
-      "priorityReasons": [],
-      "boardBucket": "Other Relevant"
-    },
-    {
       "id": "7c27f57c6c1c38f0",
       "title": "DDW Offshore sells anchor handler for $23m",
       "source": "Splash247",
@@ -3904,72 +3834,6 @@
       "tags": [
         "Maritime",
         "Operations"
-      ],
-      "audience": "Multraship",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [],
-      "priorityScore": 2,
-      "priorityBand": "low",
-      "priorityReasons": [],
-      "boardBucket": "Other Relevant"
-    },
-    {
-      "id": "bd6fffb1b95553a5",
-      "title": "Diana Shipping accuses Genco board of stalling tactics over \"missing\" annual meeting date",
-      "source": "Baird Maritime",
-      "sourceId": "baird-maritime",
-      "url": "https://www.bairdmaritime.com/shipping/dry-cargo/bulkers/diana-shipping-accuses-genco-board-of-stalling-tactics-over-missing-annual-meeting-date",
-      "publishedAt": "2026-04-27T10:36:49Z",
-      "excerpt": "Diana Shipping has challenged Genco Shipping and Trading to announce a date for its 2026 annual meeting after a preliminary proxy statement was filed on April 24 without establishing a schedule. The firm, which owns 14.8 per cent of Genco\u2026",
-      "tags": [
-        "Workboats",
-        "Technology"
-      ],
-      "audience": "Multraship",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [],
-      "priorityScore": 2,
-      "priorityBand": "low",
-      "priorityReasons": [],
-      "boardBucket": "Other Relevant"
-    },
-    {
-      "id": "8f70f88ef0b2cecf",
-      "title": "Japan's JERA says gas supplies stable despite Iran conflict, expected to last until July",
-      "source": "Baird Maritime",
-      "sourceId": "baird-maritime",
-      "url": "https://www.bairdmaritime.com/shipping/tankers/gas/japans-jera-says-gas-supplies-stable-despite-iran-conflict-expected-to-last-until-july",
-      "publishedAt": "2026-04-27T10:11:18Z",
-      "excerpt": "JERA, Japan's biggest power generator, has secured adequate liquefied natural gas inventories through July to cover Middle East supply disruptions caused by the US-Israeli war with Iran, an executive said on Monday. JERA, also Japan's top\u2026",
-      "tags": [
-        "Workboats",
-        "Technology"
-      ],
-      "audience": "Multraship",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [],
-      "priorityScore": 2,
-      "priorityBand": "low",
-      "priorityReasons": [],
-      "boardBucket": "Other Relevant"
-    },
-    {
-      "id": "bde16a3a4a487398",
-      "title": "China Merchants steps in to back COSCO in CK Hutchison port deal",
-      "source": "Baird Maritime",
-      "sourceId": "baird-maritime",
-      "url": "https://www.bairdmaritime.com/shipping/ports/china-merchants-steps-in-to-back-cosco-in-ck-hutchison-port-deal",
-      "publishedAt": "2026-04-27T10:06:48Z",
-      "excerpt": "Port operator China Merchants Group is in talks to join a consortium seeking to buy dozens of CK Hutchison Holdings ports, Bloomberg News reported on Monday, citing people familiar with the matter. China Merchants is joining negotiations a\u2026",
-      "tags": [
-        "Workboats",
-        "Technology"
       ],
       "audience": "Multraship",
       "paywalled": false,
@@ -4036,95 +3900,6 @@
       "boardBucket": "Other Relevant"
     },
     {
-      "id": "a2b178b30d1c18b6",
-      "title": "US military forces \"shadow fleet\" tanker back to Iran under escort",
-      "source": "Baird Maritime",
-      "sourceId": "baird-maritime",
-      "url": "https://www.bairdmaritime.com/shipping/tankers/us-military-forces-shadow-fleet-tanker-back-to-iran-under-escort",
-      "publishedAt": "2026-04-27T09:45:52Z",
-      "excerpt": "US Central Command said it intercepted a merchant vessel trying to get through the blockade of Iran on Saturday. Here are some details: The ship, identified as the Sevan , was part of a 19-vessel \"shadow fleet\" transporting Iranian oil and\u2026",
-      "tags": [
-        "Workboats",
-        "Technology"
-      ],
-      "audience": "Multraship",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [],
-      "priorityScore": 2,
-      "priorityBand": "low",
-      "priorityReasons": [],
-      "boardBucket": "Other Relevant"
-    },
-    {
-      "id": "064014137d4a3f19",
-      "title": "AWARDS 2025 | Best Large Trawler \u2013 Ecofive \u2013 Westcon Yards",
-      "source": "Baird Maritime",
-      "sourceId": "baird-maritime",
-      "url": "https://www.bairdmaritime.com/fishing/catching/trawling/awards-2025-best-large-trawler-ecofive-westcon-yards",
-      "publishedAt": "2026-04-27T08:58:00Z",
-      "excerpt": "This modern and highly innovative trawler was built by Westcon Yards for an exacting Norwegian seafood company. Featuring an innovative catch handling and processing system, the catch flows directly into live storage tanks from below the w\u2026",
-      "tags": [
-        "Workboats",
-        "Technology"
-      ],
-      "audience": "Multraship",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [],
-      "priorityScore": 2,
-      "priorityBand": "low",
-      "priorityReasons": [],
-      "boardBucket": "Other Relevant"
-    },
-    {
-      "id": "1fe86baea94c0608",
-      "title": "COLUMN | And just like that... part two: Hornbeck and Helix come together; China cuts cables: US SECNAV Phelan fired! [Offshore Accounts]",
-      "source": "Baird Maritime",
-      "sourceId": "baird-maritime",
-      "url": "https://www.bairdmaritime.com/offshore/column-and-just-like-that-part-two-hornbeck-and-helix-come-together-china-cuts-cables-us-secnav-phelan-fired-offshore-accounts",
-      "publishedAt": "2026-04-27T08:57:00Z",
-      "excerpt": "Last week , we used the tacky Sex and the City sequel And Just Like That... as the hook for our weekly offshore analysis. With sample plotlines such as, \u201cA mugger steals Seema's vintage Birkin bag. Charlotte and Lisa are flattered to be on\u2026",
-      "tags": [
-        "Incidents",
-        "Workboats",
-        "Technology"
-      ],
-      "audience": "Multraship",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [],
-      "priorityScore": 2,
-      "priorityBand": "low",
-      "priorityReasons": [],
-      "boardBucket": "Other Relevant"
-    },
-    {
-      "id": "49b5ec3eadff7c52",
-      "title": "VESSEL REVIEW | Spirit of Bute \u2013 Compact landing craft to support salmon farming operations in western Scotland",
-      "source": "Baird Maritime",
-      "sourceId": "baird-maritime",
-      "url": "https://www.bairdmaritime.com/fishing/aquaculture/vessel-review-spirit-of-bute-compact-landing-craft-to-support-salmon-farming-operations-in-western-scotland",
-      "publishedAt": "2026-04-27T08:55:00Z",
-      "excerpt": "Salmon harvesting company Bakkafrost Scotland recently took delivery of a new landing craft that will support its fish farming operations. Spirit of Bute was built by local company Bute Boatbuilders for a cost of approximately \u00a31.2 million\u2026",
-      "tags": [
-        "Workboats",
-        "Technology"
-      ],
-      "audience": "Multraship",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [],
-      "priorityScore": 2,
-      "priorityBand": "low",
-      "priorityReasons": [],
-      "boardBucket": "Other Relevant"
-    },
-    {
       "id": "db457f35b9b212ae",
       "title": "\u20ac100 million EU financing backs Port of Klaip\u0117da\u2019s energy transition path",
       "source": "Offshore Energy",
@@ -4181,6 +3956,28 @@
       "url": "https://africaports.co.za/2026/04/27/durban-muti-purpose-terminalsdurban-daily-ship-movements-2-2-2-2/",
       "publishedAt": "2026-04-26T22:01:50Z",
       "excerpt": "Ships in port, at the SBM, at the anchorage, arrivals and departures and ships passing Durban at the time of the report.",
+      "tags": [
+        "Ports",
+        "Africa"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [],
+      "priorityScore": 2,
+      "priorityBand": "low",
+      "priorityReasons": [],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "1859904bcb5bd297",
+      "title": "RICHARDS BAY",
+      "source": "Africa Ports & Ships",
+      "sourceId": "africa-ports",
+      "url": "https://africaports.co.za/2026/04/27/richards-bay/",
+      "publishedAt": "2026-04-26T22:01:07Z",
+      "excerpt": "Ships in port, at the anchorage and ETAs of ships expected in the port of Richards Bay.",
       "tags": [
         "Ports",
         "Africa"
@@ -4417,50 +4214,6 @@
       "boardBucket": "Other Relevant"
     },
     {
-      "id": "1b82ba145bf4c8f6",
-      "title": "Hegseth Signals Mines Remain Key Obstacle to Full Hormuz Reopening",
-      "source": "gCaptain",
-      "sourceId": "gcaptain",
-      "url": "https://gcaptain.com/hegseth-signals-mines-remain-key-obstacle-to-full-hormuz-reopening/",
-      "publishedAt": "2026-04-24T22:04:00Z",
-      "excerpt": "Defense Secretary Pete Hegseth on Friday publicly reinforced that mines remain a central obstacle to restoring confidence in the Strait of Hormuz. In a Pentagon briefing focused largely on the...",
-      "tags": [
-        "Maritime",
-        "Operations"
-      ],
-      "audience": "Multraship",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [],
-      "priorityScore": 2,
-      "priorityBand": "low",
-      "priorityReasons": [],
-      "boardBucket": "Other Relevant"
-    },
-    {
-      "id": "04945d7aa0b4b47a",
-      "title": "Africa PORTS & SHIPS maritime news 26 April 2026",
-      "source": "Africa Ports & Ships",
-      "sourceId": "africa-ports",
-      "url": "https://africaports.co.za/2026/04/25/africa-ports-ships-maritime-news-19-20-april-2026/",
-      "publishedAt": "2026-04-24T22:01:57Z",
-      "excerpt": "Africa PORTS & SHIPS maritime news Here are the News Headlines: Mohammed Abdool appointed chief executive of TNPA Victoria Falls Bridge to shed heavy freight as new crossing planned Kafue\u2013Lion\u2019s Den rail corridor: ambition versus reality F\u2026",
-      "tags": [
-        "Ports",
-        "Africa"
-      ],
-      "audience": "Multraship",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [],
-      "priorityScore": 2,
-      "priorityBand": "low",
-      "priorityReasons": [],
-      "boardBucket": "Other Relevant"
-    },
-    {
       "id": "e8ce220faa796c9f",
       "title": "Spliethoff Group Hires Fuel Procurement Manager in Amsterdam - Ship & Bunker",
       "source": "Oldendorff Carriers News",
@@ -4631,28 +4384,6 @@
       "tags": [
         "Incidents",
         "Safety"
-      ],
-      "audience": "Multraship",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [],
-      "priorityScore": 2,
-      "priorityBand": "low",
-      "priorityReasons": [],
-      "boardBucket": "Other Relevant"
-    },
-    {
-      "id": "43d92c61ee335d29",
-      "title": "PORT OF SALDANHA",
-      "source": "Africa Ports & Ships",
-      "sourceId": "africa-ports",
-      "url": "https://africaports.co.za/2026/04/20/saldanha/",
-      "publishedAt": "2026-04-19T23:04:59Z",
-      "excerpt": "Ships in port at Saldanha port, at the inner anchorage, at the St Helena Bay anchorage and ETAs of ships expected",
-      "tags": [
-        "Ports",
-        "Africa"
       ],
       "audience": "Multraship",
       "paywalled": false,
@@ -5019,6 +4750,273 @@
       "tags": [
         "Incidents",
         "Safety"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [],
+      "priorityScore": 2,
+      "priorityBand": "low",
+      "priorityReasons": [],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "e8e2e357a1f8f3ef",
+      "title": "ClassNK awards first MASS notation to coastal container ship",
+      "source": "Riviera: Safety & Incidents",
+      "sourceId": "riviera-safety",
+      "url": "https://www.rivieramm.com/news-content-hub/classnk-awards-first-mass-notation-to-coastal-container-ship-88387",
+      "publishedAt": "2026-04-08T07:30:00Z",
+      "excerpt": "Japanese class society notation paves the way for deploying autonomous navigation technologies on domestic ships",
+      "tags": [
+        "Safety",
+        "Incidents"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [],
+      "priorityScore": 2,
+      "priorityBand": "low",
+      "priorityReasons": [],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "d00abb89bac4411c",
+      "title": "Bhagwan acquires Riverside Marine, expanding Australian port operations",
+      "source": "Riviera: Ports & Terminals",
+      "sourceId": "riviera-ports",
+      "url": "https://www.rivieramm.com/news-content-hub/australia-bhagwan-acquires-riverside-marine-expanding-port-operations-88362",
+      "publishedAt": "2026-04-07T08:30:00Z",
+      "excerpt": "US$90M enterprise-value deal brings tugboat fleet management to key metal ore export ports",
+      "tags": [
+        "Towage",
+        "Ports",
+        "Terminals"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [],
+      "priorityScore": 2,
+      "priorityBand": "low",
+      "priorityReasons": [],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "826188ca32df7f1e",
+      "title": "Give to gain: the power of trust in the workplace",
+      "source": "Riviera: Safety & Incidents",
+      "sourceId": "riviera-safety",
+      "url": "https://www.rivieramm.com/news-content-hub/give-to-gain-the-power-of-trust-in-the-workplace-88103",
+      "publishedAt": "2026-04-07T08:23:50Z",
+      "excerpt": "Speaking up, mentoring and consistent leadership all shape whether crews feel safe, supported and able to perform under pressure",
+      "tags": [
+        "Safety",
+        "Incidents"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [],
+      "priorityScore": 2,
+      "priorityBand": "low",
+      "priorityReasons": [],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "e252750b95e959f1",
+      "title": "ILO, BIMCO launch Bangladesh ship recycling injury pilot scheme",
+      "source": "Riviera: Safety & Incidents",
+      "sourceId": "riviera-safety",
+      "url": "https://www.rivieramm.com/news-content-hub/ilo-bimco-launch-bangladesh-ship-recycling-injury-pilot-scheme-88112",
+      "publishedAt": "2026-04-07T08:00:00Z",
+      "excerpt": "A voluntary Bangladesh pilot links end-of-life ship sales to worker injury compensation ahead of a planned mandatory national scheme in 2027",
+      "tags": [
+        "Safety",
+        "Incidents"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [],
+      "priorityScore": 2,
+      "priorityBand": "low",
+      "priorityReasons": [],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "a2c3c06e72165730",
+      "title": "What we know about CO2 shipping AiPs",
+      "source": "Riviera: Ports & Terminals",
+      "sourceId": "riviera-ports",
+      "url": "https://www.rivieramm.com/news-content-hub/what-we-know-about-co2-shipping-aips-88024",
+      "publishedAt": "2026-04-06T09:30:00Z",
+      "excerpt": "Ahead of Posidonia 2026, five years of AiPs trace CO2 carrier sizing, floating storage concepts and onboard capture",
+      "tags": [
+        "Ports",
+        "Terminals"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [],
+      "priorityScore": 2,
+      "priorityBand": "low",
+      "priorityReasons": [],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "29b4e0940d97a605",
+      "title": "Simulator centres train the next generation of tug masters, pilots",
+      "source": "Riviera: Safety & Incidents",
+      "sourceId": "riviera-safety",
+      "url": "https://www.rivieramm.com/news-content-hub/simulator-centres-train-the-next-generation-of-tug-masters-pilots-88237",
+      "publishedAt": "2026-04-06T06:00:00Z",
+      "excerpt": "Training simulation centres improve tug and pilot interactions in manoeuvring and docking ships in ports",
+      "tags": [
+        "Towage",
+        "Safety",
+        "Incidents"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [],
+      "priorityScore": 2,
+      "priorityBand": "low",
+      "priorityReasons": [],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "9365e39ae5343f46",
+      "title": "Ardmore undertakes cargo tank recoating, expands cargo flexibility",
+      "source": "Riviera: Ports & Terminals",
+      "sourceId": "riviera-ports",
+      "url": "https://www.rivieramm.com/news-content-hub/ardmore-undertakes-cargo-tank-recoating-and-expands-cargo-flexibility-88358",
+      "publishedAt": "2026-04-03T05:59:00Z",
+      "excerpt": "Six Ardmore product and chemical tankers have undergone mid-life cargo tank recoating, with the owner citing cleaner turnarounds and broader cargo options",
+      "tags": [
+        "Ports",
+        "Terminals"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [],
+      "priorityScore": 2,
+      "priorityBand": "low",
+      "priorityReasons": [],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "f2a28267aad67edf",
+      "title": "Kuwaiti tanker hit off Dubai; Iran plan for Strait of Hormuz tolls approved",
+      "source": "Riviera: Safety & Incidents",
+      "sourceId": "riviera-safety",
+      "url": "https://www.rivieramm.com/news-content-hub/kuwaiti-tanker-hit-off-dubai-iran-plan-for-strait-of-hormuz-tolls-approved-88340",
+      "publishedAt": "2026-03-31T21:11:49Z",
+      "excerpt": "State-owned Kuwait Petroleum Corp says vessel damaged by \u2019direct Iranian attack\u2019, as plan to impose tolls for Hormuz transits reportedly approved in Iranian parliament",
+      "tags": [
+        "Safety",
+        "Incidents"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [],
+      "priorityScore": 2,
+      "priorityBand": "low",
+      "priorityReasons": [],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "64f995bbd82a1299",
+      "title": "Middle East owners bolster fleets with ASD newbuilds",
+      "source": "Riviera: Ports & Terminals",
+      "sourceId": "riviera-ports",
+      "url": "https://www.rivieramm.com/news-content-hub/middle-east-owners-bolster-fleets-with-asd-newbuilds-88162",
+      "publishedAt": "2026-03-31T10:00:00Z",
+      "excerpt": "Shipyards delivered several tugboats to UAE-headquartered owners in 2025 for operations in the region and in Africa",
+      "tags": [
+        "Towage",
+        "Ports",
+        "Terminals"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [],
+      "priorityScore": 2,
+      "priorityBand": "low",
+      "priorityReasons": [],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "3c6af7b21165c8b4",
+      "title": "Data shows COSCO box ships transit Hormuz after aborted attempt, as transits remain down",
+      "source": "Riviera: Ports & Terminals",
+      "sourceId": "riviera-ports",
+      "url": "https://www.rivieramm.com/news-content-hub/data-shows-cosco-boxships-transit-hormuz-after-aborted-attempt-88320",
+      "publishedAt": "2026-03-30T13:05:49Z",
+      "excerpt": "According to MarineTraffic, this marks the first confirmed transit by a major container carrier since the conflict began",
+      "tags": [
+        "Ports",
+        "Terminals"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [],
+      "priorityScore": 2,
+      "priorityBand": "low",
+      "priorityReasons": [],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "2f1593e04c3967b9",
+      "title": "Sailings cancelled as passenger ferry crashes into St Helier Harbour | ITV News - ITVX",
+      "source": "DFDS News",
+      "sourceId": "bing-dfds",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQUTdLeV95cVZuRHRhMFBMUHJETGZIU3hMbWtzaUJEUWpCWFkwV3JfVllWYklNeGhJbURGTnVzdWpwYVgyTlVfZ0w1X0hfa3Z2dFZ3dUFwY05rSTRVb1JvSGVfU095Vmx1bWpweElnSExMMVJDaUQ4UkRqbTJhWEpHVUp0Q2VfT1NVZHNjaXRR?oc=5",
+      "publishedAt": "2026-03-30T07:00:00Z",
+      "excerpt": "Sailings cancelled as passenger ferry crashes into St Helier Harbour | ITV News ITVX",
+      "tags": [
+        "Ferry",
+        "Shipping"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [],
+      "priorityScore": 2,
+      "priorityBand": "low",
+      "priorityReasons": [],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "041f23eeb0f090b4",
+      "title": "Poland\u2019s Orlen adds two LNG carriers to fleet",
+      "source": "Riviera: Ports & Terminals",
+      "sourceId": "riviera-ports",
+      "url": "https://www.rivieramm.com/news-content-hub/polands-orlen-adds-two-lng-carriers-to-fleet-88233",
+      "publishedAt": "2026-03-30T06:00:00Z",
+      "excerpt": "Polish company has named two LNG carriers in South Korea, taking its fleet to eight ships and expanding its LNG transport capacity",
+      "tags": [
+        "Ports",
+        "Terminals"
       ],
       "audience": "Multraship",
       "paywalled": false,
