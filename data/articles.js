@@ -1,7 +1,7 @@
 window.__DASHBOARD_DATA__ = {
-  "generatedAt": "2026-04-27T09:37:01.885748Z",
+  "generatedAt": "2026-04-27T11:42:46.512571Z",
   "lookbackDays": 30,
-  "cutoffAt": "2026-03-28T09:37:01.885748Z",
+  "cutoffAt": "2026-03-28T11:42:46.512571Z",
   "articleCount": 180,
   "sourceCount": 100,
   "sources": [
@@ -56,6 +56,7 @@ window.__DASHBOARD_DATA__ = {
     "Netherlands",
     "News",
     "Offshore",
+    "Offshore Support",
     "Operations",
     "Ports",
     "Propulsion",
@@ -453,6 +454,42 @@ window.__DASHBOARD_DATA__ = {
       "boardBucket": "High Priority"
     },
     {
+      "id": "9daaed89fcad4bc0",
+      "title": "TotalEnergies Greenlights Battery-Backed Wind Project in Kazakhstan",
+      "source": "Rigzone",
+      "sourceId": "rigzone-latest",
+      "url": "https://www.rigzone.com/news/totalenergies_greenlights_batterybacked_wind_project_in_kazakhstan-27-apr-2026-183541-article/?rss=true",
+      "publishedAt": "2026-04-27T09:34:44Z",
+      "excerpt": "TotalEnergies and its local partners agreed to proceed with a $1.2-billion onshore wind plus battery energy storage system project capable of powering 1 million people in Kazakhstan.",
+      "tags": [
+        "Batteries",
+        "Offshore",
+        "Energy"
+      ],
+      "audience": "Novatug",
+      "paywalled": false,
+      "entities": [
+        {
+          "name": "TotalEnergies",
+          "category": "clients"
+        }
+      ],
+      "locations": [],
+      "businessTags": [
+        "Client",
+        "Commercial",
+        "Energy Transition"
+      ],
+      "priorityScore": 8,
+      "priorityBand": "medium",
+      "priorityReasons": [
+        "Client mention: TotalEnergies",
+        "Signal: Commercial",
+        "Signal: Energy Transition"
+      ],
+      "boardBucket": "Clients & Projects"
+    },
+    {
       "id": "d5f15867c60ce9bc",
       "title": "BREAKING NEWS: Damen to build new TSHD for UK Dredging - Dredging Today",
       "source": "Damen Shipyards News",
@@ -767,6 +804,39 @@ window.__DASHBOARD_DATA__ = {
       "boardBucket": "Regulation, Safety & Incidents"
     },
     {
+      "id": "54b8f04c4a76876b",
+      "title": "Multimillion-dollar extension keeps Archer busy in Norway for three more years",
+      "source": "Offshore Energy",
+      "sourceId": "offshore-energy",
+      "url": "https://www.offshore-energy.biz/multimillion-dollar-extension-keeps-archer-busy-in-norway-for-three-more-years/",
+      "publishedAt": "2026-04-27T09:26:20Z",
+      "excerpt": "Oslo Stock Exchange-listed oil services company Archer has won a multi-year contract extension with Norway\u2019s state-owned energy giant Equinor for work on the Norwegian Continental Shelf (NCS). The post Multimillion-dollar extension keeps A\u2026",
+      "tags": [
+        "Energy-Transition",
+        "Technology"
+      ],
+      "audience": "Novatug",
+      "paywalled": false,
+      "entities": [
+        {
+          "name": "Equinor",
+          "category": "clients"
+        }
+      ],
+      "locations": [],
+      "businessTags": [
+        "Client",
+        "Commercial"
+      ],
+      "priorityScore": 6,
+      "priorityBand": "medium",
+      "priorityReasons": [
+        "Client mention: Equinor",
+        "Signal: Commercial"
+      ],
+      "boardBucket": "Clients & Projects"
+    },
+    {
       "id": "2cffcae8ba7a1ea6",
       "title": "VESSEL REVIEW | All-weather harbour patrol and rescue boat delivered to Massachusetts State Police",
       "source": "Baird Maritime",
@@ -972,39 +1042,6 @@ window.__DASHBOARD_DATA__ = {
       "boardBucket": "Regulation, Safety & Incidents"
     },
     {
-      "id": "1d7dd0dbc887d018",
-      "title": "QatarEnergy, ExxonMobil Ship 1st Cargo from Texas LNG Project",
-      "source": "Rigzone",
-      "sourceId": "rigzone-latest",
-      "url": "https://www.rigzone.com/news/qatarenergy_exxonmobil_ship_1st_cargo_from_texas_lng_project-23-apr-2026-183520-article/?rss=true",
-      "publishedAt": "2026-04-23T11:32:34Z",
-      "excerpt": "QatarEnergy said its LNG trading arm would offtake 70 percent of Golden Pass' production.",
-      "tags": [
-        "Offshore",
-        "Energy"
-      ],
-      "audience": "Novatug",
-      "paywalled": false,
-      "entities": [
-        {
-          "name": "ExxonMobil",
-          "category": "clients"
-        }
-      ],
-      "locations": [],
-      "businessTags": [
-        "Client",
-        "Commercial"
-      ],
-      "priorityScore": 6,
-      "priorityBand": "medium",
-      "priorityReasons": [
-        "Client mention: ExxonMobil",
-        "Signal: Commercial"
-      ],
-      "boardBucket": "Clients & Projects"
-    },
-    {
       "id": "f449cc0a66681aed",
       "title": "QatarEnergy-ExxonMobil Golden Pass LNG marks 'milestone' first cargo export",
       "source": "Riviera: Ports & Terminals",
@@ -1045,39 +1082,6 @@ window.__DASHBOARD_DATA__ = {
       "excerpt": "W\u00e4rtsil\u00e4 and Erik Thun Group partnership to enhance reliability, sustainability and performance throughout the fleet W\u00e4rtsil\u00e4",
       "tags": [
         "Sustainability",
-        "Propulsion",
-        "Technology"
-      ],
-      "audience": "Both",
-      "paywalled": false,
-      "entities": [
-        {
-          "name": "W\u00e4rtsil\u00e4",
-          "category": "suppliers"
-        }
-      ],
-      "locations": [],
-      "businessTags": [
-        "Supplier",
-        "Commercial"
-      ],
-      "priorityScore": 6,
-      "priorityBand": "medium",
-      "priorityReasons": [
-        "Supplier mention: W\u00e4rtsil\u00e4",
-        "Signal: Commercial"
-      ],
-      "boardBucket": "Other Relevant"
-    },
-    {
-      "id": "69b2f01a935e94ca",
-      "title": "W\u00e4rtsil\u00e4, Erik Thun Agree Overhaul Partnership for Fleet Support - Marine News Magazine",
-      "source": "W\u00e4rtsil\u00e4 News",
-      "sourceId": "bing-wartsila",
-      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE95anc1MnpsMFpMWllyc2pwTmJSNUFZTFJJcEc2Y3JGSzlxdXE5YVliOC0yeFhrX3VXZzFzNTlscmx4RlIwcE5mckhkSWZkMkFiNVdjRzhtQTBHOVZQTFJ5dDFnSC1LUkdFbGdCNG5KLVl2MGQ1SGM4NlBR?oc=5",
-      "publishedAt": "2026-04-23T09:41:25Z",
-      "excerpt": "W\u00e4rtsil\u00e4, Erik Thun Agree Overhaul Partnership for Fleet Support Marine News Magazine",
-      "tags": [
         "Propulsion",
         "Technology"
       ],
@@ -1543,11 +1547,11 @@ window.__DASHBOARD_DATA__ = {
       "boardBucket": "Clients & Projects"
     },
     {
-      "id": "2ddeb9ec44ffcfe2",
+      "id": "258457d7d546c112",
       "title": "Norwegian co to supply 18 big waterjet systems for Indian Navy's next-gen missile vessel project",
       "source": "Kongsberg Maritime News",
       "sourceId": "bing-kongsberg",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=69ef2e43d86b4b75b74e6a2e6e3b4832&url=https%3a%2f%2fwww.msn.com%2fen-in%2fnews%2fother%2fnorwegian-co-to-supply-18-big-waterjet-systems-for-indian-navy-s-next-gen-missile-vessel-project%2far-AA20Nuet&c=4609846177532778353&mkt=en-us",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=69ef4bbd1b1547a18695e9bbe280f097&url=https%3a%2f%2fwww.msn.com%2fen-in%2fnews%2fother%2fnorwegian-co-to-supply-18-big-waterjet-systems-for-indian-navy-s-next-gen-missile-vessel-project%2far-AA20Nuet&c=4609846177532778353&mkt=en-us",
       "publishedAt": "2026-04-13T16:47:00Z",
       "excerpt": "India's Navy is set to receive 18 advanced Kamewa waterjet propulsion systems from Norway's Kongsberg Maritime for its new missile vessels. This significant contract, awarded in partnership with ...",
       "tags": [
@@ -2001,40 +2005,6 @@ window.__DASHBOARD_DATA__ = {
       "boardBucket": "Regulation, Safety & Incidents"
     },
     {
-      "id": "04d9abfe9f003638",
-      "title": "ABS and PIL to Advance Maritime Decarbonisation with Alternative Marine Fuel Emissions Verification",
-      "source": "Hellenic Shipping News",
-      "sourceId": "hellenic-shipping-news",
-      "url": "https://www.hellenicshippingnews.com/abs-and-pil-to-advance-maritime-decarbonisation-with-alternative-marine-fuel-emissions-verification/",
-      "publishedAt": "2026-04-26T21:00:36Z",
-      "excerpt": "ABS and Pacific International Lines (PIL) have announced a formal collaboration through the signing of a Memorandum of Understanding (MOU) to support PIL\u2019s participation in Book and Claim registries, enabling credible and independently ver\u2026",
-      "tags": [
-        "Decarbonization",
-        "Shipping",
-        "Markets"
-      ],
-      "audience": "Novatug",
-      "paywalled": false,
-      "entities": [
-        {
-          "name": "American Bureau of Shipping",
-          "category": "suppliers"
-        }
-      ],
-      "locations": [],
-      "businessTags": [
-        "Supplier",
-        "Energy Transition"
-      ],
-      "priorityScore": 5,
-      "priorityBand": "medium",
-      "priorityReasons": [
-        "Supplier mention: American Bureau of Shipping",
-        "Signal: Energy Transition"
-      ],
-      "boardBucket": "Other Relevant"
-    },
-    {
       "id": "fa2c7a582f1ad14e",
       "title": "Liberia Tables a Pragmatic Net Zero Proposal for the IMO",
       "source": "The Maritime Executive",
@@ -2440,6 +2410,38 @@ window.__DASHBOARD_DATA__ = {
       "boardBucket": "Clients & Projects"
     },
     {
+      "id": "9c4e9d4556cd3bed",
+      "title": "Damen launches advanced NRP D. Jo\u00e3o II multi-purpose vessel for Portuguese Navy - Defence Industry Europe",
+      "source": "Damen Shipyards News",
+      "sourceId": "bing-damen",
+      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQYWRrNEhGTzFFWFRvLW8tZXZDaEhOQUw2TFF2ejE1UkQ3WWJ4b1lnVmswR0ptNHNtRVNmT2RobzEzSWZ5Mm5RODRybTBIXzJZTFNvb1ZOc0E0TXBfMWtCc19aMWhzVHRiMWx1bUZQR1gxSTFfX1lZVnFKMTRyWUxiUFZpR0NtQXgxVjJPVlJzbEVpOWVuaDl0b0JvamtqbHU3bVpWT0xEWW52cV9COVJEWEp5eUVSZF9iU3V3aWFENEFZUU1sLUNWS3BWSFFpeDcxdzltRElXM1c5OGRMdVQ4?oc=5",
+      "publishedAt": "2026-04-08T07:00:00Z",
+      "excerpt": "Damen launches advanced NRP D. Jo\u00e3o II multi-purpose vessel for Portuguese Navy Defence Industry Europe",
+      "tags": [
+        "Towage",
+        "Shipbuilding",
+        "Supplier"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [
+        {
+          "name": "Damen Shipyards Group",
+          "category": "suppliers"
+        }
+      ],
+      "locations": [],
+      "businessTags": [
+        "Supplier"
+      ],
+      "priorityScore": 5,
+      "priorityBand": "medium",
+      "priorityReasons": [
+        "Supplier mention: Damen Shipyards Group"
+      ],
+      "boardBucket": "Other Relevant"
+    },
+    {
       "id": "fe2e08cbdbd1725c",
       "title": "Damen launches \u2018Drone Carrier\u2019 for the Portuguese Navy - navalnews.com",
       "source": "Damen Shipyards News",
@@ -2502,6 +2504,61 @@ window.__DASHBOARD_DATA__ = {
       "priorityBand": "medium",
       "priorityReasons": [
         "Supplier mention: DNV",
+        "Signal: Commercial"
+      ],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "af3c84d9f3dc2535",
+      "title": "Japanese trio launches demo project on ammonia supply for vessels in Singapore",
+      "source": "Offshore Energy",
+      "sourceId": "offshore-energy",
+      "url": "https://www.offshore-energy.biz/japanese-trio-launches-demo-project-on-ammonia-supply-for-vessels-in-singapore/",
+      "publishedAt": "2026-04-27T11:05:38Z",
+      "excerpt": "Japan\u2019s Sumitomo Corporation, Kawasaki Kisen Kaisha (\u201cK\u201d Line), and Nippon Yusen Kabushiki Kaisha (NYK [\u2026] The post Japanese trio launches demo project on ammonia supply for vessels in Singapore appeared first on Offshore Energy .",
+      "tags": [
+        "Clean Propulsion",
+        "Energy-Transition",
+        "Technology"
+      ],
+      "audience": "Novatug",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [
+        "Commercial",
+        "Energy Transition"
+      ],
+      "priorityScore": 4,
+      "priorityBand": "medium",
+      "priorityReasons": [
+        "Signal: Commercial",
+        "Signal: Energy Transition"
+      ],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "8f91e649c16c97b5",
+      "title": "Venture Global closes US$750M loan offering for Calcasieu Pass",
+      "source": "Riviera: Ports & Terminals",
+      "sourceId": "riviera-ports",
+      "url": "https://www.rivieramm.com/news-content-hub/venture-global-closes-us750m-loan-offering-for-calcasieu-pass-88588",
+      "publishedAt": "2026-04-27T10:30:00Z",
+      "excerpt": "Venture Global\u2019s inaugural LNG export project \u2013 Calcasieu Pass \u2013 began selling US LNG to the project\u2019s long-term customers in April 2025",
+      "tags": [
+        "Ports",
+        "Terminals"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [
+        "Commercial"
+      ],
+      "priorityScore": 4,
+      "priorityBand": "medium",
+      "priorityReasons": [
         "Signal: Commercial"
       ],
       "boardBucket": "Other Relevant"
@@ -2904,43 +2961,11 @@ window.__DASHBOARD_DATA__ = {
       "boardBucket": "Regulation, Safety & Incidents"
     },
     {
-      "id": "3fd06fa83ba41908",
-      "title": "W\u00e4rtsil\u00e4\u2019s strength in fishing vessel sector enhanced with propulsion orders for four new vessels - W\u00e4rtsil\u00e4",
-      "source": "W\u00e4rtsil\u00e4 News",
-      "sourceId": "bing-wartsila",
-      "url": "https://news.google.com/rss/articles/CBMixAJBVV95cUxObkYzLVBPZzczVlR5bW5qWXVjRXJxbmJheUt1YnU5bVVpS2xUUlJuZkgxRTlZTW9CLXRhc1dHa0wyMjYxVHdsNGh6WlhXWXVkVUh6bU9BU29OamlKMkVNQkNnOVlqTmN6U3A3cnRJTjdqUl93aElVN2NRVzZkMVVIVFZVOWlycktKYlhIdGpmbGxzLTRfanMtSHRvdW94R3lVQ3lCTzRVVUZBMzdlN0hIV0gtUlExQW1GdE5RTFB1RTU5eElwbU80cDNnZ0NGRU5fWGFJajdnSWJDRGRXX0MzVXdzMDg0S2h2WVBxa0VGQzJpcEJ5bEQ2UUtZV25FRU5ONmZqelh5bGJHYnFuVHZxOFlPUXd4VXJiclQ1TzFDbW1CajJ5TjR3aDhGSWhEVGNuSDI5c3gyWFdWaXM1SmpWb213LTY?oc=5",
-      "publishedAt": "2026-04-23T18:00:42Z",
-      "excerpt": "W\u00e4rtsil\u00e4\u2019s strength in fishing vessel sector enhanced with propulsion orders for four new vessels W\u00e4rtsil\u00e4",
-      "tags": [
-        "Clean Propulsion",
-        "Propulsion",
-        "Technology"
-      ],
-      "audience": "Both",
-      "paywalled": false,
-      "entities": [
-        {
-          "name": "W\u00e4rtsil\u00e4",
-          "category": "suppliers"
-        }
-      ],
-      "locations": [],
-      "businessTags": [
-        "Supplier"
-      ],
-      "priorityScore": 4,
-      "priorityBand": "medium",
-      "priorityReasons": [
-        "Supplier mention: W\u00e4rtsil\u00e4"
-      ],
-      "boardBucket": "Other Relevant"
-    },
-    {
-      "id": "6cb4f71872995edf",
+      "id": "b5ea1527307b00f8",
       "title": "Kongsberg Maritime Begins Trading on the Oslo Stock Exchange",
       "source": "Kongsberg Maritime News",
       "sourceId": "bing-kongsberg",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=69ef2e43d86b4b75b74e6a2e6e3b4832&url=https%3a%2f%2fwww.marinelink.com%2fnews%2fkongsberg-maritime-begins-trading-oslo-538424&c=15974813936108799403&mkt=en-us",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=69ef4bbd1b1547a18695e9bbe280f097&url=https%3a%2f%2fwww.marinelink.com%2fnews%2fkongsberg-maritime-begins-trading-oslo-538424&c=15974813936108799403&mkt=en-us",
       "publishedAt": "2026-04-23T14:52:00Z",
       "excerpt": "Kongsberg Maritime ASA, a global leader in maritime technology, began trading on Euronext Oslo Stock Exchange on April 23 under the ticker symbol KMAR.",
       "tags": [
@@ -2993,11 +3018,11 @@ window.__DASHBOARD_DATA__ = {
       "boardBucket": "Regulation, Safety & Incidents"
     },
     {
-      "id": "79aa21690ce6ee75",
+      "id": "b9a4419ff6de2648",
       "title": "Kongsberg Maritime shares begin trading in Oslo after parent spin-off",
       "source": "Kongsberg Maritime News",
       "sourceId": "bing-kongsberg",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=69ef2e43d86b4b75b74e6a2e6e3b4832&url=https%3a%2f%2fwww.tradewindsnews.com%2ftechnology%2fkongsberg-maritime-shares-begin-trading-in-oslo-after-parent-spin-off%2f2-1-1978439&c=3776947611517546205&mkt=en-us",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=69ef4bbd1b1547a18695e9bbe280f097&url=https%3a%2f%2fwww.tradewindsnews.com%2ftechnology%2fkongsberg-maritime-shares-begin-trading-in-oslo-after-parent-spin-off%2f2-1-1978439&c=3776947611517546205&mkt=en-us",
       "publishedAt": "2026-04-23T02:01:00Z",
       "excerpt": "A new pure-play maritime technology company is set to hit the public markets, as Kongsberg Maritime begins trading today on the Oslo Stock Exchange after its spin-off from Kongsberg Gruppen. The ...",
       "tags": [
@@ -3055,11 +3080,11 @@ window.__DASHBOARD_DATA__ = {
       "boardBucket": "Other Relevant"
     },
     {
-      "id": "4169778b5f9d69e8",
+      "id": "e0f1972c57f3394a",
       "title": "Kongsberg Maritime As News",
       "source": "Kongsberg Maritime News",
       "sourceId": "bing-kongsberg",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=69ef2e43d86b4b75b74e6a2e6e3b4832&url=https%3a%2f%2fwww.marinelink.com%2fnews%2fmaritime%2fkongsberg-maritime-as&c=5214729760993416847&mkt=en-us",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=69ef4bbd1b1547a18695e9bbe280f097&url=https%3a%2f%2fwww.marinelink.com%2fnews%2fmaritime%2fkongsberg-maritime-as&c=5214729760993416847&mkt=en-us",
       "publishedAt": "2026-04-22T16:59:00Z",
       "excerpt": "Kongsberg Maritime ASA, a global leader in maritime technology, began trading on Euronext Oslo Stock Exchange on April 23 under the ticker symbol KMAR. The company has been spun off from Kongsberg ...",
       "tags": [
@@ -3082,37 +3107,6 @@ window.__DASHBOARD_DATA__ = {
       "priorityBand": "medium",
       "priorityReasons": [
         "Supplier mention: Kongsberg Maritime"
-      ],
-      "boardBucket": "Other Relevant"
-    },
-    {
-      "id": "618c9177e9e7f257",
-      "title": "W\u00e4rtsil\u00e4 Launches NTPRO 7: The Future of Maritime Training - Travel And Tour World",
-      "source": "W\u00e4rtsil\u00e4 News",
-      "sourceId": "bing-wartsila",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQMDFKd2dpY3kwSzFIVnF4V1V6SE5jVXlkSXAwNTBjU0tWYW9fbXpmMW4zb0NPYzBOSVRkNkc0RllvSGs0RWRmalAzNE83S0hDMkdqU3BUaUh6cXNVbGladkh1TkZWd0cwU21KMmNwNjhjdV9oa3ZZRE9ybzc1S3hTdlVhZGNKelZoTzVWeFVseUlUTGlOVTRyYlVWRWgyVGJ4T1hocEtEUmJOQQ?oc=5",
-      "publishedAt": "2026-04-22T15:52:43Z",
-      "excerpt": "W\u00e4rtsil\u00e4 Launches NTPRO 7: The Future of Maritime Training Travel And Tour World",
-      "tags": [
-        "Propulsion",
-        "Technology"
-      ],
-      "audience": "Both",
-      "paywalled": false,
-      "entities": [
-        {
-          "name": "W\u00e4rtsil\u00e4",
-          "category": "suppliers"
-        }
-      ],
-      "locations": [],
-      "businessTags": [
-        "Supplier"
-      ],
-      "priorityScore": 4,
-      "priorityBand": "medium",
-      "priorityReasons": [
-        "Supplier mention: W\u00e4rtsil\u00e4"
       ],
       "boardBucket": "Other Relevant"
     },
@@ -3206,11 +3200,11 @@ window.__DASHBOARD_DATA__ = {
       "boardBucket": "Other Relevant"
     },
     {
-      "id": "45c8a31fcf977aaa",
+      "id": "9f04c4d9f0889074",
       "title": "Indian Navy to equip 6 stealth corvettes with Kongsberg Kamewa",
       "source": "Kongsberg Maritime News",
       "sourceId": "bing-kongsberg",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=69ef2e43d86b4b75b74e6a2e6e3b4832&url=https%3a%2f%2fwww.newsbytesapp.com%2fnews%2findia%2findian-navy-to-equip-6-stealth-corvettes-with-kongsberg-kamewa%2ftldr&c=14647400517899959803&mkt=en-us",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=69ef4bbd1b1547a18695e9bbe280f097&url=https%3a%2f%2fwww.newsbytesapp.com%2fnews%2findia%2findian-navy-to-equip-6-stealth-corvettes-with-kongsberg-kamewa%2ftldr&c=14647400517899959803&mkt=en-us",
       "publishedAt": "2026-04-13T23:57:00Z",
       "excerpt": "Kongsberg Maritime will supply 18 advanced Kamewa waterjet propulsion systems to the Indian Navy, enhancing speed and stealth capabilities of their next-gen missile vessels.",
       "tags": [
@@ -3263,11 +3257,11 @@ window.__DASHBOARD_DATA__ = {
       "boardBucket": "Other Relevant"
     },
     {
-      "id": "c30bc3a9f59968a6",
+      "id": "6c0ce8d79ca722aa",
       "title": "Indian Navy selects Kongsberg waterjets for NGMV fleet propulsion",
       "source": "Kongsberg Maritime News",
       "sourceId": "bing-kongsberg",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=69ef2e43d86b4b75b74e6a2e6e3b4832&url=https%3a%2f%2fwww.msn.com%2fen-us%2fmoney%2fother%2findian-navy-selects-kongsberg-waterjets-for-ngmv-fleet-propulsion%2far-AA20C6ox&c=12293673536723939590&mkt=en-us",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=69ef4bbd1b1547a18695e9bbe280f097&url=https%3a%2f%2fwww.msn.com%2fen-us%2fmoney%2fother%2findian-navy-selects-kongsberg-waterjets-for-ngmv-fleet-propulsion%2far-AA20C6ox&c=12293673536723939590&mkt=en-us",
       "publishedAt": "2026-04-10T08:47:04Z",
       "excerpt": "The next generations missile vessels are being constructed at Cochin Shipyard in India.",
       "tags": [
@@ -3559,34 +3553,6 @@ window.__DASHBOARD_DATA__ = {
       "boardBucket": "Other Relevant"
     },
     {
-      "id": "efea6ffd6d9e5b89",
-      "title": "Working Group On GHG Makes Positive Progress Before Climate Talks Next Week And Engagement Shows The Net Zero Fund Is A High Priority To Many Member States",
-      "source": "Hellenic Shipping News",
-      "sourceId": "hellenic-shipping-news",
-      "url": "https://www.hellenicshippingnews.com/working-group-on-ghg-makes-positive-progress-before-climate-talks-next-week-and-engagement-shows-the-net-zero-fund-is-a-high-priority-to-many-member-states/",
-      "publishedAt": "2026-04-26T21:00:48Z",
-      "excerpt": "Readout from UCL Shipping and Oceans Research group shows IMO\u2019s Intersessional working group on GHGs has made good progress on a range of important debates and guidelines, that all relate to the implementation of the IMO\u2019s Net Zero Framewo\u2026",
-      "tags": [
-        "Regulation",
-        "Decarbonization",
-        "Shipping",
-        "Markets"
-      ],
-      "audience": "Novatug",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [
-        "Regulation"
-      ],
-      "priorityScore": 3,
-      "priorityBand": "low",
-      "priorityReasons": [
-        "Signal: Regulation"
-      ],
-      "boardBucket": "Regulation, Safety & Incidents"
-    },
-    {
       "id": "ff4e3dc7e9371856",
       "title": "Odfjell Advances Fleet Renewal After Committing $290M for Four Newbuilds",
       "source": "The Maritime Executive",
@@ -3759,6 +3725,282 @@ window.__DASHBOARD_DATA__ = {
       "boardBucket": "Other Relevant"
     },
     {
+      "id": "044ed17c8e57c5f2",
+      "title": "Shearwater Geoservices to dispose of laid-up survey ship",
+      "source": "Baird Maritime",
+      "sourceId": "baird-maritime",
+      "url": "https://www.bairdmaritime.com/offshore/exploration-development/subsea-surveying/shearwater-geoservices-to-dispose-of-laid-up-survey-ship",
+      "publishedAt": "2026-04-27T11:15:24Z",
+      "excerpt": "Shearwater Geoservices has entered into an agreement to sell the 2012-built survey vessel SW Baret through one subsidiary. The vessel is being sold to an undisclosed party for conversion into a dedicated source vessel, the company said. Th\u2026",
+      "tags": [
+        "Workboats",
+        "Technology"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [],
+      "priorityScore": 2,
+      "priorityBand": "low",
+      "priorityReasons": [],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "4f035aaa6eb56570",
+      "title": "US sanctions send Hengli Petrochemical shares into a sharp dive, company denies Iran ties",
+      "source": "Baird Maritime",
+      "sourceId": "baird-maritime",
+      "url": "https://www.bairdmaritime.com/offshore/refining-processing/us-sanctions-send-hengli-petrochemical-shares-into-a-sharp-dive-company-denies-iran-ties",
+      "publishedAt": "2026-04-27T10:58:48Z",
+      "excerpt": "Shares of Hengli Petrochemical fell 10 per cent on Monday after the US last week imposed sanctions on the firm , one of China's largest independent refiners, for allegedly buying Iranian oil. The US Treasury Department said on Friday that\u2026",
+      "tags": [
+        "Workboats",
+        "Technology"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [],
+      "priorityScore": 2,
+      "priorityBand": "low",
+      "priorityReasons": [],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "2cc31ddf2eb66aa2",
+      "title": "War risks fail to dampen global appetite for newbuild LNG carriers",
+      "source": "Baird Maritime",
+      "sourceId": "baird-maritime",
+      "url": "https://www.bairdmaritime.com/shipping/tankers/gas/war-risks-fail-to-dampen-global-appetite-for-newbuild-lng-carriers",
+      "publishedAt": "2026-04-27T10:52:20Z",
+      "excerpt": "Global orders to build liquefied natural gas carriers (LNGC) are set to rebound this year after a 2025 slump as growing LNG output and vessel fuel efficiency drive demand, industry executives and analysts say. The rise in orders is offsett\u2026",
+      "tags": [
+        "Workboats",
+        "Technology"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [],
+      "priorityScore": 2,
+      "priorityBand": "low",
+      "priorityReasons": [],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "0a18ed2cc3cee558",
+      "title": "OPINION | Sidelined OPEC watches as US takes the world energy reins",
+      "source": "Baird Maritime",
+      "sourceId": "baird-maritime",
+      "url": "https://www.bairdmaritime.com/shipping/tankers/opinion-sidelined-opec-watches-as-us-takes-the-world-energy-reins",
+      "publishedAt": "2026-04-27T10:46:31Z",
+      "excerpt": "The US has stepped in to shield the global economy from the oil crunch triggered by the Iran war by boosting exports, selectively easing sanctions and tapping strategic reserves. The conflict may be denting Washington\u2019s standing in some qu\u2026",
+      "tags": [
+        "Workboats",
+        "Technology"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [],
+      "priorityScore": 2,
+      "priorityBand": "low",
+      "priorityReasons": [],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "7c27f57c6c1c38f0",
+      "title": "DDW Offshore sells anchor handler for $23m",
+      "source": "Splash247",
+      "sourceId": "splash247",
+      "url": "https://splash247.com/ddw-offshore-sells-anchor-handler-for-23m/",
+      "publishedAt": "2026-04-27T10:46:04Z",
+      "excerpt": "Norway\u2019s DDW Offshore, a subsidiary of Akastor, has sold one of its anchor handling tug supply (AHTS) vessels to an undisclosed buyer. The company said that it entered into a binding agreement to sell the 2011-built Skandi Emerald anchor h\u2026",
+      "tags": [
+        "Towage",
+        "Offshore Support",
+        "Maritime",
+        "News"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [],
+      "priorityScore": 2,
+      "priorityBand": "low",
+      "priorityReasons": [],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "c7d0b5069b09c0f6",
+      "title": "2026 Vessel Speed Reduction Season Kicked off on Earth Day",
+      "source": "gCaptain",
+      "sourceId": "gcaptain",
+      "url": "https://gcaptain.com/2026-vessel-speed-reduction-season-kicked-off-on-earth-day/",
+      "publishedAt": "2026-04-27T10:38:17Z",
+      "excerpt": "Industry Leadership Celebrated by Blue Whales and Blue Skies Program Earth Day marked several important milestones for California\u2019s coast, benefiting both coastal counties and marine life. On April 22, Blue...",
+      "tags": [
+        "Maritime",
+        "Operations"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [],
+      "priorityScore": 2,
+      "priorityBand": "low",
+      "priorityReasons": [],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "bd6fffb1b95553a5",
+      "title": "Diana Shipping accuses Genco board of stalling tactics over \"missing\" annual meeting date",
+      "source": "Baird Maritime",
+      "sourceId": "baird-maritime",
+      "url": "https://www.bairdmaritime.com/shipping/dry-cargo/bulkers/diana-shipping-accuses-genco-board-of-stalling-tactics-over-missing-annual-meeting-date",
+      "publishedAt": "2026-04-27T10:36:49Z",
+      "excerpt": "Diana Shipping has challenged Genco Shipping and Trading to announce a date for its 2026 annual meeting after a preliminary proxy statement was filed on April 24 without establishing a schedule. The firm, which owns 14.8 per cent of Genco\u2026",
+      "tags": [
+        "Workboats",
+        "Technology"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [],
+      "priorityScore": 2,
+      "priorityBand": "low",
+      "priorityReasons": [],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "8f70f88ef0b2cecf",
+      "title": "Japan's JERA says gas supplies stable despite Iran conflict, expected to last until July",
+      "source": "Baird Maritime",
+      "sourceId": "baird-maritime",
+      "url": "https://www.bairdmaritime.com/shipping/tankers/gas/japans-jera-says-gas-supplies-stable-despite-iran-conflict-expected-to-last-until-july",
+      "publishedAt": "2026-04-27T10:11:18Z",
+      "excerpt": "JERA, Japan's biggest power generator, has secured adequate liquefied natural gas inventories through July to cover Middle East supply disruptions caused by the US-Israeli war with Iran, an executive said on Monday. JERA, also Japan's top\u2026",
+      "tags": [
+        "Workboats",
+        "Technology"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [],
+      "priorityScore": 2,
+      "priorityBand": "low",
+      "priorityReasons": [],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "bde16a3a4a487398",
+      "title": "China Merchants steps in to back COSCO in CK Hutchison port deal",
+      "source": "Baird Maritime",
+      "sourceId": "baird-maritime",
+      "url": "https://www.bairdmaritime.com/shipping/ports/china-merchants-steps-in-to-back-cosco-in-ck-hutchison-port-deal",
+      "publishedAt": "2026-04-27T10:06:48Z",
+      "excerpt": "Port operator China Merchants Group is in talks to join a consortium seeking to buy dozens of CK Hutchison Holdings ports, Bloomberg News reported on Monday, citing people familiar with the matter. China Merchants is joining negotiations a\u2026",
+      "tags": [
+        "Workboats",
+        "Technology"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [],
+      "priorityScore": 2,
+      "priorityBand": "low",
+      "priorityReasons": [],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "42e68d0ffee2c591",
+      "title": "Korea\u2019s Big Three Race to Build Ammonia-powered Ships",
+      "source": "Hellenic Shipping News",
+      "sourceId": "hellenic-shipping-news",
+      "url": "https://www.hellenicshippingnews.com/koreas-big-three-race-to-build-ammonia-powered-ships/",
+      "publishedAt": "2026-04-27T10:00:47Z",
+      "excerpt": "As environmental regulations driven by the climate crisis put pressure on the entire shipbuilding and shipping industry, the domestic shipbuilding sector is accelerating the development of ships using ammonia, considered a carbon-free fuel\u2026",
+      "tags": [
+        "Regulation",
+        "Clean Propulsion",
+        "Shipping",
+        "Markets"
+      ],
+      "audience": "Novatug",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [
+        "Energy Transition"
+      ],
+      "priorityScore": 2,
+      "priorityBand": "low",
+      "priorityReasons": [
+        "Signal: Energy Transition"
+      ],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "2d55f327d6e79ac0",
+      "title": "Kernel Loans $45MM from EBRD for Ukraine Solar Project",
+      "source": "Rigzone",
+      "sourceId": "rigzone-latest",
+      "url": "https://www.rigzone.com/news/kernel_loans_45mm_from_ebrd_for_ukraine_solar_project-27-apr-2026-183542-article/?rss=true",
+      "publishedAt": "2026-04-27T09:54:33Z",
+      "excerpt": "The agribusiness secured a $45-million loan from the European Bank for Reconstruction and Development for an energy storage-supported solar farm with a capacity of 106 MW in southern Ukraine.",
+      "tags": [
+        "Offshore",
+        "Energy"
+      ],
+      "audience": "Novatug",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [
+        "Commercial"
+      ],
+      "priorityScore": 2,
+      "priorityBand": "low",
+      "priorityReasons": [
+        "Signal: Commercial"
+      ],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "a2b178b30d1c18b6",
+      "title": "US military forces \"shadow fleet\" tanker back to Iran under escort",
+      "source": "Baird Maritime",
+      "sourceId": "baird-maritime",
+      "url": "https://www.bairdmaritime.com/shipping/tankers/us-military-forces-shadow-fleet-tanker-back-to-iran-under-escort",
+      "publishedAt": "2026-04-27T09:45:52Z",
+      "excerpt": "US Central Command said it intercepted a merchant vessel trying to get through the blockade of Iran on Saturday. Here are some details: The ship, identified as the Sevan , was part of a 19-vessel \"shadow fleet\" transporting Iranian oil and\u2026",
+      "tags": [
+        "Workboats",
+        "Technology"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [],
+      "priorityScore": 2,
+      "priorityBand": "low",
+      "priorityReasons": [],
+      "boardBucket": "Other Relevant"
+    },
+    {
       "id": "064014137d4a3f19",
       "title": "AWARDS 2025 | Best Large Trawler \u2013 Ecofive \u2013 Westcon Yards",
       "source": "Baird Maritime",
@@ -3894,33 +4136,6 @@ window.__DASHBOARD_DATA__ = {
       "priorityScore": 2,
       "priorityBand": "low",
       "priorityReasons": [],
-      "boardBucket": "Other Relevant"
-    },
-    {
-      "id": "309c09d47dc0f422",
-      "title": "Ulsan hosts Lotte Fine Chemical\u2019s ammonia bunkering breakthrough",
-      "source": "Hellenic Shipping News",
-      "sourceId": "hellenic-shipping-news",
-      "url": "https://www.hellenicshippingnews.com/ulsan-hosts-lotte-fine-chemicals-ammonia-bunkering-breakthrough-2/",
-      "publishedAt": "2026-04-26T21:00:42Z",
-      "excerpt": "South Korean chemical company Lotte Fine Chemical has bunkered an undisclosed volume of ammonia to an ammonia-capable vessel built by HD Hyundai Heavy Industries at the Port of Ulsan. The ammonia was produced entirely from renewable energy\u2026",
-      "tags": [
-        "Clean Propulsion",
-        "Shipping",
-        "Markets"
-      ],
-      "audience": "Novatug",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [
-        "Energy Transition"
-      ],
-      "priorityScore": 2,
-      "priorityBand": "low",
-      "priorityReasons": [
-        "Signal: Energy Transition"
-      ],
       "boardBucket": "Other Relevant"
     },
     {
@@ -4233,55 +4448,6 @@ window.__DASHBOARD_DATA__ = {
       "boardBucket": "Other Relevant"
     },
     {
-      "id": "d96cdc0627d61ef2",
-      "title": "White House Extends Jones Act Shipping Waiver to August",
-      "source": "gCaptain",
-      "sourceId": "gcaptain",
-      "url": "https://gcaptain.com/white-house-extends-jones-act-shipping-waiver-to-august/",
-      "publishedAt": "2026-04-24T18:23:19Z",
-      "excerpt": "President Donald Trump\u2019s administration has given a 90-day extension to a shipping waiver making it easier to move oil, fuel and fertilizer around the US, marking the latest effort by the White House to counter supply disruptions tied to t\u2026",
-      "tags": [
-        "Maritime",
-        "Operations"
-      ],
-      "audience": "Multraship",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [],
-      "priorityScore": 2,
-      "priorityBand": "low",
-      "priorityReasons": [],
-      "boardBucket": "Other Relevant"
-    },
-    {
-      "id": "e77c6546070b460e",
-      "title": "EU Continues to Push for Shipping Carbon Levy",
-      "source": "MarineLink",
-      "sourceId": "marinelink",
-      "url": "https://www.marinelink.com/news/eu-continues-push-shipping-carbon-levy-538460",
-      "publishedAt": "2026-04-24T18:02:20Z",
-      "excerpt": "European Union countries agreed on Friday to keep pushing for a global price on shipping's CO2 emissions in U.N. talks next week, setting up another potential clash with the United States over the proposal.Governments at the International\u2026",
-      "tags": [
-        "Decarbonization",
-        "Maritime",
-        "Industry"
-      ],
-      "audience": "Novatug",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [
-        "Energy Transition"
-      ],
-      "priorityScore": 2,
-      "priorityBand": "low",
-      "priorityReasons": [
-        "Signal: Energy Transition"
-      ],
-      "boardBucket": "Other Relevant"
-    },
-    {
       "id": "f26e6cfddefce6be",
       "title": "Australian FPSO production ramp-up on Santos\u2019 agenda next week",
       "source": "Offshore Energy",
@@ -4327,86 +4493,6 @@ window.__DASHBOARD_DATA__ = {
       "priorityScore": 2,
       "priorityBand": "low",
       "priorityReasons": [],
-      "boardBucket": "Other Relevant"
-    },
-    {
-      "id": "5c1adbcfa98c269f",
-      "title": "Court case ends in settlement with Woodside and Greenpeace agreeing to foot their own bills",
-      "source": "Offshore Energy",
-      "sourceId": "offshore-energy",
-      "url": "https://www.offshore-energy.biz/court-case-ends-in-settlement-with-woodside-and-greenpeace-agreeing-to-foot-their-own-bills/",
-      "publishedAt": "2026-04-24T11:34:08Z",
-      "excerpt": "Australian energy giant Woodside and Greenpeace Australia Pacific (GAP), an independent campaigning organization, have reached a settlement in an emissions lawsuit, which has now been dismissed in the Federal Court of Australia. The post C\u2026",
-      "tags": [
-        "Decarbonization",
-        "Energy-Transition",
-        "Technology"
-      ],
-      "audience": "Novatug",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [
-        "Energy Transition"
-      ],
-      "priorityScore": 2,
-      "priorityBand": "low",
-      "priorityReasons": [
-        "Signal: Energy Transition"
-      ],
-      "boardBucket": "Other Relevant"
-    },
-    {
-      "id": "99ffe874efef8389",
-      "title": "Hydrogen-fueled AUV breaks range expectations with 2,000-kilometer subsea run",
-      "source": "Offshore Energy",
-      "sourceId": "offshore-energy",
-      "url": "https://www.offshore-energy.biz/hydrogen-fueled-auv-breaks-range-expectations-with-2000-kilometer-subsea-run/",
-      "publishedAt": "2026-04-24T11:09:07Z",
-      "excerpt": "An autonomous underwater vehicle (AUV) developed by Canada\u2019s Cellula Robotics has traveled over 2,000 [\u2026] The post Hydrogen-fueled AUV breaks range expectations with 2,000-kilometer subsea run appeared first on Offshore Energy .",
-      "tags": [
-        "Clean Propulsion",
-        "Energy-Transition",
-        "Technology"
-      ],
-      "audience": "Novatug",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [
-        "Energy Transition"
-      ],
-      "priorityScore": 2,
-      "priorityBand": "low",
-      "priorityReasons": [
-        "Signal: Energy Transition"
-      ],
-      "boardBucket": "Other Relevant"
-    },
-    {
-      "id": "52881b7da0cf99fc",
-      "title": "Texas company to start archaeological survey for US East Coast offshore wind project",
-      "source": "Offshore Energy",
-      "sourceId": "offshore-energy",
-      "url": "https://www.offshore-energy.biz/texas-company-to-start-archaeological-survey-for-us-east-coast-offshore-wind-project/",
-      "publishedAt": "2026-04-24T09:21:47Z",
-      "excerpt": "Nauticus Robotics, an ocean robotics developer based in Texas, has been awarded a contract [\u2026] The post Texas company to start archaeological survey for US East Coast offshore wind project appeared first on Offshore Energy .",
-      "tags": [
-        "Energy-Transition",
-        "Technology"
-      ],
-      "audience": "Novatug",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [
-        "Commercial"
-      ],
-      "priorityScore": 2,
-      "priorityBand": "low",
-      "priorityReasons": [
-        "Signal: Commercial"
-      ],
       "boardBucket": "Other Relevant"
     },
     {
@@ -4481,13 +4567,13 @@ window.__DASHBOARD_DATA__ = {
       "boardBucket": "Other Relevant"
     },
     {
-      "id": "3107bbd2526b0500",
-      "title": "Global Shipping Reforms Cast Shadow Over Tanzania\u2019s Fishing Communities - Global Issues.org",
+      "id": "1acee87b124f0403",
+      "title": "Global Shipping Reforms Cast Shadow Over Tanzania\u2019s Fishing Communities - ipsnews.net",
       "source": "Mesh Maritime News",
       "sourceId": "bing-mesh-maritime",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBnWWx4TmN0NDl6ckM4Y2lEemtIajNWNm5icDM2VWtLRFFuSDZ3MzRiekZJSUVkRnF3QkVzWlEwSTFvQnRCc0tQMFdONGRBUlpPRlNxQno3aEdJSEdVUmtN0gFkQVVfeXFMTlN0OU9iTktrLU9KbFJwTkZZX0MyYlVFbVBaMUZETFY0aGUxNy05bk54bktZWVdNQUl3ZlFDaTNNV2c0VzVqS3EyTjloZGhXV3JoNDMxa0N0WXhVV0pzcHh1NnBzYg?oc=5",
-      "publishedAt": "2026-04-22T07:16:04Z",
-      "excerpt": "Global Shipping Reforms Cast Shadow Over Tanzania\u2019s Fishing Communities Global Issues.org",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNSnA4NHdodHplM0otOHgtdHV4X0JrVXF3bG1aTDFoSXp6b3J5SGhyYUozQ3k2NDZXd1h0Y0JSc1ZBRkRleVpGdXluWkYzOWJBQUcwTDNZcEVWZjRiUmdEZGpSMGZoYUlrS0ZUelA3cmJFMV9vaVlxeG9Bd1JMYndNRlduczhmcmhFdkVKdk5idllUdXZpQmhzMHBJQTN2UVI5TjMzSWhn?oc=5",
+      "publishedAt": "2026-04-22T00:33:37Z",
+      "excerpt": "Global Shipping Reforms Cast Shadow Over Tanzania\u2019s Fishing Communities ipsnews.net",
       "tags": [
         "Maritime",
         "Supplier"
@@ -4946,117 +5032,6 @@ window.__DASHBOARD_DATA__ = {
       "tags": [
         "Incidents",
         "Safety"
-      ],
-      "audience": "Multraship",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [],
-      "priorityScore": 2,
-      "priorityBand": "low",
-      "priorityReasons": [],
-      "boardBucket": "Other Relevant"
-    },
-    {
-      "id": "e8e2e357a1f8f3ef",
-      "title": "ClassNK awards first MASS notation to coastal container ship",
-      "source": "Riviera: Safety & Incidents",
-      "sourceId": "riviera-safety",
-      "url": "https://www.rivieramm.com/news-content-hub/classnk-awards-first-mass-notation-to-coastal-container-ship-88387",
-      "publishedAt": "2026-04-08T07:30:00Z",
-      "excerpt": "Japanese class society notation paves the way for deploying autonomous navigation technologies on domestic ships",
-      "tags": [
-        "Safety",
-        "Incidents"
-      ],
-      "audience": "Multraship",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [],
-      "priorityScore": 2,
-      "priorityBand": "low",
-      "priorityReasons": [],
-      "boardBucket": "Other Relevant"
-    },
-    {
-      "id": "d00abb89bac4411c",
-      "title": "Bhagwan acquires Riverside Marine, expanding Australian port operations",
-      "source": "Riviera: Ports & Terminals",
-      "sourceId": "riviera-ports",
-      "url": "https://www.rivieramm.com/news-content-hub/australia-bhagwan-acquires-riverside-marine-expanding-port-operations-88362",
-      "publishedAt": "2026-04-07T08:30:00Z",
-      "excerpt": "US$90M enterprise-value deal brings tugboat fleet management to key metal ore export ports",
-      "tags": [
-        "Towage",
-        "Ports",
-        "Terminals"
-      ],
-      "audience": "Multraship",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [],
-      "priorityScore": 2,
-      "priorityBand": "low",
-      "priorityReasons": [],
-      "boardBucket": "Other Relevant"
-    },
-    {
-      "id": "826188ca32df7f1e",
-      "title": "Give to gain: the power of trust in the workplace",
-      "source": "Riviera: Safety & Incidents",
-      "sourceId": "riviera-safety",
-      "url": "https://www.rivieramm.com/news-content-hub/give-to-gain-the-power-of-trust-in-the-workplace-88103",
-      "publishedAt": "2026-04-07T08:23:50Z",
-      "excerpt": "Speaking up, mentoring and consistent leadership all shape whether crews feel safe, supported and able to perform under pressure",
-      "tags": [
-        "Safety",
-        "Incidents"
-      ],
-      "audience": "Multraship",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [],
-      "priorityScore": 2,
-      "priorityBand": "low",
-      "priorityReasons": [],
-      "boardBucket": "Other Relevant"
-    },
-    {
-      "id": "e252750b95e959f1",
-      "title": "ILO, BIMCO launch Bangladesh ship recycling injury pilot scheme",
-      "source": "Riviera: Safety & Incidents",
-      "sourceId": "riviera-safety",
-      "url": "https://www.rivieramm.com/news-content-hub/ilo-bimco-launch-bangladesh-ship-recycling-injury-pilot-scheme-88112",
-      "publishedAt": "2026-04-07T08:00:00Z",
-      "excerpt": "A voluntary Bangladesh pilot links end-of-life ship sales to worker injury compensation ahead of a planned mandatory national scheme in 2027",
-      "tags": [
-        "Safety",
-        "Incidents"
-      ],
-      "audience": "Multraship",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [],
-      "priorityScore": 2,
-      "priorityBand": "low",
-      "priorityReasons": [],
-      "boardBucket": "Other Relevant"
-    },
-    {
-      "id": "a2c3c06e72165730",
-      "title": "What we know about CO2 shipping AiPs",
-      "source": "Riviera: Ports & Terminals",
-      "sourceId": "riviera-ports",
-      "url": "https://www.rivieramm.com/news-content-hub/what-we-know-about-co2-shipping-aips-88024",
-      "publishedAt": "2026-04-06T09:30:00Z",
-      "excerpt": "Ahead of Posidonia 2026, five years of AiPs trace CO2 carrier sizing, floating storage concepts and onboard capture",
-      "tags": [
-        "Ports",
-        "Terminals"
       ],
       "audience": "Multraship",
       "paywalled": false,
