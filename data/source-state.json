@@ -1,0 +1,165 @@
+{
+  "sources": {
+    "ilt-news": {
+      "pageHash": "d293bb52130c5c8f23bb64e10aa3dae59fbaa25a",
+      "seenUrls": {}
+    },
+    "made-in": {
+      "seenUrls": {
+        "https://www.made-in.be/antwerpen/24-antwerpse-zaken-doen-de-boeken-toe-waaronder-meerdere-horecazaken-en-bouwbedrijven": "2026-04-28T12:45:40.782992Z",
+        "https://www.made-in.be/antwerpen/alweer-de-kaap-van-50-startende-ondernemers-gerond-in-regio-antwerpen": "2026-04-28T12:45:40.782992Z",
+        "https://www.made-in.be/falingen": "2026-04-28T12:45:40.782992Z",
+        "https://www.made-in.be/kempen/kempense-ondernemingsrechtbank-spreekt-vier-faillissementen-uit": "2026-04-28T12:45:40.782992Z",
+        "https://www.made-in.be/kempen/van-huisartsenpraktijk-tot-bouwfirma-net-geen-20-starters-in-de-kempen": "2026-04-28T12:45:40.782992Z",
+        "https://www.made-in.be/lezersonderzoek": "2026-04-28T12:45:40.782992Z",
+        "https://www.made-in.be/limburg/autoglass-opent-atelier-gaatje-stoppen-tijdens-t-shoppen": "2026-04-28T12:45:40.782992Z",
+        "https://www.made-in.be/limburg/creatieve-incubator-blijft-stenen-stapelen": "2026-04-28T12:45:40.782992Z",
+        "https://www.made-in.be/limburg/interieurbouwer-vloerder-opslagruimte-en-meer-faillissementen": "2026-04-28T12:45:40.782992Z",
+        "https://www.made-in.be/limburg/twee-familiebedrijven-richten-nieuwe-transporteur-op": "2026-04-28T12:45:40.782992Z",
+        "https://www.made-in.be/mechelen/io-ondersteunt-technopolis-bij-het-versterken-van-digitale-marketing": "2026-04-28T12:45:40.782992Z",
+        "https://www.made-in.be/mechelen/zes-bedrijven-in-en-rond-mechelen-gooien-de-handdoek-in-de-ring": "2026-04-28T12:45:40.782992Z",
+        "https://www.made-in.be/oost-vlaanderen/apotheeknetwerk-zet-eerste-stap-naar-uitbreiding": "2026-04-28T12:45:40.782992Z",
+        "https://www.made-in.be/paswoord-vergeten": "2026-04-28T12:45:40.782992Z",
+        "https://www.made-in.be/regio/oost-vlaanderen": "2026-04-28T12:45:40.782992Z",
+        "https://www.made-in.be/regio/vlaams-brabant": "2026-04-28T12:45:40.782992Z",
+        "https://www.made-in.be/regio/west-vlaanderen": "2026-04-28T12:45:40.782992Z",
+        "https://www.made-in.be/sector/chemie-farma": "2026-04-28T12:45:40.782992Z",
+        "https://www.made-in.be/sector/cultuur-creativiteit": "2026-04-28T12:45:40.782992Z",
+        "https://www.made-in.be/sector/groene-economie": "2026-04-28T12:45:40.782992Z",
+        "https://www.made-in.be/sector/logistiek-transport": "2026-04-28T12:45:40.782992Z",
+        "https://www.made-in.be/sector/marketing-communicatie": "2026-04-28T12:45:40.782992Z",
+        "https://www.made-in.be/veelgestelde-vragen": "2026-04-28T12:45:40.782992Z",
+        "https://www.made-in.be/vlaams-brabant/brusselse-student-ondernemer-xander-lanceert-ai-gedreven-hr-platform-voor-kmos": "2026-04-28T12:45:40.782992Z",
+        "https://www.made-in.be/west-vlaanderen/quote-van-de-week-geert-noels-over-belgische-economie": "2026-04-28T12:45:40.782992Z"
+      }
+    },
+    "north-sea-port-news": {
+      "seenUrls": {
+        "https://www.northseaport.com/en/news/a58-zeeland-vlaketunnel-be-fully-closed-thursday-9-monday-20-april": "2026-04-28T12:45:40.782992Z",
+        "https://www.northseaport.com/en/news/adjusted-port-police-regulations-north-sea-port-flanders-port-area-ghent-2026": "2026-04-28T12:45:40.782992Z",
+        "https://www.northseaport.com/en/news/lasting-impact-north-sea-ports-first-sustainability-report": "2026-04-28T12:45:40.782992Z",
+        "https://www.northseaport.com/en/news/new-charging-station-electric-trucks-volvo-factory-north-sea-port": "2026-04-28T12:45:40.782992Z",
+        "https://www.northseaport.com/en/news/north-sea-port-and-prorails-rail-logistics-vision-focuses-increasing-rail-freight-transport": "2026-04-28T12:45:40.782992Z",
+        "https://www.northseaport.com/en/news/north-sea-port-prepares-port-refuelling-lng-hydrogen-methanol-and-ammonia": "2026-04-28T12:45:40.782992Z",
+        "https://www.northseaport.com/en/news/plan-argos-port-authority-coordinates-fight-against-drug-crime-ghent-section-north-sea-port": "2026-04-28T12:45:40.782992Z",
+        "https://www.northseaport.com/en/news/roadworks-around-kluizendok-ghent-causing-traffic-disruption": "2026-04-28T12:45:40.782992Z",
+        "https://www.northseaport.com/en/news/trade-union-action-north-sea-port-impact-and-updates": "2026-04-28T12:45:40.782992Z",
+        "https://www.northseaport.com/en/news/update-work-zelzate-tunnel-closed-night-three-weeks-and-over-two-weekends": "2026-04-28T12:45:40.782992Z",
+        "https://www.northseaport.com/en/news?category=Digitalisation": "2026-04-28T12:45:40.782992Z",
+        "https://www.northseaport.com/en/news?category=Infrastructure": "2026-04-28T12:45:40.782992Z",
+        "https://www.northseaport.com/en/news?category=Security+and+safety": "2026-04-28T12:45:40.782992Z",
+        "https://www.northseaport.com/en/news?category=Sustainability": "2026-04-28T12:45:40.782992Z"
+      }
+    },
+    "omroep-zeeland-news": {
+      "seenUrls": {
+        "https://www.omroepzeeland.nl/nieuws/18173673/van-geheim-agent-tot-gevangene-dit-is-het-verhaal-van-pieter-dourlein": "2026-04-28T12:45:40.782992Z",
+        "https://www.omroepzeeland.nl/nieuws/18373314/paragliders-willen-oplossing-voor-versleten-startbaan-in-zoutelande-veel-hobbels-en-bobbels": "2026-04-28T12:45:40.782992Z",
+        "https://www.omroepzeeland.nl/nieuws/18384969/nieuw-inloophuis-wil-plek-zijn-voor-mensen-die-zich-alleen-voelen-belangrijk-om-je-gezien-te-voelen": "2026-04-28T12:45:40.782992Z",
+        "https://www.omroepzeeland.nl/nieuws/18386310/het-adrz-lost-het-vertrek-van-dermatologen-op-met-waarnemers-en-dit-betekent-het-voor-jou-als-patient": "2026-04-28T12:45:40.782992Z",
+        "https://www.omroepzeeland.nl/nieuws/18396411/nog-nooit-koningsdag-in-zeeland-wordt-het-niet-eens-tijd-willem-alexander": "2026-04-28T12:45:40.782992Z",
+        "https://www.omroepzeeland.nl/nieuws/18410214/zitten-deze-dieren-veel-in-jouw-tuin-dan-heb-je-het-goed-voor-elkaar": "2026-04-28T12:45:40.782992Z",
+        "https://www.omroepzeeland.nl/nieuws/18410307/kloetinge-heeft-titel-binnen-handbereik-na-zege-op-zwaluwen-en-uitglijders-concurrentie": "2026-04-28T12:45:40.782992Z",
+        "https://www.omroepzeeland.nl/nieuws/18410319/ontketend-goes-boekt-belangrijke-zege-op-udi19": "2026-04-28T12:45:40.782992Z",
+        "https://www.omroepzeeland.nl/nieuws/18410370/hoek-blijft-in-titelrace-na-klinkende-zege-op-jong-almere-city": "2026-04-28T12:45:40.782992Z",
+        "https://www.omroepzeeland.nl/nieuws/18411573/politie-schiet-meerdere-keren-na-ruzie-man-raakt-gewond-aan-arm": "2026-04-28T12:45:40.782992Z",
+        "https://www.omroepzeeland.nl/nieuws/18411768/van-eemshaven-naar-borssele-fietstocht-als-manifest-tegen-kernenergie": "2026-04-28T12:45:40.782992Z",
+        "https://www.omroepzeeland.nl/nieuws/18411831/lees-terug-zeeland-vierde-koningsdag-met-spelletjes-muziek-en-vrijmarkten": "2026-04-28T12:45:40.782992Z",
+        "https://www.omroepzeeland.nl/nieuws/18412137/wereldrecord-langste-zaalhockeywedstrijd-verbroken-in-goes-we-zijn-helemaal-kapot-maar-wel-voldaan": "2026-04-28T12:45:40.782992Z",
+        "https://www.omroepzeeland.nl/nieuws/18412569/zorgen-over-zeeuwse-bijensoorten-over-een-paar-jaar-gaan-we-deze-bij-niet-meer-zien": "2026-04-28T12:45:40.782992Z",
+        "https://www.omroepzeeland.nl/nieuws/18414156/man-84-overleden-na-onwelwording-in-auto-die-leidde-tot-zwaar-ongeluk-in-terneuzen": "2026-04-28T12:45:40.782992Z",
+        "https://www.omroepzeeland.nl/nieuws/18414489/goedemorgen-start-promotiecampagne-zeeland-politie-escaperoom-en-asielzoekers-in-zeelandhallen": "2026-04-28T12:45:40.782992Z",
+        "https://www.omroepzeeland.nl/nieuws/18414852/goes-springt-bij-met-opvang-eerste-asielzoekers-komen-naar-de-zeelandhallen": "2026-04-28T12:45:40.782992Z",
+        "https://www.omroepzeeland.nl/nieuws/18415140/trein-rijdt-bovenop-takken-treinverkeer-lag-stil-tussen-kruiningen-en-bergen-op-zoom": "2026-04-28T12:45:40.782992Z",
+        "https://www.omroepzeeland.nl/nieuws/18415341/motorrijder-botst-tegen-hertje-bij-biggekerke": "2026-04-28T12:45:40.782992Z",
+        "https://www.omroepzeeland.nl/nieuws/18415815/nieuwe-campagne-moet-toeristen-laten-stranden-in-dorpen-in-plaats-van-op-het-strand": "2026-04-28T12:45:40.782992Z",
+        "https://www.omroepzeeland.nl/nieuws/18416016/dreigt-overbelasting-stroomnet-dan-kan-stedin-vanaf-nu-dit-zonnepark-afschakelen": "2026-04-28T12:45:40.782992Z",
+        "https://www.omroepzeeland.nl/nieuws/18416430/extra-opletten-op-ontstaan-natuurbranden-risico-is-verhoogd-door-de-veiligheidsregio": "2026-04-28T12:45:40.782992Z",
+        "https://www.omroepzeeland.nl/nieuws/18416721/jonge-debutanten-zorgen-voor-piek-aan-zeeuwse-voetballers-in-eredivisie": "2026-04-28T12:45:40.782992Z",
+        "https://www.omroepzeeland.nl/nieuws/schouwen-duiveland": "2026-04-28T12:45:40.782992Z",
+        "https://www.omroepzeeland.nl/nieuws/zeeuws-vlaanderen": "2026-04-28T12:45:40.782992Z"
+      }
+    },
+    "port-antwerp-bruges-press": {
+      "seenUrls": {
+        "https://newsroom.portofantwerpbruges.com/en/press-releases/eu-port-strategy-recognises-the-crucial-role-of-ports-for-the-european-economy": "2026-04-28T12:45:40.782992Z",
+        "https://newsroom.portofantwerpbruges.com/en/press-releases/external-conditions-impact-port-of-antwerp-bruges-quarterly-results": "2026-04-28T12:45:40.782992Z",
+        "https://newsroom.portofantwerpbruges.com/en/press-releases/leadership-change-at-port-of-antwerp-bruges-jacques-vandermeiren-steps-down-as-ceo": "2026-04-28T12:45:40.782992Z",
+        "https://newsroom.portofantwerpbruges.com/en/press-releases/new-cranes-are-a-milestone-in-the-transformation-of-europa-terminal": "2026-04-28T12:45:40.782992Z",
+        "https://newsroom.portofantwerpbruges.com/en/press-releases/new-record-in-the-reefer-segment-for-port-of-antwerp-bruges-in-2025": "2026-04-28T12:45:40.782992Z",
+        "https://newsroom.portofantwerpbruges.com/en/press-releases/port-of-antwerp-bruges-ends-2025-with-resilience-in-a-turbulent-trading-climate": "2026-04-28T12:45:40.782992Z",
+        "https://newsroom.portofantwerpbruges.com/en/press-releases/port-of-antwerp-bruges-heart-of-european-industry-calls-for-decisive-action-at-european-industry-summit": "2026-04-28T12:45:40.782992Z",
+        "https://newsroom.portofantwerpbruges.com/en/press-releases/port-of-antwerp-bruges-welcomes-windrose-for-european-assembly-of-electric-trucks": "2026-04-28T12:45:40.782992Z",
+        "https://newsroom.portofantwerpbruges.com/en/press-releases/shareholders-agree-on-integration-of-rx/seaport-and-nxtport": "2026-04-28T12:45:40.782992Z"
+      }
+    },
+    "port-rotterdam-news": {
+      "seenUrls": {
+        "https://www.portofrotterdam.com/en/news-and-press-releases?page=0": "2026-04-28T12:45:40.782992Z",
+        "https://www.portofrotterdam.com/en/news-and-press-releases?page=26": "2026-04-28T12:45:40.782992Z"
+      }
+    },
+    "rotterdammerdagblad-regionaal": {
+      "seenUrls": {
+        "https://www.rotterdammerdagblad.nl/112/eenheid-rotterdam-publiceert-jaarverslag-2025-en-jaarplan-2026": "2026-04-28T12:45:40.782992Z",
+        "https://www.rotterdammerdagblad.nl/bedrijvengids": "2026-04-28T12:45:40.782992Z",
+        "https://www.rotterdammerdagblad.nl/eten-drinken": "2026-04-28T12:45:40.782992Z",
+        "https://www.rotterdammerdagblad.nl/goededoelen": "2026-04-28T12:45:40.782992Z",
+        "https://www.rotterdammerdagblad.nl/page/privacy": "2026-04-28T12:45:40.782992Z",
+        "https://www.rotterdammerdagblad.nl/page/voorwaarden": "2026-04-28T12:45:40.782992Z",
+        "https://www.rotterdammerdagblad.nl/zorg-en-gezondheid": "2026-04-28T12:45:40.782992Z",
+        "https://www.rotterdammerdagblad.nl/zorg-en-gezondheid/medische-kliniek-velsen-verzorgt-nascholing-radiculair-syndroom-hernia-neuromodulatie-voor-fysiotherapeuten": "2026-04-28T12:45:40.782992Z"
+      }
+    },
+    "rws-shipping-news": {
+      "seenUrls": {
+        "https://www.rijkswaterstaat.nl/water/scheepvaart/bruggen-en-sluizen-op-afstand-bediend": "2026-04-28T12:45:40.782992Z",
+        "https://www.rijkswaterstaat.nl/water/scheepvaart/pleziervaart": "2026-04-28T12:45:40.782992Z",
+        "https://www.rijkswaterstaat.nl/water/scheepvaart/scheepvaartberichten": "2026-04-28T12:45:40.782992Z",
+        "https://www.rijkswaterstaat.nl/water/scheepvaart/scheepvaartverkeersbegeleiding": "2026-04-28T12:45:40.782992Z"
+      }
+    },
+    "rws-zeeland-maintenance": {
+      "seenUrls": {
+        "https://www.rijkswaterstaat.nl/over-ons/onze-organisatie/groot-onderhoud/bereikbaar-zeeland": "2026-04-28T12:45:40.782992Z"
+      }
+    },
+    "terneuzen-notices": {
+      "seenUrls": {
+        "https://www.overheid.nl/berichten-over-uw-buurt": "2026-04-28T12:45:40.782992Z",
+        "https://www.terneuzen.nl/bekendmakingen": "2026-04-28T12:45:40.782992Z",
+        "https://zoek.officielebekendmakingen.nl/resultaten?q=%28c.product-area%3D%3D%22officielepublicaties%22%29and%28%28%28w.publicatienaam%3D%3D%22Tractatenblad%22%29%29or%28%28w.publicatienaam%3D%3D%22Staatsblad%22%29%29or%28%28w.publicatienaam%3D%3D%22Staatscourant%22%29%29or%28%28w.publicatienaam%3D%3D%22Gemeenteblad%22%29%29or%28%28w.publicatienaam%3D%3D%22Provinciaal+blad%22%29%29or%28%28w.publicatienaam%3D%3D%22Waterschapsblad%22%29%29or%28%28w.publicatienaam%3D%3D%22Blad+gemeenschappelijke+regeling%22%29%29%29and%28cql.textAndIndexes%3D%22terneuzen%22%29+AND+dt.type%3D%3D%22algemeen+verbindend+voorschrift+%28verordening%29%22+AND+w.organisatietype%3D%3D%22gemeente%22+AND+dt.available+within+%22afgelopen-jaar%22+AND+dt.creator%3D%3D%22Terneuzen%22&zv=terneuzen&pg=10&col=AlleBekendmakingen&svel=Publicatiedatum&svol=Aflopend&sf=pd%7Cafgelopen-jaar": "2026-04-28T12:45:40.782992Z",
+        "https://zoek.officielebekendmakingen.nl/resultaten?q=%28c.product-area%3D%3D%22officielepublicaties%22%29and%28%28%28w.publicatienaam%3D%3D%22Tractatenblad%22%29%29or%28%28w.publicatienaam%3D%3D%22Staatsblad%22%29%29or%28%28w.publicatienaam%3D%3D%22Staatscourant%22%29%29or%28%28w.publicatienaam%3D%3D%22Gemeenteblad%22%29%29or%28%28w.publicatienaam%3D%3D%22Provinciaal+blad%22%29%29or%28%28w.publicatienaam%3D%3D%22Waterschapsblad%22%29%29or%28%28w.publicatienaam%3D%3D%22Blad+gemeenschappelijke+regeling%22%29%29%29and%28cql.textAndIndexes%3D%22terneuzen%22%29+AND+dt.type%3D%3D%22ander+besluit+van+algemene+strekking%22+AND+w.organisatietype%3D%3D%22gemeente%22+AND+dt.available+within+%22afgelopen-jaar%22+AND+dt.creator%3D%3D%22Terneuzen%22&zv=terneuzen&pg=10&col=AlleBekendmakingen&svel=Publicatiedatum&svol=Aflopend&sf=pd%7Cafgelopen-jaar": "2026-04-28T12:45:40.782992Z",
+        "https://zoek.officielebekendmakingen.nl/resultaten?q=%28c.product-area%3D%3D%22officielepublicaties%22%29and%28%28%28w.publicatienaam%3D%3D%22Tractatenblad%22%29%29or%28%28w.publicatienaam%3D%3D%22Staatsblad%22%29%29or%28%28w.publicatienaam%3D%3D%22Staatscourant%22%29%29or%28%28w.publicatienaam%3D%3D%22Gemeenteblad%22%29%29or%28%28w.publicatienaam%3D%3D%22Provinciaal+blad%22%29%29or%28%28w.publicatienaam%3D%3D%22Waterschapsblad%22%29%29or%28%28w.publicatienaam%3D%3D%22Blad+gemeenschappelijke+regeling%22%29%29%29and%28cql.textAndIndexes%3D%22terneuzen%22%29+AND+dt.type%3D%3D%22beleidsregel%22+AND+dt.available+within+%22afgelopen-jaar%22+AND+dt.creator%3D%3D%22Terneuzen%22&zv=terneuzen&pg=10&col=AlleBekendmakingen&svel=Publicatiedatum&svol=Aflopend&sf=pd%7Cafgelopen-jaar": "2026-04-28T12:45:40.782992Z",
+        "https://zoek.officielebekendmakingen.nl/resultaten?q=%28c.product-area%3D%3D%22officielepublicaties%22%29and%28%28%28w.publicatienaam%3D%3D%22Tractatenblad%22%29%29or%28%28w.publicatienaam%3D%3D%22Staatsblad%22%29%29or%28%28w.publicatienaam%3D%3D%22Staatscourant%22%29%29or%28%28w.publicatienaam%3D%3D%22Gemeenteblad%22%29%29or%28%28w.publicatienaam%3D%3D%22Provinciaal+blad%22%29%29or%28%28w.publicatienaam%3D%3D%22Waterschapsblad%22%29%29or%28%28w.publicatienaam%3D%3D%22Blad+gemeenschappelijke+regeling%22%29%29%29and%28cql.textAndIndexes%3D%22terneuzen%22%29+AND+dt.type%3D%3D%22ruimtelijk+plan+of+omgevingsdocument%22+AND+dt.creator%3D%3D%22Terneuzen%22+AND++dt.available+within+%22afgelopen-jaar%22&zv=terneuzen&pg=10&col=AlleBekendmakingen&svel=Publicatiedatum&svol=Aflopend&sf=pd%7Cafgelopen-jaar": "2026-04-28T12:45:40.782992Z",
+        "https://zoek.officielebekendmakingen.nl/resultaten?q=%28c.product-area%3D%3D%22officielepublicaties%22%29and%28%28%28w.publicatienaam%3D%3D%22Tractatenblad%22%29%29or%28%28w.publicatienaam%3D%3D%22Staatsblad%22%29%29or%28%28w.publicatienaam%3D%3D%22Staatscourant%22%29%29or%28%28w.publicatienaam%3D%3D%22Gemeenteblad%22%29%29or%28%28w.publicatienaam%3D%3D%22Provinciaal+blad%22%29%29or%28%28w.publicatienaam%3D%3D%22Waterschapsblad%22%29%29or%28%28w.publicatienaam%3D%3D%22Blad+gemeenschappelijke+regeling%22%29%29%29and%28cql.textAndIndexes%3D%22terneuzen%22%29+AND+w.publicatienaam%3D%3D%22Gemeenteblad%22+AND+dt.creator%3D%3D%22Terneuzen%22+AND+dt.available+within+%22afgelopen-jaar%22&zv=terneuzen&pg=10&col=AlleBekendmakingen&svel=Publicatiedatum&svol=Aflopend&sf=pd%7Cafgelopen-jaar": "2026-04-28T12:45:40.782992Z",
+        "https://zoek.officielebekendmakingen.nl/resultaten?q=%28c.product-area%3D%3D%22officielepublicaties%22%29and%28%28dt.type%3D%3D%22andere+melding%22%29or%28dt.type%3D%3D%22andere+beschikking%22%29or%28dt.type%3D%3D%22andere+vergunning%22%29or%28dt.type%3D%3D%22evenementenvergunning%22%29or%28dt.type%3D%3D%22exploitatievergunning%22%29%29and%28%28%28w.publicatienaam%3D%3D%22Tractatenblad%22%29%29or%28%28w.publicatienaam%3D%3D%22Staatsblad%22%29%29or%28%28w.publicatienaam%3D%3D%22Staatscourant%22%29%29or%28%28w.publicatienaam%3D%3D%22Gemeenteblad%22%29%29or%28%28w.publicatienaam%3D%3D%22Provinciaal+blad%22%29%29or%28%28w.publicatienaam%3D%3D%22Waterschapsblad%22%29%29or%28%28w.publicatienaam%3D%3D%22Blad+gemeenschappelijke+regeling%22%29%29%29and%28cql.textAndIndexes%3D%22terneuzen%22%29+AND+dt.creator%3D%3D%22Terneuzen%22+AND+dt.available+within+%22afgelopen-jaar%22&zv=terneuzen&pg=10&col=AlleBekendmakingen&svel=Publicatiedatum&svol=Aflopend&sf=pd%7Cafgelopen-jaar": "2026-04-28T12:45:40.782992Z",
+        "https://zoek.officielebekendmakingen.nl/resultaten?q=%28c.product-area%3D%3D%22officielepublicaties%22%29and%28dt.type%3D%3D%22omgevingsvergunning%22%29and%28%28%28w.publicatienaam%3D%3D%22Tractatenblad%22%29%29or%28%28w.publicatienaam%3D%3D%22Staatsblad%22%29%29or%28%28w.publicatienaam%3D%3D%22Staatscourant%22%29%29or%28%28w.publicatienaam%3D%3D%22Gemeenteblad%22%29%29or%28%28w.publicatienaam%3D%3D%22Provinciaal+blad%22%29%29or%28%28w.publicatienaam%3D%3D%22Waterschapsblad%22%29%29or%28%28w.publicatienaam%3D%3D%22Blad+gemeenschappelijke+regeling%22%29%29%29and%28cql.textAndIndexes%3D%22terneuzen%22%29+AND+dt.creator%3D%3D%22Terneuzen%22+AND+dt.available+within+%22afgelopen-jaar%22&zv=terneuzen&pg=10&col=AlleBekendmakingen&svel=Publicatiedatum&svol=Aflopend&sf=pd%7Cafgelopen-jaar": "2026-04-28T12:45:40.782992Z"
+      }
+    },
+    "zeeland-connect-news": {
+      "seenUrls": {
+        "https://www.zeeland-connect.nl/aanmelden-nieuwsbrief": "2026-04-28T12:45:40.782992Z",
+        "https://www.zeeland-connect.nl/autonoom-transport": "2026-04-28T12:45:40.782992Z",
+        "https://www.zeeland-connect.nl/bedrijfsbezoeken": "2026-04-28T12:45:40.782992Z",
+        "https://www.zeeland-connect.nl/crsd-masterclass": "2026-04-28T12:45:40.782992Z",
+        "https://www.zeeland-connect.nl/digitalisering-en-robotisering": "2026-04-28T12:45:40.782992Z",
+        "https://www.zeeland-connect.nl/innovatie-op-wielen": "2026-04-28T12:45:40.782992Z",
+        "https://www.zeeland-connect.nl/innovatielijnen": "2026-04-28T12:45:40.782992Z",
+        "https://www.zeeland-connect.nl/logistieke-stromen-en-verbindingen": "2026-04-28T12:45:40.782992Z",
+        "https://www.zeeland-connect.nl/lopende-projecten-autonoom": "2026-04-28T12:45:40.782992Z",
+        "https://www.zeeland-connect.nl/partners": "2026-04-28T12:45:40.782992Z",
+        "https://www.zeeland-connect.nl/projecten/agrifood-plus-express": "2026-04-28T12:45:40.782992Z",
+        "https://www.zeeland-connect.nl/projecten/denktank-mensgerichte-logistiek-innovatie": "2026-04-28T12:45:40.782992Z",
+        "https://www.zeeland-connect.nl/projecten/gamification-in-de-logistiek": "2026-04-28T12:45:40.782992Z",
+        "https://www.zeeland-connect.nl/projecten/mosselen-friet-streekbiertje": "2026-04-28T12:45:40.782992Z",
+        "https://www.zeeland-connect.nl/projecten/schelde-barge-corridor": "2026-04-28T12:45:40.782992Z",
+        "https://www.zeeland-connect.nl/projecten/zero-emission-truck-academy": "2026-04-28T12:45:40.782992Z",
+        "https://www.zeeland-connect.nl/projecten/zero-emission-van-academy": "2026-04-28T12:45:40.782992Z",
+        "https://www.zeeland-connect.nl/subsidies": "2026-04-28T12:45:40.782992Z",
+        "https://www.zeeland-connect.nl/team": "2026-04-28T12:45:40.782992Z",
+        "https://www.zeeland-connect.nl/zero-emission-logistiek": "2026-04-28T12:45:40.782992Z"
+      }
+    }
+  }
+}

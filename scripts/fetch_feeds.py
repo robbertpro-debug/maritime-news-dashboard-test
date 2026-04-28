@@ -7,9 +7,11 @@ import re
 import ssl
 import sys
 import unicodedata
+import urllib.parse
 import urllib.request
 from datetime import datetime, timedelta, timezone
 from email.utils import parsedate_to_datetime
+from html.parser import HTMLParser
 from pathlib import Path
 from typing import Dict, List, Optional, Tuple
 from xml.etree import ElementTree as ET
@@ -41,6 +43,18 @@ CATEGORY_LABELS = {
     "clients": "Client",
     "competitors": "Competitor",
 }
+TRACKING_QUERY_PARAMS = {
+    "fbclid",
+    "gad_source",
+    "gclid",
+    "mc_cid",
+    "mc_eid",
+    "utm_campaign",
+    "utm_content",
+    "utm_medium",
+    "utm_source",
+    "utm_term",
+}
 
 
 def load_config() -> Dict:
@@ -65,7 +79,30 @@ def truncate(value: str, limit: int = 240) -> str:
 def canonicalize_url(url: str) -> str:
     if not url:
         return ""
-    return url.strip()
+    text = html.unescape(url.strip())
+    parsed = urllib.parse.urlparse(text)
+    query = urllib.parse.parse_qs(parsed.query)
+    for wrapper_key in ("url", "u"):
+        wrapped = query.get(wrapper_key, [""])[0]
+        if wrapped.startswith(("http://", "https://")):
+            return canonicalize_url(wrapped)
+
+    clean_query = [
+        (key, value)
+        for key, values in query.items()
+        if key.lower() not in TRACKING_QUERY_PARAMS
+        for value in values
+    ]
+    return urllib.parse.urlunparse(
+        (
+            parsed.scheme.lower(),
+            parsed.netloc.lower(),
+            parsed.path.rstrip("/") or parsed.path,
+            "",
+            urllib.parse.urlencode(clean_query),
+            "",
+        )
+    )
 
 
 def normalize_title(value: str) -> str:
@@ -92,6 +129,32 @@ def lookup_contains(normalized_text: str, phrase: str) -> bool:
     if not normalized_text or not normalized_phrase:
         return False
     return f" {normalized_phrase} " in normalized_text
+
+
+def lookup_near_context(
+    normalized_text: str,
+    phrase: str,
+    context_token_sets: List[List[str]],
+    window: int = 4,
+) -> bool:
+    phrase_tokens = normalize_lookup(phrase).strip().split()
+    tokens = normalized_text.split()
+    if not tokens or not phrase_tokens or not context_token_sets:
+        return False
+
+    phrase_length = len(phrase_tokens)
+    for index in range(len(tokens) - phrase_length + 1):
+        if tokens[index : index + phrase_length] != phrase_tokens:
+            continue
+        start = max(0, index - window)
+        end = min(len(tokens), index + phrase_length + window)
+        nearby_tokens = tokens[start:end]
+        for context_tokens in context_token_sets:
+            context_length = len(context_tokens)
+            for context_index in range(len(nearby_tokens) - context_length + 1):
+                if nearby_tokens[context_index : context_index + context_length] == context_tokens:
+                    return True
+    return False
 
 
 def parse_datetime(value: Optional[str]) -> Optional[str]:
@@ -227,12 +290,27 @@ def match_entities(normalized_text: str, entities: Dict[str, List[str]], aliases
     return matches
 
 
-def detect_locations(normalized_text: str, location_watchlist: List[Dict]) -> List[Dict]:
+def detect_locations(
+    normalized_text: str,
+    location_watchlist: List[Dict],
+    context_keywords: Optional[List[str]] = None,
+) -> List[Dict]:
     matches = []
     seen = set()
+    context_token_sets = [
+        tokens
+        for tokens in (normalize_lookup(keyword).strip().split() for keyword in (context_keywords or []))
+        if tokens
+    ]
     for location in location_watchlist:
-        search_terms = [location["name"]] + location.get("aliases", [])
-        if any(lookup_contains(normalized_text, term) for term in search_terms):
+        strong_terms = location.get("aliases", [location["name"]])
+        context_terms = location.get("context_aliases", [])
+        has_strong_match = any(lookup_contains(normalized_text, term) for term in strong_terms)
+        has_context_match = any(
+            lookup_near_context(normalized_text, term, context_token_sets)
+            for term in context_terms
+        )
+        if has_strong_match or has_context_match:
             if location["name"] in seen:
                 continue
             seen.add(location["name"])
@@ -350,14 +428,79 @@ def build_article_id(url: str, title: str, source_id: str) -> str:
     return hashlib.sha1(basis.encode("utf-8")).hexdigest()[:16]
 
 
+def build_article(
+    title: str,
+    link: str,
+    excerpt: str,
+    published_at: Optional[str],
+    source: Dict,
+    config: Dict,
+) -> Optional[Dict]:
+    rules = config["classification"]
+    watchlists = config.get("watchlists", {})
+    priority_rules = config.get("priority_rules", {})
+    clean_title = strip_html(title)
+    if not clean_title:
+        return None
+
+    clean_link = canonicalize_url(link)
+    clean_excerpt = truncate(strip_html(excerpt))
+    article_text = " ".join(part for part in (clean_title, clean_excerpt) if part)
+    combined_text = " ".join(part for part in (article_text, source.get("name", "")) if part)
+    normalized_article_text = normalize_lookup(article_text)
+    audience = classify_article(combined_text, rules, source)
+    tags = detect_topics(combined_text, rules["topic_keywords"], source.get("default_tags", []))
+    paywalled = detect_paywall(combined_text, rules["paywall_keywords"])
+    entities = match_entities(
+        normalized_article_text,
+        rules.get("entities", {}),
+        watchlists.get("entity_aliases", {}),
+    )
+    locations = detect_locations(
+        normalized_article_text,
+        watchlists.get("locations", []),
+        watchlists.get("location_context_keywords", []),
+    )
+    signals = detect_signal_groups(normalized_article_text, priority_rules.get("keyword_groups", {}))
+    business_tags = build_business_tags(locations, entities, signals)
+    priority_score = compute_priority_score(
+        audience,
+        locations,
+        entities,
+        signals,
+        priority_rules.get("weights", {}),
+    )
+    priority_band = classify_priority_band(priority_score, priority_rules.get("bands", {}))
+    priority_reasons = build_priority_reasons(locations, entities, signals)
+    board_bucket = assign_board_bucket(priority_band, locations, entities, signals)
+
+    return {
+        "id": build_article_id(clean_link, clean_title, source["id"]),
+        "title": clean_title,
+        "source": source["name"],
+        "sourceId": source["id"],
+        "url": clean_link,
+        "publishedAt": published_at,
+        "excerpt": clean_excerpt,
+        "tags": tags,
+        "audience": audience,
+        "paywalled": paywalled,
+        "entities": entities,
+        "locations": locations,
+        "businessTags": business_tags,
+        "priorityScore": priority_score,
+        "priorityBand": priority_band,
+        "priorityReasons": priority_reasons,
+        "boardBucket": board_bucket,
+        "titleKey": normalize_title(clean_title),
+    }
+
+
 def parse_entry(entry: ET.Element, source: Dict, config: Dict) -> Optional[Dict]:
     namespaces = {
         "content": "http://purl.org/rss/1.0/modules/content/",
         "atom": "http://www.w3.org/2005/Atom",
     }
-    rules = config["classification"]
-    watchlists = config.get("watchlists", {})
-    priority_rules = config.get("priority_rules", {})
     title = (
         entry.findtext("title")
         or entry.findtext("{http://www.w3.org/2005/Atom}title")
@@ -380,7 +523,6 @@ def parse_entry(entry: ET.Element, source: Dict, config: Dict) -> Optional[Dict]
         or entry.findtext("{http://www.w3.org/2005/Atom}content")
         or ""
     )
-    excerpt = truncate(strip_html(summary))
     published_at = parse_datetime(
         entry.findtext("pubDate")
         or entry.findtext("published")
@@ -389,50 +531,7 @@ def parse_entry(entry: ET.Element, source: Dict, config: Dict) -> Optional[Dict]
         or entry.findtext("{http://www.w3.org/2005/Atom}updated")
     )
 
-    combined_text = " ".join(part for part in (title, excerpt) if part)
-    normalized_text = normalize_lookup(combined_text)
-    audience = classify_article(combined_text, rules, source)
-    tags = detect_topics(combined_text, rules["topic_keywords"], source.get("default_tags", []))
-    paywalled = detect_paywall(combined_text, rules["paywall_keywords"])
-    entities = match_entities(
-        normalized_text,
-        rules.get("entities", {}),
-        watchlists.get("entity_aliases", {}),
-    )
-    locations = detect_locations(normalized_text, watchlists.get("locations", []))
-    signals = detect_signal_groups(normalized_text, priority_rules.get("keyword_groups", {}))
-    business_tags = build_business_tags(locations, entities, signals)
-    priority_score = compute_priority_score(
-        audience,
-        locations,
-        entities,
-        signals,
-        priority_rules.get("weights", {}),
-    )
-    priority_band = classify_priority_band(priority_score, priority_rules.get("bands", {}))
-    priority_reasons = build_priority_reasons(locations, entities, signals)
-    board_bucket = assign_board_bucket(priority_band, locations, entities, signals)
-
-    return {
-        "id": build_article_id(link, title, source["id"]),
-        "title": strip_html(title),
-        "source": source["name"],
-        "sourceId": source["id"],
-        "url": link,
-        "publishedAt": published_at,
-        "excerpt": excerpt,
-        "tags": tags,
-        "audience": audience,
-        "paywalled": paywalled,
-        "entities": entities,
-        "locations": locations,
-        "businessTags": business_tags,
-        "priorityScore": priority_score,
-        "priorityBand": priority_band,
-        "priorityReasons": priority_reasons,
-        "boardBucket": board_bucket,
-        "titleKey": normalize_title(title),
-    }
+    return build_article(title, link, summary, published_at, source, config)
 
 
 def fetch_feed(url: str, timeout: int, user_agent: str) -> bytes:
@@ -453,6 +552,123 @@ def parse_feed(payload: bytes, source: Dict, config: Dict, max_items: int) -> Li
         parsed = parse_entry(entry, source, config)
         if parsed:
             articles.append(parsed)
+    return articles
+
+
+class LinkExtractor(HTMLParser):
+    def __init__(self) -> None:
+        super().__init__()
+        self.links: List[Dict[str, str]] = []
+        self._href: Optional[str] = None
+        self._text_parts: List[str] = []
+
+    def handle_starttag(self, tag: str, attrs: List[Tuple[str, Optional[str]]]) -> None:
+        if tag.lower() != "a" or self._href is not None:
+            return
+        attrs_dict = {name.lower(): value for name, value in attrs}
+        href = attrs_dict.get("href")
+        if href:
+            self._href = href
+            self._text_parts = []
+
+    def handle_data(self, data: str) -> None:
+        if self._href is not None:
+            self._text_parts.append(data)
+
+    def handle_endtag(self, tag: str) -> None:
+        if tag.lower() != "a" or self._href is None:
+            return
+        title = strip_html(" ".join(self._text_parts))
+        self.links.append({"href": self._href, "title": title})
+        self._href = None
+        self._text_parts = []
+
+
+def link_matches_source(link: Dict[str, str], source: Dict) -> bool:
+    url = link["url"]
+    title = link["title"]
+    if url.rstrip("/") == canonicalize_url(source["url"]).rstrip("/"):
+        return False
+    if len(title) < int(source.get("min_title_length", 12)):
+        return False
+
+    haystack = f"{url} {title}"
+    includes = source.get("link_include_patterns", [])
+    excludes = source.get("link_exclude_patterns", [])
+    if includes and not any(re.search(pattern, haystack, re.IGNORECASE) for pattern in includes):
+        return False
+    if excludes and any(re.search(pattern, haystack, re.IGNORECASE) for pattern in excludes):
+        return False
+    return True
+
+
+def extract_links(payload: bytes, base_url: str) -> List[Dict[str, str]]:
+    parser = LinkExtractor()
+    parser.feed(payload.decode("utf-8", errors="replace"))
+    links: List[Dict[str, str]] = []
+    seen = set()
+    for raw_link in parser.links:
+        url = canonicalize_url(urllib.parse.urljoin(base_url, raw_link["href"]))
+        if not url.startswith(("http://", "https://")) or url in seen:
+            continue
+        seen.add(url)
+        links.append({"url": url, "title": raw_link["title"]})
+    return links
+
+
+def parse_web_watch(
+    payload: bytes,
+    source: Dict,
+    config: Dict,
+    max_items: int,
+    generated_at: datetime,
+    state: Dict,
+) -> List[Dict]:
+    generated_at_iso = generated_at.isoformat().replace("+00:00", "Z")
+    source_states = state.setdefault("sources", {})
+    source_state = source_states.setdefault(source["id"], {})
+    seen_urls = source_state.setdefault("seenUrls", {})
+    payload_hash = hashlib.sha1(payload).hexdigest()
+    articles: List[Dict] = []
+
+    for link in extract_links(payload, source["url"]):
+        if not link_matches_source(link, source):
+            continue
+        first_seen = seen_urls.setdefault(link["url"], generated_at_iso)
+        article = build_article(
+            link["title"],
+            link["url"],
+            "Tracked page link found on source page.",
+            first_seen,
+            source,
+            config,
+        )
+        if article:
+            articles.append(article)
+        if len(articles) >= max_items:
+            break
+
+    if articles:
+        source_state.pop("pageHash", None)
+    elif source_state.get("pageHash") != payload_hash:
+        change_url = f"{source['url']}?dashboardChange={payload_hash[:12]}"
+        article = build_article(
+            f"{source['name']} page updated",
+            change_url,
+            "Tracked page content changed.",
+            generated_at_iso,
+            source,
+            config,
+        )
+        if article:
+            articles.append(article)
+        source_state["pageHash"] = payload_hash
+
+    max_state_urls = int(source.get("max_state_urls", 200))
+    if len(seen_urls) > max_state_urls:
+        source_state["seenUrls"] = dict(
+            sorted(seen_urls.items(), key=lambda item: item[1], reverse=True)[:max_state_urls]
+        )
     return articles
 
 
@@ -521,6 +737,26 @@ def to_clean_article(article: Dict) -> Dict:
     }
 
 
+def load_source_state(state_path: Path) -> Dict:
+    if state_path.exists():
+        try:
+            data = json.loads(state_path.read_text(encoding="utf-8"))
+            if isinstance(data, dict):
+                return data
+        except json.JSONDecodeError:
+            pass
+    return {"sources": {}}
+
+
+def write_source_state(state: Dict, state_path: Path) -> bool:
+    state_path.parent.mkdir(parents=True, exist_ok=True)
+    serialized = json.dumps(state, ensure_ascii=True, indent=2, sort_keys=True) + "\n"
+    if state_path.exists() and state_path.read_text(encoding="utf-8") == serialized:
+        return False
+    state_path.write_text(serialized, encoding="utf-8")
+    return True
+
+
 def load_history(history_path: Path) -> List[Dict]:
     if history_path.exists():
         try:
@@ -531,13 +767,34 @@ def load_history(history_path: Path) -> List[Dict]:
     return []
 
 
+def history_keys(article: Dict) -> Tuple[str, str]:
+    url = canonicalize_url(article.get("url", ""))
+    title_key = normalize_title(article.get("title", ""))
+    source_title_key = f"{article.get('sourceId', '')}:{title_key}" if title_key else ""
+    return url, source_title_key
+
+
 def merge_with_history(new_articles: List[Dict], existing_history: List[Dict]) -> List[Dict]:
-    seen_ids = {article["id"] for article in new_articles}
-    merged = list(new_articles)
-    for article in existing_history:
-        if article["id"] not in seen_ids:
-            seen_ids.add(article["id"])
-            merged.append(article)
+    seen_ids = set()
+    seen_urls = set()
+    seen_source_titles = set()
+    merged = []
+    for article in list(new_articles) + list(existing_history):
+        url, source_title = history_keys(article)
+        article_id = article.get("id")
+        if article_id and article_id in seen_ids:
+            continue
+        if url and url in seen_urls:
+            continue
+        if source_title and source_title in seen_source_titles:
+            continue
+        merged.append(article)
+        if article_id:
+            seen_ids.add(article_id)
+        if url:
+            seen_urls.add(url)
+        if source_title:
+            seen_source_titles.add(source_title)
     return merged
 
 
@@ -552,14 +809,35 @@ def prune_history(articles: List[Dict], lookback_days: int, now: datetime) -> Li
     ]
 
 
-def write_history(articles: List[Dict], history_path: Path, generated_at: datetime) -> None:
+def cap_history(articles: List[Dict], max_items: int) -> List[Dict]:
+    if max_items <= 0 or len(articles) <= max_items:
+        return articles
+
+    def sort_key(article: Dict) -> Tuple[float, int]:
+        published_at = parse_iso_datetime(article.get("publishedAt"))
+        timestamp = published_at.timestamp() if published_at else 0
+        return (timestamp, int(article.get("priorityScore", 0)))
+
+    return sorted(articles, key=sort_key, reverse=True)[:max_items]
+
+
+def write_history(articles: List[Dict], history_path: Path, generated_at: datetime) -> bool:
     history_path.parent.mkdir(parents=True, exist_ok=True)
+    if history_path.exists():
+        try:
+            existing = json.loads(history_path.read_text(encoding="utf-8"))
+            if existing.get("articles", []) == articles:
+                return False
+        except json.JSONDecodeError:
+            pass
     output = {
         "generatedAt": generated_at.isoformat().replace("+00:00", "Z"),
         "articleCount": len(articles),
         "articles": articles,
     }
-    history_path.write_text(json.dumps(output, ensure_ascii=True, indent=2) + "\n", encoding="utf-8")
+    serialized = json.dumps(output, ensure_ascii=True, separators=(",", ":")) + "\n"
+    history_path.write_text(serialized, encoding="utf-8")
+    return True
 
 
 def build_output(articles: List[Dict], config: Dict, errors: List[Dict], generated_at: datetime) -> Dict:
@@ -667,6 +945,8 @@ def main() -> int:
     max_items = config["output"]["max_items_per_source"]
     lookback_days = int(config["output"].get("lookback_days", 0))
     generated_at = datetime.now(timezone.utc)
+    source_state_path = ROOT / config["output"].get("source_state_json_path", "data/source-state.json")
+    source_state = load_source_state(source_state_path)
 
     articles: List[Dict] = []
     errors: List[Dict] = []
@@ -674,7 +954,20 @@ def main() -> int:
     for source in config["sources"]:
         try:
             payload = fetch_feed(source["url"], timeout, user_agent)
-            parsed_articles = parse_feed(payload, source, config, max_items)
+            adapter = source.get("adapter", "rss")
+            if adapter == "rss":
+                parsed_articles = parse_feed(payload, source, config, max_items)
+            elif adapter == "web_watch":
+                parsed_articles = parse_web_watch(
+                    payload,
+                    source,
+                    config,
+                    int(source.get("max_items", max_items)),
+                    generated_at,
+                    source_state,
+                )
+            else:
+                raise ValueError(f"unknown source adapter: {adapter}")
             articles.extend(parsed_articles)
             print(f"[ok] {source['name']}: {len(parsed_articles)} items")
         except Exception as exc:  # noqa: BLE001
@@ -685,19 +978,26 @@ def main() -> int:
     recent_articles = filter_recent_articles(deduped, lookback_days, generated_at)
     output = build_output(recent_articles, config, errors, generated_at)
     write_output(output, config)
+    if write_source_state(source_state, source_state_path):
+        print(f"[done] wrote source state to {source_state_path.name}")
 
     print(f"[done] wrote {output['articleCount']} articles to {config['output']['json_path']}")
 
-    # History accumulation: merge new relevant articles with existing history, prune to 180 days
+    # History accumulation: merge new relevant articles with existing history, then cap for Git.
     history_path = ROOT / config["output"].get("history_json_path", "data/articles-history.json")
     history_lookback_days = int(config["output"].get("history_lookback_days", 180))
+    history_max_items = int(config["output"].get("history_max_items", 0))
     new_clean = [to_clean_article(a) for a in deduped if a["audience"] != "Irrelevant"]
     existing_history = load_history(history_path)
     merged = merge_with_history(new_clean, existing_history)
     pruned = prune_history(merged, history_lookback_days, generated_at)
-    write_history(pruned, history_path, generated_at)
+    pruned = cap_history(pruned, history_max_items)
+    history_changed = write_history(pruned, history_path, generated_at)
 
-    print(f"[done] wrote {len(pruned)} articles to history ({history_path.name})")
+    if history_changed:
+        print(f"[done] wrote {len(pruned)} articles to history ({history_path.name})")
+    else:
+        print(f"[done] history unchanged ({history_path.name})")
     if errors:
         print(f"[done] {len(errors)} source errors recorded")
 

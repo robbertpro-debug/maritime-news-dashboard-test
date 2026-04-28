@@ -24,6 +24,7 @@ from fetch_feeds import (
     load_history,
     merge_with_history,
     prune_history,
+    cap_history,
     write_history,
     dedupe_articles,
     sort_articles,
@@ -105,11 +106,13 @@ def main() -> int:
     generated_at = datetime.now(timezone.utc)
     history_path = ROOT / config["output"].get("history_json_path", "data/articles-history.json")
     history_lookback_days = int(config["output"].get("history_lookback_days", 180))
+    history_max_items = int(config["output"].get("history_max_items", 0))
 
     clean = [to_clean_article(a) for a in relevant]
     existing = load_history(history_path)
     merged = merge_with_history(clean, existing)
     pruned = prune_history(merged, history_lookback_days, generated_at)
+    pruned = cap_history(pruned, history_max_items)
     write_history(pruned, history_path, generated_at)
 
     added = len(pruned) - len(existing)

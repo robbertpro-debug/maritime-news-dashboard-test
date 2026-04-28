@@ -7,6 +7,8 @@
     "max_total_items": 180,
     "history_json_path": "data/articles-history.json",
     "history_lookback_days": 180,
+    "history_max_items": 800,
+    "source_state_json_path": "data/source-state.json",
     "stocks_json_path": "data/stocks.json"
   },
   "request": {
@@ -33,6 +35,12 @@
         "riviera-regulation",
         "riviera-safety",
         "dutch-government-ienw",
+        "port-rotterdam-news",
+        "port-antwerp-bruges-press",
+        "north-sea-port-news",
+        "pzc",
+        "rijnmond",
+        "made-in",
         "google-imo-press",
         "google-imo-meetings"
       ],
@@ -54,6 +62,17 @@
       "sourceIds": [
         "riviera-ports",
         "dutch-government-ienw",
+        "hvzeeland",
+        "pzc",
+        "rijnmond",
+        "omroep-zeeland-news",
+        "rotterdammerdagblad-regionaal",
+        "north-sea-port-news",
+        "zeeland-connect-news",
+        "port-rotterdam-news",
+        "port-antwerp-bruges-press",
+        "terneuzen-notices",
+        "made-in",
         "google-rijkswaterstaat",
         "google-wilhelmsen-port",
         "google-ovet",
@@ -118,6 +137,11 @@
         "riviera-safety",
         "riviera-regulation",
         "dutch-government-ienw",
+        "hvzeeland",
+        "rijnmond",
+        "rws-zeeland-maintenance",
+        "rws-shipping-news",
+        "ilt-news",
         "google-imo-press",
         "google-imo-meetings",
         "google-tos-crew",
@@ -145,6 +169,9 @@
         "google-kongsberg",
         "google-wartsila",
         "google-dnv",
+        "logistiek-nieuws",
+        "logistiek-dienstverlening",
+        "made-in",
         "gnews-lankhorst-ropes",
         "gnews-united-offshore-services",
         "gnews-breman-machinery",
@@ -378,6 +405,313 @@
         "operations",
         "regulation",
         "netherlands"
+      ],
+      "audience_bias": {
+        "Multraship": 2,
+        "Novatug": 1
+      }
+    },
+    {
+      "id": "hvzeeland",
+      "name": "HVZeeland",
+      "url": "https://www.hvzeeland.nl/rss/nieuws",
+      "default_tags": [
+        "zeeland",
+        "safety",
+        "incidents",
+        "local-news"
+      ],
+      "audience_bias": {
+        "Multraship": 3
+      }
+    },
+    {
+      "id": "pzc",
+      "name": "PZC",
+      "url": "https://www.pzc.nl/home/rss.xml",
+      "default_tags": [
+        "zeeland",
+        "local-news"
+      ],
+      "audience_bias": {
+        "Multraship": 2
+      }
+    },
+    {
+      "id": "rijnmond",
+      "name": "Rijnmond",
+      "url": "https://www.rijnmond.nl/rss/index.xml",
+      "default_tags": [
+        "rijnmond",
+        "rotterdam",
+        "local-news"
+      ],
+      "audience_bias": {
+        "Multraship": 2
+      }
+    },
+    {
+      "id": "logistiek-nieuws",
+      "name": "Logistiek.nl: News",
+      "url": "https://cms.logistiek.nl/rss_feed/nieuws/",
+      "default_tags": [
+        "logistics",
+        "operations"
+      ],
+      "audience_bias": {
+        "Multraship": 2
+      }
+    },
+    {
+      "id": "logistiek-dienstverlening",
+      "name": "Logistiek.nl: Logistics Service Providers",
+      "url": "https://cms.logistiek.nl/rss_feed/logistieke-dienstverlening/",
+      "default_tags": [
+        "logistics",
+        "suppliers"
+      ],
+      "audience_bias": {
+        "Multraship": 2
+      }
+    },
+    {
+      "id": "made-in",
+      "name": "Made in",
+      "url": "https://www.made-in.be/",
+      "adapter": "web_watch",
+      "max_items": 25,
+      "link_include_patterns": [
+        "made-in\\.be/"
+      ],
+      "link_exclude_patterns": [
+        "vacature",
+        "jobs",
+        "nieuwsbrief"
+      ],
+      "default_tags": [
+        "business",
+        "local-news"
+      ],
+      "audience_bias": {
+        "Multraship": 2
+      }
+    },
+    {
+      "id": "north-sea-port-news",
+      "name": "North Sea Port News",
+      "url": "https://www.northseaport.com/en/news",
+      "adapter": "web_watch",
+      "max_items": 25,
+      "link_include_patterns": [
+        "northseaport\\.com/en/news"
+      ],
+      "link_exclude_patterns": [
+        "newsletter",
+        "contact",
+        "vacanc"
+      ],
+      "default_tags": [
+        "ports",
+        "north-sea-port",
+        "local-news"
+      ],
+      "audience_bias": {
+        "Multraship": 3
+      }
+    },
+    {
+      "id": "zeeland-connect-news",
+      "name": "Zeeland Connect News",
+      "url": "https://www.zeeland-connect.nl/nieuws",
+      "adapter": "web_watch",
+      "max_items": 25,
+      "link_include_patterns": [
+        "zeeland-connect\\.nl/"
+      ],
+      "link_exclude_patterns": [
+        "agenda",
+        "contact",
+        "vacature"
+      ],
+      "default_tags": [
+        "zeeland",
+        "logistics",
+        "innovation"
+      ],
+      "audience_bias": {
+        "Multraship": 3
+      }
+    },
+    {
+      "id": "port-rotterdam-news",
+      "name": "Port of Rotterdam News",
+      "url": "https://www.portofrotterdam.com/en/news-and-press-releases",
+      "adapter": "web_watch",
+      "max_items": 25,
+      "link_include_patterns": [
+        "portofrotterdam\\.com/en/news-and-press-releases"
+      ],
+      "link_exclude_patterns": [
+        "events",
+        "newsletter",
+        "vacanc"
+      ],
+      "default_tags": [
+        "ports",
+        "rotterdam",
+        "infrastructure"
+      ],
+      "audience_bias": {
+        "Multraship": 2,
+        "Novatug": 1
+      }
+    },
+    {
+      "id": "port-antwerp-bruges-press",
+      "name": "Port of Antwerp-Bruges Press",
+      "url": "https://newsroom.portofantwerpbruges.com/en/press-releases",
+      "adapter": "web_watch",
+      "max_items": 25,
+      "link_include_patterns": [
+        "newsroom\\.portofantwerpbruges\\.com/en/press-releases"
+      ],
+      "link_exclude_patterns": [
+        "subscribe",
+        "contact",
+        "vacanc"
+      ],
+      "default_tags": [
+        "ports",
+        "antwerp",
+        "infrastructure"
+      ],
+      "audience_bias": {
+        "Multraship": 2,
+        "Novatug": 1
+      }
+    },
+    {
+      "id": "omroep-zeeland-news",
+      "name": "Omroep Zeeland News",
+      "url": "https://www.omroepzeeland.nl/nieuws",
+      "adapter": "web_watch",
+      "max_items": 25,
+      "link_include_patterns": [
+        "omroepzeeland\\.nl/nieuws"
+      ],
+      "link_exclude_patterns": [
+        "sport",
+        "podcast",
+        "vacature"
+      ],
+      "default_tags": [
+        "zeeland",
+        "local-news"
+      ],
+      "audience_bias": {
+        "Multraship": 2
+      }
+    },
+    {
+      "id": "rotterdammerdagblad-regionaal",
+      "name": "Rotterdammer Dagblad",
+      "url": "https://www.rotterdammerdagblad.nl/",
+      "adapter": "web_watch",
+      "max_items": 20,
+      "link_include_patterns": [
+        "rotterdammerdagblad\\.nl/"
+      ],
+      "link_exclude_patterns": [
+        "vacatures",
+        "uitgaan",
+        "sport"
+      ],
+      "default_tags": [
+        "rotterdam",
+        "local-news"
+      ],
+      "audience_bias": {
+        "Multraship": 2
+      }
+    },
+    {
+      "id": "rws-zeeland-maintenance",
+      "name": "Rijkswaterstaat: Bereikbaar Zeeland",
+      "url": "https://www.rijkswaterstaat.nl/over-ons/onze-organisatie/groot-onderhoud/bereikbaar-zeeland/nieuws",
+      "adapter": "web_watch",
+      "max_items": 20,
+      "link_include_patterns": [
+        "rijkswaterstaat\\.nl/.*/bereikbaar-zeeland"
+      ],
+      "link_exclude_patterns": [
+        "werken-bij",
+        "contact"
+      ],
+      "default_tags": [
+        "infrastructure",
+        "zeeland",
+        "government"
+      ],
+      "audience_bias": {
+        "Multraship": 3
+      }
+    },
+    {
+      "id": "rws-shipping-news",
+      "name": "Rijkswaterstaat: Shipping News",
+      "url": "https://www.rijkswaterstaat.nl/water/scheepvaart/nieuws",
+      "adapter": "web_watch",
+      "max_items": 20,
+      "link_include_patterns": [
+        "rijkswaterstaat\\.nl/water/scheepvaart"
+      ],
+      "link_exclude_patterns": [
+        "werken-bij",
+        "contact"
+      ],
+      "default_tags": [
+        "shipping",
+        "infrastructure",
+        "government"
+      ],
+      "audience_bias": {
+        "Multraship": 2
+      }
+    },
+    {
+      "id": "terneuzen-notices",
+      "name": "Gemeente Terneuzen: Bekendmakingen",
+      "url": "https://www.terneuzen.nl/Onze_Organisatie/Actueel/Bekendmakingen",
+      "adapter": "web_watch",
+      "max_items": 10,
+      "link_include_patterns": [
+        "bekendmaking",
+        "vergunning",
+        "gemeenteblad",
+        "overheid\\.nl"
+      ],
+      "default_tags": [
+        "permits",
+        "government",
+        "zeeland"
+      ],
+      "audience_bias": {
+        "Multraship": 2
+      }
+    },
+    {
+      "id": "ilt-news",
+      "name": "ILT News",
+      "url": "https://english.ilent.nl/latest/news",
+      "adapter": "web_watch",
+      "max_items": 20,
+      "link_include_patterns": [
+        "english\\.ilent\\.nl/latest/news"
+      ],
+      "default_tags": [
+        "regulation",
+        "government",
+        "safety"
       ],
       "audience_bias": {
         "Multraship": 2,
@@ -1795,6 +2129,45 @@
     }
   },
   "watchlists": {
+    "location_context_keywords": [
+      "port",
+      "ports",
+      "haven",
+      "havens",
+      "terminal",
+      "terminals",
+      "lock",
+      "locks",
+      "sluis",
+      "sluizen",
+      "quay",
+      "berth",
+      "ship",
+      "ships",
+      "shipping",
+      "vessel",
+      "vessels",
+      "scheepvaart",
+      "schip",
+      "schepen",
+      "towage",
+      "tug",
+      "tugs",
+      "loods",
+      "pilot",
+      "marine",
+      "maritime",
+      "maritiem",
+      "offshore",
+      "cargo",
+      "dredging",
+      "waterway",
+      "vaarweg",
+      "binnenvaart",
+      "infrastructure",
+      "infrastructuur",
+      "kanaal"
+    ],
     "locations": [
       {
         "name": "North Sea Port",
@@ -1807,23 +2180,39 @@
         "name": "Terneuzen",
         "type": "core-port",
         "aliases": [
-          "Terneuzen",
-          "Terneuzen Locks"
+          "Terneuzen Locks",
+          "Nieuwe Sluis Terneuzen",
+          "Port of Terneuzen"
+        ],
+        "context_aliases": [
+          "Terneuzen"
         ]
       },
       {
         "name": "Vlissingen",
         "type": "core-port",
         "aliases": [
+          "Port of Vlissingen",
+          "Vlissingen-Oost",
+          "Sloehaven",
+          "Buitenhaven Vlissingen",
+          "Kaloothaven",
+          "Bijleveldhaven"
+        ],
+        "context_aliases": [
           "Vlissingen",
-          "Flushing",
-          "Port of Vlissingen"
+          "Flushing"
         ]
       },
       {
         "name": "Ghent",
         "type": "core-port",
         "aliases": [
+          "Port of Ghent",
+          "Ghent port",
+          "Kluizendok"
+        ],
+        "context_aliases": [
           "Ghent",
           "Gent"
         ]
@@ -1832,18 +2221,27 @@
         "name": "Antwerp",
         "type": "core-port",
         "aliases": [
-          "Antwerp",
           "Port of Antwerp",
           "Port of Antwerp-Bruges",
           "Antwerp-Bruges"
+        ],
+        "context_aliases": [
+          "Antwerp"
         ]
       },
       {
         "name": "Rotterdam",
         "type": "core-port",
         "aliases": [
-          "Rotterdam",
-          "Port of Rotterdam"
+          "Port of Rotterdam",
+          "Maasvlakte",
+          "Europoort",
+          "Botlek",
+          "Waalhaven",
+          "Eemhaven"
+        ],
+        "context_aliases": [
+          "Rotterdam"
         ]
       },
       {
@@ -1866,8 +2264,14 @@
         "name": "Zeeland",
         "type": "region",
         "aliases": [
+          "Zeeland Seaports",
+          "Zeeland ports",
+          "Zeeuwse havens",
+          "Havens Zeeland"
+        ],
+        "context_aliases": [
           "Zeeland",
-          "Zeeland Seaports"
+          "Zeeuwse"
         ]
       },
       {
