@@ -13,6 +13,163 @@
     "timeout_seconds": 20,
     "user_agent": "MaritimeNewsDashboard/1.0 (+local-only)"
   },
+  "department_profiles": [
+    {
+      "id": "all",
+      "label": "All departments",
+      "sourceIds": [],
+      "tags": [],
+      "entityCategories": []
+    },
+    {
+      "id": "management",
+      "label": "Management",
+      "sourceIds": [
+        "maritime-executive",
+        "marinelink",
+        "splash247",
+        "swz-maritime",
+        "hellenic-shipping-news",
+        "riviera-regulation",
+        "riviera-safety",
+        "dutch-government-ienw",
+        "google-imo-press",
+        "google-imo-meetings"
+      ],
+      "tags": [
+        "regulation",
+        "safety",
+        "compliance",
+        "markets",
+        "operations"
+      ],
+      "entityCategories": [
+        "clients",
+        "competitors"
+      ]
+    },
+    {
+      "id": "commercial-harbour",
+      "label": "Commercial: Harbour",
+      "sourceIds": [
+        "riviera-ports",
+        "dutch-government-ienw",
+        "google-rijkswaterstaat",
+        "google-wilhelmsen-port",
+        "google-ovet",
+        "google-dfds",
+        "google-wagenborg-stevedoring",
+        "gnews-verbrugge-terminals",
+        "gnews-verbrugge-marine",
+        "gnews-lalemant-gent",
+        "gnews-gac-belgium",
+        "gnews-iss-palumbo-netherlands"
+      ],
+      "tags": [
+        "ports",
+        "terminals",
+        "port-services",
+        "infrastructure",
+        "netherlands",
+        "shipping",
+        "ferry",
+        "stevedoring"
+      ],
+      "entityCategories": [
+        "clients"
+      ]
+    },
+    {
+      "id": "commercial-offshore",
+      "label": "Commercial: Offshore",
+      "sourceIds": [
+        "offshore-energy",
+        "rigzone-latest",
+        "google-boskalis",
+        "google-deme",
+        "google-van-oord",
+        "google-svitzer",
+        "google-scaldis",
+        "google-ardent",
+        "google-saam",
+        "google-seacontractors",
+        "google-eendracht-gent",
+        "google-hebo"
+      ],
+      "tags": [
+        "offshore",
+        "dredging",
+        "towage",
+        "marine-construction",
+        "salvage",
+        "shipping",
+        "workboats"
+      ],
+      "entityCategories": [
+        "clients",
+        "competitors"
+      ]
+    },
+    {
+      "id": "operations-crewing",
+      "label": "Operations: Crewing",
+      "sourceIds": [
+        "gcaptain",
+        "riviera-safety",
+        "riviera-regulation",
+        "dutch-government-ienw",
+        "google-imo-press",
+        "google-imo-meetings",
+        "google-tos-crew",
+        "google-delta-marine-crewing",
+        "google-csc-crewing",
+        "google-atlas-professional"
+      ],
+      "tags": [
+        "crewing",
+        "safety",
+        "incidents",
+        "imo",
+        "regulation",
+        "government",
+        "operations",
+        "compliance"
+      ],
+      "entityCategories": []
+    },
+    {
+      "id": "operations-procurement",
+      "label": "Operations: Procurement",
+      "sourceIds": [
+        "google-damen",
+        "google-kongsberg",
+        "google-wartsila",
+        "google-dnv",
+        "gnews-lankhorst-ropes",
+        "gnews-united-offshore-services",
+        "gnews-breman-machinery",
+        "google-boreas-maritime",
+        "google-landfall",
+        "google-finco-marine",
+        "google-de-wit-bunkering",
+        "google-propeller-fuels",
+        "google-zeppelin-power",
+        "google-kooiman-marine"
+      ],
+      "tags": [
+        "supplier",
+        "technology",
+        "propulsion",
+        "bunkering",
+        "classification",
+        "shipbuilding",
+        "power"
+      ],
+      "entityCategories": [
+        "suppliers"
+      ]
+    }
+  ],
   "sources": [
     {
       "id": "maritime-executive",
@@ -213,7 +370,52 @@
       }
     },
     {
-      "id": "bing-damen",
+      "id": "dutch-government-ienw",
+      "name": "Dutch Government: Infrastructure & Water Management",
+      "url": "https://feeds.government.nl/ministries/ministry-of-infrastructure-and-water-management/news.rss",
+      "default_tags": [
+        "government",
+        "operations",
+        "regulation",
+        "netherlands"
+      ],
+      "audience_bias": {
+        "Multraship": 2,
+        "Novatug": 1
+      }
+    },
+    {
+      "id": "google-imo-press",
+      "name": "IMO Press Briefings",
+      "url": "https://news.google.com/rss/search?q=site%3Aimo.org%2Fen%2FMediaCentre%2FPressBriefings%20IMO&hl=en-US&gl=US&ceid=US:en",
+      "default_tags": [
+        "imo",
+        "operations",
+        "regulation",
+        "safety"
+      ],
+      "audience_bias": {
+        "Multraship": 2,
+        "Novatug": 2
+      }
+    },
+    {
+      "id": "google-imo-meetings",
+      "name": "IMO Meeting Summaries",
+      "url": "https://news.google.com/rss/search?q=site%3Aimo.org%2Fen%2FMediaCentre%2FMeetingSummaries%20IMO&hl=en-US&gl=US&ceid=US:en",
+      "default_tags": [
+        "imo",
+        "operations",
+        "regulation",
+        "safety"
+      ],
+      "audience_bias": {
+        "Multraship": 2,
+        "Novatug": 2
+      }
+    },
+    {
+      "id": "google-damen",
       "name": "Damen Shipyards News",
       "url": "https://news.google.com/rss/search?q=%22Damen%20Shipyards%22&hl=en-US&gl=US&ceid=US:en",
       "default_tags": [
@@ -226,9 +428,9 @@
       }
     },
     {
-      "id": "bing-kongsberg",
+      "id": "google-kongsberg",
       "name": "Kongsberg Maritime News",
-      "url": "https://www.bing.com/news/search?q=Kongsberg+Maritime&format=rss&mkt=en-US&count=50",
+      "url": "https://news.google.com/rss/search?q=%22Kongsberg%20Maritime%22&hl=en-US&gl=US&ceid=US:en",
       "default_tags": [
         "technology",
         "supplier"
@@ -239,7 +441,7 @@
       }
     },
     {
-      "id": "bing-boskalis",
+      "id": "google-boskalis",
       "name": "Boskalis News",
       "url": "https://news.google.com/rss/search?q=Boskalis+dredging+maritime&hl=en-US&gl=US&ceid=US:en",
       "default_tags": [
@@ -251,7 +453,7 @@
       }
     },
     {
-      "id": "bing-svitzer",
+      "id": "google-svitzer",
       "name": "Svitzer News",
       "url": "https://news.google.com/rss/search?q=%22Svitzer%22%20towage&hl=en-US&gl=US&ceid=US:en",
       "default_tags": [
@@ -263,9 +465,9 @@
       }
     },
     {
-      "id": "bing-deme",
+      "id": "google-deme",
       "name": "DEME Group News",
-      "url": "https://www.bing.com/news/search?q=DEME+Group&format=rss&mkt=en-US&count=50",
+      "url": "https://news.google.com/rss/search?q=%22DEME%20Group%22&hl=en-US&gl=US&ceid=US:en",
       "default_tags": [
         "offshore",
         "marine-construction"
@@ -275,7 +477,7 @@
       }
     },
     {
-      "id": "bing-van-oord",
+      "id": "google-van-oord",
       "name": "Van Oord News",
       "url": "https://news.google.com/rss/search?q=%22Van%20Oord%22%20maritime&hl=en-US&gl=US&ceid=US:en",
       "default_tags": [
@@ -287,7 +489,7 @@
       }
     },
     {
-      "id": "bing-wartsila",
+      "id": "google-wartsila",
       "name": "Wärtsilä News",
       "url": "https://news.google.com/rss/search?q=W%C3%A4rtsil%C3%A4%20marine&hl=en-US&gl=US&ceid=US:en",
       "default_tags": [
@@ -300,7 +502,7 @@
       }
     },
     {
-      "id": "bing-dnv",
+      "id": "google-dnv",
       "name": "DNV News",
       "url": "https://news.google.com/rss/search?q=DNV%20maritime%20classification&hl=en-US&gl=US&ceid=US:en",
       "default_tags": [
@@ -313,7 +515,7 @@
       }
     },
     {
-      "id": "bing-ardent",
+      "id": "google-ardent",
       "name": "Ardent Salvage News",
       "url": "https://news.google.com/rss/search?q=%22Ardent%22%20salvage%20maritime&hl=en-US&gl=US&ceid=US:en",
       "default_tags": [
@@ -325,7 +527,7 @@
       }
     },
     {
-      "id": "bing-saam",
+      "id": "google-saam",
       "name": "SAAM Towage News",
       "url": "https://news.google.com/rss/search?q=%22SAAM+Towage%22+maritime&hl=en-US&gl=US&ceid=US:en",
       "default_tags": [
@@ -337,7 +539,7 @@
       }
     },
     {
-      "id": "bing-yara",
+      "id": "google-yara",
       "name": "Yara International News",
       "url": "https://news.google.com/rss/search?q=Yara%20International%20shipping&hl=en-US&gl=US&ceid=US:en",
       "default_tags": [
@@ -349,7 +551,7 @@
       }
     },
     {
-      "id": "bing-flc-marine",
+      "id": "google-flc-marine",
       "name": "FLC Marine Works News",
       "url": "https://news.google.com/rss/search?q=%22FLC%20Marine%20Works%22&hl=en-US&gl=US&ceid=US:en",
       "default_tags": [
@@ -360,7 +562,7 @@
       }
     },
     {
-      "id": "bing-rijkswaterstaat",
+      "id": "google-rijkswaterstaat",
       "name": "Rijkswaterstaat News",
       "url": "https://news.google.com/rss/search?q=Rijkswaterstaat%20port%20tender&hl=en-US&gl=US&ceid=US:en",
       "default_tags": [
@@ -372,7 +574,7 @@
       }
     },
     {
-      "id": "bing-scaldis",
+      "id": "google-scaldis",
       "name": "Scaldis Salvage News",
       "url": "https://news.google.com/rss/search?q=%22Scaldis%22%20salvage%20contractor&hl=en-US&gl=US&ceid=US:en",
       "default_tags": [
@@ -384,7 +586,7 @@
       }
     },
     {
-      "id": "bing-tm-edison",
+      "id": "google-tm-edison",
       "name": "TM Edison News",
       "url": "https://news.google.com/rss/search?q=%22TM%20Edison%22%20maritime&hl=en-US&gl=US&ceid=US:en",
       "default_tags": [
@@ -395,7 +597,7 @@
       }
     },
     {
-      "id": "bing-wilhelmsen-port",
+      "id": "google-wilhelmsen-port",
       "name": "Wilhelmsen Port Services News",
       "url": "https://news.google.com/rss/search?q=%22Wilhelmsen%20Port%20Services%22&hl=en-US&gl=US&ceid=US:en",
       "default_tags": [
@@ -406,9 +608,9 @@
       }
     },
     {
-      "id": "bing-ovet",
+      "id": "google-ovet",
       "name": "Ovet Shipping News",
-      "url": "https://www.bing.com/news/search?q=Ovet+Shipping+maritime+terminal&format=rss&mkt=en-US&count=50",
+      "url": "https://news.google.com/rss/search?q=Ovet%20Shipping%20maritime%20terminal&hl=en-US&gl=US&ceid=US:en",
       "default_tags": [
         "shipping",
         "terminals"
@@ -418,7 +620,7 @@
       }
     },
     {
-      "id": "bing-sarens",
+      "id": "google-sarens",
       "name": "Sarens News",
       "url": "https://news.google.com/rss/search?q=Sarens%20heavy%20lift%20marine&hl=en-US&gl=US&ceid=US:en",
       "default_tags": [
@@ -429,7 +631,7 @@
       }
     },
     {
-      "id": "bing-vertomcory",
+      "id": "google-vertomcory",
       "name": "VertomCory News",
       "url": "https://news.google.com/rss/search?q=VertomCory%20shipping&hl=en-US&gl=US&ceid=US:en",
       "default_tags": [
@@ -441,7 +643,7 @@
       }
     },
     {
-      "id": "bing-oldendorff",
+      "id": "google-oldendorff",
       "name": "Oldendorff Carriers News",
       "url": "https://news.google.com/rss/search?q=Oldendorff%20Carriers%20shipping&hl=en-US&gl=US&ceid=US:en",
       "default_tags": [
@@ -453,7 +655,7 @@
       }
     },
     {
-      "id": "bing-ultrabulk",
+      "id": "google-ultrabulk",
       "name": "Ultrabulk News",
       "url": "https://news.google.com/rss/search?q=%22Ultrabulk%22+shipping&hl=en-US&gl=US&ceid=US:en",
       "default_tags": [
@@ -465,7 +667,7 @@
       }
     },
     {
-      "id": "bing-damen-yachting",
+      "id": "google-damen-yachting",
       "name": "Damen Yachting News",
       "url": "https://news.google.com/rss/search?q=%22Damen%20Yachting%22&hl=en-US&gl=US&ceid=US:en",
       "default_tags": [
@@ -476,7 +678,7 @@
       }
     },
     {
-      "id": "bing-inchcape",
+      "id": "google-inchcape",
       "name": "Inchcape Shipping Services News",
       "url": "https://news.google.com/rss/search?q=%22Inchcape%20Shipping%20Services%22&hl=en-US&gl=US&ceid=US:en",
       "default_tags": [
@@ -487,7 +689,7 @@
       }
     },
     {
-      "id": "bing-dfds",
+      "id": "google-dfds",
       "name": "DFDS News",
       "url": "https://news.google.com/rss/search?q=DFDS%20ferry%20shipping&hl=en-US&gl=US&ceid=US:en",
       "default_tags": [
@@ -499,7 +701,7 @@
       }
     },
     {
-      "id": "bing-wagenborg-stevedoring",
+      "id": "google-wagenborg-stevedoring",
       "name": "Wagenborg Stevedoring News",
       "url": "https://news.google.com/rss/search?q=%22Wagenborg%20Stevedoring%22&hl=en-US&gl=US&ceid=US:en",
       "default_tags": [
@@ -511,7 +713,7 @@
       }
     },
     {
-      "id": "bing-maersk-tankers",
+      "id": "google-maersk-tankers",
       "name": "Maersk Tankers News",
       "url": "https://news.google.com/rss/search?q=%22Maersk%20Tankers%22&hl=en-US&gl=US&ceid=US:en",
       "default_tags": [
@@ -875,7 +1077,7 @@
       }
     },
     {
-      "id": "bing-rederij-muller",
+      "id": "google-rederij-muller",
       "name": "Rederij T. Muller News",
       "url": "https://news.google.com/rss/search?q=%22Rederij%20Muller%22%20OR%20%22Muller%20Dordrecht%22%20towage&hl=en-US&gl=US&ceid=US:en",
       "default_tags": [
@@ -887,7 +1089,7 @@
       }
     },
     {
-      "id": "bing-seacontractors",
+      "id": "google-seacontractors",
       "name": "Seacontractors Marine Service News",
       "url": "https://news.google.com/rss/search?q=%22Seacontractors%22%20marine&hl=en-US&gl=US&ceid=US:en",
       "default_tags": [
@@ -899,7 +1101,7 @@
       }
     },
     {
-      "id": "bing-vlissingse-bootlieden",
+      "id": "google-vlissingse-bootlieden",
       "name": "Vlissingse Bootlieden News",
       "url": "https://news.google.com/rss/search?q=%22Vlissingse%20Bootlieden%22&hl=en-US&gl=US&ceid=US:en",
       "default_tags": [
@@ -911,7 +1113,7 @@
       }
     },
     {
-      "id": "bing-eendracht-gent",
+      "id": "google-eendracht-gent",
       "name": "Eendracht Gent News",
       "url": "https://news.google.com/rss/search?q=%22Eendracht%20Gent%22%20OR%20%22Bootmannen%20Gent%22&hl=en-US&gl=US&ceid=US:en",
       "default_tags": [
@@ -923,7 +1125,7 @@
       }
     },
     {
-      "id": "bing-hebo",
+      "id": "google-hebo",
       "name": "Hebo Maritiemservice News",
       "url": "https://news.google.com/rss/search?q=%22Hebo%20Maritiemservice%22%20OR%20%22Hebo%20Maritiem%22&hl=en-US&gl=US&ceid=US:en",
       "default_tags": [
@@ -935,7 +1137,7 @@
       }
     },
     {
-      "id": "bing-boreas-maritime",
+      "id": "google-boreas-maritime",
       "name": "Boreas Maritime News",
       "url": "https://news.google.com/rss/search?q=%22Boreas%20Maritime%22&hl=en-US&gl=US&ceid=US:en",
       "default_tags": [
@@ -947,7 +1149,7 @@
       }
     },
     {
-      "id": "bing-landfall",
+      "id": "google-landfall",
       "name": "Landfall News",
       "url": "https://news.google.com/rss/search?q=%22Landfall%22%20maritime&hl=en-US&gl=US&ceid=US:en",
       "default_tags": [
@@ -959,7 +1161,7 @@
       }
     },
     {
-      "id": "bing-tos-crew",
+      "id": "google-tos-crew",
       "name": "TOS CREW News",
       "url": "https://news.google.com/rss/search?q=%22TOS%20CREW%22%20maritime&hl=en-US&gl=US&ceid=US:en",
       "default_tags": [
@@ -971,7 +1173,7 @@
       }
     },
     {
-      "id": "bing-gardec-sds",
+      "id": "google-gardec-sds",
       "name": "Gardec SDS News",
       "url": "https://news.google.com/rss/search?q=%22Gardec%20SDS%22&hl=en-US&gl=US&ceid=US:en",
       "default_tags": [
@@ -983,7 +1185,7 @@
       }
     },
     {
-      "id": "bing-delta-marine-crewing",
+      "id": "google-delta-marine-crewing",
       "name": "Delta Marine Crewing News",
       "url": "https://news.google.com/rss/search?q=%22Delta%20Marine%20Crewing%22&hl=en-US&gl=US&ceid=US:en",
       "default_tags": [
@@ -995,7 +1197,7 @@
       }
     },
     {
-      "id": "bing-marnavi",
+      "id": "google-marnavi",
       "name": "Marnavi Trasporti Marittimi News",
       "url": "https://news.google.com/rss/search?q=Marnavi%20Trasporti%20Marittimi&hl=en-US&gl=US&ceid=US:en",
       "default_tags": [
@@ -1007,7 +1209,7 @@
       }
     },
     {
-      "id": "bing-atlas-professional",
+      "id": "google-atlas-professional",
       "name": "Atlas Professional News",
       "url": "https://news.google.com/rss/search?q=%22Atlas%20Professional%22%20maritime&hl=en-US&gl=US&ceid=US:en",
       "default_tags": [
@@ -1019,7 +1221,7 @@
       }
     },
     {
-      "id": "bing-finco-marine",
+      "id": "google-finco-marine",
       "name": "Finco Marine Energies News",
       "url": "https://news.google.com/rss/search?q=%22Finco%20Marine%20Energies%22%20OR%20%22Gulf%20Bunkering%22&hl=en-US&gl=US&ceid=US:en",
       "default_tags": [
@@ -1031,7 +1233,7 @@
       }
     },
     {
-      "id": "bing-progressio",
+      "id": "google-progressio",
       "name": "Progressio News",
       "url": "https://news.google.com/rss/search?q=%22Progressio%22%20maritime&hl=en-US&gl=US&ceid=US:en",
       "default_tags": [
@@ -1043,7 +1245,7 @@
       }
     },
     {
-      "id": "bing-csc-crewing",
+      "id": "google-csc-crewing",
       "name": "CSC Crewing News",
       "url": "https://news.google.com/rss/search?q=%22CSC%20Crewing%22&hl=en-US&gl=US&ceid=US:en",
       "default_tags": [
@@ -1055,7 +1257,7 @@
       }
     },
     {
-      "id": "bing-victrol-chartering",
+      "id": "google-victrol-chartering",
       "name": "Victrol Chartering News",
       "url": "https://news.google.com/rss/search?q=%22Victrol%20Chartering%22&hl=en-US&gl=US&ceid=US:en",
       "default_tags": [
@@ -1067,7 +1269,7 @@
       }
     },
     {
-      "id": "bing-howden-specialty",
+      "id": "google-howden-specialty",
       "name": "Howden Specialty News",
       "url": "https://news.google.com/rss/search?q=%22Howden%20Specialty%22&hl=en-US&gl=US&ceid=US:en",
       "default_tags": [
@@ -1079,7 +1281,7 @@
       }
     },
     {
-      "id": "bing-de-wit-bunkering",
+      "id": "google-de-wit-bunkering",
       "name": "De Wit Bunkering News",
       "url": "https://news.google.com/rss/search?q=%22De%20Wit%20Bunkering%22&hl=en-US&gl=US&ceid=US:en",
       "default_tags": [
@@ -1091,7 +1293,7 @@
       }
     },
     {
-      "id": "bing-propeller-fuels",
+      "id": "google-propeller-fuels",
       "name": "Propeller Fuels News",
       "url": "https://news.google.com/rss/search?q=%22Propeller%20Fuels%22&hl=en-US&gl=US&ceid=US:en",
       "default_tags": [
@@ -1103,7 +1305,7 @@
       }
     },
     {
-      "id": "bing-plus-corbijn",
+      "id": "google-plus-corbijn",
       "name": "Plus Supermarkt Corbijn News",
       "url": "https://news.google.com/rss/search?q=%22Plus%20Supermarkt%20Corbijn%22&hl=en-US&gl=US&ceid=US:en",
       "default_tags": [
@@ -1115,7 +1317,7 @@
       }
     },
     {
-      "id": "bing-c-teleport",
+      "id": "google-c-teleport",
       "name": "C-Teleport News",
       "url": "https://news.google.com/rss/search?q=%22C-Teleport%22%20maritime&hl=en-US&gl=US&ceid=US:en",
       "default_tags": [
@@ -1127,7 +1329,7 @@
       }
     },
     {
-      "id": "bing-zeppelin-power",
+      "id": "google-zeppelin-power",
       "name": "Zeppelin Power Systems Netherlands News",
       "url": "https://news.google.com/rss/search?q=%22Zeppelin%20Power%20Systems%22%20Netherlands%20OR%20%22Pon%20Power%22&hl=en-US&gl=US&ceid=US:en",
       "default_tags": [
@@ -1139,7 +1341,7 @@
       }
     },
     {
-      "id": "bing-kooiman-marine",
+      "id": "google-kooiman-marine",
       "name": "Kooiman Marine Group News",
       "url": "https://news.google.com/rss/search?q=%22Kooiman%20Marine%22&hl=en-US&gl=US&ceid=US:en",
       "default_tags": [
@@ -1151,7 +1353,7 @@
       }
     },
     {
-      "id": "bing-hydroos",
+      "id": "google-hydroos",
       "name": "Hydroos News",
       "url": "https://news.google.com/rss/search?q=%22Hydroos%22&hl=en-US&gl=US&ceid=US:en",
       "default_tags": [
@@ -1163,7 +1365,7 @@
       }
     },
     {
-      "id": "bing-mesh-maritime",
+      "id": "google-mesh-maritime",
       "name": "Mesh Maritime News",
       "url": "https://news.google.com/rss/search?q=%22Mesh%22%20maritime%20shipping&hl=en-US&gl=US&ceid=US:en",
       "default_tags": [
@@ -1175,7 +1377,7 @@
       }
     },
     {
-      "id": "bing-mez-maritiem",
+      "id": "google-mez-maritiem",
       "name": "M.E.Z. Maritiem Elektro Zeeland News",
       "url": "https://news.google.com/rss/search?q=%22M.E.Z.%22%20maritiem%20Zeeland&hl=en-US&gl=US&ceid=US:en",
       "default_tags": [
@@ -1382,7 +1584,29 @@
         "regulation",
         "compliance",
         "imo",
-        "policy"
+        "policy",
+        "solas",
+        "marpol",
+        "mepc",
+        "msc",
+        "port state control",
+        "flag state",
+        "inspection",
+        "dutch government",
+        "ministry of infrastructure and water management",
+        "ienw",
+        "shipping regulation"
+      ],
+      "Operations": [
+        "operations",
+        "waterways",
+        "seaports",
+        "port state control",
+        "inspection",
+        "rijkswaterstaat",
+        "dutch government",
+        "ministry of infrastructure and water management",
+        "ienw"
       ],
       "Safety": [
         "safety",
@@ -1946,6 +2170,7 @@
       "incident": 4,
       "disruption": 4,
       "regulation": 3,
+      "operations": 2,
       "infrastructure": 3,
       "terminal_expansion": 3,
       "commercial": 2,
@@ -2001,7 +2226,33 @@
           "law",
           "legal",
           "imo",
-          "authority"
+          "authority",
+          "solas",
+          "marpol",
+          "mepc",
+          "msc",
+          "port state control",
+          "flag state",
+          "inspection",
+          "dutch government",
+          "ministry of infrastructure and water management",
+          "ienw",
+          "shipping regulation"
+        ]
+      },
+      "operations": {
+        "label": "Operations",
+        "keywords": [
+          "operations",
+          "waterways",
+          "seaports",
+          "port state control",
+          "flag state",
+          "inspection",
+          "rijkswaterstaat",
+          "dutch government",
+          "ministry of infrastructure and water management",
+          "ienw"
         ]
       },
       "infrastructure": {

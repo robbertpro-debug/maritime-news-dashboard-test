@@ -107,16 +107,6 @@
         font-size: 10px;
       }
 
-      .top-bar-toggle .view-mode-btn {
-        padding: 5px 12px;
-        font-size: 10px;
-        border-radius: 8px;
-      }
-
-      #viewModeToggle[hidden] {
-        display: none;
-      }
-
       .refresh-icon-btn {
         width: 30px;
         height: 30px;
@@ -274,6 +264,17 @@
         align-items: end;
       }
 
+      .primary-control-grid {
+        display: grid;
+        gap: 12px;
+        grid-template-columns: minmax(280px, 2fr) minmax(210px, 1fr) auto auto;
+        align-items: end;
+      }
+
+      .secondary-control-grid {
+        margin-top: 12px;
+      }
+
       .field-wide {
         grid-column: span 2;
       }
@@ -308,6 +309,78 @@
         padding-top: 4px;
         color: var(--text-soft);
         font-size: 14px;
+      }
+
+      .clear-filter-button {
+        padding: 11px 12px;
+        border-radius: 12px;
+        border: 1px solid var(--line);
+        background: var(--surface-muted);
+        color: var(--text);
+        font-weight: 700;
+        cursor: pointer;
+      }
+
+      .more-filters {
+        margin-top: 14px;
+        padding-top: 12px;
+        border-top: 1px solid var(--line);
+      }
+
+      .more-filters summary {
+        cursor: pointer;
+        color: var(--text-soft);
+        font-size: 12px;
+        font-weight: 700;
+        letter-spacing: 0.04em;
+        text-transform: uppercase;
+      }
+
+      .column-toggle-row {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 8px;
+        margin-top: 14px;
+        padding-top: 14px;
+        border-top: 1px solid var(--line);
+      }
+
+      .column-toggle-label {
+        color: var(--text-soft);
+        font-size: 12px;
+        font-weight: 700;
+        letter-spacing: 0.04em;
+        text-transform: uppercase;
+      }
+
+      .column-toggle-button {
+        padding: 7px 11px;
+        border-radius: 999px;
+        border: 1px solid var(--line);
+        background: var(--surface);
+        color: var(--text-soft);
+        font-size: 12px;
+        font-weight: 700;
+        cursor: pointer;
+      }
+
+      .column-toggle-button.active[data-column="suppliers"] {
+        background: #92400e;
+        border-color: #92400e;
+        color: #fff;
+      }
+
+      .column-toggle-button.active[data-column="clients"] {
+        background: #1e40af;
+        border-color: #1e40af;
+        color: #fff;
+      }
+
+      .column-toggle-button.active[data-column="competitors"] {
+        background: #991b1b;
+        border-color: #991b1b;
+        color: #fff;
       }
 
       .error-box {
@@ -377,50 +450,6 @@
       .toggle-button[data-audience="Both"].active {
         background: var(--both);
         border-color: var(--both);
-      }
-
-      .view-mode-row {
-        display: flex;
-        align-items: center;
-        gap: 8px;
-        margin-top: 14px;
-      }
-
-      .view-mode-label {
-        font-size: 0.78rem;
-        color: var(--text-soft);
-        font-weight: 500;
-        text-transform: uppercase;
-        letter-spacing: 0.05em;
-        white-space: nowrap;
-      }
-
-      .view-mode-btn {
-        padding: 5px 12px;
-        font-size: 0.78rem;
-        border: 1px solid var(--line);
-        background: var(--surface);
-        color: var(--text-soft);
-        cursor: pointer;
-        border-radius: 4px;
-      }
-
-      .view-mode-btn.active[data-view="all"] {
-        background: #475569;
-        border-color: #475569;
-        color: #fff;
-      }
-
-      .view-mode-btn.active[data-view="procurement"] {
-        background: #b45309;
-        border-color: #b45309;
-        color: #fff;
-      }
-
-      .view-mode-btn.active[data-view="management"] {
-        background: #1d4ed8;
-        border-color: #1d4ed8;
-        color: #fff;
       }
 
       .overview {
@@ -497,6 +526,14 @@
 
       .bucket[data-bucket="Regulation, Safety & Incidents"] .bucket-head {
         background: linear-gradient(180deg, #fdf7ff 0%, #f5efff 100%);
+      }
+
+      .bucket[data-bucket="All News"] {
+        grid-column: 1 / -1;
+      }
+
+      .bucket[data-bucket="All News"] .bucket-head {
+        background: linear-gradient(180deg, #f6fbfc 0%, #eef5f6 100%);
       }
 
       .bucket-title {
@@ -855,7 +892,8 @@
           flex-direction: column;
         }
 
-        .control-grid {
+        .control-grid,
+        .primary-control-grid {
           grid-template-columns: repeat(2, minmax(0, 1fr));
         }
 
@@ -871,7 +909,8 @@
       }
 
       @media (max-width: 860px) {
-        .control-grid {
+        .control-grid,
+        .primary-control-grid {
           grid-template-columns: 1fr;
         }
 
@@ -1315,11 +1354,6 @@
             <button class="toggle-button" data-audience="Novatug" type="button">Novatug</button>
             <button class="toggle-button" data-audience="Both" type="button">Shared</button>
           </div>
-          <div class="top-bar-toggle" id="viewModeToggle">
-            <button class="view-mode-btn" data-view="all" type="button">All</button>
-            <button class="view-mode-btn" data-view="procurement" type="button">Procurement</button>
-            <button class="view-mode-btn" data-view="management" type="button">Management</button>
-          </div>
           <button id="entitiesNavBtn" class="entities-nav-btn" type="button">Entities</button>
           <button id="refreshButton" class="refresh-icon-btn" title="Refresh data" type="button">↻</button>
           <span id="refreshStatus" class="refresh-status"></span>
@@ -1341,61 +1375,58 @@
           <div class="controls-head">
             <h2>Filters</h2>
           </div>
-          <div class="control-grid">
+          <div class="primary-control-grid">
             <div class="field field-wide">
               <label for="searchInput">Search</label>
-              <input id="searchInput" type="search" placeholder="Search headlines, reasons and tags" />
+              <input id="searchInput" type="search" placeholder="Search headlines, locations, entities, reasons and tags" />
             </div>
             <div class="field">
-              <label for="sourceFilter">Source</label>
-              <select id="sourceFilter">
-                <option value="all">All sources</option>
+              <label for="departmentFilter">Department</label>
+              <select id="departmentFilter">
+                <option value="all">All departments</option>
               </select>
             </div>
-            <div class="field">
-              <label for="topicFilter">Topic</label>
-              <select id="topicFilter">
-                <option value="all">All topics</option>
-              </select>
-            </div>
-            <div class="field">
-              <label for="locationFilter">Location</label>
-              <select id="locationFilter">
-                <option value="all">All watched locations</option>
-              </select>
-            </div>
-            <div class="field">
-              <label for="priorityFilter">Board priority</label>
-              <select id="priorityFilter">
-                <option value="all">All priorities</option>
-                <option value="critical">Critical only</option>
-                <option value="high-up">High and up</option>
-                <option value="medium-up">Medium and up</option>
-                <option value="low">Low only</option>
-              </select>
-            </div>
-            <div class="field">
-              <label for="entityFilter">Entity</label>
-              <select id="entityFilter">
-                <option value="all">All entities</option>
-                <option value="suppliers">Suppliers</option>
-                <option value="clients">Clients</option>
-                <option value="competitors">Competitors</option>
-              </select>
-            </div>
-            <div class="field">
-              <label for="sortOrder">Sort</label>
-              <select id="sortOrder">
-                <option value="priority">Board priority</option>
-                <option value="newest">Newest first</option>
-                <option value="oldest">Oldest first</option>
-                <option value="source">Source name</option>
-              </select>
-            </div>
-            <label class="checkbox-row" for="paywalledOnly">
-              <input id="paywalledOnly" type="checkbox" />
-              Show paywalled items only
+            <label class="checkbox-row" for="highPriorityOnly">
+              <input id="highPriorityOnly" type="checkbox" />
+              High priority only
             </label>
+            <button id="clearFiltersButton" class="clear-filter-button" type="button">Clear filters</button>
+          </div>
+          <details class="more-filters">
+            <summary>More filters</summary>
+            <div class="control-grid secondary-control-grid">
+              <div class="field">
+                <label for="sourceFilter">Source</label>
+                <select id="sourceFilter">
+                  <option value="all">All sources</option>
+                </select>
+              </div>
+              <div class="field">
+                <label for="topicFilter">Topic</label>
+                <select id="topicFilter">
+                  <option value="all">All topics</option>
+                </select>
+              </div>
+              <div class="field">
+                <label for="entityFilter">Entity type</label>
+                <select id="entityFilter">
+                  <option value="all">All entity types</option>
+                  <option value="suppliers">Suppliers</option>
+                  <option value="clients">Clients</option>
+                  <option value="competitors">Competitors</option>
+                </select>
+              </div>
+              <label class="checkbox-row" for="paywalledOnly">
+                <input id="paywalledOnly" type="checkbox" />
+                Paywalled only
+              </label>
+            </div>
+          </details>
+          <div class="column-toggle-row" id="columnToggle">
+            <span class="column-toggle-label">News columns</span>
+            <button class="column-toggle-button active" data-column="suppliers" type="button">Supplier News</button>
+            <button class="column-toggle-button active" data-column="clients" type="button">Client News</button>
+            <button class="column-toggle-button active" data-column="competitors" type="button">Competitor News</button>
           </div>
         </aside>
       </section>
@@ -1426,7 +1457,8 @@
     <script src="./data/articles.js"></script>
     <script>
       const AUTH_KEY = "mnd_auth";
-      const VIEW_MODE_KEY = "mnd_view_mode";
+      const DEPARTMENT_KEY = "mnd_department";
+      const COLUMN_PREFS_KEY = "mnd_entity_columns";
       const PASSWORD_HASH = "9175c025fea32b1448a98927bb679160119657ac11cbd028b51264a21af91db8";
 
       async function sha256hex(text) {
@@ -1472,41 +1504,30 @@
       const GENERIC_TOPIC_TAGS = new Set(["Maritime", "News", "Industry", "Markets"]);
       const BUCKETS = [
         {
-          key: "High Priority",
-          title: "High Priority",
-          subtitle: "Strongest board-level signal from location, entity and disruption context."
-        },
-        {
-          key: "Port Watch",
-          title: "Port Watch",
-          subtitle: "Core operating ports, waterways and local infrastructure developments."
-        },
-        {
-          key: "Clients & Projects",
-          title: "Clients & Projects",
-          subtitle: "Tracked customers, projects, contracts and terminal-side commercial moves."
-        },
-        {
-          key: "Competitors & Market",
-          title: "Competitors & Market",
-          subtitle: "Competitor activity and nearby market shifts worth scanning."
-        },
-        {
-          key: "Regulation, Safety & Incidents",
-          title: "Regulation, Safety & Incidents",
-          subtitle: "Rules, casualties, delays and operational disruption without a higher score."
-        },
-        {
-          key: "Other Relevant",
-          title: "Other Relevant",
-          subtitle: "Broader context that still fits the current audience and filters."
+          key: "All News",
+          title: "All News",
+          subtitle: "Complete filtered stream, including items also shown in the entity panels."
         }
       ];
+      const OPERATIONS_TAGS = new Set([
+        "government",
+        "imo",
+        "operations",
+        "regulation",
+        "safety",
+        "compliance",
+        "infrastructure",
+        "port services"
+      ]);
 
       const ENTITY_CATEGORY_CONFIG = [
         { key: "suppliers", label: "Supplier News", subtitle: "News mentioning tracked suppliers" },
         { key: "clients", label: "Client News", subtitle: "News mentioning tracked clients" },
         { key: "competitors", label: "Competitor News", subtitle: "News mentioning tracked competitors" }
+      ];
+      const DEFAULT_ENTITY_COLUMNS = ENTITY_CATEGORY_CONFIG.map((config) => config.key);
+      const DEFAULT_DEPARTMENT_PROFILES = [
+        { id: "all", label: "All departments", sourceIds: [], tags: [], entityCategories: [] }
       ];
 
       const DATE_RANGE_OPTIONS = [
@@ -1517,22 +1538,44 @@
         { value: "6mo", label: "6mo", days: 180 }
       ];
 
+      function loadVisibleEntityColumns() {
+        const stored = localStorage.getItem(COLUMN_PREFS_KEY);
+        if (!stored) return [...DEFAULT_ENTITY_COLUMNS];
+
+        try {
+          const columns = JSON.parse(stored);
+          if (!Array.isArray(columns)) {
+            localStorage.setItem(COLUMN_PREFS_KEY, JSON.stringify(DEFAULT_ENTITY_COLUMNS));
+            return [...DEFAULT_ENTITY_COLUMNS];
+          }
+          if (columns.some((key) => !DEFAULT_ENTITY_COLUMNS.includes(key))) {
+            localStorage.setItem(COLUMN_PREFS_KEY, JSON.stringify(DEFAULT_ENTITY_COLUMNS));
+            return [...DEFAULT_ENTITY_COLUMNS];
+          }
+          return columns;
+        } catch {
+          localStorage.setItem(COLUMN_PREFS_KEY, JSON.stringify(DEFAULT_ENTITY_COLUMNS));
+          return [...DEFAULT_ENTITY_COLUMNS];
+        }
+      }
+
       const state = {
         data: window.__DASHBOARD_DATA__ || {
           articles: [],
           sources: [],
           topics: [],
-          locations: [],
+          departmentProfiles: DEFAULT_DEPARTMENT_PROFILES,
           errors: []
         },
         activeAudience: "Multraship",
+        activeDepartment: localStorage.getItem(DEPARTMENT_KEY) || "all",
+        visibleEntityColumns: loadVisibleEntityColumns(),
         bucketVisibility: {},
         selectedEntities: { suppliers: null, clients: null, competitors: null },
         entityDateRange: { suppliers: "30d", clients: "30d", competitors: "30d" },
         entityVisibility: { suppliers: 10, clients: 10, competitors: 10 },
         historyData: null,
         historyLoading: false,
-        viewMode: localStorage.getItem(VIEW_MODE_KEY) || "all",
         activeView: "dashboard",
         openEntityName: null,
         overlayTab: "profile",
@@ -1545,20 +1588,20 @@
         generatedAt: document.getElementById("generatedAt"),
         articleCount: document.getElementById("articleCount"),
         visibleCount: document.getElementById("visibleCount"),
+        departmentFilter: document.getElementById("departmentFilter"),
         sourceFilter: document.getElementById("sourceFilter"),
         topicFilter: document.getElementById("topicFilter"),
-        locationFilter: document.getElementById("locationFilter"),
-        priorityFilter: document.getElementById("priorityFilter"),
+        highPriorityOnly: document.getElementById("highPriorityOnly"),
         entityFilter: document.getElementById("entityFilter"),
-        sortOrder: document.getElementById("sortOrder"),
         searchInput: document.getElementById("searchInput"),
         paywalledOnly: document.getElementById("paywalledOnly"),
+        clearFiltersButton: document.getElementById("clearFiltersButton"),
         refreshButton: document.getElementById("refreshButton"),
         refreshStatus: document.getElementById("refreshStatus"),
         bucketContainer: document.getElementById("bucketContainer"),
         boardSummary: document.getElementById("boardSummary"),
-        viewModeToggle: document.getElementById("viewModeToggle"),
         toggleButtons: Array.from(document.querySelectorAll(".toggle-button")),
+        columnToggleButtons: Array.from(document.querySelectorAll(".column-toggle-button")),
         entitiesNavBtn: document.getElementById("entitiesNavBtn"),
         entityDirectoryView: document.getElementById("entityDirectoryView"),
         entityDirContent: document.getElementById("entityDirContent"),
@@ -1606,11 +1649,87 @@
         });
       }
 
+      function getDepartmentProfiles() {
+        const profiles = state.data.departmentProfiles || DEFAULT_DEPARTMENT_PROFILES;
+        if (profiles.some((profile) => profile.id === "all")) return profiles;
+        return [...DEFAULT_DEPARTMENT_PROFILES, ...profiles];
+      }
+
+      function getActiveDepartmentProfile() {
+        const profiles = getDepartmentProfiles();
+        const profile = profiles.find((item) => item.id === state.activeDepartment);
+        if (profile) return profile;
+        state.activeDepartment = "all";
+        localStorage.setItem(DEPARTMENT_KEY, state.activeDepartment);
+        if (elements.departmentFilter) elements.departmentFilter.value = state.activeDepartment;
+        return profiles.find((item) => item.id === "all") || DEFAULT_DEPARTMENT_PROFILES[0];
+      }
+
+      function populateDepartmentSelect() {
+        const profiles = getDepartmentProfiles();
+        const knownProfile = profiles.some((profile) => profile.id === state.activeDepartment);
+        if (!knownProfile) {
+          state.activeDepartment = "all";
+          localStorage.setItem(DEPARTMENT_KEY, state.activeDepartment);
+        }
+
+        elements.departmentFilter.innerHTML = "";
+        profiles.forEach((profile) => {
+          const option = document.createElement("option");
+          option.value = profile.id;
+          option.textContent = profile.label;
+          elements.departmentFilter.appendChild(option);
+        });
+        elements.departmentFilter.value = state.activeDepartment;
+      }
+
       function createTextElement(tag, text, className) {
         const element = document.createElement(tag);
         if (className) element.className = className;
         element.textContent = text;
         return element;
+      }
+
+      function normalizeSearchText(value) {
+        return String(value || "")
+          .normalize("NFD")
+          .replace(/[\u0300-\u036f]/g, "")
+          .toLowerCase()
+          .replace(/[^a-z0-9]+/g, " ")
+          .replace(/\s+/g, " ")
+          .trim();
+      }
+
+      function getArticleSearchText(article) {
+        const parts = [
+          article.title,
+          article.excerpt,
+          article.source,
+          article.sourceId,
+          ...(article.tags || []),
+          ...(article.businessTags || []),
+          ...(article.priorityReasons || []),
+          ...(article.entities || []).flatMap((entity) => [entity.name, entity.category]),
+          ...(article.locations || []).flatMap((location) => [location.name, location.type])
+        ];
+        return normalizeSearchText(parts.join(" "));
+      }
+
+      function matchesSearchQuery(article, query) {
+        const tokens = normalizeSearchText(query).split(" ").filter(Boolean);
+        if (tokens.length === 0) return true;
+        const haystack = getArticleSearchText(article);
+        return tokens.every((token) => {
+          if (haystack.includes(token)) return true;
+          if (token.endsWith("s") && token.length > 3) return haystack.includes(token.slice(0, -1));
+          return false;
+        });
+      }
+
+      function getArticleOptions(selector) {
+        return Array.from(
+          new Set((state.data.articles || []).flatMap(selector).filter(Boolean))
+        ).sort((a, b) => a.localeCompare(b));
       }
 
       function renderErrors(errors) {
@@ -1654,6 +1773,32 @@
         return categories;
       }
 
+      function normalizeFilterValue(value) {
+        return normalizeSearchText(value);
+      }
+
+      function getProfileSet(profile, key) {
+        return new Set((profile[key] || []).map(normalizeFilterValue).filter(Boolean));
+      }
+
+      function matchesDepartment(article) {
+        const profile = getActiveDepartmentProfile();
+        if (!profile || profile.id === "all") return true;
+
+        const sourceIds = getProfileSet(profile, "sourceIds");
+        const tags = getProfileSet(profile, "tags");
+        const entityCategories = getProfileSet(profile, "entityCategories");
+        if (sourceIds.size === 0 && tags.size === 0 && entityCategories.size === 0) return false;
+
+        if (sourceIds.has(normalizeFilterValue(article.sourceId))) return true;
+
+        const articleTags = [...(article.tags || []), ...(article.businessTags || [])].map(normalizeFilterValue);
+        if (articleTags.some((tag) => tags.has(tag))) return true;
+
+        const categories = getArticleCategories(article).map(normalizeFilterValue);
+        return categories.some((category) => entityCategories.has(category));
+      }
+
       function createBrief(article) {
         const clean = (article.excerpt || "").replace(/\s+/g, " ").trim();
         if (!clean) {
@@ -1665,118 +1810,63 @@
       }
 
       function matchesPriority(article) {
-        const value = elements.priorityFilter.value;
-        const level = getPriorityLevel(article);
-
-        if (value === "all") return true;
-        if (value === "critical") return article.priorityBand === "critical";
-        if (value === "high-up") return level >= PRIORITY_LEVELS.high;
-        if (value === "medium-up") return level >= PRIORITY_LEVELS.medium;
-        if (value === "low") return article.priorityBand === "low";
-        return true;
+        return !elements.highPriorityOnly.checked || getPriorityLevel(article) >= PRIORITY_LEVELS.high;
       }
 
       function matchesFilters(article) {
         const sourceValue = elements.sourceFilter.value;
         const topicValue = elements.topicFilter.value;
-        const locationValue = elements.locationFilter.value;
         const entityValue = elements.entityFilter.value;
-        const searchValue = elements.searchInput.value.trim().toLowerCase();
+        const searchValue = elements.searchInput.value;
         const paywalledOnly = elements.paywalledOnly.checked;
 
         if (!matchesAudience(article)) return false;
+        if (!matchesDepartment(article)) return false;
         if (sourceValue !== "all" && article.source !== sourceValue) return false;
         if (topicValue !== "all" && !(article.tags || []).includes(topicValue)) return false;
-        if (locationValue !== "all") {
-          const hasLocation = (article.locations || []).some((location) => location.name === locationValue);
-          if (!hasLocation) return false;
-        }
         if (entityValue !== "all") {
           const hasEntity = getArticleCategories(article).includes(entityValue);
           if (!hasEntity) return false;
         }
         if (!matchesPriority(article)) return false;
         if (paywalledOnly && !article.paywalled) return false;
-        if (searchValue) {
-          const haystack = [
-            article.title,
-            article.excerpt,
-            ...(article.tags || []),
-            ...(article.businessTags || []),
-            ...(article.priorityReasons || []),
-            ...(article.entities || []).map((entity) => entity.name),
-            ...(article.locations || []).map((location) => location.name)
-          ]
-            .join(" ")
-            .toLowerCase();
-          if (!haystack.includes(searchValue)) return false;
-        }
+        if (!matchesSearchQuery(article, searchValue)) return false;
         return true;
       }
 
       function sortArticles(articles) {
         const sorted = [...articles];
-        const sortOrder = elements.sortOrder.value;
-
-        if (sortOrder === "source") {
-          sorted.sort((a, b) => a.source.localeCompare(b.source) || a.title.localeCompare(b.title));
-          return sorted;
-        }
-
-        if (sortOrder === "oldest" || sortOrder === "newest") {
-          sorted.sort((a, b) => {
-            const left = a.publishedAt ? new Date(a.publishedAt).getTime() : 0;
-            const right = b.publishedAt ? new Date(b.publishedAt).getTime() : 0;
-            return sortOrder === "oldest" ? left - right : right - left;
-          });
-          return sorted;
-        }
-
-        sorted.sort((a, b) => {
-          const bandDiff = (PRIORITY_LEVELS[b.priorityBand] ?? 0) - (PRIORITY_LEVELS[a.priorityBand] ?? 0);
-          if (bandDiff !== 0) return bandDiff;
-          const left = a.publishedAt ? new Date(a.publishedAt).getTime() : 0;
-          const right = b.publishedAt ? new Date(b.publishedAt).getTime() : 0;
-          return right - left;
-        });
+        sorted.sort(compareArticlesNewest);
         return sorted;
       }
 
-      function fallbackBoardBucket(article) {
-        const categories = new Set(getArticleCategories(article));
-        const tags = new Set(article.businessTags || []);
+      function getArticleTime(article) {
+        const time = Date.parse(article.publishedAt || "");
+        return Number.isFinite(time) ? time : null;
+      }
 
-        if (["critical", "high"].includes(article.priorityBand)) return "High Priority";
-        if ((article.locations || []).length) return "Port Watch";
-        if (categories.has("clients")) return "Clients & Projects";
-        if (categories.has("competitors")) return "Competitors & Market";
-        if (
-          ["Incident", "Disruption", "Regulation", "Infrastructure", "Terminal Expansion"].some((tag) =>
-            tags.has(tag)
-          )
-        ) {
-          return "Regulation, Safety & Incidents";
-        }
-        return "Other Relevant";
+      function compareArticlesNewest(a, b) {
+        const left = getArticleTime(a);
+        const right = getArticleTime(b);
+        if (left !== null && right !== null && right !== left) return right - left;
+        if (left !== null && right === null) return -1;
+        if (left === null && right !== null) return 1;
+
+        const priorityDiff = (Number(b.priorityScore) || 0) - (Number(a.priorityScore) || 0);
+        if (priorityDiff !== 0) return priorityDiff;
+
+        return (a.source || "").localeCompare(b.source || "")
+          || (a.title || "").localeCompare(b.title || "")
+          || (a.url || "").localeCompare(b.url || "");
       }
 
       function buildBuckets(articles) {
-        const grouped = new Map(BUCKETS.map((bucket) => [bucket.key, []]));
-
-        articles.forEach((article) => {
-          const bucket = article.boardBucket || fallbackBoardBucket(article);
-          if (!grouped.has(bucket)) grouped.set(bucket, []);
-          grouped.get(bucket).push(article);
-        });
-
-        return BUCKETS.map((bucket) => ({
-          ...bucket,
-          items: grouped.get(bucket.key) || []
-        })).filter((bucket) => bucket.items.length > 0);
+        if (articles.length === 0) return [];
+        return [{ ...BUCKETS[0], items: articles }];
       }
 
       function getBucketLimit(bucketKey) {
-        const defaultLimit = bucketKey === "Other Relevant" ? 3 : 6;
+        const defaultLimit = 12;
         return state.bucketVisibility[`${state.activeAudience}:${bucketKey}`] || defaultLimit;
       }
 
@@ -1792,40 +1882,50 @@
         });
       }
 
+      function getGeneratedTime() {
+        const generatedAt = Date.parse(state.data.generatedAt || "");
+        return Number.isFinite(generatedAt) ? generatedAt : Date.now();
+      }
+
       function isWithinLast24Hours(article) {
-        if (!article.publishedAt) return false;
-        const generatedAt = state.data.generatedAt ? new Date(state.data.generatedAt).getTime() : Date.now();
-        const publishedAt = new Date(article.publishedAt).getTime();
-        return generatedAt - publishedAt <= 24 * 60 * 60 * 1000;
+        const publishedAt = getArticleTime(article);
+        if (publishedAt === null) return false;
+        const age = getGeneratedTime() - publishedAt;
+        return age >= 0 && age <= 24 * 60 * 60 * 1000;
+      }
+
+      function isOperationsOrRegulationArticle(article) {
+        return [...(article.tags || []), ...(article.businessTags || [])]
+          .map(normalizeFilterValue)
+          .some((tag) => OPERATIONS_TAGS.has(tag));
       }
 
       function renderBoardSummary(articles) {
         elements.boardSummary.innerHTML = "";
+        const last24 = articles.filter(isWithinLast24Hours);
 
         const summary = [
           {
-            label: "High priority",
-            value: articles.filter((article) => ["critical", "high"].includes(article.priorityBand)).length,
-            copy: "Critical and high-score items"
+            label: "Filtered new in 24h",
+            value: last24.length,
+            copy: "Current filters, latest day"
           },
           {
-            label: "Core port watch",
-            value: articles.filter((article) =>
-              (article.locations || []).some((location) => location.type !== "region")
+            label: "Filtered high priority",
+            value: last24.filter((article) => ["critical", "high"].includes(article.priorityBand)).length,
+            copy: "High and critical in 24h"
+          },
+          {
+            label: "Filtered operations",
+            value: last24.filter(isOperationsOrRegulationArticle).length,
+            copy: "IMO, regulation, safety or port ops"
+          },
+          {
+            label: "Filtered entity matches",
+            value: last24.filter((article) =>
+              getArticleCategories(article).some((category) => ["suppliers", "clients", "competitors"].includes(category))
             ).length,
-            copy: "Matched Terneuzen, Vlissingen, Ghent, Antwerp, Rotterdam or North Sea Port"
-          },
-          {
-            label: "Client or competitor",
-            value: articles.filter((article) =>
-              getArticleCategories(article).some((category) => category === "clients" || category === "competitors")
-            ).length,
-            copy: "Tracked customer or competitor mention"
-          },
-          {
-            label: "New in 24h",
-            value: articles.filter(isWithinLast24Hours).length,
-            copy: "Fresh items in the latest day"
+            copy: "Tracked suppliers, clients or competitors"
           }
         ];
 
@@ -1975,7 +2075,7 @@
 
           section.append(head, body);
 
-          if (bucket.items.length > 6) {
+          if (bucket.items.length > 12) {
             const footer = document.createElement("div");
             footer.className = "bucket-footer";
             const button = document.createElement("button");
@@ -1983,19 +2083,16 @@
             button.type = "button";
 
             if (visibleLimit < bucket.items.length) {
-              const nextLimit = Math.min(bucket.items.length, visibleLimit + 6);
-              button.textContent =
-                bucket.key === "Other Relevant"
-                  ? `Expand Other Relevant (${nextLimit} visible)`
-                  : `Show more (${nextLimit} visible)`;
+              const nextLimit = Math.min(bucket.items.length, visibleLimit + 12);
+              button.textContent = `Show more (${nextLimit} visible)`;
               button.addEventListener("click", () => {
                 setBucketLimit(bucket.key, nextLimit);
                 render();
               });
             } else {
-              button.textContent = bucket.key === "Other Relevant" ? "Collapse Other Relevant" : "Show less";
+              button.textContent = "Show less";
               button.addEventListener("click", () => {
-                setBucketLimit(bucket.key, bucket.key === "Other Relevant" ? 3 : 6);
+                setBucketLimit(bucket.key, 12);
                 render();
               });
             }
@@ -2012,7 +2109,6 @@
         elements.toggleButtons.forEach((button) => {
           button.classList.toggle("active", button.dataset.audience === state.activeAudience);
         });
-        elements.viewModeToggle.hidden = state.activeAudience === "Novatug";
       }
 
       async function loadHistoryData() {
@@ -2037,7 +2133,7 @@
             ? state.historyData.articles || []
             : state.data.articles || [];
         return source.filter((article) => {
-          if (!matchesAudience(article)) return false;
+          if (!matchesFilters(article)) return false;
           if (!article.publishedAt) return false;
           return new Date(article.publishedAt).getTime() >= cutoffMs;
         });
@@ -2058,19 +2154,12 @@
       }
 
       function getEntityArticles(articles, category, selectedEntity) {
-        return articles
+        return sortArticles(articles
           .filter((article) =>
             (article.entities || []).some(
               (e) => e.category === category && (selectedEntity === null || e.name === selectedEntity)
             )
-          )
-          .sort((a, b) => {
-            const bandDiff = (PRIORITY_LEVELS[b.priorityBand] ?? 0) - (PRIORITY_LEVELS[a.priorityBand] ?? 0);
-            if (bandDiff !== 0) return bandDiff;
-            const left = a.publishedAt ? new Date(a.publishedAt).getTime() : 0;
-            const right = b.publishedAt ? new Date(b.publishedAt).getTime() : 0;
-            return right - left;
-          });
+          ));
       }
 
       function renderEntitySection(container, catConfig) {
@@ -2189,19 +2278,16 @@
         if (!container) return;
         container.innerHTML = "";
         if (state.activeAudience === "Novatug") return;
-        const visible = {
-          all: ["suppliers", "clients", "competitors"],
-          procurement: ["suppliers"],
-          management: ["clients", "competitors"]
-        }[state.viewMode] || ["suppliers", "clients", "competitors"];
+        const visible = new Set(state.visibleEntityColumns);
         ENTITY_CATEGORY_CONFIG
-          .filter((c) => visible.includes(c.key))
+          .filter((c) => visible.has(c.key))
           .forEach((catConfig) => renderEntitySection(container, catConfig));
       }
 
-      function syncViewModeButtons() {
-        document.querySelectorAll(".view-mode-btn").forEach((btn) => {
-          btn.classList.toggle("active", btn.dataset.view === state.viewMode);
+      function syncColumnToggleButtons() {
+        const visible = new Set(state.visibleEntityColumns);
+        elements.columnToggleButtons.forEach((btn) => {
+          btn.classList.toggle("active", visible.has(btn.dataset.column));
         });
       }
 
@@ -2218,20 +2304,18 @@
       function syncDataToUi() {
         const currentSource = elements.sourceFilter.value;
         const currentTopic = elements.topicFilter.value;
-        const currentLocation = elements.locationFilter.value;
+        const sources = getArticleOptions((article) => [article.source]);
+        const topics = getArticleOptions((article) => article.tags || []);
 
-        populateSelect(elements.sourceFilter, state.data.sources || [], "All sources");
-        populateSelect(elements.topicFilter, state.data.topics || [], "All topics");
-        populateSelect(elements.locationFilter, state.data.locations || [], "All watched locations");
+        populateDepartmentSelect();
+        populateSelect(elements.sourceFilter, sources, "All sources");
+        populateSelect(elements.topicFilter, topics, "All topics");
 
-        if ((state.data.sources || []).includes(currentSource)) {
+        if (sources.includes(currentSource)) {
           elements.sourceFilter.value = currentSource;
         }
-        if ((state.data.topics || []).includes(currentTopic)) {
+        if (topics.includes(currentTopic)) {
           elements.topicFilter.value = currentTopic;
-        }
-        if ((state.data.locations || []).includes(currentLocation)) {
-          elements.locationFilter.value = currentLocation;
         }
 
         elements.generatedAt.textContent = formatGenerated(state.data.generatedAt);
@@ -2277,6 +2361,32 @@
       }
 
       // ── Entity directory & overlay ──────────────────────────────────────────
+
+      function clearFilters() {
+        state.activeDepartment = "all";
+        localStorage.setItem(DEPARTMENT_KEY, state.activeDepartment);
+        elements.departmentFilter.value = state.activeDepartment;
+        elements.searchInput.value = "";
+        elements.sourceFilter.value = "all";
+        elements.topicFilter.value = "all";
+        elements.entityFilter.value = "all";
+        elements.highPriorityOnly.checked = false;
+        elements.paywalledOnly.checked = false;
+        render();
+      }
+
+      function toggleEntityColumn(column) {
+        if (!DEFAULT_ENTITY_COLUMNS.includes(column)) {
+          state.visibleEntityColumns = [...DEFAULT_ENTITY_COLUMNS];
+        } else if (state.visibleEntityColumns.includes(column)) {
+          state.visibleEntityColumns = state.visibleEntityColumns.filter((item) => item !== column);
+        } else {
+          state.visibleEntityColumns = [...state.visibleEntityColumns, column];
+        }
+        localStorage.setItem(COLUMN_PREFS_KEY, JSON.stringify(state.visibleEntityColumns));
+        syncColumnToggleButtons();
+        renderEntitySections();
+      }
 
       function getDirArticles() {
         return (state.historyData && state.historyData.articles) || state.data.articles || [];
@@ -2599,17 +2709,26 @@
           setRefreshStatus("File mode: refresh button needs local_server.py");
         }
 
+        const bindFilterControl = (element) => {
+          element.addEventListener("input", render);
+          element.addEventListener("change", render);
+        };
+
         [
           elements.sourceFilter,
           elements.topicFilter,
-          elements.locationFilter,
-          elements.priorityFilter,
+          elements.highPriorityOnly,
           elements.entityFilter,
-          elements.sortOrder,
           elements.searchInput,
           elements.paywalledOnly
-        ].forEach((element) => element.addEventListener("input", render));
+        ].forEach(bindFilterControl);
 
+        elements.departmentFilter.addEventListener("change", () => {
+          state.activeDepartment = elements.departmentFilter.value || "all";
+          localStorage.setItem(DEPARTMENT_KEY, state.activeDepartment);
+          render();
+        });
+        elements.clearFiltersButton.addEventListener("click", clearFilters);
         elements.refreshButton.addEventListener("click", refreshFeeds);
 
         elements.entitiesNavBtn.addEventListener("click", () => {
@@ -2626,15 +2745,12 @@
           });
         });
 
-        document.querySelectorAll(".view-mode-btn").forEach((btn) => {
+        elements.columnToggleButtons.forEach((btn) => {
           btn.addEventListener("click", () => {
-            state.viewMode = btn.dataset.view;
-            localStorage.setItem(VIEW_MODE_KEY, state.viewMode);
-            syncViewModeButtons();
-            renderEntitySections();
+            toggleEntityColumn(btn.dataset.column);
           });
         });
-        syncViewModeButtons();
+        syncColumnToggleButtons();
 
         render();
       }

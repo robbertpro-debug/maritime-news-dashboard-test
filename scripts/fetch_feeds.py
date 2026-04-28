@@ -593,6 +593,7 @@ def build_output(articles: List[Dict], config: Dict, errors: List[Dict], generat
         "locations": locations,
         "errors": errors,
         "articles": clean_articles,
+        "departmentProfiles": config.get("department_profiles", []),
         "entityProfiles": config.get("entity_profiles", {}),
         "entityCategories": {
             name: category
