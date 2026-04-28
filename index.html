@@ -549,7 +549,7 @@
       .buckets {
         display: grid;
         gap: 16px;
-        grid-template-columns: repeat(3, minmax(0, 1fr));
+        grid-template-columns: repeat(2, minmax(0, 1fr));
       }
 
       .bucket {
@@ -587,12 +587,12 @@
         background: linear-gradient(180deg, #f1f7fb 0%, #e3eef6 100%);
       }
 
-      .bucket[data-bucket="All News"] {
-        grid-column: 1 / -1;
+      .bucket[data-bucket="Maritime News Sites"] .bucket-head {
+        background: linear-gradient(180deg, #edf6fd 0%, #dcecf8 100%);
       }
 
-      .bucket[data-bucket="All News"] .bucket-head {
-        background: linear-gradient(180deg, #edf6fd 0%, #dcecf8 100%);
+      .bucket[data-bucket="Local & Regional News"] .bucket-head {
+        background: linear-gradient(180deg, #fffbe0 0%, #fff4a8 100%);
       }
 
       .bucket-title {
@@ -1623,11 +1623,47 @@
       const GENERIC_TOPIC_TAGS = new Set(["Maritime", "News", "Industry", "Markets"]);
       const BUCKETS = [
         {
-          key: "All News",
-          title: "All News",
-          subtitle: "Complete filtered stream, including items also shown in the entity panels."
+          key: "Maritime News Sites",
+          title: "Maritime News Sites",
+          subtitle: "Global maritime and industry RSS stream."
+        },
+        {
+          key: "Local & Regional News",
+          title: "Local & Regional News",
+          subtitle: "North Sea Port, Antwerp, Rotterdam, Terneuzen and Vlissingen area sources."
         }
       ];
+      const LOCAL_NEWS_SOURCE_IDS = new Set([
+        "hvzeeland",
+        "made-in",
+        "north-sea-port-news",
+        "omroep-zeeland-news",
+        "port-antwerp-bruges-press",
+        "port-rotterdam-news",
+        "pzc",
+        "rijnmond",
+        "rotterdammerdagblad-regionaal",
+        "rws-zeeland-maintenance",
+        "terneuzen-notices",
+        "zeeland-connect-news"
+      ]);
+      const LOCAL_NEWS_TAGS = new Set([
+        "antwerp",
+        "local news",
+        "north sea port",
+        "rijnmond",
+        "rotterdam"
+      ]);
+      const LOCAL_NEWS_LOCATIONS = new Set([
+        "antwerp",
+        "north sea port",
+        "rotterdam",
+        "scheldt",
+        "sluiskil",
+        "terneuzen",
+        "vlissingen",
+        "westerschelde"
+      ]);
       const OPERATIONS_TAGS = new Set([
         "government",
         "imo",
@@ -1979,9 +2015,32 @@
           || (a.url || "").localeCompare(b.url || "");
       }
 
+      function isLocalRegionalArticle(article) {
+        if (LOCAL_NEWS_SOURCE_IDS.has(normalizeFilterValue(article.sourceId))) return true;
+
+        const tags = [...(article.tags || []), ...(article.businessTags || [])].map(normalizeFilterValue);
+        if (tags.some((tag) => LOCAL_NEWS_TAGS.has(tag))) return true;
+
+        return (article.locations || [])
+          .map((location) => normalizeFilterValue(location.name))
+          .some((location) => LOCAL_NEWS_LOCATIONS.has(location));
+      }
+
       function buildBuckets(articles) {
         if (articles.length === 0) return [];
-        return [{ ...BUCKETS[0], items: articles }];
+        const localArticles = [];
+        const maritimeArticles = [];
+        articles.forEach((article) => {
+          if (isLocalRegionalArticle(article)) {
+            localArticles.push(article);
+          } else {
+            maritimeArticles.push(article);
+          }
+        });
+        return [
+          { ...BUCKETS[0], items: maritimeArticles },
+          { ...BUCKETS[1], items: localArticles }
+        ];
       }
 
       function getBucketLimit(bucketKey) {
@@ -2190,7 +2249,11 @@
           const body = document.createElement("div");
           body.className = "bucket-body";
           const visibleLimit = getBucketLimit(bucket.key);
-          bucket.items.slice(0, visibleLimit).forEach((article) => body.appendChild(createArticleRow(article)));
+          if (bucket.items.length === 0) {
+            body.appendChild(createTextElement("div", "No articles match this stream.", "empty-state"));
+          } else {
+            bucket.items.slice(0, visibleLimit).forEach((article) => body.appendChild(createArticleRow(article)));
+          }
 
           section.append(head, body);
 
