@@ -1,7 +1,7 @@
 window.__DASHBOARD_DATA__ = {
-  "generatedAt": "2026-04-28T20:47:22.856450Z",
+  "generatedAt": "2026-04-28T21:54:55.572876Z",
   "lookbackDays": 30,
-  "cutoffAt": "2026-03-29T20:47:22.856450Z",
+  "cutoffAt": "2026-03-29T21:54:55.572876Z",
   "articleCount": 180,
   "sourceCount": 119,
   "sources": [
@@ -11,10 +11,12 @@ window.__DASHBOARD_DATA__ = {
     "DEME Group News",
     "DFDS News",
     "Damen Shipyards News",
+    "Hellenic Shipping News",
     "IMO Meeting Summaries",
     "IMO Press Briefings",
     "Kongsberg Maritime News",
     "Logistiek.nl: News",
+    "Made in",
     "Maersk Tankers News",
     "MarineLink",
     "Muller Dordrecht Web Watch",
@@ -34,7 +36,6 @@ window.__DASHBOARD_DATA__ = {
     "TenderNed Maritime Tenders",
     "The Maritime Executive",
     "Ultrabulk News",
-    "Van Oord News",
     "Vlissingse Bootlieden Web Watch",
     "W\u00e4rtsil\u00e4 News",
     "Zeeland Connect News",
@@ -44,6 +45,7 @@ window.__DASHBOARD_DATA__ = {
     "Antwerp",
     "Batteries",
     "Bulk",
+    "Business",
     "Clean Propulsion",
     "Competitor",
     "Compliance",
@@ -64,6 +66,7 @@ window.__DASHBOARD_DATA__ = {
     "Logistics",
     "Marine-Construction",
     "Maritime",
+    "Markets",
     "Netherlands",
     "News",
     "North-Sea-Port",
@@ -396,41 +399,6 @@ window.__DASHBOARD_DATA__ = {
       "priorityReasons": [
         "Core port watch: North Sea Port",
         "Core port watch: Ghent"
-      ],
-      "boardBucket": "High Priority"
-    },
-    {
-      "id": "54ffe8ef3a99d71e",
-      "title": "Damen and UK Dredging sign contract for advanced TSHD - DredgeWire",
-      "source": "Damen Shipyards News",
-      "sourceId": "google-damen",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQRGpTcmlybFQ1amE3cDRvWWhMUmQyTVZfUmxLZXRFMXJmZGp4OVJhVFMxMkhjMkgzbmthdXYybGxlU0daMEFra0RncE83WklObEJRNzBDaHZBZ05vY3hKUEJJX0NBWHctaGVZVy1WZG9ab2xKVmIxQU5LVU4yYWd4blRLRQ?oc=5",
-      "publishedAt": "2026-04-28T00:17:18Z",
-      "excerpt": "Damen and UK Dredging sign contract for advanced TSHD DredgeWire",
-      "tags": [
-        "Shipbuilding",
-        "Supplier"
-      ],
-      "audience": "Multraship",
-      "paywalled": false,
-      "entities": [
-        {
-          "name": "Damen Shipyards Group",
-          "category": "suppliers"
-        }
-      ],
-      "locations": [],
-      "businessTags": [
-        "Supplier",
-        "Infrastructure",
-        "Commercial"
-      ],
-      "priorityScore": 10,
-      "priorityBand": "high",
-      "priorityReasons": [
-        "Supplier mention: Damen Shipyards Group",
-        "Signal: Infrastructure",
-        "Signal: Commercial"
       ],
       "boardBucket": "High Priority"
     },
@@ -968,6 +936,38 @@ window.__DASHBOARD_DATA__ = {
       "boardBucket": "Regulation, Safety & Incidents"
     },
     {
+      "id": "669c13b4e53c9e10",
+      "title": "Sarens\u2019 ACBT role highlights Canada\u2019s offshore wind potential - Heavy Lift & Project Forwarding International",
+      "source": "Sarens News",
+      "sourceId": "google-sarens",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPQXkzblFpaVJIOW9ERVZLTXZkLTc1Sy1jcjBRTzhRVzdENElFVHdId3JvbEJFZm9XVUV5X0V1ZTRGbFkwYUNXalpkaEk5SlJ5MUswaWJ3ZVlvQlRqNlRwWFFpeWtVUV93SWlETkpSc1BBZWlZcGhQbHN1bm95YVZ1aXJqaFlORTZ1Z2tPdTlERkYxb0dzYmZaU0RCU1g3SGFIZVVwUUJuLTYzaDA2Qmc?oc=5",
+      "publishedAt": "2026-04-23T10:32:59Z",
+      "excerpt": "Sarens\u2019 ACBT role highlights Canada\u2019s offshore wind potential Heavy Lift & Project Forwarding International",
+      "tags": [
+        "Heavy-Lift"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [
+        {
+          "name": "Sarens",
+          "category": "clients"
+        }
+      ],
+      "locations": [],
+      "businessTags": [
+        "Client",
+        "Commercial"
+      ],
+      "priorityScore": 8,
+      "priorityBand": "medium",
+      "priorityReasons": [
+        "Client mention: Sarens",
+        "Signal: Commercial"
+      ],
+      "boardBucket": "Clients & Projects"
+    },
+    {
       "id": "7287d0d2b602edcf",
       "title": "Drax extends Ultrabulk wood pellet shipping contract through 2031 - lesprom.com",
       "source": "Ultrabulk News",
@@ -1165,6 +1165,39 @@ window.__DASHBOARD_DATA__ = {
         "Supplier mention: DNV",
         "Signal: Operations",
         "Signal: Energy Transition"
+      ],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "6b42949ec3379f0c",
+      "title": "Damen Shipyards and ABP Sign Contract for New Trailing Suction Grab Hopper Dredge - imarinenews.com",
+      "source": "Damen Shipyards News",
+      "sourceId": "google-damen",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9VNkR2elB6UzNQZVFTOUp2NFFtRkRMM2duX1dndXB4eF9SNEF1aC1iMjhvaGVmdGY2RnVSaWdibmJraE1YM1ZTZFBKaHpTems?oc=5",
+      "publishedAt": "2026-04-27T01:31:51Z",
+      "excerpt": "Damen Shipyards and ABP Sign Contract for New Trailing Suction Grab Hopper Dredge imarinenews.com",
+      "tags": [
+        "Shipbuilding",
+        "Supplier"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [
+        {
+          "name": "Damen Shipyards Group",
+          "category": "suppliers"
+        }
+      ],
+      "locations": [],
+      "businessTags": [
+        "Supplier",
+        "Commercial"
+      ],
+      "priorityScore": 7,
+      "priorityBand": "medium",
+      "priorityReasons": [
+        "Supplier mention: Damen Shipyards Group",
+        "Signal: Commercial"
       ],
       "boardBucket": "Other Relevant"
     },
@@ -1385,37 +1418,6 @@ window.__DASHBOARD_DATA__ = {
         "Signal: Energy Transition"
       ],
       "boardBucket": "Other Relevant"
-    },
-    {
-      "id": "ff78c16063d223fe",
-      "title": "Tadej Pogacar verslagen in ultrakorte proloog Ronde van Romandi\u00eb, Fransman pakt eerste leiderstrui",
-      "source": "PZC",
-      "sourceId": "pzc",
-      "url": "https://www.pzc.nl/wielrennen/tadej-pogacar-verslagen-in-ultrakorte-proloog-ronde-van-romandie-fransman-pakt-eerste-leiderstrui~a071fce1",
-      "publishedAt": "2026-04-28T15:24:00Z",
-      "excerpt": "Dorian Godon heeft de proloog in de Ronde van Romandi\u00eb gewonnen. De Fransman van INEOS Grenadiers werkte het parkoers van slechts 3,2 kilometer het snelst af en is daardoor ook de eerste leider in de zesdaagse World Tour-rittenkoers. Tadej\u2026",
-      "tags": [
-        "Zeeland",
-        "Local-News"
-      ],
-      "audience": "Multraship",
-      "paywalled": false,
-      "entities": [
-        {
-          "name": "INEOS",
-          "category": "clients"
-        }
-      ],
-      "locations": [],
-      "businessTags": [
-        "Client"
-      ],
-      "priorityScore": 6,
-      "priorityBand": "medium",
-      "priorityReasons": [
-        "Client mention: INEOS"
-      ],
-      "boardBucket": "Clients & Projects"
     },
     {
       "id": "1f87367218034689",
@@ -2170,40 +2172,6 @@ window.__DASHBOARD_DATA__ = {
       "boardBucket": "Clients & Projects"
     },
     {
-      "id": "c3309570b197c81f",
-      "title": "W\u00e4rtsil\u00e4 Gas Solutions Cargo Handling and Fuel Gas Supply systems selected for two new midsize liquid ammonia carriers for Navigator Gas and Amon Maritime JV - W\u00e4rtsil\u00e4",
-      "source": "W\u00e4rtsil\u00e4 News",
-      "sourceId": "google-wartsila",
-      "url": "https://news.google.com/rss/articles/CBMitwJBVV95cUxNTFN5QXp0M0tSQ3NsNkVmOWZoWDVMYzhjZ1pTT0hzeFc1UlZBSDItaXRubWc0N2F2LVBxekNBUXE5OUcwWjktaGdoQy14akVidUNIR0luLXJQdURsQnJvMC1ReGlJazdGQXZrcWxLaGdMVE8zR3JJYXJqMDlXWnlOS2poRHppcXpQTGpXYVRKN3RrSXFTaGtlM1E2SHZiWUR3cGpzWDBzc0lRRmlLUTh2Nk0xUDdlZF82THdOeUJNZGRtQ0htaklPQlBaRjYzMEozTklNX095VWFxbWVKYVBhMUJMNWJ3N2Nab1o4UTVjdkZYbC0tSUlSOGIxNFNra09UNkRhVEx3R0g4QkZ1UjlSX1dDeHpCaEtXOFNjclc2aW1LeDhEUHdkSGljcHhRRGxpclozWTB0UQ?oc=5",
-      "publishedAt": "2026-04-22T09:00:00Z",
-      "excerpt": "W\u00e4rtsil\u00e4 Gas Solutions Cargo Handling and Fuel Gas Supply systems selected for two new midsize liquid ammonia carriers for Navigator Gas and Amon Maritime JV W\u00e4rtsil\u00e4",
-      "tags": [
-        "Clean Propulsion",
-        "Propulsion",
-        "Technology"
-      ],
-      "audience": "Both",
-      "paywalled": false,
-      "entities": [
-        {
-          "name": "W\u00e4rtsil\u00e4",
-          "category": "suppliers"
-        }
-      ],
-      "locations": [],
-      "businessTags": [
-        "Supplier",
-        "Energy Transition"
-      ],
-      "priorityScore": 6,
-      "priorityBand": "medium",
-      "priorityReasons": [
-        "Supplier mention: W\u00e4rtsil\u00e4",
-        "Signal: Energy Transition"
-      ],
-      "boardBucket": "Other Relevant"
-    },
-    {
       "id": "b36b265993654bf9",
       "title": "Ultrabulk handymax makes first transatlantic biomass delivery - Seatrade Maritime News",
       "source": "Ultrabulk News",
@@ -2294,37 +2262,6 @@ window.__DASHBOARD_DATA__ = {
       "boardBucket": "Regulation, Safety & Incidents"
     },
     {
-      "id": "aa3428c26ff33669",
-      "title": "Van Oord Installs Monopiles with VibroJet in the North Sea - Inspenet",
-      "source": "Van Oord News",
-      "sourceId": "google-van-oord",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPaldvd3BidEJkcmV1dnZzeXNkckZKNm1kWEtyOHRWTjVfdDFsYUpQZEI5Zl9iQkZLbHByOXk0dnhLcjdJWEpMekZoa3REMDNETzFSMTAwcV9jNXBGNzg3b0IyYTVZbUY3VGgwMUNHdk83SVBGbXlKYldsRmxlcUFFT0lva0k?oc=5",
-      "publishedAt": "2026-04-17T13:42:00Z",
-      "excerpt": "Van Oord Installs Monopiles with VibroJet in the North Sea Inspenet",
-      "tags": [
-        "Offshore",
-        "Dredging"
-      ],
-      "audience": "Multraship",
-      "paywalled": false,
-      "entities": [
-        {
-          "name": "Van Oord",
-          "category": "clients"
-        }
-      ],
-      "locations": [],
-      "businessTags": [
-        "Client"
-      ],
-      "priorityScore": 6,
-      "priorityBand": "medium",
-      "priorityReasons": [
-        "Client mention: Van Oord"
-      ],
-      "boardBucket": "Clients & Projects"
-    },
-    {
       "id": "a9459a32367578d6",
       "title": "DEME Share buyback program (update April 13, 2026) - DredgeWire",
       "source": "DEME Group News",
@@ -2361,7 +2298,7 @@ window.__DASHBOARD_DATA__ = {
       "source": "Svitzer News",
       "sourceId": "google-svitzer",
       "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQOUZVdERnNGpiUWg2QWk2RVFTZlZ1Rkw3LTdOZU5EdVQ1cnhjNHR6NkJJa3U3V1hrUnpmcTl4MGs5RTFxX2RyblVDb2pOakdNUW9CdURZMEplRjl3OUMtR0U1VzlwOEVfc2NaUHlJRkxjbHNuNm9zLXNyRHpGOTV1bDFlZXBEMFUzSWo1eXl6c3hoT01TX0RzQVMtTmRjNDZpY3hPUTNn?oc=5",
-      "publishedAt": "2026-04-15T07:00:00Z",
+      "publishedAt": "2026-04-15T17:58:27Z",
       "excerpt": "Svitzer\u2019s first three TRAnsverse tugs near 3,000 commercial tug job total Marine Log",
       "tags": [
         "Towage",
@@ -2770,6 +2707,37 @@ window.__DASHBOARD_DATA__ = {
       "boardBucket": "Clients & Projects"
     },
     {
+      "id": "be984fc284c2c01b",
+      "title": "DEME announces start of new share buyback program - GlobeNewswire",
+      "source": "DEME Group News",
+      "sourceId": "google-deme",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPNVNsUG9Lb1ZSTDRKNGo3dlZfX2pJY0cxd3c5eGd6cFRMOVdNOVRYSkw2RVZ3T291Wm9yRzMwN2pHMjFlSEc0Nmo4Y2RHVkJYWEVkSW9EWHNFUWZfcDIyUExadmtUVEs2Ni1UelBoWTJlUmxrcm5WWFF6eE9HXzhPRTVjdzRnbUJEZ2w3SDFZeUNnVXZLRWJrMWFyMFlVVk1mYkltU09VRHVrdVNHZDdteklYNUJRRWhxMmhGMTZ3?oc=5",
+      "publishedAt": "2026-03-31T07:00:00Z",
+      "excerpt": "DEME announces start of new share buyback program GlobeNewswire",
+      "tags": [
+        "Offshore",
+        "Marine-Construction"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [
+        {
+          "name": "DEME Group",
+          "category": "clients"
+        }
+      ],
+      "locations": [],
+      "businessTags": [
+        "Client"
+      ],
+      "priorityScore": 6,
+      "priorityBand": "medium",
+      "priorityReasons": [
+        "Client mention: DEME Group"
+      ],
+      "boardBucket": "Clients & Projects"
+    },
+    {
       "id": "dea1ab6a95fd740d",
       "title": "DFDS expands capacity on Rosslare-Dunkirk route with third vessel - Shippax",
       "source": "DFDS News",
@@ -2892,6 +2860,36 @@ window.__DASHBOARD_DATA__ = {
         "Competitor mention: Svitzer"
       ],
       "boardBucket": "Competitors & Market"
+    },
+    {
+      "id": "3aafd1f19a0b6cbb",
+      "title": "Global Biofuels Alliance targets SAF corridors, advances methanol for marine sector",
+      "source": "Hellenic Shipping News",
+      "sourceId": "hellenic-shipping-news",
+      "url": "https://www.hellenicshippingnews.com/global-biofuels-alliance-targets-saf-corridors-advances-methanol-for-marine-sector",
+      "publishedAt": "2026-04-28T21:00:57Z",
+      "excerpt": "The Global Biofuels Alliance is in active negotiations with the governments across the world to establish a sustainable aviation fuel corridor linking global airports, a framework designed to drive SAF policy harmonization and standardizat\u2026",
+      "tags": [
+        "Regulation",
+        "Clean Propulsion",
+        "Shipping",
+        "Markets"
+      ],
+      "audience": "Novatug",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [
+        "Regulation",
+        "Energy Transition"
+      ],
+      "priorityScore": 5,
+      "priorityBand": "medium",
+      "priorityReasons": [
+        "Signal: Regulation",
+        "Signal: Energy Transition"
+      ],
+      "boardBucket": "Regulation, Safety & Incidents"
     },
     {
       "id": "10064baecddbb119",
@@ -3244,33 +3242,6 @@ window.__DASHBOARD_DATA__ = {
       "boardBucket": "Regulation, Safety & Incidents"
     },
     {
-      "id": "50cac5d8dbf5fd93",
-      "title": "IMO Chief Warns \u2018No Safe Transit\u2019 in Hormuz, Rejects Tolls at U.N. Security Council",
-      "source": "gCaptain",
-      "sourceId": "gcaptain",
-      "url": "https://gcaptain.com/imo-chief-warns-no-safe-transit-in-hormuz-rejects-tolls-at-u-n-security-council",
-      "publishedAt": "2026-04-27T17:42:20Z",
-      "excerpt": "The head of the International Maritime Organization used a rare appearance before the United Nations Security Councilon Monday to deliver some of his strongest statements yet that the crisis in the Strait of...",
-      "tags": [
-        "Regulation",
-        "Maritime",
-        "Operations"
-      ],
-      "audience": "Multraship",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [
-        "Regulation"
-      ],
-      "priorityScore": 5,
-      "priorityBand": "medium",
-      "priorityReasons": [
-        "Signal: Regulation"
-      ],
-      "boardBucket": "Regulation, Safety & Incidents"
-    },
-    {
       "id": "6923fed67d2b7ed9",
       "title": "Slight decline throughput Port of Rotterdam",
       "source": "SWZ Maritime",
@@ -3336,7 +3307,7 @@ window.__DASHBOARD_DATA__ = {
       "source": "Boskalis News",
       "sourceId": "google-boskalis",
       "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNcDhuTzNWNTFaQ0QxUDBTTWFFQ2J1c1JjeXFpa3dndGV2RHRrT2pHcERTRHdRdW5nUGxMU2E4VXExN2dMaDNqTmpWM2lGMlpBdGhvT3k5VXdTX1Njd0hNQk5JX0NIeGpTY3N1NkYteFZfV2xzMXlnTk5DbWJ0Z0hha2pBV2JCYWsyN1FsQlZJaVh0aVdYM1dFdTZtcDBTbnRyZ0E?oc=5",
-      "publishedAt": "2026-04-27T02:53:01Z",
+      "publishedAt": "2026-04-27T02:54:07Z",
       "excerpt": "'We live up here to escape': Residents unhappy with sand dredging proposal Australian Broadcasting Corporation",
       "tags": [
         "Dredging",
@@ -3710,6 +3681,32 @@ window.__DASHBOARD_DATA__ = {
       "priorityBand": "medium",
       "priorityReasons": [
         "Supplier mention: DNV",
+        "Signal: Commercial"
+      ],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "14f347c341901ce1",
+      "title": "Kempense Luus Tormans wint Womed Award \u2018Belofte van het Jaar\u2019",
+      "source": "Made in",
+      "sourceId": "made-in",
+      "url": "https://www.made-in.be/kempen/kempense-luus-tormans-wint-womed-award-belofte-van-het-jaar",
+      "publishedAt": "2026-04-28T21:54:55.572876Z",
+      "excerpt": "Tracked page link found on source page.",
+      "tags": [
+        "Business",
+        "Local-News"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [
+        "Commercial"
+      ],
+      "priorityScore": 4,
+      "priorityBand": "medium",
+      "priorityReasons": [
         "Signal: Commercial"
       ],
       "boardBucket": "Other Relevant"
@@ -4535,38 +4532,6 @@ window.__DASHBOARD_DATA__ = {
       "priorityBand": "medium",
       "priorityReasons": [
         "Supplier mention: Kongsberg Maritime"
-      ],
-      "boardBucket": "Other Relevant"
-    },
-    {
-      "id": "3fd06fa83ba41908",
-      "title": "W\u00e4rtsil\u00e4\u2019s strength in fishing vessel sector enhanced with propulsion orders for four new vessels - W\u00e4rtsil\u00e4",
-      "source": "W\u00e4rtsil\u00e4 News",
-      "sourceId": "google-wartsila",
-      "url": "https://news.google.com/rss/articles/CBMixAJBVV95cUxObkYzLVBPZzczVlR5bW5qWXVjRXJxbmJheUt1YnU5bVVpS2xUUlJuZkgxRTlZTW9CLXRhc1dHa0wyMjYxVHdsNGh6WlhXWXVkVUh6bU9BU29OamlKMkVNQkNnOVlqTmN6U3A3cnRJTjdqUl93aElVN2NRVzZkMVVIVFZVOWlycktKYlhIdGpmbGxzLTRfanMtSHRvdW94R3lVQ3lCTzRVVUZBMzdlN0hIV0gtUlExQW1GdE5RTFB1RTU5eElwbU80cDNnZ0NGRU5fWGFJajdnSWJDRGRXX0MzVXdzMDg0S2h2WVBxa0VGQzJpcEJ5bEQ2UUtZV25FRU5ONmZqelh5bGJHYnFuVHZxOFlPUXd4VXJiclQ1TzFDbW1CajJ5TjR3aDhGSWhEVGNuSDI5c3gyWFdWaXM1SmpWb213LTY?oc=5",
-      "publishedAt": "2026-04-23T18:00:42Z",
-      "excerpt": "W\u00e4rtsil\u00e4\u2019s strength in fishing vessel sector enhanced with propulsion orders for four new vessels W\u00e4rtsil\u00e4",
-      "tags": [
-        "Clean Propulsion",
-        "Propulsion",
-        "Technology"
-      ],
-      "audience": "Both",
-      "paywalled": false,
-      "entities": [
-        {
-          "name": "W\u00e4rtsil\u00e4",
-          "category": "suppliers"
-        }
-      ],
-      "locations": [],
-      "businessTags": [
-        "Supplier"
-      ],
-      "priorityScore": 4,
-      "priorityBand": "medium",
-      "priorityReasons": [
-        "Supplier mention: W\u00e4rtsil\u00e4"
       ],
       "boardBucket": "Other Relevant"
     },
@@ -5580,6 +5545,37 @@ window.__DASHBOARD_DATA__ = {
       "priorityBand": "low",
       "priorityReasons": [
         "Signal: Commercial"
+      ],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "dfd4b963f15f05d9",
+      "title": "W\u00e4rtsil\u00e4 launches digital-ready maritime simulator",
+      "source": "SWZ Maritime",
+      "sourceId": "swz-maritime",
+      "url": "https://swzmaritime.nl/news/2026/04/23/wartsila-launches-digital-ready-maritime-simulator",
+      "publishedAt": "2026-04-23T08:10:25Z",
+      "excerpt": "W\u00e4rtsil\u00e4 has launched NTPRO 7, a next generation bridge and ship handling simulator designed to support future ready maritime training. The new platform responds to the industry\u2019s rapid shift to [\u2026]",
+      "tags": [
+        "Maritime",
+        "Netherlands"
+      ],
+      "audience": "Novatug",
+      "paywalled": false,
+      "entities": [
+        {
+          "name": "W\u00e4rtsil\u00e4",
+          "category": "suppliers"
+        }
+      ],
+      "locations": [],
+      "businessTags": [
+        "Supplier"
+      ],
+      "priorityScore": 3,
+      "priorityBand": "low",
+      "priorityReasons": [
+        "Supplier mention: W\u00e4rtsil\u00e4"
       ],
       "boardBucket": "Other Relevant"
     }
