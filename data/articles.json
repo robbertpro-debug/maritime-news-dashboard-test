@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-04-28T15:03:48.151579Z",
+  "generatedAt": "2026-04-28T15:25:54.742896Z",
   "lookbackDays": 30,
-  "cutoffAt": "2026-03-29T15:03:48.151579Z",
+  "cutoffAt": "2026-03-29T15:25:54.742896Z",
   "articleCount": 180,
-  "sourceCount": 120,
+  "sourceCount": 119,
   "sources": [
     "Baird Maritime",
     "Boluda News",
@@ -468,12 +468,12 @@
     },
     {
       "id": "1f55eef44b12ce52",
-      "title": "DFDS makes changes \"to support travel arrangements over the Easter weekend\" following fast ferry incident - Jersey Evening Post",
+      "title": "DFDS makes changes \"to support travel arrangements over the Easter weekend\" following fast ferry incident - jerseyeveningpost.com",
       "source": "DFDS News",
       "sourceId": "google-dfds",
       "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPbVVEc1NSeFVPVnBqcXJUOHR2cWZlQnN0LV82R0xpM2lfbjBrQ3g2TnZIMzdxaDlqZDRMd05DSi1fMnZmZVpvbllwUTh0NmRGTjN3OVNzckJ1THhmcDNCMlI5Ykl6dGt6dHFpX3BRcjRpUDhTVWZBY3ByS3A0bnh2N2dOdldMUjcyLXhrYTJVU01FMWgtZWs1cFNlSDRfbnNOeHd4TnY5V1Z1c29zbndHeG1wTEZEblNIQnB2SEc3UmU1RDNUWkJaLUxabWQ3ZG50bHBXWWRUSGxhU0dvTERyRnFiNXY?oc=5",
       "publishedAt": "2026-04-01T07:00:00Z",
-      "excerpt": "DFDS makes changes \"to support travel arrangements over the Easter weekend\" following fast ferry incident Jersey Evening Post",
+      "excerpt": "DFDS makes changes \"to support travel arrangements over the Easter weekend\" following fast ferry incident jerseyeveningpost.com",
       "tags": [
         "Incidents",
         "Ferry",
@@ -703,6 +703,40 @@
       "priorityReasons": [
         "Signal: Incident",
         "Signal: Regulation"
+      ],
+      "boardBucket": "High Priority"
+    },
+    {
+      "id": "3d1052733726e658",
+      "title": "Six Search and Rescue Boats from Damen Shipyards Antalya - Defence Turkey",
+      "source": "Damen Shipyards News",
+      "sourceId": "google-damen",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNQTVERF9GWlMwd04zSVFaaWhRUW12OEJ2aVZXeEZjV1ZMNXowTkYtM3lqMDZfM0FwWjdtZlZYLU8yWHlJWXh1dG1mNmZEUUd5VmVmUnpJZllPQjgtN3FaNXlkX0xObi1OVFd1NC1id1VpSGY3QWYtSmtzOXJsaEZaVjlMdUFQTFE4NlBCSWxGWEd2TTQ?oc=5",
+      "publishedAt": "2026-04-06T07:00:00Z",
+      "excerpt": "Six Search and Rescue Boats from Damen Shipyards Antalya Defence Turkey",
+      "tags": [
+        "Salvage",
+        "Shipbuilding",
+        "Supplier"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [
+        {
+          "name": "Damen Shipyards Group",
+          "category": "suppliers"
+        }
+      ],
+      "locations": [],
+      "businessTags": [
+        "Supplier",
+        "Incident"
+      ],
+      "priorityScore": 9,
+      "priorityBand": "high",
+      "priorityReasons": [
+        "Supplier mention: Damen Shipyards Group",
+        "Signal: Incident"
       ],
       "boardBucket": "High Priority"
     },
@@ -1196,6 +1230,37 @@
         "Signal: Infrastructure"
       ],
       "boardBucket": "Regulation, Safety & Incidents"
+    },
+    {
+      "id": "ff78c16063d223fe",
+      "title": "Tadej Pogacar verslagen in ultrakorte proloog Ronde van Romandi\u00eb, Fransman pakt eerste leiderstrui",
+      "source": "PZC",
+      "sourceId": "pzc",
+      "url": "https://www.pzc.nl/wielrennen/tadej-pogacar-verslagen-in-ultrakorte-proloog-ronde-van-romandie-fransman-pakt-eerste-leiderstrui~a071fce1",
+      "publishedAt": "2026-04-28T15:24:00Z",
+      "excerpt": "Dorian Godon heeft de proloog in de Ronde van Romandi\u00eb gewonnen. De Fransman van INEOS Grenadiers werkte het parkoers van slechts 3,2 kilometer het snelst af en is daardoor ook de eerste leider in de zesdaagse World Tour-rittenkoers. Tadej\u2026",
+      "tags": [
+        "Zeeland",
+        "Local-News"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [
+        {
+          "name": "INEOS",
+          "category": "clients"
+        }
+      ],
+      "locations": [],
+      "businessTags": [
+        "Client"
+      ],
+      "priorityScore": 6,
+      "priorityBand": "medium",
+      "priorityReasons": [
+        "Client mention: INEOS"
+      ],
+      "boardBucket": "Clients & Projects"
     },
     {
       "id": "689e5f8ecf173906",
@@ -2264,37 +2329,6 @@
       "boardBucket": "Competitors & Market"
     },
     {
-      "id": "886d8c7b85dc7d36",
-      "title": "Executive Moves - Svitzer hires managing director in Brazil - rivieramm.com",
-      "source": "Svitzer News",
-      "sourceId": "google-svitzer",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQYjloSEx0Zk8taEw0RTJNeGJJYnlmYXRrTFRYLVpJejJhYWpUXzBFT19uX094cHNTUkdoZTVrUm5uWUNWMGQtQjJQUU5TLTlVOEFqMHE4MWNHX0ZNT0g3T3NxRTMtZWxEdXZWQXdYWFV6c0hnSUlqRVdKQVNIMnRERTN0NEUzM1p5LS1YRWcxcWV3bW10Z2RHdHE2MlZzcVBJUXdUaXlRSUZMaktLeDRfR3ZzUWpfbm9RYTY0?oc=5",
-      "publishedAt": "2026-04-15T01:01:32Z",
-      "excerpt": "Executive Moves - Svitzer hires managing director in Brazil rivieramm.com",
-      "tags": [
-        "Towage",
-        "Competitor"
-      ],
-      "audience": "Multraship",
-      "paywalled": false,
-      "entities": [
-        {
-          "name": "Svitzer",
-          "category": "competitors"
-        }
-      ],
-      "locations": [],
-      "businessTags": [
-        "Competitor"
-      ],
-      "priorityScore": 6,
-      "priorityBand": "medium",
-      "priorityReasons": [
-        "Competitor mention: Svitzer"
-      ],
-      "boardBucket": "Competitors & Market"
-    },
-    {
       "id": "b8d9a8d5dbbff37b",
       "title": "DFDS reports increase in March freight and passenger volumes - Baird Maritime",
       "source": "DFDS News",
@@ -2649,6 +2683,37 @@
       "boardBucket": "Clients & Projects"
     },
     {
+      "id": "38b0cb246d822e71",
+      "title": "DEME publishes its annual report 2025; revenues over \u20ac4B and EBITDA margin over 22% - DredgeWire",
+      "source": "DEME Group News",
+      "sourceId": "google-deme",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNMFVSUzFQVXhrUkl2TTZfeVphMjRMampwNEJ0aUtsdnNKdDBvMy1IQUNma1oxQnNPVEdYdWdRZzdHSm5lOENIX25lZVdJTkc2cUYwSm5fc29kMzU0a3N6UmZJVjVNZUpsVGdaa2lySnlFVjQtZzM5WWc5LXJ6QVN6UU5lVHd4T2pGbllLd3lsNWFiTllsR0hWWmlfMjVzbkxtbWdLY0pJX0o?oc=5",
+      "publishedAt": "2026-03-31T07:00:00Z",
+      "excerpt": "DEME publishes its annual report 2025; revenues over \u20ac4B and EBITDA margin over 22% DredgeWire",
+      "tags": [
+        "Offshore",
+        "Marine-Construction"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [
+        {
+          "name": "DEME Group",
+          "category": "clients"
+        }
+      ],
+      "locations": [],
+      "businessTags": [
+        "Client"
+      ],
+      "priorityScore": 6,
+      "priorityBand": "medium",
+      "priorityReasons": [
+        "Client mention: DEME Group"
+      ],
+      "boardBucket": "Clients & Projects"
+    },
+    {
       "id": "be984fc284c2c01b",
       "title": "DEME announces start of new share buyback program - GlobeNewswire",
       "source": "DEME Group News",
@@ -2769,37 +2834,6 @@
       "priorityBand": "medium",
       "priorityReasons": [
         "Competitor mention: Boluda"
-      ],
-      "boardBucket": "Competitors & Market"
-    },
-    {
-      "id": "0f428dbd0187f285",
-      "title": "News Content Hub - Svitzer boosts ship handling in key Brazilian hub with new tugboat - rivieramm.com",
-      "source": "Svitzer News",
-      "sourceId": "google-svitzer",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNQnNHZVI4NUY4WDIxelhueW52QVNnWWhrMkdFZkFUWFY4U2c1bVA3cUlFZ2dyQjg5Y0ZPVVZXY0NaSmNjTkx6MmVNZW5VbkRVdjNwc3F3andCZVo5VmdaMkxNUm9mMVdBNXFEY3BJRmpPZzVyN0d3SG5ycjZMTHNxWlFjbHpLckdIMzhub2Z0TFAtbmcybDJaS05wcTgwWXdBT2g2UGNUZmFLbWxmMWwxM2I5SHRLdw?oc=5",
-      "publishedAt": "2026-03-30T16:43:13Z",
-      "excerpt": "News Content Hub - Svitzer boosts ship handling in key Brazilian hub with new tugboat rivieramm.com",
-      "tags": [
-        "Towage",
-        "Competitor"
-      ],
-      "audience": "Multraship",
-      "paywalled": false,
-      "entities": [
-        {
-          "name": "Svitzer",
-          "category": "competitors"
-        }
-      ],
-      "locations": [],
-      "businessTags": [
-        "Competitor"
-      ],
-      "priorityScore": 6,
-      "priorityBand": "medium",
-      "priorityReasons": [
-        "Competitor mention: Svitzer"
       ],
       "boardBucket": "Competitors & Market"
     },
@@ -2948,37 +2982,6 @@
         "Signal: Energy Transition"
       ],
       "boardBucket": "Regulation, Safety & Incidents"
-    },
-    {
-      "id": "9c9c0a5fed1abec4",
-      "title": "Nieuw rekeningnummer Belastingdienst vanaf 1 mei: check je adresboek en let op phishingmails",
-      "source": "PZC",
-      "sourceId": "pzc",
-      "url": "https://www.pzc.nl/geld/nieuw-rekeningnummer-belastingdienst-vanaf-1-mei-check-je-adresboek-en-let-op-phishingmails~a638b45a",
-      "publishedAt": "2026-04-28T09:36:00Z",
-      "excerpt": "De Belastingdienst stapt vanaf 1 mei over van ING naar Rabobank en dat betekent dat ook het rekeningnummer verandert. Controleer daarom het rekeningnummer in je adresboek. En let op: criminelen kunnen inspelen op de wijziging met phishingm\u2026",
-      "tags": [
-        "Zeeland",
-        "Local-News"
-      ],
-      "audience": "Multraship",
-      "paywalled": false,
-      "entities": [
-        {
-          "name": "Rabobank",
-          "category": "suppliers"
-        }
-      ],
-      "locations": [],
-      "businessTags": [
-        "Supplier"
-      ],
-      "priorityScore": 5,
-      "priorityBand": "medium",
-      "priorityReasons": [
-        "Supplier mention: Rabobank"
-      ],
-      "boardBucket": "Other Relevant"
     },
     {
       "id": "e9c2c201af2d34ac",
@@ -3275,7 +3278,7 @@
       "source": "Boskalis News",
       "sourceId": "google-boskalis",
       "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNcDhuTzNWNTFaQ0QxUDBTTWFFQ2J1c1JjeXFpa3dndGV2RHRrT2pHcERTRHdRdW5nUGxMU2E4VXExN2dMaDNqTmpWM2lGMlpBdGhvT3k5VXdTX1Njd0hNQk5JX0NIeGpTY3N1NkYteFZfV2xzMXlnTk5DbWJ0Z0hha2pBV2JCYWsyN1FsQlZJaVh0aVdYM1dFdTZtcDBTbnRyZ0E?oc=5",
-      "publishedAt": "2026-04-27T02:54:07Z",
+      "publishedAt": "2026-04-27T02:53:01Z",
       "excerpt": "'We live up here to escape': Residents unhappy with sand dredging proposal Australian Broadcasting Corporation",
       "tags": [
         "Dredging",
@@ -3376,37 +3379,6 @@
         "Signal: Infrastructure"
       ],
       "boardBucket": "Regulation, Safety & Incidents"
-    },
-    {
-      "id": "f83a0ea702f00d6c",
-      "title": "Damen and Windcat launch Windcat Amsterdam - Ships Monthly",
-      "source": "Damen Shipyards News",
-      "sourceId": "google-damen",
-      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBVYXBNSmFjVG5UcC16QVl2akpNWVZmRmhkaGg2WUhVMkU1V2g0WWp5VE02MDhSNnZpZndZdGxoM3o3dGxFME5mWGZFTnY1dHFWVHRVeEF3c1NjWXVIXzdXakZldC1FMkdRVGxlVnJFUHFFWVl0V1VZUmtfU2VTZw?oc=5",
-      "publishedAt": "2026-04-23T08:16:08Z",
-      "excerpt": "Damen and Windcat launch Windcat Amsterdam Ships Monthly",
-      "tags": [
-        "Shipbuilding",
-        "Supplier"
-      ],
-      "audience": "Multraship",
-      "paywalled": false,
-      "entities": [
-        {
-          "name": "Damen Shipyards Group",
-          "category": "suppliers"
-        }
-      ],
-      "locations": [],
-      "businessTags": [
-        "Supplier"
-      ],
-      "priorityScore": 5,
-      "priorityBand": "medium",
-      "priorityReasons": [
-        "Supplier mention: Damen Shipyards Group"
-      ],
-      "boardBucket": "Other Relevant"
     },
     {
       "id": "7eef26157c4f5ecd",
@@ -3681,37 +3653,6 @@
       "priorityReasons": [
         "Supplier mention: DNV",
         "Signal: Commercial"
-      ],
-      "boardBucket": "Other Relevant"
-    },
-    {
-      "id": "9a7a285f12da020f",
-      "title": "Malta\u2019s Polidano steps into shipping with Damen order - Splash247",
-      "source": "Damen Shipyards News",
-      "sourceId": "google-damen",
-      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNVl8xcVJ5cExkR05IVzFkWVlDUW1IR0NwNkVDWlc5UGhRdUxEMmFCclhUeXJRcmcwSEF5NjBVS3N6MUFlWERNQzVwa3hHSTVEV1FHNlg2WVZMZHJ1Yzk0OVJSM3lnX00zVzBxWlR5SGFKOW5Wc2M3R3pkWThjMTMzeg?oc=5",
-      "publishedAt": "2026-03-31T07:00:00Z",
-      "excerpt": "Malta\u2019s Polidano steps into shipping with Damen order Splash247",
-      "tags": [
-        "Shipbuilding",
-        "Supplier"
-      ],
-      "audience": "Multraship",
-      "paywalled": false,
-      "entities": [
-        {
-          "name": "Damen Shipyards Group",
-          "category": "suppliers"
-        }
-      ],
-      "locations": [],
-      "businessTags": [
-        "Supplier"
-      ],
-      "priorityScore": 5,
-      "priorityBand": "medium",
-      "priorityReasons": [
-        "Supplier mention: Damen Shipyards Group"
       ],
       "boardBucket": "Other Relevant"
     },
@@ -5107,13 +5048,13 @@
       "boardBucket": "Regulation, Safety & Incidents"
     },
     {
-      "id": "c20706a02388036a",
-      "title": "Kongsberg Maritime ASA \u2013 Publication of prospectus in connection with separate listing on Euronext Oslo B\u00f8rs - TradingView",
+      "id": "0bd2607d99b52385",
+      "title": "Kongsberg Maritime ASA \u2013 Publication of prospectus in connection with separate listing on Euronext Oslo B\u00f8rs - marketscreener.com",
       "source": "Kongsberg Maritime News",
       "sourceId": "google-kongsberg",
-      "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxNRV9RaVp0bHBNT1FQcjhGZ1RFdFJJdzdocl9QOWItTXNUQTUzUGJXT1VpN2tzM3BJYTRRUVI4cEt0NDY2ZUZPVmctWGVhYnc1clpzdjJGYnVhTkZ3ZFR4U1FqZzcwZ0JiSEdGUmdlNDhjbUx3TWd4ZHFsbXpmS0RiYTFEWUIybDdjT201Z19zTGxJZnBSWkVpd3BYYUVaZXQ1UW9HUWtPcjNpUkdYa0xQTllneWZLc3FGUWRjN1k1NlE2Z0lyUTlfWnZ5MUhsQnJvTEFmMWVQYTUzc0RIbzRyLVg1SUdoUnJxS0N4V095Ry1FY19QNVktd20yUmtGX2FOVVE?oc=5",
-      "publishedAt": "2026-04-16T11:35:00Z",
-      "excerpt": "Kongsberg Maritime ASA \u2013 Publication of prospectus in connection with separate listing on Euronext Oslo B\u00f8rs TradingView",
+      "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNTDJVN3NvZzVJYUcxMHpwa1pENlc3TExVTmRWeUlrUVJBRG9Ya1Z3dVpxTlhNMXhzZkQ3cmlBc05QRGdtSXU0a3o2RzU3a3pneEZSQ3lLUTduU3Uxa0ZrQ1cwVlRoaXlHVmFYRC1MZDNnaGdVMGFRbEdfZUg2MUlOUEhKZ3Iwcks3amN6bnBHMm9rU1k4eVNVRWZSSnQ1WUhWa2s2dVA5WDdwX0dxUWRMSk9jZ1hYVmh1ZV9TdHJORjQ0RmN3LUhDOUFVUWZYNUo3dFZIaFV3MEs4c01LYWNFSUZSeE56dw?oc=5",
+      "publishedAt": "2026-04-16T11:59:09Z",
+      "excerpt": "Kongsberg Maritime ASA \u2013 Publication of prospectus in connection with separate listing on Euronext Oslo B\u00f8rs marketscreener.com",
       "tags": [
         "Technology",
         "Supplier"
@@ -5604,6 +5545,58 @@
         "Signal: Commercial"
       ],
       "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "2c79d1db2c751913",
+      "title": "ONGC Cancels Rig Tender, Alleging \"Collusive\" Bidding Practices",
+      "source": "The Maritime Executive",
+      "sourceId": "maritime-executive",
+      "url": "https://maritime-executive.com/article/ongc-cancels-rig-tender-alleging-collusive-bidding-practices",
+      "publishedAt": "2026-04-28T02:05:33Z",
+      "excerpt": "Indian state oil company ONGC has canceled a tender for four jackup rigs, alleging anticompetitive practices and an \"unusually steep escalation\" of p...",
+      "tags": [
+        "Maritime",
+        "News"
+      ],
+      "audience": "Both",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [
+        "Commercial"
+      ],
+      "priorityScore": 3,
+      "priorityBand": "low",
+      "priorityReasons": [
+        "Signal: Commercial"
+      ],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "3a599ad31ffcf603",
+      "title": "U.S. Agrees to Deal to Cancel Two More Offshore Wind Farm Leases",
+      "source": "The Maritime Executive",
+      "sourceId": "maritime-executive",
+      "url": "https://maritime-executive.com/article/u-s-agrees-to-deal-to-cancel-two-more-offshore-wind-farm-leases",
+      "publishedAt": "2026-04-27T21:22:55Z",
+      "excerpt": "The U.S. Department of the Interior announced today that it has reached agreements to redirect the planned investment for two offshore wind farm proj...",
+      "tags": [
+        "Maritime",
+        "News"
+      ],
+      "audience": "Both",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [
+        "Commercial"
+      ],
+      "priorityScore": 3,
+      "priorityBand": "low",
+      "priorityReasons": [
+        "Signal: Commercial"
+      ],
+      "boardBucket": "Other Relevant"
     }
   ],
   "departmentProfiles": [
@@ -5715,7 +5708,6 @@
         "webwatch-rederij-muller",
         "webwatch-seacontractors",
         "webwatch-vlissingse-bootlieden",
-        "webwatch-eendracht-gent",
         "webwatch-hebo"
       ],
       "tags": [
@@ -6251,6 +6243,127 @@
       "founded": 1913,
       "stock": null
     }
+  },
+  "sourceTypes": {
+    "maritime-executive": "rss",
+    "gcaptain": "rss",
+    "marinelink": "rss",
+    "offshore-energy": "rss",
+    "hellenic-shipping-news": "rss",
+    "ship-technology": "rss",
+    "splash247": "rss",
+    "swz-maritime": "rss",
+    "baird-maritime": "rss",
+    "africa-ports": "rss",
+    "rigzone-latest": "rss",
+    "riviera-ports": "rss",
+    "riviera-safety": "rss",
+    "riviera-regulation": "rss",
+    "riviera-emissions": "rss",
+    "riviera-propulsion": "rss",
+    "dutch-government-ienw": "rss",
+    "tenderned-maritime": "rss",
+    "hvzeeland": "rss",
+    "pzc": "rss",
+    "rijnmond": "rss",
+    "logistiek-nieuws": "rss",
+    "logistiek-dienstverlening": "rss",
+    "made-in": "web_watch",
+    "north-sea-port-news": "web_watch",
+    "zeeland-connect-news": "web_watch",
+    "port-rotterdam-news": "web_watch",
+    "port-antwerp-bruges-press": "web_watch",
+    "omroep-zeeland-news": "web_watch",
+    "rotterdammerdagblad-regionaal": "web_watch",
+    "rws-zeeland-maintenance": "web_watch",
+    "rws-shipping-news": "web_watch",
+    "terneuzen-notices": "web_watch",
+    "ilt-news": "web_watch",
+    "google-imo-press": "rss",
+    "google-imo-meetings": "rss",
+    "google-damen": "rss",
+    "google-kongsberg": "rss",
+    "google-boskalis": "rss",
+    "google-svitzer": "rss",
+    "google-boluda": "rss",
+    "google-kotug": "rss",
+    "google-smit": "rss",
+    "google-fairplay": "rss",
+    "google-deme": "rss",
+    "google-van-oord": "rss",
+    "google-wartsila": "rss",
+    "google-dnv": "rss",
+    "google-yara": "rss",
+    "google-flc-marine": "rss",
+    "google-rijkswaterstaat": "rss",
+    "google-scaldis": "rss",
+    "google-tm-edison": "rss",
+    "google-wilhelmsen-port": "rss",
+    "google-ovet": "rss",
+    "google-sarens": "rss",
+    "google-vertomcory": "rss",
+    "google-oldendorff": "rss",
+    "google-ultrabulk": "rss",
+    "google-damen-yachting": "rss",
+    "google-inchcape": "rss",
+    "google-dfds": "rss",
+    "google-wagenborg-stevedoring": "rss",
+    "google-maersk-tankers": "rss",
+    "gnews-lankhorst-ropes": "rss",
+    "gnews-united-offshore-services": "rss",
+    "gnews-breman-machinery": "rss",
+    "gnews-martens-cleaning": "rss",
+    "gnews-bp-raffinaderij-rotterdam": "rss",
+    "gnews-de-pooter-olie": "rss",
+    "gnews-arentis": "rss",
+    "gnews-flc-marine-works-group": "rss",
+    "gnews-verbrugge-terminals": "rss",
+    "gnews-scaldis-salvage-and-marine-con": "rss",
+    "gnews-tm-edison-be": "rss",
+    "gnews-offshore-marine-contractors": "rss",
+    "gnews-manora-logistics": "rss",
+    "gnews-tm-schelde-and-zee": "rss",
+    "gnews-van-der-straaten-aannemingsmaa": "rss",
+    "gnews-verbrugge-marine": "rss",
+    "gnews-edison-vof": "rss",
+    "gnews-petro-s.-management": "rss",
+    "gnews-flushing-shipping-agencies": "rss",
+    "gnews-navonus": "rss",
+    "gnews-lalemant-gent": "rss",
+    "gnews-gac-belgium": "rss",
+    "gnews-iss-palumbo-netherlands": "rss",
+    "gnews-runaway-bay-shipping": "rss",
+    "gnews-icechem-tankers": "rss",
+    "google-rederij-muller": "rss",
+    "google-seacontractors": "rss",
+    "google-vlissingse-bootlieden": "rss",
+    "google-eendracht-gent": "rss",
+    "google-hebo": "rss",
+    "webwatch-rederij-muller": "web_watch",
+    "webwatch-seacontractors": "web_watch",
+    "webwatch-vlissingse-bootlieden": "web_watch",
+    "webwatch-hebo": "web_watch",
+    "google-boreas-maritime": "rss",
+    "google-landfall": "rss",
+    "google-tos-crew": "rss",
+    "google-gardec-sds": "rss",
+    "google-delta-marine-crewing": "rss",
+    "google-marnavi": "rss",
+    "google-atlas-professional": "rss",
+    "google-finco-marine": "rss",
+    "google-progressio": "rss",
+    "google-csc-crewing": "rss",
+    "google-victrol-chartering": "rss",
+    "google-howden-specialty": "rss",
+    "google-de-wit-bunkering": "rss",
+    "google-propeller-fuels": "rss",
+    "google-plus-corbijn": "rss",
+    "google-c-teleport": "rss",
+    "google-zeppelin-power": "rss",
+    "google-kooiman-marine": "rss",
+    "google-hydroos": "rss",
+    "google-mesh-maritime": "rss",
+    "google-mez-maritiem": "rss"
   },
   "entityCategories": {
     "Damen Shipyards Group": "suppliers",

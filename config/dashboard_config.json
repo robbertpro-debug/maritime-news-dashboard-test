@@ -124,7 +124,6 @@
         "webwatch-rederij-muller",
         "webwatch-seacontractors",
         "webwatch-vlissingse-bootlieden",
-        "webwatch-eendracht-gent",
         "webwatch-hebo"
       ],
       "tags": [
@@ -1542,28 +1541,6 @@
       "max_items": 10,
       "link_include_patterns": [
         "vlbvlissingen\\.nl/"
-      ],
-      "link_exclude_patterns": [
-        "contact",
-        "privacy",
-        "cookie"
-      ],
-      "default_tags": [
-        "towage",
-        "competitor"
-      ],
-      "audience_bias": {
-        "Multraship": 5
-      }
-    },
-    {
-      "id": "webwatch-eendracht-gent",
-      "name": "Eendracht Gent Web Watch",
-      "url": "https://eendracht.be/",
-      "adapter": "web_watch",
-      "max_items": 10,
-      "link_include_patterns": [
-        "eendracht\\.be/"
       ],
       "link_exclude_patterns": [
         "contact",

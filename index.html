@@ -1521,6 +1521,14 @@
                 </select>
               </div>
               <div class="field">
+                <label for="sourceTypeFilter">Source type</label>
+                <select id="sourceTypeFilter">
+                  <option value="all">RSS + web watch</option>
+                  <option value="rss">RSS only</option>
+                  <option value="web_watch">Web watch only</option>
+                </select>
+              </div>
+              <div class="field">
                 <label for="topicFilter">Topic</label>
                 <select id="topicFilter">
                   <option value="all">All topics</option>
@@ -1720,6 +1728,7 @@
           sources: [],
           topics: [],
           departmentProfiles: DEFAULT_DEPARTMENT_PROFILES,
+          sourceTypes: {},
           errors: []
         },
         activeAudience: "Multraship",
@@ -1745,6 +1754,7 @@
         visibleCount: document.getElementById("visibleCount"),
         departmentFilter: document.getElementById("departmentFilter"),
         sourceFilter: document.getElementById("sourceFilter"),
+        sourceTypeFilter: document.getElementById("sourceTypeFilter"),
         topicFilter: document.getElementById("topicFilter"),
         highPriorityOnly: document.getElementById("highPriorityOnly"),
         entityFilter: document.getElementById("entityFilter"),
@@ -1968,8 +1978,14 @@
         return !elements.highPriorityOnly.checked || getPriorityLevel(article) >= PRIORITY_LEVELS.high;
       }
 
+      function getArticleSourceType(article) {
+        const sourceTypes = state.data.sourceTypes || {};
+        return sourceTypes[article.sourceId] || "rss";
+      }
+
       function matchesFilters(article) {
         const sourceValue = elements.sourceFilter.value;
+        const sourceTypeValue = elements.sourceTypeFilter.value;
         const topicValue = elements.topicFilter.value;
         const entityValue = elements.entityFilter.value;
         const searchValue = elements.searchInput.value;
@@ -1978,6 +1994,7 @@
         if (!matchesAudience(article)) return false;
         if (!matchesDepartment(article)) return false;
         if (sourceValue !== "all" && article.source !== sourceValue) return false;
+        if (sourceTypeValue !== "all" && getArticleSourceType(article) !== sourceTypeValue) return false;
         if (topicValue !== "all" && !(article.tags || []).includes(topicValue)) return false;
         if (entityValue !== "all") {
           const hasEntity = getArticleCategories(article).includes(entityValue);
@@ -2550,6 +2567,7 @@
         elements.departmentFilter.value = state.activeDepartment;
         elements.searchInput.value = "";
         elements.sourceFilter.value = "all";
+        elements.sourceTypeFilter.value = "all";
         elements.topicFilter.value = "all";
         elements.entityFilter.value = "all";
         elements.highPriorityOnly.checked = false;
@@ -2898,6 +2916,7 @@
 
         [
           elements.sourceFilter,
+          elements.sourceTypeFilter,
           elements.topicFilter,
           elements.highPriorityOnly,
           elements.entityFilter,

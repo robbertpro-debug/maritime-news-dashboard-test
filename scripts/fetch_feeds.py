@@ -893,6 +893,10 @@ def build_output(articles: List[Dict], config: Dict, errors: List[Dict], generat
         "articles": clean_articles,
         "departmentProfiles": config.get("department_profiles", []),
         "entityProfiles": config.get("entity_profiles", {}),
+        "sourceTypes": {
+            source["id"]: source.get("adapter", "rss")
+            for source in config.get("sources", [])
+        },
         "entityCategories": {
             name: category
             for category, names in config.get("classification", {}).get("entities", {}).items()
