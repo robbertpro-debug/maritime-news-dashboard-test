@@ -1,7 +1,7 @@
 window.__DASHBOARD_DATA__ = {
-  "generatedAt": "2026-04-28T11:32:54.774247Z",
+  "generatedAt": "2026-04-28T12:23:08.920389Z",
   "lookbackDays": 30,
-  "cutoffAt": "2026-03-29T11:32:54.774247Z",
+  "cutoffAt": "2026-03-29T12:23:08.920389Z",
   "articleCount": 180,
   "sourceCount": 103,
   "sources": [
@@ -16,7 +16,6 @@ window.__DASHBOARD_DATA__ = {
     "Kongsberg Maritime News",
     "Maersk Tankers News",
     "MarineLink",
-    "Offshore Energy",
     "Oldendorff Carriers News",
     "Rigzone",
     "Riviera: Air Pollution & GHG Emissions",
@@ -46,7 +45,6 @@ window.__DASHBOARD_DATA__ = {
     "Electrification",
     "Emissions",
     "Energy",
-    "Energy-Transition",
     "Ferry",
     "Heavy-Lift",
     "Imo",
@@ -58,6 +56,7 @@ window.__DASHBOARD_DATA__ = {
     "News",
     "Offshore",
     "Operations",
+    "Port Services",
     "Ports",
     "Propulsion",
     "Regulation",
@@ -76,7 +75,16 @@ window.__DASHBOARD_DATA__ = {
   "locations": [
     "Rotterdam"
   ],
-  "errors": [],
+  "errors": [
+    {
+      "source": "Offshore Energy",
+      "message": "HTTP Error 403: Forbidden"
+    },
+    {
+      "source": "Dutch Government: Infrastructure & Water Management",
+      "message": "<urlopen error [Errno -2] Name or service not known>"
+    }
+  ],
   "articles": [
     {
       "id": "e8894ead6df2ef6a",
@@ -364,40 +372,6 @@ window.__DASHBOARD_DATA__ = {
       "boardBucket": "High Priority"
     },
     {
-      "id": "1f55eef44b12ce52",
-      "title": "DFDS makes changes \"to support travel arrangements over the Easter weekend\" following fast ferry incident - Jersey Evening Post",
-      "source": "DFDS News",
-      "sourceId": "google-dfds",
-      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPbVVEc1NSeFVPVnBqcXJUOHR2cWZlQnN0LV82R0xpM2lfbjBrQ3g2TnZIMzdxaDlqZDRMd05DSi1fMnZmZVpvbllwUTh0NmRGTjN3OVNzckJ1THhmcDNCMlI5Ykl6dGt6dHFpX3BRcjRpUDhTVWZBY3ByS3A0bnh2N2dOdldMUjcyLXhrYTJVU01FMWgtZWs1cFNlSDRfbnNOeHd4TnY5V1Z1c29zbndHeG1wTEZEblNIQnB2SEc3UmU1RDNUWkJaLUxabWQ3ZG50bHBXWWRUSGxhU0dvTERyRnFiNXY?oc=5",
-      "publishedAt": "2026-04-01T07:00:00Z",
-      "excerpt": "DFDS makes changes \"to support travel arrangements over the Easter weekend\" following fast ferry incident Jersey Evening Post",
-      "tags": [
-        "Incidents",
-        "Ferry",
-        "Shipping"
-      ],
-      "audience": "Multraship",
-      "paywalled": false,
-      "entities": [
-        {
-          "name": "DFDS",
-          "category": "clients"
-        }
-      ],
-      "locations": [],
-      "businessTags": [
-        "Client",
-        "Incident"
-      ],
-      "priorityScore": 10,
-      "priorityBand": "high",
-      "priorityReasons": [
-        "Client mention: DFDS",
-        "Signal: Incident"
-      ],
-      "boardBucket": "High Priority"
-    },
-    {
       "id": "4c78b75c1e52c49a",
       "title": "UK Dredging orders advanced TSHD at Damen",
       "source": "SWZ Maritime",
@@ -429,43 +403,6 @@ window.__DASHBOARD_DATA__ = {
         "Supplier mention: Damen Shipyards Group",
         "Signal: Infrastructure",
         "Signal: Commercial"
-      ],
-      "boardBucket": "High Priority"
-    },
-    {
-      "id": "636d59a5f7417d12",
-      "title": "Equinor taps Swedish survey firm for multi-year pipeline inspection services",
-      "source": "Offshore Energy",
-      "sourceId": "offshore-energy",
-      "url": "https://www.offshore-energy.biz/equinor-taps-swedish-survey-firm-for-multi-year-pipeline-inspection-services/",
-      "publishedAt": "2026-04-28T07:17:13Z",
-      "excerpt": "Swedish offshore survey company Njord Survey has signed a framework agreement with Norwegian state-owned [\u2026] The post Equinor taps Swedish survey firm for multi-year pipeline inspection services appeared first on Offshore Energy .",
-      "tags": [
-        "Regulation",
-        "Operations",
-        "Energy-Transition",
-        "Technology"
-      ],
-      "audience": "Novatug",
-      "paywalled": false,
-      "entities": [
-        {
-          "name": "Equinor",
-          "category": "clients"
-        }
-      ],
-      "locations": [],
-      "businessTags": [
-        "Client",
-        "Regulation",
-        "Operations"
-      ],
-      "priorityScore": 9,
-      "priorityBand": "high",
-      "priorityReasons": [
-        "Client mention: Equinor",
-        "Signal: Regulation",
-        "Signal: Operations"
       ],
       "boardBucket": "High Priority"
     },
@@ -886,39 +823,6 @@ window.__DASHBOARD_DATA__ = {
       "boardBucket": "Regulation, Safety & Incidents"
     },
     {
-      "id": "9a6a186afbe153b9",
-      "title": "Damen signs contract with the Polidano Group for two CF 3850 | Damen - Damen Shipyards",
-      "source": "Damen Shipyards News",
-      "sourceId": "google-damen",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQRVp2WWJtR2NLNjdzMW5ScU5fb0djWk5VYktPa0tMMDFIdlNPLW1yblRxYnB1V1lKcVZqOEpyTzA4UTVqM0pFWXFMVUZoblNlejRnd0xhX2MtMnB0dG1Xb3BRU1BpSjRkVnRHQmVTWUZUdVpXOGh6NE5ZU1Fmb1QxVzRYOW9jNFdPR2NhQjloQnRrOU4wdHFGQWVFWGthZ1pTR3dMbTdR?oc=5",
-      "publishedAt": "2026-03-30T07:00:00Z",
-      "excerpt": "Damen signs contract with the Polidano Group for two CF 3850 | Damen Damen Shipyards",
-      "tags": [
-        "Shipbuilding",
-        "Supplier"
-      ],
-      "audience": "Multraship",
-      "paywalled": false,
-      "entities": [
-        {
-          "name": "Damen Shipyards Group",
-          "category": "suppliers"
-        }
-      ],
-      "locations": [],
-      "businessTags": [
-        "Supplier",
-        "Commercial"
-      ],
-      "priorityScore": 7,
-      "priorityBand": "medium",
-      "priorityReasons": [
-        "Supplier mention: Damen Shipyards Group",
-        "Signal: Commercial"
-      ],
-      "boardBucket": "Other Relevant"
-    },
-    {
       "id": "9542f88de13fe286",
       "title": "DNV to Certify UK Northern Endurance CCS Network",
       "source": "MarineLink",
@@ -1150,39 +1054,6 @@ window.__DASHBOARD_DATA__ = {
       "boardBucket": "Regulation, Safety & Incidents"
     },
     {
-      "id": "eeb285b48c29aa51",
-      "title": "Petrobras widens its oil & gas footprint in Brazil\u2019s Campos Basin",
-      "source": "Offshore Energy",
-      "sourceId": "offshore-energy",
-      "url": "https://www.offshore-energy.biz/petrobras-widens-its-oil-gas-footprint-in-brazils-campos-basin/",
-      "publishedAt": "2026-04-28T08:03:48Z",
-      "excerpt": "Brazilian state-owned oil and gas giant Petrobras has taken steps to become the sole owner of a portion of the ring-fence of a field in BC-10 Concession in the Campos Basin, currently held by Shell Brasil Petr\u00f3leo, a subsidiary of UK-headq\u2026",
-      "tags": [
-        "Energy-Transition",
-        "Technology"
-      ],
-      "audience": "Novatug",
-      "paywalled": false,
-      "entities": [
-        {
-          "name": "Shell Nederland",
-          "category": "suppliers"
-        }
-      ],
-      "locations": [],
-      "businessTags": [
-        "Supplier",
-        "Terminal Expansion"
-      ],
-      "priorityScore": 6,
-      "priorityBand": "medium",
-      "priorityReasons": [
-        "Supplier mention: Shell Nederland",
-        "Signal: Terminal Expansion"
-      ],
-      "boardBucket": "Regulation, Safety & Incidents"
-    },
-    {
       "id": "f59c3db4f233470a",
       "title": "Kongsberg Maritime wins simulator contract with the French Naval Academy in Lanv\u00e9oc - Mynewsdesk",
       "source": "Kongsberg Maritime News",
@@ -1374,39 +1245,6 @@ window.__DASHBOARD_DATA__ = {
         "Client mention: ExxonMobil"
       ],
       "boardBucket": "Clients & Projects"
-    },
-    {
-      "id": "69b2f01a935e94ca",
-      "title": "W\u00e4rtsil\u00e4, Erik Thun Agree Overhaul Partnership for Fleet Support - Marine News Magazine",
-      "source": "W\u00e4rtsil\u00e4 News",
-      "sourceId": "google-wartsila",
-      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE95anc1MnpsMFpMWllyc2pwTmJSNUFZTFJJcEc2Y3JGSzlxdXE5YVliOC0yeFhrX3VXZzFzNTlscmx4RlIwcE5mckhkSWZkMkFiNVdjRzhtQTBHOVZQTFJ5dDFnSC1LUkdFbGdCNG5KLVl2MGQ1SGM4NlBR?oc=5",
-      "publishedAt": "2026-04-23T09:41:25Z",
-      "excerpt": "W\u00e4rtsil\u00e4, Erik Thun Agree Overhaul Partnership for Fleet Support Marine News Magazine",
-      "tags": [
-        "Propulsion",
-        "Technology"
-      ],
-      "audience": "Both",
-      "paywalled": false,
-      "entities": [
-        {
-          "name": "W\u00e4rtsil\u00e4",
-          "category": "suppliers"
-        }
-      ],
-      "locations": [],
-      "businessTags": [
-        "Supplier",
-        "Commercial"
-      ],
-      "priorityScore": 6,
-      "priorityBand": "medium",
-      "priorityReasons": [
-        "Supplier mention: W\u00e4rtsil\u00e4",
-        "Signal: Commercial"
-      ],
-      "boardBucket": "Other Relevant"
     },
     {
       "id": "b049e9bbffcf2c7f",
@@ -2362,36 +2200,6 @@ window.__DASHBOARD_DATA__ = {
       "boardBucket": "Regulation, Safety & Incidents"
     },
     {
-      "id": "d10e7023eec0a130",
-      "title": "World\u2019s first ammonia port-to-ship bunkering for dual-fuel gas carrier wraps up in Korea",
-      "source": "Offshore Energy",
-      "sourceId": "offshore-energy",
-      "url": "https://www.offshore-energy.biz/worlds-first-ammonia-port-to-ship-bunkering-for-dual-fuel-gas-carrier-wraps-up-in-korea/",
-      "publishedAt": "2026-04-28T10:29:37Z",
-      "excerpt": "Ulsan Port Authority (UPA), which manages and operates South Korea's largest industrial port complex, has revealed the Asian country\u2019s latest leap toward cleaner maritime fuel solutions in the global shipping energy transition by completin\u2026",
-      "tags": [
-        "Clean Propulsion",
-        "Sustainability",
-        "Energy-Transition",
-        "Technology"
-      ],
-      "audience": "Novatug",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [
-        "Regulation",
-        "Energy Transition"
-      ],
-      "priorityScore": 5,
-      "priorityBand": "medium",
-      "priorityReasons": [
-        "Signal: Regulation",
-        "Signal: Energy Transition"
-      ],
-      "boardBucket": "Regulation, Safety & Incidents"
-    },
-    {
       "id": "b4103a3f79b2af4f",
       "title": "Energy crunch pays off for BP with doubled Q1 2026 profits",
       "source": "Baird Maritime",
@@ -2704,39 +2512,6 @@ window.__DASHBOARD_DATA__ = {
       "boardBucket": "Regulation, Safety & Incidents"
     },
     {
-      "id": "5cde7cea280d058a",
-      "title": "Shell enriches gas business with $16.4 billion ARC Resources takeover",
-      "source": "Offshore Energy",
-      "sourceId": "offshore-energy",
-      "url": "https://www.offshore-energy.biz/shell-enriches-gas-business-with-16-4-billion-arc-resources-takeover/",
-      "publishedAt": "2026-04-27T12:47:45Z",
-      "excerpt": "UK-headquartered energy giant Shell has made a move to strengthen its liquefied natural gas (LNG) arsenal through a multibillion-dollar cash\u2011and\u2011share deal for the acquisition of Canada-based ARC Resources. The post Shell enriches gas busi\u2026",
-      "tags": [
-        "Energy-Transition",
-        "Technology"
-      ],
-      "audience": "Novatug",
-      "paywalled": false,
-      "entities": [
-        {
-          "name": "Shell Nederland",
-          "category": "suppliers"
-        }
-      ],
-      "locations": [],
-      "businessTags": [
-        "Supplier",
-        "Commercial"
-      ],
-      "priorityScore": 5,
-      "priorityBand": "medium",
-      "priorityReasons": [
-        "Supplier mention: Shell Nederland",
-        "Signal: Commercial"
-      ],
-      "boardBucket": "Other Relevant"
-    },
-    {
       "id": "e7914371edcc03e7",
       "title": "Slight decline throughput Port of Rotterdam",
       "source": "SWZ Maritime",
@@ -2955,6 +2730,37 @@ window.__DASHBOARD_DATA__ = {
         "Signal: Energy Transition"
       ],
       "boardBucket": "Regulation, Safety & Incidents"
+    },
+    {
+      "id": "dae174e47e7c3f8c",
+      "title": "Damen agrees TSHD build for Associated British Ports - Maritime Journal",
+      "source": "Damen Shipyards News",
+      "sourceId": "google-damen",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOeUI5NlhMMmpOdzg2UndHdWd1UkMzWWNXR25vZ2M4ZnZQWV95TmdCSkJyZWc0ZmJ0eEs1LXBpbGJlYXc2SXVfRGZFMnp6QVlia0o3MHZ2RHlNLWRxRVF6bmZWM2dGT2ZLX0pfa3VPOXVTRVpxNnlSYlp3UkdNZjQ1OEdjWkJ4MjZjalV6WmpQWjUwM1JwYUNic055clB1SXN6Q3h2NTVicENib2hI?oc=5",
+      "publishedAt": "2026-04-24T10:52:10Z",
+      "excerpt": "Damen agrees TSHD build for Associated British Ports Maritime Journal",
+      "tags": [
+        "Shipbuilding",
+        "Supplier"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [
+        {
+          "name": "Damen Shipyards Group",
+          "category": "suppliers"
+        }
+      ],
+      "locations": [],
+      "businessTags": [
+        "Supplier"
+      ],
+      "priorityScore": 5,
+      "priorityBand": "medium",
+      "priorityReasons": [
+        "Supplier mention: Damen Shipyards Group"
+      ],
+      "boardBucket": "Other Relevant"
     },
     {
       "id": "a68f71d87707be9b",
@@ -3781,13 +3587,13 @@ window.__DASHBOARD_DATA__ = {
       "boardBucket": "Other Relevant"
     },
     {
-      "id": "92a8d13ab8f0219a",
-      "title": "KONGSBERG MARITIME ASA Cash Flow \u2013 OSL:KMAR - TradingView",
+      "id": "a573e6a75a1d7a09",
+      "title": "KONGSBERG MARITIME ASA Cash Flow \u2013 TURQUOISE:KMARO - TradingView",
       "source": "Kongsberg Maritime News",
       "sourceId": "google-kongsberg",
-      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE96U0hfVkJqMGtpQlljVXpMOS13MFhwd2N6M0RqVWpFbnItZFY4alJ2THUxTFhGQ2NWdHNLNlUydnlJY3lWZEdaX0FBakEzcnllNXNFNVFTWnlSUmZzTUNON0czV1NhR1hFYlZuTW1qY3hUcHFw?oc=5",
-      "publishedAt": "2026-04-26T01:44:27Z",
-      "excerpt": "KONGSBERG MARITIME ASA Cash Flow \u2013 OSL:KMAR TradingView",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5lTUVtc1pWTlFGWFdTTUFqdXluQ1lHZnJrNF9kdTdRZ01nczZwQ3ppUmRwZGNhM0h4STlmV3plQ2lwNGhaaHl1LXh6RjVTRVZlajVzZ1B0WHVGZmE5TEo4NF93RExJNGZDT1BtanA1eEJVVm5KM3U4VUItZ00wQQ?oc=5",
+      "publishedAt": "2026-04-25T18:34:06Z",
+      "excerpt": "KONGSBERG MARITIME ASA Cash Flow \u2013 TURQUOISE:KMARO TradingView",
       "tags": [
         "Technology",
         "Supplier"
@@ -4678,6 +4484,31 @@ window.__DASHBOARD_DATA__ = {
       "boardBucket": "Other Relevant"
     },
     {
+      "id": "aded5adbab5512b6",
+      "title": "Ocean7 Ranger kickstarts Duluth\u2019s 2026 navigation season - Heavy Lift & Project Forwarding International",
+      "source": "Sarens News",
+      "sourceId": "google-sarens",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPaU93LUdXQzRTSHdQNE14TkhtMmItSElYYnU0MU1yZlNJMzZ2TGlVMGJkZlZfYjJSMUY1ZEx1Rm96a25OQXllSkdjU3RMd1ViSFBCdWh0NnFlRjRuX1AxU3NXSFU5NS0tQVR1ekJSTEUxSjdhWjkybU5rd2c5d0tzRHRKSVZJQXducURKM25SMl9UUkFtc000SFl3S0NDb2V2VU9za3laTTNYZ2h6dVZOdWJVWHZUVjQ?oc=5",
+      "publishedAt": "2026-04-10T09:48:29Z",
+      "excerpt": "Ocean7 Ranger kickstarts Duluth\u2019s 2026 navigation season Heavy Lift & Project Forwarding International",
+      "tags": [
+        "Heavy-Lift"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [
+        "Commercial"
+      ],
+      "priorityScore": 4,
+      "priorityBand": "medium",
+      "priorityReasons": [
+        "Signal: Commercial"
+      ],
+      "boardBucket": "Other Relevant"
+    },
+    {
       "id": "016bd81df2772304",
       "title": "MEPC 84 agenda includes new BWMS approvals",
       "source": "Riviera: Regulations & Compliance",
@@ -5000,6 +4831,32 @@ window.__DASHBOARD_DATA__ = {
       "boardBucket": "Other Relevant"
     },
     {
+      "id": "906d5f120d153e06",
+      "title": "Petrodec\u2019s OBANA Resumes Decom Work with Perenco in North Sea",
+      "source": "MarineLink",
+      "sourceId": "marinelink",
+      "url": "https://www.marinelink.com/news/petrodecs-obana-resumes-decom-work-538530",
+      "publishedAt": "2026-04-28T11:13:15Z",
+      "excerpt": "Petrodec, a specialist in integrated solutions for decommissioning and part of the Dixstone group, has started its second decommissioning project for Perenco UK with its OBANA jack-up platform, moving to the Pickerill field in the UK South\u2026",
+      "tags": [
+        "Maritime",
+        "Industry"
+      ],
+      "audience": "Both",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [
+        "Commercial"
+      ],
+      "priorityScore": 3,
+      "priorityBand": "low",
+      "priorityReasons": [
+        "Signal: Commercial"
+      ],
+      "boardBucket": "Other Relevant"
+    },
+    {
       "id": "2c79d1db2c751913",
       "title": "ONGC Cancels Rig Tender, Alleging \"Collusive\" Bidding Practices",
       "source": "The Maritime Executive",
@@ -5224,6 +5081,29 @@ window.__DASHBOARD_DATA__ = {
       "boardBucket": "Other Relevant"
     },
     {
+      "id": "5214941caf185bbe",
+      "title": "Mooreast to Divest Property, Boost Offshore Wind Expansion",
+      "source": "MarineLink",
+      "sourceId": "marinelink",
+      "url": "https://www.marinelink.com/news/mooreast-divest-property-boost-offshore-538531",
+      "publishedAt": "2026-04-28T11:58:29Z",
+      "excerpt": "Mooring and anchoring specialist Mooreast Holdings has granted an option to sell its leasehold property in Singapore for $23.3 million, aiming to boost offshore wind activities at new location.The company said it expects net proceeds of ab\u2026",
+      "tags": [
+        "Port Services",
+        "Maritime",
+        "Industry"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [],
+      "priorityScore": 2,
+      "priorityBand": "low",
+      "priorityReasons": [],
+      "boardBucket": "Other Relevant"
+    },
+    {
       "id": "976315644ad3181f",
       "title": "Eckero Group posts Q1 2026 loss following vessel refurbishment",
       "source": "Baird Maritime",
@@ -5356,33 +5236,6 @@ window.__DASHBOARD_DATA__ = {
       "boardBucket": "Other Relevant"
     },
     {
-      "id": "e9cf4e0962b01be6",
-      "title": "Four more wells set to come online in months ahead offshore Ghana",
-      "source": "Offshore Energy",
-      "sourceId": "offshore-energy",
-      "url": "https://www.offshore-energy.biz/four-more-wells-set-to-come-online-in-months-ahead-offshore-ghana/",
-      "publishedAt": "2026-04-28T09:30:43Z",
-      "excerpt": "Tullow Ghana Limited (TGL), a subsidiary of the UK-headquartered Tullow Oil, an independent energy company with operations in West Africa, has confirmed its timeline for putting four wells into production mode at a field off the coast of G\u2026",
-      "tags": [
-        "Operations",
-        "Energy-Transition",
-        "Technology"
-      ],
-      "audience": "Novatug",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [
-        "Operations"
-      ],
-      "priorityScore": 2,
-      "priorityBand": "low",
-      "priorityReasons": [
-        "Signal: Operations"
-      ],
-      "boardBucket": "Other Relevant"
-    },
-    {
       "id": "6fc04938d0145230",
       "title": "Chinese naval presence near strait prompts Taiwanese military response",
       "source": "Baird Maritime",
@@ -5412,6 +5265,94 @@ window.__DASHBOARD_DATA__ = {
       "url": "https://www.bairdmaritime.com/offshore/renewables/offshore-wind/us-trades-offshore-wind-leases-for-885m-oil-and-gas-investments",
       "publishedAt": "2026-04-28T09:24:06Z",
       "excerpt": "President Donald Trump's administration said on Monday that it had reached a deal to end two more US offshore wind leases in exchange for $885 million in pledged investments in domestic fossil fuels. The projects, one in the Atlantic and o\u2026",
+      "tags": [
+        "Workboats",
+        "Technology"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [],
+      "priorityScore": 2,
+      "priorityBand": "low",
+      "priorityReasons": [],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "29a14d70c7f937a7",
+      "title": "Russia-Linked LNG Carriers Head North After Reflagging, Signalling Arctic Fleet Expansion",
+      "source": "gCaptain",
+      "sourceId": "gcaptain",
+      "url": "https://gcaptain.com/russia-linked-lng-carriers-head-north-after-reflagging-signalling-arctic-fleet-expansion/",
+      "publishedAt": "2026-04-28T09:22:55Z",
+      "excerpt": "Four recently reflagged liquefied natural gas (LNG) carriers linked to new Turkish-controlled entities are heading north in the Atlantic, in what analysts say could mark a new push in Russia\u2019s effort to expand its constrained export fleet.",
+      "tags": [
+        "Maritime",
+        "Operations"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [],
+      "priorityScore": 2,
+      "priorityBand": "low",
+      "priorityReasons": [],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "1fcaff5b80729c9b",
+      "title": "Tensions over grain shipment rise as Ukraine summons Israeli envoy",
+      "source": "Baird Maritime",
+      "sourceId": "baird-maritime",
+      "url": "https://www.bairdmaritime.com/shipping/dry-cargo/bulkers/tensions-over-grain-shipment-rise-as-ukraine-summons-israeli-envoy",
+      "publishedAt": "2026-04-28T09:14:58Z",
+      "excerpt": "Ukrainian Foreign Minister Andrii Sybiha said on Monday that Israel's ambassador had been summoned to his ministry over what he described as Israeli inaction in allowing shipments of grain to enter the country from Russian-occupied Ukraine\u2026",
+      "tags": [
+        "Workboats",
+        "Technology"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [],
+      "priorityScore": 2,
+      "priorityBand": "low",
+      "priorityReasons": [],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "0304f2f0035b236f",
+      "title": "Trump to Address Iran Proposal \u2018Soon\u2019 as Oil Rises Further",
+      "source": "gCaptain",
+      "sourceId": "gcaptain",
+      "url": "https://gcaptain.com/trump-to-address-iran-proposal-soon-as-oil-rises-further/",
+      "publishedAt": "2026-04-28T09:13:53Z",
+      "excerpt": "US President Donald Trump convened his national security team to discuss Iran\u2019s proposal to end a war now in its third month and which has left thousands dead across the Middle East, as well as disrupted energy supplies.",
+      "tags": [
+        "Maritime",
+        "Operations"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [],
+      "priorityScore": 2,
+      "priorityBand": "low",
+      "priorityReasons": [],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "5c64c2714aaacd76",
+      "title": "VESSEL REVIEW | Emerald Clipper \u2013 Catamaran providing enhanced passenger views for whale-watching in Washington's Puget Sound",
+      "source": "Baird Maritime",
+      "sourceId": "baird-maritime",
+      "url": "https://www.bairdmaritime.com/passenger/maritime-tourism/vessel-review-emerald-clipper-catamaran-providing-enhanced-passenger-views-for-whale-watching-in-washingtons-puget-sound",
+      "publishedAt": "2026-04-28T08:56:00Z",
+      "excerpt": "Seattle-based tour operator FRS Clipper has taken delivery of a new catamaran vessel built by Mavrik Marine of La Conner, Washington. The 103-foot (31.4-metre), all-aluminium Emerald Clipper was designed by One2Three Naval Architects of Au\u2026",
       "tags": [
         "Workboats",
         "Technology"
