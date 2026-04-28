@@ -1,12 +1,13 @@
 {
-  "generatedAt": "2026-04-28T13:01:45.559677Z",
+  "generatedAt": "2026-04-28T14:13:17.440481Z",
   "lookbackDays": 30,
-  "cutoffAt": "2026-03-29T13:01:45.559677Z",
+  "cutoffAt": "2026-03-29T14:13:17.440481Z",
   "articleCount": 180,
-  "sourceCount": 119,
+  "sourceCount": 120,
   "sources": [
     "Africa Ports & Ships",
     "Baird Maritime",
+    "Boluda News",
     "Boskalis News",
     "DEME Group News",
     "DFDS News",
@@ -18,6 +19,7 @@
     "Logistiek.nl: News",
     "Maersk Tankers News",
     "MarineLink",
+    "Muller Dordrecht Web Watch",
     "North Sea Port News",
     "Offshore Energy",
     "Oldendorff Carriers News",
@@ -31,9 +33,11 @@
     "Sarens News",
     "Splash247",
     "Svitzer News",
+    "TenderNed Maritime Tenders",
     "The Maritime Executive",
     "Ultrabulk News",
     "Van Oord News",
+    "Vlissingse Bootlieden Web Watch",
     "W\u00e4rtsil\u00e4 News",
     "Zeeland Connect News",
     "gCaptain"
@@ -52,6 +56,7 @@
     "Energy",
     "Energy-Transition",
     "Ferry",
+    "Government",
     "Heavy-Lift",
     "Imo",
     "Incidents",
@@ -68,6 +73,7 @@
     "Offshore",
     "Operations",
     "Ports",
+    "Procurement",
     "Propulsion",
     "Regulation",
     "Safety",
@@ -78,6 +84,7 @@
     "Sustainability",
     "Tankers",
     "Technology",
+    "Tender",
     "Terminals",
     "Towage",
     "Workboats",
@@ -388,35 +395,6 @@
       "priorityReasons": [
         "Core port watch: North Sea Port",
         "Core port watch: Ghent"
-      ],
-      "boardBucket": "High Priority"
-    },
-    {
-      "id": "be561d477790da48",
-      "title": "Russia's Tuapse refinery ablaze again following Ukrainian drone strike",
-      "source": "Baird Maritime",
-      "sourceId": "baird-maritime",
-      "url": "https://www.bairdmaritime.com/security/incidents/acts-of-war/russias-tuapse-refinery-ablaze-again-following-ukrainian-drone-strike",
-      "publishedAt": "2026-04-28T09:51:31Z",
-      "excerpt": "A Ukrainian drone attack has caused a \"large-scale fire\" at Russia's Tuapse oil refinery on the Black Sea, forcing the evacuation of nearby buildings, local officials said on Tuesday. The Rosneft-owned refinery delivers oil products mainly\u2026",
-      "tags": [
-        "Incidents",
-        "Workboats",
-        "Technology"
-      ],
-      "audience": "Multraship",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [
-        "Incident",
-        "Disruption"
-      ],
-      "priorityScore": 10,
-      "priorityBand": "high",
-      "priorityReasons": [
-        "Signal: Incident",
-        "Signal: Disruption"
       ],
       "boardBucket": "High Priority"
     },
@@ -824,6 +802,42 @@
       "boardBucket": "Regulation, Safety & Incidents"
     },
     {
+      "id": "db509232a41368cc",
+      "title": "31192075 Helmond vervanging sluisdeuren - Rijkswaterstaat Programma's, Projecten en Onderhoud",
+      "source": "TenderNed Maritime Tenders",
+      "sourceId": "tenderned-maritime",
+      "url": "",
+      "publishedAt": "2026-04-28T08:59:30.303000Z",
+      "excerpt": "Type publicatie: EF38 | Publicatiedatum: 28-04-2026 | Type opdracht: Werken | Sluitingsdatum: 07-05-2024 | Plaats van uitvoering: Noord-Brabant NL41 | Procedure: Openbaar | CPV: Bouwwerkzaamheden",
+      "tags": [
+        "Operations",
+        "Tender",
+        "Procurement",
+        "Government",
+        "Maritime"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [
+        {
+          "name": "Rijkswaterstaat",
+          "category": "clients"
+        }
+      ],
+      "locations": [],
+      "businessTags": [
+        "Client",
+        "Operations"
+      ],
+      "priorityScore": 8,
+      "priorityBand": "medium",
+      "priorityReasons": [
+        "Client mention: Rijkswaterstaat",
+        "Signal: Operations"
+      ],
+      "boardBucket": "Clients & Projects"
+    },
+    {
       "id": "ea5da17e7ed85385",
       "title": "TotalEnergies Greenlights Battery-Backed Wind Project in Kazakhstan",
       "source": "Rigzone",
@@ -860,6 +874,72 @@
       "boardBucket": "Clients & Projects"
     },
     {
+      "id": "e348e2875305337d",
+      "title": "Boluda Towage expands Southeast Asia footprint with Seatrium acquisition - Container News",
+      "source": "Boluda News",
+      "sourceId": "google-boluda",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQdXh4djRUdVFHS1oyeVR5Z1haVnVyYUN1WXBrYUtJLWJtOE8yX25Fd0hsQnEzTkZnTWRacElPVGlNR3lUaHdEUHRWTTB3bjlVVWI2S0padmtyNVhMc2kyQXRkQmNEbzJpQTRTWVlsZEFwUkw2UlpQb3ZIWnFTcnlMZ1UzR0EtUDZuVG94bllqR19fVXVacnl3RUJ5QWd5QXVKb0E?oc=5",
+      "publishedAt": "2026-04-26T06:00:52Z",
+      "excerpt": "Boluda Towage expands Southeast Asia footprint with Seatrium acquisition Container News",
+      "tags": [
+        "Towage",
+        "Competitor"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [
+        {
+          "name": "Boluda",
+          "category": "competitors"
+        }
+      ],
+      "locations": [],
+      "businessTags": [
+        "Competitor",
+        "Commercial"
+      ],
+      "priorityScore": 8,
+      "priorityBand": "medium",
+      "priorityReasons": [
+        "Competitor mention: Boluda",
+        "Signal: Commercial"
+      ],
+      "boardBucket": "Competitors & Market"
+    },
+    {
+      "id": "626a56fd203060f4",
+      "title": "News Content Hub - Boluda continues acquisition push with addition of Seatrium tug fleet - rivieramm.com",
+      "source": "Boluda News",
+      "sourceId": "google-boluda",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNRzZBRDUtQVhISFpTbW1ONXMtTFBicGozMkd2Y2xKQUIxYjBTLXd0MXVtdno3bGkwYVJxU1Q1UUlRQ2Y2c3p5UmdmM1M5WkNGM25pb0dHdG95MjFjNXRncEhjSjRodGNCanV6YS1GcXQyem1Mc2MtLWxlTGNRUURJNEdiYVg0NFFBNWpzaW1jUHpPLWYtbUZIZ1JEbnhTZncxM3N3QjJwNUFyMm1xSUNtcGN5SWtVbG9hNGZHMVpwNGk0ZTBJZV9lSTM5WV9XcHdr?oc=5",
+      "publishedAt": "2026-04-24T11:09:23Z",
+      "excerpt": "News Content Hub - Boluda continues acquisition push with addition of Seatrium tug fleet rivieramm.com",
+      "tags": [
+        "Towage",
+        "Competitor"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [
+        {
+          "name": "Boluda",
+          "category": "competitors"
+        }
+      ],
+      "locations": [],
+      "businessTags": [
+        "Competitor",
+        "Commercial"
+      ],
+      "priorityScore": 8,
+      "priorityBand": "medium",
+      "priorityReasons": [
+        "Competitor mention: Boluda",
+        "Signal: Commercial"
+      ],
+      "boardBucket": "Competitors & Market"
+    },
+    {
       "id": "d5f15867c60ce9bc",
       "title": "BREAKING NEWS: Damen to build new TSHD for UK Dredging - Dredging Today",
       "source": "Damen Shipyards News",
@@ -891,38 +971,6 @@
         "Signal: Infrastructure"
       ],
       "boardBucket": "Regulation, Safety & Incidents"
-    },
-    {
-      "id": "669c13b4e53c9e10",
-      "title": "Sarens\u2019 ACBT role highlights Canada\u2019s offshore wind potential - Heavy Lift & Project Forwarding International",
-      "source": "Sarens News",
-      "sourceId": "google-sarens",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPQXkzblFpaVJIOW9ERVZLTXZkLTc1Sy1jcjBRTzhRVzdENElFVHdId3JvbEJFZm9XVUV5X0V1ZTRGbFkwYUNXalpkaEk5SlJ5MUswaWJ3ZVlvQlRqNlRwWFFpeWtVUV93SWlETkpSc1BBZWlZcGhQbHN1bm95YVZ1aXJqaFlORTZ1Z2tPdTlERkYxb0dzYmZaU0RCU1g3SGFIZVVwUUJuLTYzaDA2Qmc?oc=5",
-      "publishedAt": "2026-04-23T10:32:59Z",
-      "excerpt": "Sarens\u2019 ACBT role highlights Canada\u2019s offshore wind potential Heavy Lift & Project Forwarding International",
-      "tags": [
-        "Heavy-Lift"
-      ],
-      "audience": "Multraship",
-      "paywalled": false,
-      "entities": [
-        {
-          "name": "Sarens",
-          "category": "clients"
-        }
-      ],
-      "locations": [],
-      "businessTags": [
-        "Client",
-        "Commercial"
-      ],
-      "priorityScore": 8,
-      "priorityBand": "medium",
-      "priorityReasons": [
-        "Client mention: Sarens",
-        "Signal: Commercial"
-      ],
-      "boardBucket": "Clients & Projects"
     },
     {
       "id": "7287d0d2b602edcf",
@@ -1210,6 +1258,126 @@
         "Signal: Infrastructure"
       ],
       "boardBucket": "Regulation, Safety & Incidents"
+    },
+    {
+      "id": "1f87367218034689",
+      "title": "Emergency Response & Salvage",
+      "source": "Muller Dordrecht Web Watch",
+      "sourceId": "webwatch-rederij-muller",
+      "url": "https://muller-dordrecht.nl/services/emergency-response-salvage",
+      "publishedAt": "2026-04-28T13:59:05.537487Z",
+      "excerpt": "Tracked page link found on source page.",
+      "tags": [
+        "Salvage",
+        "Towage",
+        "Competitor"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [
+        "Incident"
+      ],
+      "priorityScore": 6,
+      "priorityBand": "medium",
+      "priorityReasons": [
+        "Signal: Incident"
+      ],
+      "boardBucket": "Regulation, Safety & Incidents"
+    },
+    {
+      "id": "661c77202a3fc1e6",
+      "title": "VLB Services Bedrijf leveringsvoorwaarden",
+      "source": "Vlissingse Bootlieden Web Watch",
+      "sourceId": "webwatch-vlissingse-bootlieden",
+      "url": "https://vlbvlissingen.nl/downloads/VLB_services_bedrijf_nl.pdf",
+      "publishedAt": "2026-04-28T13:59:05.537487Z",
+      "excerpt": "Tracked page link found on source page.",
+      "tags": [
+        "Towage",
+        "Competitor"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [
+        {
+          "name": "Vlissingse Bootlieden",
+          "category": "competitors"
+        }
+      ],
+      "locations": [],
+      "businessTags": [
+        "Competitor"
+      ],
+      "priorityScore": 6,
+      "priorityBand": "medium",
+      "priorityReasons": [
+        "Competitor mention: Vlissingse Bootlieden"
+      ],
+      "boardBucket": "Competitors & Market"
+    },
+    {
+      "id": "24dfd6eefa87b0b3",
+      "title": "VLB Services Bedrijf sleep- / duwcondities",
+      "source": "Vlissingse Bootlieden Web Watch",
+      "sourceId": "webwatch-vlissingse-bootlieden",
+      "url": "https://vlbvlissingen.nl/downloads/sleepcondities.pdf",
+      "publishedAt": "2026-04-28T13:59:05.537487Z",
+      "excerpt": "Tracked page link found on source page.",
+      "tags": [
+        "Towage",
+        "Competitor"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [
+        {
+          "name": "Vlissingse Bootlieden",
+          "category": "competitors"
+        }
+      ],
+      "locations": [],
+      "businessTags": [
+        "Competitor"
+      ],
+      "priorityScore": 6,
+      "priorityBand": "medium",
+      "priorityReasons": [
+        "Competitor mention: Vlissingse Bootlieden"
+      ],
+      "boardBucket": "Competitors & Market"
+    },
+    {
+      "id": "45c690c3bfbe60d1",
+      "title": "VLB Services Bedrijf verhuur voorwaarden",
+      "source": "Vlissingse Bootlieden Web Watch",
+      "sourceId": "webwatch-vlissingse-bootlieden",
+      "url": "https://vlbvlissingen.nl/downloads/verhuurvoorwaarden-alle-materialen.pdf",
+      "publishedAt": "2026-04-28T13:59:05.537487Z",
+      "excerpt": "Tracked page link found on source page.",
+      "tags": [
+        "Towage",
+        "Competitor"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [
+        {
+          "name": "Vlissingse Bootlieden",
+          "category": "competitors"
+        }
+      ],
+      "locations": [],
+      "businessTags": [
+        "Competitor"
+      ],
+      "priorityScore": 6,
+      "priorityBand": "medium",
+      "priorityReasons": [
+        "Competitor mention: Vlissingse Bootlieden"
+      ],
+      "boardBucket": "Competitors & Market"
     },
     {
       "id": "53acd2d072f79a4b",
@@ -1525,89 +1693,6 @@
       "boardBucket": "Regulation, Safety & Incidents"
     },
     {
-      "id": "e6b84c407704ceb2",
-      "title": "Fire ignites on bulk carrier at Wales' Newport Docks",
-      "source": "Baird Maritime",
-      "sourceId": "baird-maritime",
-      "url": "https://www.bairdmaritime.com/security/incidents/fire-ignites-on-bulk-carrier-at-wales-newport-docks",
-      "publishedAt": "2026-04-28T09:01:59Z",
-      "excerpt": "A cargo vessel suffered an onboard fire while berthed at Newport Docks in Wales on Sunday, April 26. Local authorities said that the cause of the fire on the Panamanian-flagged bulk carrier Nord Houston remains unknown, though they assured\u2026",
-      "tags": [
-        "Incidents",
-        "Workboats",
-        "Technology"
-      ],
-      "audience": "Multraship",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [
-        "Incident"
-      ],
-      "priorityScore": 6,
-      "priorityBand": "medium",
-      "priorityReasons": [
-        "Signal: Incident"
-      ],
-      "boardBucket": "Regulation, Safety & Incidents"
-    },
-    {
-      "id": "9f3faff4f7c52a90",
-      "title": "AWARDS 2025 | Best Fifi Boat \u2013 Sea Osprey I & II \u2013 Dundee Marine and Industrial Services",
-      "source": "Baird Maritime",
-      "sourceId": "baird-maritime",
-      "url": "https://www.bairdmaritime.com/security/emergency-services/firefighting/awards-2025-best-fifi-boat-sea-osprey-i-ii-dundee-marine-and-industrial-services",
-      "publishedAt": "2026-04-28T08:58:00Z",
-      "excerpt": "These two new high-speed firefighting and rescue boats were built locally by Dundee Marine and Industrial Services for operation around Singapore\u2019s Changi Airport by its Airport Emergency Service (AES) division. Their rapid response capabi\u2026",
-      "tags": [
-        "Salvage",
-        "Incidents",
-        "Workboats",
-        "Technology"
-      ],
-      "audience": "Multraship",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [
-        "Incident"
-      ],
-      "priorityScore": 6,
-      "priorityBand": "medium",
-      "priorityReasons": [
-        "Signal: Incident"
-      ],
-      "boardBucket": "Regulation, Safety & Incidents"
-    },
-    {
-      "id": "7d9f425f2ea5d4bd",
-      "title": "COLUMN | Towage and salvage in a world gone mad [Tug Times]",
-      "source": "Baird Maritime",
-      "sourceId": "baird-maritime",
-      "url": "https://www.bairdmaritime.com/tugs/harbour-tugs-and-operation/column-towage-and-salvage-in-a-world-gone-mad-tug-times",
-      "publishedAt": "2026-04-28T08:57:00Z",
-      "excerpt": "In recent weeks, I have found myself dwelling on events during the Iran-Iraq War of the early 1980s. Anyone who worked in the Persian Gulf during the so-called Tanker War will have similar horrible memories, but the casualties were not con\u2026",
-      "tags": [
-        "Towage",
-        "Salvage",
-        "Workboats",
-        "Technology"
-      ],
-      "audience": "Multraship",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [
-        "Incident"
-      ],
-      "priorityScore": 6,
-      "priorityBand": "medium",
-      "priorityReasons": [
-        "Signal: Incident"
-      ],
-      "boardBucket": "Regulation, Safety & Incidents"
-    },
-    {
       "id": "ce5876ce85483ff5",
       "title": "Kongsberg Maritime wins French Navy contract - Maritime Journal",
       "source": "Kongsberg Maritime News",
@@ -1639,33 +1724,6 @@
         "Signal: Commercial"
       ],
       "boardBucket": "Other Relevant"
-    },
-    {
-      "id": "bb6d8a8725559bf5",
-      "title": "Salvage effort begins on grounded trawler on Ireland's western coast",
-      "source": "Baird Maritime",
-      "sourceId": "baird-maritime",
-      "url": "https://www.bairdmaritime.com/security/emergency-services/salvage/salvage-effort-begins-on-grounded-trawler-on-irelands-western-coast",
-      "publishedAt": "2026-04-28T08:44:49Z",
-      "excerpt": "Salvors have begun an operation to remove the wreckage of a fishing vessel that had become stranded on the Dingle Peninsula on Ireland's western coast after it ran aground in rough seas late last year. The French-flagged, Spanish-owned bot\u2026",
-      "tags": [
-        "Salvage",
-        "Workboats",
-        "Technology"
-      ],
-      "audience": "Multraship",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [
-        "Incident"
-      ],
-      "priorityScore": 6,
-      "priorityBand": "medium",
-      "priorityReasons": [
-        "Signal: Incident"
-      ],
-      "boardBucket": "Regulation, Safety & Incidents"
     },
     {
       "id": "c63b66060d9bb027",
@@ -1734,6 +1792,68 @@
       "boardBucket": "Other Relevant"
     },
     {
+      "id": "4e3caf23e38bac29",
+      "title": "Boluda takes control of Seatrium\u2019s towage fleet in Singapore - Seatrade Maritime News",
+      "source": "Boluda News",
+      "sourceId": "google-boluda",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPZVRZb1drSUtJdDlaLW1RcTFqM0pxUGlab0d3QVN5RWtPQjVIM1ROMnk2Zi1JNlFuY0F2dW9jYmppVVJ6RkFwRXk5YmNxWjdLMGJoTEl0bnlTQUVCdjRFN09yTTQzY09FZnljMENCUE5PUlVPTmpKRDg3ZEFlZDVNMXpWRnJ5WGFsUFBic250Q095OVpIY3NYc1ZEaTcteHhybms2R3RzNURJb3VTWS04?oc=5",
+      "publishedAt": "2026-04-28T07:24:44Z",
+      "excerpt": "Boluda takes control of Seatrium\u2019s towage fleet in Singapore Seatrade Maritime News",
+      "tags": [
+        "Towage",
+        "Competitor"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [
+        {
+          "name": "Boluda",
+          "category": "competitors"
+        }
+      ],
+      "locations": [],
+      "businessTags": [
+        "Competitor"
+      ],
+      "priorityScore": 6,
+      "priorityBand": "medium",
+      "priorityReasons": [
+        "Competitor mention: Boluda"
+      ],
+      "boardBucket": "Competitors & Market"
+    },
+    {
+      "id": "23e6fe91ca651a42",
+      "title": "Boluda expands in Singapore - Daily Cargo News",
+      "source": "Boluda News",
+      "sourceId": "google-boluda",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1pcDR3QVNXMlVIb20zTi1GTzUzeTk2YTZEeEpYa1ZrZG1LaXZsTUFTMmFON3pGempRTWlxZjdoLTFZbS1nclp1YUttWjJaOHBnODRjeXo0MFVtUGJTTlFFcHJxUnJsWVczRHfSAXpBVV95cUxNaDFXWUFkTWR4d2RWVnY3Y2l0V3V2TC05Q0tFamxaQWlST0k4UnJCT2hJNHg4U3RlMkFjSGRabUlrTkdXOFFxT3pmSG9OQU1vbjNuMjdoUWNJZ1kzeGhJZGdqMEdwNG14eDhKQnRYejI3ZUZyLTVkMTBydw?oc=5",
+      "publishedAt": "2026-04-28T05:55:55Z",
+      "excerpt": "Boluda expands in Singapore Daily Cargo News",
+      "tags": [
+        "Towage",
+        "Competitor"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [
+        {
+          "name": "Boluda",
+          "category": "competitors"
+        }
+      ],
+      "locations": [],
+      "businessTags": [
+        "Competitor"
+      ],
+      "priorityScore": 6,
+      "priorityBand": "medium",
+      "priorityReasons": [
+        "Competitor mention: Boluda"
+      ],
+      "boardBucket": "Competitors & Market"
+    },
+    {
       "id": "c238900ded0de1b0",
       "title": "W\u00e4rtsil\u00e4 and Erik Thun Group partnership to enhance reliability, sustainability and performance throughout the fleet - DredgeWire",
       "source": "W\u00e4rtsil\u00e4 News",
@@ -1795,38 +1915,35 @@
       "boardBucket": "Regulation, Safety & Incidents"
     },
     {
-      "id": "009da85ce5c00c2d",
-      "title": "W\u00e4rtsil\u00e4 to Supply Cargo Handling and Fuel Gas Systems for Ammonia-Fueled Gas Carriers in Navigator Gas - imarinenews.com",
-      "source": "W\u00e4rtsil\u00e4 News",
-      "sourceId": "google-wartsila",
-      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5Nczh5dHp6UHp2c3FtV3NwNHAtVVMwMkpXNWt5bFFxbXh4dWhkUVVSOHBRSW95REh4cEx4ZGZ2NmtRNzBpSER2RThsYlpFQm8?oc=5",
-      "publishedAt": "2026-04-27T01:20:28Z",
-      "excerpt": "W\u00e4rtsil\u00e4 to Supply Cargo Handling and Fuel Gas Systems for Ammonia-Fueled Gas Carriers in Navigator Gas imarinenews.com",
+      "id": "0f44d9bc8efae98d",
+      "title": "Towage giant Boluda snaps up Seatrium assets in Singapore - Splash247",
+      "source": "Boluda News",
+      "sourceId": "google-boluda",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQU2dOLTJBRUVTQWV6U2xxeTRWT1Y5S2ktTm5uVE9tSnpVYzQwU1B3UV9KeWpIcDJUUHcwQXZVRTVEYlpONmtQY2paTXd2YkhBWm91eWlBY1g2RHhydVY0U3hxdGNiOWFsU3VwTmdXTmFDOXpoeGUtM2R3Rl9XakJQWVotVkdiM0k?oc=5",
+      "publishedAt": "2026-04-26T22:36:16Z",
+      "excerpt": "Towage giant Boluda snaps up Seatrium assets in Singapore Splash247",
       "tags": [
-        "Clean Propulsion",
-        "Propulsion",
-        "Technology"
+        "Towage",
+        "Competitor"
       ],
-      "audience": "Both",
+      "audience": "Multraship",
       "paywalled": false,
       "entities": [
         {
-          "name": "W\u00e4rtsil\u00e4",
-          "category": "suppliers"
+          "name": "Boluda",
+          "category": "competitors"
         }
       ],
       "locations": [],
       "businessTags": [
-        "Supplier",
-        "Energy Transition"
+        "Competitor"
       ],
       "priorityScore": 6,
       "priorityBand": "medium",
       "priorityReasons": [
-        "Supplier mention: W\u00e4rtsil\u00e4",
-        "Signal: Energy Transition"
+        "Competitor mention: Boluda"
       ],
-      "boardBucket": "Other Relevant"
+      "boardBucket": "Competitors & Market"
     },
     {
       "id": "31a9fc7f646f7089",
@@ -1863,6 +1980,68 @@
       "boardBucket": "Other Relevant"
     },
     {
+      "id": "de186620d2b63f2b",
+      "title": "Bencros Delivers Fast On-Site Fender Replacement For Boluda - Ocean News & Technology",
+      "source": "Boluda News",
+      "sourceId": "google-boluda",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNb044MEJlNzRwcERpR3E4cWhfbTBEcWN0eWYzallENVJZYUloaWt1LVJEU0NpTXRGZkpURUFWVG9lNE5LMFg3MVc5cHowOTRmNFdRbFlSYkV4UFd5bGkzWDVnQmlYS2ZEZ29BZnhJZE9jSG1YWkJMMzhZZEc1THh2VnpHdHQ4eG11X0NHSm03c0xvTmVaMy1rQllCdTQ4aFU?oc=5",
+      "publishedAt": "2026-04-24T13:23:35Z",
+      "excerpt": "Bencros Delivers Fast On-Site Fender Replacement For Boluda Ocean News & Technology",
+      "tags": [
+        "Towage",
+        "Competitor"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [
+        {
+          "name": "Boluda",
+          "category": "competitors"
+        }
+      ],
+      "locations": [],
+      "businessTags": [
+        "Competitor"
+      ],
+      "priorityScore": 6,
+      "priorityBand": "medium",
+      "priorityReasons": [
+        "Competitor mention: Boluda"
+      ],
+      "boardBucket": "Competitors & Market"
+    },
+    {
+      "id": "885ad4f77205db09",
+      "title": "Bencros cuts downtime in three-tug fender replacement for Boluda - Portnews",
+      "source": "Boluda News",
+      "sourceId": "google-boluda",
+      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1wcjFjVkJjS3NHVlA0Y2N0WWJxa1VzdEszSU5TOGZTUDBhaWdjb0RyZS1faGJRN3ZhUG9UMXZRUUUzQnJOYVlvSjNBZw?oc=5",
+      "publishedAt": "2026-04-24T11:31:00Z",
+      "excerpt": "Bencros cuts downtime in three-tug fender replacement for Boluda Portnews",
+      "tags": [
+        "Towage",
+        "Competitor"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [
+        {
+          "name": "Boluda",
+          "category": "competitors"
+        }
+      ],
+      "locations": [],
+      "businessTags": [
+        "Competitor"
+      ],
+      "priorityScore": 6,
+      "priorityBand": "medium",
+      "priorityReasons": [
+        "Competitor mention: Boluda"
+      ],
+      "boardBucket": "Competitors & Market"
+    },
+    {
       "id": "f449cc0a66681aed",
       "title": "QatarEnergy-ExxonMobil Golden Pass LNG marks 'milestone' first cargo export",
       "source": "Riviera: Ports & Terminals",
@@ -1892,73 +2071,6 @@
         "Client mention: ExxonMobil"
       ],
       "boardBucket": "Clients & Projects"
-    },
-    {
-      "id": "69b2f01a935e94ca",
-      "title": "W\u00e4rtsil\u00e4, Erik Thun Agree Overhaul Partnership for Fleet Support - Marine News Magazine",
-      "source": "W\u00e4rtsil\u00e4 News",
-      "sourceId": "google-wartsila",
-      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE95anc1MnpsMFpMWllyc2pwTmJSNUFZTFJJcEc2Y3JGSzlxdXE5YVliOC0yeFhrX3VXZzFzNTlscmx4RlIwcE5mckhkSWZkMkFiNVdjRzhtQTBHOVZQTFJ5dDFnSC1LUkdFbGdCNG5KLVl2MGQ1SGM4NlBR?oc=5",
-      "publishedAt": "2026-04-23T09:41:25Z",
-      "excerpt": "W\u00e4rtsil\u00e4, Erik Thun Agree Overhaul Partnership for Fleet Support Marine News Magazine",
-      "tags": [
-        "Propulsion",
-        "Technology"
-      ],
-      "audience": "Both",
-      "paywalled": false,
-      "entities": [
-        {
-          "name": "W\u00e4rtsil\u00e4",
-          "category": "suppliers"
-        }
-      ],
-      "locations": [],
-      "businessTags": [
-        "Supplier",
-        "Commercial"
-      ],
-      "priorityScore": 6,
-      "priorityBand": "medium",
-      "priorityReasons": [
-        "Supplier mention: W\u00e4rtsil\u00e4",
-        "Signal: Commercial"
-      ],
-      "boardBucket": "Other Relevant"
-    },
-    {
-      "id": "b049e9bbffcf2c7f",
-      "title": "W\u00e4rtsil\u00e4 Selected for Ammonia Carrier Systems for Navigator Gas and Amon Maritime JV - ChemAnalyst",
-      "source": "W\u00e4rtsil\u00e4 News",
-      "sourceId": "google-wartsila",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNNkdhMDRNUmgxTU1Eb2FId2NHSFp3RzdVdnZKeF94WHphRUxqZlFVZTFEQk1LZ2U3aVlwZmU2djNnUGlXNFlwT1I3bmZVbGQ3MWhETFpHWG9CY1pDcmVPLVM1d3pRZ3JTcmg0X2JaVkFXYmV1OE5ZRXQ0WVZjOWlReXdPRFljMTJUVnpYYkFhM2VQQ3RkN19KcUYyTWZWMVdjQnFLT1pCa2U2OThSb3JXVmRac3Bxd0xENEpoUmw0OA?oc=5",
-      "publishedAt": "2026-04-23T08:51:23Z",
-      "excerpt": "W\u00e4rtsil\u00e4 Selected for Ammonia Carrier Systems for Navigator Gas and Amon Maritime JV ChemAnalyst",
-      "tags": [
-        "Clean Propulsion",
-        "Propulsion",
-        "Technology"
-      ],
-      "audience": "Both",
-      "paywalled": false,
-      "entities": [
-        {
-          "name": "W\u00e4rtsil\u00e4",
-          "category": "suppliers"
-        }
-      ],
-      "locations": [],
-      "businessTags": [
-        "Supplier",
-        "Energy Transition"
-      ],
-      "priorityScore": 6,
-      "priorityBand": "medium",
-      "priorityReasons": [
-        "Supplier mention: W\u00e4rtsil\u00e4",
-        "Signal: Energy Transition"
-      ],
-      "boardBucket": "Other Relevant"
     },
     {
       "id": "25008f9e32a836bb",
@@ -2021,74 +2133,6 @@
         "Core port watch: Rotterdam"
       ],
       "boardBucket": "Port Watch"
-    },
-    {
-      "id": "3a11a17e44d50559",
-      "title": "W\u00e4rtsil\u00e4 Gas Solutions to Provide Cargo Handling, Fuel Gas Supply for Two Ammonia Carriers - Marine News Magazine",
-      "source": "W\u00e4rtsil\u00e4 News",
-      "sourceId": "google-wartsila",
-      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9MeFpYYzJYd0tZWmpDRGxxQ3BRZUJGdWtqcGtSMnRNNEpKNDdkT2xiOTUtLU9qMzlrcGRyQnJSanM3U3kzbUduNS1sOF9pOFQ0U0lOaE5nX2JzZkY5MkZFUUZ0aExSa29vMGt3LTN1ZVdjdmFJR09TTnBCS2xNUQ?oc=5",
-      "publishedAt": "2026-04-22T13:19:50Z",
-      "excerpt": "W\u00e4rtsil\u00e4 Gas Solutions to Provide Cargo Handling, Fuel Gas Supply for Two Ammonia Carriers Marine News Magazine",
-      "tags": [
-        "Clean Propulsion",
-        "Propulsion",
-        "Technology"
-      ],
-      "audience": "Both",
-      "paywalled": false,
-      "entities": [
-        {
-          "name": "W\u00e4rtsil\u00e4",
-          "category": "suppliers"
-        }
-      ],
-      "locations": [],
-      "businessTags": [
-        "Supplier",
-        "Energy Transition"
-      ],
-      "priorityScore": 6,
-      "priorityBand": "medium",
-      "priorityReasons": [
-        "Supplier mention: W\u00e4rtsil\u00e4",
-        "Signal: Energy Transition"
-      ],
-      "boardBucket": "Other Relevant"
-    },
-    {
-      "id": "c3309570b197c81f",
-      "title": "W\u00e4rtsil\u00e4 Gas Solutions Cargo Handling and Fuel Gas Supply systems selected for two new midsize liquid ammonia carriers for Navigator Gas and Amon Maritime JV - W\u00e4rtsil\u00e4",
-      "source": "W\u00e4rtsil\u00e4 News",
-      "sourceId": "google-wartsila",
-      "url": "https://news.google.com/rss/articles/CBMitwJBVV95cUxNTFN5QXp0M0tSQ3NsNkVmOWZoWDVMYzhjZ1pTT0hzeFc1UlZBSDItaXRubWc0N2F2LVBxekNBUXE5OUcwWjktaGdoQy14akVidUNIR0luLXJQdURsQnJvMC1ReGlJazdGQXZrcWxLaGdMVE8zR3JJYXJqMDlXWnlOS2poRHppcXpQTGpXYVRKN3RrSXFTaGtlM1E2SHZiWUR3cGpzWDBzc0lRRmlLUTh2Nk0xUDdlZF82THdOeUJNZGRtQ0htaklPQlBaRjYzMEozTklNX095VWFxbWVKYVBhMUJMNWJ3N2Nab1o4UTVjdkZYbC0tSUlSOGIxNFNra09UNkRhVEx3R0g4QkZ1UjlSX1dDeHpCaEtXOFNjclc2aW1LeDhEUHdkSGljcHhRRGxpclozWTB0UQ?oc=5",
-      "publishedAt": "2026-04-22T09:00:00Z",
-      "excerpt": "W\u00e4rtsil\u00e4 Gas Solutions Cargo Handling and Fuel Gas Supply systems selected for two new midsize liquid ammonia carriers for Navigator Gas and Amon Maritime JV W\u00e4rtsil\u00e4",
-      "tags": [
-        "Clean Propulsion",
-        "Propulsion",
-        "Technology"
-      ],
-      "audience": "Both",
-      "paywalled": false,
-      "entities": [
-        {
-          "name": "W\u00e4rtsil\u00e4",
-          "category": "suppliers"
-        }
-      ],
-      "locations": [],
-      "businessTags": [
-        "Supplier",
-        "Energy Transition"
-      ],
-      "priorityScore": 6,
-      "priorityBand": "medium",
-      "priorityReasons": [
-        "Supplier mention: W\u00e4rtsil\u00e4",
-        "Signal: Energy Transition"
-      ],
-      "boardBucket": "Other Relevant"
     },
     {
       "id": "b36b265993654bf9",
@@ -2284,37 +2328,6 @@
       "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQOUZVdERnNGpiUWg2QWk2RVFTZlZ1Rkw3LTdOZU5EdVQ1cnhjNHR6NkJJa3U3V1hrUnpmcTl4MGs5RTFxX2RyblVDb2pOakdNUW9CdURZMEplRjl3OUMtR0U1VzlwOEVfc2NaUHlJRkxjbHNuNm9zLXNyRHpGOTV1bDFlZXBEMFUzSWo1eXl6c3hoT01TX0RzQVMtTmRjNDZpY3hPUTNn?oc=5",
       "publishedAt": "2026-04-15T17:58:27Z",
       "excerpt": "Svitzer\u2019s first three TRAnsverse tugs near 3,000 commercial tug job total Marine Log",
-      "tags": [
-        "Towage",
-        "Competitor"
-      ],
-      "audience": "Multraship",
-      "paywalled": false,
-      "entities": [
-        {
-          "name": "Svitzer",
-          "category": "competitors"
-        }
-      ],
-      "locations": [],
-      "businessTags": [
-        "Competitor"
-      ],
-      "priorityScore": 6,
-      "priorityBand": "medium",
-      "priorityReasons": [
-        "Competitor mention: Svitzer"
-      ],
-      "boardBucket": "Competitors & Market"
-    },
-    {
-      "id": "886d8c7b85dc7d36",
-      "title": "Executive Moves - Svitzer hires managing director in Brazil - rivieramm.com",
-      "source": "Svitzer News",
-      "sourceId": "google-svitzer",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQYjloSEx0Zk8taEw0RTJNeGJJYnlmYXRrTFRYLVpJejJhYWpUXzBFT19uX094cHNTUkdoZTVrUm5uWUNWMGQtQjJQUU5TLTlVOEFqMHE4MWNHX0ZNT0g3T3NxRTMtZWxEdXZWQXdYWFV6c0hnSUlqRVdKQVNIMnRERTN0NEUzM1p5LS1YRWcxcWV3bW10Z2RHdHE2MlZzcVBJUXdUaXlRSUZMaktLeDRfR3ZzUWpfbm9RYTY0?oc=5",
-      "publishedAt": "2026-04-15T01:01:32Z",
-      "excerpt": "Executive Moves - Svitzer hires managing director in Brazil rivieramm.com",
       "tags": [
         "Towage",
         "Competitor"
@@ -2693,37 +2706,6 @@
       "boardBucket": "Clients & Projects"
     },
     {
-      "id": "38b0cb246d822e71",
-      "title": "DEME publishes its annual report 2025; revenues over \u20ac4B and EBITDA margin over 22% - DredgeWire",
-      "source": "DEME Group News",
-      "sourceId": "google-deme",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNMFVSUzFQVXhrUkl2TTZfeVphMjRMampwNEJ0aUtsdnNKdDBvMy1IQUNma1oxQnNPVEdYdWdRZzdHSm5lOENIX25lZVdJTkc2cUYwSm5fc29kMzU0a3N6UmZJVjVNZUpsVGdaa2lySnlFVjQtZzM5WWc5LXJ6QVN6UU5lVHd4T2pGbllLd3lsNWFiTllsR0hWWmlfMjVzbkxtbWdLY0pJX0o?oc=5",
-      "publishedAt": "2026-03-31T07:00:00Z",
-      "excerpt": "DEME publishes its annual report 2025; revenues over \u20ac4B and EBITDA margin over 22% DredgeWire",
-      "tags": [
-        "Offshore",
-        "Marine-Construction"
-      ],
-      "audience": "Multraship",
-      "paywalled": false,
-      "entities": [
-        {
-          "name": "DEME Group",
-          "category": "clients"
-        }
-      ],
-      "locations": [],
-      "businessTags": [
-        "Client"
-      ],
-      "priorityScore": 6,
-      "priorityBand": "medium",
-      "priorityReasons": [
-        "Client mention: DEME Group"
-      ],
-      "boardBucket": "Clients & Projects"
-    },
-    {
       "id": "be984fc284c2c01b",
       "title": "DEME announces start of new share buyback program - GlobeNewswire",
       "source": "DEME Group News",
@@ -2817,13 +2799,13 @@
       "boardBucket": "Clients & Projects"
     },
     {
-      "id": "0f428dbd0187f285",
-      "title": "News Content Hub - Svitzer boosts ship handling in key Brazilian hub with new tugboat - rivieramm.com",
-      "source": "Svitzer News",
-      "sourceId": "google-svitzer",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNQnNHZVI4NUY4WDIxelhueW52QVNnWWhrMkdFZkFUWFY4U2c1bVA3cUlFZ2dyQjg5Y0ZPVVZXY0NaSmNjTkx6MmVNZW5VbkRVdjNwc3F3andCZVo5VmdaMkxNUm9mMVdBNXFEY3BJRmpPZzVyN0d3SG5ycjZMTHNxWlFjbHpLckdIMzhub2Z0TFAtbmcybDJaS05wcTgwWXdBT2g2UGNUZmFLbWxmMWwxM2I5SHRLdw?oc=5",
-      "publishedAt": "2026-03-30T16:43:13Z",
-      "excerpt": "News Content Hub - Svitzer boosts ship handling in key Brazilian hub with new tugboat rivieramm.com",
+      "id": "ec6e2b4e4762fcf9",
+      "title": "Gonzalez joins Boluda Towage board\u2014implications for Spanish business - russpain.com",
+      "source": "Boluda News",
+      "sourceId": "google-boluda",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPeXBCRTItVXFxZGpJY1pENFdwSkZST0pSbGR5bUZTanFieUtSeFpUdVFRYjhuT3VsY1JIVnM0a3I3ZFVkZUxiRmNnYjRvYzlrMWhIdTRaaFJraVR4SVdneVlHUC16Zy00eUxyaHhUVmpOX1BuRU9rYXIza3M0WUtnVkMtcnJONjY3TlVLc1NIZllxUWlIRzlRV3NmVV9BT01mRG9KYkU4Qy04dzllX2dUeWV4bw?oc=5",
+      "publishedAt": "2026-03-30T18:45:31Z",
+      "excerpt": "Gonzalez joins Boluda Towage board\u2014implications for Spanish business russpain.com",
       "tags": [
         "Towage",
         "Competitor"
@@ -2832,7 +2814,7 @@
       "paywalled": false,
       "entities": [
         {
-          "name": "Svitzer",
+          "name": "Boluda",
           "category": "competitors"
         }
       ],
@@ -2843,9 +2825,35 @@
       "priorityScore": 6,
       "priorityBand": "medium",
       "priorityReasons": [
-        "Competitor mention: Svitzer"
+        "Competitor mention: Boluda"
       ],
       "boardBucket": "Competitors & Market"
+    },
+    {
+      "id": "82843412cf70ad60",
+      "title": "Aanmelden voor terminal toegang",
+      "source": "Vlissingse Bootlieden Web Watch",
+      "sourceId": "webwatch-vlissingse-bootlieden",
+      "url": "https://terminal.vlbvlissingen.nl/aanmelding/nl",
+      "publishedAt": "2026-04-28T13:59:05.537487Z",
+      "excerpt": "Tracked page link found on source page.",
+      "tags": [
+        "Towage",
+        "Competitor"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [
+        "Infrastructure"
+      ],
+      "priorityScore": 5,
+      "priorityBand": "medium",
+      "priorityReasons": [
+        "Signal: Infrastructure"
+      ],
+      "boardBucket": "Regulation, Safety & Incidents"
     },
     {
       "id": "07b48e13b83f1a45",
@@ -3309,39 +3317,6 @@
         "Signal: Regulation"
       ],
       "boardBucket": "Regulation, Safety & Incidents"
-    },
-    {
-      "id": "ebbfb6ce81a671fa",
-      "title": "Shell enriches gas business with $16.4 billion ARC Resources takeover",
-      "source": "Offshore Energy",
-      "sourceId": "offshore-energy",
-      "url": "https://www.offshore-energy.biz/shell-enriches-gas-business-with-16-4-billion-arc-resources-takeover",
-      "publishedAt": "2026-04-27T12:47:45Z",
-      "excerpt": "UK-headquartered energy giant Shell has made a move to strengthen its liquefied natural gas (LNG) arsenal through a multibillion-dollar cash\u2011and\u2011share deal for the acquisition of Canada-based ARC Resources. The post Shell enriches gas busi\u2026",
-      "tags": [
-        "Energy-Transition",
-        "Technology"
-      ],
-      "audience": "Novatug",
-      "paywalled": false,
-      "entities": [
-        {
-          "name": "Shell Nederland",
-          "category": "suppliers"
-        }
-      ],
-      "locations": [],
-      "businessTags": [
-        "Supplier",
-        "Commercial"
-      ],
-      "priorityScore": 5,
-      "priorityBand": "medium",
-      "priorityReasons": [
-        "Supplier mention: Shell Nederland",
-        "Signal: Commercial"
-      ],
-      "boardBucket": "Other Relevant"
     },
     {
       "id": "6923fed67d2b7ed9",
@@ -3866,6 +3841,37 @@
       "boardBucket": "Other Relevant"
     },
     {
+      "id": "cb61a50e2cc7b21b",
+      "title": "Vessev Launches Hydrofoiling Network for Urban Transit",
+      "source": "MarineLink",
+      "sourceId": "marinelink",
+      "url": "https://www.marinelink.com/news/vessev-launches-hydrofoiling-network-538540",
+      "publishedAt": "2026-04-28T13:53:21Z",
+      "excerpt": "Vessev, a technology company designing and building electric passenger vessels, announced the launch of a new hydrofoiling network in Hobart, Australia, marking a step in using waterways as an efficient, scalable, zero-emissions layer of u\u2026",
+      "tags": [
+        "Operations",
+        "Electrification",
+        "Decarbonization",
+        "Maritime",
+        "Industry"
+      ],
+      "audience": "Novatug",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [
+        "Operations",
+        "Energy Transition"
+      ],
+      "priorityScore": 4,
+      "priorityBand": "medium",
+      "priorityReasons": [
+        "Signal: Operations",
+        "Signal: Energy Transition"
+      ],
+      "boardBucket": "Other Relevant"
+    },
+    {
       "id": "3e3834b683532a41",
       "title": "Schelde Barge Corridor",
       "source": "Zeeland Connect News",
@@ -3929,32 +3935,6 @@
       "boardBucket": "Other Relevant"
     },
     {
-      "id": "8b040296f84e8e8f",
-      "title": "Tharsis Ship Management secures EU funding for sea-river container vessel project",
-      "source": "Baird Maritime",
-      "sourceId": "baird-maritime",
-      "url": "https://www.bairdmaritime.com/shipping/boxships/tharsis-ship-management-secures-eu-funding-for-sea-river-barge-project",
-      "publishedAt": "2026-04-28T09:14:18Z",
-      "excerpt": "Netherlands-based Tharsis Ship Management has secured EU funding for a project that would cover the development, construction, and operational deployment of two sea-river container vessels. The vessels will each feature a dedicated storage\u2026",
-      "tags": [
-        "Workboats",
-        "Technology"
-      ],
-      "audience": "Multraship",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [
-        "Commercial"
-      ],
-      "priorityScore": 4,
-      "priorityBand": "medium",
-      "priorityReasons": [
-        "Signal: Commercial"
-      ],
-      "boardBucket": "Other Relevant"
-    },
-    {
       "id": "ad4ee3b8c2505227",
       "title": "Meta Agrees Offtakes with Space Solar, Long-Duration Storage Startups",
       "source": "Rigzone",
@@ -4013,33 +3993,6 @@
         "Supplier mention: American Bureau of Shipping"
       ],
       "boardBucket": "Other Relevant"
-    },
-    {
-      "id": "ec39a9696295558e",
-      "title": "MEPC 84 Begins: \u201cThere is no reason to repeat what happened last October\u201d",
-      "source": "MarineLink",
-      "sourceId": "marinelink",
-      "url": "https://www.marinelink.com/news/mepc-begins-reason-repeat-happened-last-538516",
-      "publishedAt": "2026-04-27T23:51:30Z",
-      "excerpt": "IMO Secretary-General Arsenio Dominguez opened the 84th session of the Marine Environment Protection Committee (MEPC 84), urging Member States to find convergence and make meaningful progress on the IMO Net-Zero Framework to cut global shi\u2026",
-      "tags": [
-        "Regulation",
-        "Maritime",
-        "Industry"
-      ],
-      "audience": "Both",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [
-        "Regulation"
-      ],
-      "priorityScore": 4,
-      "priorityBand": "medium",
-      "priorityReasons": [
-        "Signal: Regulation"
-      ],
-      "boardBucket": "Regulation, Safety & Incidents"
     },
     {
       "id": "b8e5d24f00ac3809",
@@ -5376,31 +5329,6 @@
       "boardBucket": "Other Relevant"
     },
     {
-      "id": "aded5adbab5512b6",
-      "title": "Ocean7 Ranger kickstarts Duluth\u2019s 2026 navigation season - Heavy Lift & Project Forwarding International",
-      "source": "Sarens News",
-      "sourceId": "google-sarens",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPaU93LUdXQzRTSHdQNE14TkhtMmItSElYYnU0MU1yZlNJMzZ2TGlVMGJkZlZfYjJSMUY1ZEx1Rm96a25OQXllSkdjU3RMd1ViSFBCdWh0NnFlRjRuX1AxU3NXSFU5NS0tQVR1ekJSTEUxSjdhWjkybU5rd2c5d0tzRHRKSVZJQXducURKM25SMl9UUkFtc000SFl3S0NDb2V2VU9za3laTTNYZ2h6dVZOdWJVWHZUVjQ?oc=5",
-      "publishedAt": "2026-04-10T09:48:29Z",
-      "excerpt": "Ocean7 Ranger kickstarts Duluth\u2019s 2026 navigation season Heavy Lift & Project Forwarding International",
-      "tags": [
-        "Heavy-Lift"
-      ],
-      "audience": "Multraship",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [
-        "Commercial"
-      ],
-      "priorityScore": 4,
-      "priorityBand": "medium",
-      "priorityReasons": [
-        "Signal: Commercial"
-      ],
-      "boardBucket": "Other Relevant"
-    },
-    {
       "id": "016bd81df2772304",
       "title": "MEPC 84 agenda includes new BWMS approvals",
       "source": "Riviera: Regulations & Compliance",
@@ -5587,6 +5515,86 @@
         "Signal: Regulation"
       ],
       "boardBucket": "Regulation, Safety & Incidents"
+    },
+    {
+      "id": "6b0f16aacd0a7aef",
+      "title": "KR guidance targets 2028 IGC code shift",
+      "source": "Riviera: Regulations & Compliance",
+      "sourceId": "riviera-regulation",
+      "url": "https://www.rivieramm.com/news-content-hub/kr-guidance-targets-2028-igc-code-shift-88236",
+      "publishedAt": "2026-04-06T07:30:00Z",
+      "excerpt": "KR has issued technical guidance and briefed South Korean yards as IMO moves toward approving and adopting the revised IGC Code amendments due in 2028",
+      "tags": [
+        "Regulation",
+        "Compliance"
+      ],
+      "audience": "Both",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [
+        "Regulation"
+      ],
+      "priorityScore": 4,
+      "priorityBand": "medium",
+      "priorityReasons": [
+        "Signal: Regulation"
+      ],
+      "boardBucket": "Regulation, Safety & Incidents"
+    },
+    {
+      "id": "c0519accd00b04f6",
+      "title": "Committee approvals drive forward IMO cyber security, digitalisation strategy",
+      "source": "Riviera: Regulations & Compliance",
+      "sourceId": "riviera-regulation",
+      "url": "https://www.rivieramm.com/news-content-hub/committee-approvals-drive-forward-imo-cybersecurity-digitalisation-strategy-88354",
+      "publishedAt": "2026-04-06T07:00:00Z",
+      "excerpt": "FAL approves plans to enhance cyber security of maritime single windows of information exchange",
+      "tags": [
+        "Regulation",
+        "Compliance"
+      ],
+      "audience": "Both",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [
+        "Regulation"
+      ],
+      "priorityScore": 4,
+      "priorityBand": "medium",
+      "priorityReasons": [
+        "Signal: Regulation"
+      ],
+      "boardBucket": "Regulation, Safety & Incidents"
+    },
+    {
+      "id": "dca1c00509e6413e",
+      "title": "\u201cFragmented responses are no longer sufficient\u201d: IMO Secretary-General - International Maritime Organization",
+      "source": "IMO Press Briefings",
+      "sourceId": "google-imo-press",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOV1FvcHRsUHVCNm1IeWR1RmM4dE1GRHZyWmFQVV9ac3JyU1hqbmlXQXY4YlQxU21IeUhDek1UZktxVFF3RlFBT3dkWkNCejFOOHZCemJWeXU0a2U0c1hpbDBIc2M0MFVNcXl6cjBYU25DX0kxUGRpMk9mQlpzN0lLb2ZuQzNocXhud2RTdTlFNDExZHZyQnpDZFF3UWlteV9SYVgxa0pwb3pEcUYzdHBXVXBnUTNueUVYZmp5bFBwaWgwSWFWems0Qk9B?oc=5",
+      "publishedAt": "2026-04-02T07:00:00Z",
+      "excerpt": "\u201cFragmented responses are no longer sufficient\u201d: IMO Secretary-General International Maritime Organization",
+      "tags": [
+        "Regulation",
+        "Imo",
+        "Operations",
+        "Safety"
+      ],
+      "audience": "Both",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [
+        "Regulation"
+      ],
+      "priorityScore": 4,
+      "priorityBand": "medium",
+      "priorityReasons": [
+        "Signal: Regulation"
+      ],
+      "boardBucket": "Regulation, Safety & Incidents"
     }
   ],
   "departmentProfiles": [
@@ -5609,6 +5617,7 @@
         "riviera-regulation",
         "riviera-safety",
         "dutch-government-ienw",
+        "tenderned-maritime",
         "port-rotterdam-news",
         "port-antwerp-bruges-press",
         "north-sea-port-news",
@@ -5636,6 +5645,7 @@
       "sourceIds": [
         "riviera-ports",
         "dutch-government-ienw",
+        "tenderned-maritime",
         "hvzeeland",
         "pzc",
         "rijnmond",
@@ -5678,16 +5688,26 @@
       "sourceIds": [
         "offshore-energy",
         "rigzone-latest",
+        "tenderned-maritime",
         "google-boskalis",
         "google-deme",
         "google-van-oord",
+        "google-boluda",
         "google-svitzer",
+        "google-kotug",
+        "google-smit",
+        "google-fairplay",
+        "google-rederij-muller",
+        "google-vlissingse-bootlieden",
         "google-scaldis",
-        "google-ardent",
-        "google-saam",
         "google-seacontractors",
         "google-eendracht-gent",
-        "google-hebo"
+        "google-hebo",
+        "webwatch-rederij-muller",
+        "webwatch-seacontractors",
+        "webwatch-vlissingse-bootlieden",
+        "webwatch-eendracht-gent",
+        "webwatch-hebo"
       ],
       "tags": [
         "offshore",
@@ -5743,6 +5763,7 @@
         "google-kongsberg",
         "google-wartsila",
         "google-dnv",
+        "tenderned-maritime",
         "logistiek-nieuws",
         "logistiek-dienstverlening",
         "made-in",
@@ -6311,35 +6332,15 @@
     "Wagenborg Stevedoring": "clients",
     "Maersk Tankers": "clients",
     "IceChem Tankers": "clients",
-    "Boluda Towage": "competitors",
+    "Boluda": "competitors",
     "Svitzer": "competitors",
-    "Kotug International": "competitors",
     "Kotug": "competitors",
-    "SMIT Salvage": "competitors",
-    "Wagenborg Towage": "competitors",
-    "Buks\u00e9r og Berging": "competitors",
-    "Five Oceans Salvage": "competitors",
-    "Resolve Marine": "competitors",
-    "Rimorchiatori Riuniti": "competitors",
-    "MedTug": "competitors",
-    "J.P. Knight": "competitors",
-    "SMS Towage": "competitors",
-    "Alfons Hakans": "competitors",
-    "Alfons H\u00e5kans": "competitors",
-    "NH Towage": "competitors",
-    "Vernicos Scafi": "competitors",
-    "Megatugs Salvage": "competitors",
-    "Lyboussakis": "competitors",
-    "Fairplay Towage": "competitors",
-    "Bugsier": "competitors",
-    "Atlantic Towage": "competitors",
-    "Celtic Tugs": "competitors",
-    "Itchen Marine": "competitors",
-    "Williams Shipping": "competitors",
-    "Targe Towing": "competitors",
-    "Tsavliris Salvage": "competitors",
-    "Ardent": "competitors",
-    "SAAM Towage": "competitors",
-    "Iskes Towage": "competitors"
+    "SMIT": "competitors",
+    "Fairplay": "competitors",
+    "Rederij T. Muller BV": "competitors",
+    "Seacontractors Marine Service BV": "competitors",
+    "Vlissingse Bootlieden": "competitors",
+    "Eendracht Gent": "competitors",
+    "Hebo": "competitors"
   }
 }

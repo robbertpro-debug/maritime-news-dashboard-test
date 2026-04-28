@@ -1,13 +1,16 @@
 {
   "sources": {
     "ilt-news": {
-      "pageHash": "d293bb52130c5c8f23bb64e10aa3dae59fbaa25a",
+      "pageHash": "30e0f6fd523575a3d2fd559b9a34611c826aa072",
       "seenUrls": {}
     },
     "made-in": {
       "seenUrls": {
         "https://www.made-in.be/antwerpen/24-antwerpse-zaken-doen-de-boeken-toe-waaronder-meerdere-horecazaken-en-bouwbedrijven": "2026-04-28T12:45:40.782992Z",
         "https://www.made-in.be/antwerpen/alweer-de-kaap-van-50-startende-ondernemers-gerond-in-regio-antwerpen": "2026-04-28T12:45:40.782992Z",
+        "https://www.made-in.be/antwerpen/antwerps-ontwerpbureau-equals-three-neemt-sectorgenoot-kan-over-bedrijven-betalen-te-vaak-twee-facturen-voor-een-halve-oplossing": "2026-04-28T13:59:05.537487Z",
+        "https://www.made-in.be/antwerpen/brasserie-monida-failliet-een-icoon-sluit-na-90-jaar-de-deuren": "2026-04-28T13:59:05.537487Z",
+        "https://www.made-in.be/antwerpen/hans-bourlon-over-miljoenenfraude-door-medewerker-studio-100-nooit-zijn-fout-toegegeven": "2026-04-28T13:59:05.537487Z",
         "https://www.made-in.be/falingen": "2026-04-28T12:45:40.782992Z",
         "https://www.made-in.be/kempen/kempense-ondernemingsrechtbank-spreekt-vier-faillissementen-uit": "2026-04-28T12:45:40.782992Z",
         "https://www.made-in.be/kempen/van-huisartsenpraktijk-tot-bouwfirma-net-geen-20-starters-in-de-kempen": "2026-04-28T12:45:40.782992Z",
@@ -17,8 +20,10 @@
         "https://www.made-in.be/limburg/interieurbouwer-vloerder-opslagruimte-en-meer-faillissementen": "2026-04-28T12:45:40.782992Z",
         "https://www.made-in.be/limburg/twee-familiebedrijven-richten-nieuwe-transporteur-op": "2026-04-28T12:45:40.782992Z",
         "https://www.made-in.be/mechelen/io-ondersteunt-technopolis-bij-het-versterken-van-digitale-marketing": "2026-04-28T12:45:40.782992Z",
+        "https://www.made-in.be/mechelen/test-met-statiegeld-op-champignonbakjes-in-mechelse-winkels": "2026-04-28T13:59:05.537487Z",
         "https://www.made-in.be/mechelen/zes-bedrijven-in-en-rond-mechelen-gooien-de-handdoek-in-de-ring": "2026-04-28T12:45:40.782992Z",
         "https://www.made-in.be/oost-vlaanderen/apotheeknetwerk-zet-eerste-stap-naar-uitbreiding": "2026-04-28T12:45:40.782992Z",
+        "https://www.made-in.be/oost-vlaanderen/premier-leidt-taskforce-over-toekomst-volvo-car-gent": "2026-04-28T13:59:05.537487Z",
         "https://www.made-in.be/paswoord-vergeten": "2026-04-28T12:45:40.782992Z",
         "https://www.made-in.be/regio/oost-vlaanderen": "2026-04-28T12:45:40.782992Z",
         "https://www.made-in.be/regio/vlaams-brabant": "2026-04-28T12:45:40.782992Z",
@@ -30,6 +35,7 @@
         "https://www.made-in.be/sector/marketing-communicatie": "2026-04-28T12:45:40.782992Z",
         "https://www.made-in.be/veelgestelde-vragen": "2026-04-28T12:45:40.782992Z",
         "https://www.made-in.be/vlaams-brabant/brusselse-student-ondernemer-xander-lanceert-ai-gedreven-hr-platform-voor-kmos": "2026-04-28T12:45:40.782992Z",
+        "https://www.made-in.be/vlaams-brabant/fevia-waarschuwt-zonder-maatregelen-dreigt-productie-van-voeding-uit-belgie-te-verdwijnen": "2026-04-28T13:59:05.537487Z",
         "https://www.made-in.be/west-vlaanderen/quote-van-de-week-geert-noels-over-belgische-economie": "2026-04-28T12:45:40.782992Z"
       }
     },
@@ -72,10 +78,12 @@
         "https://www.omroepzeeland.nl/nieuws/18414852/goes-springt-bij-met-opvang-eerste-asielzoekers-komen-naar-de-zeelandhallen": "2026-04-28T12:45:40.782992Z",
         "https://www.omroepzeeland.nl/nieuws/18415140/trein-rijdt-bovenop-takken-treinverkeer-lag-stil-tussen-kruiningen-en-bergen-op-zoom": "2026-04-28T12:45:40.782992Z",
         "https://www.omroepzeeland.nl/nieuws/18415341/motorrijder-botst-tegen-hertje-bij-biggekerke": "2026-04-28T12:45:40.782992Z",
+        "https://www.omroepzeeland.nl/nieuws/18415494/bevrijdingsdag-is-meer-dan-alleen-een-feestje-het-is-ook-de-bewustwording-van-vrijheid": "2026-04-28T13:59:05.537487Z",
         "https://www.omroepzeeland.nl/nieuws/18415815/nieuwe-campagne-moet-toeristen-laten-stranden-in-dorpen-in-plaats-van-op-het-strand": "2026-04-28T12:45:40.782992Z",
         "https://www.omroepzeeland.nl/nieuws/18416016/dreigt-overbelasting-stroomnet-dan-kan-stedin-vanaf-nu-dit-zonnepark-afschakelen": "2026-04-28T12:45:40.782992Z",
         "https://www.omroepzeeland.nl/nieuws/18416430/extra-opletten-op-ontstaan-natuurbranden-risico-is-verhoogd-door-de-veiligheidsregio": "2026-04-28T12:45:40.782992Z",
         "https://www.omroepzeeland.nl/nieuws/18416721/jonge-debutanten-zorgen-voor-piek-aan-zeeuwse-voetballers-in-eredivisie": "2026-04-28T12:45:40.782992Z",
+        "https://www.omroepzeeland.nl/nieuws/18417177/twee-minderjarigen-aangehouden-op-koningsdag-voor-bezit-vuurwapens": "2026-04-28T13:59:05.537487Z",
         "https://www.omroepzeeland.nl/nieuws/schouwen-duiveland": "2026-04-28T12:45:40.782992Z",
         "https://www.omroepzeeland.nl/nieuws/zeeuws-vlaanderen": "2026-04-28T12:45:40.782992Z"
       }
@@ -135,6 +143,68 @@
         "https://zoek.officielebekendmakingen.nl/resultaten?q=%28c.product-area%3D%3D%22officielepublicaties%22%29and%28%28%28w.publicatienaam%3D%3D%22Tractatenblad%22%29%29or%28%28w.publicatienaam%3D%3D%22Staatsblad%22%29%29or%28%28w.publicatienaam%3D%3D%22Staatscourant%22%29%29or%28%28w.publicatienaam%3D%3D%22Gemeenteblad%22%29%29or%28%28w.publicatienaam%3D%3D%22Provinciaal+blad%22%29%29or%28%28w.publicatienaam%3D%3D%22Waterschapsblad%22%29%29or%28%28w.publicatienaam%3D%3D%22Blad+gemeenschappelijke+regeling%22%29%29%29and%28cql.textAndIndexes%3D%22terneuzen%22%29+AND+w.publicatienaam%3D%3D%22Gemeenteblad%22+AND+dt.creator%3D%3D%22Terneuzen%22+AND+dt.available+within+%22afgelopen-jaar%22&zv=terneuzen&pg=10&col=AlleBekendmakingen&svel=Publicatiedatum&svol=Aflopend&sf=pd%7Cafgelopen-jaar": "2026-04-28T12:45:40.782992Z",
         "https://zoek.officielebekendmakingen.nl/resultaten?q=%28c.product-area%3D%3D%22officielepublicaties%22%29and%28%28dt.type%3D%3D%22andere+melding%22%29or%28dt.type%3D%3D%22andere+beschikking%22%29or%28dt.type%3D%3D%22andere+vergunning%22%29or%28dt.type%3D%3D%22evenementenvergunning%22%29or%28dt.type%3D%3D%22exploitatievergunning%22%29%29and%28%28%28w.publicatienaam%3D%3D%22Tractatenblad%22%29%29or%28%28w.publicatienaam%3D%3D%22Staatsblad%22%29%29or%28%28w.publicatienaam%3D%3D%22Staatscourant%22%29%29or%28%28w.publicatienaam%3D%3D%22Gemeenteblad%22%29%29or%28%28w.publicatienaam%3D%3D%22Provinciaal+blad%22%29%29or%28%28w.publicatienaam%3D%3D%22Waterschapsblad%22%29%29or%28%28w.publicatienaam%3D%3D%22Blad+gemeenschappelijke+regeling%22%29%29%29and%28cql.textAndIndexes%3D%22terneuzen%22%29+AND+dt.creator%3D%3D%22Terneuzen%22+AND+dt.available+within+%22afgelopen-jaar%22&zv=terneuzen&pg=10&col=AlleBekendmakingen&svel=Publicatiedatum&svol=Aflopend&sf=pd%7Cafgelopen-jaar": "2026-04-28T12:45:40.782992Z",
         "https://zoek.officielebekendmakingen.nl/resultaten?q=%28c.product-area%3D%3D%22officielepublicaties%22%29and%28dt.type%3D%3D%22omgevingsvergunning%22%29and%28%28%28w.publicatienaam%3D%3D%22Tractatenblad%22%29%29or%28%28w.publicatienaam%3D%3D%22Staatsblad%22%29%29or%28%28w.publicatienaam%3D%3D%22Staatscourant%22%29%29or%28%28w.publicatienaam%3D%3D%22Gemeenteblad%22%29%29or%28%28w.publicatienaam%3D%3D%22Provinciaal+blad%22%29%29or%28%28w.publicatienaam%3D%3D%22Waterschapsblad%22%29%29or%28%28w.publicatienaam%3D%3D%22Blad+gemeenschappelijke+regeling%22%29%29%29and%28cql.textAndIndexes%3D%22terneuzen%22%29+AND+dt.creator%3D%3D%22Terneuzen%22+AND+dt.available+within+%22afgelopen-jaar%22&zv=terneuzen&pg=10&col=AlleBekendmakingen&svel=Publicatiedatum&svol=Aflopend&sf=pd%7Cafgelopen-jaar": "2026-04-28T12:45:40.782992Z"
+      }
+    },
+    "webwatch-eendracht-gent": {
+      "seenUrls": {
+        "https://eendracht.be/NL/barge_booking": "2026-04-28T13:59:05.537487Z",
+        "https://eendracht.be/NL/diensten/aanmeren_afmeren": "2026-04-28T13:59:05.537487Z",
+        "https://eendracht.be/NL/diensten/calamiteiten_haven": "2026-04-28T13:59:05.537487Z",
+        "https://eendracht.be/NL/diensten/drinkwaterlevering": "2026-04-28T13:59:05.537487Z",
+        "https://eendracht.be/NL/diensten/personenvervoer": "2026-04-28T13:59:05.537487Z",
+        "https://eendracht.be/NL/diensten/ponton_fender_verhuur": "2026-04-28T13:59:05.537487Z",
+        "https://eendracht.be/NL/diensten/sleepwerken_binnenvaart": "2026-04-28T13:59:05.537487Z"
+      }
+    },
+    "webwatch-hebo": {
+      "seenUrls": {
+        "https://www.hebo-maritiemservice.nl/diensten/heavy-lifting": "2026-04-28T13:59:05.537487Z",
+        "https://www.hebo-maritiemservice.nl/diensten/speciale-transporten": "2026-04-28T13:59:05.537487Z",
+        "https://www.hebo-maritiemservice.nl/markten/calamiteiten-bergingen": "2026-04-28T13:59:05.537487Z",
+        "https://www.hebo-maritiemservice.nl/markten/haven-terminals": "2026-04-28T13:59:05.537487Z",
+        "https://www.hebo-maritiemservice.nl/markten/heavy-lifting": "2026-04-28T13:59:05.537487Z",
+        "https://www.hebo-maritiemservice.nl/markten/infrastructuur": "2026-04-28T13:59:05.537487Z",
+        "https://www.hebo-maritiemservice.nl/markten/offshore": "2026-04-28T13:59:05.537487Z",
+        "https://www.hebo-maritiemservice.nl/markten/transport": "2026-04-28T13:59:05.537487Z",
+        "https://www.hebo-maritiemservice.nl/markten/verhuur-equipment": "2026-04-28T13:59:05.537487Z",
+        "https://www.hebo-maritiemservice.nl/markten/yachting": "2026-04-28T13:59:05.537487Z"
+      }
+    },
+    "webwatch-rederij-muller": {
+      "seenUrls": {
+        "https://muller-dordrecht.nl/business-conditions": "2026-04-28T13:59:05.537487Z",
+        "https://muller-dordrecht.nl/careers/chief-officer": "2026-04-28T13:59:05.537487Z",
+        "https://muller-dordrecht.nl/careers/duwboot-kapitein": "2026-04-28T13:59:05.537487Z",
+        "https://muller-dordrecht.nl/maritime-services": "2026-04-28T13:59:05.537487Z",
+        "https://muller-dordrecht.nl/services/emergency-response-salvage": "2026-04-28T13:59:05.537487Z",
+        "https://muller-dordrecht.nl/services/harbour-towage": "2026-04-28T13:59:05.537487Z",
+        "https://muller-dordrecht.nl/services/heavy-transport-lifting": "2026-04-28T13:59:05.537487Z",
+        "https://muller-dordrecht.nl/services/ice-breaking": "2026-04-28T13:59:05.537487Z",
+        "https://muller-dordrecht.nl/services/load-testing": "2026-04-28T13:59:05.537487Z",
+        "https://muller-dordrecht.nl/services/transport-engineering": "2026-04-28T13:59:05.537487Z"
+      }
+    },
+    "webwatch-seacontractors": {
+      "seenUrls": {
+        "https://www.seacontractors.com/live-map": "2026-04-28T13:59:05.537487Z",
+        "https://www.seacontractors.com/wp-content/uploads/2025/02/Sea-Sentosa-Specification-sheets.pdf": "2026-04-28T13:59:05.537487Z",
+        "https://www.seacontractors.com/wp-content/uploads/2025/08/Atlantis-Specification-sheets.pdf": "2026-04-28T13:59:05.537487Z",
+        "https://www.seacontractors.com/wp-content/uploads/2025/08/Dian-Kingdom-Specification-sheets.pdf": "2026-04-28T13:59:05.537487Z",
+        "https://www.seacontractors.com/wp-content/uploads/2025/08/Sea-Atil-Specification-sheets.pdf": "2026-04-28T13:59:05.537487Z",
+        "https://www.seacontractors.com/wp-content/uploads/2025/08/Sea-Banckert-Specification-sheets.pdf": "2026-04-28T13:59:05.537487Z",
+        "https://www.seacontractors.com/wp-content/uploads/2025/08/Sea-Evertsen-Specification-sheets.pdf": "2026-04-28T13:59:05.537487Z",
+        "https://www.seacontractors.com/wp-content/uploads/2025/08/Sea-Seraya-Specification-sheets.pdf": "2026-04-28T13:59:05.537487Z",
+        "https://www.seacontractors.com/wp-content/uploads/2025/08/Sea-Vanquish-Specification-sheets.pdf": "2026-04-28T13:59:05.537487Z"
+      }
+    },
+    "webwatch-vlissingse-bootlieden": {
+      "seenUrls": {
+        "https://terminal.vlbvlissingen.nl/aanmelding/nl": "2026-04-28T13:59:05.537487Z",
+        "https://vlbvlissingen.nl/diensten/servicebedrijf/olie_opruiming": "2026-04-28T13:59:05.537487Z",
+        "https://vlbvlissingen.nl/downloads/NBC-2017.pdf": "2026-04-28T13:59:05.537487Z",
+        "https://vlbvlissingen.nl/downloads/VLB_services_bedrijf_nl.pdf": "2026-04-28T13:59:05.537487Z",
+        "https://vlbvlissingen.nl/downloads/sleepcondities.pdf": "2026-04-28T13:59:05.537487Z",
+        "https://vlbvlissingen.nl/downloads/verhuurvoorwaarden-alle-materialen.pdf": "2026-04-28T13:59:05.537487Z"
       }
     },
     "zeeland-connect-news": {

@@ -164,6 +164,13 @@ def parse_datetime(value: Optional[str]) -> Optional[str]:
     if not text:
         return None
     try:
+        parsed = datetime.fromisoformat(text.replace("Z", "+00:00"))
+        if parsed.tzinfo is None:
+            parsed = parsed.replace(tzinfo=timezone.utc)
+        return parsed.astimezone(timezone.utc).isoformat().replace("+00:00", "Z")
+    except ValueError:
+        pass
+    try:
         parsed = parsedate_to_datetime(text)
     except (TypeError, ValueError, IndexError):
         parsed = None
@@ -215,6 +222,16 @@ def normalize_tag(tag: str) -> str:
 def append_unique(items: List[str], value: str) -> None:
     if value and value not in items:
         items.append(value)
+
+
+def article_matches_source(text: str, source: Dict) -> bool:
+    includes = source.get("article_include_patterns", [])
+    excludes = source.get("article_exclude_patterns", [])
+    if includes and not any(re.search(pattern, text, re.IGNORECASE) for pattern in includes):
+        return False
+    if excludes and any(re.search(pattern, text, re.IGNORECASE) for pattern in excludes):
+        return False
+    return True
 
 
 def classify_article(text: str, rules: Dict, source: Dict) -> str:
@@ -446,6 +463,9 @@ def build_article(
     clean_link = canonicalize_url(link)
     clean_excerpt = truncate(strip_html(excerpt))
     article_text = " ".join(part for part in (clean_title, clean_excerpt) if part)
+    if not article_matches_source(article_text, source):
+        return None
+
     combined_text = " ".join(part for part in (article_text, source.get("name", "")) if part)
     normalized_article_text = normalize_lookup(article_text)
     audience = classify_article(combined_text, rules, source)

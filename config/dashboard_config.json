@@ -35,6 +35,7 @@
         "riviera-regulation",
         "riviera-safety",
         "dutch-government-ienw",
+        "tenderned-maritime",
         "port-rotterdam-news",
         "port-antwerp-bruges-press",
         "north-sea-port-news",
@@ -62,6 +63,7 @@
       "sourceIds": [
         "riviera-ports",
         "dutch-government-ienw",
+        "tenderned-maritime",
         "hvzeeland",
         "pzc",
         "rijnmond",
@@ -104,16 +106,26 @@
       "sourceIds": [
         "offshore-energy",
         "rigzone-latest",
+        "tenderned-maritime",
         "google-boskalis",
         "google-deme",
         "google-van-oord",
+        "google-boluda",
         "google-svitzer",
+        "google-kotug",
+        "google-smit",
+        "google-fairplay",
+        "google-rederij-muller",
+        "google-vlissingse-bootlieden",
         "google-scaldis",
-        "google-ardent",
-        "google-saam",
         "google-seacontractors",
         "google-eendracht-gent",
-        "google-hebo"
+        "google-hebo",
+        "webwatch-rederij-muller",
+        "webwatch-seacontractors",
+        "webwatch-vlissingse-bootlieden",
+        "webwatch-eendracht-gent",
+        "webwatch-hebo"
       ],
       "tags": [
         "offshore",
@@ -169,6 +181,7 @@
         "google-kongsberg",
         "google-wartsila",
         "google-dnv",
+        "tenderned-maritime",
         "logistiek-nieuws",
         "logistiek-dienstverlening",
         "made-in",
@@ -399,7 +412,7 @@
     {
       "id": "dutch-government-ienw",
       "name": "Dutch Government: Infrastructure & Water Management",
-      "url": "https://feeds.government.nl/ministries/ministry-of-infrastructure-and-water-management/news.rss",
+      "url": "https://news.google.com/rss/search?q=site%3Agovernment.nl%2Fministries%2Fministry-of-infrastructure-and-water-management%2Fnews%20OR%20site%3Arijksoverheid.nl%2Fministeries%2Fministerie-van-infrastructuur-en-waterstaat%2Fnieuws&hl=en-US&gl=US&ceid=US:en",
       "default_tags": [
         "government",
         "operations",
@@ -408,6 +421,64 @@
       ],
       "audience_bias": {
         "Multraship": 2,
+        "Novatug": 1
+      }
+    },
+    {
+      "id": "tenderned-maritime",
+      "name": "TenderNed Maritime Tenders",
+      "url": "https://www.tenderned.nl/papi/tenderned-rs-tns/rss/laatste-publicatie.rss",
+      "max_items": 50,
+      "article_include_patterns": [
+        "\\bmaritiem",
+        "\\bmaritime\\b",
+        "scheep",
+        "\\bship",
+        "\\bvessel",
+        "\\bbinnenvaart\\b",
+        "\\bscheepvaart\\b",
+        "\\bvaarweg",
+        "\\bwaterweg",
+        "\\bhaven",
+        "\\bport\\b",
+        "\\bkade",
+        "\\bquay",
+        "\\bsteiger",
+        "\\bjetty",
+        "\\bsluis",
+        "\\block\\b",
+        "\\bbrug\\b",
+        "\\bbridge\\b",
+        "bagger",
+        "dredg",
+        "\\bsleep",
+        "\\btowage\\b",
+        "\\btug",
+        "\\bsalvage\\b",
+        "\\boffshore\\b",
+        "wind op zee",
+        "Kustwacht",
+        "\\bpilotage\\b",
+        "\\bloods"
+      ],
+      "article_exclude_patterns": [
+        "software",
+        "ICT",
+        "cloud",
+        "zorg",
+        "jeugdhulp",
+        "onderwijs",
+        "schoonmaak",
+        "catering"
+      ],
+      "default_tags": [
+        "tender",
+        "procurement",
+        "government",
+        "maritime"
+      ],
+      "audience_bias": {
+        "Multraship": 3,
         "Novatug": 1
       }
     },
@@ -799,6 +870,54 @@
       }
     },
     {
+      "id": "google-boluda",
+      "name": "Boluda News",
+      "url": "https://news.google.com/rss/search?q=%22Boluda%22%20towage&hl=en-US&gl=US&ceid=US:en",
+      "default_tags": [
+        "towage",
+        "competitor"
+      ],
+      "audience_bias": {
+        "Multraship": 5
+      }
+    },
+    {
+      "id": "google-kotug",
+      "name": "Kotug News",
+      "url": "https://news.google.com/rss/search?q=%22Kotug%22%20towage&hl=en-US&gl=US&ceid=US:en",
+      "default_tags": [
+        "towage",
+        "competitor"
+      ],
+      "audience_bias": {
+        "Multraship": 5
+      }
+    },
+    {
+      "id": "google-smit",
+      "name": "SMIT News",
+      "url": "https://news.google.com/rss/search?q=%22SMIT%22%20salvage%20maritime&hl=en-US&gl=US&ceid=US:en",
+      "default_tags": [
+        "salvage",
+        "competitor"
+      ],
+      "audience_bias": {
+        "Multraship": 5
+      }
+    },
+    {
+      "id": "google-fairplay",
+      "name": "Fairplay News",
+      "url": "https://news.google.com/rss/search?q=%22Fairplay%22%20towage&hl=en-US&gl=US&ceid=US:en",
+      "default_tags": [
+        "towage",
+        "competitor"
+      ],
+      "audience_bias": {
+        "Multraship": 5
+      }
+    },
+    {
       "id": "google-deme",
       "name": "DEME Group News",
       "url": "https://news.google.com/rss/search?q=%22DEME%20Group%22&hl=en-US&gl=US&ceid=US:en",
@@ -846,30 +965,6 @@
       "audience_bias": {
         "Multraship": 4,
         "Novatug": 2
-      }
-    },
-    {
-      "id": "google-ardent",
-      "name": "Ardent Salvage News",
-      "url": "https://news.google.com/rss/search?q=%22Ardent%22%20salvage%20maritime&hl=en-US&gl=US&ceid=US:en",
-      "default_tags": [
-        "salvage",
-        "competitor"
-      ],
-      "audience_bias": {
-        "Multraship": 5
-      }
-    },
-    {
-      "id": "google-saam",
-      "name": "SAAM Towage News",
-      "url": "https://news.google.com/rss/search?q=%22SAAM+Towage%22+maritime&hl=en-US&gl=US&ceid=US:en",
-      "default_tags": [
-        "towage",
-        "competitor"
-      ],
-      "audience_bias": {
-        "Multraship": 5
       }
     },
     {
@@ -1334,83 +1429,6 @@
       }
     },
     {
-      "id": "gnews-sms-towage",
-      "name": "SMS Towage News",
-      "url": "https://news.google.com/rss/search?q=%22SMS%20Towage%22&hl=en-US&gl=US&ceid=US:en",
-      "default_tags": [
-        "competitor"
-      ],
-      "audience_bias": {
-        "Multraship": 3
-      }
-    },
-    {
-      "id": "gnews-nh-towage",
-      "name": "NH Towage News",
-      "url": "https://news.google.com/rss/search?q=%22NH%20Towage%22&hl=en-US&gl=US&ceid=US:en",
-      "default_tags": [
-        "competitor"
-      ],
-      "audience_bias": {
-        "Multraship": 3
-      }
-    },
-    {
-      "id": "gnews-five-oceans-salvage",
-      "name": "Five Oceans Salvage News",
-      "url": "https://news.google.com/rss/search?q=%22Five%20Oceans%20Salvage%22&hl=en-US&gl=US&ceid=US:en",
-      "default_tags": [
-        "competitor"
-      ],
-      "audience_bias": {
-        "Multraship": 3
-      }
-    },
-    {
-      "id": "gnews-bugsier",
-      "name": "Bugsier News",
-      "url": "https://news.google.com/rss/search?q=%22Bugsier%22&hl=en-US&gl=US&ceid=US:en",
-      "default_tags": [
-        "competitor"
-      ],
-      "audience_bias": {
-        "Multraship": 3
-      }
-    },
-    {
-      "id": "gnews-celtic-tugs",
-      "name": "Celtic Tugs News",
-      "url": "https://news.google.com/rss/search?q=%22Celtic%20Tugs%22&hl=en-US&gl=US&ceid=US:en",
-      "default_tags": [
-        "competitor"
-      ],
-      "audience_bias": {
-        "Multraship": 3
-      }
-    },
-    {
-      "id": "gnews-itchen-marine",
-      "name": "Itchen Marine News",
-      "url": "https://news.google.com/rss/search?q=%22Itchen%20Marine%22&hl=en-US&gl=US&ceid=US:en",
-      "default_tags": [
-        "competitor"
-      ],
-      "audience_bias": {
-        "Multraship": 3
-      }
-    },
-    {
-      "id": "gnews-iskes-towage",
-      "name": "Iskes Towage News",
-      "url": "https://news.google.com/rss/search?q=%22Iskes%20Towage%22&hl=en-US&gl=US&ceid=US:en",
-      "default_tags": [
-        "competitor"
-      ],
-      "audience_bias": {
-        "Multraship": 3
-      }
-    },
-    {
       "id": "google-rederij-muller",
       "name": "Rederij T. Muller News",
       "url": "https://news.google.com/rss/search?q=%22Rederij%20Muller%22%20OR%20%22Muller%20Dordrecht%22%20towage&hl=en-US&gl=US&ceid=US:en",
@@ -1462,6 +1480,119 @@
       "id": "google-hebo",
       "name": "Hebo Maritiemservice News",
       "url": "https://news.google.com/rss/search?q=%22Hebo%20Maritiemservice%22%20OR%20%22Hebo%20Maritiem%22&hl=en-US&gl=US&ceid=US:en",
+      "default_tags": [
+        "towage",
+        "competitor"
+      ],
+      "audience_bias": {
+        "Multraship": 5
+      }
+    },
+    {
+      "id": "webwatch-rederij-muller",
+      "name": "Muller Dordrecht Web Watch",
+      "url": "https://muller-dordrecht.nl/",
+      "adapter": "web_watch",
+      "max_items": 10,
+      "link_include_patterns": [
+        "muller-dordrecht\\.nl/"
+      ],
+      "link_exclude_patterns": [
+        "contact",
+        "privacy",
+        "cookie"
+      ],
+      "default_tags": [
+        "towage",
+        "competitor"
+      ],
+      "audience_bias": {
+        "Multraship": 5
+      }
+    },
+    {
+      "id": "webwatch-seacontractors",
+      "name": "Seacontractors Web Watch",
+      "url": "https://www.seacontractors.com/",
+      "adapter": "web_watch",
+      "max_items": 10,
+      "link_include_patterns": [
+        "seacontractors\\.com/"
+      ],
+      "link_exclude_patterns": [
+        "contact",
+        "privacy",
+        "cookie",
+        "vacanc",
+        "career"
+      ],
+      "default_tags": [
+        "towage",
+        "competitor"
+      ],
+      "audience_bias": {
+        "Multraship": 5
+      }
+    },
+    {
+      "id": "webwatch-vlissingse-bootlieden",
+      "name": "Vlissingse Bootlieden Web Watch",
+      "url": "https://vlbvlissingen.nl/",
+      "adapter": "web_watch",
+      "max_items": 10,
+      "link_include_patterns": [
+        "vlbvlissingen\\.nl/"
+      ],
+      "link_exclude_patterns": [
+        "contact",
+        "privacy",
+        "cookie"
+      ],
+      "default_tags": [
+        "towage",
+        "competitor"
+      ],
+      "audience_bias": {
+        "Multraship": 5
+      }
+    },
+    {
+      "id": "webwatch-eendracht-gent",
+      "name": "Eendracht Gent Web Watch",
+      "url": "https://eendracht.be/",
+      "adapter": "web_watch",
+      "max_items": 10,
+      "link_include_patterns": [
+        "eendracht\\.be/"
+      ],
+      "link_exclude_patterns": [
+        "contact",
+        "privacy",
+        "cookie"
+      ],
+      "default_tags": [
+        "towage",
+        "competitor"
+      ],
+      "audience_bias": {
+        "Multraship": 5
+      }
+    },
+    {
+      "id": "webwatch-hebo",
+      "name": "HEBO Web Watch",
+      "url": "https://www.hebo-maritiemservice.nl/",
+      "adapter": "web_watch",
+      "max_items": 10,
+      "link_include_patterns": [
+        "hebo-maritiemservice\\.nl/"
+      ],
+      "link_exclude_patterns": [
+        "contact",
+        "privacy",
+        "cookie",
+        "vacature"
+      ],
       "default_tags": [
         "towage",
         "competitor"
@@ -2095,36 +2226,16 @@
         "IceChem Tankers"
       ],
       "competitors": [
-        "Boluda Towage",
+        "Boluda",
         "Svitzer",
-        "Kotug International",
         "Kotug",
-        "SMIT Salvage",
-        "Wagenborg Towage",
-        "Buksér og Berging",
-        "Five Oceans Salvage",
-        "Resolve Marine",
-        "Rimorchiatori Riuniti",
-        "MedTug",
-        "J.P. Knight",
-        "SMS Towage",
-        "Alfons Hakans",
-        "Alfons Håkans",
-        "NH Towage",
-        "Vernicos Scafi",
-        "Megatugs Salvage",
-        "Lyboussakis",
-        "Fairplay Towage",
-        "Bugsier",
-        "Atlantic Towage",
-        "Celtic Tugs",
-        "Itchen Marine",
-        "Williams Shipping",
-        "Targe Towing",
-        "Tsavliris Salvage",
-        "Ardent",
-        "SAAM Towage",
-        "Iskes Towage"
+        "SMIT",
+        "Fairplay",
+        "Rederij T. Muller BV",
+        "Seacontractors Marine Service BV",
+        "Vlissingse Bootlieden",
+        "Eendracht Gent",
+        "Hebo"
       ]
     }
   },
@@ -2514,50 +2625,45 @@
         ]
       },
       "competitors": {
-        "Boluda Towage": [
-          "Boluda"
+        "Boluda": [
+          "Boluda Towage"
         ],
-        "Kotug International": [
-          "KOTUG"
+        "Kotug": [
+          "KOTUG",
+          "Kotug International"
         ],
-        "SMIT Salvage": [
-          "SMIT"
+        "SMIT": [
+          "SMIT Salvage",
+          "Smit Towage"
         ],
-        "Wagenborg Towage": [
-          "Wagenborg"
+        "Fairplay": [
+          "Fairplay Towage"
         ],
-        "Resolve Marine": [
-          "Resolve"
+        "Rederij T. Muller BV": [
+          "Rederij T. Muller",
+          "Rederij Muller",
+          "Muller Dordrecht",
+          "Muller"
         ],
-        "Rimorchiatori Riuniti": [
-          "Rimorchiatori"
+        "Seacontractors Marine Service BV": [
+          "Seacontractors",
+          "Seacontractors Marine Service"
         ],
-        "Alfons Hakans": [
-          "Alfons Hakans"
+        "Vlissingse Bootlieden": [
+          "Vlissingse Bootliedenwacht",
+          "VLB Vlissingen",
+          "VLB"
         ],
-        "Alfons Håkans": [
-          "Alfons Hakans"
+        "Eendracht Gent": [
+          "De Eendracht",
+          "Bootmannen Gent",
+          "Eendracht Bootmannen"
         ],
-        "Fairplay Towage": [
-          "Fairplay"
-        ],
-        "Williams Shipping": [
-          "Williams"
-        ],
-        "Tsavliris Salvage": [
-          "Tsavliris"
-        ],
-        "Ardent": [
-          "Ardent Salvage",
-          "Ardent Maritime"
-        ],
-        "SAAM Towage": [
-          "SAAM",
-          "SAAM Smit"
-        ],
-        "Iskes Towage": [
-          "Iskes",
-          "Iskes Towage & Salvage"
+        "Hebo": [
+          "HEBO",
+          "Hebo Maritiemservice",
+          "HEBO Maritiemservice",
+          "Hebo Maritiem"
         ]
       }
     }
