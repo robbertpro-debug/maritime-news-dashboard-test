@@ -1,7 +1,7 @@
 window.__DASHBOARD_DATA__ = {
-  "generatedAt": "2026-04-29T06:47:31.503270Z",
+  "generatedAt": "2026-04-29T07:14:09.256736Z",
   "lookbackDays": 30,
-  "cutoffAt": "2026-03-30T06:47:31.503270Z",
+  "cutoffAt": "2026-03-30T07:14:09.256736Z",
   "articleCount": 180,
   "sourceCount": 118,
   "sources": [
@@ -12,6 +12,7 @@ window.__DASHBOARD_DATA__ = {
     "DFDS News",
     "Damen Shipyards News",
     "Hellenic Shipping News",
+    "ILT News",
     "IMO Meeting Summaries",
     "IMO Press Briefings",
     "Kongsberg Maritime News",
@@ -51,6 +52,7 @@ window.__DASHBOARD_DATA__ = {
     "Energy",
     "Energy-Transition",
     "Ferry",
+    "Government",
     "Heavy-Lift",
     "Imo",
     "Incidents",
@@ -66,6 +68,7 @@ window.__DASHBOARD_DATA__ = {
     "News",
     "North-Sea-Port",
     "Offshore",
+    "Offshore Support",
     "Operations",
     "Ports",
     "Propulsion",
@@ -243,6 +246,42 @@ window.__DASHBOARD_DATA__ = {
         "Signal: Regulation",
         "Signal: Infrastructure",
         "Signal: Energy Transition"
+      ],
+      "boardBucket": "High Priority"
+    },
+    {
+      "id": "31111ec3e2366bd4",
+      "title": "EV fire risks draw IMO\u2019s attention",
+      "source": "Riviera: Safety & Incidents",
+      "sourceId": "riviera-safety",
+      "url": "https://www.rivieramm.com/news-content-hub/ev-fire-risks-draw-imos-attention-88377",
+      "publishedAt": "2026-04-08T06:30:00Z",
+      "excerpt": "IMO\u2019s SSE 12 sub-committee has advanced new SOLAS requirements, but Interferry has cautioned against dragging ferries into new regulations",
+      "tags": [
+        "Incidents",
+        "Regulation",
+        "Safety"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [
+        {
+          "name": "International Maritime Organization",
+          "category": "authorities"
+        }
+      ],
+      "locations": [],
+      "businessTags": [
+        "Authority & Class",
+        "Incident",
+        "Regulation"
+      ],
+      "priorityScore": 12,
+      "priorityBand": "high",
+      "priorityReasons": [
+        "Authority & Class mention: International Maritime Organization",
+        "Signal: Incident",
+        "Signal: Regulation"
       ],
       "boardBucket": "High Priority"
     },
@@ -644,50 +683,21 @@ window.__DASHBOARD_DATA__ = {
       "entities": [
         {
           "name": "Bureau Veritas",
-          "category": "suppliers"
+          "category": "authorities"
         }
       ],
       "locations": [],
       "businessTags": [
-        "Supplier",
+        "Authority & Class",
         "Regulation",
         "Operations"
       ],
       "priorityScore": 9,
       "priorityBand": "high",
       "priorityReasons": [
-        "Supplier mention: Bureau Veritas",
+        "Authority & Class mention: Bureau Veritas",
         "Signal: Regulation",
         "Signal: Operations"
-      ],
-      "boardBucket": "High Priority"
-    },
-    {
-      "id": "31111ec3e2366bd4",
-      "title": "EV fire risks draw IMO\u2019s attention",
-      "source": "Riviera: Safety & Incidents",
-      "sourceId": "riviera-safety",
-      "url": "https://www.rivieramm.com/news-content-hub/ev-fire-risks-draw-imos-attention-88377",
-      "publishedAt": "2026-04-08T06:30:00Z",
-      "excerpt": "IMO\u2019s SSE 12 sub-committee has advanced new SOLAS requirements, but Interferry has cautioned against dragging ferries into new regulations",
-      "tags": [
-        "Incidents",
-        "Regulation",
-        "Safety"
-      ],
-      "audience": "Multraship",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [
-        "Incident",
-        "Regulation"
-      ],
-      "priorityScore": 9,
-      "priorityBand": "high",
-      "priorityReasons": [
-        "Signal: Incident",
-        "Signal: Regulation"
       ],
       "boardBucket": "High Priority"
     },
@@ -811,6 +821,77 @@ window.__DASHBOARD_DATA__ = {
       "boardBucket": "Regulation, Safety & Incidents"
     },
     {
+      "id": "1b7a6a45b6430333",
+      "title": "FMC Chair Joins U.S. Opposition to IMO Carbon Plan With Warning",
+      "source": "gCaptain",
+      "sourceId": "gcaptain",
+      "url": "https://gcaptain.com/fmc-chair-joins-u-s-opposition-to-imo-carbon-plan-with-warning",
+      "publishedAt": "2026-04-27T23:30:17Z",
+      "excerpt": "The chair of the Federal Maritime Commission has joined the U.S. delegation to high-stakes climate talks at the UN\u2019s International Maritime Organization, accompanied by an explicit warning that could signal a more confrontational...",
+      "tags": [
+        "Regulation",
+        "Maritime",
+        "Operations"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [
+        {
+          "name": "International Maritime Organization",
+          "category": "authorities"
+        }
+      ],
+      "locations": [],
+      "businessTags": [
+        "Authority & Class",
+        "Regulation"
+      ],
+      "priorityScore": 8,
+      "priorityBand": "medium",
+      "priorityReasons": [
+        "Authority & Class mention: International Maritime Organization",
+        "Signal: Regulation"
+      ],
+      "boardBucket": "Regulation, Safety & Incidents"
+    },
+    {
+      "id": "acf28aba4e826a3a",
+      "title": "Everllence Warns of 50GW Gap in Meeting IMO\u2019s GHG Strategy Goals",
+      "source": "The Maritime Executive",
+      "sourceId": "maritime-executive",
+      "url": "https://maritime-executive.com/article/everllence-warns-of-50gw-gap-in-meeting-imo-s-ghg-strategy-goals",
+      "publishedAt": "2026-04-27T22:11:44Z",
+      "excerpt": "Everllence has expressed concern over the current viability of the IMO\u2019s 2023 GHG Strategy that aims for net?zero emissions from international shippin...",
+      "tags": [
+        "Regulation",
+        "Decarbonization",
+        "Maritime",
+        "News"
+      ],
+      "audience": "Novatug",
+      "paywalled": false,
+      "entities": [
+        {
+          "name": "International Maritime Organization",
+          "category": "authorities"
+        }
+      ],
+      "locations": [],
+      "businessTags": [
+        "Authority & Class",
+        "Regulation",
+        "Energy Transition"
+      ],
+      "priorityScore": 8,
+      "priorityBand": "medium",
+      "priorityReasons": [
+        "Authority & Class mention: International Maritime Organization",
+        "Signal: Regulation",
+        "Signal: Energy Transition"
+      ],
+      "boardBucket": "Regulation, Safety & Incidents"
+    },
+    {
       "id": "ea5da17e7ed85385",
       "title": "TotalEnergies Greenlights Battery-Backed Wind Project in Kazakhstan",
       "source": "Rigzone",
@@ -845,6 +926,79 @@ window.__DASHBOARD_DATA__ = {
         "Signal: Energy Transition"
       ],
       "boardBucket": "Clients & Projects"
+    },
+    {
+      "id": "a6ae38e60ef31666",
+      "title": "Everllence questions the viability of IMO GHG Strategy as NZF uncertainty \u2018freezes\u2019 investment in retrofits",
+      "source": "Riviera: Regulations & Compliance",
+      "sourceId": "riviera-regulation",
+      "url": "https://www.rivieramm.com/news-content-hub/everllence-questions-the-viability-of-imo-ghg-strategy-as-nzf-uncertainty-freezes-investment-in-retrofits-88596",
+      "publishedAt": "2026-04-27T05:36:00Z",
+      "excerpt": "As MEPC 84 opens in London, a major two\u2011stroke engine designer is questioning whether the IMO\u2019s GHG strategy can succeed without clarity on NZF needed to unlock large\u2011scale retrofit investment",
+      "tags": [
+        "Regulation",
+        "Decarbonization",
+        "Compliance"
+      ],
+      "audience": "Novatug",
+      "paywalled": false,
+      "entities": [
+        {
+          "name": "International Maritime Organization",
+          "category": "authorities"
+        }
+      ],
+      "locations": [],
+      "businessTags": [
+        "Authority & Class",
+        "Regulation",
+        "Commercial"
+      ],
+      "priorityScore": 8,
+      "priorityBand": "medium",
+      "priorityReasons": [
+        "Authority & Class mention: International Maritime Organization",
+        "Signal: Regulation",
+        "Signal: Commercial"
+      ],
+      "boardBucket": "Regulation, Safety & Incidents"
+    },
+    {
+      "id": "fa2c7a582f1ad14e",
+      "title": "Liberia Tables a Pragmatic Net Zero Proposal for the IMO",
+      "source": "The Maritime Executive",
+      "sourceId": "maritime-executive",
+      "url": "https://maritime-executive.com/article/liberia-tables-a-pragmatic-net-zero-proposal-for-the-imo",
+      "publishedAt": "2026-04-26T20:30:00Z",
+      "excerpt": "Liberia, supported by co-sponsors Argentina and Panama, is to present a new emissions proposal to the IMO Marine Environmental Protection Committee f...",
+      "tags": [
+        "Regulation",
+        "Decarbonization",
+        "Maritime",
+        "News"
+      ],
+      "audience": "Novatug",
+      "paywalled": false,
+      "entities": [
+        {
+          "name": "International Maritime Organization",
+          "category": "authorities"
+        }
+      ],
+      "locations": [],
+      "businessTags": [
+        "Authority & Class",
+        "Regulation",
+        "Energy Transition"
+      ],
+      "priorityScore": 8,
+      "priorityBand": "medium",
+      "priorityReasons": [
+        "Authority & Class mention: International Maritime Organization",
+        "Signal: Regulation",
+        "Signal: Energy Transition"
+      ],
+      "boardBucket": "Regulation, Safety & Incidents"
     },
     {
       "id": "e348e2875305337d",
@@ -1011,6 +1165,42 @@ window.__DASHBOARD_DATA__ = {
       "boardBucket": "Clients & Projects"
     },
     {
+      "id": "7eef26157c4f5ecd",
+      "title": "Shipping lobbies unite in defence of IMO, support of GHG ambitions, citing billions in investment",
+      "source": "Riviera: Regulations & Compliance",
+      "sourceId": "riviera-regulation",
+      "url": "https://www.rivieramm.com/news-content-hub/shipping-lobbies-unite-in-defence-of-imo-support-of-ghg-ambitions-citing-billions-in-investment-88530",
+      "publishedAt": "2026-04-21T06:49:41Z",
+      "excerpt": "International Maritime Organization (IMO) \"consistently demonstrates a unique ability to deliver critical regulations,\" say shipowner advocacy bodies and membership groups",
+      "tags": [
+        "Regulation",
+        "Decarbonization",
+        "Compliance"
+      ],
+      "audience": "Novatug",
+      "paywalled": false,
+      "entities": [
+        {
+          "name": "International Maritime Organization",
+          "category": "authorities"
+        }
+      ],
+      "locations": [],
+      "businessTags": [
+        "Authority & Class",
+        "Regulation",
+        "Commercial"
+      ],
+      "priorityScore": 8,
+      "priorityBand": "medium",
+      "priorityReasons": [
+        "Authority & Class mention: International Maritime Organization",
+        "Signal: Regulation",
+        "Signal: Commercial"
+      ],
+      "boardBucket": "Regulation, Safety & Incidents"
+    },
+    {
       "id": "75ccd4eae0170d70",
       "title": "Sarens executes 740 SPMT moves for Coastal Virginia Offshore Wind project - Project Cargo Journal",
       "source": "Sarens News",
@@ -1043,6 +1233,40 @@ window.__DASHBOARD_DATA__ = {
       "boardBucket": "Clients & Projects"
     },
     {
+      "id": "912546c521e9013a",
+      "title": "IMO hazardous cargo compensation regime nears entry into force",
+      "source": "Riviera: Regulations & Compliance",
+      "sourceId": "riviera-regulation",
+      "url": "https://www.rivieramm.com/news-content-hub/imo-hazardous-cargo-compensation-regime-nears-entry-into-force-88498",
+      "publishedAt": "2026-04-17T09:00:00Z",
+      "excerpt": "HNS Convention to ensure compensation for hazardous cargo incidents",
+      "tags": [
+        "Incidents",
+        "Regulation",
+        "Compliance"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [
+        {
+          "name": "International Maritime Organization",
+          "category": "authorities"
+        }
+      ],
+      "locations": [],
+      "businessTags": [
+        "Authority & Class",
+        "Regulation"
+      ],
+      "priorityScore": 8,
+      "priorityBand": "medium",
+      "priorityReasons": [
+        "Authority & Class mention: International Maritime Organization",
+        "Signal: Regulation"
+      ],
+      "boardBucket": "Regulation, Safety & Incidents"
+    },
+    {
       "id": "134067e1fc03cef8",
       "title": "Oil demand decline in second quarter forecast to be largest since Covid-19",
       "source": "Riviera: Safety & Incidents",
@@ -1067,6 +1291,108 @@ window.__DASHBOARD_DATA__ = {
       "priorityReasons": [
         "Signal: Disruption",
         "Signal: Infrastructure"
+      ],
+      "boardBucket": "Regulation, Safety & Incidents"
+    },
+    {
+      "id": "098508a14c9c8056",
+      "title": "U.S. Biofuels Industry Targets MEPC 84 Negotiations",
+      "source": "MarineLink",
+      "sourceId": "marinelink",
+      "url": "https://www.marinelink.com/news/us-biofuels-industry-targets-mepc-538560",
+      "publishedAt": "2026-04-29T00:19:49Z",
+      "excerpt": "A joint letter organized by the American Biofuels Maritime Initiative (ABMI) has been sent to U.S. Secretary of State Marco Rubio ahead of this week's negotiations at the IMO MEPC 84 meeting in London. The effort is aimed at ensuring that\u2026",
+      "tags": [
+        "Regulation",
+        "Maritime",
+        "Industry"
+      ],
+      "audience": "Both",
+      "paywalled": false,
+      "entities": [
+        {
+          "name": "International Maritime Organization",
+          "category": "authorities"
+        }
+      ],
+      "locations": [],
+      "businessTags": [
+        "Authority & Class",
+        "Regulation"
+      ],
+      "priorityScore": 7,
+      "priorityBand": "medium",
+      "priorityReasons": [
+        "Authority & Class mention: International Maritime Organization",
+        "Signal: Regulation"
+      ],
+      "boardBucket": "Regulation, Safety & Incidents"
+    },
+    {
+      "id": "942fb25577dd1494",
+      "title": "IMO Consensus-Building Process Underway at MPEC Meeting",
+      "source": "The Maritime Executive",
+      "sourceId": "maritime-executive",
+      "url": "https://maritime-executive.com/article/imo-consensus-building-process-underway-at-mpec-meeting",
+      "publishedAt": "2026-04-28T19:56:51Z",
+      "excerpt": "Delegates to the International Maritime Organisation\u2019s Marine Environmental Protection Committee\u2019s 84th Session appear to have taken the IMO Secretar...",
+      "tags": [
+        "Regulation",
+        "Maritime",
+        "News"
+      ],
+      "audience": "Both",
+      "paywalled": false,
+      "entities": [
+        {
+          "name": "International Maritime Organization",
+          "category": "authorities"
+        }
+      ],
+      "locations": [],
+      "businessTags": [
+        "Authority & Class",
+        "Regulation"
+      ],
+      "priorityScore": 7,
+      "priorityBand": "medium",
+      "priorityReasons": [
+        "Authority & Class mention: International Maritime Organization",
+        "Signal: Regulation"
+      ],
+      "boardBucket": "Regulation, Safety & Incidents"
+    },
+    {
+      "id": "df3a760ad55aebbd",
+      "title": "Chairman DiBella Joins the U.S. Delegation to the IMO",
+      "source": "MarineLink",
+      "sourceId": "marinelink",
+      "url": "https://www.marinelink.com/news/chairman-dibella-joins-us-delegation-imo-538550",
+      "publishedAt": "2026-04-28T17:42:55Z",
+      "excerpt": "Federal Maritime Commission (FMC) Chairman Laura DiBella joined the U.S. delegation to the International Maritime Organization (IMO) this week for the 84th session of the Maritime Environmental Protection Committee in London. As part of th\u2026",
+      "tags": [
+        "Regulation",
+        "Maritime",
+        "Industry"
+      ],
+      "audience": "Both",
+      "paywalled": false,
+      "entities": [
+        {
+          "name": "International Maritime Organization",
+          "category": "authorities"
+        }
+      ],
+      "locations": [],
+      "businessTags": [
+        "Authority & Class",
+        "Regulation"
+      ],
+      "priorityScore": 7,
+      "priorityBand": "medium",
+      "priorityReasons": [
+        "Authority & Class mention: International Maritime Organization",
+        "Signal: Regulation"
       ],
       "boardBucket": "Regulation, Safety & Incidents"
     },
@@ -1160,23 +1486,57 @@ window.__DASHBOARD_DATA__ = {
       "entities": [
         {
           "name": "DNV",
-          "category": "suppliers"
+          "category": "authorities"
         }
       ],
       "locations": [],
       "businessTags": [
-        "Supplier",
+        "Authority & Class",
         "Operations",
         "Energy Transition"
       ],
       "priorityScore": 7,
       "priorityBand": "medium",
       "priorityReasons": [
-        "Supplier mention: DNV",
+        "Authority & Class mention: DNV",
         "Signal: Operations",
         "Signal: Energy Transition"
       ],
-      "boardBucket": "Other Relevant"
+      "boardBucket": "Regulation, Safety & Incidents"
+    },
+    {
+      "id": "b8e5d24f00ac3809",
+      "title": "IMO Braces for a Tough Week as MEPC84 Resumes Net-Zero Debate",
+      "source": "The Maritime Executive",
+      "sourceId": "maritime-executive",
+      "url": "https://maritime-executive.com/article/imo-braces-for-a-tough-week-as-mepc84-resumes-net-zero-debate",
+      "publishedAt": "2026-04-27T22:39:08Z",
+      "excerpt": "The battle lines are being drawn, and the protestors are on the doorstep of the International Maritime Organization as it resumes the debate on its Ne...",
+      "tags": [
+        "Regulation",
+        "Maritime",
+        "News"
+      ],
+      "audience": "Both",
+      "paywalled": false,
+      "entities": [
+        {
+          "name": "International Maritime Organization",
+          "category": "authorities"
+        }
+      ],
+      "locations": [],
+      "businessTags": [
+        "Authority & Class",
+        "Regulation"
+      ],
+      "priorityScore": 7,
+      "priorityBand": "medium",
+      "priorityReasons": [
+        "Authority & Class mention: International Maritime Organization",
+        "Signal: Regulation"
+      ],
+      "boardBucket": "Regulation, Safety & Incidents"
     },
     {
       "id": "6b42949ec3379f0c",
@@ -1210,6 +1570,245 @@ window.__DASHBOARD_DATA__ = {
         "Signal: Commercial"
       ],
       "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "9325b5026d92dec5",
+      "title": "IMO Passes Major Reform of Ship Registration Process",
+      "source": "The Maritime Executive",
+      "sourceId": "maritime-executive",
+      "url": "https://maritime-executive.com/article/imo-passes-major-reform-of-ship-registration-process",
+      "publishedAt": "2026-04-26T19:30:26Z",
+      "excerpt": "The International Maritime Organization (IMO) has moved to seal a regulatory gap that has enabled the rise of false flagging in the shipping industry...",
+      "tags": [
+        "Regulation",
+        "Maritime",
+        "News"
+      ],
+      "audience": "Both",
+      "paywalled": false,
+      "entities": [
+        {
+          "name": "International Maritime Organization",
+          "category": "authorities"
+        }
+      ],
+      "locations": [],
+      "businessTags": [
+        "Authority & Class",
+        "Regulation"
+      ],
+      "priorityScore": 7,
+      "priorityBand": "medium",
+      "priorityReasons": [
+        "Authority & Class mention: International Maritime Organization",
+        "Signal: Regulation"
+      ],
+      "boardBucket": "Regulation, Safety & Incidents"
+    },
+    {
+      "id": "83654714ec096c7d",
+      "title": "No safe transit through Strait of Hormuz: IMO Secretary-General - International Maritime Organization",
+      "source": "IMO Press Briefings",
+      "sourceId": "google-imo-press",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNV1ZaemtELWptQVQ3STVCczBDN3gyTElVaG1UVTVvOUxkTlRSOE92eVc1WjRXTGRoTzNGLUZvUFpnQmUza2tweEFMOFdSVkVLMEpLa3VSd1l6WXR4WVdfWkk3R3l1dm9nUjZqbXNpV0hnTkc0cmx1aGJkOXBNbkFiNl9Gazh3cXNhLWdPT3VEWmZEUWczd3poTjRULVMzVnFYLUZDTk1NQkRNMlJpbFgwQlpxMA?oc=5",
+      "publishedAt": "2026-04-24T18:32:38Z",
+      "excerpt": "No safe transit through Strait of Hormuz: IMO Secretary-General International Maritime Organization",
+      "tags": [
+        "Regulation",
+        "Imo",
+        "Operations",
+        "Safety"
+      ],
+      "audience": "Both",
+      "paywalled": false,
+      "entities": [
+        {
+          "name": "International Maritime Organization",
+          "category": "authorities"
+        }
+      ],
+      "locations": [],
+      "businessTags": [
+        "Authority & Class",
+        "Regulation"
+      ],
+      "priorityScore": 7,
+      "priorityBand": "medium",
+      "priorityReasons": [
+        "Authority & Class mention: International Maritime Organization",
+        "Signal: Regulation"
+      ],
+      "boardBucket": "Regulation, Safety & Incidents"
+    },
+    {
+      "id": "9e5fc0b9e84e0ab3",
+      "title": "Top three ship registries call on IMO to look at alternatives to climate framework",
+      "source": "Riviera: Regulations & Compliance",
+      "sourceId": "riviera-regulation",
+      "url": "https://www.rivieramm.com/news-content-hub/top-three-ship-registries-call-on-imo-to-look-at-alternatives-to-climate-framework-88561",
+      "publishedAt": "2026-04-24T14:07:55Z",
+      "excerpt": "Liberia, Panama and Marshall Islands registries are part of a coalition of entities that also includes Greek and Saudi shipowners urging \u2019unity, not division\u2019 in what have become contentious discussions around IMO\u2019s Net-Zero Framework",
+      "tags": [
+        "Regulation",
+        "Compliance"
+      ],
+      "audience": "Both",
+      "paywalled": false,
+      "entities": [
+        {
+          "name": "International Maritime Organization",
+          "category": "authorities"
+        }
+      ],
+      "locations": [],
+      "businessTags": [
+        "Authority & Class",
+        "Regulation"
+      ],
+      "priorityScore": 7,
+      "priorityBand": "medium",
+      "priorityReasons": [
+        "Authority & Class mention: International Maritime Organization",
+        "Signal: Regulation"
+      ],
+      "boardBucket": "Regulation, Safety & Incidents"
+    },
+    {
+      "id": "3fd823c41bb5b7f0",
+      "title": "'Shipping's most turbulent quarter in 50 years' sees IMO add rules to fight rise in flag fraud",
+      "source": "Riviera: Safety & Incidents",
+      "sourceId": "riviera-safety",
+      "url": "https://www.rivieramm.com/news-content-hub/shippings-most-turbulent-quarter-in-50-years-sees-imo-add-guidelines-to-fight-rise-in-fraudulent-flagging-88529",
+      "publishedAt": "2026-04-20T14:59:47Z",
+      "excerpt": "New guidelines on ship registration aim to cut fraudulent registration, which has surged in recent months",
+      "tags": [
+        "Incidents",
+        "Regulation",
+        "Safety"
+      ],
+      "audience": "Both",
+      "paywalled": false,
+      "entities": [
+        {
+          "name": "International Maritime Organization",
+          "category": "authorities"
+        }
+      ],
+      "locations": [],
+      "businessTags": [
+        "Authority & Class",
+        "Regulation"
+      ],
+      "priorityScore": 7,
+      "priorityBand": "medium",
+      "priorityReasons": [
+        "Authority & Class mention: International Maritime Organization",
+        "Signal: Regulation"
+      ],
+      "boardBucket": "Regulation, Safety & Incidents"
+    },
+    {
+      "id": "d3ac720b36ac9e08",
+      "title": "PREVIEW: Marine Environment Protection Committee (MEPC 84), 27 April to 1 May 2026 - International Maritime Organization",
+      "source": "IMO Meeting Summaries",
+      "sourceId": "google-imo-meetings",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOQWJLYmFqU2d0NUxPR2RCcE5SNHhMLTQ1NWNhTGRncm9xWEtRZEhRQVJ5dFRQTmUycl9vRFlhcmNqOUlxYjFxdHQxSkxxLUYyaTMwUDB2VTIwME1MQ1M5ODlwVzlGUjg5eHA1XzVZZmh2NGtQX1UxVWtFTlpvSlllWEY2d1U?oc=5",
+      "publishedAt": "2026-04-20T14:32:30Z",
+      "excerpt": "PREVIEW: Marine Environment Protection Committee (MEPC 84), 27 April to 1 May 2026 International Maritime Organization",
+      "tags": [
+        "Regulation",
+        "Imo",
+        "Operations",
+        "Safety"
+      ],
+      "audience": "Both",
+      "paywalled": false,
+      "entities": [
+        {
+          "name": "International Maritime Organization",
+          "category": "authorities"
+        }
+      ],
+      "locations": [],
+      "businessTags": [
+        "Authority & Class",
+        "Regulation"
+      ],
+      "priorityScore": 7,
+      "priorityBand": "medium",
+      "priorityReasons": [
+        "Authority & Class mention: International Maritime Organization",
+        "Signal: Regulation"
+      ],
+      "boardBucket": "Regulation, Safety & Incidents"
+    },
+    {
+      "id": "d36d827b790c81e9",
+      "title": "Greek owners slam IMO Net-Zero Framework, urge realistic alternative",
+      "source": "Riviera: Regulations & Compliance",
+      "sourceId": "riviera-regulation",
+      "url": "https://www.rivieramm.com/news-content-hub/greek-owners-slam-imo-net-zero-framework-urge-realistic-alternative-88496",
+      "publishedAt": "2026-04-17T07:30:00Z",
+      "excerpt": "UGS president Melina Travlos set out the union\u2019s stance ahead of IMO\u2019s MEPC meeting",
+      "tags": [
+        "Regulation",
+        "Compliance"
+      ],
+      "audience": "Both",
+      "paywalled": false,
+      "entities": [
+        {
+          "name": "International Maritime Organization",
+          "category": "authorities"
+        }
+      ],
+      "locations": [],
+      "businessTags": [
+        "Authority & Class",
+        "Regulation"
+      ],
+      "priorityScore": 7,
+      "priorityBand": "medium",
+      "priorityReasons": [
+        "Authority & Class mention: International Maritime Organization",
+        "Signal: Regulation"
+      ],
+      "boardBucket": "Regulation, Safety & Incidents"
+    },
+    {
+      "id": "55ff6e347ed0c303",
+      "title": "IMO approves new guidelines on ship registration - International Maritime Organization",
+      "source": "IMO Press Briefings",
+      "sourceId": "google-imo-press",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPSkF2UUlXYzVyMmRqOG1yMVE3RHp4ZTRHbDR0Wl85ajFzR0JoS0paeFlONzlocXR0TV9CX19TY2dwVEE5eFRCVWkwZy1PYzRrTzRHMTBEcl90RmtmLVBCTmJodU03cUJpV0I0RXNDSzJ4aTlLbEw0ZUNfWjFXQWdWUGVqOUEzMmx4UkZZa3lzOUpwYTNvaGduR0ZzTDUxd2tzOWhtNjBkQjNUcHdBWWc?oc=5",
+      "publishedAt": "2026-04-17T07:00:00Z",
+      "excerpt": "IMO approves new guidelines on ship registration International Maritime Organization",
+      "tags": [
+        "Regulation",
+        "Imo",
+        "Operations",
+        "Safety"
+      ],
+      "audience": "Both",
+      "paywalled": false,
+      "entities": [
+        {
+          "name": "International Maritime Organization",
+          "category": "authorities"
+        }
+      ],
+      "locations": [],
+      "businessTags": [
+        "Authority & Class",
+        "Regulation"
+      ],
+      "priorityScore": 7,
+      "priorityBand": "medium",
+      "priorityReasons": [
+        "Authority & Class mention: International Maritime Organization",
+        "Signal: Regulation"
+      ],
+      "boardBucket": "Regulation, Safety & Incidents"
     },
     {
       "id": "06bd8b9257b55370",
@@ -1269,38 +1868,105 @@ window.__DASHBOARD_DATA__ = {
       "boardBucket": "Regulation, Safety & Incidents"
     },
     {
-      "id": "5559f5724d525ee5",
-      "title": "Damen ASD Tug 2312 to support Arrendadora Continental in Puerto Quetzal contract - Damen Shipyards",
-      "source": "Damen Shipyards News",
-      "sourceId": "google-damen",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOeUY0V2lFLS1fYXZVRXVpdjZkUlJvVzh2MUxoLVNiY29nQ1F0eGVON1VyeW0xamdDNWw0WkxOejRBeTZ4Znc2ckx0cXJNNTBFZUFzVm55UWd3enhJYnhpREp4aC1DQVNfR2VzQUowcHA5TVp1VkxiVDNRd0ltX2VsVnZIbG5pa0JRa1lVS2JLSV9xdUw1T25iYTJYRXpHYTBjUl9WbzZYRlZ2eXo0dThyY2cwMTZxYlN0cWNLeGQyQXc?oc=5",
-      "publishedAt": "2026-03-31T07:00:00Z",
-      "excerpt": "Damen ASD Tug 2312 to support Arrendadora Continental in Puerto Quetzal contract Damen Shipyards",
+      "id": "6b0f16aacd0a7aef",
+      "title": "KR guidance targets 2028 IGC code shift",
+      "source": "Riviera: Regulations & Compliance",
+      "sourceId": "riviera-regulation",
+      "url": "https://www.rivieramm.com/news-content-hub/kr-guidance-targets-2028-igc-code-shift-88236",
+      "publishedAt": "2026-04-06T07:30:00Z",
+      "excerpt": "KR has issued technical guidance and briefed South Korean yards as IMO moves toward approving and adopting the revised IGC Code amendments due in 2028",
       "tags": [
-        "Towage",
-        "Shipbuilding",
-        "Supplier"
+        "Regulation",
+        "Compliance"
       ],
-      "audience": "Multraship",
+      "audience": "Both",
       "paywalled": false,
       "entities": [
         {
-          "name": "Damen Shipyards Group",
-          "category": "suppliers"
+          "name": "International Maritime Organization",
+          "category": "authorities"
         }
       ],
       "locations": [],
       "businessTags": [
-        "Supplier",
-        "Commercial"
+        "Authority & Class",
+        "Regulation"
       ],
       "priorityScore": 7,
       "priorityBand": "medium",
       "priorityReasons": [
-        "Supplier mention: Damen Shipyards Group",
-        "Signal: Commercial"
+        "Authority & Class mention: International Maritime Organization",
+        "Signal: Regulation"
       ],
-      "boardBucket": "Other Relevant"
+      "boardBucket": "Regulation, Safety & Incidents"
+    },
+    {
+      "id": "c0519accd00b04f6",
+      "title": "Committee approvals drive forward IMO cyber security, digitalisation strategy",
+      "source": "Riviera: Regulations & Compliance",
+      "sourceId": "riviera-regulation",
+      "url": "https://www.rivieramm.com/news-content-hub/committee-approvals-drive-forward-imo-cybersecurity-digitalisation-strategy-88354",
+      "publishedAt": "2026-04-06T07:00:00Z",
+      "excerpt": "FAL approves plans to enhance cyber security of maritime single windows of information exchange",
+      "tags": [
+        "Regulation",
+        "Compliance"
+      ],
+      "audience": "Both",
+      "paywalled": false,
+      "entities": [
+        {
+          "name": "International Maritime Organization",
+          "category": "authorities"
+        }
+      ],
+      "locations": [],
+      "businessTags": [
+        "Authority & Class",
+        "Regulation"
+      ],
+      "priorityScore": 7,
+      "priorityBand": "medium",
+      "priorityReasons": [
+        "Authority & Class mention: International Maritime Organization",
+        "Signal: Regulation"
+      ],
+      "boardBucket": "Regulation, Safety & Incidents"
+    },
+    {
+      "id": "dca1c00509e6413e",
+      "title": "\u201cFragmented responses are no longer sufficient\u201d: IMO Secretary-General - International Maritime Organization",
+      "source": "IMO Press Briefings",
+      "sourceId": "google-imo-press",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOV1FvcHRsUHVCNm1IeWR1RmM4dE1GRHZyWmFQVV9ac3JyU1hqbmlXQXY4YlQxU21IeUhDek1UZktxVFF3RlFBT3dkWkNCejFOOHZCemJWeXU0a2U0c1hpbDBIc2M0MFVNcXl6cjBYU25DX0kxUGRpMk9mQlpzN0lLb2ZuQzNocXhud2RTdTlFNDExZHZyQnpDZFF3UWlteV9SYVgxa0pwb3pEcUYzdHBXVXBnUTNueUVYZmp5bFBwaWgwSWFWems0Qk9B?oc=5",
+      "publishedAt": "2026-04-02T07:00:00Z",
+      "excerpt": "\u201cFragmented responses are no longer sufficient\u201d: IMO Secretary-General International Maritime Organization",
+      "tags": [
+        "Regulation",
+        "Imo",
+        "Operations",
+        "Safety"
+      ],
+      "audience": "Both",
+      "paywalled": false,
+      "entities": [
+        {
+          "name": "International Maritime Organization",
+          "category": "authorities"
+        }
+      ],
+      "locations": [],
+      "businessTags": [
+        "Authority & Class",
+        "Regulation"
+      ],
+      "priorityScore": 7,
+      "priorityBand": "medium",
+      "priorityReasons": [
+        "Authority & Class mention: International Maritime Organization",
+        "Signal: Regulation"
+      ],
+      "boardBucket": "Regulation, Safety & Incidents"
     },
     {
       "id": "3af8667d8642267a",
@@ -3010,6 +3676,38 @@ window.__DASHBOARD_DATA__ = {
       "boardBucket": "Competitors & Market"
     },
     {
+      "id": "91afc89829183d30",
+      "title": "ILT News page updated",
+      "source": "ILT News",
+      "sourceId": "ilt-news",
+      "url": "https://english.ilent.nl/latest/news?dashboardChange=5a18cd8d4670",
+      "publishedAt": "2026-04-29T07:14:09.256736Z",
+      "excerpt": "Tracked page content changed.",
+      "tags": [
+        "Regulation",
+        "Government",
+        "Safety"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [
+        {
+          "name": "ILT",
+          "category": "authorities"
+        }
+      ],
+      "locations": [],
+      "businessTags": [
+        "Authority & Class"
+      ],
+      "priorityScore": 5,
+      "priorityBand": "medium",
+      "priorityReasons": [
+        "Authority & Class mention: ILT"
+      ],
+      "boardBucket": "Regulation, Safety & Incidents"
+    },
+    {
       "id": "84c1ee0414f2755d",
       "title": "Keel laid for Penta-Ocean Construction's new cable laying vessel",
       "source": "Baird Maritime",
@@ -3215,59 +3913,6 @@ window.__DASHBOARD_DATA__ = {
       "boardBucket": "Regulation, Safety & Incidents"
     },
     {
-      "id": "e9c2c201af2d34ac",
-      "title": "Tanker markets tip into oversupply with ballast surge",
-      "source": "Splash247",
-      "sourceId": "splash247",
-      "url": "https://splash247.com/tanker-markets-tip-into-oversupply-with-ballast-surge",
-      "publishedAt": "2026-04-28T07:00:16Z",
-      "excerpt": "An extraordinary simultaneous build-up of ballast vessels across every major crude tanker segment has moved geopolitically driven disruption into a fundamental demand-side crisis. With the Strait of Hormuz now closed for 60 days, the initi\u2026",
-      "tags": [
-        "Maritime",
-        "News"
-      ],
-      "audience": "Both",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [
-        "Disruption"
-      ],
-      "priorityScore": 5,
-      "priorityBand": "medium",
-      "priorityReasons": [
-        "Signal: Disruption"
-      ],
-      "boardBucket": "Regulation, Safety & Incidents"
-    },
-    {
-      "id": "1b7a6a45b6430333",
-      "title": "FMC Chair Joins U.S. Opposition to IMO Carbon Plan With Warning",
-      "source": "gCaptain",
-      "sourceId": "gcaptain",
-      "url": "https://gcaptain.com/fmc-chair-joins-u-s-opposition-to-imo-carbon-plan-with-warning",
-      "publishedAt": "2026-04-27T23:30:17Z",
-      "excerpt": "The chair of the Federal Maritime Commission has joined the U.S. delegation to high-stakes climate talks at the UN\u2019s International Maritime Organization, accompanied by an explicit warning that could signal a more confrontational...",
-      "tags": [
-        "Regulation",
-        "Maritime",
-        "Operations"
-      ],
-      "audience": "Multraship",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [
-        "Regulation"
-      ],
-      "priorityScore": 5,
-      "priorityBand": "medium",
-      "priorityReasons": [
-        "Signal: Regulation"
-      ],
-      "boardBucket": "Regulation, Safety & Incidents"
-    },
-    {
       "id": "4ea676d1c97f9a4b",
       "title": "ABS, Marinteknik, Seatech, & VINSSEN Hydrogen Fuel Cell Harbor Craft Study",
       "source": "The Maritime Executive",
@@ -3286,48 +3931,18 @@ window.__DASHBOARD_DATA__ = {
       "entities": [
         {
           "name": "American Bureau of Shipping",
-          "category": "suppliers"
+          "category": "authorities"
         }
       ],
       "locations": [],
       "businessTags": [
-        "Supplier",
+        "Authority & Class",
         "Energy Transition"
       ],
       "priorityScore": 5,
       "priorityBand": "medium",
       "priorityReasons": [
-        "Supplier mention: American Bureau of Shipping",
-        "Signal: Energy Transition"
-      ],
-      "boardBucket": "Other Relevant"
-    },
-    {
-      "id": "acf28aba4e826a3a",
-      "title": "Everllence Warns of 50GW Gap in Meeting IMO\u2019s GHG Strategy Goals",
-      "source": "The Maritime Executive",
-      "sourceId": "maritime-executive",
-      "url": "https://maritime-executive.com/article/everllence-warns-of-50gw-gap-in-meeting-imo-s-ghg-strategy-goals",
-      "publishedAt": "2026-04-27T22:11:44Z",
-      "excerpt": "Everllence has expressed concern over the current viability of the IMO\u2019s 2023 GHG Strategy that aims for net?zero emissions from international shippin...",
-      "tags": [
-        "Regulation",
-        "Decarbonization",
-        "Maritime",
-        "News"
-      ],
-      "audience": "Novatug",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [
-        "Regulation",
-        "Energy Transition"
-      ],
-      "priorityScore": 5,
-      "priorityBand": "medium",
-      "priorityReasons": [
-        "Signal: Regulation",
+        "Authority & Class mention: American Bureau of Shipping",
         "Signal: Energy Transition"
       ],
       "boardBucket": "Regulation, Safety & Incidents"
@@ -3393,35 +4008,6 @@ window.__DASHBOARD_DATA__ = {
       "boardBucket": "Port Watch"
     },
     {
-      "id": "a6ae38e60ef31666",
-      "title": "Everllence questions the viability of IMO GHG Strategy as NZF uncertainty \u2018freezes\u2019 investment in retrofits",
-      "source": "Riviera: Regulations & Compliance",
-      "sourceId": "riviera-regulation",
-      "url": "https://www.rivieramm.com/news-content-hub/everllence-questions-the-viability-of-imo-ghg-strategy-as-nzf-uncertainty-freezes-investment-in-retrofits-88596",
-      "publishedAt": "2026-04-27T05:36:00Z",
-      "excerpt": "As MEPC 84 opens in London, a major two\u2011stroke engine designer is questioning whether the IMO\u2019s GHG strategy can succeed without clarity on NZF needed to unlock large\u2011scale retrofit investment",
-      "tags": [
-        "Regulation",
-        "Decarbonization",
-        "Compliance"
-      ],
-      "audience": "Novatug",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [
-        "Regulation",
-        "Commercial"
-      ],
-      "priorityScore": 5,
-      "priorityBand": "medium",
-      "priorityReasons": [
-        "Signal: Regulation",
-        "Signal: Commercial"
-      ],
-      "boardBucket": "Regulation, Safety & Incidents"
-    },
-    {
       "id": "f6a5d650ff0b3feb",
       "title": "'We live up here to escape': Residents unhappy with sand dredging proposal - Australian Broadcasting Corporation",
       "source": "Boskalis News",
@@ -3474,36 +4060,6 @@ window.__DASHBOARD_DATA__ = {
       "boardBucket": "Regulation, Safety & Incidents"
     },
     {
-      "id": "fa2c7a582f1ad14e",
-      "title": "Liberia Tables a Pragmatic Net Zero Proposal for the IMO",
-      "source": "The Maritime Executive",
-      "sourceId": "maritime-executive",
-      "url": "https://maritime-executive.com/article/liberia-tables-a-pragmatic-net-zero-proposal-for-the-imo",
-      "publishedAt": "2026-04-26T20:30:00Z",
-      "excerpt": "Liberia, supported by co-sponsors Argentina and Panama, is to present a new emissions proposal to the IMO Marine Environmental Protection Committee f...",
-      "tags": [
-        "Regulation",
-        "Decarbonization",
-        "Maritime",
-        "News"
-      ],
-      "audience": "Novatug",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [
-        "Regulation",
-        "Energy Transition"
-      ],
-      "priorityScore": 5,
-      "priorityBand": "medium",
-      "priorityReasons": [
-        "Signal: Regulation",
-        "Signal: Energy Transition"
-      ],
-      "boardBucket": "Regulation, Safety & Incidents"
-    },
-    {
       "id": "78c850d1cd55ad13",
       "title": "Dachser Zevenaar voert 'track and trace binnen de terminal' in: 'Foutkans is bijna 0'",
       "source": "Logistiek.nl: News",
@@ -3530,62 +4086,6 @@ window.__DASHBOARD_DATA__ = {
       "boardBucket": "Regulation, Safety & Incidents"
     },
     {
-      "id": "7eef26157c4f5ecd",
-      "title": "Shipping lobbies unite in defence of IMO, support of GHG ambitions, citing billions in investment",
-      "source": "Riviera: Regulations & Compliance",
-      "sourceId": "riviera-regulation",
-      "url": "https://www.rivieramm.com/news-content-hub/shipping-lobbies-unite-in-defence-of-imo-support-of-ghg-ambitions-citing-billions-in-investment-88530",
-      "publishedAt": "2026-04-21T06:49:41Z",
-      "excerpt": "International Maritime Organization (IMO) \"consistently demonstrates a unique ability to deliver critical regulations,\" say shipowner advocacy bodies and membership groups",
-      "tags": [
-        "Regulation",
-        "Decarbonization",
-        "Compliance"
-      ],
-      "audience": "Novatug",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [
-        "Regulation",
-        "Commercial"
-      ],
-      "priorityScore": 5,
-      "priorityBand": "medium",
-      "priorityReasons": [
-        "Signal: Regulation",
-        "Signal: Commercial"
-      ],
-      "boardBucket": "Regulation, Safety & Incidents"
-    },
-    {
-      "id": "912546c521e9013a",
-      "title": "IMO hazardous cargo compensation regime nears entry into force",
-      "source": "Riviera: Regulations & Compliance",
-      "sourceId": "riviera-regulation",
-      "url": "https://www.rivieramm.com/news-content-hub/imo-hazardous-cargo-compensation-regime-nears-entry-into-force-88498",
-      "publishedAt": "2026-04-17T09:00:00Z",
-      "excerpt": "HNS Convention to ensure compensation for hazardous cargo incidents",
-      "tags": [
-        "Incidents",
-        "Regulation",
-        "Compliance"
-      ],
-      "audience": "Multraship",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [
-        "Regulation"
-      ],
-      "priorityScore": 5,
-      "priorityBand": "medium",
-      "priorityReasons": [
-        "Signal: Regulation"
-      ],
-      "boardBucket": "Regulation, Safety & Incidents"
-    },
-    {
       "id": "e5273fb776765bba",
       "title": "LR looks to \u2018cleaner\u2019 production, bioLNG and synthetic LNG for improved LNG emissions performance",
       "source": "Riviera: Regulations & Compliance",
@@ -3603,21 +4103,21 @@ window.__DASHBOARD_DATA__ = {
       "entities": [
         {
           "name": "Lloyd's Register",
-          "category": "suppliers"
+          "category": "authorities"
         }
       ],
       "locations": [],
       "businessTags": [
-        "Supplier",
+        "Authority & Class",
         "Energy Transition"
       ],
       "priorityScore": 5,
       "priorityBand": "medium",
       "priorityReasons": [
-        "Supplier mention: Lloyd's Register",
+        "Authority & Class mention: Lloyd's Register",
         "Signal: Energy Transition"
       ],
-      "boardBucket": "Other Relevant"
+      "boardBucket": "Regulation, Safety & Incidents"
     },
     {
       "id": "9fa4d00e31005650",
@@ -3636,6 +4136,37 @@ window.__DASHBOARD_DATA__ = {
       "entities": [
         {
           "name": "Lloyd's Register",
+          "category": "authorities"
+        }
+      ],
+      "locations": [],
+      "businessTags": [
+        "Authority & Class"
+      ],
+      "priorityScore": 5,
+      "priorityBand": "medium",
+      "priorityReasons": [
+        "Authority & Class mention: Lloyd's Register"
+      ],
+      "boardBucket": "Regulation, Safety & Incidents"
+    },
+    {
+      "id": "4e2f9105ec1dbca2",
+      "title": "Meet the wealthiest man at Damen Shipyards Cape Town - Sunday Tribune",
+      "source": "Damen Shipyards News",
+      "sourceId": "google-damen",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOLS1pU3VIVVZWUjM3VUdmdURJdGpmSERaZV9RUGQ4QVFpLThjTzFWeWgxU1hmQ2xoT09uQmFjWkw1V0FqeHVsLUlHMFcyZGJwUmtHX0Qzd3JNTkRDMFhvQVBZWGM3QnhGZlNLS3pfQ2gxRk0wemUySWZzZUt5cGdVblB0Vkg3bnc4R2thNHppY0pnZGdFTWdYcl94d2dwLVlwaTZiSE83R1ZSSW56S19PbHg1M0dHSUE?oc=5",
+      "publishedAt": "2026-04-11T07:26:05Z",
+      "excerpt": "Meet the wealthiest man at Damen Shipyards Cape Town Sunday Tribune",
+      "tags": [
+        "Shipbuilding",
+        "Supplier"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [
+        {
+          "name": "Damen Shipyards Group",
           "category": "suppliers"
         }
       ],
@@ -3646,7 +4177,7 @@ window.__DASHBOARD_DATA__ = {
       "priorityScore": 5,
       "priorityBand": "medium",
       "priorityReasons": [
-        "Supplier mention: Lloyd's Register"
+        "Supplier mention: Damen Shipyards Group"
       ],
       "boardBucket": "Other Relevant"
     },
@@ -3771,6 +4302,34 @@ window.__DASHBOARD_DATA__ = {
       "boardBucket": "Other Relevant"
     },
     {
+      "id": "9c02e909b2029f13",
+      "title": "Cyan Renewables secures long-term AHTS contract in New Zealand",
+      "source": "Splash247",
+      "sourceId": "splash247",
+      "url": "https://splash247.com/cyan-renewables-secures-long-term-ahts-contract-in-new-zealand",
+      "publishedAt": "2026-04-29T02:40:00Z",
+      "excerpt": "Singapore-based offshore wind vessel player Cyan Renewables has signed a contract with OMV to keep one of its anchor handling tug supply (AHTS) vessels operating in New Zealand waters. OMV New Zealand awarded a long-term contract to the 20\u2026",
+      "tags": [
+        "Towage",
+        "Offshore Support",
+        "Maritime",
+        "News"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [
+        "Commercial"
+      ],
+      "priorityScore": 4,
+      "priorityBand": "medium",
+      "priorityReasons": [
+        "Signal: Commercial"
+      ],
+      "boardBucket": "Other Relevant"
+    },
+    {
       "id": "625d56baa2909606",
       "title": "Samsung Heavy Industries to Deliver Floating Data Centers in the U.S.",
       "source": "MarineLink",
@@ -3793,87 +4352,6 @@ window.__DASHBOARD_DATA__ = {
       "priorityBand": "medium",
       "priorityReasons": [
         "Signal: Infrastructure"
-      ],
-      "boardBucket": "Regulation, Safety & Incidents"
-    },
-    {
-      "id": "098508a14c9c8056",
-      "title": "U.S. Biofuels Industry Targets MEPC 84 Negotiations",
-      "source": "MarineLink",
-      "sourceId": "marinelink",
-      "url": "https://www.marinelink.com/news/us-biofuels-industry-targets-mepc-538560",
-      "publishedAt": "2026-04-29T00:19:49Z",
-      "excerpt": "A joint letter organized by the American Biofuels Maritime Initiative (ABMI) has been sent to U.S. Secretary of State Marco Rubio ahead of this week's negotiations at the IMO MEPC 84 meeting in London. The effort is aimed at ensuring that\u2026",
-      "tags": [
-        "Regulation",
-        "Maritime",
-        "Industry"
-      ],
-      "audience": "Both",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [
-        "Regulation"
-      ],
-      "priorityScore": 4,
-      "priorityBand": "medium",
-      "priorityReasons": [
-        "Signal: Regulation"
-      ],
-      "boardBucket": "Regulation, Safety & Incidents"
-    },
-    {
-      "id": "942fb25577dd1494",
-      "title": "IMO Consensus-Building Process Underway at MPEC Meeting",
-      "source": "The Maritime Executive",
-      "sourceId": "maritime-executive",
-      "url": "https://maritime-executive.com/article/imo-consensus-building-process-underway-at-mpec-meeting",
-      "publishedAt": "2026-04-28T19:56:51Z",
-      "excerpt": "Delegates to the International Maritime Organisation\u2019s Marine Environmental Protection Committee\u2019s 84th Session appear to have taken the IMO Secretar...",
-      "tags": [
-        "Regulation",
-        "Maritime",
-        "News"
-      ],
-      "audience": "Both",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [
-        "Regulation"
-      ],
-      "priorityScore": 4,
-      "priorityBand": "medium",
-      "priorityReasons": [
-        "Signal: Regulation"
-      ],
-      "boardBucket": "Regulation, Safety & Incidents"
-    },
-    {
-      "id": "df3a760ad55aebbd",
-      "title": "Chairman DiBella Joins the U.S. Delegation to the IMO",
-      "source": "MarineLink",
-      "sourceId": "marinelink",
-      "url": "https://www.marinelink.com/news/chairman-dibella-joins-us-delegation-imo-538550",
-      "publishedAt": "2026-04-28T17:42:55Z",
-      "excerpt": "Federal Maritime Commission (FMC) Chairman Laura DiBella joined the U.S. delegation to the International Maritime Organization (IMO) this week for the 84th session of the Maritime Environmental Protection Committee in London. As part of th\u2026",
-      "tags": [
-        "Regulation",
-        "Maritime",
-        "Industry"
-      ],
-      "audience": "Both",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [
-        "Regulation"
-      ],
-      "priorityScore": 4,
-      "priorityBand": "medium",
-      "priorityReasons": [
-        "Signal: Regulation"
       ],
       "boardBucket": "Regulation, Safety & Incidents"
     },
@@ -3986,19 +4464,19 @@ window.__DASHBOARD_DATA__ = {
       "entities": [
         {
           "name": "American Bureau of Shipping",
-          "category": "suppliers"
+          "category": "authorities"
         }
       ],
       "locations": [],
       "businessTags": [
-        "Supplier"
+        "Authority & Class"
       ],
       "priorityScore": 4,
       "priorityBand": "medium",
       "priorityReasons": [
-        "Supplier mention: American Bureau of Shipping"
+        "Authority & Class mention: American Bureau of Shipping"
       ],
-      "boardBucket": "Other Relevant"
+      "boardBucket": "Regulation, Safety & Incidents"
     },
     {
       "id": "0a661fc79862562c",
@@ -4063,33 +4541,6 @@ window.__DASHBOARD_DATA__ = {
       "boardBucket": "Other Relevant"
     },
     {
-      "id": "b8e5d24f00ac3809",
-      "title": "IMO Braces for a Tough Week as MEPC84 Resumes Net-Zero Debate",
-      "source": "The Maritime Executive",
-      "sourceId": "maritime-executive",
-      "url": "https://maritime-executive.com/article/imo-braces-for-a-tough-week-as-mepc84-resumes-net-zero-debate",
-      "publishedAt": "2026-04-27T22:39:08Z",
-      "excerpt": "The battle lines are being drawn, and the protestors are on the doorstep of the International Maritime Organization as it resumes the debate on its Ne...",
-      "tags": [
-        "Regulation",
-        "Maritime",
-        "News"
-      ],
-      "audience": "Both",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [
-        "Regulation"
-      ],
-      "priorityScore": 4,
-      "priorityBand": "medium",
-      "priorityReasons": [
-        "Signal: Regulation"
-      ],
-      "boardBucket": "Regulation, Safety & Incidents"
-    },
-    {
       "id": "885accc328eacd49",
       "title": "Singapore Institute of Technology, DNV, and SMF New Masters Program",
       "source": "The Maritime Executive",
@@ -4106,19 +4557,19 @@ window.__DASHBOARD_DATA__ = {
       "entities": [
         {
           "name": "DNV",
-          "category": "suppliers"
+          "category": "authorities"
         }
       ],
       "locations": [],
       "businessTags": [
-        "Supplier"
+        "Authority & Class"
       ],
       "priorityScore": 4,
       "priorityBand": "medium",
       "priorityReasons": [
-        "Supplier mention: DNV"
+        "Authority & Class mention: DNV"
       ],
-      "boardBucket": "Other Relevant"
+      "boardBucket": "Regulation, Safety & Incidents"
     },
     {
       "id": "b417f2d7676c143b",
@@ -4203,33 +4654,6 @@ window.__DASHBOARD_DATA__ = {
         "Supplier mention: Kongsberg Maritime"
       ],
       "boardBucket": "Other Relevant"
-    },
-    {
-      "id": "9325b5026d92dec5",
-      "title": "IMO Passes Major Reform of Ship Registration Process",
-      "source": "The Maritime Executive",
-      "sourceId": "maritime-executive",
-      "url": "https://maritime-executive.com/article/imo-passes-major-reform-of-ship-registration-process",
-      "publishedAt": "2026-04-26T19:30:26Z",
-      "excerpt": "The International Maritime Organization (IMO) has moved to seal a regulatory gap that has enabled the rise of false flagging in the shipping industry...",
-      "tags": [
-        "Regulation",
-        "Maritime",
-        "News"
-      ],
-      "audience": "Both",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [
-        "Regulation"
-      ],
-      "priorityScore": 4,
-      "priorityBand": "medium",
-      "priorityReasons": [
-        "Signal: Regulation"
-      ],
-      "boardBucket": "Regulation, Safety & Incidents"
     },
     {
       "id": "858a0d8febdaee11",
@@ -4434,19 +4858,19 @@ window.__DASHBOARD_DATA__ = {
       "entities": [
         {
           "name": "American Bureau of Shipping",
-          "category": "suppliers"
+          "category": "authorities"
         }
       ],
       "locations": [],
       "businessTags": [
-        "Supplier"
+        "Authority & Class"
       ],
       "priorityScore": 4,
       "priorityBand": "medium",
       "priorityReasons": [
-        "Supplier mention: American Bureau of Shipping"
+        "Authority & Class mention: American Bureau of Shipping"
       ],
-      "boardBucket": "Other Relevant"
+      "boardBucket": "Regulation, Safety & Incidents"
     },
     {
       "id": "bba0b5f623620dbc",
@@ -4465,19 +4889,19 @@ window.__DASHBOARD_DATA__ = {
       "entities": [
         {
           "name": "American Bureau of Shipping",
-          "category": "suppliers"
+          "category": "authorities"
         }
       ],
       "locations": [],
       "businessTags": [
-        "Supplier"
+        "Authority & Class"
       ],
       "priorityScore": 4,
       "priorityBand": "medium",
       "priorityReasons": [
-        "Supplier mention: American Bureau of Shipping"
+        "Authority & Class mention: American Bureau of Shipping"
       ],
-      "boardBucket": "Other Relevant"
+      "boardBucket": "Regulation, Safety & Incidents"
     },
     {
       "id": "d8414aed7dc9c723",
@@ -4511,60 +4935,6 @@ window.__DASHBOARD_DATA__ = {
       "boardBucket": "Other Relevant"
     },
     {
-      "id": "83654714ec096c7d",
-      "title": "No safe transit through Strait of Hormuz: IMO Secretary-General - International Maritime Organization",
-      "source": "IMO Press Briefings",
-      "sourceId": "google-imo-press",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNV1ZaemtELWptQVQ3STVCczBDN3gyTElVaG1UVTVvOUxkTlRSOE92eVc1WjRXTGRoTzNGLUZvUFpnQmUza2tweEFMOFdSVkVLMEpLa3VSd1l6WXR4WVdfWkk3R3l1dm9nUjZqbXNpV0hnTkc0cmx1aGJkOXBNbkFiNl9Gazh3cXNhLWdPT3VEWmZEUWczd3poTjRULVMzVnFYLUZDTk1NQkRNMlJpbFgwQlpxMA?oc=5",
-      "publishedAt": "2026-04-24T18:32:38Z",
-      "excerpt": "No safe transit through Strait of Hormuz: IMO Secretary-General International Maritime Organization",
-      "tags": [
-        "Regulation",
-        "Imo",
-        "Operations",
-        "Safety"
-      ],
-      "audience": "Both",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [
-        "Regulation"
-      ],
-      "priorityScore": 4,
-      "priorityBand": "medium",
-      "priorityReasons": [
-        "Signal: Regulation"
-      ],
-      "boardBucket": "Regulation, Safety & Incidents"
-    },
-    {
-      "id": "9e5fc0b9e84e0ab3",
-      "title": "Top three ship registries call on IMO to look at alternatives to climate framework",
-      "source": "Riviera: Regulations & Compliance",
-      "sourceId": "riviera-regulation",
-      "url": "https://www.rivieramm.com/news-content-hub/top-three-ship-registries-call-on-imo-to-look-at-alternatives-to-climate-framework-88561",
-      "publishedAt": "2026-04-24T14:07:55Z",
-      "excerpt": "Liberia, Panama and Marshall Islands registries are part of a coalition of entities that also includes Greek and Saudi shipowners urging \u2019unity, not division\u2019 in what have become contentious discussions around IMO\u2019s Net-Zero Framework",
-      "tags": [
-        "Regulation",
-        "Compliance"
-      ],
-      "audience": "Both",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [
-        "Regulation"
-      ],
-      "priorityScore": 4,
-      "priorityBand": "medium",
-      "priorityReasons": [
-        "Signal: Regulation"
-      ],
-      "boardBucket": "Regulation, Safety & Incidents"
-    },
-    {
       "id": "085374e8ebc3c085",
       "title": "LR assesses AI navigation tech in live trial",
       "source": "SWZ Maritime",
@@ -4581,19 +4951,19 @@ window.__DASHBOARD_DATA__ = {
       "entities": [
         {
           "name": "Lloyd's Register",
-          "category": "suppliers"
+          "category": "authorities"
         }
       ],
       "locations": [],
       "businessTags": [
-        "Supplier"
+        "Authority & Class"
       ],
       "priorityScore": 4,
       "priorityBand": "medium",
       "priorityReasons": [
-        "Supplier mention: Lloyd's Register"
+        "Authority & Class mention: Lloyd's Register"
       ],
-      "boardBucket": "Other Relevant"
+      "boardBucket": "Regulation, Safety & Incidents"
     },
     {
       "id": "20cb925f45b1a750",
@@ -4897,115 +5267,6 @@ window.__DASHBOARD_DATA__ = {
       "boardBucket": "Other Relevant"
     },
     {
-      "id": "3fd823c41bb5b7f0",
-      "title": "'Shipping's most turbulent quarter in 50 years' sees IMO add rules to fight rise in flag fraud",
-      "source": "Riviera: Safety & Incidents",
-      "sourceId": "riviera-safety",
-      "url": "https://www.rivieramm.com/news-content-hub/shippings-most-turbulent-quarter-in-50-years-sees-imo-add-guidelines-to-fight-rise-in-fraudulent-flagging-88529",
-      "publishedAt": "2026-04-20T14:59:47Z",
-      "excerpt": "New guidelines on ship registration aim to cut fraudulent registration, which has surged in recent months",
-      "tags": [
-        "Incidents",
-        "Regulation",
-        "Safety"
-      ],
-      "audience": "Both",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [
-        "Regulation"
-      ],
-      "priorityScore": 4,
-      "priorityBand": "medium",
-      "priorityReasons": [
-        "Signal: Regulation"
-      ],
-      "boardBucket": "Regulation, Safety & Incidents"
-    },
-    {
-      "id": "d3ac720b36ac9e08",
-      "title": "PREVIEW: Marine Environment Protection Committee (MEPC 84), 27 April to 1 May 2026 - International Maritime Organization",
-      "source": "IMO Meeting Summaries",
-      "sourceId": "google-imo-meetings",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOQWJLYmFqU2d0NUxPR2RCcE5SNHhMLTQ1NWNhTGRncm9xWEtRZEhRQVJ5dFRQTmUycl9vRFlhcmNqOUlxYjFxdHQxSkxxLUYyaTMwUDB2VTIwME1MQ1M5ODlwVzlGUjg5eHA1XzVZZmh2NGtQX1UxVWtFTlpvSlllWEY2d1U?oc=5",
-      "publishedAt": "2026-04-20T14:32:30Z",
-      "excerpt": "PREVIEW: Marine Environment Protection Committee (MEPC 84), 27 April to 1 May 2026 International Maritime Organization",
-      "tags": [
-        "Regulation",
-        "Imo",
-        "Operations",
-        "Safety"
-      ],
-      "audience": "Both",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [
-        "Regulation"
-      ],
-      "priorityScore": 4,
-      "priorityBand": "medium",
-      "priorityReasons": [
-        "Signal: Regulation"
-      ],
-      "boardBucket": "Regulation, Safety & Incidents"
-    },
-    {
-      "id": "d36d827b790c81e9",
-      "title": "Greek owners slam IMO Net-Zero Framework, urge realistic alternative",
-      "source": "Riviera: Regulations & Compliance",
-      "sourceId": "riviera-regulation",
-      "url": "https://www.rivieramm.com/news-content-hub/greek-owners-slam-imo-net-zero-framework-urge-realistic-alternative-88496",
-      "publishedAt": "2026-04-17T07:30:00Z",
-      "excerpt": "UGS president Melina Travlos set out the union\u2019s stance ahead of IMO\u2019s MEPC meeting",
-      "tags": [
-        "Regulation",
-        "Compliance"
-      ],
-      "audience": "Both",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [
-        "Regulation"
-      ],
-      "priorityScore": 4,
-      "priorityBand": "medium",
-      "priorityReasons": [
-        "Signal: Regulation"
-      ],
-      "boardBucket": "Regulation, Safety & Incidents"
-    },
-    {
-      "id": "55ff6e347ed0c303",
-      "title": "IMO approves new guidelines on ship registration - International Maritime Organization",
-      "source": "IMO Press Briefings",
-      "sourceId": "google-imo-press",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPSkF2UUlXYzVyMmRqOG1yMVE3RHp4ZTRHbDR0Wl85ajFzR0JoS0paeFlONzlocXR0TV9CX19TY2dwVEE5eFRCVWkwZy1PYzRrTzRHMTBEcl90RmtmLVBCTmJodU03cUJpV0I0RXNDSzJ4aTlLbEw0ZUNfWjFXQWdWUGVqOUEzMmx4UkZZa3lzOUpwYTNvaGduR0ZzTDUxd2tzOWhtNjBkQjNUcHdBWWc?oc=5",
-      "publishedAt": "2026-04-17T07:00:00Z",
-      "excerpt": "IMO approves new guidelines on ship registration International Maritime Organization",
-      "tags": [
-        "Regulation",
-        "Imo",
-        "Operations",
-        "Safety"
-      ],
-      "audience": "Both",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [
-        "Regulation"
-      ],
-      "priorityScore": 4,
-      "priorityBand": "medium",
-      "priorityReasons": [
-        "Signal: Regulation"
-      ],
-      "boardBucket": "Regulation, Safety & Incidents"
-    },
-    {
       "id": "af8dd09677a50346",
       "title": "Kongsberg Maritime ASA assigned \"BBB+\" rating from Nordic Credit Rating - TradingView",
       "source": "Kongsberg Maritime News",
@@ -5037,6 +5298,39 @@ window.__DASHBOARD_DATA__ = {
       "boardBucket": "Other Relevant"
     },
     {
+      "id": "d7f1e697bcb7914b",
+      "title": "Hazardous cargo compensation regime moves to entry into force - International Maritime Organization",
+      "source": "IMO Press Briefings",
+      "sourceId": "google-imo-press",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNNTNaOXRrR0ZwU28ybE1KVnBobUtFX01mcUMwUUsxX3BvaTFsa1MyVm5DeHJlZVZLa2c2ZEJYRmdYMnJPZDdESFEzOXE1bDhpOGFfWHYyRW95WTRPTUl5ci1TR2dmb2Q4a3lhQjBDMURfYjhFVGJWZ08xaUhJT0ZHVHZ6RkNGaC1fTGM0c0dyREpPZ191cVF5anVwakZjQQ?oc=5",
+      "publishedAt": "2026-04-14T07:00:00Z",
+      "excerpt": "Hazardous cargo compensation regime moves to entry into force International Maritime Organization",
+      "tags": [
+        "Regulation",
+        "Imo",
+        "Operations",
+        "Safety"
+      ],
+      "audience": "Both",
+      "paywalled": false,
+      "entities": [
+        {
+          "name": "International Maritime Organization",
+          "category": "authorities"
+        }
+      ],
+      "locations": [],
+      "businessTags": [
+        "Authority & Class"
+      ],
+      "priorityScore": 4,
+      "priorityBand": "medium",
+      "priorityReasons": [
+        "Authority & Class mention: International Maritime Organization"
+      ],
+      "boardBucket": "Regulation, Safety & Incidents"
+    },
+    {
       "id": "50f81625ee91108e",
       "title": "W\u00e4rtsil\u00e4 integrated propulsion solution to deliver future-proofing for new next-generation short-sea cargo vessel - W\u00e4rtsil\u00e4",
       "source": "W\u00e4rtsil\u00e4 News",
@@ -5065,6 +5359,31 @@ window.__DASHBOARD_DATA__ = {
       "priorityBand": "medium",
       "priorityReasons": [
         "Supplier mention: W\u00e4rtsil\u00e4"
+      ],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "aded5adbab5512b6",
+      "title": "Ocean7 Ranger kickstarts Duluth\u2019s 2026 navigation season - Heavy Lift & Project Forwarding International",
+      "source": "Sarens News",
+      "sourceId": "google-sarens",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPaU93LUdXQzRTSHdQNE14TkhtMmItSElYYnU0MU1yZlNJMzZ2TGlVMGJkZlZfYjJSMUY1ZEx1Rm96a25OQXllSkdjU3RMd1ViSFBCdWh0NnFlRjRuX1AxU3NXSFU5NS0tQVR1ekJSTEUxSjdhWjkybU5rd2c5d0tzRHRKSVZJQXducURKM25SMl9UUkFtc000SFl3S0NDb2V2VU9za3laTTNYZ2h6dVZOdWJVWHZUVjQ?oc=5",
+      "publishedAt": "2026-04-10T09:48:29Z",
+      "excerpt": "Ocean7 Ranger kickstarts Duluth\u2019s 2026 navigation season Heavy Lift & Project Forwarding International",
+      "tags": [
+        "Heavy-Lift"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [
+        "Commercial"
+      ],
+      "priorityScore": 4,
+      "priorityBand": "medium",
+      "priorityReasons": [
+        "Signal: Commercial"
       ],
       "boardBucket": "Other Relevant"
     },
@@ -5288,86 +5607,6 @@ window.__DASHBOARD_DATA__ = {
       "boardBucket": "Regulation, Safety & Incidents"
     },
     {
-      "id": "6b0f16aacd0a7aef",
-      "title": "KR guidance targets 2028 IGC code shift",
-      "source": "Riviera: Regulations & Compliance",
-      "sourceId": "riviera-regulation",
-      "url": "https://www.rivieramm.com/news-content-hub/kr-guidance-targets-2028-igc-code-shift-88236",
-      "publishedAt": "2026-04-06T07:30:00Z",
-      "excerpt": "KR has issued technical guidance and briefed South Korean yards as IMO moves toward approving and adopting the revised IGC Code amendments due in 2028",
-      "tags": [
-        "Regulation",
-        "Compliance"
-      ],
-      "audience": "Both",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [
-        "Regulation"
-      ],
-      "priorityScore": 4,
-      "priorityBand": "medium",
-      "priorityReasons": [
-        "Signal: Regulation"
-      ],
-      "boardBucket": "Regulation, Safety & Incidents"
-    },
-    {
-      "id": "c0519accd00b04f6",
-      "title": "Committee approvals drive forward IMO cyber security, digitalisation strategy",
-      "source": "Riviera: Regulations & Compliance",
-      "sourceId": "riviera-regulation",
-      "url": "https://www.rivieramm.com/news-content-hub/committee-approvals-drive-forward-imo-cybersecurity-digitalisation-strategy-88354",
-      "publishedAt": "2026-04-06T07:00:00Z",
-      "excerpt": "FAL approves plans to enhance cyber security of maritime single windows of information exchange",
-      "tags": [
-        "Regulation",
-        "Compliance"
-      ],
-      "audience": "Both",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [
-        "Regulation"
-      ],
-      "priorityScore": 4,
-      "priorityBand": "medium",
-      "priorityReasons": [
-        "Signal: Regulation"
-      ],
-      "boardBucket": "Regulation, Safety & Incidents"
-    },
-    {
-      "id": "dca1c00509e6413e",
-      "title": "\u201cFragmented responses are no longer sufficient\u201d: IMO Secretary-General - International Maritime Organization",
-      "source": "IMO Press Briefings",
-      "sourceId": "google-imo-press",
-      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOV1FvcHRsUHVCNm1IeWR1RmM4dE1GRHZyWmFQVV9ac3JyU1hqbmlXQXY4YlQxU21IeUhDek1UZktxVFF3RlFBT3dkWkNCejFOOHZCemJWeXU0a2U0c1hpbDBIc2M0MFVNcXl6cjBYU25DX0kxUGRpMk9mQlpzN0lLb2ZuQzNocXhud2RTdTlFNDExZHZyQnpDZFF3UWlteV9SYVgxa0pwb3pEcUYzdHBXVXBnUTNueUVYZmp5bFBwaWgwSWFWems0Qk9B?oc=5",
-      "publishedAt": "2026-04-02T07:00:00Z",
-      "excerpt": "\u201cFragmented responses are no longer sufficient\u201d: IMO Secretary-General International Maritime Organization",
-      "tags": [
-        "Regulation",
-        "Imo",
-        "Operations",
-        "Safety"
-      ],
-      "audience": "Both",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [
-        "Regulation"
-      ],
-      "priorityScore": 4,
-      "priorityBand": "medium",
-      "priorityReasons": [
-        "Signal: Regulation"
-      ],
-      "boardBucket": "Regulation, Safety & Incidents"
-    },
-    {
       "id": "a99bf9b7ba65abb6",
       "title": "Biocide-free hull coating targets fuel savings",
       "source": "Riviera: Regulations & Compliance",
@@ -5422,6 +5661,39 @@ window.__DASHBOARD_DATA__ = {
       "boardBucket": "Other Relevant"
     },
     {
+      "id": "25faf0c158a78ad2",
+      "title": "Facilitation Committee approves digitalization strategy and cyber security measures - International Maritime Organization",
+      "source": "IMO Press Briefings",
+      "sourceId": "google-imo-press",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQN29jVmY5ZGJ2TjBqeFpyTW44eFptTXh1aHQzbV9wWndLWmh0MTN4LVh6dFFqWFFodFZzcXdFdUtqTTJwQnRON1h1RGNSUVd1NVdFYmtHeXlPVDhPWFY0SDd0MUVDaHNtVXRVUkpVcGhJaTBBN29LWkJ1eVBIcExJNWlaeHVXYVBTdGd4YkpvM2ZYTUhuUXZoMWZkaURfcFlvZVoyZ2tlUGt6eVUweW9aMkJVWEQ3cFlMNzUxSHZaMUZRYmpNbnI2YUE1VXl5WkxPN1A0U2V4TQ?oc=5",
+      "publishedAt": "2026-03-31T07:00:00Z",
+      "excerpt": "Facilitation Committee approves digitalization strategy and cyber security measures International Maritime Organization",
+      "tags": [
+        "Regulation",
+        "Imo",
+        "Operations",
+        "Safety"
+      ],
+      "audience": "Both",
+      "paywalled": false,
+      "entities": [
+        {
+          "name": "International Maritime Organization",
+          "category": "authorities"
+        }
+      ],
+      "locations": [],
+      "businessTags": [
+        "Authority & Class"
+      ],
+      "priorityScore": 4,
+      "priorityBand": "medium",
+      "priorityReasons": [
+        "Authority & Class mention: International Maritime Organization"
+      ],
+      "boardBucket": "Regulation, Safety & Incidents"
+    },
+    {
       "id": "aeb29cab461c26fc",
       "title": "South Korea Extends Antitrust Restrictions on Hanwha from DSME Acquisition",
       "source": "The Maritime Executive",
@@ -5429,115 +5701,6 @@ window.__DASHBOARD_DATA__ = {
       "url": "https://maritime-executive.com/article/south-korea-extends-antitrust-restrictions-on-hanwha-from-dsme-acquisition",
       "publishedAt": "2026-04-28T22:07:08Z",
       "excerpt": "South Korea\u2019s antitrust regulators have taken the unusual step of extending a series of restrictions imposed on several of Hanwha\u2019s companies as a con...",
-      "tags": [
-        "Maritime",
-        "News"
-      ],
-      "audience": "Both",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [
-        "Commercial"
-      ],
-      "priorityScore": 3,
-      "priorityBand": "low",
-      "priorityReasons": [
-        "Signal: Commercial"
-      ],
-      "boardBucket": "Other Relevant"
-    },
-    {
-      "id": "df563cbd00dde0d0",
-      "title": "Dassai Moon Project: Sake Space Shot a Success",
-      "source": "MarineLink",
-      "sourceId": "marinelink",
-      "url": "https://www.marinelink.com/news/dassai-moon-project-sake-space-shot-a-538551",
-      "publishedAt": "2026-04-28T17:56:02Z",
-      "excerpt": "DASSAI and Mitsubishi Heavy Industries report a successful completion of the first mission of the \"DASSAI MOON Project\", an initiative aimed at producing sake on the surface of the Moon.In this mission, specialized brewing equipment jointl\u2026",
-      "tags": [
-        "Maritime",
-        "Industry"
-      ],
-      "audience": "Both",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [
-        "Commercial"
-      ],
-      "priorityScore": 3,
-      "priorityBand": "low",
-      "priorityReasons": [
-        "Signal: Commercial"
-      ],
-      "boardBucket": "Other Relevant"
-    },
-    {
-      "id": "3802286763f937b7",
-      "title": "BP More Than Doubles Profit on 'Exceptional' Oil Trading",
-      "source": "Rigzone",
-      "sourceId": "rigzone-latest",
-      "url": "https://www.rigzone.com/news/bp_more_than_doubles_profit_on_exceptional_oil_trading-28-apr-2026-183554-article?rss=true",
-      "publishedAt": "2026-04-28T12:13:56Z",
-      "excerpt": "The British energy giant benefited from higher oil prices amid the war in the Middle East, while related disruptions to its production in the region was offset by the Gulf of America.",
-      "tags": [
-        "Offshore",
-        "Energy"
-      ],
-      "audience": "Novatug",
-      "paywalled": false,
-      "entities": [
-        {
-          "name": "BP Raffinaderij",
-          "category": "suppliers"
-        }
-      ],
-      "locations": [],
-      "businessTags": [
-        "Supplier"
-      ],
-      "priorityScore": 3,
-      "priorityBand": "low",
-      "priorityReasons": [
-        "Supplier mention: BP Raffinaderij"
-      ],
-      "boardBucket": "Other Relevant"
-    },
-    {
-      "id": "2c79d1db2c751913",
-      "title": "ONGC Cancels Rig Tender, Alleging \"Collusive\" Bidding Practices",
-      "source": "The Maritime Executive",
-      "sourceId": "maritime-executive",
-      "url": "https://maritime-executive.com/article/ongc-cancels-rig-tender-alleging-collusive-bidding-practices",
-      "publishedAt": "2026-04-28T02:05:33Z",
-      "excerpt": "Indian state oil company ONGC has canceled a tender for four jackup rigs, alleging anticompetitive practices and an \"unusually steep escalation\" of p...",
-      "tags": [
-        "Maritime",
-        "News"
-      ],
-      "audience": "Both",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [
-        "Commercial"
-      ],
-      "priorityScore": 3,
-      "priorityBand": "low",
-      "priorityReasons": [
-        "Signal: Commercial"
-      ],
-      "boardBucket": "Other Relevant"
-    },
-    {
-      "id": "3a599ad31ffcf603",
-      "title": "U.S. Agrees to Deal to Cancel Two More Offshore Wind Farm Leases",
-      "source": "The Maritime Executive",
-      "sourceId": "maritime-executive",
-      "url": "https://maritime-executive.com/article/u-s-agrees-to-deal-to-cancel-two-more-offshore-wind-farm-leases",
-      "publishedAt": "2026-04-27T21:22:55Z",
-      "excerpt": "The U.S. Department of the Interior announced today that it has reached agreements to redirect the planned investment for two offshore wind farm proj...",
       "tags": [
         "Maritime",
         "News"
@@ -6200,8 +6363,1084 @@ window.__DASHBOARD_DATA__ = {
       "description": "Finnish towage and icebreaking company. Dominant operator in Finnish ports; also active in Baltic Sea towage and wreck removal.",
       "founded": 1913,
       "stock": null
+    },
+    "International Maritime Organization": {
+      "website": "https://www.imo.org",
+      "linkedin": "https://www.linkedin.com/company/international-maritime-organization",
+      "hq": "London, United Kingdom",
+      "description": "United Nations agency responsible for international shipping safety, security and pollution prevention standards.",
+      "founded": 1948,
+      "stock": null
+    },
+    "ILT": {
+      "website": "https://english.ilent.nl",
+      "linkedin": "https://www.linkedin.com/company/inspectie-leefomgeving-en-transport",
+      "hq": "The Hague, Netherlands",
+      "description": "Dutch Human Environment and Transport Inspectorate, supervising transport, shipping safety and environmental compliance.",
+      "founded": 2012,
+      "stock": null
+    },
+    "TenderNed": {
+      "website": "https://www.tenderned.nl",
+      "linkedin": "https://www.linkedin.com/company/tenderned",
+      "hq": "Netherlands",
+      "description": "Dutch public procurement platform publishing government tenders, including maritime, infrastructure and port-related opportunities.",
+      "founded": 2011,
+      "stock": null
     }
   },
+  "sourceCatalog": [
+    {
+      "id": "maritime-executive",
+      "name": "The Maritime Executive",
+      "type": "rss",
+      "tags": [
+        "maritime",
+        "news"
+      ]
+    },
+    {
+      "id": "gcaptain",
+      "name": "gCaptain",
+      "type": "rss",
+      "tags": [
+        "maritime",
+        "operations"
+      ]
+    },
+    {
+      "id": "marinelink",
+      "name": "MarineLink",
+      "type": "rss",
+      "tags": [
+        "maritime",
+        "industry"
+      ]
+    },
+    {
+      "id": "offshore-energy",
+      "name": "Offshore Energy",
+      "type": "rss",
+      "tags": [
+        "energy-transition",
+        "technology"
+      ]
+    },
+    {
+      "id": "hellenic-shipping-news",
+      "name": "Hellenic Shipping News",
+      "type": "rss",
+      "tags": [
+        "shipping",
+        "markets"
+      ]
+    },
+    {
+      "id": "ship-technology",
+      "name": "Ship Technology",
+      "type": "rss",
+      "tags": [
+        "technology",
+        "innovation"
+      ]
+    },
+    {
+      "id": "splash247",
+      "name": "Splash247",
+      "type": "rss",
+      "tags": [
+        "maritime",
+        "news"
+      ]
+    },
+    {
+      "id": "swz-maritime",
+      "name": "SWZ Maritime",
+      "type": "rss",
+      "tags": [
+        "maritime",
+        "netherlands"
+      ]
+    },
+    {
+      "id": "baird-maritime",
+      "name": "Baird Maritime",
+      "type": "rss",
+      "tags": [
+        "workboats",
+        "technology"
+      ]
+    },
+    {
+      "id": "rigzone-latest",
+      "name": "Rigzone",
+      "type": "rss",
+      "tags": [
+        "offshore",
+        "energy"
+      ]
+    },
+    {
+      "id": "riviera-ports",
+      "name": "Riviera: Ports & Terminals",
+      "type": "rss",
+      "tags": [
+        "ports",
+        "terminals"
+      ]
+    },
+    {
+      "id": "riviera-safety",
+      "name": "Riviera: Safety & Incidents",
+      "type": "rss",
+      "tags": [
+        "safety",
+        "incidents"
+      ]
+    },
+    {
+      "id": "riviera-regulation",
+      "name": "Riviera: Regulations & Compliance",
+      "type": "rss",
+      "tags": [
+        "regulation",
+        "compliance"
+      ]
+    },
+    {
+      "id": "riviera-emissions",
+      "name": "Riviera: Air Pollution & GHG Emissions",
+      "type": "rss",
+      "tags": [
+        "emissions",
+        "decarbonization"
+      ]
+    },
+    {
+      "id": "riviera-propulsion",
+      "name": "Riviera: Propulsion",
+      "type": "rss",
+      "tags": [
+        "propulsion",
+        "technology"
+      ]
+    },
+    {
+      "id": "dutch-government-ienw",
+      "name": "Dutch Government: Infrastructure & Water Management",
+      "type": "rss",
+      "tags": [
+        "government",
+        "operations",
+        "regulation",
+        "netherlands"
+      ]
+    },
+    {
+      "id": "tenderned-maritime",
+      "name": "TenderNed Maritime Tenders",
+      "type": "rss",
+      "tags": [
+        "tender",
+        "procurement",
+        "government",
+        "maritime"
+      ]
+    },
+    {
+      "id": "hvzeeland",
+      "name": "HVZeeland",
+      "type": "rss",
+      "tags": [
+        "zeeland",
+        "safety",
+        "incidents",
+        "local-news"
+      ]
+    },
+    {
+      "id": "pzc",
+      "name": "PZC",
+      "type": "rss",
+      "tags": [
+        "zeeland",
+        "local-news"
+      ]
+    },
+    {
+      "id": "rijnmond",
+      "name": "Rijnmond",
+      "type": "rss",
+      "tags": [
+        "rijnmond",
+        "rotterdam",
+        "local-news"
+      ]
+    },
+    {
+      "id": "logistiek-nieuws",
+      "name": "Logistiek.nl: News",
+      "type": "rss",
+      "tags": [
+        "logistics",
+        "operations"
+      ]
+    },
+    {
+      "id": "logistiek-dienstverlening",
+      "name": "Logistiek.nl: Logistics Service Providers",
+      "type": "rss",
+      "tags": [
+        "logistics",
+        "suppliers"
+      ]
+    },
+    {
+      "id": "made-in",
+      "name": "Made in",
+      "type": "web_watch",
+      "tags": [
+        "business",
+        "local-news"
+      ]
+    },
+    {
+      "id": "north-sea-port-news",
+      "name": "North Sea Port News",
+      "type": "web_watch",
+      "tags": [
+        "ports",
+        "north-sea-port",
+        "local-news"
+      ]
+    },
+    {
+      "id": "zeeland-connect-news",
+      "name": "Zeeland Connect News",
+      "type": "web_watch",
+      "tags": [
+        "zeeland",
+        "logistics",
+        "innovation"
+      ]
+    },
+    {
+      "id": "port-rotterdam-news",
+      "name": "Port of Rotterdam News",
+      "type": "web_watch",
+      "tags": [
+        "ports",
+        "rotterdam",
+        "infrastructure"
+      ]
+    },
+    {
+      "id": "port-antwerp-bruges-press",
+      "name": "Port of Antwerp-Bruges Press",
+      "type": "web_watch",
+      "tags": [
+        "ports",
+        "antwerp",
+        "infrastructure"
+      ]
+    },
+    {
+      "id": "omroep-zeeland-news",
+      "name": "Omroep Zeeland News",
+      "type": "web_watch",
+      "tags": [
+        "zeeland",
+        "local-news"
+      ]
+    },
+    {
+      "id": "rotterdammerdagblad-regionaal",
+      "name": "Rotterdammer Dagblad",
+      "type": "web_watch",
+      "tags": [
+        "rotterdam",
+        "local-news"
+      ]
+    },
+    {
+      "id": "rws-zeeland-maintenance",
+      "name": "Rijkswaterstaat: Bereikbaar Zeeland",
+      "type": "web_watch",
+      "tags": [
+        "infrastructure",
+        "zeeland",
+        "government"
+      ]
+    },
+    {
+      "id": "rws-shipping-news",
+      "name": "Rijkswaterstaat: Shipping News",
+      "type": "web_watch",
+      "tags": [
+        "shipping",
+        "infrastructure",
+        "government"
+      ]
+    },
+    {
+      "id": "terneuzen-notices",
+      "name": "Gemeente Terneuzen: Bekendmakingen",
+      "type": "web_watch",
+      "tags": [
+        "permits",
+        "government",
+        "zeeland"
+      ]
+    },
+    {
+      "id": "ilt-news",
+      "name": "ILT News",
+      "type": "web_watch",
+      "tags": [
+        "regulation",
+        "government",
+        "safety"
+      ]
+    },
+    {
+      "id": "google-imo-press",
+      "name": "IMO Press Briefings",
+      "type": "rss",
+      "tags": [
+        "imo",
+        "operations",
+        "regulation",
+        "safety"
+      ]
+    },
+    {
+      "id": "google-imo-meetings",
+      "name": "IMO Meeting Summaries",
+      "type": "rss",
+      "tags": [
+        "imo",
+        "operations",
+        "regulation",
+        "safety"
+      ]
+    },
+    {
+      "id": "google-damen",
+      "name": "Damen Shipyards News",
+      "type": "rss",
+      "tags": [
+        "shipbuilding",
+        "supplier"
+      ]
+    },
+    {
+      "id": "google-kongsberg",
+      "name": "Kongsberg Maritime News",
+      "type": "rss",
+      "tags": [
+        "technology",
+        "supplier"
+      ]
+    },
+    {
+      "id": "google-boskalis",
+      "name": "Boskalis News",
+      "type": "rss",
+      "tags": [
+        "dredging",
+        "offshore"
+      ]
+    },
+    {
+      "id": "google-svitzer",
+      "name": "Svitzer News",
+      "type": "rss",
+      "tags": [
+        "towage",
+        "competitor"
+      ]
+    },
+    {
+      "id": "google-boluda",
+      "name": "Boluda News",
+      "type": "rss",
+      "tags": [
+        "towage",
+        "competitor"
+      ]
+    },
+    {
+      "id": "google-kotug",
+      "name": "Kotug News",
+      "type": "rss",
+      "tags": [
+        "towage",
+        "competitor"
+      ]
+    },
+    {
+      "id": "google-smit",
+      "name": "SMIT News",
+      "type": "rss",
+      "tags": [
+        "salvage",
+        "competitor"
+      ]
+    },
+    {
+      "id": "google-fairplay",
+      "name": "Fairplay News",
+      "type": "rss",
+      "tags": [
+        "towage",
+        "competitor"
+      ]
+    },
+    {
+      "id": "google-deme",
+      "name": "DEME Group News",
+      "type": "rss",
+      "tags": [
+        "offshore",
+        "marine-construction"
+      ]
+    },
+    {
+      "id": "google-van-oord",
+      "name": "Van Oord News",
+      "type": "rss",
+      "tags": [
+        "offshore",
+        "dredging"
+      ]
+    },
+    {
+      "id": "google-wartsila",
+      "name": "W\u00e4rtsil\u00e4 News",
+      "type": "rss",
+      "tags": [
+        "propulsion",
+        "technology"
+      ]
+    },
+    {
+      "id": "google-dnv",
+      "name": "DNV News",
+      "type": "rss",
+      "tags": [
+        "classification",
+        "safety"
+      ]
+    },
+    {
+      "id": "google-yara",
+      "name": "Yara International News",
+      "type": "rss",
+      "tags": [
+        "chemicals",
+        "client"
+      ]
+    },
+    {
+      "id": "google-flc-marine",
+      "name": "FLC Marine Works News",
+      "type": "rss",
+      "tags": [
+        "marine-works"
+      ]
+    },
+    {
+      "id": "google-rijkswaterstaat",
+      "name": "Rijkswaterstaat News",
+      "type": "rss",
+      "tags": [
+        "infrastructure",
+        "ports"
+      ]
+    },
+    {
+      "id": "google-scaldis",
+      "name": "Scaldis Salvage News",
+      "type": "rss",
+      "tags": [
+        "salvage",
+        "marine-construction"
+      ]
+    },
+    {
+      "id": "google-tm-edison",
+      "name": "TM Edison News",
+      "type": "rss",
+      "tags": [
+        "shipping"
+      ]
+    },
+    {
+      "id": "google-wilhelmsen-port",
+      "name": "Wilhelmsen Port Services News",
+      "type": "rss",
+      "tags": [
+        "port-services"
+      ]
+    },
+    {
+      "id": "google-ovet",
+      "name": "Ovet Shipping News",
+      "type": "rss",
+      "tags": [
+        "shipping",
+        "terminals"
+      ]
+    },
+    {
+      "id": "google-sarens",
+      "name": "Sarens News",
+      "type": "rss",
+      "tags": [
+        "heavy-lift"
+      ]
+    },
+    {
+      "id": "google-vertomcory",
+      "name": "VertomCory News",
+      "type": "rss",
+      "tags": [
+        "shipping",
+        "barge"
+      ]
+    },
+    {
+      "id": "google-oldendorff",
+      "name": "Oldendorff Carriers News",
+      "type": "rss",
+      "tags": [
+        "shipping",
+        "bulk"
+      ]
+    },
+    {
+      "id": "google-ultrabulk",
+      "name": "Ultrabulk News",
+      "type": "rss",
+      "tags": [
+        "shipping",
+        "bulk"
+      ]
+    },
+    {
+      "id": "google-damen-yachting",
+      "name": "Damen Yachting News",
+      "type": "rss",
+      "tags": [
+        "yachting"
+      ]
+    },
+    {
+      "id": "google-inchcape",
+      "name": "Inchcape Shipping Services News",
+      "type": "rss",
+      "tags": [
+        "ship-agency"
+      ]
+    },
+    {
+      "id": "google-dfds",
+      "name": "DFDS News",
+      "type": "rss",
+      "tags": [
+        "ferry",
+        "shipping"
+      ]
+    },
+    {
+      "id": "google-wagenborg-stevedoring",
+      "name": "Wagenborg Stevedoring News",
+      "type": "rss",
+      "tags": [
+        "stevedoring",
+        "ports"
+      ]
+    },
+    {
+      "id": "google-maersk-tankers",
+      "name": "Maersk Tankers News",
+      "type": "rss",
+      "tags": [
+        "tankers",
+        "shipping"
+      ]
+    },
+    {
+      "id": "gnews-lankhorst-ropes",
+      "name": "Lankhorst Ropes News",
+      "type": "rss",
+      "tags": [
+        "supplier"
+      ]
+    },
+    {
+      "id": "gnews-united-offshore-services",
+      "name": "United Offshore Services News",
+      "type": "rss",
+      "tags": [
+        "supplier"
+      ]
+    },
+    {
+      "id": "gnews-breman-machinery",
+      "name": "Breman Machinery News",
+      "type": "rss",
+      "tags": [
+        "supplier"
+      ]
+    },
+    {
+      "id": "gnews-martens-cleaning",
+      "name": "Martens Cleaning News",
+      "type": "rss",
+      "tags": [
+        "supplier"
+      ]
+    },
+    {
+      "id": "gnews-bp-raffinaderij-rotterdam",
+      "name": "BP Raffinaderij Rotterdam News",
+      "type": "rss",
+      "tags": [
+        "supplier"
+      ]
+    },
+    {
+      "id": "gnews-de-pooter-olie",
+      "name": "De Pooter Olie News",
+      "type": "rss",
+      "tags": [
+        "supplier"
+      ]
+    },
+    {
+      "id": "gnews-arentis",
+      "name": "Arentis News",
+      "type": "rss",
+      "tags": [
+        "supplier"
+      ]
+    },
+    {
+      "id": "gnews-flc-marine-works-group",
+      "name": "FLC Marine Works Group News",
+      "type": "rss",
+      "tags": [
+        "client"
+      ]
+    },
+    {
+      "id": "gnews-verbrugge-terminals",
+      "name": "Verbrugge Terminals News",
+      "type": "rss",
+      "tags": [
+        "client"
+      ]
+    },
+    {
+      "id": "gnews-scaldis-salvage-and-marine-con",
+      "name": "Scaldis Salvage & Marine Contractors News",
+      "type": "rss",
+      "tags": [
+        "client"
+      ]
+    },
+    {
+      "id": "gnews-tm-edison-be",
+      "name": "TM Edison BE News",
+      "type": "rss",
+      "tags": [
+        "client"
+      ]
+    },
+    {
+      "id": "gnews-offshore-marine-contractors",
+      "name": "Offshore Marine Contractors News",
+      "type": "rss",
+      "tags": [
+        "client"
+      ]
+    },
+    {
+      "id": "gnews-manora-logistics",
+      "name": "Manora Logistics News",
+      "type": "rss",
+      "tags": [
+        "client"
+      ]
+    },
+    {
+      "id": "gnews-tm-schelde-and-zee",
+      "name": "TM Schelde & Zee News",
+      "type": "rss",
+      "tags": [
+        "client"
+      ]
+    },
+    {
+      "id": "gnews-van-der-straaten-aannemingsmaa",
+      "name": "Van der Straaten Aannemingsmaatschappij News",
+      "type": "rss",
+      "tags": [
+        "client"
+      ]
+    },
+    {
+      "id": "gnews-verbrugge-marine",
+      "name": "Verbrugge Marine News",
+      "type": "rss",
+      "tags": [
+        "client"
+      ]
+    },
+    {
+      "id": "gnews-edison-vof",
+      "name": "Edison VOF News",
+      "type": "rss",
+      "tags": [
+        "client"
+      ]
+    },
+    {
+      "id": "gnews-petro-s.-management",
+      "name": "Petro S. Management News",
+      "type": "rss",
+      "tags": [
+        "client"
+      ]
+    },
+    {
+      "id": "gnews-flushing-shipping-agencies",
+      "name": "Flushing Shipping Agencies News",
+      "type": "rss",
+      "tags": [
+        "client"
+      ]
+    },
+    {
+      "id": "gnews-navonus",
+      "name": "Navonus News",
+      "type": "rss",
+      "tags": [
+        "client"
+      ]
+    },
+    {
+      "id": "gnews-lalemant-gent",
+      "name": "Lalemant Gent News",
+      "type": "rss",
+      "tags": [
+        "client"
+      ]
+    },
+    {
+      "id": "gnews-gac-belgium",
+      "name": "GAC Belgium News",
+      "type": "rss",
+      "tags": [
+        "client"
+      ]
+    },
+    {
+      "id": "gnews-iss-palumbo-netherlands",
+      "name": "ISS Palumbo Netherlands News",
+      "type": "rss",
+      "tags": [
+        "client"
+      ]
+    },
+    {
+      "id": "gnews-runaway-bay-shipping",
+      "name": "Runaway Bay Shipping News",
+      "type": "rss",
+      "tags": [
+        "client"
+      ]
+    },
+    {
+      "id": "gnews-icechem-tankers",
+      "name": "IceChem Tankers News",
+      "type": "rss",
+      "tags": [
+        "client"
+      ]
+    },
+    {
+      "id": "google-rederij-muller",
+      "name": "Rederij T. Muller News",
+      "type": "rss",
+      "tags": [
+        "towage",
+        "competitor"
+      ]
+    },
+    {
+      "id": "google-seacontractors",
+      "name": "Seacontractors Marine Service News",
+      "type": "rss",
+      "tags": [
+        "towage",
+        "competitor"
+      ]
+    },
+    {
+      "id": "google-vlissingse-bootlieden",
+      "name": "Vlissingse Bootlieden News",
+      "type": "rss",
+      "tags": [
+        "towage",
+        "competitor"
+      ]
+    },
+    {
+      "id": "google-eendracht-gent",
+      "name": "Eendracht Gent News",
+      "type": "rss",
+      "tags": [
+        "towage",
+        "competitor"
+      ]
+    },
+    {
+      "id": "google-hebo",
+      "name": "Hebo Maritiemservice News",
+      "type": "rss",
+      "tags": [
+        "towage",
+        "competitor"
+      ]
+    },
+    {
+      "id": "webwatch-rederij-muller",
+      "name": "Muller Dordrecht Web Watch",
+      "type": "web_watch",
+      "tags": [
+        "towage",
+        "competitor"
+      ]
+    },
+    {
+      "id": "webwatch-seacontractors",
+      "name": "Seacontractors Web Watch",
+      "type": "web_watch",
+      "tags": [
+        "towage",
+        "competitor"
+      ]
+    },
+    {
+      "id": "webwatch-vlissingse-bootlieden",
+      "name": "Vlissingse Bootlieden Web Watch",
+      "type": "web_watch",
+      "tags": [
+        "towage",
+        "competitor"
+      ]
+    },
+    {
+      "id": "webwatch-hebo",
+      "name": "HEBO Web Watch",
+      "type": "web_watch",
+      "tags": [
+        "towage",
+        "competitor"
+      ]
+    },
+    {
+      "id": "google-boreas-maritime",
+      "name": "Boreas Maritime News",
+      "type": "rss",
+      "tags": [
+        "maritime",
+        "supplier"
+      ]
+    },
+    {
+      "id": "google-landfall",
+      "name": "Landfall News",
+      "type": "rss",
+      "tags": [
+        "maritime",
+        "supplier"
+      ]
+    },
+    {
+      "id": "google-tos-crew",
+      "name": "TOS CREW News",
+      "type": "rss",
+      "tags": [
+        "crewing",
+        "supplier"
+      ]
+    },
+    {
+      "id": "google-gardec-sds",
+      "name": "Gardec SDS News",
+      "type": "rss",
+      "tags": [
+        "maritime",
+        "supplier"
+      ]
+    },
+    {
+      "id": "google-delta-marine-crewing",
+      "name": "Delta Marine Crewing News",
+      "type": "rss",
+      "tags": [
+        "crewing",
+        "supplier"
+      ]
+    },
+    {
+      "id": "google-marnavi",
+      "name": "Marnavi Trasporti Marittimi News",
+      "type": "rss",
+      "tags": [
+        "maritime",
+        "supplier"
+      ]
+    },
+    {
+      "id": "google-atlas-professional",
+      "name": "Atlas Professional News",
+      "type": "rss",
+      "tags": [
+        "maritime",
+        "supplier"
+      ]
+    },
+    {
+      "id": "google-finco-marine",
+      "name": "Finco Marine Energies News",
+      "type": "rss",
+      "tags": [
+        "bunkering",
+        "supplier"
+      ]
+    },
+    {
+      "id": "google-progressio",
+      "name": "Progressio News",
+      "type": "rss",
+      "tags": [
+        "maritime",
+        "supplier"
+      ]
+    },
+    {
+      "id": "google-csc-crewing",
+      "name": "CSC Crewing News",
+      "type": "rss",
+      "tags": [
+        "crewing",
+        "supplier"
+      ]
+    },
+    {
+      "id": "google-victrol-chartering",
+      "name": "Victrol Chartering News",
+      "type": "rss",
+      "tags": [
+        "chartering",
+        "supplier"
+      ]
+    },
+    {
+      "id": "google-howden-specialty",
+      "name": "Howden Specialty News",
+      "type": "rss",
+      "tags": [
+        "maritime",
+        "supplier"
+      ]
+    },
+    {
+      "id": "google-de-wit-bunkering",
+      "name": "De Wit Bunkering News",
+      "type": "rss",
+      "tags": [
+        "bunkering",
+        "supplier"
+      ]
+    },
+    {
+      "id": "google-propeller-fuels",
+      "name": "Propeller Fuels News",
+      "type": "rss",
+      "tags": [
+        "bunkering",
+        "supplier"
+      ]
+    },
+    {
+      "id": "google-plus-corbijn",
+      "name": "Plus Supermarkt Corbijn News",
+      "type": "rss",
+      "tags": [
+        "provisions",
+        "supplier"
+      ]
+    },
+    {
+      "id": "google-c-teleport",
+      "name": "C-Teleport News",
+      "type": "rss",
+      "tags": [
+        "maritime",
+        "supplier"
+      ]
+    },
+    {
+      "id": "google-zeppelin-power",
+      "name": "Zeppelin Power Systems Netherlands News",
+      "type": "rss",
+      "tags": [
+        "power",
+        "supplier"
+      ]
+    },
+    {
+      "id": "google-kooiman-marine",
+      "name": "Kooiman Marine Group News",
+      "type": "rss",
+      "tags": [
+        "maritime",
+        "supplier"
+      ]
+    },
+    {
+      "id": "google-hydroos",
+      "name": "Hydroos News",
+      "type": "rss",
+      "tags": [
+        "maritime",
+        "supplier"
+      ]
+    },
+    {
+      "id": "google-mesh-maritime",
+      "name": "Mesh Maritime News",
+      "type": "rss",
+      "tags": [
+        "maritime",
+        "supplier"
+      ]
+    },
+    {
+      "id": "google-mez-maritiem",
+      "name": "M.E.Z. Maritiem Elektro Zeeland News",
+      "type": "rss",
+      "tags": [
+        "maritime",
+        "supplier"
+      ]
+    }
+  ],
   "sourceTypes": {
     "maritime-executive": "rss",
     "gcaptain": "rss",
@@ -6327,7 +7566,6 @@ window.__DASHBOARD_DATA__ = {
     "Caterpillar Marine": "suppliers",
     "Sanmar Shipyards": "suppliers",
     "Kongsberg Maritime": "suppliers",
-    "Bureau Veritas": "suppliers",
     "Shipowners' Club": "suppliers",
     "Eriks": "suppliers",
     "Alphatron Marine": "suppliers",
@@ -6343,15 +7581,12 @@ window.__DASHBOARD_DATA__ = {
     "De Pooter Olie": "suppliers",
     "Arentis": "suppliers",
     "Rabobank": "suppliers",
-    "American Bureau of Shipping": "suppliers",
     "Astilleros Armon": "suppliers",
     "SeaZip Offshore Service": "suppliers",
     "Azcue Pumps": "suppliers",
     "W\u00e4rtsil\u00e4": "suppliers",
-    "DNV": "suppliers",
     "Schottel": "suppliers",
     "Voith": "suppliers",
-    "Lloyd's Register": "suppliers",
     "RWE Renewables": "clients",
     "\u00d8rsted": "clients",
     "Orsted": "clients",
@@ -6383,7 +7618,6 @@ window.__DASHBOARD_DATA__ = {
     "Covestro": "clients",
     "Cargill": "clients",
     "FLC Marine Works Group": "clients",
-    "Rijkswaterstaat": "clients",
     "Scaldis Salvage & Marine Contractors": "clients",
     "TM Edison BE": "clients",
     "Wilhelmsen Port Services": "clients",
@@ -6420,6 +7654,14 @@ window.__DASHBOARD_DATA__ = {
     "Seacontractors Marine Service BV": "competitors",
     "Vlissingse Bootlieden": "competitors",
     "Eendracht Gent": "competitors",
-    "Hebo": "competitors"
+    "Hebo": "competitors",
+    "International Maritime Organization": "authorities",
+    "ILT": "authorities",
+    "TenderNed": "authorities",
+    "Rijkswaterstaat": "authorities",
+    "Bureau Veritas": "authorities",
+    "American Bureau of Shipping": "authorities",
+    "DNV": "authorities",
+    "Lloyd's Register": "authorities"
   }
 };

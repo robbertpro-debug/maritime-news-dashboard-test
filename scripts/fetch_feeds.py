@@ -42,6 +42,7 @@ CATEGORY_LABELS = {
     "suppliers": "Supplier",
     "clients": "Client",
     "competitors": "Competitor",
+    "authorities": "Authority & Class",
 }
 TRACKING_QUERY_PARAMS = {
     "fbclid",
@@ -406,6 +407,8 @@ def compute_priority_score(
             score += int(weights.get("competitor", 0))
         elif entity["category"] == "suppliers":
             score += int(weights.get("supplier", 0))
+        elif entity["category"] == "authorities":
+            score += int(weights.get("authority", 0))
 
     for signal in signals:
         score += int(weights.get(signal["slug"], 0))
@@ -435,6 +438,8 @@ def assign_board_bucket(priority_band: str, locations: List[Dict], entities: Lis
         return "Clients & Projects"
     if "competitors" in categories:
         return "Competitors & Market"
+    if "authorities" in categories:
+        return "Regulation, Safety & Incidents"
     if signal_slugs.intersection({"incident", "disruption", "regulation", "infrastructure", "terminal_expansion"}):
         return "Regulation, Safety & Incidents"
     return "Other Relevant"
@@ -893,6 +898,15 @@ def build_output(articles: List[Dict], config: Dict, errors: List[Dict], generat
         "articles": clean_articles,
         "departmentProfiles": config.get("department_profiles", []),
         "entityProfiles": config.get("entity_profiles", {}),
+        "sourceCatalog": [
+            {
+                "id": source["id"],
+                "name": source["name"],
+                "type": source.get("adapter", "rss"),
+                "tags": source.get("default_tags", []),
+            }
+            for source in config.get("sources", [])
+        ],
         "sourceTypes": {
             source["id"]: source.get("adapter", "rss")
             for source in config.get("sources", [])

@@ -1,7 +1,7 @@
 {
   "sources": {
     "ilt-news": {
-      "pageHash": "d14cb133d87ec32f3c7c70299c60a0bfde64a592",
+      "pageHash": "5a18cd8d4670b1181780dc0f37396699b099320f",
       "seenUrls": {}
     },
     "made-in": {
@@ -157,6 +157,7 @@
       }
     },
     "rotterdammerdagblad-regionaal": {
+      "pageHash": "0cb560fb23abb3bef8e50b51ca7d8c709abd5c32",
       "seenUrls": {
         "https://www.rotterdammerdagblad.nl/112/eenheid-rotterdam-publiceert-jaarverslag-2025-en-jaarplan-2026": "2026-04-28T12:45:40.782992Z",
         "https://www.rotterdammerdagblad.nl/bedrijvengids": "2026-04-28T12:45:40.782992Z",

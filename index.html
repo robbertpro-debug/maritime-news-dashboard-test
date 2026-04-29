@@ -115,6 +115,20 @@
         font-size: 10px;
       }
 
+      .settings-btn {
+        padding: 6px 10px;
+        border-radius: 4px;
+        border: 1px solid rgba(255, 255, 255, 0.35);
+        background: rgba(255, 255, 255, 0.12);
+        color: #fff;
+        cursor: pointer;
+        font-size: 11px;
+        font-weight: 700;
+        letter-spacing: 0.04em;
+        text-transform: uppercase;
+        flex-shrink: 0;
+      }
+
       .refresh-icon-btn {
         width: 30px;
         height: 30px;
@@ -429,6 +443,12 @@
       .column-toggle-button.active[data-column="competitors"] {
         background: #243f64;
         border-color: #243f64;
+        color: #fff;
+      }
+
+      .column-toggle-button.active[data-column="authorities"] {
+        background: #315f52;
+        border-color: #315f52;
         color: #fff;
       }
 
@@ -777,6 +797,11 @@
         color: var(--brand-blue);
       }
 
+      .tag-authority {
+        background: #dceee8;
+        color: #315f52;
+      }
+
       .tag-signal {
         background: #e6f0f8;
         color: var(--brand-blue-2);
@@ -896,6 +921,10 @@
         background: linear-gradient(180deg, #f6f8fa 0%, #ebeff3 100%);
       }
 
+      .entity-panel[data-category="authorities"] .entity-panel-head {
+        background: linear-gradient(180deg, #eef8f4 0%, #dceee8 100%);
+      }
+
       .entity-chips {
         display: flex;
         flex-wrap: wrap;
@@ -934,6 +963,12 @@
       .entity-chip.active[data-category="competitors"] {
         background: #243f64;
         border-color: #243f64;
+        color: #fff;
+      }
+
+      .entity-chip.active[data-category="authorities"] {
+        background: #315f52;
+        border-color: #315f52;
         color: #fff;
       }
 
@@ -1146,6 +1181,7 @@
       .entity-card-badge.suppliers { background: #fff4a8; color: var(--brand-blue); }
       .entity-card-badge.clients { background: #dcecf8; color: var(--brand-blue); }
       .entity-card-badge.competitors { background: #e9eef3; color: #243f64; }
+      .entity-card-badge.authorities { background: #dceee8; color: #315f52; }
 
       .entity-card-hq {
         color: var(--text-soft);
@@ -1166,6 +1202,154 @@
         font-size: 11px;
         font-weight: 600;
         color: var(--brand-blue);
+      }
+
+      .settings-backdrop {
+        position: fixed;
+        inset: 0;
+        z-index: 190;
+        background: rgba(0, 37, 71, 0.34);
+        opacity: 0;
+        pointer-events: none;
+        transition: opacity 0.2s;
+      }
+
+      .settings-backdrop.visible {
+        opacity: 1;
+        pointer-events: auto;
+      }
+
+      .settings-drawer {
+        position: fixed;
+        top: 0;
+        right: 0;
+        z-index: 191;
+        width: min(420px, 94vw);
+        height: 100vh;
+        background: var(--surface);
+        border-left: 1px solid var(--line);
+        box-shadow: -18px 0 48px rgba(0, 75, 141, 0.22);
+        transform: translateX(100%);
+        transition: transform 0.22s ease;
+        display: flex;
+        flex-direction: column;
+      }
+
+      .settings-drawer.open {
+        transform: translateX(0);
+      }
+
+      .settings-head {
+        display: flex;
+        justify-content: space-between;
+        gap: 14px;
+        align-items: flex-start;
+        padding: 18px 20px;
+        border-bottom: 4px solid var(--brand-yellow);
+        background: var(--brand-blue);
+        color: #fff;
+      }
+
+      .settings-head h2 {
+        margin: 0;
+        font-size: 18px;
+        font-family: "Montserrat", "Segoe UI", Arial, sans-serif;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+      }
+
+      .settings-subtitle {
+        margin-top: 4px;
+        color: rgba(255, 255, 255, 0.76);
+        font-size: 12px;
+      }
+
+      .settings-close {
+        width: 30px;
+        height: 30px;
+        border: 1px solid rgba(255, 255, 255, 0.35);
+        border-radius: 4px;
+        background: rgba(255, 255, 255, 0.12);
+        color: #fff;
+        cursor: pointer;
+        font-size: 18px;
+      }
+
+      .settings-body {
+        display: grid;
+        gap: 12px;
+        padding: 14px 16px 18px;
+        overflow-y: auto;
+      }
+
+      .settings-status {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 6px;
+      }
+
+      .settings-search {
+        width: 100%;
+        padding: 9px 10px;
+        border: 1px solid var(--line);
+        border-radius: 4px;
+        font-size: 13px;
+      }
+
+      .settings-section {
+        border: 1px solid var(--line);
+        border-radius: 6px;
+        background: var(--surface);
+        overflow: hidden;
+      }
+
+      .settings-section summary {
+        cursor: pointer;
+        padding: 11px 12px;
+        background: var(--surface-muted);
+        color: var(--brand-blue);
+        font-size: 12px;
+        font-weight: 800;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+      }
+
+      .settings-group-title {
+        padding: 10px 12px 6px;
+        color: var(--text-soft);
+        font-size: 11px;
+        font-weight: 800;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+      }
+
+      .settings-row {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        padding: 7px 12px;
+        border-top: 1px solid var(--line);
+        font-size: 13px;
+        color: var(--text);
+      }
+
+      .settings-row input {
+        flex-shrink: 0;
+      }
+
+      .settings-row-name {
+        flex: 1;
+        min-width: 0;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+      }
+
+      .settings-actions {
+        display: flex;
+        justify-content: flex-end;
+        gap: 8px;
+        padding-top: 4px;
       }
 
       /* Entity overlay */
@@ -1387,6 +1571,7 @@
       .entity-chip-link.suppliers { background: #fff4a8; color: var(--brand-blue); border-color: #f3cf00; }
       .entity-chip-link.clients   { background: #dcecf8; color: var(--brand-blue); border-color: #b7d5ea; }
       .entity-chip-link.competitors { background: #e9eef3; color: #243f64; border-color: #cfd8e2; }
+      .entity-chip-link.authorities { background: #dceee8; color: #315f52; border-color: #a8cfc2; }
 
       /* Entity directory search + sort bar */
       .entity-dir-bar {
@@ -1474,6 +1659,7 @@
             <button class="toggle-button" data-audience="Both" type="button">Shared</button>
           </div>
           <button id="entitiesNavBtn" class="entities-nav-btn" type="button">Entities</button>
+          <button id="settingsButton" class="settings-btn" type="button">Settings</button>
           <button id="refreshButton" class="refresh-icon-btn" title="Refresh data" type="button">↻</button>
           <span id="refreshStatus" class="refresh-status"></span>
         </div>
@@ -1541,6 +1727,7 @@
                   <option value="suppliers">Suppliers</option>
                   <option value="clients">Clients</option>
                   <option value="competitors">Competitors</option>
+                  <option value="authorities">Authorities & Class</option>
                 </select>
               </div>
               <label class="checkbox-row" for="paywalledOnly">
@@ -1554,6 +1741,7 @@
             <button class="column-toggle-button active" data-column="suppliers" type="button">Supplier News</button>
             <button class="column-toggle-button active" data-column="clients" type="button">Client News</button>
             <button class="column-toggle-button active" data-column="competitors" type="button">Competitor News</button>
+            <button class="column-toggle-button active" data-column="authorities" type="button">Authorities & Class</button>
           </div>
         </aside>
       </section>
@@ -1566,6 +1754,32 @@
 
       <section class="buckets" id="bucketContainer"></section>
       </div>
+
+      <div id="settingsBackdrop" class="settings-backdrop"></div>
+      <aside id="settingsDrawer" class="settings-drawer" aria-label="Dashboard settings">
+        <div class="settings-head">
+          <div>
+            <h2>Settings</h2>
+            <div class="settings-subtitle">Personal source and entity visibility</div>
+          </div>
+          <button id="settingsClose" class="settings-close" type="button" aria-label="Close settings">×</button>
+        </div>
+        <div class="settings-body">
+          <div id="settingsStatus" class="settings-status"></div>
+          <input id="settingsSearch" class="settings-search" type="search" placeholder="Search sources and entities" />
+          <details class="settings-section" open>
+            <summary>Sources</summary>
+            <div id="settingsSources"></div>
+          </details>
+          <details class="settings-section" open>
+            <summary>Entities</summary>
+            <div id="settingsEntities"></div>
+          </details>
+          <div class="settings-actions">
+            <button id="settingsReset" class="clear-filter-button" type="button">Reset defaults</button>
+          </div>
+        </div>
+      </aside>
 
       <div id="entityOverlayBackdrop" class="entity-overlay-backdrop"></div>
       <div id="entityOverlay" class="entity-overlay" role="dialog" aria-modal="true">
@@ -1586,6 +1800,9 @@
       const AUTH_KEY = "mnd_auth";
       const DEPARTMENT_KEY = "mnd_department";
       const COLUMN_PREFS_KEY = "mnd_entity_columns";
+      const COLUMN_PREFS_VERSION_KEY = "mnd_entity_columns_v2";
+      const SOURCE_PREFS_KEY = "mnd_enabled_sources";
+      const ENTITY_PREFS_KEY = "mnd_enabled_entities";
       const STATIC_DATA_URL = "./data/articles.json";
       const AUTO_REFRESH_INTERVAL_MS = 60 * 60 * 1000;
       const PASSWORD_HASH = "9175c025fea32b1448a98927bb679160119657ac11cbd028b51264a21af91db8";
@@ -1684,13 +1901,30 @@
         "infrastructure",
         "port services"
       ]);
+      const AUTHORITY_SOURCE_IDS = new Set([
+        "google-imo-press",
+        "google-imo-meetings",
+        "ilt-news",
+        "dutch-government-ienw",
+        "tenderned-maritime",
+        "rws-zeeland-maintenance",
+        "rws-shipping-news",
+        "google-rijkswaterstaat",
+        "riviera-regulation",
+        "terneuzen-notices",
+        "google-dnv"
+      ]);
 
       const ENTITY_CATEGORY_CONFIG = [
         { key: "suppliers", label: "Supplier News", subtitle: "News mentioning tracked suppliers" },
         { key: "clients", label: "Client News", subtitle: "News mentioning tracked clients" },
-        { key: "competitors", label: "Competitor News", subtitle: "News mentioning tracked competitors" }
+        { key: "competitors", label: "Competitor News", subtitle: "News mentioning tracked competitors" },
+        { key: "authorities", label: "Authorities & Class", subtitle: "Regulators, tenders and classification bodies" }
       ];
       const DEFAULT_ENTITY_COLUMNS = ENTITY_CATEGORY_CONFIG.map((config) => config.key);
+      const ENTITY_CATEGORY_LABELS = Object.fromEntries(
+        ENTITY_CATEGORY_CONFIG.map((config) => [config.key, config.label.replace(" News", "")])
+      );
       const DEFAULT_DEPARTMENT_PROFILES = [
         { id: "all", label: "All departments", sourceIds: [], tags: [], entityCategories: [] }
       ];
@@ -1706,7 +1940,10 @@
 
       function loadVisibleEntityColumns() {
         const stored = localStorage.getItem(COLUMN_PREFS_KEY);
-        if (!stored) return [...DEFAULT_ENTITY_COLUMNS];
+        if (!stored) {
+          localStorage.setItem(COLUMN_PREFS_VERSION_KEY, "1");
+          return [...DEFAULT_ENTITY_COLUMNS];
+        }
 
         try {
           const columns = JSON.parse(stored);
@@ -1716,13 +1953,37 @@
           }
           if (columns.some((key) => !DEFAULT_ENTITY_COLUMNS.includes(key))) {
             localStorage.setItem(COLUMN_PREFS_KEY, JSON.stringify(DEFAULT_ENTITY_COLUMNS));
+            localStorage.setItem(COLUMN_PREFS_VERSION_KEY, "1");
             return [...DEFAULT_ENTITY_COLUMNS];
+          }
+          if (!localStorage.getItem(COLUMN_PREFS_VERSION_KEY)) {
+            const migrated = [...new Set([...columns, "authorities"])];
+            localStorage.setItem(COLUMN_PREFS_KEY, JSON.stringify(migrated));
+            localStorage.setItem(COLUMN_PREFS_VERSION_KEY, "1");
+            return migrated;
           }
           return columns;
         } catch {
           localStorage.setItem(COLUMN_PREFS_KEY, JSON.stringify(DEFAULT_ENTITY_COLUMNS));
+          localStorage.setItem(COLUMN_PREFS_VERSION_KEY, "1");
           return [...DEFAULT_ENTITY_COLUMNS];
         }
+      }
+
+      function readEnabledSet(key) {
+        const stored = localStorage.getItem(key);
+        if (!stored) return null;
+        try {
+          const values = JSON.parse(stored);
+          if (!Array.isArray(values)) return null;
+          return new Set(values.filter(Boolean));
+        } catch {
+          return null;
+        }
+      }
+
+      function writeEnabledSet(key, values) {
+        localStorage.setItem(key, JSON.stringify([...values].sort()));
       }
 
       const state = {
@@ -1737,14 +1998,16 @@
         activeAudience: "Multraship",
         activeDepartment: localStorage.getItem(DEPARTMENT_KEY) || "all",
         visibleEntityColumns: loadVisibleEntityColumns(),
+        enabledSources: readEnabledSet(SOURCE_PREFS_KEY),
+        enabledEntities: readEnabledSet(ENTITY_PREFS_KEY),
         bucketVisibility: {},
         bucketDateRange: {
           "Maritime News Sites": "30d",
           "Local & Regional News": "30d"
         },
-        selectedEntities: { suppliers: null, clients: null, competitors: null },
-        entityDateRange: { suppliers: "30d", clients: "30d", competitors: "30d" },
-        entityVisibility: { suppliers: 10, clients: 10, competitors: 10 },
+        selectedEntities: { suppliers: null, clients: null, competitors: null, authorities: null },
+        entityDateRange: { suppliers: "30d", clients: "30d", competitors: "30d", authorities: "30d" },
+        entityVisibility: { suppliers: 10, clients: 10, competitors: 10, authorities: 10 },
         historyData: null,
         historyLoading: false,
         autoRefreshTimer: null,
@@ -1771,6 +2034,15 @@
         clearFiltersButton: document.getElementById("clearFiltersButton"),
         refreshButton: document.getElementById("refreshButton"),
         refreshStatus: document.getElementById("refreshStatus"),
+        settingsButton: document.getElementById("settingsButton"),
+        settingsBackdrop: document.getElementById("settingsBackdrop"),
+        settingsDrawer: document.getElementById("settingsDrawer"),
+        settingsClose: document.getElementById("settingsClose"),
+        settingsStatus: document.getElementById("settingsStatus"),
+        settingsSearch: document.getElementById("settingsSearch"),
+        settingsSources: document.getElementById("settingsSources"),
+        settingsEntities: document.getElementById("settingsEntities"),
+        settingsReset: document.getElementById("settingsReset"),
         bucketContainer: document.getElementById("bucketContainer"),
         boardSummary: document.getElementById("boardSummary"),
         toggleButtons: Array.from(document.querySelectorAll(".toggle-button")),
@@ -1943,7 +2215,15 @@
           seen.add(entity.category);
           categories.push(entity.category);
         });
+        if (AUTHORITY_SOURCE_IDS.has(article.sourceId) && !seen.has("authorities")) {
+          categories.push("authorities");
+        }
         return categories;
+      }
+
+      function hasAuthorityCategory(article) {
+        return AUTHORITY_SOURCE_IDS.has(article.sourceId)
+          || getArticleCategories(article).includes("authorities");
       }
 
       function normalizeFilterValue(value) {
@@ -1991,6 +2271,19 @@
         return sourceTypes[article.sourceId] || "rss";
       }
 
+      function isSourceEnabled(sourceId) {
+        return !state.enabledSources || state.enabledSources.has(sourceId);
+      }
+
+      function isEntityEnabled(name) {
+        return !state.enabledEntities || state.enabledEntities.has(name);
+      }
+
+      function matchesDashboardVisibility(article) {
+        if (!isSourceEnabled(article.sourceId)) return false;
+        return (article.entities || []).every((entity) => isEntityEnabled(entity.name));
+      }
+
       function matchesFilters(article) {
         const sourceValue = elements.sourceFilter.value;
         const sourceTypeValue = elements.sourceTypeFilter.value;
@@ -1999,6 +2292,7 @@
         const searchValue = elements.searchInput.value;
         const paywalledOnly = elements.paywalledOnly.checked;
 
+        if (!matchesDashboardVisibility(article)) return false;
         if (!matchesAudience(article)) return false;
         if (!matchesDepartment(article)) return false;
         if (sourceValue !== "all" && article.source !== sourceValue) return false;
@@ -2155,9 +2449,9 @@
           {
             label: "Filtered entity matches",
             value: last24.filter((article) =>
-              getArticleCategories(article).some((category) => ["suppliers", "clients", "competitors"].includes(category))
+              getArticleCategories(article).some((category) => DEFAULT_ENTITY_COLUMNS.includes(category))
             ).length,
-            copy: "Tracked suppliers, clients or competitors"
+            copy: "Tracked entities and authorities"
           }
         ];
 
@@ -2183,6 +2477,8 @@
           className += " tag-competitor";
         } else if (text === "Supplier") {
           className += " tag-supplier";
+        } else if (text === "Authority & Class") {
+          className += " tag-authority";
         } else if (text === "Energy Transition") {
           className += " tag-energy";
         } else if (["Incident", "Disruption", "Regulation", "Infrastructure", "Terminal Expansion"].includes(text)) {
@@ -2402,12 +2698,13 @@
       }
 
       function getEntityArticles(articles, category, selectedEntity) {
-        return sortArticles(articles
-          .filter((article) =>
-            (article.entities || []).some(
-              (e) => e.category === category && (selectedEntity === null || e.name === selectedEntity)
-            )
-          ));
+        return sortArticles(articles.filter((article) => {
+          const hasEntity = (article.entities || []).some(
+            (e) => e.category === category && (selectedEntity === null || e.name === selectedEntity)
+          );
+          if (hasEntity) return true;
+          return category === "authorities" && selectedEntity === null && AUTHORITY_SOURCE_IDS.has(article.sourceId);
+        }));
       }
 
       function renderEntitySection(container, catConfig) {
@@ -2569,6 +2866,7 @@
         elements.generatedAt.textContent = formatGenerated(state.data.generatedAt);
         elements.articleCount.textContent = String((state.data.articles || []).length);
         renderErrors(state.data.errors || []);
+        if (elements.settingsDrawer.classList.contains("open")) renderSettingsRows();
       }
 
       async function loadApiData() {
@@ -2656,8 +2954,141 @@
           state.visibleEntityColumns = [...state.visibleEntityColumns, column];
         }
         localStorage.setItem(COLUMN_PREFS_KEY, JSON.stringify(state.visibleEntityColumns));
+        localStorage.setItem(COLUMN_PREFS_VERSION_KEY, "1");
         syncColumnToggleButtons();
         renderEntitySections();
+      }
+
+      function getSourceCatalog() {
+        if (Array.isArray(state.data.sourceCatalog) && state.data.sourceCatalog.length > 0) {
+          return state.data.sourceCatalog;
+        }
+        const sourceTypes = state.data.sourceTypes || {};
+        return Object.keys(sourceTypes).map((id) => ({ id, name: id, type: sourceTypes[id], tags: [] }));
+      }
+
+      function getEntityCatalog() {
+        const categories = state.data.entityCategories || {};
+        const articleCounts = new Map();
+        getDirArticles().forEach((article) => {
+          (article.entities || []).forEach((entity) => {
+            articleCounts.set(entity.name, (articleCounts.get(entity.name) || 0) + 1);
+          });
+        });
+        return Object.entries(categories).map(([name, category]) => ({
+          name,
+          category,
+          count: articleCounts.get(name) || 0
+        }));
+      }
+
+      function ensureSettingsDefaults() {
+        const sourceIds = getSourceCatalog().map((source) => source.id);
+        const entityNames = getEntityCatalog().map((entity) => entity.name);
+        if (state.enabledSources === null) state.enabledSources = new Set(sourceIds);
+        if (state.enabledEntities === null) state.enabledEntities = new Set(entityNames);
+      }
+
+      function renderSettingsStatus() {
+        ensureSettingsDefaults();
+        elements.settingsStatus.innerHTML = "";
+        const sources = getSourceCatalog();
+        const entities = getEntityCatalog();
+        elements.settingsStatus.appendChild(
+          createTextElement("span", `${state.enabledSources.size}/${sources.length} sources`, "count-pill")
+        );
+        elements.settingsStatus.appendChild(
+          createTextElement("span", `${state.enabledEntities.size}/${entities.length} entities`, "count-pill")
+        );
+      }
+
+      function renderSettingsRows() {
+        ensureSettingsDefaults();
+        renderSettingsStatus();
+        const query = normalizeSearchText(elements.settingsSearch.value);
+        elements.settingsSources.innerHTML = "";
+        elements.settingsEntities.innerHTML = "";
+
+        const groupedSources = new Map();
+        getSourceCatalog().forEach((source) => {
+          const haystack = normalizeSearchText(`${source.name} ${source.id} ${(source.tags || []).join(" ")}`);
+          if (query && !haystack.includes(query)) return;
+          const group = source.type === "web_watch" ? "Web watch" : "RSS";
+          if (!groupedSources.has(group)) groupedSources.set(group, []);
+          groupedSources.get(group).push(source);
+        });
+
+        groupedSources.forEach((sources, group) => {
+          elements.settingsSources.appendChild(createTextElement("div", group, "settings-group-title"));
+          sources.sort((a, b) => a.name.localeCompare(b.name)).forEach((source) => {
+            const label = document.createElement("label");
+            label.className = "settings-row";
+            const input = document.createElement("input");
+            input.type = "checkbox";
+            input.checked = state.enabledSources.has(source.id);
+            input.addEventListener("change", () => {
+              input.checked ? state.enabledSources.add(source.id) : state.enabledSources.delete(source.id);
+              writeEnabledSet(SOURCE_PREFS_KEY, state.enabledSources);
+              renderSettingsStatus();
+              render();
+            });
+            label.append(input, createTextElement("span", source.name, "settings-row-name"));
+            elements.settingsSources.appendChild(label);
+          });
+        });
+
+        const groupedEntities = new Map();
+        getEntityCatalog().forEach((entity) => {
+          const haystack = normalizeSearchText(`${entity.name} ${entity.category}`);
+          if (query && !haystack.includes(query)) return;
+          if (!groupedEntities.has(entity.category)) groupedEntities.set(entity.category, []);
+          groupedEntities.get(entity.category).push(entity);
+        });
+
+        ENTITY_CATEGORY_CONFIG.forEach(({ key }) => {
+          const entities = groupedEntities.get(key) || [];
+          if (entities.length === 0) return;
+          elements.settingsEntities.appendChild(
+            createTextElement("div", ENTITY_CATEGORY_LABELS[key] || key, "settings-group-title")
+          );
+          entities.sort((a, b) => a.name.localeCompare(b.name)).forEach((entity) => {
+            const label = document.createElement("label");
+            label.className = "settings-row";
+            const input = document.createElement("input");
+            input.type = "checkbox";
+            input.checked = state.enabledEntities.has(entity.name);
+            input.addEventListener("change", () => {
+              input.checked ? state.enabledEntities.add(entity.name) : state.enabledEntities.delete(entity.name);
+              writeEnabledSet(ENTITY_PREFS_KEY, state.enabledEntities);
+              renderSettingsStatus();
+              render();
+            });
+            label.append(input, createTextElement("span", entity.name, "settings-row-name"));
+            if (entity.count > 0) label.appendChild(createTextElement("span", String(entity.count), "count-pill"));
+            elements.settingsEntities.appendChild(label);
+          });
+        });
+      }
+
+      function openSettingsDrawer() {
+        renderSettingsRows();
+        elements.settingsBackdrop.classList.add("visible");
+        elements.settingsDrawer.classList.add("open");
+      }
+
+      function closeSettingsDrawer() {
+        elements.settingsBackdrop.classList.remove("visible");
+        elements.settingsDrawer.classList.remove("open");
+      }
+
+      function resetSettingsDefaults() {
+        localStorage.removeItem(SOURCE_PREFS_KEY);
+        localStorage.removeItem(ENTITY_PREFS_KEY);
+        state.enabledSources = new Set(getSourceCatalog().map((source) => source.id));
+        state.enabledEntities = new Set(getEntityCatalog().map((entity) => entity.name));
+        elements.settingsSearch.value = "";
+        renderSettingsRows();
+        render();
       }
 
       function getDirArticles() {
@@ -2698,7 +3129,7 @@
         const el = elements.entityDirContent;
         el.innerHTML = "";
 
-        const catLabels = { suppliers: "Suppliers", clients: "Clients", competitors: "Competitors" };
+        const catLabels = { suppliers: "Suppliers", clients: "Clients", competitors: "Competitors", authorities: "Authorities & Class" };
 
         // Article counts per entity
         const articleCounts = new Map();
@@ -2729,7 +3160,7 @@
         bar.append(searchInput, sortAZ, sortCount);
         el.appendChild(bar);
 
-        const grouped = { suppliers: [], clients: [], competitors: [] };
+        const grouped = { suppliers: [], clients: [], competitors: [], authorities: [] };
         Object.entries(profiles).forEach(([name, profile]) => {
           const cat = categories[name];
           if (cat && grouped[cat]) grouped[cat].push({ name, profile });
@@ -2764,7 +3195,9 @@
 
               const meta = document.createElement("div");
               meta.className = "entity-card-meta";
-              meta.appendChild(createTextElement("span", catLabels[cat].slice(0, -1), `entity-card-badge ${cat}`));
+              meta.appendChild(
+                createTextElement("span", ENTITY_CATEGORY_LABELS[cat] || catLabels[cat], `entity-card-badge ${cat}`)
+              );
               if (profile.stock && profile.stock.ticker) {
                 meta.appendChild(createTextElement("span", profile.stock.ticker, "entity-card-stock"));
               }
@@ -2815,7 +3248,7 @@
 
         elements.overlayEntityName.textContent = name;
         const cat = (state.data.entityCategories || {})[name];
-        const catLabels = { suppliers: "Supplier", clients: "Client", competitors: "Competitor" };
+        const catLabels = { suppliers: "Supplier", clients: "Client", competitors: "Competitor", authorities: "Authority & Class" };
         elements.overlayEntityBadge.innerHTML = "";
         if (cat) {
           elements.overlayEntityBadge.appendChild(
@@ -3004,13 +3437,22 @@
         });
         elements.clearFiltersButton.addEventListener("click", clearFilters);
         elements.refreshButton.addEventListener("click", refreshFeeds);
+        elements.settingsButton.addEventListener("click", openSettingsDrawer);
+        elements.settingsClose.addEventListener("click", closeSettingsDrawer);
+        elements.settingsBackdrop.addEventListener("click", closeSettingsDrawer);
+        elements.settingsSearch.addEventListener("input", renderSettingsRows);
+        elements.settingsReset.addEventListener("click", resetSettingsDefaults);
 
         elements.entitiesNavBtn.addEventListener("click", () => {
           switchView(state.activeView === "entities" ? "dashboard" : "entities");
         });
         elements.entityOverlayClose.addEventListener("click", closeEntityOverlay);
         elements.entityOverlayBackdrop.addEventListener("click", closeEntityOverlay);
-        document.addEventListener("keydown", (e) => { if (e.key === "Escape" && state.openEntityName) closeEntityOverlay(); });
+        document.addEventListener("keydown", (e) => {
+          if (e.key !== "Escape") return;
+          if (state.openEntityName) closeEntityOverlay();
+          if (elements.settingsDrawer.classList.contains("open")) closeSettingsDrawer();
+        });
 
         elements.toggleButtons.forEach((button) => {
           button.addEventListener("click", () => {

@@ -2242,7 +2242,6 @@
         "Caterpillar Marine",
         "Sanmar Shipyards",
         "Kongsberg Maritime",
-        "Bureau Veritas",
         "Shipowners' Club",
         "Eriks",
         "Alphatron Marine",
@@ -2258,15 +2257,12 @@
         "De Pooter Olie",
         "Arentis",
         "Rabobank",
-        "American Bureau of Shipping",
         "Astilleros Armon",
         "SeaZip Offshore Service",
         "Azcue Pumps",
         "Wärtsilä",
-        "DNV",
         "Schottel",
-        "Voith",
-        "Lloyd's Register"
+        "Voith"
       ],
       "clients": [
         "RWE Renewables",
@@ -2300,7 +2296,6 @@
         "Covestro",
         "Cargill",
         "FLC Marine Works Group",
-        "Rijkswaterstaat",
         "Scaldis Salvage & Marine Contractors",
         "TM Edison BE",
         "Wilhelmsen Port Services",
@@ -2340,6 +2335,16 @@
         "Vlissingse Bootlieden",
         "Eendracht Gent",
         "Hebo"
+      ],
+      "authorities": [
+        "International Maritime Organization",
+        "ILT",
+        "TenderNed",
+        "Rijkswaterstaat",
+        "Bureau Veritas",
+        "American Bureau of Shipping",
+        "DNV",
+        "Lloyd's Register"
       ]
     }
   },
@@ -2514,9 +2519,6 @@
         "Kongsberg Maritime": [
           "Kongsberg"
         ],
-        "Bureau Veritas": [
-          "BV"
-        ],
         "Shipowners' Club": [
           "Shipowners Club"
         ],
@@ -2538,9 +2540,6 @@
         "BP Raffinaderij": [
           "BP"
         ],
-        "American Bureau of Shipping": [
-          "ABS"
-        ],
         "Astilleros Armon": [
           "Armon"
         ],
@@ -2555,11 +2554,6 @@
           "Wärtsilä Marine",
           "Wartsila Marine"
         ],
-        "DNV": [
-          "Det Norske Veritas",
-          "DNV GL",
-          "DNV-GL"
-        ],
         "Schottel": [
           "SCHOTTEL"
         ],
@@ -2567,11 +2561,6 @@
           "Voith Marine",
           "Voith Hydro",
           "Voith Schneider"
-        ],
-        "Lloyd's Register": [
-          "LR",
-          "Lloyds Register",
-          "Lloyd's"
         ]
       },
       "clients": {
@@ -2635,11 +2624,6 @@
         "FLC Marine Works Group": [
           "FLC Marine",
           "FLC Marine Works"
-        ],
-        "Rijkswaterstaat": [
-          "RWS",
-          "Rijkswaterstaat GPO",
-          "Rijkswaterstaat PPO"
         ],
         "Scaldis Salvage & Marine Contractors": [
           "Scaldis",
@@ -2769,6 +2753,41 @@
           "HEBO Maritiemservice",
           "Hebo Maritiem"
         ]
+      },
+      "authorities": {
+        "Rijkswaterstaat": [
+          "RWS",
+          "Rijkswaterstaat GPO",
+          "Rijkswaterstaat PPO"
+        ],
+        "Bureau Veritas": [
+          "BV"
+        ],
+        "American Bureau of Shipping": [
+          "ABS"
+        ],
+        "DNV": [
+          "Det Norske Veritas",
+          "DNV GL",
+          "DNV-GL"
+        ],
+        "Lloyd's Register": [
+          "LR",
+          "Lloyds Register",
+          "Lloyd's"
+        ],
+        "International Maritime Organization": [
+          "IMO"
+        ],
+        "ILT": [
+          "Inspectie Leefomgeving en Transport",
+          "Human Environment and Transport Inspectorate",
+          "ILenT"
+        ],
+        "TenderNed": [
+          "TenderNed Maritime Tenders",
+          "TenderNed tender"
+        ]
       }
     }
   },
@@ -2788,7 +2807,8 @@
       "infrastructure": 3,
       "terminal_expansion": 3,
       "commercial": 2,
-      "energy_transition": 2
+      "energy_transition": 2,
+      "authority": 3
     },
     "bands": {
       "critical": 13,
@@ -2969,7 +2989,7 @@
       "founded": 1814,
       "stock": {
         "ticker": "KOG.OL",
-        "exchange": "Oslo B\u00f8rs",
+        "exchange": "Oslo Børs",
         "note": "Parent company Kongsberg Gruppen ASA"
       }
     },
@@ -2984,7 +3004,7 @@
         "exchange": "Euronext Paris"
       }
     },
-    "W\u00e4rtsil\u00e4": {
+    "Wärtsilä": {
       "website": "https://www.wartsila.com",
       "linkedin": "https://www.linkedin.com/company/wartsila",
       "hq": "Helsinki, Finland",
@@ -2998,7 +3018,7 @@
     "DNV": {
       "website": "https://www.dnv.com",
       "linkedin": "https://www.linkedin.com/company/dnv",
-      "hq": "H\u00f8vik, Norway",
+      "hq": "Høvik, Norway",
       "description": "International classification society and assurance provider. Risk management, certification and technical advisory for maritime, oil & gas and energy sectors.",
       "founded": 1864,
       "stock": null
@@ -3087,7 +3107,7 @@
         "note": "Parent company RWE AG"
       }
     },
-    "\u00d8rsted": {
+    "Ørsted": {
       "website": "https://orsted.com",
       "linkedin": "https://www.linkedin.com/company/orsted",
       "hq": "Fredericia, Denmark",
@@ -3175,18 +3195,18 @@
       "founded": 1972,
       "stock": {
         "ticker": "EQNR.OL",
-        "exchange": "Oslo B\u00f8rs"
+        "exchange": "Oslo Børs"
       }
     },
     "Yara International": {
       "website": "https://www.yara.com",
       "linkedin": "https://www.linkedin.com/company/yara",
       "hq": "Oslo, Norway",
-      "description": "Norwegian chemical company and world's largest fertiliser producer. Operates bulk terminals at Sluiskil (Terneuzen) and Brunsb\u00fcttel, generating regular bulk shipping movements.",
+      "description": "Norwegian chemical company and world's largest fertiliser producer. Operates bulk terminals at Sluiskil (Terneuzen) and Brunsbüttel, generating regular bulk shipping movements.",
       "founded": 1905,
       "stock": {
         "ticker": "YAR.OL",
-        "exchange": "Oslo B\u00f8rs"
+        "exchange": "Oslo Børs"
       }
     },
     "ExxonMobil": {
@@ -3239,7 +3259,7 @@
       "website": "https://www.sarens.com",
       "linkedin": "https://www.linkedin.com/company/sarens",
       "hq": "Wolvertem, Belgium",
-      "description": "Belgian heavy lift and engineered transport specialist. Moves large industrial cargo \u2014 including offshore wind components \u2014 through Zeeland and Antwerp ports.",
+      "description": "Belgian heavy lift and engineered transport specialist. Moves large industrial cargo — including offshore wind components — through Zeeland and Antwerp ports.",
       "founded": 1955,
       "stock": null
     },
@@ -3265,7 +3285,7 @@
     "Oldendorff Carriers": {
       "website": "https://www.oldendorff.com",
       "linkedin": "https://www.linkedin.com/company/oldendorff-carriers",
-      "hq": "L\u00fcbeck, Germany",
+      "hq": "Lübeck, Germany",
       "description": "One of the world's largest dry bulk operators. Regularly calls at Zeeland Seaports and Ghent with coal, grain and other bulk cargoes.",
       "founded": 1921,
       "stock": null
@@ -3274,7 +3294,7 @@
       "website": "https://www.verbrugge.nl",
       "linkedin": "https://www.linkedin.com/company/verbrugge-zeeland-logistics",
       "hq": "Vlissingen, Netherlands",
-      "description": "Zeeland-based terminal and logistics operator. Handles bulk cargo, breakbulk and project cargo through Vlissingen and Terneuzen terminals \u2014 a key port partner for Multraship.",
+      "description": "Zeeland-based terminal and logistics operator. Handles bulk cargo, breakbulk and project cargo through Vlissingen and Terneuzen terminals — a key port partner for Multraship.",
       "founded": 1973,
       "stock": null
     },
@@ -3310,7 +3330,7 @@
       "founded": 1842,
       "stock": null
     },
-    "Buks\u00e9r og Berging": {
+    "Buksér og Berging": {
       "website": "https://www.bb-ss.no",
       "linkedin": "https://www.linkedin.com/company/bukser-og-berging-as",
       "hq": "Bergen, Norway",
@@ -3374,12 +3394,36 @@
       "founded": 1866,
       "stock": null
     },
-    "Alfons H\u00e5kans": {
+    "Alfons Håkans": {
       "website": "https://www.alfons-hakans.fi",
       "linkedin": "https://www.linkedin.com/company/alfons-hakans",
       "hq": "Turku, Finland",
       "description": "Finnish towage and icebreaking company. Dominant operator in Finnish ports; also active in Baltic Sea towage and wreck removal.",
       "founded": 1913,
+      "stock": null
+    },
+    "International Maritime Organization": {
+      "website": "https://www.imo.org",
+      "linkedin": "https://www.linkedin.com/company/international-maritime-organization",
+      "hq": "London, United Kingdom",
+      "description": "United Nations agency responsible for international shipping safety, security and pollution prevention standards.",
+      "founded": 1948,
+      "stock": null
+    },
+    "ILT": {
+      "website": "https://english.ilent.nl",
+      "linkedin": "https://www.linkedin.com/company/inspectie-leefomgeving-en-transport",
+      "hq": "The Hague, Netherlands",
+      "description": "Dutch Human Environment and Transport Inspectorate, supervising transport, shipping safety and environmental compliance.",
+      "founded": 2012,
+      "stock": null
+    },
+    "TenderNed": {
+      "website": "https://www.tenderned.nl",
+      "linkedin": "https://www.linkedin.com/company/tenderned",
+      "hq": "Netherlands",
+      "description": "Dutch public procurement platform publishing government tenders, including maritime, infrastructure and port-related opportunities.",
+      "founded": 2011,
       "stock": null
     }
   }
