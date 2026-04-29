@@ -1234,7 +1234,9 @@
         transition: transform 0.22s ease;
         display: flex;
         flex-direction: column;
-        overflow: hidden;
+        overflow-y: auto;
+        overscroll-behavior: contain;
+        -webkit-overflow-scrolling: touch;
       }
 
       .settings-drawer.open {
@@ -1250,7 +1252,6 @@
         border-bottom: 4px solid var(--brand-yellow);
         background: var(--brand-blue);
         color: #fff;
-        flex-shrink: 0;
       }
 
       .settings-head h2 {
@@ -1282,10 +1283,7 @@
         display: grid;
         gap: 12px;
         padding: 14px 16px 18px;
-        min-height: 0;
-        flex: 1;
-        overflow-y: auto;
-        overscroll-behavior: contain;
+        flex-shrink: 0;
       }
 
       .settings-status {
