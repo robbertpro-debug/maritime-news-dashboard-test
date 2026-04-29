@@ -1586,6 +1586,8 @@
       const AUTH_KEY = "mnd_auth";
       const DEPARTMENT_KEY = "mnd_department";
       const COLUMN_PREFS_KEY = "mnd_entity_columns";
+      const STATIC_DATA_URL = "./data/articles.json";
+      const AUTO_REFRESH_INTERVAL_MS = 60 * 1000;
       const PASSWORD_HASH = "9175c025fea32b1448a98927bb679160119657ac11cbd028b51264a21af91db8";
 
       async function sha256hex(text) {
@@ -1694,11 +1696,12 @@
       ];
 
       const DATE_RANGE_OPTIONS = [
+        { value: "1h", label: "1h", hours: 1 },
+        { value: "6h", label: "6h", hours: 6 },
         { value: "1d", label: "1d", days: 1 },
         { value: "7d", label: "7d", days: 7 },
         { value: "30d", label: "30d", days: 30 },
-        { value: "90d", label: "90d", days: 90 },
-        { value: "6mo", label: "6mo", days: 180 }
+        { value: "90d", label: "90d", days: 90 }
       ];
 
       function loadVisibleEntityColumns() {
@@ -1735,11 +1738,16 @@
         activeDepartment: localStorage.getItem(DEPARTMENT_KEY) || "all",
         visibleEntityColumns: loadVisibleEntityColumns(),
         bucketVisibility: {},
+        bucketDateRange: {
+          "Maritime News Sites": "30d",
+          "Local & Regional News": "30d"
+        },
         selectedEntities: { suppliers: null, clients: null, competitors: null },
         entityDateRange: { suppliers: "30d", clients: "30d", competitors: "30d" },
         entityVisibility: { suppliers: 10, clients: 10, competitors: 10 },
         historyData: null,
         historyLoading: false,
+        autoRefreshTimer: null,
         activeView: "dashboard",
         openEntityName: null,
         overlayTab: "profile",
@@ -2043,21 +2051,50 @@
           .some((location) => LOCAL_NEWS_LOCATIONS.has(location));
       }
 
-      function buildBuckets(articles) {
-        if (articles.length === 0) return [];
-        const localArticles = [];
-        const maritimeArticles = [];
-        articles.forEach((article) => {
+      function getRangeOption(range) {
+        return DATE_RANGE_OPTIONS.find((option) => option.value === range) || DATE_RANGE_OPTIONS[4];
+      }
+
+      function getRangeMs(option) {
+        const hours = option.hours || option.days * 24;
+        return hours * 60 * 60 * 1000;
+      }
+
+      function rangeNeedsHistory(option) {
+        return (option.days || 0) > 30;
+      }
+
+      function getArticlesForRange(option) {
+        if (rangeNeedsHistory(option) && state.historyData) {
+          return state.historyData.articles || [];
+        }
+        return state.data.articles || [];
+      }
+
+      function isWithinDateRange(article, option) {
+        const publishedAt = getArticleTime(article);
+        if (publishedAt === null) return false;
+        return publishedAt >= Date.now() - getRangeMs(option);
+      }
+
+      function getBucketArticles(bucket) {
+        const range = state.bucketDateRange[bucket.key] || "30d";
+        const option = getRangeOption(range);
+        const articles = getArticlesForRange(option)
+          .filter(matchesFilters)
+          .filter((article) => isWithinDateRange(article, option));
+
+        const bucketArticles = articles.filter((article) => {
           if (isLocalRegionalArticle(article)) {
-            localArticles.push(article);
-          } else {
-            maritimeArticles.push(article);
+            return bucket.key === "Local & Regional News";
           }
+          return bucket.key === "Maritime News Sites";
         });
-        return [
-          { ...BUCKETS[0], items: maritimeArticles },
-          { ...BUCKETS[1], items: localArticles }
-        ];
+        return sortArticles(bucketArticles);
+      }
+
+      function buildBuckets() {
+        return BUCKETS.map((bucket) => ({ ...bucket, items: getBucketArticles(bucket) }));
       }
 
       function getBucketLimit(bucketKey) {
@@ -2272,7 +2309,24 @@
             bucket.items.slice(0, visibleLimit).forEach((article) => body.appendChild(createArticleRow(article)));
           }
 
-          section.append(head, body);
+          const rangeRow = document.createElement("div");
+          rangeRow.className = "entity-range-row";
+          const currentRange = state.bucketDateRange[bucket.key] || "30d";
+          DATE_RANGE_OPTIONS.forEach(({ value, label: rangeLabel }) => {
+            const btn = document.createElement("button");
+            btn.type = "button";
+            btn.className = "entity-range-btn" + (currentRange === value ? " active" : "");
+            btn.textContent = rangeLabel;
+            btn.addEventListener("click", async () => {
+              state.bucketDateRange[bucket.key] = value;
+              setBucketLimit(bucket.key, 12);
+              if (rangeNeedsHistory(getRangeOption(value)) && state.historyData === null) await loadHistoryData();
+              render();
+            });
+            rangeRow.appendChild(btn);
+          });
+
+          section.append(head, rangeRow, body);
 
           if (bucket.items.length > 12) {
             const footer = document.createElement("div");
@@ -2325,16 +2379,11 @@
 
       function getArticlesForEntitySection(category) {
         const range = state.entityDateRange[category] || "30d";
-        const option = DATE_RANGE_OPTIONS.find((o) => o.value === range) || DATE_RANGE_OPTIONS[1];
-        const cutoffMs = Date.now() - option.days * 24 * 60 * 60 * 1000;
-        const source =
-          option.days > 30 && state.historyData
-            ? state.historyData.articles || []
-            : state.data.articles || [];
+        const option = getRangeOption(range);
+        const source = getArticlesForRange(option);
         return source.filter((article) => {
           if (!matchesFilters(article)) return false;
-          if (!article.publishedAt) return false;
-          return new Date(article.publishedAt).getTime() >= cutoffMs;
+          return isWithinDateRange(article, option);
         });
       }
 
@@ -2386,14 +2435,14 @@
         const rangeRow = document.createElement("div");
         rangeRow.className = "entity-range-row";
         const currentRange = state.entityDateRange[key] || "30d";
-        DATE_RANGE_OPTIONS.forEach(({ value, label: rangeLabel, days }) => {
+        DATE_RANGE_OPTIONS.forEach(({ value, label: rangeLabel }) => {
           const btn = document.createElement("button");
           btn.type = "button";
           btn.className = "entity-range-btn" + (currentRange === value ? " active" : "");
           btn.textContent = rangeLabel;
           btn.addEventListener("click", async () => {
             state.entityDateRange[key] = value;
-            if (days > 30 && state.historyData === null) await loadHistoryData();
+            if (rangeNeedsHistory(getRangeOption(value)) && state.historyData === null) await loadHistoryData();
             renderEntitySections();
           });
           rangeRow.appendChild(btn);
@@ -2493,7 +2542,7 @@
       function render() {
         updateAudienceMeta();
         const filtered = sortArticles((state.data.articles || []).filter(matchesFilters));
-        const buckets = buildBuckets(filtered);
+        const buckets = buildBuckets();
         renderBoardSummary(filtered);
         renderBuckets(buckets);
         elements.visibleCount.textContent = String(filtered.length);
@@ -2530,6 +2579,29 @@
         state.data = await response.json();
         syncDataToUi();
         render();
+      }
+
+      async function loadStaticDataIfChanged() {
+        const response = await fetch(STATIC_DATA_URL, { cache: "no-store" });
+        if (!response.ok) return false;
+        const payload = await response.json();
+        if (!payload || payload.generatedAt === state.data.generatedAt) return false;
+
+        state.data = payload;
+        state.historyData = null;
+        syncDataToUi();
+        render();
+        setRefreshStatus(`Auto-updated ${formatGenerated(state.data.generatedAt)}`);
+        return true;
+      }
+
+      function startAutoRefreshPolling() {
+        if (window.location.protocol === "file:" || state.autoRefreshTimer) return;
+        state.autoRefreshTimer = window.setInterval(() => {
+          loadStaticDataIfChanged().catch(() => {
+            // Keep the dashboard usable if GitHub Pages is between deploys.
+          });
+        }, AUTO_REFRESH_INTERVAL_MS);
       }
 
       async function refreshFeeds() {
@@ -2903,8 +2975,9 @@
             await loadApiData();
             setRefreshStatus("Ready");
           } catch {
-            setRefreshStatus("Auto-refreshed every 30 min via GitHub Actions");
+            setRefreshStatus("Auto-refreshed every 2 hours via GitHub Actions");
           }
+          startAutoRefreshPolling();
         } else {
           setRefreshStatus("File mode: refresh button needs local_server.py");
         }
