@@ -1,7 +1,7 @@
 {
   "sources": {
     "ilt-news": {
-      "pageHash": "0ed3f441863b4606a310830ffcff9c55632c7df4",
+      "pageHash": "1f5c8d3c2b95fe03b0e90eac51aef975c1fd5e5f",
       "seenUrls": {}
     },
     "made-in": {
@@ -27,6 +27,7 @@
         "https://www.made-in.be/kempen/nieuwe-faillissementen-in-de-kempense-bouw-en-horeca": "2026-04-29T13:18:59.192903Z",
         "https://www.made-in.be/kempen/nieuwe-ondernemingsraad-bij-nike-in-laakdal-na-stilgelegde-onderhandelingen": "2026-04-28T21:54:55.572876Z",
         "https://www.made-in.be/kempen/van-huisartsenpraktijk-tot-bouwfirma-net-geen-20-starters-in-de-kempen": "2026-04-28T12:45:40.782992Z",
+        "https://www.made-in.be/kempen/we-willen-wetenschap-tastbaar-maken-ku-leuven-en-magics-technologies-lanceren-missie-stem-in-basisschool-klim-op-in-mol": "2026-04-29T17:15:05.506455Z",
         "https://www.made-in.be/lezersonderzoek": "2026-04-28T12:45:40.782992Z",
         "https://www.made-in.be/limburg/17-ondernemers-halen-als-eerste-nlp-diploma-binnen": "2026-04-29T11:24:20.904800Z",
         "https://www.made-in.be/limburg/autoglass-opent-atelier-gaatje-stoppen-tijdens-t-shoppen": "2026-04-28T12:45:40.782992Z",
@@ -38,10 +39,12 @@
         "https://www.made-in.be/limburg/interieurbouwer-vloerder-opslagruimte-en-meer-faillissementen": "2026-04-28T12:45:40.782992Z",
         "https://www.made-in.be/limburg/nieuwe-groep-bundelt-6-horecazaken-in-hasselt": "2026-04-28T17:11:11.481493Z",
         "https://www.made-in.be/limburg/twee-familiebedrijven-richten-nieuwe-transporteur-op": "2026-04-28T12:45:40.782992Z",
+        "https://www.made-in.be/limburg/wellness-en-resto-worden-hoogste-punt-van-hasselt": "2026-04-29T17:15:05.506455Z",
         "https://www.made-in.be/limburg/wonka-wil-naar-100-man-na-comeback-op-de-campus": "2026-04-29T06:47:31.503270Z",
         "https://www.made-in.be/mechelen/het-zonnehuis-zoekt-bedrijven-die-mee-willen-werken-aan-circulaire-speelplaats": "2026-04-29T11:24:20.904800Z",
         "https://www.made-in.be/mechelen/io-ondersteunt-technopolis-bij-het-versterken-van-digitale-marketing": "2026-04-28T12:45:40.782992Z",
         "https://www.made-in.be/mechelen/mechelse-cuberverzekeringsspecialist-stoik-betreedt-nederlandse-markt": "2026-04-29T15:51:28.651886Z",
+        "https://www.made-in.be/mechelen/nijlense-ondernemer-pieter-lanceert-smash-uniek-burgerconcept-met-lokaal-bizonvlees": "2026-04-29T17:15:05.506455Z",
         "https://www.made-in.be/mechelen/oosterlinck-home-viert-65ste-verjaardag-onze-menselijke-aanpak-vormt-al-drie-generaties-de-rode-draad": "2026-04-29T06:47:31.503270Z",
         "https://www.made-in.be/mechelen/telenet-past-aanbod-aan-populair-one-pakket-wordt-niet-meer-verkocht-goedkoopste-internet-meteen-20-euro-duurder": "2026-04-29T06:47:31.503270Z",
         "https://www.made-in.be/mechelen/test-met-statiegeld-op-champignonbakjes-in-mechelse-winkels": "2026-04-28T13:59:05.537487Z",
@@ -79,6 +82,7 @@
         "https://www.made-in.be/vlaams-brabant/galia-32-opent-eigen-bordspelcafe-er-schuilt-een-nerd-in-iedereen": "2026-04-29T11:24:20.904800Z",
         "https://www.made-in.be/vlaams-brabant/leuvens-familiebedrijf-thiry-paints-bespaart-meer-dan-duizend-kilo-co2-met-inzameling-van-leeggeschraapte-verfemmers": "2026-04-29T15:51:28.651886Z",
         "https://www.made-in.be/vlaams-brabant/leuvens-farmabedrijf-haalt-125-miljoen-dollar-op-voor-immunotherapieen": "2026-04-29T13:18:59.192903Z",
+        "https://www.made-in.be/vlaams-brabant/nieuwe-broodjeszaak-il-pranzo-brengt-italiaanse-zon-naar-wemmel-beste-wat-italiaanse-keuken-te-bieden-heeft": "2026-04-29T17:15:05.506455Z",
         "https://www.made-in.be/vlaams-brabant/podcast-hanne-luyten-oprichtster-het-hanneke-nest-authenticiteit-is-je-grootste-ondernemerskracht": "2026-04-29T06:47:31.503270Z",
         "https://www.made-in.be/vlaams-brabant/podcast-nadia-el-makhfi-podcasting-als-strategisch-instrument-voor-ondernemers": "2026-04-29T06:47:31.503270Z",
         "https://www.made-in.be/vlaams-brabant/podcast-stan-de-pauw-ceo-dexxter-creativiteit-wordt-de-belangrijkste-skill-in-een-ai-tijdperk": "2026-04-29T06:47:31.503270Z",
@@ -94,7 +98,8 @@
         "https://www.made-in.be/west-vlaanderen/quote-van-de-week-geert-noels-over-belgische-economie": "2026-04-28T12:45:40.782992Z",
         "https://www.made-in.be/west-vlaanderen/torhoutse-crealingua-maakt-studie-sector-van-de-beedigde-vertalers-bespaarde-al-106-miljoen-euro-sinds-de-invoering-van-gekwalificeerde-elektronische-handtekening": "2026-04-29T09:56:00.616177Z",
         "https://www.made-in.be/west-vlaanderen/transportgigant-vervaeke-begeeft-zich-diep-op-franse-wegen": "2026-04-29T11:24:20.904800Z",
-        "https://www.made-in.be/west-vlaanderen/unizo-roept-langemarkse-bakkerij-uit-tot-de-winkel-van-alhier": "2026-04-29T09:56:00.616177Z"
+        "https://www.made-in.be/west-vlaanderen/unizo-roept-langemarkse-bakkerij-uit-tot-de-winkel-van-alhier": "2026-04-29T09:56:00.616177Z",
+        "https://www.made-in.be/west-vlaanderen/west-vlaanderen-faillissementen-overzicht": "2026-04-29T17:15:05.506455Z"
       }
     },
     "north-sea-port-news": {
@@ -128,6 +133,7 @@
         "https://www.omroepzeeland.nl/nieuws/18396462/arsenaalgebied-verloedert-lpv-ondernemers-gijzelen-vlissingen": "2026-04-28T19:06:09.648241Z",
         "https://www.omroepzeeland.nl/nieuws/18402465/geschiedenis-komt-tot-leven-door-je-oortjes-in-deze-kerk-het-is-echt-een-belevenis": "2026-04-29T06:47:31.503270Z",
         "https://www.omroepzeeland.nl/nieuws/18402465/grote-kerk-in-veere-krijgt-audiotour-geschiedenis-nu-te-horen-en-zien": "2026-04-28T19:06:09.648241Z",
+        "https://www.omroepzeeland.nl/nieuws/18406605/michiel-de-ruyter-herdacht-met-grote-plaquette-op-italiaans-eiland": "2026-04-29T17:15:05.506455Z",
         "https://www.omroepzeeland.nl/nieuws/18407880/alle-zeeuwse-bedrijven-merken-vroeg-of-laat-de-gevolgen-van-de-iranoorlog": "2026-04-28T19:06:09.648241Z",
         "https://www.omroepzeeland.nl/nieuws/18410214/zitten-deze-dieren-veel-in-jouw-tuin-dan-heb-je-het-goed-voor-elkaar": "2026-04-28T12:45:40.782992Z",
         "https://www.omroepzeeland.nl/nieuws/18410307/kloetinge-heeft-titel-binnen-handbereik-na-zege-op-zwaluwen-en-uitglijders-concurrentie": "2026-04-28T12:45:40.782992Z",
@@ -168,6 +174,7 @@
         "https://www.omroepzeeland.nl/nieuws/18418758/rolstoelbasketballers-uit-middelburg-vechten-voor-laatste-kans-het-gaat-een-lastig-verhaal-worden": "2026-04-29T15:51:28.651886Z",
         "https://www.omroepzeeland.nl/nieuws/18419484/delen-van-geblurde-beelden-mishandeling-goes-leidt-tot-herkenning": "2026-04-29T11:24:20.904800Z",
         "https://www.omroepzeeland.nl/nieuws/18419904/arsenaalgebied-niet-een-en-al-verpaupering-een-aantal-ondernemers-strijdt-dapper-verder": "2026-04-29T15:51:28.651886Z",
+        "https://www.omroepzeeland.nl/nieuws/18420039/door-heel-zeeland-luidden-de-kerkklokken-voor-asielkinderen-dit-is-onmenselijk": "2026-04-29T17:15:05.506455Z",
         "https://www.omroepzeeland.nl/nieuws/schouwen-duiveland": "2026-04-28T12:45:40.782992Z",
         "https://www.omroepzeeland.nl/nieuws/zeeuws-vlaanderen": "2026-04-28T12:45:40.782992Z"
       }
@@ -192,7 +199,7 @@
       }
     },
     "rotterdammerdagblad-regionaal": {
-      "pageHash": "470213b414b7c78d8d8709349449a4e45d8b934d",
+      "pageHash": "81a4cec3e095d7a0c7be2624bf49955853d51a83",
       "seenUrls": {
         "https://www.rotterdammerdagblad.nl/112/eenheid-rotterdam-publiceert-jaarverslag-2025-en-jaarplan-2026": "2026-04-28T12:45:40.782992Z",
         "https://www.rotterdammerdagblad.nl/112/politie-grijpt-in-na-melding-over-jongens-met-vuurwapens": "2026-04-29T11:24:20.904800Z",
