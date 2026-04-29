@@ -478,6 +478,27 @@
         "incidents",
         "local-news"
       ],
+      "article_include_patterns": [
+        "\\bhaven\\b",
+        "\\bport\\b",
+        "\\bmaritiem",
+        "\\bscheep",
+        "\\bvaart\\b",
+        "\\bvessel\\b",
+        "\\btug\\b",
+        "\\btowage\\b",
+        "\\bsalvage\\b",
+        "\\blogistiek",
+        "\\btransport\\b",
+        "\\bterminal\\b",
+        "\\bkade\\b",
+        "\\bsluis\\b",
+        "\\bkanaal\\b",
+        "\\bwesterschelde\\b",
+        "\\bterneuzen\\b",
+        "\\bvlissingen\\b",
+        "\\bnorth sea port\\b"
+      ],
       "audience_bias": {
         "Multraship": 3
       }
@@ -489,6 +510,33 @@
       "default_tags": [
         "zeeland",
         "local-news"
+      ],
+      "article_include_patterns": [
+        "\\bhaven\\b",
+        "\\bport\\b",
+        "\\bmaritiem",
+        "\\bscheep",
+        "\\bvaart\\b",
+        "\\bvessel\\b",
+        "\\btug\\b",
+        "\\btowage\\b",
+        "\\bsalvage\\b",
+        "\\blogistiek",
+        "\\btransport\\b",
+        "\\bterminal\\b",
+        "\\bkade\\b",
+        "\\bsluis\\b",
+        "\\bkanaal\\b",
+        "\\bwesterschelde\\b",
+        "\\bterneuzen\\b",
+        "\\bvlissingen\\b",
+        "\\bnorth sea port\\b",
+        "\\bverbrugge\\b",
+        "\\bovet\\b",
+        "\\bdfds\\b",
+        "\\bdow\\b",
+        "\\barcelormittal\\b",
+        "\\bzeeland refinery\\b"
       ],
       "audience_bias": {
         "Multraship": 2
@@ -502,6 +550,29 @@
         "rijnmond",
         "rotterdam",
         "local-news"
+      ],
+      "article_include_patterns": [
+        "\\bhaven\\b",
+        "\\bport\\b",
+        "\\bmaritiem",
+        "\\bscheep",
+        "\\bvaart\\b",
+        "\\bvessel\\b",
+        "\\btug\\b",
+        "\\btowage\\b",
+        "\\bsalvage\\b",
+        "\\blogistiek",
+        "\\btransport\\b",
+        "\\bterminal\\b",
+        "\\bkade\\b",
+        "\\bsluis\\b",
+        "\\bmaasvlakte\\b",
+        "\\beuropoort\\b",
+        "\\bbotlek\\b",
+        "\\bport of rotterdam\\b",
+        "\\bdfds\\b",
+        "\\bwilhelmsen\\b",
+        "\\binchcape\\b"
       ],
       "audience_bias": {
         "Multraship": 2
@@ -544,6 +615,34 @@
         "vacature",
         "jobs",
         "nieuwsbrief"
+      ],
+      "article_include_patterns": [
+        "\\bhaven\\b",
+        "\\bport\\b",
+        "\\bmaritiem",
+        "\\bscheep",
+        "\\bvaart\\b",
+        "\\bvessel\\b",
+        "\\btug\\b",
+        "\\btowage\\b",
+        "\\bsalvage\\b",
+        "\\blogistiek",
+        "\\btransport\\b",
+        "\\bterminal\\b",
+        "\\boffshore\\b",
+        "\\bwind\\b",
+        "\\bindustrie\\b",
+        "\\bterneuzen\\b",
+        "\\bvlissingen\\b",
+        "\\bgent\\b",
+        "\\bantwerpen\\b",
+        "\\bnorth sea port\\b",
+        "\\bverbrugge\\b",
+        "\\bovet\\b",
+        "\\bdfds\\b",
+        "\\bdow\\b",
+        "\\barcelormittal\\b",
+        "\\bzeeland refinery\\b"
       ],
       "default_tags": [
         "business",
@@ -661,6 +760,27 @@
         "podcast",
         "vacature"
       ],
+      "article_include_patterns": [
+        "\\bhaven\\b",
+        "\\bport\\b",
+        "\\bmaritiem",
+        "\\bscheep",
+        "\\bvaart\\b",
+        "\\bvessel\\b",
+        "\\btug\\b",
+        "\\btowage\\b",
+        "\\bsalvage\\b",
+        "\\blogistiek",
+        "\\btransport\\b",
+        "\\bterminal\\b",
+        "\\bkade\\b",
+        "\\bsluis\\b",
+        "\\bkanaal\\b",
+        "\\bwesterschelde\\b",
+        "\\bterneuzen\\b",
+        "\\bvlissingen\\b",
+        "\\bnorth sea port\\b"
+      ],
       "default_tags": [
         "zeeland",
         "local-news"
@@ -682,6 +802,26 @@
         "vacatures",
         "uitgaan",
         "sport"
+      ],
+      "article_include_patterns": [
+        "\\bhaven\\b",
+        "\\bport\\b",
+        "\\bmaritiem",
+        "\\bscheep",
+        "\\bvaart\\b",
+        "\\bvessel\\b",
+        "\\btug\\b",
+        "\\btowage\\b",
+        "\\bsalvage\\b",
+        "\\blogistiek",
+        "\\btransport\\b",
+        "\\bterminal\\b",
+        "\\bkade\\b",
+        "\\bsluis\\b",
+        "\\bmaasvlakte\\b",
+        "\\beuropoort\\b",
+        "\\bbotlek\\b",
+        "\\bport of rotterdam\\b"
       ],
       "default_tags": [
         "rotterdam",
@@ -2763,7 +2903,7 @@
         "keywords": [
           "contract",
           "tender",
-          "award",
+          "contract award",
           "project",
           "investment",
           "partnership",
