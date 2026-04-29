@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-04-29T19:06:06.668484Z",
+  "generatedAt": "2026-04-29T20:50:28.920368Z",
   "lookbackDays": 30,
-  "cutoffAt": "2026-03-30T19:06:06.668484Z",
+  "cutoffAt": "2026-03-30T20:50:28.920368Z",
   "articleCount": 180,
   "sourceCount": 118,
   "sources": [
@@ -23,7 +23,6 @@
     "MarineLink",
     "Muller Dordrecht Web Watch",
     "North Sea Port News",
-    "Offshore Energy",
     "Oldendorff Carriers News",
     "Port of Antwerp-Bruges Press",
     "Rigzone",
@@ -54,7 +53,6 @@
     "Dredging",
     "Electrification",
     "Energy",
-    "Energy-Transition",
     "Ferry",
     "Government",
     "Heavy-Lift",
@@ -97,7 +95,12 @@
     "Scheldt",
     "Vlissingen"
   ],
-  "errors": [],
+  "errors": [
+    {
+      "source": "Offshore Energy",
+      "message": "HTTP Error 403: Forbidden"
+    }
+  ],
   "articles": [
     {
       "id": "e8894ead6df2ef6a",
@@ -285,6 +288,42 @@
       "priorityReasons": [
         "Authority & Class mention: International Maritime Organization",
         "Signal: Incident",
+        "Signal: Regulation"
+      ],
+      "boardBucket": "High Priority"
+    },
+    {
+      "id": "81bd80da4ab14bc5",
+      "title": "At MEPC, Oman Proposes Ship Strike Study to Protect Whales in Arabian Sea",
+      "source": "The Maritime Executive",
+      "sourceId": "maritime-executive",
+      "url": "https://maritime-executive.com/article/at-mepc-oman-proposes-speed-risk-study-to-protect-whales-in-arabian-sea",
+      "publishedAt": "2026-04-29T19:44:00Z",
+      "excerpt": "Tucked as Agenda Item 12 into the agenda of the 84th Session of the IMO\u2019s Marine Environmental Protection Committee is a proposal tabled by Oman to c...",
+      "tags": [
+        "Regulation",
+        "Maritime",
+        "News"
+      ],
+      "audience": "Both",
+      "paywalled": false,
+      "entities": [
+        {
+          "name": "International Maritime Organization",
+          "category": "authorities"
+        }
+      ],
+      "locations": [],
+      "businessTags": [
+        "Authority & Class",
+        "Disruption",
+        "Regulation"
+      ],
+      "priorityScore": 11,
+      "priorityBand": "high",
+      "priorityReasons": [
+        "Authority & Class mention: International Maritime Organization",
+        "Signal: Disruption",
         "Signal: Regulation"
       ],
       "boardBucket": "High Priority"
@@ -663,39 +702,37 @@
       "boardBucket": "High Priority"
     },
     {
-      "id": "64a538d9abda320a",
-      "title": "News Content Hub - Boluda deploys hybrid propulsion on tug newbuilds - rivieramm.com",
-      "source": "Boluda News",
-      "sourceId": "google-boluda",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNVW5TZktGNDlfcWtxOVYxaUR0OFFzdm95OHE2MDBSbnVmVEo4N1dXQ2l3bHdER0ZEUmdSTC1FU0dfZzZPTEZSN2ZVam1ESTcycVJJaUVsbG13b1otd1Btb3ZTSm16ZDRZcTZmaVNYaFFKNnRyOUdrNkpkdkU5bzJmMzhQRVdReDM1ZW10ekhodmdRN09NRDhqZDQzdWpUUGNuZ2NKVlQ5WlB4N21Ka0xxcnA3TU5XQQ?oc=5",
-      "publishedAt": "2026-04-29T13:12:13Z",
-      "excerpt": "News Content Hub - Boluda deploys hybrid propulsion on tug newbuilds rivieramm.com",
+      "id": "c774d5e1cedb304e",
+      "title": "Equinor, BW Offshore sign FEED contract for Canada Bay du Nord project",
+      "source": "Baird Maritime",
+      "sourceId": "baird-maritime",
+      "url": "https://www.bairdmaritime.com/offshore/vessels-rigs/fposfpsos/equinor-bw-offshore-sign-feed-contract-for-canada-bay-du-nord-project",
+      "publishedAt": "2026-04-29T20:06:33Z",
+      "excerpt": "BW Offshore has signed a front-end engineering and design (FEED) agreement with Equinor for the Bay du Nord development offshore Newfoundland and Labrador, Canada. This contract formalises the next phase of the project following the select\u2026",
       "tags": [
-        "Towage",
-        "Electrification",
-        "Clean Propulsion",
-        "Competitor"
+        "Workboats",
+        "Technology"
       ],
       "audience": "Multraship",
       "paywalled": false,
       "entities": [
         {
-          "name": "Boluda",
-          "category": "competitors"
+          "name": "Equinor",
+          "category": "clients"
         }
       ],
       "locations": [],
       "businessTags": [
-        "Competitor",
-        "Energy Transition"
+        "Client",
+        "Commercial"
       ],
       "priorityScore": 8,
       "priorityBand": "medium",
       "priorityReasons": [
-        "Competitor mention: Boluda",
-        "Signal: Energy Transition"
+        "Client mention: Equinor",
+        "Signal: Commercial"
       ],
-      "boardBucket": "Competitors & Market"
+      "boardBucket": "Clients & Projects"
     },
     {
       "id": "722ed3b1975ec566",
@@ -993,6 +1030,38 @@
       "boardBucket": "Regulation, Safety & Incidents"
     },
     {
+      "id": "669c13b4e53c9e10",
+      "title": "Sarens\u2019 ACBT role highlights Canada\u2019s offshore wind potential - Heavy Lift & Project Forwarding International",
+      "source": "Sarens News",
+      "sourceId": "google-sarens",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPQXkzblFpaVJIOW9ERVZLTXZkLTc1Sy1jcjBRTzhRVzdENElFVHdId3JvbEJFZm9XVUV5X0V1ZTRGbFkwYUNXalpkaEk5SlJ5MUswaWJ3ZVlvQlRqNlRwWFFpeWtVUV93SWlETkpSc1BBZWlZcGhQbHN1bm95YVZ1aXJqaFlORTZ1Z2tPdTlERkYxb0dzYmZaU0RCU1g3SGFIZVVwUUJuLTYzaDA2Qmc?oc=5",
+      "publishedAt": "2026-04-23T10:32:59Z",
+      "excerpt": "Sarens\u2019 ACBT role highlights Canada\u2019s offshore wind potential Heavy Lift & Project Forwarding International",
+      "tags": [
+        "Heavy-Lift"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [
+        {
+          "name": "Sarens",
+          "category": "clients"
+        }
+      ],
+      "locations": [],
+      "businessTags": [
+        "Client",
+        "Commercial"
+      ],
+      "priorityScore": 8,
+      "priorityBand": "medium",
+      "priorityReasons": [
+        "Client mention: Sarens",
+        "Signal: Commercial"
+      ],
+      "boardBucket": "Clients & Projects"
+    },
+    {
       "id": "7287d0d2b602edcf",
       "title": "Drax extends Ultrabulk wood pellet shipping contract through 2031 - lesprom.com",
       "source": "Ultrabulk News",
@@ -1022,6 +1091,40 @@
       "priorityReasons": [
         "Client mention: Ultrabulk",
         "Signal: Commercial"
+      ],
+      "boardBucket": "Clients & Projects"
+    },
+    {
+      "id": "2c11536ce44a41a2",
+      "title": "VESSEL REVIEW | Braveheart \u2013 Cargo barge to support Allseas' heavy lift operations in North Sea",
+      "source": "Baird Maritime",
+      "sourceId": "baird-maritime",
+      "url": "https://www.bairdmaritime.com/work-boat-world/other-workboats/vessel-review-braveheart-cargo-barge-to-support-allseas-heavy-lifting-operations-in-north-sea",
+      "publishedAt": "2026-04-21T08:56:00Z",
+      "excerpt": "Chinese shipbuilder CIMC Raffles has handed over a new non-self-propelled deck cargo barge to Swiss/Dutch offshore engineering company Allseas. Braveheart was fabricated, outfitted, and commissioned in 18 months and was delivered to Allsea\u2026",
+      "tags": [
+        "Operations",
+        "Workboats",
+        "Technology"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [
+        {
+          "name": "Allseas",
+          "category": "clients"
+        }
+      ],
+      "locations": [],
+      "businessTags": [
+        "Client",
+        "Operations"
+      ],
+      "priorityScore": 8,
+      "priorityBand": "medium",
+      "priorityReasons": [
+        "Client mention: Allseas",
+        "Signal: Operations"
       ],
       "boardBucket": "Clients & Projects"
     },
@@ -1152,6 +1255,34 @@
       "priorityReasons": [
         "Signal: Disruption",
         "Signal: Infrastructure"
+      ],
+      "boardBucket": "Regulation, Safety & Incidents"
+    },
+    {
+      "id": "d0ce649f150c1b80",
+      "title": "AD Ports and AZCON to explore Azerbaijan maritime investment prospects",
+      "source": "Baird Maritime",
+      "sourceId": "baird-maritime",
+      "url": "https://www.bairdmaritime.com/shipping/ports/ad-ports-and-azcon-to-explore-azerbaijan-maritime-investment-prospects",
+      "publishedAt": "2026-04-29T19:34:00Z",
+      "excerpt": "AD Ports Group and AZCON Holding signed a memorandum of understanding on April 29 to investigate investment opportunities in Azerbaijan's transport and logistics infrastructure. This agreement covers maritime, shipping, and digital trade s\u2026",
+      "tags": [
+        "Workboats",
+        "Technology"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [
+        "Infrastructure",
+        "Commercial"
+      ],
+      "priorityScore": 7,
+      "priorityBand": "medium",
+      "priorityReasons": [
+        "Signal: Infrastructure",
+        "Signal: Commercial"
       ],
       "boardBucket": "Regulation, Safety & Incidents"
     },
@@ -1937,39 +2068,6 @@
         "Signal: Incident"
       ],
       "boardBucket": "Regulation, Safety & Incidents"
-    },
-    {
-      "id": "adf6ac586ceaf114",
-      "title": "FPSO FEED award to BW Offshore turning the key on Canada\u2019s $12-billion oil project",
-      "source": "Offshore Energy",
-      "sourceId": "offshore-energy",
-      "url": "https://www.offshore-energy.biz/fpso-feed-award-to-bw-offshore-turning-the-key-on-canadas-12-billion-oil-project",
-      "publishedAt": "2026-04-29T15:41:37Z",
-      "excerpt": "With a front-end engineering and design (FEED) deal to Oslo-headquartered BW Offshore for a floating production, storage, and offloading (FPSO) unit, Norway\u2019s state-owned energy giant Equinor is continuing to lay the groundwork for the dev\u2026",
-      "tags": [
-        "Energy-Transition",
-        "Technology"
-      ],
-      "audience": "Novatug",
-      "paywalled": false,
-      "entities": [
-        {
-          "name": "Equinor",
-          "category": "clients"
-        }
-      ],
-      "locations": [],
-      "businessTags": [
-        "Client",
-        "Commercial"
-      ],
-      "priorityScore": 6,
-      "priorityBand": "medium",
-      "priorityReasons": [
-        "Client mention: Equinor",
-        "Signal: Commercial"
-      ],
-      "boardBucket": "Clients & Projects"
     },
     {
       "id": "24495089b3f7d09f",
@@ -2776,34 +2874,6 @@
       "boardBucket": "Regulation, Safety & Incidents"
     },
     {
-      "id": "9f3faff4f7c52a90",
-      "title": "AWARDS 2025 | Best Fifi Boat \u2013 Sea Osprey I & II \u2013 Dundee Marine and Industrial Services",
-      "source": "Baird Maritime",
-      "sourceId": "baird-maritime",
-      "url": "https://www.bairdmaritime.com/security/emergency-services/firefighting/awards-2025-best-fifi-boat-sea-osprey-i-ii-dundee-marine-and-industrial-services",
-      "publishedAt": "2026-04-28T08:58:00Z",
-      "excerpt": "These two high-speed firefighting and rescue boats were built locally by Dundee Marine and Industrial Services for operation around Singapore\u2019s Changi Airport by its Airport Emergency Service (AES) division. Their rapid response capability\u2026",
-      "tags": [
-        "Salvage",
-        "Incidents",
-        "Workboats",
-        "Technology"
-      ],
-      "audience": "Multraship",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [
-        "Incident"
-      ],
-      "priorityScore": 6,
-      "priorityBand": "medium",
-      "priorityReasons": [
-        "Signal: Incident"
-      ],
-      "boardBucket": "Regulation, Safety & Incidents"
-    },
-    {
       "id": "ce5876ce85483ff5",
       "title": "Kongsberg Maritime wins French Navy contract - Maritime Journal",
       "source": "Kongsberg Maritime News",
@@ -3490,12 +3560,12 @@
     },
     {
       "id": "8a0a2bacaca7053a",
-      "title": "Kongsberg Maritime secures record waterjet contract for Indian Navy missile vessels under NGMV programme - Defence Industry Europe",
+      "title": "Kongsberg Maritime secures record waterjet contract for Indian Navy missile vessels under NGMV programme - defence-industry.eu",
       "source": "Kongsberg Maritime News",
       "sourceId": "google-kongsberg",
       "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQU25RblZGUUdQZU1sQW1HOXl6WGJDYTRHSUJFanB0Rjg5ZXhxMWxoQk84UUFxWVVWMUtJUDNBWnYycWdqaWcxLTBSTVV3QmhLT2pCc0xOVVFhcjlrTzI5U1lIY2dLWFVIZWNTSVZCVG1tOWo2YjBuUzJ5Z2pfamZWMGdWcUVJR0U?oc=5",
       "publishedAt": "2026-04-08T18:43:43Z",
-      "excerpt": "Kongsberg Maritime secures record waterjet contract for Indian Navy missile vessels under NGMV programme Defence Industry Europe",
+      "excerpt": "Kongsberg Maritime secures record waterjet contract for Indian Navy missile vessels under NGMV programme defence-industry.eu",
       "tags": [
         "Technology",
         "Supplier"
@@ -3748,6 +3818,37 @@
       "boardBucket": "Clients & Projects"
     },
     {
+      "id": "be984fc284c2c01b",
+      "title": "DEME announces start of new share buyback program - GlobeNewswire",
+      "source": "DEME Group News",
+      "sourceId": "google-deme",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPNVNsUG9Lb1ZSTDRKNGo3dlZfX2pJY0cxd3c5eGd6cFRMOVdNOVRYSkw2RVZ3T291Wm9yRzMwN2pHMjFlSEc0Nmo4Y2RHVkJYWEVkSW9EWHNFUWZfcDIyUExadmtUVEs2Ni1UelBoWTJlUmxrcm5WWFF6eE9HXzhPRTVjdzRnbUJEZ2w3SDFZeUNnVXZLRWJrMWFyMFlVVk1mYkltU09VRHVrdVNHZDdteklYNUJRRWhxMmhGMTZ3?oc=5",
+      "publishedAt": "2026-03-31T07:00:00Z",
+      "excerpt": "DEME announces start of new share buyback program GlobeNewswire",
+      "tags": [
+        "Offshore",
+        "Marine-Construction"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [
+        {
+          "name": "DEME Group",
+          "category": "clients"
+        }
+      ],
+      "locations": [],
+      "businessTags": [
+        "Client"
+      ],
+      "priorityScore": 6,
+      "priorityBand": "medium",
+      "priorityReasons": [
+        "Client mention: DEME Group"
+      ],
+      "boardBucket": "Clients & Projects"
+    },
+    {
       "id": "dea1ab6a95fd740d",
       "title": "DFDS expands capacity on Rosslare-Dunkirk route with third vessel - Shippax",
       "source": "DFDS News",
@@ -3810,12 +3911,12 @@
       "boardBucket": "Clients & Projects"
     },
     {
-      "id": "907af240affe1cb4",
+      "id": "9706c56e141a49ad",
       "title": "ILT News page updated",
       "source": "ILT News",
       "sourceId": "ilt-news",
-      "url": "https://english.ilent.nl/latest/news?dashboardChange=2d2c8193c84d",
-      "publishedAt": "2026-04-29T19:06:06.668484Z",
+      "url": "https://english.ilent.nl/latest/news?dashboardChange=7f6ee694f00e",
+      "publishedAt": "2026-04-29T20:50:28.920368Z",
       "excerpt": "Tracked page content changed.",
       "tags": [
         "Regulation",
@@ -3935,34 +4036,6 @@
       "boardBucket": "Clients & Projects"
     },
     {
-      "id": "a0cc04d8917157af",
-      "title": "Up to $9B nearshore project on Arctic\u2019s horizon with Polar LNG unleashing Alaska\u2019s gas",
-      "source": "Offshore Energy",
-      "sourceId": "offshore-energy",
-      "url": "https://www.offshore-energy.biz/up-to-9b-nearshore-project-on-arctics-horizon-with-polar-lng-unleashing-alaskas-gas",
-      "publishedAt": "2026-04-29T13:41:53Z",
-      "excerpt": "Against the backdrop of the Middle East crisis, which led to regional energy infrastructure attacks and global supply shocks, Polar LNG (Polar Train LNG), a U.S. Arctic energy infrastructure company, has set its cap on advancing a nearshor\u2026",
-      "tags": [
-        "Energy-Transition",
-        "Technology"
-      ],
-      "audience": "Novatug",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [
-        "Infrastructure",
-        "Commercial"
-      ],
-      "priorityScore": 5,
-      "priorityBand": "medium",
-      "priorityReasons": [
-        "Signal: Infrastructure",
-        "Signal: Commercial"
-      ],
-      "boardBucket": "Regulation, Safety & Incidents"
-    },
-    {
       "id": "b5ef6ebb0e6b336c",
       "title": "Shell-topman: brandstoftekorten door Iran-oorlog houden nog maanden aan",
       "source": "Logistiek.nl: News",
@@ -3992,90 +4065,6 @@
         "Supplier mention: Shell Nederland"
       ],
       "boardBucket": "Other Relevant"
-    },
-    {
-      "id": "e3738a14a53df1e3",
-      "title": "Woodside firing on all cylinders to advance Australian gas project, Mexican oil development, and US LNG terminal",
-      "source": "Offshore Energy",
-      "sourceId": "offshore-energy",
-      "url": "https://www.offshore-energy.biz/woodside-firing-on-all-cylinders-to-advance-australian-gas-project-mexican-oil-development-and-us-lng-terminal",
-      "publishedAt": "2026-04-29T11:26:18Z",
-      "excerpt": "Australia\u2019s energy giant Woodside is pulling out all the stops to keep the energy development wheels turning at its projects located across multiple regions. As a result, the firm has been moving the needle to progress the construction of\u2026",
-      "tags": [
-        "Energy-Transition",
-        "Technology"
-      ],
-      "audience": "Novatug",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [
-        "Infrastructure",
-        "Commercial"
-      ],
-      "priorityScore": 5,
-      "priorityBand": "medium",
-      "priorityReasons": [
-        "Signal: Infrastructure",
-        "Signal: Commercial"
-      ],
-      "boardBucket": "Regulation, Safety & Incidents"
-    },
-    {
-      "id": "7cfc4c685a557e1a",
-      "title": "Fugro wins geotechnical site investigation work on CIP\u2019s new offshore wind project in Taiwan",
-      "source": "Offshore Energy",
-      "sourceId": "offshore-energy",
-      "url": "https://www.offshore-energy.biz/fugro-wins-geotechnical-site-investigation-work-on-cips-new-offshore-wind-project-in-taiwan",
-      "publishedAt": "2026-04-29T10:20:18Z",
-      "excerpt": "Copenhagen Infrastructure Partners (CIP) has awarded Fugro a geotechnical site investigation contract for the [\u2026] The post Fugro wins geotechnical site investigation work on CIP\u2019s new offshore wind project in Taiwan appeared first on Offsh\u2026",
-      "tags": [
-        "Energy-Transition",
-        "Technology"
-      ],
-      "audience": "Novatug",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [
-        "Infrastructure",
-        "Commercial"
-      ],
-      "priorityScore": 5,
-      "priorityBand": "medium",
-      "priorityReasons": [
-        "Signal: Infrastructure",
-        "Signal: Commercial"
-      ],
-      "boardBucket": "Regulation, Safety & Incidents"
-    },
-    {
-      "id": "99f3d9d37093e5dd",
-      "title": "EPC contractor hand-picked for Southeast Asian LNG cold energy utilization project",
-      "source": "Offshore Energy",
-      "sourceId": "offshore-energy",
-      "url": "https://www.offshore-energy.biz/epc-contractor-hand-picked-for-southeast-asian-lng-cold-energy-utilization-project",
-      "publishedAt": "2026-04-29T09:58:45Z",
-      "excerpt": "CTCI Thailand, a CTCI Group company with a track record in petrochemical and liquefied natural gas (LNG) terminal projects, has been hired to handle the engineering, procurement, and construction (EPC) scope of work at an LNG cold energy u\u2026",
-      "tags": [
-        "Energy-Transition",
-        "Technology"
-      ],
-      "audience": "Novatug",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [
-        "Infrastructure",
-        "Commercial"
-      ],
-      "priorityScore": 5,
-      "priorityBand": "medium",
-      "priorityReasons": [
-        "Signal: Infrastructure",
-        "Signal: Commercial"
-      ],
-      "boardBucket": "Regulation, Safety & Incidents"
     },
     {
       "id": "d5426034c1012a12",
@@ -4369,37 +4358,6 @@
       "boardBucket": "Regulation, Safety & Incidents"
     },
     {
-      "id": "f83a0ea702f00d6c",
-      "title": "Damen and Windcat launch Windcat Amsterdam - Ships Monthly",
-      "source": "Damen Shipyards News",
-      "sourceId": "google-damen",
-      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBVYXBNSmFjVG5UcC16QVl2akpNWVZmRmhkaGg2WUhVMkU1V2g0WWp5VE02MDhSNnZpZndZdGxoM3o3dGxFME5mWGZFTnY1dHFWVHRVeEF3c1NjWXVIXzdXakZldC1FMkdRVGxlVnJFUHFFWVl0V1VZUmtfU2VTZw?oc=5",
-      "publishedAt": "2026-04-23T08:16:08Z",
-      "excerpt": "Damen and Windcat launch Windcat Amsterdam Ships Monthly",
-      "tags": [
-        "Shipbuilding",
-        "Supplier"
-      ],
-      "audience": "Multraship",
-      "paywalled": false,
-      "entities": [
-        {
-          "name": "Damen Shipyards Group",
-          "category": "suppliers"
-        }
-      ],
-      "locations": [],
-      "businessTags": [
-        "Supplier"
-      ],
-      "priorityScore": 5,
-      "priorityBand": "medium",
-      "priorityReasons": [
-        "Supplier mention: Damen Shipyards Group"
-      ],
-      "boardBucket": "Other Relevant"
-    },
-    {
       "id": "e5273fb776765bba",
       "title": "LR looks to \u2018cleaner\u2019 production, bioLNG and synthetic LNG for improved LNG emissions performance",
       "source": "Riviera: Regulations & Compliance",
@@ -4583,6 +4541,58 @@
         "Supplier mention: Damen Shipyards Group"
       ],
       "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "25951e40380d2481",
+      "title": "Navy Awards HII $283 Million Contract to Kick Off FF(X) Frigate Construction",
+      "source": "gCaptain",
+      "sourceId": "gcaptain",
+      "url": "https://gcaptain.com/navy-awards-hii-283-million-contract-to-kick-off-ffx-frigate-construction",
+      "publishedAt": "2026-04-29T20:28:11Z",
+      "excerpt": "The U.S. Navy has awarded HII\u2019s Ingalls Shipbuilding a $283 million contract to begin lead yard support work for the Navy\u2019s new FF(X) frigate program, marking a major next step...",
+      "tags": [
+        "Maritime",
+        "Operations"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [
+        "Commercial"
+      ],
+      "priorityScore": 4,
+      "priorityBand": "medium",
+      "priorityReasons": [
+        "Signal: Commercial"
+      ],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "b8469dafc2f92950",
+      "title": "Ukraine Attacks Sanctioned Tanker Near Tuapse in Black Sea",
+      "source": "The Maritime Executive",
+      "sourceId": "maritime-executive",
+      "url": "https://maritime-executive.com/article/ukraine-attacks-sanctioned-tanker-near-tuapse-in-black-sea",
+      "publishedAt": "2026-04-29T19:15:40Z",
+      "excerpt": "Ukraine is continuing its efforts targeting Russia\u2019s oil revenues with reports of new attacks on a tanker in the Black Sea as well as infrastructure d...",
+      "tags": [
+        "Maritime",
+        "News"
+      ],
+      "audience": "Both",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [
+        "Infrastructure"
+      ],
+      "priorityScore": 4,
+      "priorityBand": "medium",
+      "priorityReasons": [
+        "Signal: Infrastructure"
+      ],
+      "boardBucket": "Regulation, Safety & Incidents"
     },
     {
       "id": "6c87349b2ffd008a",
@@ -5290,6 +5300,38 @@
       "boardBucket": "Other Relevant"
     },
     {
+      "id": "3fd06fa83ba41908",
+      "title": "W\u00e4rtsil\u00e4\u2019s strength in fishing vessel sector enhanced with propulsion orders for four new vessels - W\u00e4rtsil\u00e4",
+      "source": "W\u00e4rtsil\u00e4 News",
+      "sourceId": "google-wartsila",
+      "url": "https://news.google.com/rss/articles/CBMixAJBVV95cUxObkYzLVBPZzczVlR5bW5qWXVjRXJxbmJheUt1YnU5bVVpS2xUUlJuZkgxRTlZTW9CLXRhc1dHa0wyMjYxVHdsNGh6WlhXWXVkVUh6bU9BU29OamlKMkVNQkNnOVlqTmN6U3A3cnRJTjdqUl93aElVN2NRVzZkMVVIVFZVOWlycktKYlhIdGpmbGxzLTRfanMtSHRvdW94R3lVQ3lCTzRVVUZBMzdlN0hIV0gtUlExQW1GdE5RTFB1RTU5eElwbU80cDNnZ0NGRU5fWGFJajdnSWJDRGRXX0MzVXdzMDg0S2h2WVBxa0VGQzJpcEJ5bEQ2UUtZV25FRU5ONmZqelh5bGJHYnFuVHZxOFlPUXd4VXJiclQ1TzFDbW1CajJ5TjR3aDhGSWhEVGNuSDI5c3gyWFdWaXM1SmpWb213LTY?oc=5",
+      "publishedAt": "2026-04-23T18:00:42Z",
+      "excerpt": "W\u00e4rtsil\u00e4\u2019s strength in fishing vessel sector enhanced with propulsion orders for four new vessels W\u00e4rtsil\u00e4",
+      "tags": [
+        "Clean Propulsion",
+        "Propulsion",
+        "Technology"
+      ],
+      "audience": "Both",
+      "paywalled": false,
+      "entities": [
+        {
+          "name": "W\u00e4rtsil\u00e4",
+          "category": "suppliers"
+        }
+      ],
+      "locations": [],
+      "businessTags": [
+        "Supplier"
+      ],
+      "priorityScore": 4,
+      "priorityBand": "medium",
+      "priorityReasons": [
+        "Supplier mention: W\u00e4rtsil\u00e4"
+      ],
+      "boardBucket": "Other Relevant"
+    },
+    {
       "id": "3144d286e74c30e4",
       "title": "Marine engineers offer 'solution to unite the industry' on climate regulation debate",
       "source": "Riviera: Regulations & Compliance",
@@ -5685,32 +5727,6 @@
       "publishedAt": "2026-04-08T08:57:56Z",
       "excerpt": "UTC Overseas adds Bangkok base Heavy Lift & Project Forwarding International",
       "tags": [
-        "Heavy-Lift"
-      ],
-      "audience": "Multraship",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [
-        "Commercial"
-      ],
-      "priorityScore": 4,
-      "priorityBand": "medium",
-      "priorityReasons": [
-        "Signal: Commercial"
-      ],
-      "boardBucket": "Other Relevant"
-    },
-    {
-      "id": "380ff40b62db9e29",
-      "title": "Ceasefire lifts sentiment - Heavy Lift & Project Forwarding International",
-      "source": "Sarens News",
-      "sourceId": "google-sarens",
-      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQNjBVdlJwU3B3MGw2bUZrcnF5RUV4ZlVGcnhWbXZiT09GckxMdHd6cVJGWVNlOWluZWxzcGZDNGh3RGZESEJjRW92OTFjLThtazhiSWhsMFJoYVFGNnoyR0dST3Y2T2ZHa2hqd1p5aEIwYzZHTEZhajgzRUlCczRHLU9B?oc=5",
-      "publishedAt": "2026-04-08T07:57:53Z",
-      "excerpt": "Ceasefire lifts sentiment Heavy Lift & Project Forwarding International",
-      "tags": [
-        "Incidents",
         "Heavy-Lift"
       ],
       "audience": "Multraship",
