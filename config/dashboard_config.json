@@ -321,19 +321,6 @@
       }
     },
     {
-      "id": "africa-ports",
-      "name": "Africa Ports & Ships",
-      "url": "https://africaports.co.za/feed/",
-      "default_tags": [
-        "ports",
-        "africa"
-      ],
-      "audience_bias": {
-        "Multraship": 2,
-        "Novatug": 1
-      }
-    },
-    {
       "id": "rigzone-latest",
       "name": "Rigzone",
       "url": "https://www.rigzone.com/news/rss/rigzone_latest.aspx",

@@ -94,12 +94,7 @@ window.__DASHBOARD_DATA__ = {
     "Rotterdam",
     "Scheldt"
   ],
-  "errors": [
-    {
-      "source": "Africa Ports & Ships",
-      "message": "HTTP Error 404: Not Found"
-    }
-  ],
+  "errors": [],
   "articles": [
     {
       "id": "e8894ead6df2ef6a",
@@ -6269,7 +6264,6 @@ window.__DASHBOARD_DATA__ = {
     "splash247": "rss",
     "swz-maritime": "rss",
     "baird-maritime": "rss",
-    "africa-ports": "rss",
     "rigzone-latest": "rss",
     "riviera-ports": "rss",
     "riviera-safety": "rss",

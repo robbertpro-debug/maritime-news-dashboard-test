@@ -94,12 +94,7 @@
     "Rotterdam",
     "Scheldt"
   ],
-  "errors": [
-    {
-      "source": "Africa Ports & Ships",
-      "message": "HTTP Error 404: Not Found"
-    }
-  ],
+  "errors": [],
   "articles": [
     {
       "id": "e8894ead6df2ef6a",
@@ -6269,7 +6264,6 @@
     "splash247": "rss",
     "swz-maritime": "rss",
     "baird-maritime": "rss",
-    "africa-ports": "rss",
     "rigzone-latest": "rss",
     "riviera-ports": "rss",
     "riviera-safety": "rss",
