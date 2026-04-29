@@ -1,7 +1,7 @@
 {
   "sources": {
     "ilt-news": {
-      "pageHash": "7f6ee694f00e5e13c915408ddb5db0f8411b2e66",
+      "pageHash": "c7724ac62a2885a5dc87f157f0024b0264f63509",
       "seenUrls": {}
     },
     "made-in": {
@@ -33,6 +33,7 @@
         "https://www.made-in.be/lezersonderzoek": "2026-04-28T12:45:40.782992Z",
         "https://www.made-in.be/limburg/17-ondernemers-halen-als-eerste-nlp-diploma-binnen": "2026-04-29T11:24:20.904800Z",
         "https://www.made-in.be/limburg/autoglass-opent-atelier-gaatje-stoppen-tijdens-t-shoppen": "2026-04-28T12:45:40.782992Z",
+        "https://www.made-in.be/limburg/buren-brengen-porsches-en-andere-premiumwagens-bijeen": "2026-04-29T22:44:10.207596Z",
         "https://www.made-in.be/limburg/cafe-cafe-is-verkocht": "2026-04-29T06:47:31.503270Z",
         "https://www.made-in.be/limburg/creatieve-incubator-blijft-stenen-stapelen": "2026-04-28T12:45:40.782992Z",
         "https://www.made-in.be/limburg/daedalus-viert-verjaardag-met-ambitieus-toekomstplan": "2026-04-29T11:24:20.904800Z",
@@ -204,7 +205,7 @@
       }
     },
     "rotterdammerdagblad-regionaal": {
-      "pageHash": "a45a38b03f5e51bbf3dd1a58f920144849d61340",
+      "pageHash": "d2ef64af8f960fb45a3a6862c69ca72315c5873c",
       "seenUrls": {
         "https://www.rotterdammerdagblad.nl/112/eenheid-rotterdam-publiceert-jaarverslag-2025-en-jaarplan-2026": "2026-04-28T12:45:40.782992Z",
         "https://www.rotterdammerdagblad.nl/112/politie-grijpt-in-na-melding-over-jongens-met-vuurwapens": "2026-04-29T11:24:20.904800Z",
