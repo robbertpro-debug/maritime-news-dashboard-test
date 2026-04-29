@@ -1,7 +1,7 @@
 {
   "sources": {
     "ilt-news": {
-      "pageHash": "db33eb176a3d2e8cde5ab9ae27e84972cd5dd839",
+      "pageHash": "7b6d458faa7dbccd44f3245421c8a3167ae490f5",
       "seenUrls": {}
     },
     "made-in": {
@@ -21,8 +21,10 @@
         "https://www.made-in.be/category/nieuws/topartikel": "2026-04-29T06:47:31.503270Z",
         "https://www.made-in.be/falingen": "2026-04-28T12:45:40.782992Z",
         "https://www.made-in.be/kempen/faillissement-kempens-bouwbedrijf-is-een-grote-probleemwerf-voor-curator-dossier-dca-neem-ik-mee-tot-aan-mijn-pensioen": "2026-04-28T23:53:40.338497Z",
+        "https://www.made-in.be/kempen/kempense-klaartje-wint-alcoholvrije-award-met-haar-bubbeldrank-bonheur-spritz-vraag-blijft-toenemen": "2026-04-29T13:18:59.192903Z",
         "https://www.made-in.be/kempen/kempense-luus-tormans-wint-womed-award-belofte-van-het-jaar": "2026-04-28T21:54:55.572876Z",
         "https://www.made-in.be/kempen/kempense-ondernemingsrechtbank-spreekt-vier-faillissementen-uit": "2026-04-28T12:45:40.782992Z",
+        "https://www.made-in.be/kempen/nieuwe-faillissementen-in-de-kempense-bouw-en-horeca": "2026-04-29T13:18:59.192903Z",
         "https://www.made-in.be/kempen/nieuwe-ondernemingsraad-bij-nike-in-laakdal-na-stilgelegde-onderhandelingen": "2026-04-28T21:54:55.572876Z",
         "https://www.made-in.be/kempen/van-huisartsenpraktijk-tot-bouwfirma-net-geen-20-starters-in-de-kempen": "2026-04-28T12:45:40.782992Z",
         "https://www.made-in.be/lezersonderzoek": "2026-04-28T12:45:40.782992Z",
@@ -43,7 +45,9 @@
         "https://www.made-in.be/mechelen/telenet-past-aanbod-aan-populair-one-pakket-wordt-niet-meer-verkocht-goedkoopste-internet-meteen-20-euro-duurder": "2026-04-29T06:47:31.503270Z",
         "https://www.made-in.be/mechelen/test-met-statiegeld-op-champignonbakjes-in-mechelse-winkels": "2026-04-28T13:59:05.537487Z",
         "https://www.made-in.be/mechelen/turkse-groep-opent-eerste-indoorspeelparadijs-in-europa-mechelen-krijgt-primeur-centrale-ligging-overtuigde": "2026-04-29T09:56:00.616177Z",
+        "https://www.made-in.be/mechelen/waver-winkelt-zet-lokale-handelaars-in-de-kijker-na-dorpskernvernieuwing-het-is-pittig-geweest": "2026-04-29T13:18:59.192903Z",
         "https://www.made-in.be/mechelen/zes-bedrijven-in-en-rond-mechelen-gooien-de-handdoek-in-de-ring": "2026-04-28T12:45:40.782992Z",
+        "https://www.made-in.be/oost-vlaanderen/123-ondernemers-schieten-deze-week-uit-de-startblokken": "2026-04-29T13:18:59.192903Z",
         "https://www.made-in.be/oost-vlaanderen/amavi-capital-investeert-in-lokerse-connectiviteitsspeler": "2026-04-29T09:56:00.616177Z",
         "https://www.made-in.be/oost-vlaanderen/apotheeknetwerk-zet-eerste-stap-naar-uitbreiding": "2026-04-28T12:45:40.782992Z",
         "https://www.made-in.be/oost-vlaanderen/column-11-067-faillissementen-later-de-curator-als-winnaar": "2026-04-29T06:47:31.503270Z",
@@ -71,6 +75,7 @@
         "https://www.made-in.be/vlaams-brabant/brusselse-student-ondernemer-xander-lanceert-ai-gedreven-hr-platform-voor-kmos": "2026-04-28T12:45:40.782992Z",
         "https://www.made-in.be/vlaams-brabant/fevia-waarschuwt-zonder-maatregelen-dreigt-productie-van-voeding-uit-belgie-te-verdwijnen": "2026-04-28T13:59:05.537487Z",
         "https://www.made-in.be/vlaams-brabant/galia-32-opent-eigen-bordspelcafe-er-schuilt-een-nerd-in-iedereen": "2026-04-29T11:24:20.904800Z",
+        "https://www.made-in.be/vlaams-brabant/leuvens-farmabedrijf-haalt-125-miljoen-dollar-op-voor-immunotherapieen": "2026-04-29T13:18:59.192903Z",
         "https://www.made-in.be/vlaams-brabant/podcast-hanne-luyten-oprichtster-het-hanneke-nest-authenticiteit-is-je-grootste-ondernemerskracht": "2026-04-29T06:47:31.503270Z",
         "https://www.made-in.be/vlaams-brabant/podcast-nadia-el-makhfi-podcasting-als-strategisch-instrument-voor-ondernemers": "2026-04-29T06:47:31.503270Z",
         "https://www.made-in.be/vlaams-brabant/podcast-stan-de-pauw-ceo-dexxter-creativiteit-wordt-de-belangrijkste-skill-in-een-ai-tijdperk": "2026-04-29T06:47:31.503270Z",
@@ -138,6 +143,7 @@
         "https://www.omroepzeeland.nl/nieuws/18415341/motorrijder-botst-tegen-ree-bij-biggekerke": "2026-04-29T05:52:34.525428Z",
         "https://www.omroepzeeland.nl/nieuws/18415494/bevrijdingsdag-is-meer-dan-alleen-een-feestje-het-is-ook-de-bewustwording-van-vrijheid": "2026-04-28T13:59:05.537487Z",
         "https://www.omroepzeeland.nl/nieuws/18415815/nieuwe-campagne-moet-toeristen-laten-stranden-in-dorpen-in-plaats-van-op-het-strand": "2026-04-28T12:45:40.782992Z",
+        "https://www.omroepzeeland.nl/nieuws/18416010/de-zee-komt-dichterbij-maar-zeeland-beschermen-begint-bij-maatschappelijk-draagvlak": "2026-04-29T13:18:59.192903Z",
         "https://www.omroepzeeland.nl/nieuws/18416016/dreigt-overbelasting-stroomnet-dan-kan-stedin-vanaf-nu-dit-zonnepark-afschakelen": "2026-04-28T12:45:40.782992Z",
         "https://www.omroepzeeland.nl/nieuws/18416430/extra-opletten-op-ontstaan-natuurbranden-risico-is-verhoogd-door-de-veiligheidsregio": "2026-04-28T12:45:40.782992Z",
         "https://www.omroepzeeland.nl/nieuws/18416526/zwembad-de-goudvijver-viert-jubileum-dankzij-die-goudschat-staan-we-hier-nu": "2026-04-28T17:11:11.481493Z",
@@ -179,11 +185,12 @@
       }
     },
     "rotterdammerdagblad-regionaal": {
-      "pageHash": "b4a8f3adb509189b48b228ae2b438dfb49d9d790",
+      "pageHash": "1c8951de106376b00ce069298db2591398158e47",
       "seenUrls": {
         "https://www.rotterdammerdagblad.nl/112/eenheid-rotterdam-publiceert-jaarverslag-2025-en-jaarplan-2026": "2026-04-28T12:45:40.782992Z",
         "https://www.rotterdammerdagblad.nl/112/politie-grijpt-in-na-melding-over-jongens-met-vuurwapens": "2026-04-29T11:24:20.904800Z",
         "https://www.rotterdammerdagblad.nl/bedrijvengids": "2026-04-28T12:45:40.782992Z",
+        "https://www.rotterdammerdagblad.nl/camperspecial/het-adres-voor-betrouwbaar-camper-onderhoud": "2026-04-29T13:18:59.192903Z",
         "https://www.rotterdammerdagblad.nl/eten-drinken": "2026-04-28T12:45:40.782992Z",
         "https://www.rotterdammerdagblad.nl/goededoelen": "2026-04-28T12:45:40.782992Z",
         "https://www.rotterdammerdagblad.nl/goededoelen/knrm-opent-reddingstations-tijdens-reddingbootdag-met-die-boot-over-de-golven-dat-vergeet-je-nooit-meer": "2026-04-29T09:56:00.616177Z",
