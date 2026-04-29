@@ -1,7 +1,7 @@
 {
   "sources": {
     "ilt-news": {
-      "pageHash": "1f5c8d3c2b95fe03b0e90eac51aef975c1fd5e5f",
+      "pageHash": "2d2c8193c84df4bd3c75c0124ec89699b32e826d",
       "seenUrls": {}
     },
     "made-in": {
@@ -173,8 +173,10 @@
         "https://www.omroepzeeland.nl/nieuws/18418671/moedereend-doodgereden-op-de-weg-dit-moet-je-doen-als-je-weeseendjes-ziet": "2026-04-29T11:24:20.904800Z",
         "https://www.omroepzeeland.nl/nieuws/18418758/rolstoelbasketballers-uit-middelburg-vechten-voor-laatste-kans-het-gaat-een-lastig-verhaal-worden": "2026-04-29T15:51:28.651886Z",
         "https://www.omroepzeeland.nl/nieuws/18419484/delen-van-geblurde-beelden-mishandeling-goes-leidt-tot-herkenning": "2026-04-29T11:24:20.904800Z",
+        "https://www.omroepzeeland.nl/nieuws/18419604/zierikzee-stelt-huizen-open-voor-herdenking-joodse-verhalen": "2026-04-29T19:06:06.668484Z",
         "https://www.omroepzeeland.nl/nieuws/18419904/arsenaalgebied-niet-een-en-al-verpaupering-een-aantal-ondernemers-strijdt-dapper-verder": "2026-04-29T15:51:28.651886Z",
         "https://www.omroepzeeland.nl/nieuws/18420039/door-heel-zeeland-luidden-de-kerkklokken-voor-asielkinderen-dit-is-onmenselijk": "2026-04-29T17:15:05.506455Z",
+        "https://www.omroepzeeland.nl/nieuws/18420585/overvaller-van-woning-aan-ravelijn-de-grenadier-in-goes-krijgt-ook-in-hoger-beroep-celstraf": "2026-04-29T19:06:06.668484Z",
         "https://www.omroepzeeland.nl/nieuws/schouwen-duiveland": "2026-04-28T12:45:40.782992Z",
         "https://www.omroepzeeland.nl/nieuws/zeeuws-vlaanderen": "2026-04-28T12:45:40.782992Z"
       }
@@ -199,7 +201,7 @@
       }
     },
     "rotterdammerdagblad-regionaal": {
-      "pageHash": "81a4cec3e095d7a0c7be2624bf49955853d51a83",
+      "pageHash": "99f983905db5416c302306ac935fb7c01385002a",
       "seenUrls": {
         "https://www.rotterdammerdagblad.nl/112/eenheid-rotterdam-publiceert-jaarverslag-2025-en-jaarplan-2026": "2026-04-28T12:45:40.782992Z",
         "https://www.rotterdammerdagblad.nl/112/politie-grijpt-in-na-melding-over-jongens-met-vuurwapens": "2026-04-29T11:24:20.904800Z",
