@@ -1,7 +1,7 @@
 {
   "sources": {
     "ilt-news": {
-      "pageHash": "294329f22bdf1ce407f5868190719d665d4c6e37",
+      "pageHash": "114551fbbc007c90f29ef9f203c0de42dcd88fb8",
       "seenUrls": {}
     },
     "made-in": {
@@ -17,6 +17,7 @@
         "https://www.made-in.be/antwerpen/gimv-neemt-belang-van-5-procent-in-azelis": "2026-04-30T13:17:26.029354Z",
         "https://www.made-in.be/antwerpen/hans-bourlon-over-miljoenenfraude-door-medewerker-studio-100-nooit-zijn-fout-toegegeven": "2026-04-28T13:59:05.537487Z",
         "https://www.made-in.be/antwerpen/international-workplace-group-lanceert-nieuw-kantoorconcept-openoffice-in-antwerpen": "2026-04-29T05:52:34.525428Z",
+        "https://www.made-in.be/antwerpen/lasers-van-zandhovense-start-up-schieten-drones-op-een-kilometer-afstand-uit-de-lucht": "2026-04-30T22:40:24.366859Z",
         "https://www.made-in.be/antwerpen/sd-worx-zet-in-op-ai-en-europese-groei-in-uitdagende-arbeidsmarkt": "2026-04-30T13:17:26.029354Z",
         "https://www.made-in.be/antwerpen/sofie-anthony-wint-womed-award-dankbaar-dat-ik-hier-mag-staan": "2026-04-29T09:56:00.616177Z",
         "https://www.made-in.be/antwerpen/totalenergies-boekt-fors-hogere-winst-dankzij-stijging-olieprijzen": "2026-04-29T20:50:28.920368Z",
@@ -112,12 +113,14 @@
         "https://www.made-in.be/vlaams-brabant/tot-20-000-euro-steun-voor-wie-in-hoeilaart-een-winkel-of-horecazaak-start-we-willen-ondernemen-haalbaarder-maken": "2026-04-30T17:07:50.333397Z",
         "https://www.made-in.be/vlaams-brabant/transportbedrijf-vervaeke-neemt-franse-sectorgenoot-over": "2026-04-29T09:56:00.616177Z",
         "https://www.made-in.be/vlaams-brabant/van-dorpsbakkerij-tot-bruisende-ontmoetingsplek-bakkerij-de-linde-opent-tearoom-in-budingen": "2026-04-28T17:11:11.481493Z",
+        "https://www.made-in.be/west-vlaanderen/autobehandelaar-ico-gaat-in-zeebrugge-voor-altius-citius-fortius-strategie-middels-een-investering-van-150-miljoen-euro": "2026-04-30T22:40:24.366859Z",
         "https://www.made-in.be/west-vlaanderen/average-rob-lanceert-zijn-frituurzaak-la-patate-ook-in-oostende": "2026-04-29T09:56:00.616177Z",
         "https://www.made-in.be/west-vlaanderen/familie-de-clerck-ontdoet-zich-grotendeels-van-domo-chemicals": "2026-04-29T06:47:31.503270Z",
         "https://www.made-in.be/west-vlaanderen/julie-schoutteten-de-laere-decor-wordt-voorzitter-van-jong-voka-west-vlaanderen": "2026-04-29T06:47:31.503270Z",
         "https://www.made-in.be/west-vlaanderen/konvert-lanceert-zijn-eigen-versie-van-de-container-cup": "2026-04-29T06:47:31.503270Z",
         "https://www.made-in.be/west-vlaanderen/muziekfestival-campo-solar-onderscheidt-zich-via-groener-dan-groene-aanpak": "2026-04-29T06:47:31.503270Z",
         "https://www.made-in.be/west-vlaanderen/quote-van-de-week-geert-noels-over-belgische-economie": "2026-04-28T12:45:40.782992Z",
+        "https://www.made-in.be/west-vlaanderen/quote-van-de-week-yves-leterme-over-china": "2026-04-30T22:40:24.366859Z",
         "https://www.made-in.be/west-vlaanderen/torhoutse-crealingua-maakt-studie-sector-van-de-beedigde-vertalers-bespaarde-al-106-miljoen-euro-sinds-de-invoering-van-gekwalificeerde-elektronische-handtekening": "2026-04-29T09:56:00.616177Z",
         "https://www.made-in.be/west-vlaanderen/transportgigant-vervaeke-begeeft-zich-diep-op-franse-wegen": "2026-04-29T11:24:20.904800Z",
         "https://www.made-in.be/west-vlaanderen/unizo-roept-langemarkse-bakkerij-uit-tot-de-winkel-van-alhier": "2026-04-29T09:56:00.616177Z",
@@ -244,7 +247,7 @@
       }
     },
     "rotterdammerdagblad-regionaal": {
-      "pageHash": "7b6b9d475c98e6711c17fe1401c746379463dc33",
+      "pageHash": "340dcca8da9ca668cc925c12286ec34fd06a9149",
       "seenUrls": {
         "https://www.rotterdammerdagblad.nl/112/aanhouding-in-babbeltruc-onderzoek": "2026-04-30T10:09:04.641534Z",
         "https://www.rotterdammerdagblad.nl/112/eenheid-rotterdam-publiceert-jaarverslag-2025-en-jaarplan-2026": "2026-04-28T12:45:40.782992Z",
