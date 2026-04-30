@@ -1,7 +1,7 @@
 {
   "sources": {
     "ilt-news": {
-      "pageHash": "02053572bfafaa6842c24d49737433112d619d0b",
+      "pageHash": "7f197a752511922fd613f4aa9b9d4c33e7581fbc",
       "seenUrls": {}
     },
     "made-in": {
@@ -48,6 +48,7 @@
         "https://www.made-in.be/limburg/wonka-wil-naar-100-man-na-comeback-op-de-campus": "2026-04-29T06:47:31.503270Z",
         "https://www.made-in.be/mechelen/het-zonnehuis-zoekt-bedrijven-die-mee-willen-werken-aan-circulaire-speelplaats": "2026-04-29T11:24:20.904800Z",
         "https://www.made-in.be/mechelen/io-ondersteunt-technopolis-bij-het-versterken-van-digitale-marketing": "2026-04-28T12:45:40.782992Z",
+        "https://www.made-in.be/mechelen/liers-bedrijf-scents-zet-in-op-strategische-geurbeleving-voor-ondernemers": "2026-04-30T10:09:04.641534Z",
         "https://www.made-in.be/mechelen/mechelse-cuberverzekeringsspecialist-stoik-betreedt-nederlandse-markt": "2026-04-29T15:51:28.651886Z",
         "https://www.made-in.be/mechelen/nijlense-ondernemer-pieter-lanceert-smash-uniek-burgerconcept-met-lokaal-bizonvlees": "2026-04-29T17:15:05.506455Z",
         "https://www.made-in.be/mechelen/oosterlinck-home-viert-65ste-verjaardag-onze-menselijke-aanpak-vormt-al-drie-generaties-de-rode-draad": "2026-04-29T06:47:31.503270Z",
@@ -141,6 +142,7 @@
         "https://www.omroepzeeland.nl/nieuws/18396462/arsenaalgebied-verloedert-lpv-ondernemers-gijzelen-vlissingen": "2026-04-28T19:06:09.648241Z",
         "https://www.omroepzeeland.nl/nieuws/18402465/geschiedenis-komt-tot-leven-door-je-oortjes-in-deze-kerk-het-is-echt-een-belevenis": "2026-04-29T06:47:31.503270Z",
         "https://www.omroepzeeland.nl/nieuws/18402465/grote-kerk-in-veere-krijgt-audiotour-geschiedenis-nu-te-horen-en-zien": "2026-04-28T19:06:09.648241Z",
+        "https://www.omroepzeeland.nl/nieuws/18406590/duitse-claudia-en-zeeuwse-saskia-dikke-vriendinnen-door-jarenlange-uitwisseling-politie-duitsland-en-zeeland": "2026-04-30T10:09:04.641534Z",
         "https://www.omroepzeeland.nl/nieuws/18406605/michiel-de-ruyter-herdacht-met-grote-plaquette-op-italiaans-eiland": "2026-04-29T17:15:05.506455Z",
         "https://www.omroepzeeland.nl/nieuws/18407880/alle-zeeuwse-bedrijven-merken-vroeg-of-laat-de-gevolgen-van-de-iranoorlog": "2026-04-28T19:06:09.648241Z",
         "https://www.omroepzeeland.nl/nieuws/18410214/zitten-deze-dieren-veel-in-jouw-tuin-dan-heb-je-het-goed-voor-elkaar": "2026-04-28T12:45:40.782992Z",
@@ -189,6 +191,7 @@
         "https://www.omroepzeeland.nl/nieuws/18420405/geliefde-reling-op-boulevard-verdwijnt-toch-tot-groot-verdriet-bij-inwoners-het-is-oerlelijk-maar-het-hoort-bij-vlissingen": "2026-04-30T05:20:40.225322Z",
         "https://www.omroepzeeland.nl/nieuws/18420585/overvaller-van-woning-aan-ravelijn-de-grenadier-in-goes-krijgt-ook-in-hoger-beroep-celstraf": "2026-04-29T19:06:06.668484Z",
         "https://www.omroepzeeland.nl/nieuws/18421116/man-overleden-na-ongeval-met-e-step-in-sluis": "2026-04-30T05:20:40.225322Z",
+        "https://www.omroepzeeland.nl/nieuws/18422118/provincie-hoeft-strandbezoekers-niet-extra-te-waarschuwen-voor-pfas": "2026-04-30T10:09:04.641534Z",
         "https://www.omroepzeeland.nl/nieuws/schouwen-duiveland": "2026-04-28T12:45:40.782992Z",
         "https://www.omroepzeeland.nl/nieuws/zeeuws-vlaanderen": "2026-04-28T12:45:40.782992Z"
       }
@@ -213,14 +216,16 @@
       }
     },
     "rotterdammerdagblad-regionaal": {
-      "pageHash": "9ef6525a04a19c1c84372fec89500959290816a5",
+      "pageHash": "f500f2b193bedb0c1398dac5e5c1ec5da9d9d2d6",
       "seenUrls": {
+        "https://www.rotterdammerdagblad.nl/112/aanhouding-in-babbeltruc-onderzoek": "2026-04-30T10:09:04.641534Z",
         "https://www.rotterdammerdagblad.nl/112/eenheid-rotterdam-publiceert-jaarverslag-2025-en-jaarplan-2026": "2026-04-28T12:45:40.782992Z",
         "https://www.rotterdammerdagblad.nl/112/politie-grijpt-in-na-melding-over-jongens-met-vuurwapens": "2026-04-29T11:24:20.904800Z",
         "https://www.rotterdammerdagblad.nl/bedrijvengids": "2026-04-28T12:45:40.782992Z",
         "https://www.rotterdammerdagblad.nl/camperspecial/het-adres-voor-betrouwbaar-camper-onderhoud": "2026-04-29T13:18:59.192903Z",
         "https://www.rotterdammerdagblad.nl/eten-drinken": "2026-04-28T12:45:40.782992Z",
         "https://www.rotterdammerdagblad.nl/goededoelen": "2026-04-28T12:45:40.782992Z",
+        "https://www.rotterdammerdagblad.nl/goededoelen/europa-kinderhulp-zoekt-vakantieouders": "2026-04-30T10:09:04.641534Z",
         "https://www.rotterdammerdagblad.nl/goededoelen/knrm-opent-reddingstations-tijdens-reddingbootdag-met-die-boot-over-de-golven-dat-vergeet-je-nooit-meer": "2026-04-29T09:56:00.616177Z",
         "https://www.rotterdammerdagblad.nl/page/privacy": "2026-04-28T12:45:40.782992Z",
         "https://www.rotterdammerdagblad.nl/page/voorwaarden": "2026-04-28T12:45:40.782992Z",
