@@ -1,7 +1,7 @@
 {
   "sources": {
     "ilt-news": {
-      "pageHash": "3ed915d6b83247522d0ed1cc2c36616d8faee3a0",
+      "pageHash": "6af54f91ccee5d05c818c367b4afeac8d76d3e73",
       "seenUrls": {}
     },
     "made-in": {
@@ -211,9 +211,13 @@
         "https://www.omroepzeeland.nl/nieuws/18422118/provincie-hoeft-strandbezoekers-niet-extra-te-waarschuwen-voor-pfas": "2026-04-30T10:09:04.641534Z",
         "https://www.omroepzeeland.nl/nieuws/18422208/morgen-eerste-zomerse-dag-van-het-jaar-maar-waarom-zijn-wij-niet-vrij-op-1-mei": "2026-04-30T15:43:09.787315Z",
         "https://www.omroepzeeland.nl/nieuws/18422238/slachtoffer-lag-onherkenbaar-in-woning-vol-bloed-verdachte-ik-heb-een-klap-gegeven": "2026-04-30T13:17:26.029354Z",
+        "https://www.omroepzeeland.nl/nieuws/18422367/41-jarige-vlissinger-ontkent-drugshandel-ik-vond-de-spullen-onder-een-auto": "2026-04-30T19:04:30.423230Z",
         "https://www.omroepzeeland.nl/nieuws/18422373/gratis-shoppen-in-sloophuizen-in-oud-vossemeer-als-het-gratis-is-neem-ik-het-mee": "2026-04-30T17:07:50.333397Z",
+        "https://www.omroepzeeland.nl/nieuws/18423645/zeearend-dood-door-windmolen-bij-kreekraksluis-boswachter-overweegt-juridische-stappen": "2026-04-30T19:04:30.423230Z",
         "https://www.omroepzeeland.nl/nieuws/18424062/veiligheidsregio-mogelijke-brandgeur-in-delen-van-zeeland-door-branden-in-oirschot-en-weert": "2026-04-30T17:07:50.333397Z",
+        "https://www.omroepzeeland.nl/nieuws/18424065/brand-in-dak-van-loods-bij-ovet-in-terneuzen": "2026-04-30T19:04:30.423230Z",
         "https://www.omroepzeeland.nl/nieuws/18424065/brand-uitgebroken-bij-ovet-in-terneuzen": "2026-04-30T17:07:50.333397Z",
+        "https://www.omroepzeeland.nl/nieuws/18424152/motorrijder-gewond-bij-ongeluk-vogelwaarde": "2026-04-30T19:04:30.423230Z",
         "https://www.omroepzeeland.nl/nieuws/schouwen-duiveland": "2026-04-28T12:45:40.782992Z",
         "https://www.omroepzeeland.nl/nieuws/zeeuws-vlaanderen": "2026-04-28T12:45:40.782992Z"
       }
@@ -238,7 +242,7 @@
       }
     },
     "rotterdammerdagblad-regionaal": {
-      "pageHash": "88d82ea5e2d3cf2b5a1d816f6e599d7a7dcf7265",
+      "pageHash": "9c75afa18f721d40593d9b01ad4db6c9ecaca1ba",
       "seenUrls": {
         "https://www.rotterdammerdagblad.nl/112/aanhouding-in-babbeltruc-onderzoek": "2026-04-30T10:09:04.641534Z",
         "https://www.rotterdammerdagblad.nl/112/eenheid-rotterdam-publiceert-jaarverslag-2025-en-jaarplan-2026": "2026-04-28T12:45:40.782992Z",
