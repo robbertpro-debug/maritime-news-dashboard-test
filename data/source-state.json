@@ -1,7 +1,7 @@
 {
   "sources": {
     "ilt-news": {
-      "pageHash": "c7724ac62a2885a5dc87f157f0024b0264f63509",
+      "pageHash": "b4c6b1b1e469dfb42d44eea29002c3c7c6deb2a6",
       "seenUrls": {}
     },
     "made-in": {
@@ -22,6 +22,7 @@
         "https://www.made-in.be/category/dossier/slimmer-ondernemen": "2026-04-29T06:47:31.503270Z",
         "https://www.made-in.be/category/nieuws/topartikel": "2026-04-29T06:47:31.503270Z",
         "https://www.made-in.be/falingen": "2026-04-28T12:45:40.782992Z",
+        "https://www.made-in.be/kempen/de-turnhoutse-zaak-die-zelfs-kamal-kharmach-niet-kon-redden-toch-ben-ik-trots-omdat-ik-het-heb-geprobeerd": "2026-04-30T01:49:23.747160Z",
         "https://www.made-in.be/kempen/faillissement-kempens-bouwbedrijf-is-een-grote-probleemwerf-voor-curator-dossier-dca-neem-ik-mee-tot-aan-mijn-pensioen": "2026-04-28T23:53:40.338497Z",
         "https://www.made-in.be/kempen/kempense-klaartje-wint-alcoholvrije-award-met-haar-bubbeldrank-bonheur-spritz-vraag-blijft-toenemen": "2026-04-29T13:18:59.192903Z",
         "https://www.made-in.be/kempen/kempense-luus-tormans-wint-womed-award-belofte-van-het-jaar": "2026-04-28T21:54:55.572876Z",
@@ -38,6 +39,7 @@
         "https://www.made-in.be/limburg/creatieve-incubator-blijft-stenen-stapelen": "2026-04-28T12:45:40.782992Z",
         "https://www.made-in.be/limburg/daedalus-viert-verjaardag-met-ambitieus-toekomstplan": "2026-04-29T11:24:20.904800Z",
         "https://www.made-in.be/limburg/eggersmann-neemt-plaats-van-stijn-helsen-in": "2026-04-29T11:24:20.904800Z",
+        "https://www.made-in.be/limburg/en-nog-enkele-faillissementen-aan-oostzijde-van-limburg": "2026-04-30T01:49:23.747160Z",
         "https://www.made-in.be/limburg/hasseltse-ondernemer-schrijft-boek-over-private-equity": "2026-04-28T20:47:22.856450Z",
         "https://www.made-in.be/limburg/interieurbouwer-vloerder-opslagruimte-en-meer-faillissementen": "2026-04-28T12:45:40.782992Z",
         "https://www.made-in.be/limburg/nieuwe-groep-bundelt-6-horecazaken-in-hasselt": "2026-04-28T17:11:11.481493Z",
@@ -205,7 +207,7 @@
       }
     },
     "rotterdammerdagblad-regionaal": {
-      "pageHash": "d2ef64af8f960fb45a3a6862c69ca72315c5873c",
+      "pageHash": "6947a81fdf4fab2f31ca85ba99f7c52315683609",
       "seenUrls": {
         "https://www.rotterdammerdagblad.nl/112/eenheid-rotterdam-publiceert-jaarverslag-2025-en-jaarplan-2026": "2026-04-28T12:45:40.782992Z",
         "https://www.rotterdammerdagblad.nl/112/politie-grijpt-in-na-melding-over-jongens-met-vuurwapens": "2026-04-29T11:24:20.904800Z",
