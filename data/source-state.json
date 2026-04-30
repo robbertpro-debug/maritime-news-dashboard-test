@@ -1,7 +1,7 @@
 {
   "sources": {
     "ilt-news": {
-      "pageHash": "b4c6b1b1e469dfb42d44eea29002c3c7c6deb2a6",
+      "pageHash": "be51d4496746be468b780aab7079318c6ea68eec",
       "seenUrls": {}
     },
     "made-in": {
@@ -65,6 +65,7 @@
         "https://www.made-in.be/oost-vlaanderen/droom-van-aykut-52-komt-uit-met-opening-van-eigen-steakrestaurant-elke-tafel-geeft-je-een-andere-ervaring": "2026-04-29T06:47:31.503270Z",
         "https://www.made-in.be/oost-vlaanderen/ergosleep-en-sleeplife-werken-samen-voor-een-betere-slaapervaring": "2026-04-29T09:56:00.616177Z",
         "https://www.made-in.be/oost-vlaanderen/ergosleep-en-sleepworld-werken-samen-voor-een-betere-slaapervaring": "2026-04-28T19:06:09.648241Z",
+        "https://www.made-in.be/oost-vlaanderen/ilvo-opent-nieuwe-proeffabriek-voor-diervoeder-een-unicum-in-vlaanderen-en-belgie": "2026-04-30T05:20:40.225322Z",
         "https://www.made-in.be/oost-vlaanderen/la-lorraine-rondt-kaap-van-15-miljard-euro-omzet": "2026-04-29T06:47:31.503270Z",
         "https://www.made-in.be/oost-vlaanderen/maria-middelares-test-mixed-reality-bij-wondzorg": "2026-04-29T06:47:31.503270Z",
         "https://www.made-in.be/oost-vlaanderen/nsz-tevreden-met-eerste-maatregelen-kmo-plan": "2026-04-29T15:51:28.651886Z",
@@ -182,7 +183,10 @@
         "https://www.omroepzeeland.nl/nieuws/18419604/zierikzee-stelt-huizen-open-voor-herdenking-joodse-verhalen": "2026-04-29T19:06:06.668484Z",
         "https://www.omroepzeeland.nl/nieuws/18419904/arsenaalgebied-niet-een-en-al-verpaupering-een-aantal-ondernemers-strijdt-dapper-verder": "2026-04-29T15:51:28.651886Z",
         "https://www.omroepzeeland.nl/nieuws/18420039/door-heel-zeeland-luidden-de-kerkklokken-voor-asielkinderen-dit-is-onmenselijk": "2026-04-29T17:15:05.506455Z",
+        "https://www.omroepzeeland.nl/nieuws/18420123/goedemorgen-reling-boulevard-plunderen-in-oud-vossemeer-en-training-voor-loop-met-bevrijdigingsvuur": "2026-04-30T05:20:40.225322Z",
+        "https://www.omroepzeeland.nl/nieuws/18420405/geliefde-reling-op-boulevard-verdwijnt-toch-tot-groot-verdriet-bij-inwoners-het-is-oerlelijk-maar-het-hoort-bij-vlissingen": "2026-04-30T05:20:40.225322Z",
         "https://www.omroepzeeland.nl/nieuws/18420585/overvaller-van-woning-aan-ravelijn-de-grenadier-in-goes-krijgt-ook-in-hoger-beroep-celstraf": "2026-04-29T19:06:06.668484Z",
+        "https://www.omroepzeeland.nl/nieuws/18421116/man-overleden-na-ongeval-met-e-step-in-sluis": "2026-04-30T05:20:40.225322Z",
         "https://www.omroepzeeland.nl/nieuws/schouwen-duiveland": "2026-04-28T12:45:40.782992Z",
         "https://www.omroepzeeland.nl/nieuws/zeeuws-vlaanderen": "2026-04-28T12:45:40.782992Z"
       }
@@ -207,7 +211,7 @@
       }
     },
     "rotterdammerdagblad-regionaal": {
-      "pageHash": "6947a81fdf4fab2f31ca85ba99f7c52315683609",
+      "pageHash": "435eb817c0d65e0de00f05af9e85138d96d65cf1",
       "seenUrls": {
         "https://www.rotterdammerdagblad.nl/112/eenheid-rotterdam-publiceert-jaarverslag-2025-en-jaarplan-2026": "2026-04-28T12:45:40.782992Z",
         "https://www.rotterdammerdagblad.nl/112/politie-grijpt-in-na-melding-over-jongens-met-vuurwapens": "2026-04-29T11:24:20.904800Z",
