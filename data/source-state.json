@@ -1,7 +1,7 @@
 {
   "sources": {
     "ilt-news": {
-      "pageHash": "70483733e03657c3ea4331507a3974a2a34e3ee0",
+      "pageHash": "010ade511c451b91817f0614044c70dbea6c5814",
       "seenUrls": {}
     },
     "made-in": {
@@ -213,12 +213,14 @@
         "https://www.omroepzeeland.nl/nieuws/18420585/overvaller-van-woning-aan-ravelijn-de-grenadier-in-goes-krijgt-ook-in-hoger-beroep-celstraf": "2026-04-29T19:06:06.668484Z",
         "https://www.omroepzeeland.nl/nieuws/18421116/man-overleden-na-ongeval-met-e-step-in-sluis": "2026-04-30T05:20:40.225322Z",
         "https://www.omroepzeeland.nl/nieuws/18422118/provincie-hoeft-strandbezoekers-niet-extra-te-waarschuwen-voor-pfas": "2026-04-30T10:09:04.641534Z",
+        "https://www.omroepzeeland.nl/nieuws/18422208/eerste-zomerse-dag-van-het-jaar-maar-waarom-zijn-wij-niet-vrij-op-1-mei": "2026-05-01T07:58:52.298059Z",
         "https://www.omroepzeeland.nl/nieuws/18422208/morgen-eerste-zomerse-dag-van-het-jaar-maar-waarom-zijn-wij-niet-vrij-op-1-mei": "2026-04-30T15:43:09.787315Z",
         "https://www.omroepzeeland.nl/nieuws/18422238/slachtoffer-lag-onherkenbaar-in-woning-vol-bloed-verdachte-ik-heb-een-klap-gegeven": "2026-04-30T13:17:26.029354Z",
         "https://www.omroepzeeland.nl/nieuws/18422367/41-jarige-vlissinger-ontkent-drugshandel-ik-vond-de-spullen-onder-een-auto": "2026-04-30T19:04:30.423230Z",
         "https://www.omroepzeeland.nl/nieuws/18422373/gratis-shoppen-in-sloophuizen-in-oud-vossemeer-als-het-gratis-is-neem-ik-het-mee": "2026-04-30T17:07:50.333397Z",
         "https://www.omroepzeeland.nl/nieuws/18423435/goedemorgen-dag-van-de-arbeid-junior-hrieps-en-mogelijk-warmste-dag-tot-nu-toe": "2026-05-01T05:33:29.513985Z",
         "https://www.omroepzeeland.nl/nieuws/18423636/babyboom-in-kattenwereld-veroorzaakt-drukte-bij-poezenpleegouders-alles-zit-vol": "2026-04-30T20:49:19.626534Z",
+        "https://www.omroepzeeland.nl/nieuws/18423636/meer-kittens-in-opvang-dan-plek-in-pleeggezinnen-je-hoeft-geen-kattenexpert-te-zijn-om-te-helpen": "2026-05-01T07:58:52.298059Z",
         "https://www.omroepzeeland.nl/nieuws/18423645/zeearend-dood-door-windmolen-bij-kreekraksluis-boswachter-overweegt-juridische-stappen": "2026-04-30T19:04:30.423230Z",
         "https://www.omroepzeeland.nl/nieuws/18424062/veiligheidsregio-mogelijke-brandgeur-in-delen-van-zeeland-door-branden-in-oirschot-en-weert": "2026-04-30T17:07:50.333397Z",
         "https://www.omroepzeeland.nl/nieuws/18424065/brand-in-dak-van-loods-bij-ovet-in-terneuzen": "2026-04-30T19:04:30.423230Z",
@@ -249,10 +251,11 @@
       }
     },
     "rotterdammerdagblad-regionaal": {
-      "pageHash": "94ce44be34420e27c352fa8045917905e252e3ca",
+      "pageHash": "99cba2370b0454afab1ca66364b3abb207c92d7f",
       "seenUrls": {
         "https://www.rotterdammerdagblad.nl/112/aanhouding-in-babbeltruc-onderzoek": "2026-04-30T10:09:04.641534Z",
         "https://www.rotterdammerdagblad.nl/112/eenheid-rotterdam-publiceert-jaarverslag-2025-en-jaarplan-2026": "2026-04-28T12:45:40.782992Z",
+        "https://www.rotterdammerdagblad.nl/112/meer-agressie-en-geweld-tegen-politie": "2026-05-01T07:58:52.298059Z",
         "https://www.rotterdammerdagblad.nl/112/politie-grijpt-in-na-melding-over-jongens-met-vuurwapens": "2026-04-29T11:24:20.904800Z",
         "https://www.rotterdammerdagblad.nl/bedrijvengids": "2026-04-28T12:45:40.782992Z",
         "https://www.rotterdammerdagblad.nl/camperspecial/het-adres-voor-betrouwbaar-camper-onderhoud": "2026-04-29T13:18:59.192903Z",
