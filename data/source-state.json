@@ -1,7 +1,7 @@
 {
   "sources": {
     "ilt-news": {
-      "pageHash": "573c5b7d1dd640e8717ab366874f7a76e8e81c88",
+      "pageHash": "e01a8be429bb568d06ab37911aca698ad1a832cb",
       "seenUrls": {}
     },
     "made-in": {
@@ -150,7 +150,9 @@
     "omroep-zeeland-news": {
       "seenUrls": {
         "https://www.omroepzeeland.nl/nieuws/18173673/van-geheim-agent-tot-gevangene-dit-is-het-verhaal-van-pieter-dourlein": "2026-04-28T12:45:40.782992Z",
+        "https://www.omroepzeeland.nl/nieuws/18198290/hoge-btw-hoge-prijzen-gaan-alle-ondernemers-het-komend-toeristenseizoen-overleven": "2026-05-01T11:00:11.566674Z",
         "https://www.omroepzeeland.nl/nieuws/18259239/stem-voor-de-zeeuwse-top-40-en-maak-kans-op-een-rondvlucht": "2026-04-29T05:52:34.525428Z",
+        "https://www.omroepzeeland.nl/nieuws/18308454/coalitie-kapelle-bekend-formatiefase-begint-in-goes": "2026-05-01T11:00:11.566674Z",
         "https://www.omroepzeeland.nl/nieuws/18339051/raaf-uil-en-vos-en-ook-de-kever-eet-uitbundig-mee-uit-de-buik-van-het-dode-damhert": "2026-04-29T09:56:00.616177Z",
         "https://www.omroepzeeland.nl/nieuws/18373314/paragliders-willen-oplossing-voor-versleten-startbaan-in-zoutelande-veel-hobbels-en-bobbels": "2026-04-28T12:45:40.782992Z",
         "https://www.omroepzeeland.nl/nieuws/18373743/ruim-3500-zeeuwse-scholieren-maken-zich-op-voor-de-eindexamens-vooral-op-het-vmbo": "2026-04-30T15:43:09.787315Z",
@@ -229,6 +231,7 @@
         "https://www.omroepzeeland.nl/nieuws/18424152/motorrijder-gewond-bij-ongeluk-vogelwaarde": "2026-04-30T19:04:30.423230Z",
         "https://www.omroepzeeland.nl/nieuws/18424311/scheldetheater-start-proef-met-blindentolk-tijdens-voorstelling-wij-zien-het-niet-maar-krijgen-het-toch-mee": "2026-05-01T05:33:29.513985Z",
         "https://www.omroepzeeland.nl/nieuws/18425748/fietser-belandt-onder-zonnetrein-in-vlissingen-traumahelikopter-geland": "2026-05-01T09:44:50.574755Z",
+        "https://www.omroepzeeland.nl/nieuws/18425748/fietsster-84-overleden-na-ongeval-met-toeristentreintje-in-vlissingen": "2026-05-01T11:00:11.566674Z",
         "https://www.omroepzeeland.nl/nieuws/schouwen-duiveland": "2026-04-28T12:45:40.782992Z",
         "https://www.omroepzeeland.nl/nieuws/zeeuws-vlaanderen": "2026-04-28T12:45:40.782992Z"
       }
@@ -253,7 +256,7 @@
       }
     },
     "rotterdammerdagblad-regionaal": {
-      "pageHash": "d5ab67e5ca8d8b214d365a1f1a0b9f11ec8b79ca",
+      "pageHash": "a9080a7ed179a01a3cd8c0d7cf189a554a110c1d",
       "seenUrls": {
         "https://www.rotterdammerdagblad.nl/112/aanhouding-in-babbeltruc-onderzoek": "2026-04-30T10:09:04.641534Z",
         "https://www.rotterdammerdagblad.nl/112/eenheid-rotterdam-publiceert-jaarverslag-2025-en-jaarplan-2026": "2026-04-28T12:45:40.782992Z",

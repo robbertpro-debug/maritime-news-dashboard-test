@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-05-01T09:44:50.574755Z",
+  "generatedAt": "2026-05-01T11:00:11.566674Z",
   "lookbackDays": 30,
-  "cutoffAt": "2026-04-01T09:44:50.574755Z",
+  "cutoffAt": "2026-04-01T11:00:11.566674Z",
   "articleCount": 180,
   "sourceCount": 118,
   "sources": [
@@ -12,7 +12,6 @@
     "DFDS News",
     "Damen Shipyards News",
     "Damen Yachting News",
-    "HVZeeland",
     "ILT News",
     "IMO Meeting Summaries",
     "IMO Press Briefings",
@@ -98,8 +97,7 @@
     "North Sea Port",
     "Rotterdam",
     "Scheldt",
-    "Terneuzen",
-    "Vlissingen"
+    "Terneuzen"
   ],
   "errors": [],
   "articles": [
@@ -140,6 +138,46 @@
         "Client mention: Jan De Nul",
         "Signal: Infrastructure",
         "Signal: Commercial"
+      ],
+      "boardBucket": "High Priority"
+    },
+    {
+      "id": "0185d20628c1f3b8",
+      "title": "Executive profile: Arjen van Dijk: decarbonisation, port congestion key towage drivers",
+      "source": "Riviera: Ports & Terminals",
+      "sourceId": "riviera-ports",
+      "url": "https://www.rivieramm.com/news-content-hub/executive-profile-arjen-van-dijk-decarbonisation-port-congestion-key-towage-drivers-88391",
+      "publishedAt": "2026-05-01T10:00:00Z",
+      "excerpt": "The managing director of Svitzer Europe explains the key industry trends dictating tug operations in the region and his career path",
+      "tags": [
+        "Towage",
+        "Operations",
+        "Decarbonization",
+        "Ports",
+        "Terminals"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [
+        {
+          "name": "Svitzer",
+          "category": "competitors"
+        }
+      ],
+      "locations": [],
+      "businessTags": [
+        "Competitor",
+        "Disruption",
+        "Operations",
+        "Energy Transition"
+      ],
+      "priorityScore": 14,
+      "priorityBand": "critical",
+      "priorityReasons": [
+        "Competitor mention: Svitzer",
+        "Signal: Disruption",
+        "Signal: Operations",
+        "Signal: Energy Transition"
       ],
       "boardBucket": "High Priority"
     },
@@ -669,30 +707,30 @@
       "boardBucket": "High Priority"
     },
     {
-      "id": "a714696f136d2d02",
-      "title": "US Transportation Department awards nearly $60m grant funding to Port of Guam",
-      "source": "Baird Maritime",
-      "sourceId": "baird-maritime",
-      "url": "https://www.bairdmaritime.com/shipping/ports/us-transportation-department-awards-nearly-60m-grant-funding-to-port-of-guam",
-      "publishedAt": "2026-05-01T06:45:20Z",
-      "excerpt": "The US Department of Transportation's (DOT) Maritime Administration (MARAD) has awarded a US$59.6 million port infrastructure development program grant to the Port Authority of Guam to improve cargo capacity at the Port of Guam. The projec\u2026",
+      "id": "cb855d613164d601",
+      "title": "USCG Back in Business, Trump Signs Bill to fund DHS",
+      "source": "MarineLink",
+      "sourceId": "marinelink",
+      "url": "https://www.marinelink.com/news/uscg-back-business-trump-signs-bill-fund-538685",
+      "publishedAt": "2026-05-01T09:32:40Z",
+      "excerpt": "U.S. President Donald Trump on Thursday signed into law legislation funding Department of Homeland Security agencies including the Secret Service and Transportation Security Administration, ending a partial shutdown that has gripped DHS op\u2026",
       "tags": [
-        "Workboats",
-        "Technology"
+        "Maritime",
+        "Industry"
       ],
-      "audience": "Multraship",
+      "audience": "Both",
       "paywalled": false,
       "entities": [],
       "locations": [],
       "businessTags": [
-        "Regulation",
-        "Infrastructure"
+        "Disruption",
+        "Regulation"
       ],
       "priorityScore": 8,
       "priorityBand": "medium",
       "priorityReasons": [
-        "Signal: Regulation",
-        "Signal: Infrastructure"
+        "Signal: Disruption",
+        "Signal: Regulation"
       ],
       "boardBucket": "Regulation, Safety & Incidents"
     },
@@ -1033,38 +1071,6 @@
         "Signal: Commercial"
       ],
       "boardBucket": "Competitors & Market"
-    },
-    {
-      "id": "669c13b4e53c9e10",
-      "title": "Sarens\u2019 ACBT role highlights Canada\u2019s offshore wind potential - Heavy Lift & Project Forwarding International",
-      "source": "Sarens News",
-      "sourceId": "google-sarens",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPQXkzblFpaVJIOW9ERVZLTXZkLTc1Sy1jcjBRTzhRVzdENElFVHdId3JvbEJFZm9XVUV5X0V1ZTRGbFkwYUNXalpkaEk5SlJ5MUswaWJ3ZVlvQlRqNlRwWFFpeWtVUV93SWlETkpSc1BBZWlZcGhQbHN1bm95YVZ1aXJqaFlORTZ1Z2tPdTlERkYxb0dzYmZaU0RCU1g3SGFIZVVwUUJuLTYzaDA2Qmc?oc=5",
-      "publishedAt": "2026-04-23T10:32:59Z",
-      "excerpt": "Sarens\u2019 ACBT role highlights Canada\u2019s offshore wind potential Heavy Lift & Project Forwarding International",
-      "tags": [
-        "Heavy-Lift"
-      ],
-      "audience": "Multraship",
-      "paywalled": false,
-      "entities": [
-        {
-          "name": "Sarens",
-          "category": "clients"
-        }
-      ],
-      "locations": [],
-      "businessTags": [
-        "Client",
-        "Commercial"
-      ],
-      "priorityScore": 8,
-      "priorityBand": "medium",
-      "priorityReasons": [
-        "Client mention: Sarens",
-        "Signal: Commercial"
-      ],
-      "boardBucket": "Clients & Projects"
     },
     {
       "id": "7eef26157c4f5ecd",
@@ -1837,6 +1843,39 @@
       "boardBucket": "Regulation, Safety & Incidents"
     },
     {
+      "id": "f24231471e3f6486",
+      "title": "Subsea7, OneSubsea take on multimillion-dollar job at ExxonMobil\u2019s Angolan oil project",
+      "source": "Offshore Energy",
+      "sourceId": "offshore-energy",
+      "url": "https://www.offshore-energy.biz/subsea7-onesubsea-take-on-multimillion-dollar-job-at-exxonmobils-angolan-oil-project",
+      "publishedAt": "2026-05-01T09:15:20Z",
+      "excerpt": "Subsea Integration Alliance (SIA), comprising SLB OneSubsea and Subsea7, has been tasked by U.S.-headquartered energy giant ExxonMobil with the engineering, procurement, construction, and installation (EPCI) scope of work at an oil project\u2026",
+      "tags": [
+        "Energy-Transition",
+        "Technology"
+      ],
+      "audience": "Novatug",
+      "paywalled": false,
+      "entities": [
+        {
+          "name": "ExxonMobil",
+          "category": "clients"
+        }
+      ],
+      "locations": [],
+      "businessTags": [
+        "Client",
+        "Commercial"
+      ],
+      "priorityScore": 6,
+      "priorityBand": "medium",
+      "priorityReasons": [
+        "Client mention: ExxonMobil",
+        "Signal: Commercial"
+      ],
+      "boardBucket": "Clients & Projects"
+    },
+    {
       "id": "4790e036798d3f9e",
       "title": "Voting closes soon for ITS 2026 towage industry awards",
       "source": "Riviera: Ports & Terminals",
@@ -1849,33 +1888,6 @@
         "Salvage",
         "Ports",
         "Terminals"
-      ],
-      "audience": "Multraship",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [
-        "Incident"
-      ],
-      "priorityScore": 6,
-      "priorityBand": "medium",
-      "priorityReasons": [
-        "Signal: Incident"
-      ],
-      "boardBucket": "Regulation, Safety & Incidents"
-    },
-    {
-      "id": "bce028c39ab38414",
-      "title": "Officials: US Navy destroyer suffers onboard fire",
-      "source": "Baird Maritime",
-      "sourceId": "baird-maritime",
-      "url": "https://www.bairdmaritime.com/security/incidents/officials-us-navy-destroyer-suffers-onboard-fire",
-      "publishedAt": "2026-05-01T06:21:54Z",
-      "excerpt": "A US Navy warship suffered an onboard fire while operating in the Indo-Pacific region earlier this week, news outlet CBS quoted a US Defense Department official as saying. The official said the incident on the Arleigh Burke-class guided-mi\u2026",
-      "tags": [
-        "Incidents",
-        "Workboats",
-        "Technology"
       ],
       "audience": "Multraship",
       "paywalled": false,
@@ -2348,39 +2360,6 @@
       "boardBucket": "Clients & Projects"
     },
     {
-      "id": "28afd0a8b3e5a0b1",
-      "title": "22 Kilo hasj aangetroffen in compressor Vlissingen-Oost",
-      "source": "HVZeeland",
-      "sourceId": "hvzeeland",
-      "url": "https://www.hvzeeland.nl/nieuws/68571-22-kilo-hasj-aangetroffen-in-compressor-vlissingen-oost",
-      "publishedAt": "2026-04-29T13:50:00Z",
-      "excerpt": "",
-      "tags": [
-        "Zeeland",
-        "Safety",
-        "Incidents",
-        "Local-News"
-      ],
-      "audience": "Multraship",
-      "paywalled": false,
-      "entities": [],
-      "locations": [
-        {
-          "name": "Vlissingen",
-          "type": "core-port"
-        }
-      ],
-      "businessTags": [
-        "Port: Vlissingen"
-      ],
-      "priorityScore": 6,
-      "priorityBand": "medium",
-      "priorityReasons": [
-        "Core port watch: Vlissingen"
-      ],
-      "boardBucket": "Port Watch"
-    },
-    {
       "id": "ceb4cd16a7bd9441",
       "title": "Van Oord\u2019s first sea-going USV makes multi-day offshore debut - Offshore Energy",
       "source": "Van Oord News",
@@ -2590,6 +2569,40 @@
         "Signal: Incident"
       ],
       "boardBucket": "Regulation, Safety & Incidents"
+    },
+    {
+      "id": "443087b6e4266f1a",
+      "title": "W\u00e4rtsil\u00e4 Oyj Abp stock (FI0009003727): Is marine decarbonization strong enough to unlock new upsid - AD HOC NEWS",
+      "source": "W\u00e4rtsil\u00e4 News",
+      "sourceId": "google-wartsila",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQOFJLLXU4RjdKa2NBM0ZuanpqNW01b19Tc09TNUdQMTZoczBTNjZVRWlPMnBzTVRJc1I3WFFGSzlSUjFpcVJEMzF5V0hTMjRQa0dNTlVxQjhuS1QwcmNLUXZGQ1pQd2dqSWpXLTd2TlZsN2JGSXVzRVVkZ0VZSWkwTkNQZG04b1BrT3ZvdFNoN0lnZ2o2QkxVVFFmTk1KVm81aE8wbGsyTXJBOE95VG0yTzdCQVZUSlozQ2pxbHo3SWMxZThfanRvMQ?oc=5",
+      "publishedAt": "2026-04-28T17:01:27Z",
+      "excerpt": "W\u00e4rtsil\u00e4 Oyj Abp stock (FI0009003727): Is marine decarbonization strong enough to unlock new upsid AD HOC NEWS",
+      "tags": [
+        "Decarbonization",
+        "Propulsion",
+        "Technology"
+      ],
+      "audience": "Both",
+      "paywalled": false,
+      "entities": [
+        {
+          "name": "W\u00e4rtsil\u00e4",
+          "category": "suppliers"
+        }
+      ],
+      "locations": [],
+      "businessTags": [
+        "Supplier",
+        "Energy Transition"
+      ],
+      "priorityScore": 6,
+      "priorityBand": "medium",
+      "priorityReasons": [
+        "Supplier mention: W\u00e4rtsil\u00e4",
+        "Signal: Energy Transition"
+      ],
+      "boardBucket": "Other Relevant"
     },
     {
       "id": "1f87367218034689",
@@ -3185,15 +3198,15 @@
       "boardBucket": "Clients & Projects"
     },
     {
-      "id": "6c436f139f101b30",
-      "title": "W\u00e4rtsil\u00e4 and Erik Thun Group partnership to enhance reliability, sustainability and performance throughout the fleet - W\u00e4rtsil\u00e4",
+      "id": "b049e9bbffcf2c7f",
+      "title": "W\u00e4rtsil\u00e4 Selected for Ammonia Carrier Systems for Navigator Gas and Amon Maritime JV - ChemAnalyst",
       "source": "W\u00e4rtsil\u00e4 News",
       "sourceId": "google-wartsila",
-      "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxQempKZmJjdE14cHljTXRzZHlfQnRzQ1dzaUFUX1h4WkExbGlkeTVOS3V5NTNSXzFFQXFhTURnMDA4OXN2ZEtEeS1VX3ZSREdjZG40MkIwNy1qdFRXeVpObkRZS2NKWUs0TEktMmNwOHZkdVVsT2xJXzhibTNqQmxLNnl0SWF1UUNCdGhaNkFpSm1PdDVIZ2N0VFZTZmFRT3h3T2JmSldnOUdtMU5rWk12Y2Jnb25OQlBlUkJzeER5ZHJRaTZHWFc3MVQ3Wk9KeS1MZkZEZ0lOT3hKMXlXZmJqRzBTSmNzTXY0MHpoQnFHRDdrS0VmS1c4em1ta2ZyOG8?oc=5",
-      "publishedAt": "2026-04-23T10:00:00Z",
-      "excerpt": "W\u00e4rtsil\u00e4 and Erik Thun Group partnership to enhance reliability, sustainability and performance throughout the fleet W\u00e4rtsil\u00e4",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNNkdhMDRNUmgxTU1Eb2FId2NHSFp3RzdVdnZKeF94WHphRUxqZlFVZTFEQk1LZ2U3aVlwZmU2djNnUGlXNFlwT1I3bmZVbGQ3MWhETFpHWG9CY1pDcmVPLVM1d3pRZ3JTcmg0X2JaVkFXYmV1OE5ZRXQ0WVZjOWlReXdPRFljMTJUVnpYYkFhM2VQQ3RkN19KcUYyTWZWMVdjQnFLT1pCa2U2OThSb3JXVmRac3Bxd0xENEpoUmw0OA?oc=5",
+      "publishedAt": "2026-04-23T08:51:23Z",
+      "excerpt": "W\u00e4rtsil\u00e4 Selected for Ammonia Carrier Systems for Navigator Gas and Amon Maritime JV ChemAnalyst",
       "tags": [
-        "Sustainability",
+        "Clean Propulsion",
         "Propulsion",
         "Technology"
       ],
@@ -3208,13 +3221,13 @@
       "locations": [],
       "businessTags": [
         "Supplier",
-        "Commercial"
+        "Energy Transition"
       ],
       "priorityScore": 6,
       "priorityBand": "medium",
       "priorityReasons": [
         "Supplier mention: W\u00e4rtsil\u00e4",
-        "Signal: Commercial"
+        "Signal: Energy Transition"
       ],
       "boardBucket": "Other Relevant"
     },
@@ -3307,37 +3320,6 @@
         "Signal: Incident"
       ],
       "boardBucket": "Regulation, Safety & Incidents"
-    },
-    {
-      "id": "1926a6d3a5cab276",
-      "title": "How Oldendorff is handling having ships stuck in the Gulf - Tradewinds News",
-      "source": "Oldendorff Carriers News",
-      "sourceId": "google-oldendorff",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPUkprV04xVnhKWFNiOHAtQ2R3MHQxSE1VZTVrcDNHX1JLS0c0SGJXdk1uUDd5bUFzZENxeXlJYUhxeTZWazh4c0tDamg1M2JZdzdPVExTc1d5YUtDd0Fod0c0S3I2ZlhVS25DbWFJbXJ4d3NFNjBZRjNqdWJ2Ukh5ajNzRUpaVnl5eXplcDk0ZlNBbWVfTVVNX1Y2SjhxNFBWYWZhZnlhV1Q3djczSFp5ZUEwZlZhMnc?oc=5",
-      "publishedAt": "2026-04-20T07:00:00Z",
-      "excerpt": "How Oldendorff is handling having ships stuck in the Gulf Tradewinds News",
-      "tags": [
-        "Shipping",
-        "Bulk"
-      ],
-      "audience": "Multraship",
-      "paywalled": false,
-      "entities": [
-        {
-          "name": "Oldendorff Carriers",
-          "category": "clients"
-        }
-      ],
-      "locations": [],
-      "businessTags": [
-        "Client"
-      ],
-      "priorityScore": 6,
-      "priorityBand": "medium",
-      "priorityReasons": [
-        "Client mention: Oldendorff Carriers"
-      ],
-      "boardBucket": "Clients & Projects"
     },
     {
       "id": "aa3428c26ff33669",
@@ -3679,37 +3661,6 @@
       "boardBucket": "Clients & Projects"
     },
     {
-      "id": "9b7d6a6ebc59e9b2",
-      "title": "DEME Group: Steady progress at the Dieppe Le Tr\u00e9port offshore wind farm in France - DredgeWire",
-      "source": "DEME Group News",
-      "sourceId": "google-deme",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNNHd5Y0RZZy03WEZkUy0xQWllXzNEb0hnX0cxS2FETkhrWl9ycmgxSHJuM0Etbk14NG1TcExlRUpfdnpReWQtMnFWb2tibTBEMldhSnZ1YWRxT1FuUF9SQ25Ga1B2UjhPM1FpWHZoQ3hTSkdTTV9CZTZXZlpCT2kyREpzTTJzX0ZoUS1nVFl2MTQ2SEhwelFVOTFjQ3BTN1VfcEI2eHRrSQ?oc=5",
-      "publishedAt": "2026-04-02T07:00:00Z",
-      "excerpt": "DEME Group: Steady progress at the Dieppe Le Tr\u00e9port offshore wind farm in France DredgeWire",
-      "tags": [
-        "Offshore",
-        "Marine-Construction"
-      ],
-      "audience": "Multraship",
-      "paywalled": false,
-      "entities": [
-        {
-          "name": "DEME Group",
-          "category": "clients"
-        }
-      ],
-      "locations": [],
-      "businessTags": [
-        "Client"
-      ],
-      "priorityScore": 6,
-      "priorityBand": "medium",
-      "priorityReasons": [
-        "Client mention: DEME Group"
-      ],
-      "boardBucket": "Clients & Projects"
-    },
-    {
       "id": "0f1a910c44f717c8",
       "title": "DFDS increases capacity on Baltic Sea route with newly chartered ferry - Baird Maritime",
       "source": "DFDS News",
@@ -3824,12 +3775,12 @@
       "boardBucket": "Regulation, Safety & Incidents"
     },
     {
-      "id": "210739e12e2a7265",
+      "id": "17686c21209a0790",
       "title": "ILT News page updated",
       "source": "ILT News",
       "sourceId": "ilt-news",
-      "url": "https://english.ilent.nl/latest/news?dashboardChange=573c5b7d1dd6",
-      "publishedAt": "2026-05-01T09:44:50.574755Z",
+      "url": "https://english.ilent.nl/latest/news?dashboardChange=e01a8be429bb",
+      "publishedAt": "2026-05-01T11:00:11.566674Z",
       "excerpt": "Tracked page content changed.",
       "tags": [
         "Regulation",
@@ -3887,35 +3838,6 @@
         "Signal: Commercial"
       ],
       "boardBucket": "Regulation, Safety & Incidents"
-    },
-    {
-      "id": "95ea5c77fe14cbad",
-      "title": "German-Greek partnership to implement mid-life upgrades on Hellenic Navy submarines",
-      "source": "Baird Maritime",
-      "sourceId": "baird-maritime",
-      "url": "https://www.bairdmaritime.com/security/naval/naval-submersibles/german-greek-partnership-to-implement-mid-life-upgrades-on-hellenic-navy-submarines",
-      "publishedAt": "2026-05-01T05:59:28Z",
-      "excerpt": "German naval shipbuilder TKMS and Greece's Skaramangas Shipyards have entered into a comprehensive and exclusive agreement to jointly execute the mid-life upgrade (MLU) program for the four Type 214 diesel-electric submarines of the Hellen\u2026",
-      "tags": [
-        "Electrification",
-        "Workboats",
-        "Technology"
-      ],
-      "audience": "Both",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [
-        "Commercial",
-        "Energy Transition"
-      ],
-      "priorityScore": 5,
-      "priorityBand": "medium",
-      "priorityReasons": [
-        "Signal: Commercial",
-        "Signal: Energy Transition"
-      ],
-      "boardBucket": "Other Relevant"
     },
     {
       "id": "8792771536991f53",
@@ -3979,34 +3901,6 @@
       "url": "https://www.offshore-energy.biz/us-court-sends-4-billion-lng-legal-battle-back-to-virginia-state-court",
       "publishedAt": "2026-04-30T14:24:07Z",
       "excerpt": "Sinolam International, a Singapore-based investment company focused on oil, gas, and power investments in emerging markets in Asia and Latin America, has disclosed the return of its multibillion-dollar lawsuit against AES Corporation to th\u2026",
-      "tags": [
-        "Energy-Transition",
-        "Technology"
-      ],
-      "audience": "Novatug",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [
-        "Regulation",
-        "Commercial"
-      ],
-      "priorityScore": 5,
-      "priorityBand": "medium",
-      "priorityReasons": [
-        "Signal: Regulation",
-        "Signal: Commercial"
-      ],
-      "boardBucket": "Regulation, Safety & Incidents"
-    },
-    {
-      "id": "66d734c5a448aef2",
-      "title": "JHI\u2019s shareholders\u2019 approval next on the agenda to back Eco takeover",
-      "source": "Offshore Energy",
-      "sourceId": "offshore-energy",
-      "url": "https://www.offshore-energy.biz/jhis-shareholders-approval-next-on-the-agenda-to-back-eco-takeover",
-      "publishedAt": "2026-04-30T10:14:13Z",
-      "excerpt": "Eco (Atlantic) Oil & Gas, an AIM-listed and Canada-headquartered oil and gas company focused on the Atlantic Margin, has shed light on the latest developments regarding its acquisition of the issued and to-be-issued shares it does not alre\u2026",
       "tags": [
         "Energy-Transition",
         "Technology"
@@ -4410,6 +4304,32 @@
       "boardBucket": "Other Relevant"
     },
     {
+      "id": "41d435cb6059e034",
+      "title": "Contract signed for delivery of uncrewed surface vessels to US Navy",
+      "source": "Baird Maritime",
+      "sourceId": "baird-maritime",
+      "url": "https://www.bairdmaritime.com/security/naval/unmanned-naval-systems/contract-signed-for-delivery-of-uncrewed-surface-vessels-to-us-navy",
+      "publishedAt": "2026-05-01T10:38:59Z",
+      "excerpt": "Textron Systems Corporation has secured a contract from the Defense Innovation Unit of the US Department of Defense to produce and deliver several uncrewed surface vessels for use by the US Navy. These assets are intended to support the fl\u2026",
+      "tags": [
+        "Workboats",
+        "Technology"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [
+        "Commercial"
+      ],
+      "priorityScore": 4,
+      "priorityBand": "medium",
+      "priorityReasons": [
+        "Signal: Commercial"
+      ],
+      "boardBucket": "Other Relevant"
+    },
+    {
       "id": "df03ee9423d1ba9e",
       "title": "Voith Appoints Denise Kurtulus to Board of Management & CEO of Voith Turbo",
       "source": "The Maritime Executive",
@@ -4646,38 +4566,6 @@
         "Supplier mention: Kongsberg Maritime"
       ],
       "boardBucket": "Other Relevant"
-    },
-    {
-      "id": "0ffaa7d9816f3a22",
-      "title": "Second Maersk Tankers vessel fitted with Spain-made suction sails",
-      "source": "Offshore Energy",
-      "sourceId": "offshore-energy",
-      "url": "https://www.offshore-energy.biz/second-maersk-tankers-vessel-fitted-with-spain-made-suction-sails",
-      "publishedAt": "2026-04-30T11:01:41Z",
-      "excerpt": "After completing installation on the first vessel in January, Spanish automated wind-assisted propulsion system [\u2026] The post Second Maersk Tankers vessel fitted with Spain-made suction sails appeared first on Offshore Energy .",
-      "tags": [
-        "Clean Propulsion",
-        "Energy-Transition",
-        "Technology"
-      ],
-      "audience": "Novatug",
-      "paywalled": false,
-      "entities": [
-        {
-          "name": "Maersk Tankers",
-          "category": "clients"
-        }
-      ],
-      "locations": [],
-      "businessTags": [
-        "Client"
-      ],
-      "priorityScore": 4,
-      "priorityBand": "medium",
-      "priorityReasons": [
-        "Client mention: Maersk Tankers"
-      ],
-      "boardBucket": "Clients & Projects"
     },
     {
       "id": "13640d9ddb3fb198",
@@ -5401,6 +5289,37 @@
       "boardBucket": "Other Relevant"
     },
     {
+      "id": "55d041aa18aa7222",
+      "title": "Wartsila Introduces Next-Gen Maritime Training Simulator - Cruise Industry News",
+      "source": "W\u00e4rtsil\u00e4 News",
+      "sourceId": "google-wartsila",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNV1Y1OTFxbUVlSUMzNTBQRWJfZWVFdGFqMXNPLVl1azJBWkJFa1lNMzRrZzlDYUdtT2hOVUxYM2ZiQTREQTl0SjRCeUYxNjlGWUtNTW1vcl9wamRCdFU0QjkwcGFXWFF2US1WNWdHU1VCeHJIQVhSMnQ5TGdtd3c4LWEwZzAtUzF2ZG1tVnV2UVNjR3IyeThJUVNnYWVOc0hoR3JKbWRwSmJTMXRj?oc=5",
+      "publishedAt": "2026-04-22T12:20:15Z",
+      "excerpt": "Wartsila Introduces Next-Gen Maritime Training Simulator Cruise Industry News",
+      "tags": [
+        "Propulsion",
+        "Technology"
+      ],
+      "audience": "Both",
+      "paywalled": false,
+      "entities": [
+        {
+          "name": "W\u00e4rtsil\u00e4",
+          "category": "suppliers"
+        }
+      ],
+      "locations": [],
+      "businessTags": [
+        "Supplier"
+      ],
+      "priorityScore": 4,
+      "priorityBand": "medium",
+      "priorityReasons": [
+        "Supplier mention: W\u00e4rtsil\u00e4"
+      ],
+      "boardBucket": "Other Relevant"
+    },
+    {
       "id": "2cc2676af5a21994",
       "title": "W\u00e4rtsil\u00e4 launches next-generation simulation platform to support future-ready maritime training - W\u00e4rtsil\u00e4",
       "source": "W\u00e4rtsil\u00e4 News",
@@ -5494,6 +5413,37 @@
         "Authority & Class mention: International Maritime Organization"
       ],
       "boardBucket": "Regulation, Safety & Incidents"
+    },
+    {
+      "id": "87e173c13bbab0dd",
+      "title": "Wartsila Inks 3-Ship Maintenance Deal with Margaritaville at Sea - Cruise Industry News",
+      "source": "W\u00e4rtsil\u00e4 News",
+      "sourceId": "google-wartsila",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOSGdBMkdLUzZPUTJjb0JpLU5nemNuWXF6ZGtnazBiOVlkVXJxajJqTHlRQ0tKUEdBZmdFNHR5QmRzY01SSEFsNnFtMnh5MENYbXk1VExUaWlFY2c5cFk1R3pyQmZ2NHJyWklGVmxZb3lsSUhUaEtfTXNWci15MW96aC1lMmo5WTlXTFBwRGxWcVpGOXlKTWRZRGxpZnVJMDJMY2l0c3FicGRRZ0NmNXZOZ3U5WTJKbHc?oc=5",
+      "publishedAt": "2026-04-09T07:00:00Z",
+      "excerpt": "Wartsila Inks 3-Ship Maintenance Deal with Margaritaville at Sea Cruise Industry News",
+      "tags": [
+        "Propulsion",
+        "Technology"
+      ],
+      "audience": "Both",
+      "paywalled": false,
+      "entities": [
+        {
+          "name": "W\u00e4rtsil\u00e4",
+          "category": "suppliers"
+        }
+      ],
+      "locations": [],
+      "businessTags": [
+        "Supplier"
+      ],
+      "priorityScore": 4,
+      "priorityBand": "medium",
+      "priorityReasons": [
+        "Supplier mention: W\u00e4rtsil\u00e4"
+      ],
+      "boardBucket": "Other Relevant"
     },
     {
       "id": "016bd81df2772304",
@@ -5704,6 +5654,59 @@
       ],
       "priorityScore": 4,
       "priorityBand": "medium",
+      "priorityReasons": [
+        "Signal: Regulation"
+      ],
+      "boardBucket": "Regulation, Safety & Incidents"
+    },
+    {
+      "id": "42d0bb9987c53596",
+      "title": "Green light for wellhead removal ops at Australian oil field",
+      "source": "Offshore Energy",
+      "sourceId": "offshore-energy",
+      "url": "https://www.offshore-energy.biz/green-light-for-wellhead-removal-ops-at-australian-oil-field",
+      "publishedAt": "2026-05-01T08:00:00Z",
+      "excerpt": "AIM-listed and Singapore-headquartered oil and gas player Jadestone Energy has received a stamp of approval for its environmental plan (EP) from the country\u2019s offshore regulator for wellhead removal activities at its oil field off the coas\u2026",
+      "tags": [
+        "Energy-Transition",
+        "Technology"
+      ],
+      "audience": "Novatug",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [
+        "Regulation"
+      ],
+      "priorityScore": 3,
+      "priorityBand": "low",
+      "priorityReasons": [
+        "Signal: Regulation"
+      ],
+      "boardBucket": "Regulation, Safety & Incidents"
+    },
+    {
+      "id": "68e8d4ed6c5bb09c",
+      "title": "Splash Wrap: Regulators, raiders and deals in Geneva shape shipping this week",
+      "source": "Splash247",
+      "sourceId": "splash247",
+      "url": "https://splash247.com/splash-wrap-regulators-raiders-and-deals-in-geneva-shape-shipping-this-week",
+      "publishedAt": "2026-05-01T07:05:24Z",
+      "excerpt": "The 84th session of the Marine Environment Protection Committee (MEPC 84) closes today. Delegates are advancing on areas of broad agreement while systematically pushing the hardest questions \u2013 notably the Greenhouse Gas Fuel Intensity mech\u2026",
+      "tags": [
+        "Regulation",
+        "Maritime",
+        "News"
+      ],
+      "audience": "Novatug",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [
+        "Regulation"
+      ],
+      "priorityScore": 3,
+      "priorityBand": "low",
       "priorityReasons": [
         "Signal: Regulation"
       ],
