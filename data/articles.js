@@ -1,7 +1,7 @@
 window.__DASHBOARD_DATA__ = {
-  "generatedAt": "2026-04-30T22:40:24.366859Z",
+  "generatedAt": "2026-05-01T01:52:12.636857Z",
   "lookbackDays": 30,
-  "cutoffAt": "2026-03-31T22:40:24.366859Z",
+  "cutoffAt": "2026-04-01T01:52:12.636857Z",
   "articleCount": 180,
   "sourceCount": 118,
   "sources": [
@@ -22,7 +22,6 @@ window.__DASHBOARD_DATA__ = {
     "MarineLink",
     "Muller Dordrecht Web Watch",
     "North Sea Port News",
-    "Offshore Energy",
     "Oldendorff Carriers News",
     "Omroep Zeeland News",
     "PZC",
@@ -55,7 +54,6 @@ window.__DASHBOARD_DATA__ = {
     "Dredging",
     "Electrification",
     "Energy",
-    "Energy-Transition",
     "Ferry",
     "Government",
     "Heavy-Lift",
@@ -101,7 +99,12 @@ window.__DASHBOARD_DATA__ = {
     "Terneuzen",
     "Vlissingen"
   ],
-  "errors": [],
+  "errors": [
+    {
+      "source": "Offshore Energy",
+      "message": "HTTP Error 403: Forbidden"
+    }
+  ],
   "articles": [
     {
       "id": "e8894ead6df2ef6a",
@@ -505,13 +508,13 @@ window.__DASHBOARD_DATA__ = {
       "boardBucket": "High Priority"
     },
     {
-      "id": "1f55eef44b12ce52",
-      "title": "DFDS makes changes \"to support travel arrangements over the Easter weekend\" following fast ferry incident - Jersey Evening Post",
+      "id": "6f4ab0bbe00d14e6",
+      "title": "DFDS confirm Easter routes following boat collision | ITV News - ITVX",
       "source": "DFDS News",
       "sourceId": "google-dfds",
-      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPbVVEc1NSeFVPVnBqcXJUOHR2cWZlQnN0LV82R0xpM2lfbjBrQ3g2TnZIMzdxaDlqZDRMd05DSi1fMnZmZVpvbllwUTh0NmRGTjN3OVNzckJ1THhmcDNCMlI5Ykl6dGt6dHFpX3BRcjRpUDhTVWZBY3ByS3A0bnh2N2dOdldMUjcyLXhrYTJVU01FMWgtZWs1cFNlSDRfbnNOeHd4TnY5V1Z1c29zbndHeG1wTEZEblNIQnB2SEc3UmU1RDNUWkJaLUxabWQ3ZG50bHBXWWRUSGxhU0dvTERyRnFiNXY?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNb0lZcGwxNDhOSlljLVRyM2RaNmw5MUVydGhrdlUxazdfNVdlSlBxb1AxcXoyYVEya05raVJ3ek1KSHpaTExjVTdrRmFpWndHcGY4TTVnS0JzT2txdFRCcEdnTE1sbG9POG5fRnJSaDV6S1RTdkp4eVAyNmxFZ1ZMMWlCeF9fMkMyelZnQnp2Y2J5NWZMbzJJUGFHRQ?oc=5",
       "publishedAt": "2026-04-01T07:00:00Z",
-      "excerpt": "DFDS makes changes \"to support travel arrangements over the Easter weekend\" following fast ferry incident Jersey Evening Post",
+      "excerpt": "DFDS confirm Easter routes following boat collision | ITV News ITVX",
       "tags": [
         "Incidents",
         "Ferry",
@@ -707,40 +710,6 @@ window.__DASHBOARD_DATA__ = {
       "boardBucket": "High Priority"
     },
     {
-      "id": "3d1052733726e658",
-      "title": "Six Search and Rescue Boats from Damen Shipyards Antalya - Defence Turkey",
-      "source": "Damen Shipyards News",
-      "sourceId": "google-damen",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNQTVERF9GWlMwd04zSVFaaWhRUW12OEJ2aVZXeEZjV1ZMNXowTkYtM3lqMDZfM0FwWjdtZlZYLU8yWHlJWXh1dG1mNmZEUUd5VmVmUnpJZllPQjgtN3FaNXlkX0xObi1OVFd1NC1id1VpSGY3QWYtSmtzOXJsaEZaVjlMdUFQTFE4NlBCSWxGWEd2TTQ?oc=5",
-      "publishedAt": "2026-04-06T07:00:00Z",
-      "excerpt": "Six Search and Rescue Boats from Damen Shipyards Antalya Defence Turkey",
-      "tags": [
-        "Salvage",
-        "Shipbuilding",
-        "Supplier"
-      ],
-      "audience": "Multraship",
-      "paywalled": false,
-      "entities": [
-        {
-          "name": "Damen Shipyards Group",
-          "category": "suppliers"
-        }
-      ],
-      "locations": [],
-      "businessTags": [
-        "Supplier",
-        "Incident"
-      ],
-      "priorityScore": 9,
-      "priorityBand": "high",
-      "priorityReasons": [
-        "Supplier mention: Damen Shipyards Group",
-        "Signal: Incident"
-      ],
-      "boardBucket": "High Priority"
-    },
-    {
       "id": "74e4c7b365ba1399",
       "title": "DEME launches new share buyback program - Dredging Today",
       "source": "DEME Group News",
@@ -802,39 +771,6 @@ window.__DASHBOARD_DATA__ = {
         "Signal: Operations"
       ],
       "boardBucket": "Regulation, Safety & Incidents"
-    },
-    {
-      "id": "0c92b31b53b284e6",
-      "title": "Subsea 7 and SLB partnership secures Angolan offshore work",
-      "source": "Baird Maritime",
-      "sourceId": "baird-maritime",
-      "url": "https://www.bairdmaritime.com/offshore/exploration-development/offshore-construction/subsea-7-and-slb-partnership-secures-angolan-offshore-work",
-      "publishedAt": "2026-04-30T19:15:37Z",
-      "excerpt": "Subsea Integration Alliance, a partnership between Subsea 7 and SLB OneSubsea, has secured a contract from ExxonMobil for a subsea tie-back. The project is associated with the Redevelopment 2 Likembe Project in Block 15, offshore Angola. S\u2026",
-      "tags": [
-        "Workboats",
-        "Technology"
-      ],
-      "audience": "Multraship",
-      "paywalled": false,
-      "entities": [
-        {
-          "name": "ExxonMobil",
-          "category": "clients"
-        }
-      ],
-      "locations": [],
-      "businessTags": [
-        "Client",
-        "Commercial"
-      ],
-      "priorityScore": 8,
-      "priorityBand": "medium",
-      "priorityReasons": [
-        "Client mention: ExxonMobil",
-        "Signal: Commercial"
-      ],
-      "boardBucket": "Clients & Projects"
     },
     {
       "id": "4ab02e0f17d742cf",
@@ -1478,6 +1414,40 @@ window.__DASHBOARD_DATA__ = {
       "boardBucket": "Regulation, Safety & Incidents"
     },
     {
+      "id": "bed2e2c14480015a",
+      "title": "Damen contracted for diesel-electric dredge - Power Progress",
+      "source": "Damen Shipyards News",
+      "sourceId": "google-damen",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOZE5rZzFra2doelFMMm8ybUhFbUNyaUw4cDI1NmJGTWZ5Z2N3cHZWaDBsbkdpTGs0SzI4czZ0cV9tbDJPSDhvZGFUU1BzQVJ3a2FQVUFqMkw5Z1A5d21YQXduLTR4Sklzam9fZjBJR3FYTy1Nc3pyV1JNWDJkbm9qb3RERzJoZXNlMlNOZFV5Smx2aGRCNjBMeDl3?oc=5",
+      "publishedAt": "2026-04-27T19:51:55Z",
+      "excerpt": "Damen contracted for diesel-electric dredge Power Progress",
+      "tags": [
+        "Electrification",
+        "Shipbuilding",
+        "Supplier"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [
+        {
+          "name": "Damen Shipyards Group",
+          "category": "suppliers"
+        }
+      ],
+      "locations": [],
+      "businessTags": [
+        "Supplier",
+        "Energy Transition"
+      ],
+      "priorityScore": 7,
+      "priorityBand": "medium",
+      "priorityReasons": [
+        "Supplier mention: Damen Shipyards Group",
+        "Signal: Energy Transition"
+      ],
+      "boardBucket": "Other Relevant"
+    },
+    {
       "id": "d3ac720b36ac9e08",
       "title": "PREVIEW: Marine Environment Protection Committee (MEPC 84), 27 April to 1 May 2026 - International Maritime Organization",
       "source": "IMO Meeting Summaries",
@@ -1511,39 +1481,6 @@ window.__DASHBOARD_DATA__ = {
         "Signal: Regulation"
       ],
       "boardBucket": "Regulation, Safety & Incidents"
-    },
-    {
-      "id": "6b42949ec3379f0c",
-      "title": "Damen Shipyards and ABP Sign Contract for New Trailing Suction Grab Hopper Dredge - imarinenews.com",
-      "source": "Damen Shipyards News",
-      "sourceId": "google-damen",
-      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9VNkR2elB6UzNQZVFTOUp2NFFtRkRMM2duX1dndXB4eF9SNEF1aC1iMjhvaGVmdGY2RnVSaWdibmJraE1YM1ZTZFBKaHpTems?oc=5",
-      "publishedAt": "2026-04-27T01:31:51Z",
-      "excerpt": "Damen Shipyards and ABP Sign Contract for New Trailing Suction Grab Hopper Dredge imarinenews.com",
-      "tags": [
-        "Shipbuilding",
-        "Supplier"
-      ],
-      "audience": "Multraship",
-      "paywalled": false,
-      "entities": [
-        {
-          "name": "Damen Shipyards Group",
-          "category": "suppliers"
-        }
-      ],
-      "locations": [],
-      "businessTags": [
-        "Supplier",
-        "Commercial"
-      ],
-      "priorityScore": 7,
-      "priorityBand": "medium",
-      "priorityReasons": [
-        "Supplier mention: Damen Shipyards Group",
-        "Signal: Commercial"
-      ],
-      "boardBucket": "Other Relevant"
     },
     {
       "id": "83654714ec096c7d",
@@ -1874,6 +1811,32 @@ window.__DASHBOARD_DATA__ = {
       "boardBucket": "Regulation, Safety & Incidents"
     },
     {
+      "id": "1060f6ac1ab785f9",
+      "title": "ONE Profit Plunges 92% as Geopolitics and Overcapacity Squeeze Earnings",
+      "source": "gCaptain",
+      "sourceId": "gcaptain",
+      "url": "https://gcaptain.com/one-profit-plunges-92-as-geopolitics-and-overcapacity-squeeze-earnings",
+      "publishedAt": "2026-05-01T00:23:33Z",
+      "excerpt": "Singapore-based liner giant Ocean Network Express reported a modest but resilient profit for fiscal year 2025, navigating weak cargo demand, rising capacity, and mounting geopolitical disruption across key trade lanes. The company...",
+      "tags": [
+        "Maritime",
+        "Operations"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [
+        "Disruption"
+      ],
+      "priorityScore": 6,
+      "priorityBand": "medium",
+      "priorityReasons": [
+        "Signal: Disruption"
+      ],
+      "boardBucket": "Regulation, Safety & Incidents"
+    },
+    {
       "id": "bf198428bb417938",
       "title": "Contract Awarded for the Removal of the MSC Baltic III Wreck",
       "source": "The Maritime Executive",
@@ -1972,30 +1935,37 @@ window.__DASHBOARD_DATA__ = {
       "boardBucket": "Other Relevant"
     },
     {
-      "id": "db8adc7543057c95",
-      "title": "Royal Caribbean sees demand rebound but fuel costs bite into gains",
-      "source": "Baird Maritime",
-      "sourceId": "baird-maritime",
-      "url": "https://www.bairdmaritime.com/passenger/cruise/royal-caribbean-sees-demand-rebound-but-fuel-costs-bite-into-gains",
-      "publishedAt": "2026-04-30T19:24:47Z",
-      "excerpt": "Royal Caribbean said on Thursday bookings for its luxury Mediterranean cruises have bounced back after about a month of disruption from the Iran war, sending its shares surging as much as 10.8 per cent. Bookings are currently running at a\u2026",
+      "id": "64973b75e6d7e706",
+      "title": "Kongsberg Maritime Wins Contract with French Naval Academy in Lanv\u00e9oc - The Maritime Executive",
+      "source": "Kongsberg Maritime News",
+      "sourceId": "google-kongsberg",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNOUJVMzdETEVwU3ltNXY1X3VQWmRtb2NiT2Z4WHFQaHMxMm1XYTVtaUF0MVhyOVBRNFZURkIwcHNJXzZVZHhrS25jMWZ2WXJVNHdGMk54R3RNOXhsd0hQUm43MGItd1E5bFhjSlBDb0RCSkloNklQT1FXT1czMFU3OV8yb3VNMTRXMjRHSkFicWdrRGptYnVhT0xXQmdmQUxFenZLT0Rta09oZ0hPZXh3?oc=5",
+      "publishedAt": "2026-04-30T20:41:19Z",
+      "excerpt": "Kongsberg Maritime Wins Contract with French Naval Academy in Lanv\u00e9oc The Maritime Executive",
       "tags": [
-        "Workboats",
-        "Technology"
+        "Technology",
+        "Supplier"
       ],
-      "audience": "Multraship",
+      "audience": "Both",
       "paywalled": false,
-      "entities": [],
+      "entities": [
+        {
+          "name": "Kongsberg Maritime",
+          "category": "suppliers"
+        }
+      ],
       "locations": [],
       "businessTags": [
-        "Disruption"
+        "Supplier",
+        "Commercial"
       ],
       "priorityScore": 6,
       "priorityBand": "medium",
       "priorityReasons": [
-        "Signal: Disruption"
+        "Supplier mention: Kongsberg Maritime",
+        "Signal: Commercial"
       ],
-      "boardBucket": "Regulation, Safety & Incidents"
+      "boardBucket": "Other Relevant"
     },
     {
       "id": "f3d2a1882d675f09",
@@ -2208,37 +2178,6 @@ window.__DASHBOARD_DATA__ = {
       "boardBucket": "Clients & Projects"
     },
     {
-      "id": "143cb10813a5a3ca",
-      "title": "Maersk Tankers vessel equipped with bound4blue eSAILs - ship.energy",
-      "source": "Maersk Tankers News",
-      "sourceId": "google-maersk-tankers",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOeExjdU9nS19OZEFPaXprVmVDYTF6N2JBeTVXdTVNM3VMOHVQeXNQT1FwdF9MX1NaX2w4dDB5TWZDUXV5M0l6c1pCZUJBZ0hRN0s5blhUbUxZZUExTmpESDdnNG14UDZ1NXRiWEYyQmg4STJ6dUVFWFd3aXJfMUxUcWktNGpZTGZM?oc=5",
-      "publishedAt": "2026-04-30T08:51:38Z",
-      "excerpt": "Maersk Tankers vessel equipped with bound4blue eSAILs ship.energy",
-      "tags": [
-        "Tankers",
-        "Shipping"
-      ],
-      "audience": "Multraship",
-      "paywalled": false,
-      "entities": [
-        {
-          "name": "Maersk Tankers",
-          "category": "clients"
-        }
-      ],
-      "locations": [],
-      "businessTags": [
-        "Client"
-      ],
-      "priorityScore": 6,
-      "priorityBand": "medium",
-      "priorityReasons": [
-        "Client mention: Maersk Tankers"
-      ],
-      "boardBucket": "Clients & Projects"
-    },
-    {
       "id": "c2db2d419eb4c3c1",
       "title": "Bound4blue Completes Second Wind Propulsion Installation for Maersk Tankers - Ship & Bunker",
       "source": "Maersk Tankers News",
@@ -2269,39 +2208,6 @@ window.__DASHBOARD_DATA__ = {
         "Client mention: Maersk Tankers"
       ],
       "boardBucket": "Clients & Projects"
-    },
-    {
-      "id": "d2cead506171b8b9",
-      "title": "Kongsberg Maritime wins simulator contract with the French Navy - navalnews.com",
-      "source": "Kongsberg Maritime News",
-      "sourceId": "google-kongsberg",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQQkJ1YTh0bEljRGVSQkFIRXdxYUl4Qjl1S2R3ZDJCVm9wUWl0b2xQZVJMcGMxUGx1SDBEVEVpeXRQS2ZYOTE2eGxlVUFxS2Z0QWxhWmlLME52VlZXalloVWN0dThLaHlWazhIeXNXdnV0U2wtVHVGb1pkNG9aeXNQQlEtdDJwbThhbzJQaVAyVmhJUlU4dXVoN25kZWdMVXdCNkxJMmlwTnpCS1JWb2c?oc=5",
-      "publishedAt": "2026-04-30T07:29:19Z",
-      "excerpt": "Kongsberg Maritime wins simulator contract with the French Navy navalnews.com",
-      "tags": [
-        "Technology",
-        "Supplier"
-      ],
-      "audience": "Both",
-      "paywalled": false,
-      "entities": [
-        {
-          "name": "Kongsberg Maritime",
-          "category": "suppliers"
-        }
-      ],
-      "locations": [],
-      "businessTags": [
-        "Supplier",
-        "Commercial"
-      ],
-      "priorityScore": 6,
-      "priorityBand": "medium",
-      "priorityReasons": [
-        "Supplier mention: Kongsberg Maritime",
-        "Signal: Commercial"
-      ],
-      "boardBucket": "Other Relevant"
     },
     {
       "id": "7bdb6bfe357f6337",
@@ -3139,6 +3045,39 @@ window.__DASHBOARD_DATA__ = {
       "boardBucket": "Other Relevant"
     },
     {
+      "id": "2128bcaa437500a3",
+      "title": "Kongsberg Maritime wins simulator contract with the French Naval Academy in Lanv\u00e9oc - Mynewsdesk",
+      "source": "Kongsberg Maritime News",
+      "sourceId": "google-kongsberg",
+      "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPbGtPY0t5MnQtZ0pMeTgxSExvNm9FT3lrNTU2V2Z2UVJHc1Ytd3JoRUtscENwc3I3MjJOR3lEenNmR0ZYa3RYcjNydDlrRjQyc3A3aTQtMl9yNVdMR1B2SGlQem14dXZnUTZUUHhvQ3JkSnRJZkdqRXNDRzFaTzVLaHVaUmF1T3dzY3pweFlUZXlFOUFGQ19UZnpZQjBEa3g2bUtPMHc1RHZpazNhOEprSU52ajdHdDh5U2FWQkQxWWV3ZjdNU1VlS0Q2MGJ5VUd1TjNRcnFZbDlNYUpkVl9ENGlqcGJZRGQzY1E?oc=5",
+      "publishedAt": "2026-04-28T08:00:00Z",
+      "excerpt": "Kongsberg Maritime wins simulator contract with the French Naval Academy in Lanv\u00e9oc Mynewsdesk",
+      "tags": [
+        "Technology",
+        "Supplier"
+      ],
+      "audience": "Both",
+      "paywalled": false,
+      "entities": [
+        {
+          "name": "Kongsberg Maritime",
+          "category": "suppliers"
+        }
+      ],
+      "locations": [],
+      "businessTags": [
+        "Supplier",
+        "Commercial"
+      ],
+      "priorityScore": 6,
+      "priorityBand": "medium",
+      "priorityReasons": [
+        "Supplier mention: Kongsberg Maritime",
+        "Signal: Commercial"
+      ],
+      "boardBucket": "Other Relevant"
+    },
+    {
       "id": "4e3caf23e38bac29",
       "title": "Boluda takes control of Seatrium\u2019s towage fleet in Singapore - Seatrade Maritime News",
       "source": "Boluda News",
@@ -3421,37 +3360,6 @@ window.__DASHBOARD_DATA__ = {
       "boardBucket": "Clients & Projects"
     },
     {
-      "id": "1926a6d3a5cab276",
-      "title": "How Oldendorff is handling having ships stuck in the Gulf - Tradewinds News",
-      "source": "Oldendorff Carriers News",
-      "sourceId": "google-oldendorff",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPUkprV04xVnhKWFNiOHAtQ2R3MHQxSE1VZTVrcDNHX1JLS0c0SGJXdk1uUDd5bUFzZENxeXlJYUhxeTZWazh4c0tDamg1M2JZdzdPVExTc1d5YUtDd0Fod0c0S3I2ZlhVS25DbWFJbXJ4d3NFNjBZRjNqdWJ2Ukh5ajNzRUpaVnl5eXplcDk0ZlNBbWVfTVVNX1Y2SjhxNFBWYWZhZnlhV1Q3djczSFp5ZUEwZlZhMnc?oc=5",
-      "publishedAt": "2026-04-21T06:33:35Z",
-      "excerpt": "How Oldendorff is handling having ships stuck in the Gulf Tradewinds News",
-      "tags": [
-        "Shipping",
-        "Bulk"
-      ],
-      "audience": "Multraship",
-      "paywalled": false,
-      "entities": [
-        {
-          "name": "Oldendorff Carriers",
-          "category": "clients"
-        }
-      ],
-      "locations": [],
-      "businessTags": [
-        "Client"
-      ],
-      "priorityScore": 6,
-      "priorityBand": "medium",
-      "priorityReasons": [
-        "Client mention: Oldendorff Carriers"
-      ],
-      "boardBucket": "Clients & Projects"
-    },
-    {
       "id": "10b33ad33a871165",
       "title": "ITS Convention: owners will tackle towage, salvage challenges",
       "source": "Riviera: Ports & Terminals",
@@ -3478,6 +3386,37 @@ window.__DASHBOARD_DATA__ = {
         "Signal: Incident"
       ],
       "boardBucket": "Regulation, Safety & Incidents"
+    },
+    {
+      "id": "1926a6d3a5cab276",
+      "title": "How Oldendorff is handling having ships stuck in the Gulf - Tradewinds News",
+      "source": "Oldendorff Carriers News",
+      "sourceId": "google-oldendorff",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPUkprV04xVnhKWFNiOHAtQ2R3MHQxSE1VZTVrcDNHX1JLS0c0SGJXdk1uUDd5bUFzZENxeXlJYUhxeTZWazh4c0tDamg1M2JZdzdPVExTc1d5YUtDd0Fod0c0S3I2ZlhVS25DbWFJbXJ4d3NFNjBZRjNqdWJ2Ukh5ajNzRUpaVnl5eXplcDk0ZlNBbWVfTVVNX1Y2SjhxNFBWYWZhZnlhV1Q3djczSFp5ZUEwZlZhMnc?oc=5",
+      "publishedAt": "2026-04-20T07:00:00Z",
+      "excerpt": "How Oldendorff is handling having ships stuck in the Gulf Tradewinds News",
+      "tags": [
+        "Shipping",
+        "Bulk"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [
+        {
+          "name": "Oldendorff Carriers",
+          "category": "clients"
+        }
+      ],
+      "locations": [],
+      "businessTags": [
+        "Client"
+      ],
+      "priorityScore": 6,
+      "priorityBand": "medium",
+      "priorityReasons": [
+        "Client mention: Oldendorff Carriers"
+      ],
+      "boardBucket": "Clients & Projects"
     },
     {
       "id": "127e90407a4d3364",
@@ -3964,12 +3903,12 @@ window.__DASHBOARD_DATA__ = {
       "boardBucket": "Regulation, Safety & Incidents"
     },
     {
-      "id": "cbe2748a19576dee",
+      "id": "83559a14f3f28566",
       "title": "ILT News page updated",
       "source": "ILT News",
       "sourceId": "ilt-news",
-      "url": "https://english.ilent.nl/latest/news?dashboardChange=114551fbbc00",
-      "publishedAt": "2026-04-30T22:40:24.366859Z",
+      "url": "https://english.ilent.nl/latest/news?dashboardChange=f90354378108",
+      "publishedAt": "2026-05-01T01:52:12.636857Z",
       "excerpt": "Tracked page content changed.",
       "tags": [
         "Regulation",
@@ -3996,58 +3935,57 @@ window.__DASHBOARD_DATA__ = {
       "boardBucket": "Regulation, Safety & Incidents"
     },
     {
-      "id": "29d0496d0e399db1",
-      "title": "US court sends $4 billion LNG legal battle back to Virginia state court",
-      "source": "Offshore Energy",
-      "sourceId": "offshore-energy",
-      "url": "https://www.offshore-energy.biz/us-court-sends-4-billion-lng-legal-battle-back-to-virginia-state-court",
-      "publishedAt": "2026-04-30T14:24:07Z",
-      "excerpt": "Sinolam International, a Singapore-based investment company focused on oil, gas, and power investments in emerging markets in Asia and Latin America, has disclosed the return of its multibillion-dollar lawsuit against AES Corporation to th\u2026",
+      "id": "d704cf561798c540",
+      "title": "Russian yard launches second electric river ferry in series",
+      "source": "Baird Maritime",
+      "sourceId": "baird-maritime",
+      "url": "https://www.bairdmaritime.com/passenger/ferry/russian-yard-launches-second-electric-river-ferry-in-series",
+      "publishedAt": "2026-05-01T01:36:48Z",
+      "excerpt": "Russian shipyard Emperium recently launched the second vessel in a series of electric ferries slated for local transport company Vodohod. Lomonosov (\u041b\u043e\u043c\u043e\u043d\u043e\u0441\u043e\u0432) belongs to the Project EM901 or Moskva 2.0 series of river ferries, which are b\u2026",
       "tags": [
-        "Energy-Transition",
+        "Electrification",
+        "Workboats",
         "Technology"
       ],
-      "audience": "Novatug",
+      "audience": "Both",
       "paywalled": false,
       "entities": [],
       "locations": [],
       "businessTags": [
-        "Regulation",
-        "Commercial"
+        "Commercial",
+        "Energy Transition"
       ],
       "priorityScore": 5,
       "priorityBand": "medium",
       "priorityReasons": [
-        "Signal: Regulation",
-        "Signal: Commercial"
+        "Signal: Commercial",
+        "Signal: Energy Transition"
       ],
-      "boardBucket": "Regulation, Safety & Incidents"
+      "boardBucket": "Other Relevant"
     },
     {
-      "id": "66d734c5a448aef2",
-      "title": "JHI\u2019s shareholders\u2019 approval next on the agenda to back Eco takeover",
-      "source": "Offshore Energy",
-      "sourceId": "offshore-energy",
-      "url": "https://www.offshore-energy.biz/jhis-shareholders-approval-next-on-the-agenda-to-back-eco-takeover",
-      "publishedAt": "2026-04-30T10:14:13Z",
-      "excerpt": "Eco (Atlantic) Oil & Gas, an AIM-listed and Canada-headquartered oil and gas company focused on the Atlantic Margin, has shed light on the latest developments regarding its acquisition of the issued and to-be-issued shares it does not alre\u2026",
+      "id": "b27592887e535119",
+      "title": "Maryland Plans to Replace its Contractor for Key Bridge Reconstruction",
+      "source": "The Maritime Executive",
+      "sourceId": "maritime-executive",
+      "url": "https://maritime-executive.com/article/maryland-plans-to-replace-its-contractor-for-key-bridge-reconstruction",
+      "publishedAt": "2026-04-30T22:50:00Z",
+      "excerpt": "The state of Maryland has decided to change contractors for the reconstruction of the Francis Scott Key Bridge, which was destroyed by a ship strike...",
       "tags": [
-        "Energy-Transition",
-        "Technology"
+        "Maritime",
+        "News"
       ],
-      "audience": "Novatug",
+      "audience": "Both",
       "paywalled": false,
       "entities": [],
       "locations": [],
       "businessTags": [
-        "Regulation",
-        "Commercial"
+        "Disruption"
       ],
       "priorityScore": 5,
       "priorityBand": "medium",
       "priorityReasons": [
-        "Signal: Regulation",
-        "Signal: Commercial"
+        "Signal: Disruption"
       ],
       "boardBucket": "Regulation, Safety & Incidents"
     },
@@ -4518,7 +4456,7 @@ window.__DASHBOARD_DATA__ = {
     },
     {
       "id": "3b3dde4af1bfa88b",
-      "title": "Czech investor KKCG lays out vision for Ferretti as it seeks to wrestle control from Chinese group",
+      "title": "Czech investor KKCG lays out vision for Ferretti as it seeks to wrest control from Chinese group",
       "source": "Baird Maritime",
       "sourceId": "baird-maritime",
       "url": "https://www.bairdmaritime.com/superyachts/czech-investor-kkcg-lays-out-vision-for-ferretti-as-it-seeks-to-wrestle-control-from-chinese-group",
@@ -4539,37 +4477,6 @@ window.__DASHBOARD_DATA__ = {
       "priorityBand": "medium",
       "priorityReasons": [
         "Signal: Commercial"
-      ],
-      "boardBucket": "Other Relevant"
-    },
-    {
-      "id": "c0eb0e73b818e16f",
-      "title": "Kongsberg Maritime ASA Financial Statements \u2013 LSX:A429K5 - TradingView",
-      "source": "Kongsberg Maritime News",
-      "sourceId": "google-kongsberg",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE85Y0xhZkJuNXpoSDF2NUJ1WTlEU25oSUMyb1gxZ2FuRS1pRTk5bm9BTmRwemZjazNYNUZlXzhYOUFuTzgyMWtpUjg0WTAyc1Q5TnRtdGthNDl0TmU4ODBOajBfLXpzcVpidHRIN3I5YUlyQTdFX3c?oc=5",
-      "publishedAt": "2026-04-30T16:27:03Z",
-      "excerpt": "Kongsberg Maritime ASA Financial Statements \u2013 LSX:A429K5 TradingView",
-      "tags": [
-        "Technology",
-        "Supplier"
-      ],
-      "audience": "Both",
-      "paywalled": false,
-      "entities": [
-        {
-          "name": "Kongsberg Maritime",
-          "category": "suppliers"
-        }
-      ],
-      "locations": [],
-      "businessTags": [
-        "Supplier"
-      ],
-      "priorityScore": 4,
-      "priorityBand": "medium",
-      "priorityReasons": [
-        "Supplier mention: Kongsberg Maritime"
       ],
       "boardBucket": "Other Relevant"
     },
@@ -4696,38 +4603,6 @@ window.__DASHBOARD_DATA__ = {
         "Supplier mention: Kongsberg Maritime"
       ],
       "boardBucket": "Other Relevant"
-    },
-    {
-      "id": "0ffaa7d9816f3a22",
-      "title": "Second Maersk Tankers vessel fitted with Spain-made suction sails",
-      "source": "Offshore Energy",
-      "sourceId": "offshore-energy",
-      "url": "https://www.offshore-energy.biz/second-maersk-tankers-vessel-fitted-with-spain-made-suction-sails",
-      "publishedAt": "2026-04-30T11:01:41Z",
-      "excerpt": "After completing installation on the first vessel in January, Spanish automated wind-assisted propulsion system [\u2026] The post Second Maersk Tankers vessel fitted with Spain-made suction sails appeared first on Offshore Energy .",
-      "tags": [
-        "Clean Propulsion",
-        "Energy-Transition",
-        "Technology"
-      ],
-      "audience": "Novatug",
-      "paywalled": false,
-      "entities": [
-        {
-          "name": "Maersk Tankers",
-          "category": "clients"
-        }
-      ],
-      "locations": [],
-      "businessTags": [
-        "Client"
-      ],
-      "priorityScore": 4,
-      "priorityBand": "medium",
-      "priorityReasons": [
-        "Client mention: Maersk Tankers"
-      ],
-      "boardBucket": "Clients & Projects"
     },
     {
       "id": "adef455912bb4d0b",
@@ -5021,6 +4896,37 @@ window.__DASHBOARD_DATA__ = {
       "boardBucket": "Other Relevant"
     },
     {
+      "id": "c239e1ed9beaf9db",
+      "title": "KMAR.OL Stock Chart | KONGSBERG MARITIME AS (OSL:KMAR) - ChartMill",
+      "source": "Kongsberg Maritime News",
+      "sourceId": "google-kongsberg",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1BbUdVVVVvMmVCZTl2amowanlwNEdyakplUkhKYktyYy1VZFlfNGxybi1hUUNDaEsySTQweDFvc2VYOUJLMzRCblN4aU41Sng1RXdQazRpSl9pakVCWWc3alZWeG81MXJF?oc=5",
+      "publishedAt": "2026-04-28T08:35:53Z",
+      "excerpt": "KMAR.OL Stock Chart | KONGSBERG MARITIME AS (OSL:KMAR) ChartMill",
+      "tags": [
+        "Technology",
+        "Supplier"
+      ],
+      "audience": "Both",
+      "paywalled": false,
+      "entities": [
+        {
+          "name": "Kongsberg Maritime",
+          "category": "suppliers"
+        }
+      ],
+      "locations": [],
+      "businessTags": [
+        "Supplier"
+      ],
+      "priorityScore": 4,
+      "priorityBand": "medium",
+      "priorityReasons": [
+        "Supplier mention: Kongsberg Maritime"
+      ],
+      "boardBucket": "Other Relevant"
+    },
+    {
       "id": "c122c22f1c2a22b4",
       "title": "ABS green-lights Japanese autonomous rocket landing platform vessel design",
       "source": "Riviera: Regulations & Compliance",
@@ -5171,44 +5077,13 @@ window.__DASHBOARD_DATA__ = {
       "boardBucket": "Other Relevant"
     },
     {
-      "id": "8592af75ba71be6e",
-      "title": "KONGSBERG MARITIME ASA Statistics \u2013 FWB:Z4Q - TradingView",
+      "id": "580dfbe32eb2a4f7",
+      "title": "Kongsberg Maritime ASA Debuts on Euronext Oslo Under Ticker KMAR - News and Statistics - IndexBox",
       "source": "Kongsberg Maritime News",
       "sourceId": "google-kongsberg",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQdklraUNlaS05TDRfekNMeXZ2OWdSbm04LUZ3RzRTbktHZ3JMYWN4OXNpZGplSHV4TVNzSndHanUycm85QnJrVExKejlvVURsdFhONU9KQllYdFpGeDNvLVc3N1FhV0xlc0VHNzdJc2dHeGNuN0VyblpSaXNkdlVxdFBtaw?oc=5",
-      "publishedAt": "2026-04-24T21:07:17Z",
-      "excerpt": "KONGSBERG MARITIME ASA Statistics \u2013 FWB:Z4Q TradingView",
-      "tags": [
-        "Technology",
-        "Supplier"
-      ],
-      "audience": "Both",
-      "paywalled": false,
-      "entities": [
-        {
-          "name": "Kongsberg Maritime",
-          "category": "suppliers"
-        }
-      ],
-      "locations": [],
-      "businessTags": [
-        "Supplier"
-      ],
-      "priorityScore": 4,
-      "priorityBand": "medium",
-      "priorityReasons": [
-        "Supplier mention: Kongsberg Maritime"
-      ],
-      "boardBucket": "Other Relevant"
-    },
-    {
-      "id": "24d02104ab383f4d",
-      "title": "Number of employees of KONGSBERG MARITIME ASA \u2013 FWB:Z4Q - TradingView",
-      "source": "Kongsberg Maritime News",
-      "sourceId": "google-kongsberg",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNTkNtOEhaNF9ZU25OazZic2J6Q1JiYmlGdjJsNjVmRGRVQXA5dkRDVGVDMFFwd2F5QUVVYTZFel9SZjBaTGI5NWVfSUxOa214UUhKbWg3VVZCb3oxQ1FIWVRsZUhSaEdXNzV0a19mM2JpSjEwTXdqdHZfTV9Gc2lZWUNPTjdVOE9JSENzTXBtQTdqZE5qVjBkd0JtaUpjdw?oc=5",
-      "publishedAt": "2026-04-24T20:50:35Z",
-      "excerpt": "Number of employees of KONGSBERG MARITIME ASA \u2013 FWB:Z4Q TradingView",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNN3ZoX2tSampQaGx5aW0tM25mRG14aGtmWVBXSDhzRlRXalltbXU3WW1VQlg5QzYzSkplOWFPN1ZQbE1XQm56OU1ic2pISzRycGtYTkFWdzNvUFQzUFZhMU9JWU05SkVLRGxTd0Y0Ync0NW05YU5JR2VpNW1ZcEJ1N3NPaElYTlBxX0wzb0JROXR6S3RTSGNJblZjNjFtSDdL?oc=5",
+      "publishedAt": "2026-04-25T00:30:00Z",
+      "excerpt": "Kongsberg Maritime ASA Debuts on Euronext Oslo Under Ticker KMAR - News and Statistics IndexBox",
       "tags": [
         "Technology",
         "Supplier"
@@ -5240,37 +5115,6 @@ window.__DASHBOARD_DATA__ = {
       "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE8xejUyVjh3eGt3RnBZcGpCWlRBRGM2RGVVYUthQjE2Y3Z3ZmJ3eVdFNVBtXzZleFp0YzM2anE4YnFrWTYxakl0SGFpU0F0cTlDSGl0bURpSlpyejZjMERQNG5wQUhmaGJvbDJDcmJRUUZabjRFVktURkVn?oc=5",
       "publishedAt": "2026-04-24T19:07:27Z",
       "excerpt": "KONGSBERG MARITIME ASA Cash Flow \u2013 OMXSTO:KMARO TradingView",
-      "tags": [
-        "Technology",
-        "Supplier"
-      ],
-      "audience": "Both",
-      "paywalled": false,
-      "entities": [
-        {
-          "name": "Kongsberg Maritime",
-          "category": "suppliers"
-        }
-      ],
-      "locations": [],
-      "businessTags": [
-        "Supplier"
-      ],
-      "priorityScore": 4,
-      "priorityBand": "medium",
-      "priorityReasons": [
-        "Supplier mention: Kongsberg Maritime"
-      ],
-      "boardBucket": "Other Relevant"
-    },
-    {
-      "id": "7242f7c0e480a5aa",
-      "title": "KONGSBERG MARITIME ASA Financial Statements \u2013 OMXSTO:KMARO - TradingView",
-      "source": "Kongsberg Maritime News",
-      "sourceId": "google-kongsberg",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9WUmVocjBpR2VkX25ONzZRS2hiT3lpWjUycFZwMF9KUHFkamxGNWlHRFBKbzZJSHpKLWgxY1Q3NWp6SmFOTXF4OGgxeDRtaVU5RExlSEJSZDliTzB2SlNqa0E3TGlpNDhJWUVhUHlrN3RmSWZIV2IyMQ?oc=5",
-      "publishedAt": "2026-04-24T17:07:58Z",
-      "excerpt": "KONGSBERG MARITIME ASA Financial Statements \u2013 OMXSTO:KMARO TradingView",
       "tags": [
         "Technology",
         "Supplier"
@@ -5357,13 +5201,44 @@ window.__DASHBOARD_DATA__ = {
       "boardBucket": "Other Relevant"
     },
     {
-      "id": "082ad47bc1c45249",
-      "title": "Defining moment for Kongsberg Maritime - Seawork 2026",
+      "id": "20cb925f45b1a750",
+      "title": "Kongsberg Maritime Begins Trading on the Oslo Stock Exchange - Marine News Magazine",
       "source": "Kongsberg Maritime News",
       "sourceId": "google-kongsberg",
-      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBJelFFY280eU1RVXdIdjUyLWo3cWJjZ0lmU1BkZ0lrZU1PdnphNDVuMmlvMDNmTWNjOUVMcHFaNnpkbTc2SmlCbDZjaThTbFNTY0xVZUcxMjNReTdqNEZocHR1MnZnT05hTTg1WjFDdklSbGN3WlRCem8zMjI?oc=5",
-      "publishedAt": "2026-04-23T21:17:19Z",
-      "excerpt": "Defining moment for Kongsberg Maritime Seawork 2026",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPUmxzR0x4Z05mS1MwZ3YxXzlLRldNU25CNHpnRU5TQ2xSMUNybkJYRW9qOXZuUjZzYThfdHZSVHNjRHM0cWR4LTVpdmI0NmtKTDVWcHNuNFdvUGNFNFBtUmRpSjgyS0doT0JwcHJRdkpQcEszVzZsZWdkeDIyN0lEMDltYw?oc=5",
+      "publishedAt": "2026-04-24T10:07:53Z",
+      "excerpt": "Kongsberg Maritime Begins Trading on the Oslo Stock Exchange Marine News Magazine",
+      "tags": [
+        "Technology",
+        "Supplier"
+      ],
+      "audience": "Both",
+      "paywalled": false,
+      "entities": [
+        {
+          "name": "Kongsberg Maritime",
+          "category": "suppliers"
+        }
+      ],
+      "locations": [],
+      "businessTags": [
+        "Supplier"
+      ],
+      "priorityScore": 4,
+      "priorityBand": "medium",
+      "priorityReasons": [
+        "Supplier mention: Kongsberg Maritime"
+      ],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "e1ac8f286319deb9",
+      "title": "Danske Bank initiates coverage of Kongsberg Maritime with Buy rating and NOK 80 price target - marketscreener.com",
+      "source": "Kongsberg Maritime News",
+      "sourceId": "google-kongsberg",
+      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxONGRzWHI0UXJYeGlPNWo4UmpxeVI1eFA2bzI0Mm5vQWF5VFBFanhrcWNZYVNrZkZzUHdnZ1RWZk1pRVJRZjBhYlNqRnhOdEMzdmhTNUhmek1HRHNwbl9EbkxzTlhyMUo5bF9GRTEwSHZOUVJGSGg2VlYzWmxHdGdGU1FhLUh2eEFnYkpxNS1lOVV5WFBhd3pPWU1odlJmZmRYa0VXTWZnLTJRZHVvRWZKbEZJeFJEN2Fma3pvSG1GZkdQTk9zLTFEY0kyWVJCTk53V3UyUFJzMUk5SEJIemc?oc=5",
+      "publishedAt": "2026-04-24T07:36:19Z",
+      "excerpt": "Danske Bank initiates coverage of Kongsberg Maritime with Buy rating and NOK 80 price target marketscreener.com",
       "tags": [
         "Technology",
         "Supplier"
@@ -5534,37 +5409,6 @@ window.__DASHBOARD_DATA__ = {
       "boardBucket": "Other Relevant"
     },
     {
-      "id": "0dfb70de8c0f56b3",
-      "title": "W\u00e4rtsil\u00e4 Launches Next-Generation Ship-Handling Simulator - Marine News Magazine",
-      "source": "W\u00e4rtsil\u00e4 News",
-      "sourceId": "google-wartsila",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFA1UEFNUHBERWlyQlhkTHFhWlNob1VwOXdIQnZzVFp1QTZVNmJLNDh4amFNMXhGWm93M2h1bW1ZVjlsSVJyell6LUNzLXMtbXpEdmtUM0paLVNHTlVtSjJGZE1hT1ViTV84TWNqcGdmZFJIRXZCRGFncA?oc=5",
-      "publishedAt": "2026-04-21T09:30:03Z",
-      "excerpt": "W\u00e4rtsil\u00e4 Launches Next-Generation Ship-Handling Simulator Marine News Magazine",
-      "tags": [
-        "Propulsion",
-        "Technology"
-      ],
-      "audience": "Both",
-      "paywalled": false,
-      "entities": [
-        {
-          "name": "W\u00e4rtsil\u00e4",
-          "category": "suppliers"
-        }
-      ],
-      "locations": [],
-      "businessTags": [
-        "Supplier"
-      ],
-      "priorityScore": 4,
-      "priorityBand": "medium",
-      "priorityReasons": [
-        "Supplier mention: W\u00e4rtsil\u00e4"
-      ],
-      "boardBucket": "Other Relevant"
-    },
-    {
       "id": "2cc2676af5a21994",
       "title": "W\u00e4rtsil\u00e4 launches next-generation simulation platform to support future-ready maritime training - W\u00e4rtsil\u00e4",
       "source": "W\u00e4rtsil\u00e4 News",
@@ -5660,38 +5504,6 @@ window.__DASHBOARD_DATA__ = {
       "boardBucket": "Regulation, Safety & Incidents"
     },
     {
-      "id": "50f81625ee91108e",
-      "title": "W\u00e4rtsil\u00e4 integrated propulsion solution to deliver future-proofing for new next-generation short-sea cargo vessel - W\u00e4rtsil\u00e4",
-      "source": "W\u00e4rtsil\u00e4 News",
-      "sourceId": "google-wartsila",
-      "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxON0tGZVlpd2FiMnVud3hRZWpaRF96OHpFbW5kTmdXWVBGSkNNVVpxMkwtVzhQZl9RS1Y0Ql9UUHRIRGJ2LXdPYUhXWGtQTjBWUy1NZGM4bDJkSW00QTZrLWVUd1NONkZjQXQ5VEJxTmNwSXVMMDRmRnRWQjcybTJ1cjRpRlFQa1g1VXBkanQxZUd5UWt1Q3VJSUdkRmlVRFEwZWtOUENXN2RWcTAwTFExYmFiVFlpSVJlOEpwT2daU1B4STlZNWo1N051T0JMaWdscThobUlVaVVSUTBSTzU1dVVLNDJha0NWcXB5S3g2b3JyQTl6UkpqQU9Dbzk?oc=5",
-      "publishedAt": "2026-04-14T07:00:00Z",
-      "excerpt": "W\u00e4rtsil\u00e4 integrated propulsion solution to deliver future-proofing for new next-generation short-sea cargo vessel W\u00e4rtsil\u00e4",
-      "tags": [
-        "Clean Propulsion",
-        "Propulsion",
-        "Technology"
-      ],
-      "audience": "Both",
-      "paywalled": false,
-      "entities": [
-        {
-          "name": "W\u00e4rtsil\u00e4",
-          "category": "suppliers"
-        }
-      ],
-      "locations": [],
-      "businessTags": [
-        "Supplier"
-      ],
-      "priorityScore": 4,
-      "priorityBand": "medium",
-      "priorityReasons": [
-        "Supplier mention: W\u00e4rtsil\u00e4"
-      ],
-      "boardBucket": "Other Relevant"
-    },
-    {
       "id": "016bd81df2772304",
       "title": "MEPC 84 agenda includes new BWMS approvals",
       "source": "Riviera: Regulations & Compliance",
@@ -5738,6 +5550,169 @@ window.__DASHBOARD_DATA__ = {
       ],
       "priorityScore": 4,
       "priorityBand": "medium",
+      "priorityReasons": [
+        "Signal: Commercial"
+      ],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "380ff40b62db9e29",
+      "title": "Ceasefire lifts sentiment - Heavy Lift & Project Forwarding International",
+      "source": "Sarens News",
+      "sourceId": "google-sarens",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQNjBVdlJwU3B3MGw2bUZrcnF5RUV4ZlVGcnhWbXZiT09GckxMdHd6cVJGWVNlOWluZWxzcGZDNGh3RGZESEJjRW92OTFjLThtazhiSWhsMFJoYVFGNnoyR0dST3Y2T2ZHa2hqd1p5aEIwYzZHTEZhajgzRUlCczRHLU9B?oc=5",
+      "publishedAt": "2026-04-08T07:57:53Z",
+      "excerpt": "Ceasefire lifts sentiment Heavy Lift & Project Forwarding International",
+      "tags": [
+        "Incidents",
+        "Heavy-Lift"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [
+        "Commercial"
+      ],
+      "priorityScore": 4,
+      "priorityBand": "medium",
+      "priorityReasons": [
+        "Signal: Commercial"
+      ],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "32b074ce363b9924",
+      "title": "Long-term W\u00e4rtsil\u00e4 Lifecycle Agreement supports Margaritaville at Sea\u2019s commitment to excellence, reliability, and operational performance - W\u00e4rtsil\u00e4",
+      "source": "W\u00e4rtsil\u00e4 News",
+      "sourceId": "google-wartsila",
+      "url": "https://news.google.com/rss/articles/CBMimwJBVV95cUxOd3N6N3hUMFN3WU1oeTZVSnBjSG5CaXA5MEI5RV82X3VtU05oUVRBNnJqMTlzYmZoN0c2S05QMzlDUVBTWHBycHdmei1UTGRsN2dyU0tsTDcxRGthZl95clZ4NVFMVzJ1R0tWUGZuRkZubEY5SWZIT3NxR0JNWFREdmJRVExNQ1MzUWpDUXNkdndkMUpGb2F5VjhLVG5TbUxLaXc3Ymw4eVM1NnF6SG5HZ0ZIcnVpX2psbHZKSnJkUXFzeUdvZ3hSUXFDNWtpYkViYW1NRXlQWHRlTjg5VTFjMHZpdnFxakh6a0MzQ1c4LWFIR0wxUENJNXVjNzlSMmVzMWhMTU1BQUpYV1g4OHpuVG1jSEo4T1hmVFJz?oc=5",
+      "publishedAt": "2026-04-08T07:00:00Z",
+      "excerpt": "Long-term W\u00e4rtsil\u00e4 Lifecycle Agreement supports Margaritaville at Sea\u2019s commitment to excellence, reliability, and operational performance W\u00e4rtsil\u00e4",
+      "tags": [
+        "Propulsion",
+        "Technology"
+      ],
+      "audience": "Both",
+      "paywalled": false,
+      "entities": [
+        {
+          "name": "W\u00e4rtsil\u00e4",
+          "category": "suppliers"
+        }
+      ],
+      "locations": [],
+      "businessTags": [
+        "Supplier"
+      ],
+      "priorityScore": 4,
+      "priorityBand": "medium",
+      "priorityReasons": [
+        "Supplier mention: W\u00e4rtsil\u00e4"
+      ],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "d00abb89bac4411c",
+      "title": "Bhagwan acquires Riverside Marine, expanding Australian port operations",
+      "source": "Riviera: Ports & Terminals",
+      "sourceId": "riviera-ports",
+      "url": "https://www.rivieramm.com/news-content-hub/australia-bhagwan-acquires-riverside-marine-expanding-port-operations-88362",
+      "publishedAt": "2026-04-07T08:30:00Z",
+      "excerpt": "US$90M enterprise-value deal brings tugboat fleet management to key metal ore export ports",
+      "tags": [
+        "Towage",
+        "Operations",
+        "Ports",
+        "Terminals"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [
+        "Operations"
+      ],
+      "priorityScore": 4,
+      "priorityBand": "medium",
+      "priorityReasons": [
+        "Signal: Operations"
+      ],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "dbdb2598aade432f",
+      "title": "Design flexibility moves to front of shipbuilding",
+      "source": "Riviera: Regulations & Compliance",
+      "sourceId": "riviera-regulation",
+      "url": "https://www.rivieramm.com/news-content-hub/design-flexibility-moves-to-front-of-shipbuilding-88094",
+      "publishedAt": "2026-04-06T08:30:00Z",
+      "excerpt": "Early design choices now carry far more weight as owners weigh fuel-readiness, efficiency devices and future compliance costs",
+      "tags": [
+        "Regulation",
+        "Compliance"
+      ],
+      "audience": "Both",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [
+        "Regulation"
+      ],
+      "priorityScore": 4,
+      "priorityBand": "medium",
+      "priorityReasons": [
+        "Signal: Regulation"
+      ],
+      "boardBucket": "Regulation, Safety & Incidents"
+    },
+    {
+      "id": "a99bf9b7ba65abb6",
+      "title": "Biocide-free hull coating targets fuel savings",
+      "source": "Riviera: Regulations & Compliance",
+      "sourceId": "riviera-regulation",
+      "url": "https://www.rivieramm.com/news-content-hub/biocide-free-hull-coating-targets-fuel-savings-88301",
+      "publishedAt": "2026-04-02T06:00:00Z",
+      "excerpt": "Low-VOC, biocide-free hull protection is being promoted for operational efficiency, regulatory compliance and reduced marine organism attachment",
+      "tags": [
+        "Regulation",
+        "Compliance"
+      ],
+      "audience": "Both",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [
+        "Regulation"
+      ],
+      "priorityScore": 4,
+      "priorityBand": "medium",
+      "priorityReasons": [
+        "Signal: Regulation"
+      ],
+      "boardBucket": "Regulation, Safety & Incidents"
+    },
+    {
+      "id": "16d70d597f8211e3",
+      "title": "Edda Wind Closes Fleet Sale as Investment Funds Drive Sector Consolidation",
+      "source": "The Maritime Executive",
+      "sourceId": "maritime-executive",
+      "url": "https://maritime-executive.com/article/edda-wind-closes-fleet-sale-as-investment-funds-drive-sector-consolidation",
+      "publishedAt": "2026-05-01T01:11:21Z",
+      "excerpt": "Edda Wind, which had been launched as an early service provider dedicated to the emerging offshore wind sector, has officially wound down its operatio...",
+      "tags": [
+        "Maritime",
+        "News"
+      ],
+      "audience": "Both",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [
+        "Commercial"
+      ],
+      "priorityScore": 3,
+      "priorityBand": "low",
       "priorityReasons": [
         "Signal: Commercial"
       ],
