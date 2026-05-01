@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-05-01T18:54:45.081075Z",
+  "generatedAt": "2026-05-01T20:40:25.713388Z",
   "lookbackDays": 30,
-  "cutoffAt": "2026-04-01T18:54:45.081075Z",
+  "cutoffAt": "2026-04-01T20:40:25.713388Z",
   "articleCount": 180,
   "sourceCount": 118,
   "sources": [
@@ -710,6 +710,40 @@
         "Signal: Regulation"
       ],
       "boardBucket": "High Priority"
+    },
+    {
+      "id": "0914db5666967e3f",
+      "title": "IMO Climate Talks Stay Alive as Carbon Plan Survives U.S. Pushback at MEPC 84",
+      "source": "gCaptain",
+      "sourceId": "gcaptain",
+      "url": "https://gcaptain.com/imo-climate-talks-stay-alive-as-carbon-plan-survives-u-s-pushback-at-mepc-84",
+      "publishedAt": "2026-05-01T19:57:50Z",
+      "excerpt": "The International Maritime Organization has kept its landmark shipping climate framework alive following a week of high-stakes negotiations in London, setting up a decisive endgame later this year after deep divisions again...",
+      "tags": [
+        "Regulation",
+        "Maritime",
+        "Operations"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [
+        {
+          "name": "International Maritime Organization",
+          "category": "authorities"
+        }
+      ],
+      "locations": [],
+      "businessTags": [
+        "Authority & Class",
+        "Regulation"
+      ],
+      "priorityScore": 8,
+      "priorityBand": "medium",
+      "priorityReasons": [
+        "Authority & Class mention: International Maritime Organization",
+        "Signal: Regulation"
+      ],
+      "boardBucket": "Regulation, Safety & Incidents"
     },
     {
       "id": "05e9ab4f2a0ffa3e",
@@ -3410,40 +3444,6 @@
       "boardBucket": "Other Relevant"
     },
     {
-      "id": "15bfe68ab7ba429b",
-      "title": "W\u00e4rtsil\u00e4 25 ammonia engine gets a power rating increase - Marine Log",
-      "source": "W\u00e4rtsil\u00e4 News",
-      "sourceId": "google-wartsila",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOUmJsNXNtd3dCQ0JUNDFZd25IWmhmSGZITkJib1ZzWTQ4ODhIWklKV0lqYzZacUg4T0pCZWlnei1NSlFKYjh0ZUJyQlRMN0NlNUw4ZlJmSTZxSkZkV2dvbjlySV90MU03V1pfMWxpbjZ1a1VFZzhFSUh5MjBqY2FUSENHN0FUbXA5NklqX2JuWWF6ZHNxMmVsZ3dEMVV0UVJPaUFYT3RCN0hDVjFh?oc=5",
-      "publishedAt": "2026-04-16T07:00:00Z",
-      "excerpt": "W\u00e4rtsil\u00e4 25 ammonia engine gets a power rating increase Marine Log",
-      "tags": [
-        "Clean Propulsion",
-        "Propulsion",
-        "Technology"
-      ],
-      "audience": "Both",
-      "paywalled": false,
-      "entities": [
-        {
-          "name": "W\u00e4rtsil\u00e4",
-          "category": "suppliers"
-        }
-      ],
-      "locations": [],
-      "businessTags": [
-        "Supplier",
-        "Energy Transition"
-      ],
-      "priorityScore": 6,
-      "priorityBand": "medium",
-      "priorityReasons": [
-        "Supplier mention: W\u00e4rtsil\u00e4",
-        "Signal: Energy Transition"
-      ],
-      "boardBucket": "Other Relevant"
-    },
-    {
       "id": "77dce659b844be2b",
       "title": "Svitzer\u2019s first three TRAnsverse tugs near 3,000 commercial tug job total - Marine Log",
       "source": "Svitzer News",
@@ -3837,12 +3837,12 @@
       "boardBucket": "Regulation, Safety & Incidents"
     },
     {
-      "id": "df5d8e802e86ab7d",
+      "id": "f8bb3c6a25fae13b",
       "title": "ILT News page updated",
       "source": "ILT News",
       "sourceId": "ilt-news",
-      "url": "https://english.ilent.nl/latest/news?dashboardChange=45b0b184fb0b",
-      "publishedAt": "2026-05-01T18:54:45.081075Z",
+      "url": "https://english.ilent.nl/latest/news?dashboardChange=184daad56d3d",
+      "publishedAt": "2026-05-01T20:40:25.713388Z",
       "excerpt": "Tracked page content changed.",
       "tags": [
         "Regulation",
@@ -3865,6 +3865,32 @@
       "priorityBand": "medium",
       "priorityReasons": [
         "Authority & Class mention: ILT"
+      ],
+      "boardBucket": "Regulation, Safety & Incidents"
+    },
+    {
+      "id": "2de087a838ebbf07",
+      "title": "Baltic Exchange Sued Over Hormuz Freight Losses",
+      "source": "MarineLink",
+      "sourceId": "marinelink",
+      "url": "https://www.marinelink.com/news/baltic-exchange-sued-hormuz-freight-538714",
+      "publishedAt": "2026-05-01T19:57:02Z",
+      "excerpt": "Commodity trader Mercuria is suing the Baltic Exchange, the world's top provider of benchmark shipping indices, over losses it said were caused by oil tanker pricing data that did not account for the effective closure of the Strait of Horm\u2026",
+      "tags": [
+        "Maritime",
+        "Industry"
+      ],
+      "audience": "Both",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [
+        "Disruption"
+      ],
+      "priorityScore": 5,
+      "priorityBand": "medium",
+      "priorityReasons": [
+        "Signal: Disruption"
       ],
       "boardBucket": "Regulation, Safety & Incidents"
     },
@@ -4863,37 +4889,6 @@
       "boardBucket": "Other Relevant"
     },
     {
-      "id": "885accc328eacd49",
-      "title": "Singapore Institute of Technology, DNV, and SMF New Masters Program",
-      "source": "The Maritime Executive",
-      "sourceId": "maritime-executive",
-      "url": "https://maritime-executive.com/article/singapore-institute-of-technology-dnv-and-smf-new-masters-program",
-      "publishedAt": "2026-04-28T21:54:43Z",
-      "excerpt": "DNV and the Singapore Institute of Technology (SIT) will co-develop and deliver a specialised Master of Science in Vessel Management, with the Singapo...",
-      "tags": [
-        "Maritime",
-        "News"
-      ],
-      "audience": "Both",
-      "paywalled": false,
-      "entities": [
-        {
-          "name": "DNV",
-          "category": "authorities"
-        }
-      ],
-      "locations": [],
-      "businessTags": [
-        "Authority & Class"
-      ],
-      "priorityScore": 4,
-      "priorityBand": "medium",
-      "priorityReasons": [
-        "Authority & Class mention: DNV"
-      ],
-      "boardBucket": "Regulation, Safety & Incidents"
-    },
-    {
       "id": "3e3834b683532a41",
       "title": "Schelde Barge Corridor",
       "source": "Zeeland Connect News",
@@ -4924,37 +4919,6 @@
         "Regional watch: Scheldt"
       ],
       "boardBucket": "Port Watch"
-    },
-    {
-      "id": "df9561dcce815dd1",
-      "title": "Veteran Tamara de Gruyter exits Wartsila as tech giant extends structural shift - Tradewinds News",
-      "source": "W\u00e4rtsil\u00e4 News",
-      "sourceId": "google-wartsila",
-      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPWnZiTTlHWVh0MWdLRHMzNjZadGVUZW93dXRGS3hsc1NibnB1LTdPQkV2NUxjbVY0NHVUM1lrVzV5Rzd6WWsxUklLdnJjRnZ5WXhDWEFlbHFHdnhySzV0eGlDdW5IeVpLWmhnVUxkS1d0MWhmNU9Dd3REcXVpcVlOQXBha1Q4Z1BoV25lWnhpNEgtMlZHcndtRE9sVVdWX1U0MWM1MDYtLW5pN0RRQjZmV2cyVk93Z2hrX0hXMVprYmd5VWlaRVRrQkRaQ0paZw?oc=5",
-      "publishedAt": "2026-04-28T10:45:59Z",
-      "excerpt": "Veteran Tamara de Gruyter exits Wartsila as tech giant extends structural shift Tradewinds News",
-      "tags": [
-        "Propulsion",
-        "Technology"
-      ],
-      "audience": "Both",
-      "paywalled": false,
-      "entities": [
-        {
-          "name": "W\u00e4rtsil\u00e4",
-          "category": "suppliers"
-        }
-      ],
-      "locations": [],
-      "businessTags": [
-        "Supplier"
-      ],
-      "priorityScore": 4,
-      "priorityBand": "medium",
-      "priorityReasons": [
-        "Supplier mention: W\u00e4rtsil\u00e4"
-      ],
-      "boardBucket": "Other Relevant"
     },
     {
       "id": "c122c22f1c2a22b4",
@@ -5050,37 +5014,6 @@
       "boardBucket": "Other Relevant"
     },
     {
-      "id": "cb0be70acb248213",
-      "title": "W\u00e4rtsil\u00e4 launches maritime training simulation platform - Daily Cargo News",
-      "source": "W\u00e4rtsil\u00e4 News",
-      "sourceId": "google-wartsila",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNTWZZdUpDdVJ6QmhqYVlIR1ltdk5fdzJmQnlVeEJRM2tvT3MzS3cxMXA1OUxZRU1wUUx4d1RUUlVSVHU0VmFEdzNESlNtNGZaamJ2c1dNZmN0NHB0YXJTYlFyX096aGhOd1A0QnNRRkNYRmNrNTdGVTdFTkNFSERWUGVMMERQUUxRT0g4THl6ZkdILXdDdHNTa01TWXZkbUtWRHlLaW80V3JkTE1B0gGsAUFVX3lxTE1NZll1SkN1UnpCaGphWUhHWW12Tl93MmZCeVV4QlEza29PczNLdzExcDU5TFlFTXBRTHh3VFRSVVJUdTRWYUR3M0RKU200ZlpqYnZzV01mY3Q0cHRhclNiUXJfT3poaE53UDRCc1FGQ1hGY2s1N0ZVN0VOQ0VIRFZQZUwwRFBRTFFPSDhMeXpmR0gtd0N0c1NrTVNZdmRtS1ZEeUtpbzRXcmRMTUE?oc=5",
-      "publishedAt": "2026-04-28T04:33:19Z",
-      "excerpt": "W\u00e4rtsil\u00e4 launches maritime training simulation platform Daily Cargo News",
-      "tags": [
-        "Propulsion",
-        "Technology"
-      ],
-      "audience": "Both",
-      "paywalled": false,
-      "entities": [
-        {
-          "name": "W\u00e4rtsil\u00e4",
-          "category": "suppliers"
-        }
-      ],
-      "locations": [],
-      "businessTags": [
-        "Supplier"
-      ],
-      "priorityScore": 4,
-      "priorityBand": "medium",
-      "priorityReasons": [
-        "Supplier mention: W\u00e4rtsil\u00e4"
-      ],
-      "boardBucket": "Other Relevant"
-    },
-    {
       "id": "8f91e649c16c97b5",
       "title": "Venture Global closes US$750M loan offering for Calcasieu Pass",
       "source": "Riviera: Ports & Terminals",
@@ -5114,6 +5047,37 @@
       "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1IVDlSSFlHSTUxWFlGWEF0M2NoSXpVVkw2TUgyeldQYks0R0VwY0UyNTlEX2RZdXMxX1lrbTE2Tk04R1ZOUkFxSHpsaE1FSW9wSWRtVDdSaWZRZkx5NG4zWGJ3UW5XSzhTNmJhWkszTG5Va28?oc=5",
       "publishedAt": "2026-04-26T22:12:24Z",
       "excerpt": "KONGSBERG marks a new day Asia Pacific Defence Reporter",
+      "tags": [
+        "Technology",
+        "Supplier"
+      ],
+      "audience": "Both",
+      "paywalled": false,
+      "entities": [
+        {
+          "name": "Kongsberg Maritime",
+          "category": "suppliers"
+        }
+      ],
+      "locations": [],
+      "businessTags": [
+        "Supplier"
+      ],
+      "priorityScore": 4,
+      "priorityBand": "medium",
+      "priorityReasons": [
+        "Supplier mention: Kongsberg Maritime"
+      ],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "d2a14c3d49906ffd",
+      "title": "Kongsberg Maritime ASA Financial Statements \u2013 OSL:KMAR - TradingView",
+      "source": "Kongsberg Maritime News",
+      "sourceId": "google-kongsberg",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1mUUlUS2ExdEctempDMHM3N29ZWXViUzN4N1dsSlg2aTFKUkZjYzI5RC1kVWd0RjV5d2Nobml1WDIzdlhIMHVmZHk0MkYwcW5fMWJsemFCMUxzcTl3ZWZvZ2FHZTVYanFLZFRodUkwT0tJS1k?oc=5",
+      "publishedAt": "2026-04-25T02:41:16Z",
+      "excerpt": "Kongsberg Maritime ASA Financial Statements \u2013 OSL:KMAR TradingView",
       "tags": [
         "Technology",
         "Supplier"
@@ -5725,6 +5689,31 @@
       "tags": [
         "Ports",
         "Terminals"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [
+        "Commercial"
+      ],
+      "priorityScore": 4,
+      "priorityBand": "medium",
+      "priorityReasons": [
+        "Signal: Commercial"
+      ],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "62e680a56c9c8d8d",
+      "title": "UTC Overseas adds Bangkok base - Heavy Lift & Project Forwarding International",
+      "source": "Sarens News",
+      "sourceId": "google-sarens",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOSlhYMjBfM0d4WHJ4QnU2djQ4OVpGNlZxQUplY0h4VUl3TWNQY2hNTi15YXFJa3czTkNKQVBreFA5MnRHMU5LeGpqNDV5aTZlRHVzVm1LeXRuZHc3a09yN1p4VjZHMHhTYlFmenNPcWpfWFZTVnQ1ZVVHZm8yMW9YRUVxcDI1cE1P?oc=5",
+      "publishedAt": "2026-04-08T08:57:56Z",
+      "excerpt": "UTC Overseas adds Bangkok base Heavy Lift & Project Forwarding International",
+      "tags": [
+        "Heavy-Lift"
       ],
       "audience": "Multraship",
       "paywalled": false,
