@@ -1,7 +1,7 @@
 {
   "sources": {
     "ilt-news": {
-      "pageHash": "f90354378108a1f378a261265fd2a2e841700c17",
+      "pageHash": "70483733e03657c3ea4331507a3974a2a34e3ee0",
       "seenUrls": {}
     },
     "made-in": {
@@ -217,12 +217,14 @@
         "https://www.omroepzeeland.nl/nieuws/18422238/slachtoffer-lag-onherkenbaar-in-woning-vol-bloed-verdachte-ik-heb-een-klap-gegeven": "2026-04-30T13:17:26.029354Z",
         "https://www.omroepzeeland.nl/nieuws/18422367/41-jarige-vlissinger-ontkent-drugshandel-ik-vond-de-spullen-onder-een-auto": "2026-04-30T19:04:30.423230Z",
         "https://www.omroepzeeland.nl/nieuws/18422373/gratis-shoppen-in-sloophuizen-in-oud-vossemeer-als-het-gratis-is-neem-ik-het-mee": "2026-04-30T17:07:50.333397Z",
+        "https://www.omroepzeeland.nl/nieuws/18423435/goedemorgen-dag-van-de-arbeid-junior-hrieps-en-mogelijk-warmste-dag-tot-nu-toe": "2026-05-01T05:33:29.513985Z",
         "https://www.omroepzeeland.nl/nieuws/18423636/babyboom-in-kattenwereld-veroorzaakt-drukte-bij-poezenpleegouders-alles-zit-vol": "2026-04-30T20:49:19.626534Z",
         "https://www.omroepzeeland.nl/nieuws/18423645/zeearend-dood-door-windmolen-bij-kreekraksluis-boswachter-overweegt-juridische-stappen": "2026-04-30T19:04:30.423230Z",
         "https://www.omroepzeeland.nl/nieuws/18424062/veiligheidsregio-mogelijke-brandgeur-in-delen-van-zeeland-door-branden-in-oirschot-en-weert": "2026-04-30T17:07:50.333397Z",
         "https://www.omroepzeeland.nl/nieuws/18424065/brand-in-dak-van-loods-bij-ovet-in-terneuzen": "2026-04-30T19:04:30.423230Z",
         "https://www.omroepzeeland.nl/nieuws/18424065/brand-uitgebroken-bij-ovet-in-terneuzen": "2026-04-30T17:07:50.333397Z",
         "https://www.omroepzeeland.nl/nieuws/18424152/motorrijder-gewond-bij-ongeluk-vogelwaarde": "2026-04-30T19:04:30.423230Z",
+        "https://www.omroepzeeland.nl/nieuws/18424311/scheldetheater-start-proef-met-blindentolk-tijdens-voorstelling-wij-zien-het-niet-maar-krijgen-het-toch-mee": "2026-05-01T05:33:29.513985Z",
         "https://www.omroepzeeland.nl/nieuws/schouwen-duiveland": "2026-04-28T12:45:40.782992Z",
         "https://www.omroepzeeland.nl/nieuws/zeeuws-vlaanderen": "2026-04-28T12:45:40.782992Z"
       }
@@ -247,7 +249,7 @@
       }
     },
     "rotterdammerdagblad-regionaal": {
-      "pageHash": "138d94d8259454c84515338c8671ae5fd8ccb7dd",
+      "pageHash": "94ce44be34420e27c352fa8045917905e252e3ca",
       "seenUrls": {
         "https://www.rotterdammerdagblad.nl/112/aanhouding-in-babbeltruc-onderzoek": "2026-04-30T10:09:04.641534Z",
         "https://www.rotterdammerdagblad.nl/112/eenheid-rotterdam-publiceert-jaarverslag-2025-en-jaarplan-2026": "2026-04-28T12:45:40.782992Z",
