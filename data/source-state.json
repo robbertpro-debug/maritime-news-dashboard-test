@@ -1,7 +1,7 @@
 {
   "sources": {
     "ilt-news": {
-      "pageHash": "1641bb7bd4321da34067493d2f8ac98a82c57ac8",
+      "pageHash": "c0b833ec1d71f472c9a66f3b7f6482da2b977ce8",
       "seenUrls": {}
     },
     "made-in": {
@@ -153,6 +153,7 @@
         "https://www.omroepzeeland.nl/nieuws/18173673/van-geheim-agent-tot-gevangene-dit-is-het-verhaal-van-pieter-dourlein": "2026-04-28T12:45:40.782992Z",
         "https://www.omroepzeeland.nl/nieuws/18198290/hoge-btw-hoge-prijzen-gaan-alle-ondernemers-het-komend-toeristenseizoen-overleven": "2026-05-01T11:00:11.566674Z",
         "https://www.omroepzeeland.nl/nieuws/18259239/stem-voor-de-zeeuwse-top-40-en-maak-kans-op-een-rondvlucht": "2026-04-29T05:52:34.525428Z",
+        "https://www.omroepzeeland.nl/nieuws/18259308/dien-luteijn-vertelt-over-schuilen-in-de-oorlog-het-was-er-kil-en-koud-en-akelig": "2026-05-01T14:45:28.019945Z",
         "https://www.omroepzeeland.nl/nieuws/18308454/coalitie-kapelle-bekend-formatiefase-begint-in-goes": "2026-05-01T11:00:11.566674Z",
         "https://www.omroepzeeland.nl/nieuws/18339051/raaf-uil-en-vos-en-ook-de-kever-eet-uitbundig-mee-uit-de-buik-van-het-dode-damhert": "2026-04-29T09:56:00.616177Z",
         "https://www.omroepzeeland.nl/nieuws/18373314/paragliders-willen-oplossing-voor-versleten-startbaan-in-zoutelande-veel-hobbels-en-bobbels": "2026-04-28T12:45:40.782992Z",
@@ -226,15 +227,18 @@
         "https://www.omroepzeeland.nl/nieuws/18423636/babyboom-in-kattenwereld-veroorzaakt-drukte-bij-poezenpleegouders-alles-zit-vol": "2026-04-30T20:49:19.626534Z",
         "https://www.omroepzeeland.nl/nieuws/18423636/meer-kittens-in-opvang-dan-plek-in-pleeggezinnen-je-hoeft-geen-kattenexpert-te-zijn-om-te-helpen": "2026-05-01T07:58:52.298059Z",
         "https://www.omroepzeeland.nl/nieuws/18423645/zeearend-dood-door-windmolen-bij-kreekraksluis-boswachter-overweegt-juridische-stappen": "2026-04-30T19:04:30.423230Z",
+        "https://www.omroepzeeland.nl/nieuws/18423699/swift-wil-competitief-zijn-in-ereklasse-we-moeten-in-vier-van-de-zes-duels-meedoen-voor-de-winst": "2026-05-01T14:45:28.019945Z",
         "https://www.omroepzeeland.nl/nieuws/18424062/veiligheidsregio-mogelijke-brandgeur-in-delen-van-zeeland-door-branden-in-oirschot-en-weert": "2026-04-30T17:07:50.333397Z",
         "https://www.omroepzeeland.nl/nieuws/18424065/brand-in-dak-van-loods-bij-ovet-in-terneuzen": "2026-04-30T19:04:30.423230Z",
         "https://www.omroepzeeland.nl/nieuws/18424065/brand-uitgebroken-bij-ovet-in-terneuzen": "2026-04-30T17:07:50.333397Z",
         "https://www.omroepzeeland.nl/nieuws/18424152/motorrijder-gewond-bij-ongeluk-vogelwaarde": "2026-04-30T19:04:30.423230Z",
         "https://www.omroepzeeland.nl/nieuws/18424311/scheldetheater-start-proef-met-blindentolk-tijdens-voorstelling-wij-zien-het-niet-maar-krijgen-het-toch-mee": "2026-05-01T05:33:29.513985Z",
         "https://www.omroepzeeland.nl/nieuws/18424920/achtertuinen-en-artiesten-gezocht-voor-burenfestival-een-sociale-wijk-gun-ik-iedereen": "2026-05-01T12:52:13.432560Z",
+        "https://www.omroepzeeland.nl/nieuws/18425457/12-mei-wordt-bekend-wie-gebruik-kunnen-maken-van-westerscheldetunnel-tijdens-reparatie": "2026-05-01T14:45:28.019945Z",
         "https://www.omroepzeeland.nl/nieuws/18425748/fietser-84-overleden-na-ongeval-met-toeristentreintje-in-vlissingen": "2026-05-01T12:52:13.432560Z",
         "https://www.omroepzeeland.nl/nieuws/18425748/fietser-belandt-onder-zonnetrein-in-vlissingen-traumahelikopter-geland": "2026-05-01T09:44:50.574755Z",
         "https://www.omroepzeeland.nl/nieuws/18425748/fietsster-84-overleden-na-ongeval-met-toeristentreintje-in-vlissingen": "2026-05-01T11:00:11.566674Z",
+        "https://www.omroepzeeland.nl/nieuws/18426132/zwemseizoen-van-start-hier-mag-je-buiten-zwemmen": "2026-05-01T14:45:28.019945Z",
         "https://www.omroepzeeland.nl/nieuws/schouwen-duiveland": "2026-04-28T12:45:40.782992Z",
         "https://www.omroepzeeland.nl/nieuws/zeeuws-vlaanderen": "2026-04-28T12:45:40.782992Z"
       }
@@ -259,7 +263,7 @@
       }
     },
     "rotterdammerdagblad-regionaal": {
-      "pageHash": "1e9c758fd9e07c80987a92ba5f9e5001d0f9297d",
+      "pageHash": "ec72e96bba05b456017e8b2d9b07f828b079d162",
       "seenUrls": {
         "https://www.rotterdammerdagblad.nl/112/aanhouding-in-babbeltruc-onderzoek": "2026-04-30T10:09:04.641534Z",
         "https://www.rotterdammerdagblad.nl/112/eenheid-rotterdam-publiceert-jaarverslag-2025-en-jaarplan-2026": "2026-04-28T12:45:40.782992Z",
