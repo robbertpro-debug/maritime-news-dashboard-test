@@ -1,7 +1,7 @@
 {
   "sources": {
     "ilt-news": {
-      "pageHash": "c0b833ec1d71f472c9a66f3b7f6482da2b977ce8",
+      "pageHash": "6e11317171362d954ab4a5ce534b274d82619ad6",
       "seenUrls": {}
     },
     "made-in": {
@@ -223,6 +223,7 @@
         "https://www.omroepzeeland.nl/nieuws/18422238/slachtoffer-lag-onherkenbaar-in-woning-vol-bloed-verdachte-ik-heb-een-klap-gegeven": "2026-04-30T13:17:26.029354Z",
         "https://www.omroepzeeland.nl/nieuws/18422367/41-jarige-vlissinger-ontkent-drugshandel-ik-vond-de-spullen-onder-een-auto": "2026-04-30T19:04:30.423230Z",
         "https://www.omroepzeeland.nl/nieuws/18422373/gratis-shoppen-in-sloophuizen-in-oud-vossemeer-als-het-gratis-is-neem-ik-het-mee": "2026-04-30T17:07:50.333397Z",
+        "https://www.omroepzeeland.nl/nieuws/18423303/een-race-tussen-nederland-en-frankrijk-wie-bouwt-de-eerste-kerncentrale-van-de-toekomst": "2026-05-01T16:42:57.145116Z",
         "https://www.omroepzeeland.nl/nieuws/18423435/goedemorgen-dag-van-de-arbeid-junior-hrieps-en-mogelijk-warmste-dag-tot-nu-toe": "2026-05-01T05:33:29.513985Z",
         "https://www.omroepzeeland.nl/nieuws/18423636/babyboom-in-kattenwereld-veroorzaakt-drukte-bij-poezenpleegouders-alles-zit-vol": "2026-04-30T20:49:19.626534Z",
         "https://www.omroepzeeland.nl/nieuws/18423636/meer-kittens-in-opvang-dan-plek-in-pleeggezinnen-je-hoeft-geen-kattenexpert-te-zijn-om-te-helpen": "2026-05-01T07:58:52.298059Z",
@@ -235,10 +236,13 @@
         "https://www.omroepzeeland.nl/nieuws/18424311/scheldetheater-start-proef-met-blindentolk-tijdens-voorstelling-wij-zien-het-niet-maar-krijgen-het-toch-mee": "2026-05-01T05:33:29.513985Z",
         "https://www.omroepzeeland.nl/nieuws/18424920/achtertuinen-en-artiesten-gezocht-voor-burenfestival-een-sociale-wijk-gun-ik-iedereen": "2026-05-01T12:52:13.432560Z",
         "https://www.omroepzeeland.nl/nieuws/18425457/12-mei-wordt-bekend-wie-gebruik-kunnen-maken-van-westerscheldetunnel-tijdens-reparatie": "2026-05-01T14:45:28.019945Z",
+        "https://www.omroepzeeland.nl/nieuws/18425544/junior-hrieps-trekt-honderden-kinderen-voor-ouders-zijn-zoveel-festivals-er-moet-ook-aan-ons-gedacht-worden": "2026-05-01T16:42:57.145116Z",
         "https://www.omroepzeeland.nl/nieuws/18425748/fietser-84-overleden-na-ongeval-met-toeristentreintje-in-vlissingen": "2026-05-01T12:52:13.432560Z",
         "https://www.omroepzeeland.nl/nieuws/18425748/fietser-belandt-onder-zonnetrein-in-vlissingen-traumahelikopter-geland": "2026-05-01T09:44:50.574755Z",
         "https://www.omroepzeeland.nl/nieuws/18425748/fietsster-84-overleden-na-ongeval-met-toeristentreintje-in-vlissingen": "2026-05-01T11:00:11.566674Z",
         "https://www.omroepzeeland.nl/nieuws/18426132/zwemseizoen-van-start-hier-mag-je-buiten-zwemmen": "2026-05-01T14:45:28.019945Z",
+        "https://www.omroepzeeland.nl/nieuws/18426765/noodopvang-reynaertland-in-hulst-wordt-vanaf-half-mei-heropend": "2026-05-01T16:42:57.145116Z",
+        "https://www.omroepzeeland.nl/nieuws/18426879/politieauto-rijdt-in-sloot-tijdens-achtervolging-fatbike": "2026-05-01T16:42:57.145116Z",
         "https://www.omroepzeeland.nl/nieuws/schouwen-duiveland": "2026-04-28T12:45:40.782992Z",
         "https://www.omroepzeeland.nl/nieuws/zeeuws-vlaanderen": "2026-04-28T12:45:40.782992Z"
       }
@@ -263,7 +267,7 @@
       }
     },
     "rotterdammerdagblad-regionaal": {
-      "pageHash": "ec72e96bba05b456017e8b2d9b07f828b079d162",
+      "pageHash": "23aee5d2bf5a9c66140ba9d497cf990c0d12c0cf",
       "seenUrls": {
         "https://www.rotterdammerdagblad.nl/112/aanhouding-in-babbeltruc-onderzoek": "2026-04-30T10:09:04.641534Z",
         "https://www.rotterdammerdagblad.nl/112/eenheid-rotterdam-publiceert-jaarverslag-2025-en-jaarplan-2026": "2026-04-28T12:45:40.782992Z",
