@@ -1,7 +1,7 @@
 {
   "sources": {
     "ilt-news": {
-      "pageHash": "6e11317171362d954ab4a5ce534b274d82619ad6",
+      "pageHash": "45b0b184fb0b5d448fa5807a79896395dc1e0a24",
       "seenUrls": {}
     },
     "made-in": {
@@ -243,6 +243,7 @@
         "https://www.omroepzeeland.nl/nieuws/18426132/zwemseizoen-van-start-hier-mag-je-buiten-zwemmen": "2026-05-01T14:45:28.019945Z",
         "https://www.omroepzeeland.nl/nieuws/18426765/noodopvang-reynaertland-in-hulst-wordt-vanaf-half-mei-heropend": "2026-05-01T16:42:57.145116Z",
         "https://www.omroepzeeland.nl/nieuws/18426879/politieauto-rijdt-in-sloot-tijdens-achtervolging-fatbike": "2026-05-01T16:42:57.145116Z",
+        "https://www.omroepzeeland.nl/nieuws/18427104/motorrijder-botst-op-automobilist-bij-grijpskerke-en-raakt-gewond": "2026-05-01T18:54:45.081075Z",
         "https://www.omroepzeeland.nl/nieuws/schouwen-duiveland": "2026-04-28T12:45:40.782992Z",
         "https://www.omroepzeeland.nl/nieuws/zeeuws-vlaanderen": "2026-04-28T12:45:40.782992Z"
       }
@@ -267,7 +268,7 @@
       }
     },
     "rotterdammerdagblad-regionaal": {
-      "pageHash": "23aee5d2bf5a9c66140ba9d497cf990c0d12c0cf",
+      "pageHash": "c6cd0cdfbe437915de95c0f786aa86130e778468",
       "seenUrls": {
         "https://www.rotterdammerdagblad.nl/112/aanhouding-in-babbeltruc-onderzoek": "2026-04-30T10:09:04.641534Z",
         "https://www.rotterdammerdagblad.nl/112/eenheid-rotterdam-publiceert-jaarverslag-2025-en-jaarplan-2026": "2026-04-28T12:45:40.782992Z",
