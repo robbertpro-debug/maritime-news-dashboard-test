@@ -1,7 +1,7 @@
 {
   "sources": {
     "ilt-news": {
-      "pageHash": "c23edfd3d6db6f2653c69d4709ba5a474f8f3980",
+      "pageHash": "c6fed1ff22d2020e1dd09b754551c783c17502cd",
       "seenUrls": {}
     },
     "made-in": {
@@ -246,6 +246,7 @@
         "https://www.omroepzeeland.nl/nieuws/18426879/politieauto-rijdt-in-sloot-tijdens-achtervolging-fatbike": "2026-05-01T16:42:57.145116Z",
         "https://www.omroepzeeland.nl/nieuws/18427104/motorrijder-botst-op-automobilist-bij-grijpskerke-en-raakt-gewond": "2026-05-01T18:54:45.081075Z",
         "https://www.omroepzeeland.nl/nieuws/18427341/filmhuis-groede-sluit-per-direct-de-deuren-we-betreuren-deze-situatie": "2026-05-02T10:40:21.257079Z",
+        "https://www.omroepzeeland.nl/nieuws/18427407/schouwse-strandwandeltocht-kopieert-lange-strange-tocht-hopen-dat-dit-net-zon-succes-wordt": "2026-05-02T16:34:52.044379Z",
         "https://www.omroepzeeland.nl/nieuws/18427425/sergio-herman-sluit-twee-antwerpse-restaurants-wil-terug-naar-de-essentie": "2026-05-02T10:40:21.257079Z",
         "https://www.omroepzeeland.nl/nieuws/18427680/van-hecke-in-nadrukkelijke-belangstelling-van-liverpool": "2026-05-02T12:42:27.479235Z",
         "https://www.omroepzeeland.nl/nieuws/18427686/politie-houdt-minderjarige-aan-die-foto-op-sociale-media-zette-met-mogelijk-vuurwapen": "2026-05-02T12:42:27.479235Z",
@@ -273,7 +274,7 @@
       }
     },
     "rotterdammerdagblad-regionaal": {
-      "pageHash": "747c50aa86b79a8f1ca34393df9a06164389ea48",
+      "pageHash": "21c7bac0a417a68c9f2cb49013e3fce2fce74549",
       "seenUrls": {
         "https://www.rotterdammerdagblad.nl/112/aanhouding-in-babbeltruc-onderzoek": "2026-04-30T10:09:04.641534Z",
         "https://www.rotterdammerdagblad.nl/112/eenheid-rotterdam-publiceert-jaarverslag-2025-en-jaarplan-2026": "2026-04-28T12:45:40.782992Z",
