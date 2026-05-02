@@ -1,7 +1,7 @@
 {
   "sources": {
     "ilt-news": {
-      "pageHash": "8f2e508ae5db4abce6267b500d44decc6073488f",
+      "pageHash": "d3e07c45e69d271716ab3021fd53db21daaa54cb",
       "seenUrls": {}
     },
     "made-in": {
@@ -216,6 +216,7 @@
         "https://www.omroepzeeland.nl/nieuws/18420405/onzin-nieuwe-reling-voor-de-boulevard-nog-niet-besteld-maar-moet-wel-lampjes-krijgen-en-duizend-euro-per-meter-kosten": "2026-04-30T15:43:09.787315Z",
         "https://www.omroepzeeland.nl/nieuws/18420441/kapellenaar-blijft-in-tbs-kliniek-ik-snap-dat-ik-er-nog-niet-ben": "2026-04-30T15:43:09.787315Z",
         "https://www.omroepzeeland.nl/nieuws/18420585/overvaller-van-woning-aan-ravelijn-de-grenadier-in-goes-krijgt-ook-in-hoger-beroep-celstraf": "2026-04-29T19:06:06.668484Z",
+        "https://www.omroepzeeland.nl/nieuws/18420891/hoe-een-avond-in-kapelle-uitgroeide-tot-het-idee-voor-de-zeeuwse-top-40": "2026-05-02T08:56:26.444077Z",
         "https://www.omroepzeeland.nl/nieuws/18421116/man-overleden-na-ongeval-met-e-step-in-sluis": "2026-04-30T05:20:40.225322Z",
         "https://www.omroepzeeland.nl/nieuws/18422118/provincie-hoeft-strandbezoekers-niet-extra-te-waarschuwen-voor-pfas": "2026-04-30T10:09:04.641534Z",
         "https://www.omroepzeeland.nl/nieuws/18422208/eerste-zomerse-dag-van-het-jaar-maar-waarom-zijn-wij-niet-vrij-op-1-mei": "2026-05-01T07:58:52.298059Z",
@@ -268,7 +269,7 @@
       }
     },
     "rotterdammerdagblad-regionaal": {
-      "pageHash": "11a8d4a839456c2505c0639c5c2bc6229fcf0955",
+      "pageHash": "bddb1c333d92573e78bfe75edfad8fdf272af0a9",
       "seenUrls": {
         "https://www.rotterdammerdagblad.nl/112/aanhouding-in-babbeltruc-onderzoek": "2026-04-30T10:09:04.641534Z",
         "https://www.rotterdammerdagblad.nl/112/eenheid-rotterdam-publiceert-jaarverslag-2025-en-jaarplan-2026": "2026-04-28T12:45:40.782992Z",

@@ -1,7 +1,7 @@
 window.__DASHBOARD_DATA__ = {
-  "generatedAt": "2026-05-02T07:17:59.279343Z",
+  "generatedAt": "2026-05-02T08:56:26.444077Z",
   "lookbackDays": 30,
-  "cutoffAt": "2026-04-02T07:17:59.279343Z",
+  "cutoffAt": "2026-04-02T08:56:26.444077Z",
   "articleCount": 180,
   "sourceCount": 118,
   "sources": [
@@ -18,9 +18,9 @@ window.__DASHBOARD_DATA__ = {
     "Logistiek.nl: News",
     "Maersk Tankers News",
     "MarineLink",
-    "Mesh Maritime News",
     "Muller Dordrecht Web Watch",
     "North Sea Port News",
+    "Offshore Energy",
     "Oldendorff Carriers News",
     "Omroep Zeeland News",
     "Port of Antwerp-Bruges Press",
@@ -33,6 +33,7 @@ window.__DASHBOARD_DATA__ = {
     "Sarens News",
     "Splash247",
     "Svitzer News",
+    "TenderNed Maritime Tenders",
     "The Maritime Executive",
     "Ultrabulk News",
     "Van Oord News",
@@ -52,6 +53,7 @@ window.__DASHBOARD_DATA__ = {
     "Dredging",
     "Electrification",
     "Energy",
+    "Energy-Transition",
     "Ferry",
     "Government",
     "Heavy-Lift",
@@ -70,6 +72,7 @@ window.__DASHBOARD_DATA__ = {
     "Offshore",
     "Operations",
     "Ports",
+    "Procurement",
     "Propulsion",
     "Regulation",
     "Rijnmond",
@@ -82,6 +85,7 @@ window.__DASHBOARD_DATA__ = {
     "Sustainability",
     "Tankers",
     "Technology",
+    "Tender",
     "Terminals",
     "Towage",
     "Yachting",
@@ -95,12 +99,7 @@ window.__DASHBOARD_DATA__ = {
     "Scheldt",
     "Terneuzen"
   ],
-  "errors": [
-    {
-      "source": "Offshore Energy",
-      "message": "HTTP Error 403: Forbidden"
-    }
-  ],
+  "errors": [],
   "articles": [
     {
       "id": "0185d20628c1f3b8",
@@ -535,12 +534,12 @@ window.__DASHBOARD_DATA__ = {
       "boardBucket": "High Priority"
     },
     {
-      "id": "7f596effae7b50bd",
+      "id": "ff142b6b19dfa681",
       "title": "IMO progresses work on ship emissions, pollution and ocean protection - International Maritime Organization",
       "source": "IMO Press Briefings",
       "sourceId": "google-imo-press",
-      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNUTB1d0pERjctSVFWZ1M2OUpQN2FabXJiLXNrUTFwT1RMYWtpLTJPN3NwX1NtdzBXQ1lzWFU5dGNKTFFJYTUzUXlBSThKNk8tZ21VcVl1TXI3VG1OQUFodXJXSXlwMDNrME1BZ1AyOHoyVXlncF9IVGtodi1DZ1Q3VU14cDlWdUx4bGpvMXJISS1iVXlwaGF6X21Hd1FpcERKU3JzcDlEUG0ydE95NXgzd2ZnVEFhRkpHZHdpUzFUdUNfR2c2RVV2Yw?oc=5",
-      "publishedAt": "2026-05-01T20:14:22Z",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNaXd2YnVZNnVXNFJxNngzOVNGUnZWaFNMSm51MnRUcWJVaVJxY1Awd2RzaTBhWHF2VmFOX0xmVUprMjJ1OHhpWlU0X1lFTU9PZXFFdjZYenVrbU5YdVkzVEw0M3E1STYwcHVRWU5XdmZwQWRUZ3VqUGtrbTdSeHBhWEdWV2ZXMnA0UUJNYURRLXpxV1hjMGZ5SGg2bU5uVkJyNGJlVUlEeVdacXZCbDcyVURCUEw2eFBXaGZkaE1sMFJMZ2hQZU16WA?oc=5",
+      "publishedAt": "2026-05-01T20:42:28Z",
       "excerpt": "IMO progresses work on ship emissions, pollution and ocean protection International Maritime Organization",
       "tags": [
         "Regulation",
@@ -569,6 +568,43 @@ window.__DASHBOARD_DATA__ = {
         "Authority & Class mention: International Maritime Organization",
         "Signal: Regulation",
         "Signal: Energy Transition"
+      ],
+      "boardBucket": "High Priority"
+    },
+    {
+      "id": "5f9ac362f76c7406",
+      "title": "EnBW awards offshore wind subsea inspection contracts to RS Diving",
+      "source": "Offshore Energy",
+      "sourceId": "offshore-energy",
+      "url": "https://www.offshore-energy.biz/enbw-awards-offshore-wind-subsea-inspection-contracts-to-rs-diving",
+      "publishedAt": "2026-05-01T12:30:00Z",
+      "excerpt": "EnBW has awarded framework agreements for subsea inspection services across its offshore wind fleet [\u2026] The post EnBW awards offshore wind subsea inspection contracts to RS Diving appeared first on Offshore Energy .",
+      "tags": [
+        "Regulation",
+        "Operations",
+        "Energy-Transition",
+        "Technology"
+      ],
+      "audience": "Novatug",
+      "paywalled": false,
+      "entities": [
+        {
+          "name": "EnBW",
+          "category": "clients"
+        }
+      ],
+      "locations": [],
+      "businessTags": [
+        "Client",
+        "Regulation",
+        "Operations"
+      ],
+      "priorityScore": 9,
+      "priorityBand": "high",
+      "priorityReasons": [
+        "Client mention: EnBW",
+        "Signal: Regulation",
+        "Signal: Operations"
       ],
       "boardBucket": "High Priority"
     },
@@ -736,35 +772,6 @@ window.__DASHBOARD_DATA__ = {
       "priorityReasons": [
         "Authority & Class mention: International Maritime Organization",
         "Signal: Regulation"
-      ],
-      "boardBucket": "Regulation, Safety & Incidents"
-    },
-    {
-      "id": "f4322dd539edf4fd",
-      "title": "News Content Hub - Executive profile: Arjen van Dijk: decarbonisation, port congestion key towage drivers - rivieramm.com",
-      "source": "Svitzer News",
-      "sourceId": "google-svitzer",
-      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNdDVCR0lka25sa2M0NGZubHJSQWMyOFpMSDV1cnVESkRwdjM2UGxfbFhqbUhXclRhVUFjaW1mb3VFd3ZaUTVHVk9QbEJyT2FTbUZlSms1UkFmQzJ1OV93R0V6MjNxejRTT0FuVDVkQ0FhMDNRQmNja1ZsR2MtanFyVm1BU3EzSXFNby1Fdm1wZGN3MThheFE1T2FkZk9kRGhMVE1YNUYtNjNpa0MzeHlsdXB0bGdHSE1GYzBJc0FxcEhoY3h2TTluYmN1QWJCUTJKRWZLVkpXclRqalZua1IwOXNJNA?oc=5",
-      "publishedAt": "2026-05-01T19:01:59Z",
-      "excerpt": "News Content Hub - Executive profile: Arjen van Dijk: decarbonisation, port congestion key towage drivers rivieramm.com",
-      "tags": [
-        "Towage",
-        "Decarbonization",
-        "Competitor"
-      ],
-      "audience": "Multraship",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [
-        "Disruption",
-        "Energy Transition"
-      ],
-      "priorityScore": 8,
-      "priorityBand": "medium",
-      "priorityReasons": [
-        "Signal: Disruption",
-        "Signal: Energy Transition"
       ],
       "boardBucket": "Regulation, Safety & Incidents"
     },
@@ -1106,6 +1113,39 @@ window.__DASHBOARD_DATA__ = {
       "boardBucket": "Competitors & Market"
     },
     {
+      "id": "d5f15867c60ce9bc",
+      "title": "BREAKING NEWS: Damen to build new TSHD for UK Dredging - Dredging Today",
+      "source": "Damen Shipyards News",
+      "sourceId": "google-damen",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQcjdQNE12WFdscThrT2hnZk00V0dTZF8wRmNzVF9qaW1vRnY4Ymp2Mi14QnFURVZjdEZuU1BpUWpqWVRCUkRGS3NVOXZxeHppVFRDM0lYeE9aU1NtODEwb2l1UHNJS19GaW90ZlFOSTRvU2JjMUJZTlJ0RmZIR25KeXVtRXBLdlhESW5DVHJJWklaQUdNNS1JYkRaOA?oc=5",
+      "publishedAt": "2026-04-24T07:22:38Z",
+      "excerpt": "BREAKING NEWS: Damen to build new TSHD for UK Dredging Dredging Today",
+      "tags": [
+        "Shipbuilding",
+        "Supplier"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [
+        {
+          "name": "Damen Shipyards Group",
+          "category": "suppliers"
+        }
+      ],
+      "locations": [],
+      "businessTags": [
+        "Supplier",
+        "Infrastructure"
+      ],
+      "priorityScore": 8,
+      "priorityBand": "medium",
+      "priorityReasons": [
+        "Supplier mention: Damen Shipyards Group",
+        "Signal: Infrastructure"
+      ],
+      "boardBucket": "Regulation, Safety & Incidents"
+    },
+    {
       "id": "7eef26157c4f5ecd",
       "title": "Shipping lobbies unite in defence of IMO, support of GHG ambitions, citing billions in investment",
       "source": "Riviera: Regulations & Compliance",
@@ -1232,6 +1272,42 @@ window.__DASHBOARD_DATA__ = {
       "priorityReasons": [
         "Signal: Disruption",
         "Signal: Infrastructure"
+      ],
+      "boardBucket": "Regulation, Safety & Incidents"
+    },
+    {
+      "id": "1fb6fb2a07f17b01",
+      "title": "31137550 Prestatiecontract Vaarwegen Oost Nederland - Rijkswaterstaat Programma's, Projecten en Onderhoud",
+      "source": "TenderNed Maritime Tenders",
+      "sourceId": "tenderned-maritime",
+      "url": "",
+      "publishedAt": "2026-05-02T08:24:03.875000Z",
+      "excerpt": "Type publicatie: EF38 | Publicatiedatum: 02-05-2026 | Type opdracht: Werken | Sluitingsdatum: 15-05-2020 | Plaats van uitvoering: OOST-NEDERLAND NL2 | Procedure: Concurrentiegerichte dialoog | CPV: Waterbouwwerkzaamheden",
+      "tags": [
+        "Operations",
+        "Tender",
+        "Procurement",
+        "Government",
+        "Maritime"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [
+        {
+          "name": "Rijkswaterstaat",
+          "category": "authorities"
+        }
+      ],
+      "locations": [],
+      "businessTags": [
+        "Authority & Class",
+        "Operations"
+      ],
+      "priorityScore": 7,
+      "priorityBand": "medium",
+      "priorityReasons": [
+        "Authority & Class mention: Rijkswaterstaat",
+        "Signal: Operations"
       ],
       "boardBucket": "Regulation, Safety & Incidents"
     },
@@ -1948,6 +2024,39 @@ window.__DASHBOARD_DATA__ = {
       "boardBucket": "Regulation, Safety & Incidents"
     },
     {
+      "id": "f24231471e3f6486",
+      "title": "Subsea7, OneSubsea take on multimillion-dollar job at ExxonMobil\u2019s Angolan oil project",
+      "source": "Offshore Energy",
+      "sourceId": "offshore-energy",
+      "url": "https://www.offshore-energy.biz/subsea7-onesubsea-take-on-multimillion-dollar-job-at-exxonmobils-angolan-oil-project",
+      "publishedAt": "2026-05-01T09:15:20Z",
+      "excerpt": "Subsea Integration Alliance (SIA), comprising SLB OneSubsea and Subsea7, has been tasked by U.S.-headquartered energy giant ExxonMobil with the engineering, procurement, construction, and installation (EPCI) scope of work at an oil project\u2026",
+      "tags": [
+        "Energy-Transition",
+        "Technology"
+      ],
+      "audience": "Novatug",
+      "paywalled": false,
+      "entities": [
+        {
+          "name": "ExxonMobil",
+          "category": "clients"
+        }
+      ],
+      "locations": [],
+      "businessTags": [
+        "Client",
+        "Commercial"
+      ],
+      "priorityScore": 6,
+      "priorityBand": "medium",
+      "priorityReasons": [
+        "Client mention: ExxonMobil",
+        "Signal: Commercial"
+      ],
+      "boardBucket": "Clients & Projects"
+    },
+    {
       "id": "4790e036798d3f9e",
       "title": "Voting closes soon for ITS 2026 towage industry awards",
       "source": "Riviera: Ports & Terminals",
@@ -2559,40 +2668,6 @@ window.__DASHBOARD_DATA__ = {
       "boardBucket": "Regulation, Safety & Incidents"
     },
     {
-      "id": "443087b6e4266f1a",
-      "title": "W\u00e4rtsil\u00e4 Oyj Abp stock (FI0009003727): Is marine decarbonization strong enough to unlock new upsid - AD HOC NEWS",
-      "source": "W\u00e4rtsil\u00e4 News",
-      "sourceId": "google-wartsila",
-      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQOFJLLXU4RjdKa2NBM0ZuanpqNW01b19Tc09TNUdQMTZoczBTNjZVRWlPMnBzTVRJc1I3WFFGSzlSUjFpcVJEMzF5V0hTMjRQa0dNTlVxQjhuS1QwcmNLUXZGQ1pQd2dqSWpXLTd2TlZsN2JGSXVzRVVkZ0VZSWkwTkNQZG04b1BrT3ZvdFNoN0lnZ2o2QkxVVFFmTk1KVm81aE8wbGsyTXJBOE95VG0yTzdCQVZUSlozQ2pxbHo3SWMxZThfanRvMQ?oc=5",
-      "publishedAt": "2026-04-28T17:01:27Z",
-      "excerpt": "W\u00e4rtsil\u00e4 Oyj Abp stock (FI0009003727): Is marine decarbonization strong enough to unlock new upsid AD HOC NEWS",
-      "tags": [
-        "Decarbonization",
-        "Propulsion",
-        "Technology"
-      ],
-      "audience": "Both",
-      "paywalled": false,
-      "entities": [
-        {
-          "name": "W\u00e4rtsil\u00e4",
-          "category": "suppliers"
-        }
-      ],
-      "locations": [],
-      "businessTags": [
-        "Supplier",
-        "Energy Transition"
-      ],
-      "priorityScore": 6,
-      "priorityBand": "medium",
-      "priorityReasons": [
-        "Supplier mention: W\u00e4rtsil\u00e4",
-        "Signal: Energy Transition"
-      ],
-      "boardBucket": "Other Relevant"
-    },
-    {
       "id": "1f87367218034689",
       "title": "Emergency Response & Salvage",
       "source": "Muller Dordrecht Web Watch",
@@ -3062,37 +3137,6 @@ window.__DASHBOARD_DATA__ = {
       "boardBucket": "Competitors & Market"
     },
     {
-      "id": "885ad4f77205db09",
-      "title": "Bencros cuts downtime in three-tug fender replacement for Boluda - Portnews",
-      "source": "Boluda News",
-      "sourceId": "google-boluda",
-      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1wcjFjVkJjS3NHVlA0Y2N0WWJxa1VzdEszSU5TOGZTUDBhaWdjb0RyZS1faGJRN3ZhUG9UMXZRUUUzQnJOYVlvSjNBZw?oc=5",
-      "publishedAt": "2026-04-24T11:31:00Z",
-      "excerpt": "Bencros cuts downtime in three-tug fender replacement for Boluda Portnews",
-      "tags": [
-        "Towage",
-        "Competitor"
-      ],
-      "audience": "Multraship",
-      "paywalled": false,
-      "entities": [
-        {
-          "name": "Boluda",
-          "category": "competitors"
-        }
-      ],
-      "locations": [],
-      "businessTags": [
-        "Competitor"
-      ],
-      "priorityScore": 6,
-      "priorityBand": "medium",
-      "priorityReasons": [
-        "Competitor mention: Boluda"
-      ],
-      "boardBucket": "Competitors & Market"
-    },
-    {
       "id": "f449cc0a66681aed",
       "title": "QatarEnergy-ExxonMobil Golden Pass LNG marks 'milestone' first cargo export",
       "source": "Riviera: Ports & Terminals",
@@ -3124,15 +3168,14 @@ window.__DASHBOARD_DATA__ = {
       "boardBucket": "Clients & Projects"
     },
     {
-      "id": "6c436f139f101b30",
-      "title": "W\u00e4rtsil\u00e4 and Erik Thun Group partnership to enhance reliability, sustainability and performance throughout the fleet - W\u00e4rtsil\u00e4",
+      "id": "e3efdc66db6f4874",
+      "title": "W\u00e4rtsil\u00e4 and Erik Thun Group partnership - Maritimt Magasin",
       "source": "W\u00e4rtsil\u00e4 News",
       "sourceId": "google-wartsila",
-      "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxQempKZmJjdE14cHljTXRzZHlfQnRzQ1dzaUFUX1h4WkExbGlkeTVOS3V5NTNSXzFFQXFhTURnMDA4OXN2ZEtEeS1VX3ZSREdjZG40MkIwNy1qdFRXeVpObkRZS2NKWUs0TEktMmNwOHZkdVVsT2xJXzhibTNqQmxLNnl0SWF1UUNCdGhaNkFpSm1PdDVIZ2N0VFZTZmFRT3h3T2JmSldnOUdtMU5rWk12Y2Jnb25OQlBlUkJzeER5ZHJRaTZHWFc3MVQ3Wk9KeS1MZkZEZ0lOT3hKMXlXZmJqRzBTSmNzTXY0MHpoQnFHRDdrS0VmS1c4em1ta2ZyOG8?oc=5",
-      "publishedAt": "2026-04-23T10:00:00Z",
-      "excerpt": "W\u00e4rtsil\u00e4 and Erik Thun Group partnership to enhance reliability, sustainability and performance throughout the fleet W\u00e4rtsil\u00e4",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5tcDctLU05T3RiZUFZb1hmNXRYMHhlc2JnU1pFQjZkZ3FUbm0ydGtIclhjcVk0bEhvSDNuc2JadGI4dm5vanA3c2lfdjBDS1RwR25RaGxzVTlha25tY0w5ZkJYbWQ2UlBKQ0JIMklvUkNkZzQ?oc=5",
+      "publishedAt": "2026-04-23T09:39:39Z",
+      "excerpt": "W\u00e4rtsil\u00e4 and Erik Thun Group partnership Maritimt Magasin",
       "tags": [
-        "Sustainability",
         "Propulsion",
         "Technology"
       ],
@@ -3228,7 +3271,7 @@ window.__DASHBOARD_DATA__ = {
       "source": "Ultrabulk News",
       "sourceId": "google-ultrabulk",
       "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNYjI5aTNLbDlDSXQxSkdkMDZXNE9tRDIyXy1ySlhrNnF2RkJUTFQyVXFIdTlhb09KNjY0bEVXcWNvUEZER1VvcXpzSWUtNThrUi11S3JGaHg2M2Rnb0g2V2ZyOG96M3NjdjBXTVF6QUpOMFVQdWRKdWRjd0xSLU15eURtWGFHR1BRZkNUUzc0TmtUeUtTa2NFVURwZ1J6Wmg0VTZwY1JKazBHRnlRb2Rr?oc=5",
-      "publishedAt": "2026-04-21T15:38:56Z",
+      "publishedAt": "2026-04-21T07:00:00Z",
       "excerpt": "Ultrabulk handymax makes first transatlantic biomass delivery Seatrade Maritime News",
       "tags": [
         "Shipping",
@@ -3280,37 +3323,6 @@ window.__DASHBOARD_DATA__ = {
         "Signal: Incident"
       ],
       "boardBucket": "Regulation, Safety & Incidents"
-    },
-    {
-      "id": "aa3428c26ff33669",
-      "title": "Van Oord Installs Monopiles with VibroJet in the North Sea - Inspenet",
-      "source": "Van Oord News",
-      "sourceId": "google-van-oord",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPaldvd3BidEJkcmV1dnZzeXNkckZKNm1kWEtyOHRWTjVfdDFsYUpQZEI5Zl9iQkZLbHByOXk0dnhLcjdJWEpMekZoa3REMDNETzFSMTAwcV9jNXBGNzg3b0IyYTVZbUY3VGgwMUNHdk83SVBGbXlKYldsRmxlcUFFT0lva0k?oc=5",
-      "publishedAt": "2026-04-17T07:00:00Z",
-      "excerpt": "Van Oord Installs Monopiles with VibroJet in the North Sea Inspenet",
-      "tags": [
-        "Offshore",
-        "Dredging"
-      ],
-      "audience": "Multraship",
-      "paywalled": false,
-      "entities": [
-        {
-          "name": "Van Oord",
-          "category": "clients"
-        }
-      ],
-      "locations": [],
-      "businessTags": [
-        "Client"
-      ],
-      "priorityScore": 6,
-      "priorityBand": "medium",
-      "priorityReasons": [
-        "Client mention: Van Oord"
-      ],
-      "boardBucket": "Clients & Projects"
     },
     {
       "id": "127e90407a4d3364",
@@ -3621,12 +3633,12 @@ window.__DASHBOARD_DATA__ = {
       "boardBucket": "Clients & Projects"
     },
     {
-      "id": "7ecdb7f65c6b8a03",
+      "id": "d87e4f931ade9a93",
       "title": "ILT News page updated",
       "source": "ILT News",
       "sourceId": "ilt-news",
-      "url": "https://english.ilent.nl/latest/news?dashboardChange=8f2e508ae5db",
-      "publishedAt": "2026-05-02T07:17:59.279343Z",
+      "url": "https://english.ilent.nl/latest/news?dashboardChange=d3e07c45e69d",
+      "publishedAt": "2026-05-02T08:56:26.444077Z",
       "excerpt": "Tracked page content changed.",
       "tags": [
         "Regulation",
@@ -3702,6 +3714,39 @@ window.__DASHBOARD_DATA__ = {
       "priorityBand": "medium",
       "priorityReasons": [
         "Signal: Regulation"
+      ],
+      "boardBucket": "Regulation, Safety & Incidents"
+    },
+    {
+      "id": "21b6d099506d8846",
+      "title": "DNV\u2019s scope at UK\u2019s first offshore CCS project expands with independent certifier role",
+      "source": "Offshore Energy",
+      "sourceId": "offshore-energy",
+      "url": "https://www.offshore-energy.biz/dnvs-scope-at-uks-first-offshore-ccs-project-expands-with-independent-certifier-role",
+      "publishedAt": "2026-05-01T08:30:00Z",
+      "excerpt": "DNV has been selected as the independent certifier for Northern Endurance Partnership (NEP), the [\u2026] The post DNV\u2019s scope at UK\u2019s first offshore CCS project expands with independent certifier role appeared first on Offshore Energy .",
+      "tags": [
+        "Energy-Transition",
+        "Technology"
+      ],
+      "audience": "Novatug",
+      "paywalled": false,
+      "entities": [
+        {
+          "name": "DNV",
+          "category": "authorities"
+        }
+      ],
+      "locations": [],
+      "businessTags": [
+        "Authority & Class",
+        "Commercial"
+      ],
+      "priorityScore": 5,
+      "priorityBand": "medium",
+      "priorityReasons": [
+        "Authority & Class mention: DNV",
+        "Signal: Commercial"
       ],
       "boardBucket": "Regulation, Safety & Incidents"
     },
@@ -3966,32 +4011,6 @@ window.__DASHBOARD_DATA__ = {
       "boardBucket": "Regulation, Safety & Incidents"
     },
     {
-      "id": "07f1137b3bdc3c88",
-      "title": "Hormuz Shipping Toll: Global Economic & Legal Impact - Discovery Alert",
-      "source": "Mesh Maritime News",
-      "sourceId": "google-mesh-maritime",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOQTRBZlZybWtWc1BoYV9UaWkyeDNVYW1oSW03SnJtWjhLRjBBbVYyT1NucnNxeG84bzQ2TkhfNXp0TUVJVEdYclpLZmtLbGY5aXhNQjZtQXR5TzJZTEp3TWhlUFVqLUVHdWdLcDluREVETnducVFxYzctWDk5RlpZeGd2VDVJOGkzWWhHTjhseWxnQXRPa1F6WnhLMU4tS2FKUVdxVg?oc=5",
-      "publishedAt": "2026-04-12T07:00:00Z",
-      "excerpt": "Hormuz Shipping Toll: Global Economic & Legal Impact Discovery Alert",
-      "tags": [
-        "Maritime",
-        "Supplier"
-      ],
-      "audience": "Multraship",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [
-        "Regulation"
-      ],
-      "priorityScore": 5,
-      "priorityBand": "medium",
-      "priorityReasons": [
-        "Signal: Regulation"
-      ],
-      "boardBucket": "Regulation, Safety & Incidents"
-    },
-    {
       "id": "e5246d97e52bbb26",
       "title": "ST LNG advances offshore export terminal plans",
       "source": "Riviera: Ports & Terminals",
@@ -4080,13 +4099,13 @@ window.__DASHBOARD_DATA__ = {
       "boardBucket": "Clients & Projects"
     },
     {
-      "id": "fe2e08cbdbd1725c",
-      "title": "Damen launches \u2018Drone Carrier\u2019 for the Portuguese Navy - navalnews.com",
+      "id": "ffc26ae403641d46",
+      "title": "Damen launches MPV 10720 for the Portuguese Navy - Damen Shipyards",
       "source": "Damen Shipyards News",
       "sourceId": "google-damen",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPTU5EQWIxN1A3anBUUzlUellxLTR6Y2ZnWTZqWEJzWVNVMS00OHBvdW1MbWFYUWhodEFPLXAtUDBkdUhHQ2hDU2tXN0FxbE4yYmVDRFdMQVJiM2lSVXBJWXg3bEx3bzFFSlpGbml2UWtmdkNkeWc5emVhVjlaZEFRcW4wRXIyeVVEQ2NHTGJodFo2VTc2WVJudElfUl9IdjA?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxORjVJRmliSV9uNkJOdWVUaTRBTVgwTC1sY0ZYOXo4RmN0VVJtbWlXWkE0eVd1M29SSXpZRlBWazBpZXNOaXVxLW0wMkNoOEJ0WlNTMHdGbF9VVHZDQ05BMk9pZDVONXRpQkw1YXlyTUVRdEd1SHNvN0NtZXo0VktpS0JRcDJRR00tNWxTTUh5VGt0ay1hUnBaOU1wTQ?oc=5",
       "publishedAt": "2026-04-07T07:00:00Z",
-      "excerpt": "Damen launches \u2018Drone Carrier\u2019 for the Portuguese Navy navalnews.com",
+      "excerpt": "Damen launches MPV 10720 for the Portuguese Navy Damen Shipyards",
       "tags": [
         "Towage",
         "Shipbuilding",
@@ -4229,6 +4248,65 @@ window.__DASHBOARD_DATA__ = {
         "Supplier mention: Kongsberg Maritime"
       ],
       "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "00163d5c40b1f255",
+      "title": "Probe into offshore rig incident uncovers serious breaches",
+      "source": "Offshore Energy",
+      "sourceId": "offshore-energy",
+      "url": "https://www.offshore-energy.biz/probe-into-offshore-rig-incident-uncovers-serious-breaches",
+      "publishedAt": "2026-05-01T11:00:00Z",
+      "excerpt": "Scotland-headquartered offshore drilling contractor Odfjell Drilling has been served with an order from Norway\u2019s offshore safety regulator, which investigated an incident that resulted in an injury at a semi-submersible rig deployed on the\u2026",
+      "tags": [
+        "Incidents",
+        "Safety",
+        "Energy-Transition",
+        "Technology"
+      ],
+      "audience": "Novatug",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [
+        "Incident"
+      ],
+      "priorityScore": 4,
+      "priorityBand": "medium",
+      "priorityReasons": [
+        "Signal: Incident"
+      ],
+      "boardBucket": "Regulation, Safety & Incidents"
+    },
+    {
+      "id": "cba29d10670e6f1c",
+      "title": "Jan De Nul installs export cables for Taiwan\u2019s Fengmiao 1 offshore wind farm",
+      "source": "Offshore Energy",
+      "sourceId": "offshore-energy",
+      "url": "https://www.offshore-energy.biz/jan-de-nul-installs-export-cables-for-taiwans-fengmiao-1-offshore-wind-farm",
+      "publishedAt": "2026-05-01T10:30:00Z",
+      "excerpt": "Jan De Nul has completed the installation of two export cables for the Fengmiao [\u2026] The post Jan De Nul installs export cables for Taiwan\u2019s Fengmiao 1 offshore wind farm appeared first on Offshore Energy .",
+      "tags": [
+        "Energy-Transition",
+        "Technology"
+      ],
+      "audience": "Novatug",
+      "paywalled": false,
+      "entities": [
+        {
+          "name": "Jan De Nul",
+          "category": "clients"
+        }
+      ],
+      "locations": [],
+      "businessTags": [
+        "Client"
+      ],
+      "priorityScore": 4,
+      "priorityBand": "medium",
+      "priorityReasons": [
+        "Client mention: Jan De Nul"
+      ],
+      "boardBucket": "Clients & Projects"
     },
     {
       "id": "df03ee9423d1ba9e",
@@ -4445,37 +4523,6 @@ window.__DASHBOARD_DATA__ = {
       "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1xUHFHQWdKcHhNXy1XZWtLQUNzVE5pd2RBbDVZSUpPRFctajB0YXN2TExRREJpeFVrbkpaeFhlSzNZY1hhNXNuTTRrVk5sck9vWFFEdGU5aFdsWUpPRUI4aWlfRm1wb21rcVJpME4zdzNjTzlFbnc?oc=5",
       "publishedAt": "2026-04-30T15:36:25Z",
       "excerpt": "Kongsberg Maritime ASA Earnings and Revenue \u2013 LSX:A429K5 TradingView",
-      "tags": [
-        "Technology",
-        "Supplier"
-      ],
-      "audience": "Both",
-      "paywalled": false,
-      "entities": [
-        {
-          "name": "Kongsberg Maritime",
-          "category": "suppliers"
-        }
-      ],
-      "locations": [],
-      "businessTags": [
-        "Supplier"
-      ],
-      "priorityScore": 4,
-      "priorityBand": "medium",
-      "priorityReasons": [
-        "Supplier mention: Kongsberg Maritime"
-      ],
-      "boardBucket": "Other Relevant"
-    },
-    {
-      "id": "2e414e94e2cf1372",
-      "title": "Kongsberg Gruppen ASA Stock (NO0003043309): Danske Bank Cuts Price Target to NOK 420 - AD HOC NEWS",
-      "source": "Kongsberg Maritime News",
-      "sourceId": "google-kongsberg",
-      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPd09mSmVuLVk3YW8zTG95NF94b211ZGlUMnNiYktWdEt5UnRHVXBNbkF2eUl4M0M0TzA2RVc0UjVUcVE4dVBUcmktNF9LMl80cmd3SExiZTh5dVk5SVJnTFVXR3lWZVZiSFN0dkZ4a0QxcGU2VDNWbWoxcHh4NEN1cnZabUMwcGRYZDlEcG5FV0dKRHktLUtJSEw1eFRDMWxTbzFnVGE4OE9zejZZQmJxdEVKXzZIdnFweVRxU2NmUHJRdG12ZHNubQ?oc=5",
-      "publishedAt": "2026-04-30T14:24:10Z",
-      "excerpt": "Kongsberg Gruppen ASA Stock (NO0003043309): Danske Bank Cuts Price Target to NOK 420 AD HOC NEWS",
       "tags": [
         "Technology",
         "Supplier"
@@ -4734,13 +4781,44 @@ window.__DASHBOARD_DATA__ = {
       "boardBucket": "Other Relevant"
     },
     {
-      "id": "c9fe868de7db9fe8",
-      "title": "KONGSBERG marks a new day - Asia Pacific Defence Reporter",
+      "id": "110a6b31798a3b03",
+      "title": "Number of employees of Kongsberg Maritime ASA \u2013 OSL:KMAR - TradingView",
       "source": "Kongsberg Maritime News",
       "sourceId": "google-kongsberg",
-      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1IVDlSSFlHSTUxWFlGWEF0M2NoSXpVVkw2TUgyeldQYks0R0VwY0UyNTlEX2RZdXMxX1lrbTE2Tk04R1ZOUkFxSHpsaE1FSW9wSWRtVDdSaWZRZkx5NG4zWGJ3UW5XSzhTNmJhWkszTG5Va28?oc=5",
-      "publishedAt": "2026-04-26T22:12:24Z",
-      "excerpt": "KONGSBERG marks a new day Asia Pacific Defence Reporter",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNVlBnZGFLaTk4Wnp4MnUyTkVZTldIOUtZYWdRRXJOdEJGOTY4X0REdHAtS1hrM3VyamFXNkd2b1NDajRTOW4zRVN3SnNvYUxpTG1nTDBDbU1DUkg5WGNjNktKcVIwTXVtZWF2aGExS2FKWFF5Zk50Y2JhMHd6dlk5UjA4UlBuRVRkaloyZ05ISlduZ3ZfcUFJNVJDTVQteHc?oc=5",
+      "publishedAt": "2026-04-25T08:46:55Z",
+      "excerpt": "Number of employees of Kongsberg Maritime ASA \u2013 OSL:KMAR TradingView",
+      "tags": [
+        "Technology",
+        "Supplier"
+      ],
+      "audience": "Both",
+      "paywalled": false,
+      "entities": [
+        {
+          "name": "Kongsberg Maritime",
+          "category": "suppliers"
+        }
+      ],
+      "locations": [],
+      "businessTags": [
+        "Supplier"
+      ],
+      "priorityScore": 4,
+      "priorityBand": "medium",
+      "priorityReasons": [
+        "Supplier mention: Kongsberg Maritime"
+      ],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "7a17b6d131e62b43",
+      "title": "Kongsberg Maritime ASA Revenue Breakdown \u2013 OSL:KMAR - TradingView",
+      "source": "Kongsberg Maritime News",
+      "sourceId": "google-kongsberg",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBLVl84VUx5a2dya1VnLVlqSWFQQTRzcWZCb0hFbFAwSElJU2dEeGd6VVJOdFkybGVmYVRJOWxEOUNBZkI2RDlSNnp6RERhOTB1NFF2dTNEUnlKVEx2Y2JqZ2JkR2tjUlhGQ0Q0SE9TOFN6Zw?oc=5",
+      "publishedAt": "2026-04-25T08:33:25Z",
+      "excerpt": "Kongsberg Maritime ASA Revenue Breakdown \u2013 OSL:KMAR TradingView",
       "tags": [
         "Technology",
         "Supplier"
@@ -4827,37 +4905,6 @@ window.__DASHBOARD_DATA__ = {
       "boardBucket": "Other Relevant"
     },
     {
-      "id": "f64b7783878a369f",
-      "title": "KONGSBERG MARITIME ASA Revenue Breakdown \u2013 FWB:Z4Q - TradingView",
-      "source": "Kongsberg Maritime News",
-      "sourceId": "google-kongsberg",
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBQNVFXZzdiT1RzOUJIU1B4NUF5Z3d2ZkF6eXlzUUVoNWxadlRxVjdubFpBYXRNSkVGNzNOYkNHbVVjRnhKdzNaX19vWXViTHFqejA4aGE0QjRCcDJSdlQ5M2Z3aHVyQVpOTXdYLThveUk?oc=5",
-      "publishedAt": "2026-04-24T21:12:23Z",
-      "excerpt": "KONGSBERG MARITIME ASA Revenue Breakdown \u2013 FWB:Z4Q TradingView",
-      "tags": [
-        "Technology",
-        "Supplier"
-      ],
-      "audience": "Both",
-      "paywalled": false,
-      "entities": [
-        {
-          "name": "Kongsberg Maritime",
-          "category": "suppliers"
-        }
-      ],
-      "locations": [],
-      "businessTags": [
-        "Supplier"
-      ],
-      "priorityScore": 4,
-      "priorityBand": "medium",
-      "priorityReasons": [
-        "Supplier mention: Kongsberg Maritime"
-      ],
-      "boardBucket": "Other Relevant"
-    },
-    {
       "id": "8592af75ba71be6e",
       "title": "KONGSBERG MARITIME ASA Statistics \u2013 FWB:Z4Q - TradingView",
       "source": "Kongsberg Maritime News",
@@ -4865,37 +4912,6 @@ window.__DASHBOARD_DATA__ = {
       "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQdklraUNlaS05TDRfekNMeXZ2OWdSbm04LUZ3RzRTbktHZ3JMYWN4OXNpZGplSHV4TVNzSndHanUycm85QnJrVExKejlvVURsdFhONU9KQllYdFpGeDNvLVc3N1FhV0xlc0VHNzdJc2dHeGNuN0VyblpSaXNkdlVxdFBtaw?oc=5",
       "publishedAt": "2026-04-24T21:07:17Z",
       "excerpt": "KONGSBERG MARITIME ASA Statistics \u2013 FWB:Z4Q TradingView",
-      "tags": [
-        "Technology",
-        "Supplier"
-      ],
-      "audience": "Both",
-      "paywalled": false,
-      "entities": [
-        {
-          "name": "Kongsberg Maritime",
-          "category": "suppliers"
-        }
-      ],
-      "locations": [],
-      "businessTags": [
-        "Supplier"
-      ],
-      "priorityScore": 4,
-      "priorityBand": "medium",
-      "priorityReasons": [
-        "Supplier mention: Kongsberg Maritime"
-      ],
-      "boardBucket": "Other Relevant"
-    },
-    {
-      "id": "1ad65a90e4175c79",
-      "title": "KONGSBERG MARITIME ASA Financial Statements \u2013 FWB:Z4Q - TradingView",
-      "source": "Kongsberg Maritime News",
-      "sourceId": "google-kongsberg",
-      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBNTTJZbEtuelRPWDNWV3E2RTBkUVluc1FaWWJyTTc0d3FwYngyUmg4dG0zM193Ny12M2RFSGMzeVRrU0p4UFdqNzNJZlZaTjVsRkpPSkhlYnozVU93SGVSbHVTYkQzQXRCek0zaHl6WFVLQQ?oc=5",
-      "publishedAt": "2026-04-24T20:27:37Z",
-      "excerpt": "KONGSBERG MARITIME ASA Financial Statements \u2013 FWB:Z4Q TradingView",
       "tags": [
         "Technology",
         "Supplier"
@@ -4982,37 +4998,6 @@ window.__DASHBOARD_DATA__ = {
       "boardBucket": "Other Relevant"
     },
     {
-      "id": "182c82a0ed60851b",
-      "title": "KONGSBERG MARITIME ASA Dividends \u2013 OMXSTO:KMARO - TradingView",
-      "source": "Kongsberg Maritime News",
-      "sourceId": "google-kongsberg",
-      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFB4OW5DOThELVh5RGc0U0hEcnR5eEpKb3RCS0JzSnRnOUtKTVRFNUgxOWc0dTVCRTZyal8yQXVad0NYOF8zSzhObENuNVg2VmZ1Ui0xMUtOaDhBeUtqU2FJdUFnaWFLTlBwb2dtVUxDMS14LUNwNFE4TVFB?oc=5",
-      "publishedAt": "2026-04-24T15:14:04Z",
-      "excerpt": "KONGSBERG MARITIME ASA Dividends \u2013 OMXSTO:KMARO TradingView",
-      "tags": [
-        "Technology",
-        "Supplier"
-      ],
-      "audience": "Both",
-      "paywalled": false,
-      "entities": [
-        {
-          "name": "Kongsberg Maritime",
-          "category": "suppliers"
-        }
-      ],
-      "locations": [],
-      "businessTags": [
-        "Supplier"
-      ],
-      "priorityScore": 4,
-      "priorityBand": "medium",
-      "priorityReasons": [
-        "Supplier mention: Kongsberg Maritime"
-      ],
-      "boardBucket": "Other Relevant"
-    },
-    {
       "id": "20cb925f45b1a750",
       "title": "Kongsberg Maritime Begins Trading on the Oslo Stock Exchange - Marine News Magazine",
       "source": "Kongsberg Maritime News",
@@ -5075,6 +5060,38 @@ window.__DASHBOARD_DATA__ = {
       "boardBucket": "Other Relevant"
     },
     {
+      "id": "3fd06fa83ba41908",
+      "title": "W\u00e4rtsil\u00e4\u2019s strength in fishing vessel sector enhanced with propulsion orders for four new vessels - W\u00e4rtsil\u00e4",
+      "source": "W\u00e4rtsil\u00e4 News",
+      "sourceId": "google-wartsila",
+      "url": "https://news.google.com/rss/articles/CBMixAJBVV95cUxObkYzLVBPZzczVlR5bW5qWXVjRXJxbmJheUt1YnU5bVVpS2xUUlJuZkgxRTlZTW9CLXRhc1dHa0wyMjYxVHdsNGh6WlhXWXVkVUh6bU9BU29OamlKMkVNQkNnOVlqTmN6U3A3cnRJTjdqUl93aElVN2NRVzZkMVVIVFZVOWlycktKYlhIdGpmbGxzLTRfanMtSHRvdW94R3lVQ3lCTzRVVUZBMzdlN0hIV0gtUlExQW1GdE5RTFB1RTU5eElwbU80cDNnZ0NGRU5fWGFJajdnSWJDRGRXX0MzVXdzMDg0S2h2WVBxa0VGQzJpcEJ5bEQ2UUtZV25FRU5ONmZqelh5bGJHYnFuVHZxOFlPUXd4VXJiclQ1TzFDbW1CajJ5TjR3aDhGSWhEVGNuSDI5c3gyWFdWaXM1SmpWb213LTY?oc=5",
+      "publishedAt": "2026-04-23T18:00:42Z",
+      "excerpt": "W\u00e4rtsil\u00e4\u2019s strength in fishing vessel sector enhanced with propulsion orders for four new vessels W\u00e4rtsil\u00e4",
+      "tags": [
+        "Clean Propulsion",
+        "Propulsion",
+        "Technology"
+      ],
+      "audience": "Both",
+      "paywalled": false,
+      "entities": [
+        {
+          "name": "W\u00e4rtsil\u00e4",
+          "category": "suppliers"
+        }
+      ],
+      "locations": [],
+      "businessTags": [
+        "Supplier"
+      ],
+      "priorityScore": 4,
+      "priorityBand": "medium",
+      "priorityReasons": [
+        "Supplier mention: W\u00e4rtsil\u00e4"
+      ],
+      "boardBucket": "Other Relevant"
+    },
+    {
       "id": "3144d286e74c30e4",
       "title": "Marine engineers offer 'solution to unite the industry' on climate regulation debate",
       "source": "Riviera: Regulations & Compliance",
@@ -5099,37 +5116,6 @@ window.__DASHBOARD_DATA__ = {
         "Signal: Regulation"
       ],
       "boardBucket": "Regulation, Safety & Incidents"
-    },
-    {
-      "id": "1b9a50f340addcff",
-      "title": "Kongsberg Maritime AS(OB: KMAR) added to FTSE All-World Index - marketscreener.com",
-      "source": "Kongsberg Maritime News",
-      "sourceId": "google-kongsberg",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOcExTQTZqbmxpMDRJQzBRQUEzb3FyVWJ1N3FDSjdOc1pEalVuNWRXUHMxMjgxWEFwQ3hwc190YnNuNklpaFQ4MlNmVTdLdHNCLVduSkhvZ0pKQmxvYXRLUTZxeU5WSjVLNEZualBIb1Q1TmFSNzYxWWpjUDkyazYwc3VZOHRoeFY0REFjam92Q2syNWJtZ0hJMUFwV29MZWw3TFUyWHVkQmtiWXpHSm1PNTZn?oc=5",
-      "publishedAt": "2026-04-23T10:07:45Z",
-      "excerpt": "Kongsberg Maritime AS(OB: KMAR) added to FTSE All-World Index marketscreener.com",
-      "tags": [
-        "Technology",
-        "Supplier"
-      ],
-      "audience": "Both",
-      "paywalled": false,
-      "entities": [
-        {
-          "name": "Kongsberg Maritime",
-          "category": "suppliers"
-        }
-      ],
-      "locations": [],
-      "businessTags": [
-        "Supplier"
-      ],
-      "priorityScore": 4,
-      "priorityBand": "medium",
-      "priorityReasons": [
-        "Supplier mention: Kongsberg Maritime"
-      ],
-      "boardBucket": "Other Relevant"
     },
     {
       "id": "a68f71d87707be9b",
@@ -5221,13 +5207,13 @@ window.__DASHBOARD_DATA__ = {
       "boardBucket": "Other Relevant"
     },
     {
-      "id": "eb967742b8173d1d",
-      "title": "Kongsberg Gruppen ASA - First day of trading exclusive the right to shares in Kongsberg Maritime ASA - marketscreener.com",
+      "id": "1565295a8791b4b6",
+      "title": "Kongsberg Maritime ASA - Shares held by primary insiders and their close associates after completion of the demerger - TradingView",
       "source": "Kongsberg Maritime News",
       "sourceId": "google-kongsberg",
-      "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQeXA4b0JLRThWdUFRTzFnNHhLN3RubnQ5UEJFY0ZUeW95TmFpTTN3VFB5SzdzZUpQdnVyNmhfM1Zhcm1WQS0td2FGN0cyNUd2VkJ2RF94TWw4MXNVUlZlYUpGa3RlNEtEVWJBSmliQW0wZEFIZmxiQmU2ZTF4aU5tQnpVNjh3UTI2YWZYamdwRGZrVzZvX3U2bmVEZE1tMXR3YjkzTXVuWmgzN0dCUzVBNUkwTkZldlZwTV9HYjVzaV9mSm16U3J0WXVtUUxkdzRaSkZGLXNxTElKdXF4QVRVYTZkQmxTZw?oc=5",
-      "publishedAt": "2026-04-23T05:01:50Z",
-      "excerpt": "Kongsberg Gruppen ASA - First day of trading exclusive the right to shares in Kongsberg Maritime ASA marketscreener.com",
+      "url": "https://news.google.com/rss/articles/CBMijAJBVV95cUxQaEh6U2UxSy1rQWlPZC1RNEt6c09OQlRqd3BMTzRKZ1JLaVRSbC1MNnc0TGNJLVVEdEh1MEJxSklZSXlXcmVhakd6WDV5MGZ6SzREZWJiVjFQcEg1NmlOQ3BFVDNMXzIzZDdscGJXd3diUURCaFduZkZoWDV6azdoS2RqYlFhalhoNk1LVVZEa2lnQ0xNeWRCV1hEdXNFcHZCaGF4UGVJMU1ibjFyLXJzNUVsYmJUUkttS3hmYzIzcXFmTVZFTkFTb3dZNW4xQjJmZjRPRHNRVm5nQ0JNTS1JZ09Ib1Nta2R2R1dMN0tMQmg0QlJDYTBoXy1OX3JUQlE0SklwV2E5U1d5M2lR?oc=5",
+      "publishedAt": "2026-04-22T16:00:00Z",
+      "excerpt": "Kongsberg Maritime ASA - Shares held by primary insiders and their close associates after completion of the demerger TradingView",
       "tags": [
         "Technology",
         "Supplier"
@@ -5252,13 +5238,13 @@ window.__DASHBOARD_DATA__ = {
       "boardBucket": "Other Relevant"
     },
     {
-      "id": "1565295a8791b4b6",
-      "title": "Kongsberg Maritime ASA - Shares held by primary insiders and their close associates after completion of the demerger - TradingView",
+      "id": "57f8bc0e22c95a92",
+      "title": "Kongsberg Maritime AS(OB: KMAR) added to S&P International 700 - marketscreener.com",
       "source": "Kongsberg Maritime News",
       "sourceId": "google-kongsberg",
-      "url": "https://news.google.com/rss/articles/CBMijAJBVV95cUxQaEh6U2UxSy1rQWlPZC1RNEt6c09OQlRqd3BMTzRKZ1JLaVRSbC1MNnc0TGNJLVVEdEh1MEJxSklZSXlXcmVhakd6WDV5MGZ6SzREZWJiVjFQcEg1NmlOQ3BFVDNMXzIzZDdscGJXd3diUURCaFduZkZoWDV6azdoS2RqYlFhalhoNk1LVVZEa2lnQ0xNeWRCV1hEdXNFcHZCaGF4UGVJMU1ibjFyLXJzNUVsYmJUUkttS3hmYzIzcXFmTVZFTkFTb3dZNW4xQjJmZjRPRHNRVm5nQ0JNTS1JZ09Ib1Nta2R2R1dMN0tMQmg0QlJDYTBoXy1OX3JUQlE0SklwV2E5U1d5M2lR?oc=5",
-      "publishedAt": "2026-04-22T16:00:00Z",
-      "excerpt": "Kongsberg Maritime ASA - Shares held by primary insiders and their close associates after completion of the demerger TradingView",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPTWY2bF8zWV9fTmd2UjhTWVQ0ejllSnc1bVNzLTVjdk9zVkR3R3dKMTZmaXU5Z0hxWWhwaWxCVXkxRVJmRHJfaF9zcEt4Vms3VWlaMjVwQ2lNQU9Rd2ViQzFaa24xV2wweXRERDV3X1c0a0IyTF90T1AwWVNUMjZWcUNYN0xGU3l6MXhsVkpmcGhkTUtiMUtCUlZ5NHQ4X281QlBTb3ZYd3lWZFMxUkpxRzNOYw?oc=5",
+      "publishedAt": "2026-04-22T07:00:00Z",
+      "excerpt": "Kongsberg Maritime AS(OB: KMAR) added to S&P International 700 marketscreener.com",
       "tags": [
         "Technology",
         "Supplier"
@@ -5372,38 +5358,6 @@ window.__DASHBOARD_DATA__ = {
       "priorityBand": "medium",
       "priorityReasons": [
         "Supplier mention: Kongsberg Maritime"
-      ],
-      "boardBucket": "Other Relevant"
-    },
-    {
-      "id": "b34c83ea8e63324a",
-      "title": "W\u00e4rtsil\u00e4 integrated propulsion solution to deliver future-proofing for new next-generation short-sea cargo vessel - DredgeWire",
-      "source": "W\u00e4rtsil\u00e4 News",
-      "sourceId": "google-wartsila",
-      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPcXRQN05oMmdSTmpZU1VkLUJkRWluUGhtZ3Y2SWVEVWhVZ3RaeS15bndfcW5wT3FxMm4wUGtOWkF5TmlTVjlmYkUtTU5iSGVBY1RSdWRUczBFUm9EaS1JdjVNT0dSeGpqeE5UTC1aSnpiMHpEY3lNbUtaa1JWeDdkVTJHZWRVc3dXaEJmNy1ZUXRQUkZRd0hNSmFCaHZjQUVaMVNhUll2dklLYjZaM0pOLUxyQ3UzRnNDS0o3a3ZNd05EQ1p1UENCYWFfbjhxbUQ4Mk1R?oc=5",
-      "publishedAt": "2026-04-15T22:16:45Z",
-      "excerpt": "W\u00e4rtsil\u00e4 integrated propulsion solution to deliver future-proofing for new next-generation short-sea cargo vessel DredgeWire",
-      "tags": [
-        "Clean Propulsion",
-        "Propulsion",
-        "Technology"
-      ],
-      "audience": "Both",
-      "paywalled": false,
-      "entities": [
-        {
-          "name": "W\u00e4rtsil\u00e4",
-          "category": "suppliers"
-        }
-      ],
-      "locations": [],
-      "businessTags": [
-        "Supplier"
-      ],
-      "priorityScore": 4,
-      "priorityBand": "medium",
-      "priorityReasons": [
-        "Supplier mention: W\u00e4rtsil\u00e4"
       ],
       "boardBucket": "Other Relevant"
     },
@@ -5686,6 +5640,32 @@ window.__DASHBOARD_DATA__ = {
       "boardBucket": "Other Relevant"
     },
     {
+      "id": "42d0bb9987c53596",
+      "title": "Green light for wellhead removal ops at Australian oil field",
+      "source": "Offshore Energy",
+      "sourceId": "offshore-energy",
+      "url": "https://www.offshore-energy.biz/green-light-for-wellhead-removal-ops-at-australian-oil-field",
+      "publishedAt": "2026-05-01T08:00:00Z",
+      "excerpt": "AIM-listed and Singapore-headquartered oil and gas player Jadestone Energy has received a stamp of approval for its environmental plan (EP) from the country\u2019s offshore regulator for wellhead removal activities at its oil field off the coas\u2026",
+      "tags": [
+        "Energy-Transition",
+        "Technology"
+      ],
+      "audience": "Novatug",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [
+        "Regulation"
+      ],
+      "priorityScore": 3,
+      "priorityBand": "low",
+      "priorityReasons": [
+        "Signal: Regulation"
+      ],
+      "boardBucket": "Regulation, Safety & Incidents"
+    },
+    {
       "id": "68e8d4ed6c5bb09c",
       "title": "Splash Wrap: Regulators, raiders and deals in Geneva shape shipping this week",
       "source": "Splash247",
@@ -5711,6 +5691,32 @@ window.__DASHBOARD_DATA__ = {
         "Signal: Regulation"
       ],
       "boardBucket": "Regulation, Safety & Incidents"
+    },
+    {
+      "id": "af031842eb5ffcb5",
+      "title": "Report highlights Denmark\u2019s maritime innovation weaknesses",
+      "source": "Splash247",
+      "sourceId": "splash247",
+      "url": "https://splash247.com/report-highlights-denmarks-maritime-innovation-weaknesses",
+      "publishedAt": "2026-05-01T06:38:14Z",
+      "excerpt": "Denmark\u2019s maritime sector is widely respected for its technical strength, talent and early-stage support, but a new report from Studio 30 50, developed in partnership with Danish Entrepreneurs, argues that the country\u2019s biggest innovation\u2026",
+      "tags": [
+        "Maritime",
+        "News"
+      ],
+      "audience": "Both",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [
+        "Commercial"
+      ],
+      "priorityScore": 3,
+      "priorityBand": "low",
+      "priorityReasons": [
+        "Signal: Commercial"
+      ],
+      "boardBucket": "Other Relevant"
     }
   ],
   "departmentProfiles": [
