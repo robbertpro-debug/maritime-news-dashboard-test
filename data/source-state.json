@@ -1,7 +1,7 @@
 {
   "sources": {
     "ilt-news": {
-      "pageHash": "c6fed1ff22d2020e1dd09b754551c783c17502cd",
+      "pageHash": "4ce38756c640ed629061844a09cf99e339b51957",
       "seenUrls": {}
     },
     "made-in": {
@@ -164,6 +164,7 @@
         "https://www.omroepzeeland.nl/nieuws/18396462/arsenaalgebied-verloedert-lpv-ondernemers-gijzelen-vlissingen": "2026-04-28T19:06:09.648241Z",
         "https://www.omroepzeeland.nl/nieuws/18402465/geschiedenis-komt-tot-leven-door-je-oortjes-in-deze-kerk-het-is-echt-een-belevenis": "2026-04-29T06:47:31.503270Z",
         "https://www.omroepzeeland.nl/nieuws/18402465/grote-kerk-in-veere-krijgt-audiotour-geschiedenis-nu-te-horen-en-zien": "2026-04-28T19:06:09.648241Z",
+        "https://www.omroepzeeland.nl/nieuws/18402561/plannen-voor-muziekcamping-bij-boer-vos-zoiets-is-er-nog-niet-in-zeeland": "2026-05-02T18:40:42.270725Z",
         "https://www.omroepzeeland.nl/nieuws/18406590/duitse-claudia-en-zeeuwse-saskia-dikke-vriendinnen-door-jarenlange-uitwisseling-politie-duitsland-en-zeeland": "2026-04-30T10:09:04.641534Z",
         "https://www.omroepzeeland.nl/nieuws/18406605/michiel-de-ruyter-herdacht-met-grote-plaquette-op-italiaans-eiland": "2026-04-29T17:15:05.506455Z",
         "https://www.omroepzeeland.nl/nieuws/18407880/alle-zeeuwse-bedrijven-merken-vroeg-of-laat-de-gevolgen-van-de-iranoorlog": "2026-04-28T19:06:09.648241Z",
@@ -274,7 +275,7 @@
       }
     },
     "rotterdammerdagblad-regionaal": {
-      "pageHash": "21c7bac0a417a68c9f2cb49013e3fce2fce74549",
+      "pageHash": "7a5a6923a79fa426795d3bb2251f3b38b6aec7b7",
       "seenUrls": {
         "https://www.rotterdammerdagblad.nl/112/aanhouding-in-babbeltruc-onderzoek": "2026-04-30T10:09:04.641534Z",
         "https://www.rotterdammerdagblad.nl/112/eenheid-rotterdam-publiceert-jaarverslag-2025-en-jaarplan-2026": "2026-04-28T12:45:40.782992Z",

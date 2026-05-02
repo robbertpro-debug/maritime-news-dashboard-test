@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-05-02T16:34:52.044379Z",
+  "generatedAt": "2026-05-02T18:40:42.270725Z",
   "lookbackDays": 30,
-  "cutoffAt": "2026-04-02T16:34:52.044379Z",
+  "cutoffAt": "2026-04-02T18:40:42.270725Z",
   "articleCount": 180,
   "sourceCount": 118,
   "sources": [
@@ -699,40 +699,6 @@
       "boardBucket": "High Priority"
     },
     {
-      "id": "3d1052733726e658",
-      "title": "Six Search and Rescue Boats from Damen Shipyards Antalya - Defence Turkey",
-      "source": "Damen Shipyards News",
-      "sourceId": "google-damen",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNQTVERF9GWlMwd04zSVFaaWhRUW12OEJ2aVZXeEZjV1ZMNXowTkYtM3lqMDZfM0FwWjdtZlZYLU8yWHlJWXh1dG1mNmZEUUd5VmVmUnpJZllPQjgtN3FaNXlkX0xObi1OVFd1NC1id1VpSGY3QWYtSmtzOXJsaEZaVjlMdUFQTFE4NlBCSWxGWEd2TTQ?oc=5",
-      "publishedAt": "2026-04-06T07:00:00Z",
-      "excerpt": "Six Search and Rescue Boats from Damen Shipyards Antalya Defence Turkey",
-      "tags": [
-        "Salvage",
-        "Shipbuilding",
-        "Supplier"
-      ],
-      "audience": "Multraship",
-      "paywalled": false,
-      "entities": [
-        {
-          "name": "Damen Shipyards Group",
-          "category": "suppliers"
-        }
-      ],
-      "locations": [],
-      "businessTags": [
-        "Supplier",
-        "Incident"
-      ],
-      "priorityScore": 9,
-      "priorityBand": "high",
-      "priorityReasons": [
-        "Supplier mention: Damen Shipyards Group",
-        "Signal: Incident"
-      ],
-      "boardBucket": "High Priority"
-    },
-    {
       "id": "0914db5666967e3f",
       "title": "IMO Climate Talks Stay Alive as Carbon Plan Survives U.S. Pushback at MEPC 84",
       "source": "gCaptain",
@@ -833,40 +799,6 @@
       "boardBucket": "Regulation, Safety & Incidents"
     },
     {
-      "id": "4ab02e0f17d742cf",
-      "title": "IMO Carbon Plan for Shipping Faces Growing Revolt as U.S. Courts \u2018Silent Majority\u2019",
-      "source": "gCaptain",
-      "sourceId": "gcaptain",
-      "url": "https://gcaptain.com/imo-carbon-plan-faces-growing-revolt-as-u-s-courts-silent-majority",
-      "publishedAt": "2026-04-30T17:31:56Z",
-      "excerpt": "The U.S. is intensifying its push against the International Maritime Organization\u2019s proposed global carbon pricing regime, with Federal Maritime Commission Chairman Laura DiBella urging member states this week to consider alternatives to t\u2026",
-      "tags": [
-        "Regulation",
-        "Maritime",
-        "Operations"
-      ],
-      "audience": "Multraship",
-      "paywalled": false,
-      "entities": [
-        {
-          "name": "International Maritime Organization",
-          "category": "authorities"
-        }
-      ],
-      "locations": [],
-      "businessTags": [
-        "Authority & Class",
-        "Regulation"
-      ],
-      "priorityScore": 8,
-      "priorityBand": "medium",
-      "priorityReasons": [
-        "Authority & Class mention: International Maritime Organization",
-        "Signal: Regulation"
-      ],
-      "boardBucket": "Regulation, Safety & Incidents"
-    },
-    {
       "id": "baacf6ee6a6950fc",
       "title": "Damen redelivers Amels 242 Synthesis after refit",
       "source": "SWZ Maritime",
@@ -938,12 +870,12 @@
       "boardBucket": "Port Watch"
     },
     {
-      "id": "6196c04600cbcf4d",
+      "id": "64a538d9abda320a",
       "title": "News Content Hub - Boluda deploys hybrid propulsion on tug newbuilds - rivieramm.com",
       "source": "Boluda News",
       "sourceId": "google-boluda",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNOGpjWFFmQjZRaDBXaWZQSFJqYWZRWS1ucWRuTnRoRkV3bnNmLVVrMDg4UjZCQjc0aC10ZTFhNWVWY3NrVnQ0UDZtQU15X0NoUF9LMUJEYkZHMk5DWXI4SzJPRmlEYnBlNXlXb29zWlVic0prRXltWUJJeHE1UW1sT2pMS0dOM1o1bGQ3NmFhbVZ4dzV3dElHYXQtc2U3aWM?oc=5",
-      "publishedAt": "2026-04-29T12:46:19Z",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNVW5TZktGNDlfcWtxOVYxaUR0OFFzdm95OHE2MDBSbnVmVEo4N1dXQ2l3bHdER0ZEUmdSTC1FU0dfZzZPTEZSN2ZVam1ESTcycVJJaUVsbG13b1otd1Btb3ZTSm16ZDRZcTZmaVNYaFFKNnRyOUdrNkpkdkU5bzJmMzhQRVdReDM1ZW10ekhodmdRN09NRDhqZDQzdWpUUGNuZ2NKVlQ5WlB4N21Ka0xxcnA3TU5XQQ?oc=5",
+      "publishedAt": "2026-04-29T13:12:13Z",
       "excerpt": "News Content Hub - Boluda deploys hybrid propulsion on tug newbuilds rivieramm.com",
       "tags": [
         "Towage",
@@ -1510,39 +1442,6 @@
         "Signal: Regulation"
       ],
       "boardBucket": "Regulation, Safety & Incidents"
-    },
-    {
-      "id": "6b42949ec3379f0c",
-      "title": "Damen Shipyards and ABP Sign Contract for New Trailing Suction Grab Hopper Dredge - imarinenews.com",
-      "source": "Damen Shipyards News",
-      "sourceId": "google-damen",
-      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9VNkR2elB6UzNQZVFTOUp2NFFtRkRMM2duX1dndXB4eF9SNEF1aC1iMjhvaGVmdGY2RnVSaWdibmJraE1YM1ZTZFBKaHpTems?oc=5",
-      "publishedAt": "2026-04-27T01:31:51Z",
-      "excerpt": "Damen Shipyards and ABP Sign Contract for New Trailing Suction Grab Hopper Dredge imarinenews.com",
-      "tags": [
-        "Shipbuilding",
-        "Supplier"
-      ],
-      "audience": "Multraship",
-      "paywalled": false,
-      "entities": [
-        {
-          "name": "Damen Shipyards Group",
-          "category": "suppliers"
-        }
-      ],
-      "locations": [],
-      "businessTags": [
-        "Supplier",
-        "Commercial"
-      ],
-      "priorityScore": 7,
-      "priorityBand": "medium",
-      "priorityReasons": [
-        "Supplier mention: Damen Shipyards Group",
-        "Signal: Commercial"
-      ],
-      "boardBucket": "Other Relevant"
     },
     {
       "id": "83654714ec096c7d",
@@ -2433,37 +2332,6 @@
         "Signal: Incident"
       ],
       "boardBucket": "Regulation, Safety & Incidents"
-    },
-    {
-      "id": "e0982257753ecea2",
-      "title": "EBITDA per share of DEME Group NV \u2013 SWB:MT0 - TradingView",
-      "source": "DEME Group News",
-      "sourceId": "google-deme",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPZTZtbGdVNmlDZkM5QkxFaG1OdWpEZVhsSkxpb2k5ME12eXZGdVAxaEc5RThaYTFjTFFVR2dyNW9IZ21GTjcwM3M1Ym5QWjlxU2E0bDlNeVpvQUo0Y21FR2x5MTRhaVRmTVlIcjY4bXVseVVpWi1xT295dHVkcTNWblJRT2xVX2J2dzduM2N2YW1EUlA4T1NscHFB?oc=5",
-      "publishedAt": "2026-04-29T14:10:52Z",
-      "excerpt": "EBITDA per share of DEME Group NV \u2013 SWB:MT0 TradingView",
-      "tags": [
-        "Offshore",
-        "Marine-Construction"
-      ],
-      "audience": "Multraship",
-      "paywalled": false,
-      "entities": [
-        {
-          "name": "DEME Group",
-          "category": "clients"
-        }
-      ],
-      "locations": [],
-      "businessTags": [
-        "Client"
-      ],
-      "priorityScore": 6,
-      "priorityBand": "medium",
-      "priorityReasons": [
-        "Client mention: DEME Group"
-      ],
-      "boardBucket": "Clients & Projects"
     },
     {
       "id": "ceb4cd16a7bd9441",
@@ -3682,12 +3550,12 @@
       "boardBucket": "Clients & Projects"
     },
     {
-      "id": "b036007a52cce0b6",
+      "id": "90e206e9cd0c08cb",
       "title": "ILT News page updated",
       "source": "ILT News",
       "sourceId": "ilt-news",
-      "url": "https://english.ilent.nl/latest/news?dashboardChange=c6fed1ff22d2",
-      "publishedAt": "2026-05-02T16:34:52.044379Z",
+      "url": "https://english.ilent.nl/latest/news?dashboardChange=4ce38756c640",
+      "publishedAt": "2026-05-02T18:40:42.270725Z",
       "excerpt": "Tracked page content changed.",
       "tags": [
         "Regulation",
@@ -3712,6 +3580,37 @@
         "Authority & Class mention: ILT"
       ],
       "boardBucket": "Regulation, Safety & Incidents"
+    },
+    {
+      "id": "1b1d62765a13aec3",
+      "title": "Damen to build new dredger for UKD - Ships Monthly",
+      "source": "Damen Shipyards News",
+      "sourceId": "google-damen",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5DelVRaHZhN1BlaVhWcURXRWZWSDNaNU9MRHl3VU9TRlJQdUVrTTQ3QlFvbXB5V0l2MzB6eVVla3lXQVFBakVOZ1VjNV9aR2Vtcjc1YzBhQlhSTVpxOTFWZmJIcE1NVkl3am9YODFVUGg5QmM?oc=5",
+      "publishedAt": "2026-05-02T12:57:00Z",
+      "excerpt": "Damen to build new dredger for UKD Ships Monthly",
+      "tags": [
+        "Shipbuilding",
+        "Supplier"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [
+        {
+          "name": "Damen Shipyards Group",
+          "category": "suppliers"
+        }
+      ],
+      "locations": [],
+      "businessTags": [
+        "Supplier"
+      ],
+      "priorityScore": 5,
+      "priorityBand": "medium",
+      "priorityReasons": [
+        "Supplier mention: Damen Shipyards Group"
+      ],
+      "boardBucket": "Other Relevant"
     },
     {
       "id": "2de087a838ebbf07",
@@ -4060,37 +3959,6 @@
       "boardBucket": "Regulation, Safety & Incidents"
     },
     {
-      "id": "2155450ebb7b70a4",
-      "title": "Damen, IOM, Turkish Coast Guard, EU Hold Meeting for SAR Vessel Order - Marine News Magazine",
-      "source": "Damen Shipyards News",
-      "sourceId": "google-damen",
-      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOai1mdDN6QlVLUVYxMWExTEpwTG96VDA0cThPRWx2enMxb3hSUTJubnlCTnl0emhvRHQyUVVaMENHZ2I2OXR1OVQ1RDFnQUFMYlBsSW9QMkZyYVNvNjhvUGk2d05nU21wZXVsSkNKMGREU1dySXpTcmNBakc5bV9wVXhR?oc=5",
-      "publishedAt": "2026-04-09T15:46:23Z",
-      "excerpt": "Damen, IOM, Turkish Coast Guard, EU Hold Meeting for SAR Vessel Order Marine News Magazine",
-      "tags": [
-        "Shipbuilding",
-        "Supplier"
-      ],
-      "audience": "Multraship",
-      "paywalled": false,
-      "entities": [
-        {
-          "name": "Damen Shipyards Group",
-          "category": "suppliers"
-        }
-      ],
-      "locations": [],
-      "businessTags": [
-        "Supplier"
-      ],
-      "priorityScore": 5,
-      "priorityBand": "medium",
-      "priorityReasons": [
-        "Supplier mention: Damen Shipyards Group"
-      ],
-      "boardBucket": "Other Relevant"
-    },
-    {
       "id": "e5246d97e52bbb26",
       "title": "ST LNG advances offshore export terminal plans",
       "source": "Riviera: Ports & Terminals",
@@ -4115,6 +3983,37 @@
         "Signal: Infrastructure"
       ],
       "boardBucket": "Regulation, Safety & Incidents"
+    },
+    {
+      "id": "c923bef1c2537edf",
+      "title": "Damen hold a meeting for latest SAR vessel order in Antalya | Damen - Damen Shipyards",
+      "source": "Damen Shipyards News",
+      "sourceId": "google-damen",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNM3R6WW5RUUJSRGh3NnFSeFRlYUl4NXluVGtzSGVEcjJ1eXZFbEhYOHJrUHNydEpWaTRlWUtsa0pzN1dTdElmVVJjVGx5OXp0Ni1GenlfWEExdERrQ202aXdTczJZeXJlNGpwNnN0YnpCVk1VVWEweHN1YTJWMDZPTDBiSF9JSzFnNi1EUUVmb2lFS085amp2WC1TOWFPUWtpb1ZBWVNZbEZvTkJaYjZ5ag?oc=5",
+      "publishedAt": "2026-04-09T07:00:00Z",
+      "excerpt": "Damen hold a meeting for latest SAR vessel order in Antalya | Damen Damen Shipyards",
+      "tags": [
+        "Shipbuilding",
+        "Supplier"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [
+        {
+          "name": "Damen Shipyards Group",
+          "category": "suppliers"
+        }
+      ],
+      "locations": [],
+      "businessTags": [
+        "Supplier"
+      ],
+      "priorityScore": 5,
+      "priorityBand": "medium",
+      "priorityReasons": [
+        "Supplier mention: Damen Shipyards Group"
+      ],
+      "boardBucket": "Other Relevant"
     },
     {
       "id": "3d65af2830df38f8",
@@ -4148,13 +4047,13 @@
       "boardBucket": "Clients & Projects"
     },
     {
-      "id": "fe2e08cbdbd1725c",
-      "title": "Damen launches \u2018Drone Carrier\u2019 for the Portuguese Navy - navalnews.com",
+      "id": "ffc26ae403641d46",
+      "title": "Damen launches MPV 10720 for the Portuguese Navy - Damen Shipyards",
       "source": "Damen Shipyards News",
       "sourceId": "google-damen",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPTU5EQWIxN1A3anBUUzlUellxLTR6Y2ZnWTZqWEJzWVNVMS00OHBvdW1MbWFYUWhodEFPLXAtUDBkdUhHQ2hDU2tXN0FxbE4yYmVDRFdMQVJiM2lSVXBJWXg3bEx3bzFFSlpGbml2UWtmdkNkeWc5emVhVjlaZEFRcW4wRXIyeVVEQ2NHTGJodFo2VTc2WVJudElfUl9IdjA?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxORjVJRmliSV9uNkJOdWVUaTRBTVgwTC1sY0ZYOXo4RmN0VVJtbWlXWkE0eVd1M29SSXpZRlBWazBpZXNOaXVxLW0wMkNoOEJ0WlNTMHdGbF9VVHZDQ05BMk9pZDVONXRpQkw1YXlyTUVRdEd1SHNvN0NtZXo0VktpS0JRcDJRR00tNWxTTUh5VGt0ay1hUnBaOU1wTQ?oc=5",
       "publishedAt": "2026-04-07T07:00:00Z",
-      "excerpt": "Damen launches \u2018Drone Carrier\u2019 for the Portuguese Navy navalnews.com",
+      "excerpt": "Damen launches MPV 10720 for the Portuguese Navy Damen Shipyards",
       "tags": [
         "Towage",
         "Shipbuilding",
@@ -4899,6 +4798,37 @@
       "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1hRk1hMTNIUENKWlR4eDlBZENZRThyMHpnMURkcVpIM2ZsYkRSUlNXRGs0VVBaR2RyMzM3cHFDODk0QmFLQnNLRGs3a25qZk11a2VCRUJWczlOYUVTM3hFeHk0bS1YWWh5ZlVmc0FaNEk5NnBLMWlmSmpR?oc=5",
       "publishedAt": "2026-04-25T02:13:52Z",
       "excerpt": "Kongsberg Maritime ASA Balance Sheet \u2013 OSL:KMAR TradingView",
+      "tags": [
+        "Technology",
+        "Supplier"
+      ],
+      "audience": "Both",
+      "paywalled": false,
+      "entities": [
+        {
+          "name": "Kongsberg Maritime",
+          "category": "suppliers"
+        }
+      ],
+      "locations": [],
+      "businessTags": [
+        "Supplier"
+      ],
+      "priorityScore": 4,
+      "priorityBand": "medium",
+      "priorityReasons": [
+        "Supplier mention: Kongsberg Maritime"
+      ],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "733c5791bb26c0b4",
+      "title": "KONGSBERG MARITIME ASA Balance Sheet \u2013 FWB:Z4Q - TradingView",
+      "source": "Kongsberg Maritime News",
+      "sourceId": "google-kongsberg",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE8wNERDX0VmeWtHYnZ4c1ZMNWZHTVNadkhUcEtMaUVGcFVJbjZhUjZ6eFR4UlR1TlpNSlozbG91UU5IQkFVUkIwLTZHdWhlc0I1VktpUFZlbEw4bUZ3V2tOd3paQ0RUbGNhaFVFeG81TFlEaUlsQUJBRw?oc=5",
+      "publishedAt": "2026-04-24T21:43:42Z",
+      "excerpt": "KONGSBERG MARITIME ASA Balance Sheet \u2013 FWB:Z4Q TradingView",
       "tags": [
         "Technology",
         "Supplier"
@@ -5714,6 +5644,59 @@
         "Signal: Regulation"
       ],
       "boardBucket": "Regulation, Safety & Incidents"
+    },
+    {
+      "id": "68e8d4ed6c5bb09c",
+      "title": "Splash Wrap: Regulators, raiders and deals in Geneva shape shipping this week",
+      "source": "Splash247",
+      "sourceId": "splash247",
+      "url": "https://splash247.com/splash-wrap-regulators-raiders-and-deals-in-geneva-shape-shipping-this-week",
+      "publishedAt": "2026-05-01T07:05:24Z",
+      "excerpt": "The 84th session of the Marine Environment Protection Committee (MEPC 84) closes today. Delegates are advancing on areas of broad agreement while systematically pushing the hardest questions \u2013 notably the Greenhouse Gas Fuel Intensity mech\u2026",
+      "tags": [
+        "Regulation",
+        "Maritime",
+        "News"
+      ],
+      "audience": "Novatug",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [
+        "Regulation"
+      ],
+      "priorityScore": 3,
+      "priorityBand": "low",
+      "priorityReasons": [
+        "Signal: Regulation"
+      ],
+      "boardBucket": "Regulation, Safety & Incidents"
+    },
+    {
+      "id": "af031842eb5ffcb5",
+      "title": "Report highlights Denmark\u2019s maritime innovation weaknesses",
+      "source": "Splash247",
+      "sourceId": "splash247",
+      "url": "https://splash247.com/report-highlights-denmarks-maritime-innovation-weaknesses",
+      "publishedAt": "2026-05-01T06:38:14Z",
+      "excerpt": "Denmark\u2019s maritime sector is widely respected for its technical strength, talent and early-stage support, but a new report from Studio 30 50, developed in partnership with Danish Entrepreneurs, argues that the country\u2019s biggest innovation\u2026",
+      "tags": [
+        "Maritime",
+        "News"
+      ],
+      "audience": "Both",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [
+        "Commercial"
+      ],
+      "priorityScore": 3,
+      "priorityBand": "low",
+      "priorityReasons": [
+        "Signal: Commercial"
+      ],
+      "boardBucket": "Other Relevant"
     }
   ],
   "departmentProfiles": [
