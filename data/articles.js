@@ -1,7 +1,7 @@
 window.__DASHBOARD_DATA__ = {
-  "generatedAt": "2026-05-02T10:40:21.257079Z",
+  "generatedAt": "2026-05-02T12:42:27.479235Z",
   "lookbackDays": 30,
-  "cutoffAt": "2026-04-02T10:40:21.257079Z",
+  "cutoffAt": "2026-04-02T12:42:27.479235Z",
   "articleCount": 180,
   "sourceCount": 118,
   "sources": [
@@ -22,7 +22,6 @@ window.__DASHBOARD_DATA__ = {
     "North Sea Port News",
     "Offshore Energy",
     "Oldendorff Carriers News",
-    "Omroep Zeeland News",
     "Port of Antwerp-Bruges Press",
     "Rigzone",
     "Rijnmond",
@@ -33,7 +32,6 @@ window.__DASHBOARD_DATA__ = {
     "Sarens News",
     "Splash247",
     "Svitzer News",
-    "TenderNed Maritime Tenders",
     "The Maritime Executive",
     "Ultrabulk News",
     "Van Oord News",
@@ -72,7 +70,6 @@ window.__DASHBOARD_DATA__ = {
     "Offshore",
     "Operations",
     "Ports",
-    "Procurement",
     "Propulsion",
     "Regulation",
     "Rijnmond",
@@ -85,7 +82,6 @@ window.__DASHBOARD_DATA__ = {
     "Sustainability",
     "Tankers",
     "Technology",
-    "Tender",
     "Terminals",
     "Towage",
     "Yachting",
@@ -96,10 +92,14 @@ window.__DASHBOARD_DATA__ = {
     "Ghent",
     "North Sea Port",
     "Rotterdam",
-    "Scheldt",
-    "Terneuzen"
+    "Scheldt"
   ],
-  "errors": [],
+  "errors": [
+    {
+      "source": "Made in",
+      "message": "<urlopen error _ssl.c:983: The handshake operation timed out>"
+    }
+  ],
   "articles": [
     {
       "id": "0185d20628c1f3b8",
@@ -399,44 +399,6 @@ window.__DASHBOARD_DATA__ = {
       "boardBucket": "High Priority"
     },
     {
-      "id": "cc804e9ede4fe339",
-      "title": "Brand in dak van loods bij Ovet in Terneuzen",
-      "source": "Omroep Zeeland News",
-      "sourceId": "omroep-zeeland-news",
-      "url": "https://www.omroepzeeland.nl/nieuws/18424065/brand-in-dak-van-loods-bij-ovet-in-terneuzen",
-      "publishedAt": "2026-04-30T19:04:30.423230Z",
-      "excerpt": "Tracked page link found on source page.",
-      "tags": [
-        "Zeeland",
-        "Local-News"
-      ],
-      "audience": "Multraship",
-      "paywalled": false,
-      "entities": [
-        {
-          "name": "Ovet",
-          "category": "clients"
-        }
-      ],
-      "locations": [
-        {
-          "name": "Terneuzen",
-          "type": "core-port"
-        }
-      ],
-      "businessTags": [
-        "Port: Terneuzen",
-        "Client"
-      ],
-      "priorityScore": 10,
-      "priorityBand": "high",
-      "priorityReasons": [
-        "Core port watch: Terneuzen",
-        "Client mention: Ovet"
-      ],
-      "boardBucket": "High Priority"
-    },
-    {
       "id": "eb07fe1cfcbafd8a",
       "title": "Trade union action at North Sea Port: impact and updates",
       "source": "North Sea Port News",
@@ -467,6 +429,41 @@ window.__DASHBOARD_DATA__ = {
       "priorityReasons": [
         "Core port watch: North Sea Port",
         "Signal: Disruption"
+      ],
+      "boardBucket": "High Priority"
+    },
+    {
+      "id": "8c243b75e1d31659",
+      "title": "Damen and UK Dredging sign contract for advanced TSHD - gCaptain",
+      "source": "Damen Shipyards News",
+      "sourceId": "google-damen",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPR0JTLUkweGdsUWZha2ZXRmVyb0ZhWlo2WFpaRXZFem8tRmxZeGVYUFVHYVRiNkx6cnFhOUJhOC1Hc2I4RnFnTldsTzZtZHZmNERUZERTUDA1VTdSY194MVV6b2diSVJ2MHJFTEl6UlFFNjgzQ3lydVBrM2xSSFNfNw?oc=5",
+      "publishedAt": "2026-04-24T18:45:06Z",
+      "excerpt": "Damen and UK Dredging sign contract for advanced TSHD gCaptain",
+      "tags": [
+        "Shipbuilding",
+        "Supplier"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [
+        {
+          "name": "Damen Shipyards Group",
+          "category": "suppliers"
+        }
+      ],
+      "locations": [],
+      "businessTags": [
+        "Supplier",
+        "Infrastructure",
+        "Commercial"
+      ],
+      "priorityScore": 10,
+      "priorityBand": "high",
+      "priorityReasons": [
+        "Supplier mention: Damen Shipyards Group",
+        "Signal: Infrastructure",
+        "Signal: Commercial"
       ],
       "boardBucket": "High Priority"
     },
@@ -772,35 +769,6 @@ window.__DASHBOARD_DATA__ = {
       "priorityReasons": [
         "Authority & Class mention: International Maritime Organization",
         "Signal: Regulation"
-      ],
-      "boardBucket": "Regulation, Safety & Incidents"
-    },
-    {
-      "id": "f4322dd539edf4fd",
-      "title": "News Content Hub - Executive profile: Arjen van Dijk: decarbonisation, port congestion key towage drivers - rivieramm.com",
-      "source": "Svitzer News",
-      "sourceId": "google-svitzer",
-      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNdDVCR0lka25sa2M0NGZubHJSQWMyOFpMSDV1cnVESkRwdjM2UGxfbFhqbUhXclRhVUFjaW1mb3VFd3ZaUTVHVk9QbEJyT2FTbUZlSms1UkFmQzJ1OV93R0V6MjNxejRTT0FuVDVkQ0FhMDNRQmNja1ZsR2MtanFyVm1BU3EzSXFNby1Fdm1wZGN3MThheFE1T2FkZk9kRGhMVE1YNUYtNjNpa0MzeHlsdXB0bGdHSE1GYzBJc0FxcEhoY3h2TTluYmN1QWJCUTJKRWZLVkpXclRqalZua1IwOXNJNA?oc=5",
-      "publishedAt": "2026-05-01T19:01:59Z",
-      "excerpt": "News Content Hub - Executive profile: Arjen van Dijk: decarbonisation, port congestion key towage drivers rivieramm.com",
-      "tags": [
-        "Towage",
-        "Decarbonization",
-        "Competitor"
-      ],
-      "audience": "Multraship",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [
-        "Disruption",
-        "Energy Transition"
-      ],
-      "priorityScore": 8,
-      "priorityBand": "medium",
-      "priorityReasons": [
-        "Signal: Disruption",
-        "Signal: Energy Transition"
       ],
       "boardBucket": "Regulation, Safety & Incidents"
     },
@@ -1268,42 +1236,6 @@ window.__DASHBOARD_DATA__ = {
       "priorityReasons": [
         "Signal: Disruption",
         "Signal: Infrastructure"
-      ],
-      "boardBucket": "Regulation, Safety & Incidents"
-    },
-    {
-      "id": "1fb6fb2a07f17b01",
-      "title": "31137550 Prestatiecontract Vaarwegen Oost Nederland - Rijkswaterstaat Programma's, Projecten en Onderhoud",
-      "source": "TenderNed Maritime Tenders",
-      "sourceId": "tenderned-maritime",
-      "url": "",
-      "publishedAt": "2026-05-02T08:24:03.875000Z",
-      "excerpt": "Type publicatie: EF38 | Publicatiedatum: 02-05-2026 | Type opdracht: Werken | Sluitingsdatum: 15-05-2020 | Plaats van uitvoering: OOST-NEDERLAND NL2 | Procedure: Concurrentiegerichte dialoog | CPV: Waterbouwwerkzaamheden",
-      "tags": [
-        "Operations",
-        "Tender",
-        "Procurement",
-        "Government",
-        "Maritime"
-      ],
-      "audience": "Multraship",
-      "paywalled": false,
-      "entities": [
-        {
-          "name": "Rijkswaterstaat",
-          "category": "authorities"
-        }
-      ],
-      "locations": [],
-      "businessTags": [
-        "Authority & Class",
-        "Operations"
-      ],
-      "priorityScore": 7,
-      "priorityBand": "medium",
-      "priorityReasons": [
-        "Authority & Class mention: Rijkswaterstaat",
-        "Signal: Operations"
       ],
       "boardBucket": "Regulation, Safety & Incidents"
     },
@@ -3229,40 +3161,6 @@ window.__DASHBOARD_DATA__ = {
       "boardBucket": "Clients & Projects"
     },
     {
-      "id": "3a11a17e44d50559",
-      "title": "W\u00e4rtsil\u00e4 Gas Solutions to Provide Cargo Handling, Fuel Gas Supply for Two Ammonia Carriers - Marine News Magazine",
-      "source": "W\u00e4rtsil\u00e4 News",
-      "sourceId": "google-wartsila",
-      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9MeFpYYzJYd0tZWmpDRGxxQ3BRZUJGdWtqcGtSMnRNNEpKNDdkT2xiOTUtLU9qMzlrcGRyQnJSanM3U3kzbUduNS1sOF9pOFQ0U0lOaE5nX2JzZkY5MkZFUUZ0aExSa29vMGt3LTN1ZVdjdmFJR09TTnBCS2xNUQ?oc=5",
-      "publishedAt": "2026-04-22T13:19:50Z",
-      "excerpt": "W\u00e4rtsil\u00e4 Gas Solutions to Provide Cargo Handling, Fuel Gas Supply for Two Ammonia Carriers Marine News Magazine",
-      "tags": [
-        "Clean Propulsion",
-        "Propulsion",
-        "Technology"
-      ],
-      "audience": "Both",
-      "paywalled": false,
-      "entities": [
-        {
-          "name": "W\u00e4rtsil\u00e4",
-          "category": "suppliers"
-        }
-      ],
-      "locations": [],
-      "businessTags": [
-        "Supplier",
-        "Energy Transition"
-      ],
-      "priorityScore": 6,
-      "priorityBand": "medium",
-      "priorityReasons": [
-        "Supplier mention: W\u00e4rtsil\u00e4",
-        "Signal: Energy Transition"
-      ],
-      "boardBucket": "Other Relevant"
-    },
-    {
       "id": "c3309570b197c81f",
       "title": "W\u00e4rtsil\u00e4 Gas Solutions Cargo Handling and Fuel Gas Supply systems selected for two new midsize liquid ammonia carriers for Navigator Gas and Amon Maritime JV - W\u00e4rtsil\u00e4",
       "source": "W\u00e4rtsil\u00e4 News",
@@ -3695,12 +3593,12 @@ window.__DASHBOARD_DATA__ = {
       "boardBucket": "Clients & Projects"
     },
     {
-      "id": "b968c91853e89d7d",
+      "id": "c91908a731ec0fb9",
       "title": "ILT News page updated",
       "source": "ILT News",
       "sourceId": "ilt-news",
-      "url": "https://english.ilent.nl/latest/news?dashboardChange=659b0775ba0d",
-      "publishedAt": "2026-05-02T10:40:21.257079Z",
+      "url": "https://english.ilent.nl/latest/news?dashboardChange=ab08504eacb5",
+      "publishedAt": "2026-05-02T12:42:27.479235Z",
       "excerpt": "Tracked page content changed.",
       "tags": [
         "Regulation",
@@ -4073,37 +3971,6 @@ window.__DASHBOARD_DATA__ = {
       "boardBucket": "Regulation, Safety & Incidents"
     },
     {
-      "id": "2155450ebb7b70a4",
-      "title": "Damen, IOM, Turkish Coast Guard, EU Hold Meeting for SAR Vessel Order - Marine News Magazine",
-      "source": "Damen Shipyards News",
-      "sourceId": "google-damen",
-      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOai1mdDN6QlVLUVYxMWExTEpwTG96VDA0cThPRWx2enMxb3hSUTJubnlCTnl0emhvRHQyUVVaMENHZ2I2OXR1OVQ1RDFnQUFMYlBsSW9QMkZyYVNvNjhvUGk2d05nU21wZXVsSkNKMGREU1dySXpTcmNBakc5bV9wVXhR?oc=5",
-      "publishedAt": "2026-04-09T15:46:23Z",
-      "excerpt": "Damen, IOM, Turkish Coast Guard, EU Hold Meeting for SAR Vessel Order Marine News Magazine",
-      "tags": [
-        "Shipbuilding",
-        "Supplier"
-      ],
-      "audience": "Multraship",
-      "paywalled": false,
-      "entities": [
-        {
-          "name": "Damen Shipyards Group",
-          "category": "suppliers"
-        }
-      ],
-      "locations": [],
-      "businessTags": [
-        "Supplier"
-      ],
-      "priorityScore": 5,
-      "priorityBand": "medium",
-      "priorityReasons": [
-        "Supplier mention: Damen Shipyards Group"
-      ],
-      "boardBucket": "Other Relevant"
-    },
-    {
       "id": "e5246d97e52bbb26",
       "title": "ST LNG advances offshore export terminal plans",
       "source": "Riviera: Ports & Terminals",
@@ -4128,6 +3995,37 @@ window.__DASHBOARD_DATA__ = {
         "Signal: Infrastructure"
       ],
       "boardBucket": "Regulation, Safety & Incidents"
+    },
+    {
+      "id": "c923bef1c2537edf",
+      "title": "Damen hold a meeting for latest SAR vessel order in Antalya | Damen - Damen Shipyards",
+      "source": "Damen Shipyards News",
+      "sourceId": "google-damen",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNM3R6WW5RUUJSRGh3NnFSeFRlYUl4NXluVGtzSGVEcjJ1eXZFbEhYOHJrUHNydEpWaTRlWUtsa0pzN1dTdElmVVJjVGx5OXp0Ni1GenlfWEExdERrQ202aXdTczJZeXJlNGpwNnN0YnpCVk1VVWEweHN1YTJWMDZPTDBiSF9JSzFnNi1EUUVmb2lFS085amp2WC1TOWFPUWtpb1ZBWVNZbEZvTkJaYjZ5ag?oc=5",
+      "publishedAt": "2026-04-09T07:00:00Z",
+      "excerpt": "Damen hold a meeting for latest SAR vessel order in Antalya | Damen Damen Shipyards",
+      "tags": [
+        "Shipbuilding",
+        "Supplier"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [
+        {
+          "name": "Damen Shipyards Group",
+          "category": "suppliers"
+        }
+      ],
+      "locations": [],
+      "businessTags": [
+        "Supplier"
+      ],
+      "priorityScore": 5,
+      "priorityBand": "medium",
+      "priorityReasons": [
+        "Supplier mention: Damen Shipyards Group"
+      ],
+      "boardBucket": "Other Relevant"
     },
     {
       "id": "3d65af2830df38f8",
@@ -4161,13 +4059,13 @@ window.__DASHBOARD_DATA__ = {
       "boardBucket": "Clients & Projects"
     },
     {
-      "id": "fe2e08cbdbd1725c",
-      "title": "Damen launches \u2018Drone Carrier\u2019 for the Portuguese Navy - navalnews.com",
+      "id": "ffc26ae403641d46",
+      "title": "Damen launches MPV 10720 for the Portuguese Navy - Damen Shipyards",
       "source": "Damen Shipyards News",
       "sourceId": "google-damen",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPTU5EQWIxN1A3anBUUzlUellxLTR6Y2ZnWTZqWEJzWVNVMS00OHBvdW1MbWFYUWhodEFPLXAtUDBkdUhHQ2hDU2tXN0FxbE4yYmVDRFdMQVJiM2lSVXBJWXg3bEx3bzFFSlpGbml2UWtmdkNkeWc5emVhVjlaZEFRcW4wRXIyeVVEQ2NHTGJodFo2VTc2WVJudElfUl9IdjA?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxORjVJRmliSV9uNkJOdWVUaTRBTVgwTC1sY0ZYOXo4RmN0VVJtbWlXWkE0eVd1M29SSXpZRlBWazBpZXNOaXVxLW0wMkNoOEJ0WlNTMHdGbF9VVHZDQ05BMk9pZDVONXRpQkw1YXlyTUVRdEd1SHNvN0NtZXo0VktpS0JRcDJRR00tNWxTTUh5VGt0ay1hUnBaOU1wTQ?oc=5",
       "publishedAt": "2026-04-07T07:00:00Z",
-      "excerpt": "Damen launches \u2018Drone Carrier\u2019 for the Portuguese Navy navalnews.com",
+      "excerpt": "Damen launches MPV 10720 for the Portuguese Navy Damen Shipyards",
       "tags": [
         "Towage",
         "Shipbuilding",
@@ -4454,6 +4352,37 @@ window.__DASHBOARD_DATA__ = {
       "boardBucket": "Regulation, Safety & Incidents"
     },
     {
+      "id": "c0eb0e73b818e16f",
+      "title": "Kongsberg Maritime ASA Financial Statements \u2013 LSX:A429K5 - TradingView",
+      "source": "Kongsberg Maritime News",
+      "sourceId": "google-kongsberg",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE85Y0xhZkJuNXpoSDF2NUJ1WTlEU25oSUMyb1gxZ2FuRS1pRTk5bm9BTmRwemZjazNYNUZlXzhYOUFuTzgyMWtpUjg0WTAyc1Q5TnRtdGthNDl0TmU4ODBOajBfLXpzcVpidHRIN3I5YUlyQTdFX3c?oc=5",
+      "publishedAt": "2026-04-30T16:27:03Z",
+      "excerpt": "Kongsberg Maritime ASA Financial Statements \u2013 LSX:A429K5 TradingView",
+      "tags": [
+        "Technology",
+        "Supplier"
+      ],
+      "audience": "Both",
+      "paywalled": false,
+      "entities": [
+        {
+          "name": "Kongsberg Maritime",
+          "category": "suppliers"
+        }
+      ],
+      "locations": [],
+      "businessTags": [
+        "Supplier"
+      ],
+      "priorityScore": 4,
+      "priorityBand": "medium",
+      "priorityReasons": [
+        "Supplier mention: Kongsberg Maritime"
+      ],
+      "boardBucket": "Other Relevant"
+    },
+    {
       "id": "f23d67bd2838ee70",
       "title": "Basic earnings per share (basic EPS) of Kongsberg Maritime ASA \u2013 LSX:A429K5 - TradingView",
       "source": "Kongsberg Maritime News",
@@ -4554,6 +4483,37 @@ window.__DASHBOARD_DATA__ = {
       "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1xUHFHQWdKcHhNXy1XZWtLQUNzVE5pd2RBbDVZSUpPRFctajB0YXN2TExRREJpeFVrbkpaeFhlSzNZY1hhNXNuTTRrVk5sck9vWFFEdGU5aFdsWUpPRUI4aWlfRm1wb21rcVJpME4zdzNjTzlFbnc?oc=5",
       "publishedAt": "2026-04-30T15:36:25Z",
       "excerpt": "Kongsberg Maritime ASA Earnings and Revenue \u2013 LSX:A429K5 TradingView",
+      "tags": [
+        "Technology",
+        "Supplier"
+      ],
+      "audience": "Both",
+      "paywalled": false,
+      "entities": [
+        {
+          "name": "Kongsberg Maritime",
+          "category": "suppliers"
+        }
+      ],
+      "locations": [],
+      "businessTags": [
+        "Supplier"
+      ],
+      "priorityScore": 4,
+      "priorityBand": "medium",
+      "priorityReasons": [
+        "Supplier mention: Kongsberg Maritime"
+      ],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "2e414e94e2cf1372",
+      "title": "Kongsberg Gruppen ASA Stock (NO0003043309): Danske Bank Cuts Price Target to NOK 420 - AD HOC NEWS",
+      "source": "Kongsberg Maritime News",
+      "sourceId": "google-kongsberg",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPd09mSmVuLVk3YW8zTG95NF94b211ZGlUMnNiYktWdEt5UnRHVXBNbkF2eUl4M0M0TzA2RVc0UjVUcVE4dVBUcmktNF9LMl80cmd3SExiZTh5dVk5SVJnTFVXR3lWZVZiSFN0dkZ4a0QxcGU2VDNWbWoxcHh4NEN1cnZabUMwcGRYZDlEcG5FV0dKRHktLUtJSEw1eFRDMWxTbzFnVGE4OE9zejZZQmJxdEVKXzZIdnFweVRxU2NmUHJRdG12ZHNubQ?oc=5",
+      "publishedAt": "2026-04-30T14:24:10Z",
+      "excerpt": "Kongsberg Gruppen ASA Stock (NO0003043309): Danske Bank Cuts Price Target to NOK 420 AD HOC NEWS",
       "tags": [
         "Technology",
         "Supplier"
@@ -4691,37 +4651,6 @@ window.__DASHBOARD_DATA__ = {
         "Regional watch: Scheldt"
       ],
       "boardBucket": "Port Watch"
-    },
-    {
-      "id": "c239e1ed9beaf9db",
-      "title": "KMAR.OL Stock Chart | KONGSBERG MARITIME AS (OSL:KMAR) - ChartMill",
-      "source": "Kongsberg Maritime News",
-      "sourceId": "google-kongsberg",
-      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1BbUdVVVVvMmVCZTl2amowanlwNEdyakplUkhKYktyYy1VZFlfNGxybi1hUUNDaEsySTQweDFvc2VYOUJLMzRCblN4aU41Sng1RXdQazRpSl9pakVCWWc3alZWeG81MXJF?oc=5",
-      "publishedAt": "2026-04-28T08:35:53Z",
-      "excerpt": "KMAR.OL Stock Chart | KONGSBERG MARITIME AS (OSL:KMAR) ChartMill",
-      "tags": [
-        "Technology",
-        "Supplier"
-      ],
-      "audience": "Both",
-      "paywalled": false,
-      "entities": [
-        {
-          "name": "Kongsberg Maritime",
-          "category": "suppliers"
-        }
-      ],
-      "locations": [],
-      "businessTags": [
-        "Supplier"
-      ],
-      "priorityScore": 4,
-      "priorityBand": "medium",
-      "priorityReasons": [
-        "Supplier mention: Kongsberg Maritime"
-      ],
-      "boardBucket": "Other Relevant"
     },
     {
       "id": "c122c22f1c2a22b4",
@@ -4874,6 +4803,37 @@ window.__DASHBOARD_DATA__ = {
       "boardBucket": "Other Relevant"
     },
     {
+      "id": "d2a14c3d49906ffd",
+      "title": "Kongsberg Maritime ASA Financial Statements \u2013 OSL:KMAR - TradingView",
+      "source": "Kongsberg Maritime News",
+      "sourceId": "google-kongsberg",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1mUUlUS2ExdEctempDMHM3N29ZWXViUzN4N1dsSlg2aTFKUkZjYzI5RC1kVWd0RjV5d2Nobml1WDIzdlhIMHVmZHk0MkYwcW5fMWJsemFCMUxzcTl3ZWZvZ2FHZTVYanFLZFRodUkwT0tJS1k?oc=5",
+      "publishedAt": "2026-04-25T02:41:16Z",
+      "excerpt": "Kongsberg Maritime ASA Financial Statements \u2013 OSL:KMAR TradingView",
+      "tags": [
+        "Technology",
+        "Supplier"
+      ],
+      "audience": "Both",
+      "paywalled": false,
+      "entities": [
+        {
+          "name": "Kongsberg Maritime",
+          "category": "suppliers"
+        }
+      ],
+      "locations": [],
+      "businessTags": [
+        "Supplier"
+      ],
+      "priorityScore": 4,
+      "priorityBand": "medium",
+      "priorityReasons": [
+        "Supplier mention: Kongsberg Maritime"
+      ],
+      "boardBucket": "Other Relevant"
+    },
+    {
       "id": "14b745a4ae863177",
       "title": "Kongsberg Maritime ASA Balance Sheet \u2013 OSL:KMAR - TradingView",
       "source": "Kongsberg Maritime News",
@@ -4905,13 +4865,13 @@ window.__DASHBOARD_DATA__ = {
       "boardBucket": "Other Relevant"
     },
     {
-      "id": "580dfbe32eb2a4f7",
-      "title": "Kongsberg Maritime ASA Debuts on Euronext Oslo Under Ticker KMAR - News and Statistics - IndexBox",
+      "id": "8592af75ba71be6e",
+      "title": "KONGSBERG MARITIME ASA Statistics \u2013 FWB:Z4Q - TradingView",
       "source": "Kongsberg Maritime News",
       "sourceId": "google-kongsberg",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNN3ZoX2tSampQaGx5aW0tM25mRG14aGtmWVBXSDhzRlRXalltbXU3WW1VQlg5QzYzSkplOWFPN1ZQbE1XQm56OU1ic2pISzRycGtYTkFWdzNvUFQzUFZhMU9JWU05SkVLRGxTd0Y0Ync0NW05YU5JR2VpNW1ZcEJ1N3NPaElYTlBxX0wzb0JROXR6S3RTSGNJblZjNjFtSDdL?oc=5",
-      "publishedAt": "2026-04-25T00:30:00Z",
-      "excerpt": "Kongsberg Maritime ASA Debuts on Euronext Oslo Under Ticker KMAR - News and Statistics IndexBox",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQdklraUNlaS05TDRfekNMeXZ2OWdSbm04LUZ3RzRTbktHZ3JMYWN4OXNpZGplSHV4TVNzSndHanUycm85QnJrVExKejlvVURsdFhONU9KQllYdFpGeDNvLVc3N1FhV0xlc0VHNzdJc2dHeGNuN0VyblpSaXNkdlVxdFBtaw?oc=5",
+      "publishedAt": "2026-04-24T21:07:17Z",
+      "excerpt": "KONGSBERG MARITIME ASA Statistics \u2013 FWB:Z4Q TradingView",
       "tags": [
         "Technology",
         "Supplier"
@@ -4967,6 +4927,37 @@ window.__DASHBOARD_DATA__ = {
       "boardBucket": "Other Relevant"
     },
     {
+      "id": "7242f7c0e480a5aa",
+      "title": "KONGSBERG MARITIME ASA Financial Statements \u2013 OMXSTO:KMARO - TradingView",
+      "source": "Kongsberg Maritime News",
+      "sourceId": "google-kongsberg",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9WUmVocjBpR2VkX25ONzZRS2hiT3lpWjUycFZwMF9KUHFkamxGNWlHRFBKbzZJSHpKLWgxY1Q3NWp6SmFOTXF4OGgxeDRtaVU5RExlSEJSZDliTzB2SlNqa0E3TGlpNDhJWUVhUHlrN3RmSWZIV2IyMQ?oc=5",
+      "publishedAt": "2026-04-24T17:07:58Z",
+      "excerpt": "KONGSBERG MARITIME ASA Financial Statements \u2013 OMXSTO:KMARO TradingView",
+      "tags": [
+        "Technology",
+        "Supplier"
+      ],
+      "audience": "Both",
+      "paywalled": false,
+      "entities": [
+        {
+          "name": "Kongsberg Maritime",
+          "category": "suppliers"
+        }
+      ],
+      "locations": [],
+      "businessTags": [
+        "Supplier"
+      ],
+      "priorityScore": 4,
+      "priorityBand": "medium",
+      "priorityReasons": [
+        "Supplier mention: Kongsberg Maritime"
+      ],
+      "boardBucket": "Other Relevant"
+    },
+    {
       "id": "20cb925f45b1a750",
       "title": "Kongsberg Maritime Begins Trading on the Oslo Stock Exchange - Marine News Magazine",
       "source": "Kongsberg Maritime News",
@@ -4998,13 +4989,13 @@ window.__DASHBOARD_DATA__ = {
       "boardBucket": "Other Relevant"
     },
     {
-      "id": "e1ac8f286319deb9",
-      "title": "Danske Bank initiates coverage of Kongsberg Maritime with Buy rating and NOK 80 price target - marketscreener.com",
+      "id": "082ad47bc1c45249",
+      "title": "Defining moment for Kongsberg Maritime - Seawork 2026",
       "source": "Kongsberg Maritime News",
       "sourceId": "google-kongsberg",
-      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxONGRzWHI0UXJYeGlPNWo4UmpxeVI1eFA2bzI0Mm5vQWF5VFBFanhrcWNZYVNrZkZzUHdnZ1RWZk1pRVJRZjBhYlNqRnhOdEMzdmhTNUhmek1HRHNwbl9EbkxzTlhyMUo5bF9GRTEwSHZOUVJGSGg2VlYzWmxHdGdGU1FhLUh2eEFnYkpxNS1lOVV5WFBhd3pPWU1odlJmZmRYa0VXTWZnLTJRZHVvRWZKbEZJeFJEN2Fma3pvSG1GZkdQTk9zLTFEY0kyWVJCTk53V3UyUFJzMUk5SEJIemc?oc=5",
-      "publishedAt": "2026-04-24T07:36:19Z",
-      "excerpt": "Danske Bank initiates coverage of Kongsberg Maritime with Buy rating and NOK 80 price target marketscreener.com",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBJelFFY280eU1RVXdIdjUyLWo3cWJjZ0lmU1BkZ0lrZU1PdnphNDVuMmlvMDNmTWNjOUVMcHFaNnpkbTc2SmlCbDZjaThTbFNTY0xVZUcxMjNReTdqNEZocHR1MnZnT05hTTg1WjFDdklSbGN3WlRCem8zMjI?oc=5",
+      "publishedAt": "2026-04-23T21:17:19Z",
+      "excerpt": "Defining moment for Kongsberg Maritime Seawork 2026",
       "tags": [
         "Technology",
         "Supplier"
@@ -5053,37 +5044,6 @@ window.__DASHBOARD_DATA__ = {
         "Signal: Regulation"
       ],
       "boardBucket": "Regulation, Safety & Incidents"
-    },
-    {
-      "id": "1b9a50f340addcff",
-      "title": "Kongsberg Maritime AS(OB: KMAR) added to FTSE All-World Index - marketscreener.com",
-      "source": "Kongsberg Maritime News",
-      "sourceId": "google-kongsberg",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOcExTQTZqbmxpMDRJQzBRQUEzb3FyVWJ1N3FDSjdOc1pEalVuNWRXUHMxMjgxWEFwQ3hwc190YnNuNklpaFQ4MlNmVTdLdHNCLVduSkhvZ0pKQmxvYXRLUTZxeU5WSjVLNEZualBIb1Q1TmFSNzYxWWpjUDkyazYwc3VZOHRoeFY0REFjam92Q2syNWJtZ0hJMUFwV29MZWw3TFUyWHVkQmtiWXpHSm1PNTZn?oc=5",
-      "publishedAt": "2026-04-23T10:07:45Z",
-      "excerpt": "Kongsberg Maritime AS(OB: KMAR) added to FTSE All-World Index marketscreener.com",
-      "tags": [
-        "Technology",
-        "Supplier"
-      ],
-      "audience": "Both",
-      "paywalled": false,
-      "entities": [
-        {
-          "name": "Kongsberg Maritime",
-          "category": "suppliers"
-        }
-      ],
-      "locations": [],
-      "businessTags": [
-        "Supplier"
-      ],
-      "priorityScore": 4,
-      "priorityBand": "medium",
-      "priorityReasons": [
-        "Supplier mention: Kongsberg Maritime"
-      ],
-      "boardBucket": "Other Relevant"
     },
     {
       "id": "a68f71d87707be9b",
@@ -5149,39 +5109,8 @@ window.__DASHBOARD_DATA__ = {
       "source": "Kongsberg Maritime News",
       "sourceId": "google-kongsberg",
       "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPSnE2Zlk4Vy0ydnZkdHUtSXA4TEFTSGxkLUhES0c4Tmp5eFUxOU9icFE0Q0F0c1BFdld4QjJ4Y3ZESE5rempXNlFrUExhZDF1cUJFVnZHN24tMGFhRV9ubXpqOG84b2RFaDk1THpiY2ljRTVKX19aUnJSTWhtcnFzVTZySk5fNkRrc1pHQ0VhVHBwTmRkRnpvbGYyUHRCZElMeDl6ZTJyWDFfcXVwQ3ZqRTRHWWR5UTNUV0hPYk5TdTc?oc=5",
-      "publishedAt": "2026-04-23T07:56:04Z",
+      "publishedAt": "2026-04-23T07:00:00Z",
       "excerpt": "Kongsberg Maritime shares begin trading in Oslo after parent spin-off Tradewinds News",
-      "tags": [
-        "Technology",
-        "Supplier"
-      ],
-      "audience": "Both",
-      "paywalled": false,
-      "entities": [
-        {
-          "name": "Kongsberg Maritime",
-          "category": "suppliers"
-        }
-      ],
-      "locations": [],
-      "businessTags": [
-        "Supplier"
-      ],
-      "priorityScore": 4,
-      "priorityBand": "medium",
-      "priorityReasons": [
-        "Supplier mention: Kongsberg Maritime"
-      ],
-      "boardBucket": "Other Relevant"
-    },
-    {
-      "id": "e1b25371e0fb92f4",
-      "title": "Pareto Securities initiates coverage on Kongsberg Maritime with Buy rating and NOK 85 price target - marketscreener.com",
-      "source": "Kongsberg Maritime News",
-      "sourceId": "google-kongsberg",
-      "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNaHhWUTcyZWlBUUFaY05mdllSZ0lMY2R6OVByR2EyMnZXQS1TRm1lc2wyNjUzX1dDS2hOUHVUY3dtMkY5TEtSQko0ZE9WLTlXVzd2X1BnMURCNWc1bEk0NDVVNFFwR3JaVXdSV2NRVTlhczlxZElud05kOFNFSVA4RVA5UzB0a1E3b193U1JTeVVZVEo2di1QX09aLWg2YnI5SDJvbmJUazF6WGREd0dETjBVUHd2ODN0aVpyV1dFVGJfUHM4cXBnSFhmdmdzWUpCY2xkbWtsdFBFYjhwdU1ncUNyVjlKUQ?oc=5",
-      "publishedAt": "2026-04-23T04:36:31Z",
-      "excerpt": "Pareto Securities initiates coverage on Kongsberg Maritime with Buy rating and NOK 85 price target marketscreener.com",
       "tags": [
         "Technology",
         "Supplier"
@@ -5213,37 +5142,6 @@ window.__DASHBOARD_DATA__ = {
       "url": "https://news.google.com/rss/articles/CBMijAJBVV95cUxQaEh6U2UxSy1rQWlPZC1RNEt6c09OQlRqd3BMTzRKZ1JLaVRSbC1MNnc0TGNJLVVEdEh1MEJxSklZSXlXcmVhakd6WDV5MGZ6SzREZWJiVjFQcEg1NmlOQ3BFVDNMXzIzZDdscGJXd3diUURCaFduZkZoWDV6azdoS2RqYlFhalhoNk1LVVZEa2lnQ0xNeWRCV1hEdXNFcHZCaGF4UGVJMU1ibjFyLXJzNUVsYmJUUkttS3hmYzIzcXFmTVZFTkFTb3dZNW4xQjJmZjRPRHNRVm5nQ0JNTS1JZ09Ib1Nta2R2R1dMN0tMQmg0QlJDYTBoXy1OX3JUQlE0SklwV2E5U1d5M2lR?oc=5",
       "publishedAt": "2026-04-22T16:00:00Z",
       "excerpt": "Kongsberg Maritime ASA - Shares held by primary insiders and their close associates after completion of the demerger TradingView",
-      "tags": [
-        "Technology",
-        "Supplier"
-      ],
-      "audience": "Both",
-      "paywalled": false,
-      "entities": [
-        {
-          "name": "Kongsberg Maritime",
-          "category": "suppliers"
-        }
-      ],
-      "locations": [],
-      "businessTags": [
-        "Supplier"
-      ],
-      "priorityScore": 4,
-      "priorityBand": "medium",
-      "priorityReasons": [
-        "Supplier mention: Kongsberg Maritime"
-      ],
-      "boardBucket": "Other Relevant"
-    },
-    {
-      "id": "57f8bc0e22c95a92",
-      "title": "Kongsberg Maritime AS(OB: KMAR) added to S&P International 700 - marketscreener.com",
-      "source": "Kongsberg Maritime News",
-      "sourceId": "google-kongsberg",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPTWY2bF8zWV9fTmd2UjhTWVQ0ejllSnc1bVNzLTVjdk9zVkR3R3dKMTZmaXU5Z0hxWWhwaWxCVXkxRVJmRHJfaF9zcEt4Vms3VWlaMjVwQ2lNQU9Rd2ViQzFaa24xV2wweXRERDV3X1c0a0IyTF90T1AwWVNUMjZWcUNYN0xGU3l6MXhsVkpmcGhkTUtiMUtCUlZ5NHQ4X281QlBTb3ZYd3lWZFMxUkpxRzNOYw?oc=5",
-      "publishedAt": "2026-04-22T07:00:00Z",
-      "excerpt": "Kongsberg Maritime AS(OB: KMAR) added to S&P International 700 marketscreener.com",
       "tags": [
         "Technology",
         "Supplier"
@@ -5401,37 +5299,6 @@ window.__DASHBOARD_DATA__ = {
       "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOWWlkcHpnSFRZb1l0dEtHNWg0cVdzMGtCTDEtLWdHVXhPQVpGN2FMbk5EOFJ4a0VEakhFdTVzZmlIU3FSeGRYYU1UdGNjdFRNVFlFaUhtYmFfVlFiXzNJeXQ4d0txajBVOEc4V1pVUElweERqLTVRNlhzR0FhNmpWaDdacmVPSWVxeHEwNGJEM3dsQ0JLMWlmWnBkemw2Tzg?oc=5",
       "publishedAt": "2026-04-12T17:36:51Z",
       "excerpt": "MAAP and Kongsberg Maritime shape digital crews Digital Ship",
-      "tags": [
-        "Technology",
-        "Supplier"
-      ],
-      "audience": "Both",
-      "paywalled": false,
-      "entities": [
-        {
-          "name": "Kongsberg Maritime",
-          "category": "suppliers"
-        }
-      ],
-      "locations": [],
-      "businessTags": [
-        "Supplier"
-      ],
-      "priorityScore": 4,
-      "priorityBand": "medium",
-      "priorityReasons": [
-        "Supplier mention: Kongsberg Maritime"
-      ],
-      "boardBucket": "Other Relevant"
-    },
-    {
-      "id": "b6c91fbe81871517",
-      "title": "Kongsberg Maritime applies for listing on Oslo B\u00f8rs - marketscreener.com",
-      "source": "Kongsberg Maritime News",
-      "sourceId": "google-kongsberg",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOUkRyWjlYVzJOcHlvcFZQNjhLeDNiSFd3UEdiM2FpYUhzeDNDWmZMVzZ2enlaN2N3NHFmamNEZTdGRFYydWJTd0xFcUlTc1JyUFFab1pUdXdzN0xoWVNXdjdqbERLQ2ZsU25EUnJQQlA0ZlAzbkE3NEUyUkpfdDZVVVd3OVZkeno5YmNEa2RSMllDWC1pTzRvd3N6VnZiQXpGd3BTWUs3NA?oc=5",
-      "publishedAt": "2026-04-10T07:00:00Z",
-      "excerpt": "Kongsberg Maritime applies for listing on Oslo B\u00f8rs marketscreener.com",
       "tags": [
         "Technology",
         "Supplier"
@@ -5721,6 +5588,110 @@ window.__DASHBOARD_DATA__ = {
         "Signal: Regulation"
       ],
       "boardBucket": "Regulation, Safety & Incidents"
+    },
+    {
+      "id": "af031842eb5ffcb5",
+      "title": "Report highlights Denmark\u2019s maritime innovation weaknesses",
+      "source": "Splash247",
+      "sourceId": "splash247",
+      "url": "https://splash247.com/report-highlights-denmarks-maritime-innovation-weaknesses",
+      "publishedAt": "2026-05-01T06:38:14Z",
+      "excerpt": "Denmark\u2019s maritime sector is widely respected for its technical strength, talent and early-stage support, but a new report from Studio 30 50, developed in partnership with Danish Entrepreneurs, argues that the country\u2019s biggest innovation\u2026",
+      "tags": [
+        "Maritime",
+        "News"
+      ],
+      "audience": "Both",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [
+        "Commercial"
+      ],
+      "priorityScore": 3,
+      "priorityBand": "low",
+      "priorityReasons": [
+        "Signal: Commercial"
+      ],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "e28150141fcc96f0",
+      "title": "Clarksons builds Americas footprint with Serpac deal",
+      "source": "Splash247",
+      "sourceId": "splash247",
+      "url": "https://splash247.com/clarksons-builds-americas-footprint-with-serpac-deal",
+      "publishedAt": "2026-05-01T06:00:49Z",
+      "excerpt": "UK-based shipbroking house Clarksons is expanding its presence along South America\u2019s Pacific coast with the acquisition of the broking business of Serpac International. The deal gives the London-listed firm a foothold in Peru, a market it\u2026",
+      "tags": [
+        "Maritime",
+        "News"
+      ],
+      "audience": "Both",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [
+        "Commercial"
+      ],
+      "priorityScore": 3,
+      "priorityBand": "low",
+      "priorityReasons": [
+        "Signal: Commercial"
+      ],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "139753e7eb5745b8",
+      "title": "BIMCO rolls out first CO2 shipping charter party",
+      "source": "Splash247",
+      "sourceId": "splash247",
+      "url": "https://splash247.com/bimco-rolls-out-first-co2-shipping-charter-party",
+      "publishedAt": "2026-05-01T05:46:38Z",
+      "excerpt": "BIMCO has introduced a new standard contract aimed at the fast-developing market for shipping liquefied carbon dioxide, as carbon capture projects begin to move from concept to execution. The world\u2019s largest shipping association\u2019s Document\u2026",
+      "tags": [
+        "Maritime",
+        "News"
+      ],
+      "audience": "Both",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [
+        "Commercial"
+      ],
+      "priorityScore": 3,
+      "priorityBand": "low",
+      "priorityReasons": [
+        "Signal: Commercial"
+      ],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "16d70d597f8211e3",
+      "title": "Edda Wind Closes Fleet Sale as Investment Funds Drive Sector Consolidation",
+      "source": "The Maritime Executive",
+      "sourceId": "maritime-executive",
+      "url": "https://maritime-executive.com/article/edda-wind-closes-fleet-sale-as-investment-funds-drive-sector-consolidation",
+      "publishedAt": "2026-05-01T01:11:21Z",
+      "excerpt": "Edda Wind, which had been launched as an early service provider dedicated to the emerging offshore wind sector, has officially wound down its operatio...",
+      "tags": [
+        "Maritime",
+        "News"
+      ],
+      "audience": "Both",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [
+        "Commercial"
+      ],
+      "priorityScore": 3,
+      "priorityBand": "low",
+      "priorityReasons": [
+        "Signal: Commercial"
+      ],
+      "boardBucket": "Other Relevant"
     }
   ],
   "departmentProfiles": [
