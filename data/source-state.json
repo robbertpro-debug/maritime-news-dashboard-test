@@ -1,7 +1,7 @@
 {
   "sources": {
     "ilt-news": {
-      "pageHash": "e1c4e5e6ea007447b7583b204c4ef7e6aca9ab1a",
+      "pageHash": "1c38e3b34d079b9ecc1e50968179a7da2bf682ca",
       "seenUrls": {}
     },
     "made-in": {
@@ -65,6 +65,7 @@
         "https://www.made-in.be/mechelen/nijlense-ondernemer-pieter-lanceert-smash-uniek-burgerconcept-met-lokaal-bizonvlees": "2026-04-29T17:15:05.506455Z",
         "https://www.made-in.be/mechelen/onderneemster-elien-defraeije-lanceert-boek-klanten-voor-het-leven-over-duurzame-klantrelaties": "2026-05-01T09:44:50.574755Z",
         "https://www.made-in.be/mechelen/oosterlinck-home-viert-65ste-verjaardag-onze-menselijke-aanpak-vormt-al-drie-generaties-de-rode-draad": "2026-04-29T06:47:31.503270Z",
+        "https://www.made-in.be/mechelen/productiehuis-roses-are-blue-gaat-voor-internationale-groei-met-overname-fabiola-group": "2026-05-03T10:43:08.120570Z",
         "https://www.made-in.be/mechelen/telenet-past-aanbod-aan-populair-one-pakket-wordt-niet-meer-verkocht-goedkoopste-internet-meteen-20-euro-duurder": "2026-04-29T06:47:31.503270Z",
         "https://www.made-in.be/mechelen/test-met-statiegeld-op-champignonbakjes-in-mechelse-winkels": "2026-04-28T13:59:05.537487Z",
         "https://www.made-in.be/mechelen/tien-jonge-ondernemers-bemannen-pop-upkramen-op-mechelse-lentebraderie-een-unieke-leeromgeving": "2026-04-30T15:43:09.787315Z",
@@ -85,6 +86,7 @@
         "https://www.made-in.be/oost-vlaanderen/la-lorraine-rondt-kaap-van-15-miljard-euro-omzet": "2026-04-29T06:47:31.503270Z",
         "https://www.made-in.be/oost-vlaanderen/maria-middelares-test-mixed-reality-bij-wondzorg": "2026-04-29T06:47:31.503270Z",
         "https://www.made-in.be/oost-vlaanderen/nsz-tevreden-met-eerste-maatregelen-kmo-plan": "2026-04-29T15:51:28.651886Z",
+        "https://www.made-in.be/oost-vlaanderen/ontex-gaat-aantal-banen-in-ondersteunende-functies-verminderen": "2026-05-03T10:43:08.120570Z",
         "https://www.made-in.be/oost-vlaanderen/premier-leidt-taskforce-over-toekomst-volvo-car-gent": "2026-04-28T13:59:05.537487Z",
         "https://www.made-in.be/oost-vlaanderen/sportieve-boezemvriendinnen-sara-22-en-britt-22-organiseren-full-body-training-vanuit-onze-passie-voor-sport-met-nadruk-op-het-plezier": "2026-04-29T05:52:34.525428Z",
         "https://www.made-in.be/oost-vlaanderen/tijdelijke-dip-zadelt-north-sea-port-op-met-zwak-eerste-kwartaal": "2026-04-29T11:24:20.904800Z",
@@ -251,6 +253,7 @@
         "https://www.omroepzeeland.nl/nieuws/18426879/politieauto-rijdt-in-sloot-tijdens-achtervolging-fatbike": "2026-05-01T16:42:57.145116Z",
         "https://www.omroepzeeland.nl/nieuws/18427104/motorrijder-botst-op-automobilist-bij-grijpskerke-en-raakt-gewond": "2026-05-01T18:54:45.081075Z",
         "https://www.omroepzeeland.nl/nieuws/18427341/filmhuis-groede-sluit-per-direct-de-deuren-we-betreuren-deze-situatie": "2026-05-02T10:40:21.257079Z",
+        "https://www.omroepzeeland.nl/nieuws/18427353/dertigste-hrieps-opnieuw-drukbezocht-iedereen-doet-mee-dat-maakt-het-feest": "2026-05-03T10:43:08.120570Z",
         "https://www.omroepzeeland.nl/nieuws/18427407/schouwse-strandwandeltocht-kopieert-lange-strange-tocht-hopen-dat-dit-net-zon-succes-wordt": "2026-05-02T16:34:52.044379Z",
         "https://www.omroepzeeland.nl/nieuws/18427425/sergio-herman-sluit-twee-antwerpse-restaurants-wil-terug-naar-de-essentie": "2026-05-02T10:40:21.257079Z",
         "https://www.omroepzeeland.nl/nieuws/18427680/van-hecke-in-nadrukkelijke-belangstelling-van-liverpool": "2026-05-02T12:42:27.479235Z",
@@ -279,7 +282,7 @@
       }
     },
     "rotterdammerdagblad-regionaal": {
-      "pageHash": "76704868c0f76d4104536593553fe3d915bb7dcc",
+      "pageHash": "a696bdf90f6df8731a0d64873a1d794f884aa99b",
       "seenUrls": {
         "https://www.rotterdammerdagblad.nl/112/aanhouding-in-babbeltruc-onderzoek": "2026-04-30T10:09:04.641534Z",
         "https://www.rotterdammerdagblad.nl/112/eenheid-rotterdam-publiceert-jaarverslag-2025-en-jaarplan-2026": "2026-04-28T12:45:40.782992Z",
