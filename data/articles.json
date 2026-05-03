@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-05-03T16:35:16.688137Z",
+  "generatedAt": "2026-05-03T18:41:07.071719Z",
   "lookbackDays": 30,
-  "cutoffAt": "2026-04-03T16:35:16.688137Z",
+  "cutoffAt": "2026-04-03T18:41:07.071719Z",
   "articleCount": 180,
   "sourceCount": 118,
   "sources": [
@@ -12,11 +12,13 @@
     "Damen Shipyards News",
     "Damen Yachting News",
     "HVZeeland",
+    "Hellenic Shipping News",
     "ILT News",
     "IMO Meeting Summaries",
     "IMO Press Briefings",
     "Kongsberg Maritime News",
     "Logistiek.nl: News",
+    "Made in",
     "Maersk Tankers News",
     "MarineLink",
     "Muller Dordrecht Web Watch",
@@ -35,7 +37,6 @@
     "Sarens News",
     "Splash247",
     "Svitzer News",
-    "TenderNed Maritime Tenders",
     "The Maritime Executive",
     "Ultrabulk News",
     "Van Oord News",
@@ -48,6 +49,7 @@
     "Antwerp",
     "Batteries",
     "Bulk",
+    "Business",
     "Classification",
     "Clean Propulsion",
     "Competitor",
@@ -70,13 +72,13 @@
     "Logistics",
     "Marine-Construction",
     "Maritime",
+    "Markets",
     "Netherlands",
     "News",
     "North-Sea-Port",
     "Offshore",
     "Operations",
     "Ports",
-    "Procurement",
     "Propulsion",
     "Regulation",
     "Safety",
@@ -87,7 +89,6 @@
     "Sustainability",
     "Tankers",
     "Technology",
-    "Tender",
     "Terminals",
     "Towage",
     "Yachting",
@@ -1079,38 +1080,6 @@
       "boardBucket": "Competitors & Market"
     },
     {
-      "id": "669c13b4e53c9e10",
-      "title": "Sarens\u2019 ACBT role highlights Canada\u2019s offshore wind potential - Heavy Lift & Project Forwarding International",
-      "source": "Sarens News",
-      "sourceId": "google-sarens",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPQXkzblFpaVJIOW9ERVZLTXZkLTc1Sy1jcjBRTzhRVzdENElFVHdId3JvbEJFZm9XVUV5X0V1ZTRGbFkwYUNXalpkaEk5SlJ5MUswaWJ3ZVlvQlRqNlRwWFFpeWtVUV93SWlETkpSc1BBZWlZcGhQbHN1bm95YVZ1aXJqaFlORTZ1Z2tPdTlERkYxb0dzYmZaU0RCU1g3SGFIZVVwUUJuLTYzaDA2Qmc?oc=5",
-      "publishedAt": "2026-04-23T10:32:59Z",
-      "excerpt": "Sarens\u2019 ACBT role highlights Canada\u2019s offshore wind potential Heavy Lift & Project Forwarding International",
-      "tags": [
-        "Heavy-Lift"
-      ],
-      "audience": "Multraship",
-      "paywalled": false,
-      "entities": [
-        {
-          "name": "Sarens",
-          "category": "clients"
-        }
-      ],
-      "locations": [],
-      "businessTags": [
-        "Client",
-        "Commercial"
-      ],
-      "priorityScore": 8,
-      "priorityBand": "medium",
-      "priorityReasons": [
-        "Client mention: Sarens",
-        "Signal: Commercial"
-      ],
-      "boardBucket": "Clients & Projects"
-    },
-    {
       "id": "7eef26157c4f5ecd",
       "title": "Shipping lobbies unite in defence of IMO, support of GHG ambitions, citing billions in investment",
       "source": "Riviera: Regulations & Compliance",
@@ -1812,6 +1781,65 @@
       "boardBucket": "Regulation, Safety & Incidents"
     },
     {
+      "id": "ad6b114ac750a68d",
+      "title": "North Sea Port brengt een eerste keer duurzaamheidsimpact in kaart",
+      "source": "Made in",
+      "sourceId": "made-in",
+      "url": "https://www.made-in.be/oost-vlaanderen/north-sea-port-brengt-een-eerste-keer-duurzaamheidsimpact-in-kaart",
+      "publishedAt": "2026-05-03T18:41:07.071719Z",
+      "excerpt": "Tracked page link found on source page.",
+      "tags": [
+        "Business",
+        "Local-News"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [],
+      "locations": [
+        {
+          "name": "North Sea Port",
+          "type": "port-system"
+        }
+      ],
+      "businessTags": [
+        "Port: North Sea Port"
+      ],
+      "priorityScore": 6,
+      "priorityBand": "medium",
+      "priorityReasons": [
+        "Core port watch: North Sea Port"
+      ],
+      "boardBucket": "Port Watch"
+    },
+    {
+      "id": "fc2bdbdc42307a61",
+      "title": "Ukrainian Drones Hit Russia\u2019s Primorsk Port, Oil Tankers And Military Ships",
+      "source": "gCaptain",
+      "sourceId": "gcaptain",
+      "url": "https://gcaptain.com/ukrainian-drones-hit-russias-primorsk-port-oil-tankers-and-military-ships",
+      "publishedAt": "2026-05-03T17:25:28Z",
+      "excerpt": "May 3 (Reuters) \u2013 Ukraine launched a wave of drone attacks on targets across Russia on Sunday, hitting the Baltic Sea port of Primorsk and setting it on fire, and striking a number of...",
+      "tags": [
+        "Incidents",
+        "Regulation",
+        "Maritime",
+        "Operations"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [
+        "Incident"
+      ],
+      "priorityScore": 6,
+      "priorityBand": "medium",
+      "priorityReasons": [
+        "Signal: Incident"
+      ],
+      "boardBucket": "Regulation, Safety & Incidents"
+    },
+    {
       "id": "815a5abee77ccfe1",
       "title": "Kongsberg Maritime Wins Contract with French Naval Academy in Lanv\u00e9oc",
       "source": "The Maritime Executive",
@@ -2072,6 +2100,37 @@
         "Signal: Incident"
       ],
       "boardBucket": "Regulation, Safety & Incidents"
+    },
+    {
+      "id": "3303a788e93ca7a1",
+      "title": "Van Oord\u2019s VO:X Barentsz vessel completes offshore mission in Ecowende - Inspenet",
+      "source": "Van Oord News",
+      "sourceId": "google-van-oord",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOdlRqVDU0djJjNXlWZEVCenFaV19MNG0weUFVUm9wOEdQWUFod051TkY0TDVRaXJ1V0ZfdkJBblVZcHhpYzBxVHU2SDYtX0V0UTBTbDhCYi1GakFDRVRJVlNDQktSb1U2UUFZYWNsNmhsek9oak05Z1VJVUtlamc4UVpwMi1yc0xJZ3g2MzN2OFZyQkV6Ym1HOVhYSVVwX2c?oc=5",
+      "publishedAt": "2026-05-01T00:05:30Z",
+      "excerpt": "Van Oord\u2019s VO:X Barentsz vessel completes offshore mission in Ecowende Inspenet",
+      "tags": [
+        "Offshore",
+        "Dredging"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [
+        {
+          "name": "Van Oord",
+          "category": "clients"
+        }
+      ],
+      "locations": [],
+      "businessTags": [
+        "Client"
+      ],
+      "priorityScore": 6,
+      "priorityBand": "medium",
+      "priorityReasons": [
+        "Client mention: Van Oord"
+      ],
+      "boardBucket": "Clients & Projects"
     },
     {
       "id": "a647abf53faec52d",
@@ -2822,39 +2881,6 @@
       "boardBucket": "Port Watch"
     },
     {
-      "id": "2128bcaa437500a3",
-      "title": "Kongsberg Maritime wins simulator contract with the French Naval Academy in Lanv\u00e9oc - Mynewsdesk",
-      "source": "Kongsberg Maritime News",
-      "sourceId": "google-kongsberg",
-      "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPbGtPY0t5MnQtZ0pMeTgxSExvNm9FT3lrNTU2V2Z2UVJHc1Ytd3JoRUtscENwc3I3MjJOR3lEenNmR0ZYa3RYcjNydDlrRjQyc3A3aTQtMl9yNVdMR1B2SGlQem14dXZnUTZUUHhvQ3JkSnRJZkdqRXNDRzFaTzVLaHVaUmF1T3dzY3pweFlUZXlFOUFGQ19UZnpZQjBEa3g2bUtPMHc1RHZpazNhOEprSU52ajdHdDh5U2FWQkQxWWV3ZjdNU1VlS0Q2MGJ5VUd1TjNRcnFZbDlNYUpkVl9ENGlqcGJZRGQzY1E?oc=5",
-      "publishedAt": "2026-04-28T08:00:00Z",
-      "excerpt": "Kongsberg Maritime wins simulator contract with the French Naval Academy in Lanv\u00e9oc Mynewsdesk",
-      "tags": [
-        "Technology",
-        "Supplier"
-      ],
-      "audience": "Both",
-      "paywalled": false,
-      "entities": [
-        {
-          "name": "Kongsberg Maritime",
-          "category": "suppliers"
-        }
-      ],
-      "locations": [],
-      "businessTags": [
-        "Supplier",
-        "Commercial"
-      ],
-      "priorityScore": 6,
-      "priorityBand": "medium",
-      "priorityReasons": [
-        "Supplier mention: Kongsberg Maritime",
-        "Signal: Commercial"
-      ],
-      "boardBucket": "Other Relevant"
-    },
-    {
       "id": "4e3caf23e38bac29",
       "title": "Boluda takes control of Seatrium\u2019s towage fleet in Singapore - Seatrade Maritime News",
       "source": "Boluda News",
@@ -3504,12 +3530,12 @@
       "boardBucket": "Regulation, Safety & Incidents"
     },
     {
-      "id": "f7609e026a8ed4a0",
+      "id": "c12cf5b11f608d00",
       "title": "ILT News page updated",
       "source": "ILT News",
       "sourceId": "ilt-news",
-      "url": "https://english.ilent.nl/latest/news?dashboardChange=ac5546d76327",
-      "publishedAt": "2026-05-03T16:35:16.688137Z",
+      "url": "https://english.ilent.nl/latest/news?dashboardChange=c425b2109965",
+      "publishedAt": "2026-05-03T18:41:07.071719Z",
       "excerpt": "Tracked page content changed.",
       "tags": [
         "Regulation",
@@ -4168,37 +4194,6 @@
       "boardBucket": "Clients & Projects"
     },
     {
-      "id": "c815dbc673139816",
-      "title": "Kongsberg and OSI Maritime alliance targets Canadian naval contracts - Baird Maritime",
-      "source": "Kongsberg Maritime News",
-      "sourceId": "google-kongsberg",
-      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQakpwWnhURlNhaml4UkNYU1EzMGU5TDBCV1gyaXp6S01XZmpiOUFJUEduV1hIY0NqSGRsZFgtcUJJSGZLVE5qMnBES3IxZWFVR3dNbnl1eklFRG92NUJjVXQ1T3IyWGlZUEtLaGY5a0hXS2poVkVSMTY5Sng2Z3VKUmgzTTVvZnUzdU9kOGowejJhOHpzaHVVdVJOOVc2ZzNsbmlYNzVnWC1yZFVlaDQwUGgyYTZwNmVXY3FhVmt0N3FSbXBkZDZ0UTY3SnnSAdoBQVVfeXFMT1lyS0lxNk04M2NaY3VKQ011ZnEzc0lZS1dyaE92M2dfZkFsa0dnSGFZS1k5SzFHMThzVnN5cVIwc0dHMHRRMDlhcTFOOHB0Rms4UHJVYTZ4b1Z2anJMRV9oQ3I1cGp0eTVQMGtjX0VTaFRsZy1lYzZIRVpmbnBWeW5kX01Nb3VXN3Z4a04zdC1uNlZsMnJGS1RUX2p1bm5RLUR1QUVFQjlBQXJZTnhNQWhzRk9Oa1lqTDFiT0pVbTFJZUNJZ1NFakQzVXlEdDNJOHFLZzBuVjEyZFE?oc=5",
-      "publishedAt": "2026-05-01T12:46:11Z",
-      "excerpt": "Kongsberg and OSI Maritime alliance targets Canadian naval contracts Baird Maritime",
-      "tags": [
-        "Technology",
-        "Supplier"
-      ],
-      "audience": "Both",
-      "paywalled": false,
-      "entities": [
-        {
-          "name": "Kongsberg Maritime",
-          "category": "suppliers"
-        }
-      ],
-      "locations": [],
-      "businessTags": [
-        "Supplier"
-      ],
-      "priorityScore": 4,
-      "priorityBand": "medium",
-      "priorityReasons": [
-        "Supplier mention: Kongsberg Maritime"
-      ],
-      "boardBucket": "Other Relevant"
-    },
-    {
       "id": "00163d5c40b1f255",
       "title": "Probe into offshore rig incident uncovers serious breaches",
       "source": "Offshore Energy",
@@ -4285,6 +4280,37 @@
       "priorityBand": "medium",
       "priorityReasons": [
         "Supplier mention: Voith"
+      ],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "c0eb0e73b818e16f",
+      "title": "Kongsberg Maritime ASA Financial Statements \u2013 LSX:A429K5 - TradingView",
+      "source": "Kongsberg Maritime News",
+      "sourceId": "google-kongsberg",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE85Y0xhZkJuNXpoSDF2NUJ1WTlEU25oSUMyb1gxZ2FuRS1pRTk5bm9BTmRwemZjazNYNUZlXzhYOUFuTzgyMWtpUjg0WTAyc1Q5TnRtdGthNDl0TmU4ODBOajBfLXpzcVpidHRIN3I5YUlyQTdFX3c?oc=5",
+      "publishedAt": "2026-04-30T16:27:03Z",
+      "excerpt": "Kongsberg Maritime ASA Financial Statements \u2013 LSX:A429K5 TradingView",
+      "tags": [
+        "Technology",
+        "Supplier"
+      ],
+      "audience": "Both",
+      "paywalled": false,
+      "entities": [
+        {
+          "name": "Kongsberg Maritime",
+          "category": "suppliers"
+        }
+      ],
+      "locations": [],
+      "businessTags": [
+        "Supplier"
+      ],
+      "priorityScore": 4,
+      "priorityBand": "medium",
+      "priorityReasons": [
+        "Supplier mention: Kongsberg Maritime"
       ],
       "boardBucket": "Other Relevant"
     },
@@ -4528,37 +4554,6 @@
       "boardBucket": "Port Watch"
     },
     {
-      "id": "c239e1ed9beaf9db",
-      "title": "KMAR.OL Stock Chart | KONGSBERG MARITIME AS (OSL:KMAR) - ChartMill",
-      "source": "Kongsberg Maritime News",
-      "sourceId": "google-kongsberg",
-      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1BbUdVVVVvMmVCZTl2amowanlwNEdyakplUkhKYktyYy1VZFlfNGxybi1hUUNDaEsySTQweDFvc2VYOUJLMzRCblN4aU41Sng1RXdQazRpSl9pakVCWWc3alZWeG81MXJF?oc=5",
-      "publishedAt": "2026-04-28T08:35:53Z",
-      "excerpt": "KMAR.OL Stock Chart | KONGSBERG MARITIME AS (OSL:KMAR) ChartMill",
-      "tags": [
-        "Technology",
-        "Supplier"
-      ],
-      "audience": "Both",
-      "paywalled": false,
-      "entities": [
-        {
-          "name": "Kongsberg Maritime",
-          "category": "suppliers"
-        }
-      ],
-      "locations": [],
-      "businessTags": [
-        "Supplier"
-      ],
-      "priorityScore": 4,
-      "priorityBand": "medium",
-      "priorityReasons": [
-        "Supplier mention: Kongsberg Maritime"
-      ],
-      "boardBucket": "Other Relevant"
-    },
-    {
       "id": "c122c22f1c2a22b4",
       "title": "ABS green-lights Japanese autonomous rocket landing platform vessel design",
       "source": "Riviera: Regulations & Compliance",
@@ -4678,13 +4673,13 @@
       "boardBucket": "Other Relevant"
     },
     {
-      "id": "580dfbe32eb2a4f7",
-      "title": "Kongsberg Maritime ASA Debuts on Euronext Oslo Under Ticker KMAR - News and Statistics - IndexBox",
+      "id": "082ad47bc1c45249",
+      "title": "Defining moment for Kongsberg Maritime - Seawork 2026",
       "source": "Kongsberg Maritime News",
       "sourceId": "google-kongsberg",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNN3ZoX2tSampQaGx5aW0tM25mRG14aGtmWVBXSDhzRlRXalltbXU3WW1VQlg5QzYzSkplOWFPN1ZQbE1XQm56OU1ic2pISzRycGtYTkFWdzNvUFQzUFZhMU9JWU05SkVLRGxTd0Y0Ync0NW05YU5JR2VpNW1ZcEJ1N3NPaElYTlBxX0wzb0JROXR6S3RTSGNJblZjNjFtSDdL?oc=5",
-      "publishedAt": "2026-04-25T00:30:00Z",
-      "excerpt": "Kongsberg Maritime ASA Debuts on Euronext Oslo Under Ticker KMAR - News and Statistics IndexBox",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBJelFFY280eU1RVXdIdjUyLWo3cWJjZ0lmU1BkZ0lrZU1PdnphNDVuMmlvMDNmTWNjOUVMcHFaNnpkbTc2SmlCbDZjaThTbFNTY0xVZUcxMjNReTdqNEZocHR1MnZnT05hTTg1WjFDdklSbGN3WlRCem8zMjI?oc=5",
+      "publishedAt": "2026-04-23T21:17:19Z",
+      "excerpt": "Defining moment for Kongsberg Maritime Seawork 2026",
       "tags": [
         "Technology",
         "Supplier"
@@ -4765,37 +4760,6 @@
         "Signal: Regulation"
       ],
       "boardBucket": "Regulation, Safety & Incidents"
-    },
-    {
-      "id": "1b9a50f340addcff",
-      "title": "Kongsberg Maritime AS(OB: KMAR) added to FTSE All-World Index - marketscreener.com",
-      "source": "Kongsberg Maritime News",
-      "sourceId": "google-kongsberg",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOcExTQTZqbmxpMDRJQzBRQUEzb3FyVWJ1N3FDSjdOc1pEalVuNWRXUHMxMjgxWEFwQ3hwc190YnNuNklpaFQ4MlNmVTdLdHNCLVduSkhvZ0pKQmxvYXRLUTZxeU5WSjVLNEZualBIb1Q1TmFSNzYxWWpjUDkyazYwc3VZOHRoeFY0REFjam92Q2syNWJtZ0hJMUFwV29MZWw3TFUyWHVkQmtiWXpHSm1PNTZn?oc=5",
-      "publishedAt": "2026-04-23T10:07:45Z",
-      "excerpt": "Kongsberg Maritime AS(OB: KMAR) added to FTSE All-World Index marketscreener.com",
-      "tags": [
-        "Technology",
-        "Supplier"
-      ],
-      "audience": "Both",
-      "paywalled": false,
-      "entities": [
-        {
-          "name": "Kongsberg Maritime",
-          "category": "suppliers"
-        }
-      ],
-      "locations": [],
-      "businessTags": [
-        "Supplier"
-      ],
-      "priorityScore": 4,
-      "priorityBand": "medium",
-      "priorityReasons": [
-        "Supplier mention: Kongsberg Maritime"
-      ],
-      "boardBucket": "Other Relevant"
     },
     {
       "id": "a68f71d87707be9b",
@@ -4976,6 +4940,37 @@
       "priorityBand": "medium",
       "priorityReasons": [
         "Supplier mention: W\u00e4rtsil\u00e4"
+      ],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "c20706a02388036a",
+      "title": "Kongsberg Maritime ASA \u2013 Publication of prospectus in connection with separate listing on Euronext Oslo B\u00f8rs - TradingView",
+      "source": "Kongsberg Maritime News",
+      "sourceId": "google-kongsberg",
+      "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxNRV9RaVp0bHBNT1FQcjhGZ1RFdFJJdzdocl9QOWItTXNUQTUzUGJXT1VpN2tzM3BJYTRRUVI4cEt0NDY2ZUZPVmctWGVhYnc1clpzdjJGYnVhTkZ3ZFR4U1FqZzcwZ0JiSEdGUmdlNDhjbUx3TWd4ZHFsbXpmS0RiYTFEWUIybDdjT201Z19zTGxJZnBSWkVpd3BYYUVaZXQ1UW9HUWtPcjNpUkdYa0xQTllneWZLc3FGUWRjN1k1NlE2Z0lyUTlfWnZ5MUhsQnJvTEFmMWVQYTUzc0RIbzRyLVg1SUdoUnJxS0N4V095Ry1FY19QNVktd20yUmtGX2FOVVE?oc=5",
+      "publishedAt": "2026-04-16T11:35:00Z",
+      "excerpt": "Kongsberg Maritime ASA \u2013 Publication of prospectus in connection with separate listing on Euronext Oslo B\u00f8rs TradingView",
+      "tags": [
+        "Technology",
+        "Supplier"
+      ],
+      "audience": "Both",
+      "paywalled": false,
+      "entities": [
+        {
+          "name": "Kongsberg Maritime",
+          "category": "suppliers"
+        }
+      ],
+      "locations": [],
+      "businessTags": [
+        "Supplier"
+      ],
+      "priorityScore": 4,
+      "priorityBand": "medium",
+      "priorityReasons": [
+        "Supplier mention: Kongsberg Maritime"
       ],
       "boardBucket": "Other Relevant"
     },
@@ -5501,6 +5496,53 @@
       "boardBucket": "Other Relevant"
     },
     {
+      "id": "401f44fbeb74f8b9",
+      "title": "China urges Iran ceasefire to last, says Hormuz reopening needed",
+      "source": "Hellenic Shipping News",
+      "sourceId": "hellenic-shipping-news",
+      "url": "https://www.hellenicshippingnews.com/china-urges-iran-ceasefire-to-last-says-hormuz-reopening-needed",
+      "publishedAt": "2026-05-03T18:00:58Z",
+      "excerpt": "China\u2019s U.N. ambassador Fu Cong stated on Friday that maintaining the Iran war ceasefire is an urgent necessity and called for the Strait of Hormuz to be reopened as quickly as possible. Fu told reporters at the United Nations that China i\u2026",
+      "tags": [
+        "Incidents",
+        "Shipping",
+        "Markets"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [],
+      "priorityScore": 2,
+      "priorityBand": "low",
+      "priorityReasons": [],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "f54b382913e9feef",
+      "title": "Scooterrijdster naar ziekenhuis na aanrijding op kruising in Vlissingen",
+      "source": "HVZeeland",
+      "sourceId": "hvzeeland",
+      "url": "https://www.hvzeeland.nl/nieuws/68633-scooterrijdster-naar-ziekenhuis-na-aanrijding-op-kruising-in-vlissingen",
+      "publishedAt": "2026-05-03T17:25:00Z",
+      "excerpt": "",
+      "tags": [
+        "Zeeland",
+        "Safety",
+        "Incidents",
+        "Local-News"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [],
+      "priorityScore": 2,
+      "priorityBand": "low",
+      "priorityReasons": [],
+      "boardBucket": "Other Relevant"
+    },
+    {
       "id": "6a6fd4b0dd87cdc4",
       "title": "Ravage na ongeluk in Vlissingen, zes auto's raken beschadigd",
       "source": "Omroep Zeeland News",
@@ -5523,12 +5565,12 @@
       "boardBucket": "Other Relevant"
     },
     {
-      "id": "d1ae2b110081f72f",
-      "title": "Vrijheid vieren in Vlissingen: dit moet je weten over het Bevrijdingsfestival",
+      "id": "c78ca47de696ac0c",
+      "title": "Bevrijdingsfestival in Vlissingen: hoe kom je er, wat kost het en welke optredens mag je niet missen?",
       "source": "PZC",
       "sourceId": "pzc",
-      "url": "https://www.pzc.nl/vlissingen/vrijheid-vieren-in-vlissingen-dit-moet-je-weten-over-het-bevrijdingsfestival~a7c2e22a",
-      "publishedAt": "2026-05-03T16:00:44Z",
+      "url": "https://www.pzc.nl/vlissingen/bevrijdingsfestival-in-vlissingen-hoe-kom-je-er-wat-kost-het-en-welke-optredens-mag-je-niet-missen~a7c2e22a",
+      "publishedAt": "2026-05-03T16:00:00Z",
       "excerpt": "Er treden zestig artiesten op en er worden tienduizenden bezoekers verwacht. Vlissingen staat dinsdag 5 mei in het teken van het Bevrijdingsfestival. Wat moet je weten over een van de grootste en belangrijkste evenementen van Zeeland?",
       "tags": [
         "Zeeland",
@@ -5546,7 +5588,7 @@
     },
     {
       "id": "3bcb7d797d9f555c",
-      "title": "Ravage na ongeval Paul Krugerstraat Vlissingen",
+      "title": "Ravage na ongeval Paul Krugerstraat Vlissingen (video)",
       "source": "HVZeeland",
       "sourceId": "hvzeeland",
       "url": "https://www.hvzeeland.nl/nieuws/68632-ravage-na-ongeval-paul-krugerstraat-vlissingen",
@@ -5569,62 +5611,16 @@
       "boardBucket": "Other Relevant"
     },
     {
-      "id": "cc5adca7bbaed6ee",
-      "title": "Auto gekanteld na botsing in Vlissingen",
+      "id": "66b0497c2c7c954c",
+      "title": "Auto kantelt na botsing in Vlissingen: ravage met 6 beschadigde auto\u2019s",
       "source": "PZC",
       "sourceId": "pzc",
-      "url": "https://www.pzc.nl/112-nieuws-vlissingen/auto-gekanteld-na-botsing-in-vlissingen~ada13883",
-      "publishedAt": "2026-05-03T15:26:03Z",
+      "url": "https://www.pzc.nl/112-nieuws-vlissingen/auto-kantelt-na-botsing-in-vlissingen-ravage-met-6-beschadigde-autos~ada13883",
+      "publishedAt": "2026-05-03T15:26:00Z",
       "excerpt": "Een auto is zondagmiddag gekanteld na een botsing met een andere auto op de kruising van de Paul Krugerstraat met de Irislaan in Vlissingen.",
       "tags": [
         "Zeeland",
         "Local-News"
-      ],
-      "audience": "Multraship",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [],
-      "priorityScore": 2,
-      "priorityBand": "low",
-      "priorityReasons": [],
-      "boardBucket": "Other Relevant"
-    },
-    {
-      "id": "adf9652be8b8a7e7",
-      "title": "Man bedreigt caf\u00e9gangers met mes in Vlissingen",
-      "source": "Omroep Zeeland News",
-      "sourceId": "omroep-zeeland-news",
-      "url": "https://www.omroepzeeland.nl/nieuws/18430287/man-bedreigt-cafegangers-met-mes-in-vlissingen",
-      "publishedAt": "2026-05-03T14:40:39.726946Z",
-      "excerpt": "Tracked page link found on source page.",
-      "tags": [
-        "Zeeland",
-        "Local-News"
-      ],
-      "audience": "Multraship",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [],
-      "priorityScore": 2,
-      "priorityBand": "low",
-      "priorityReasons": [],
-      "boardBucket": "Other Relevant"
-    },
-    {
-      "id": "e58bed028faa084e",
-      "title": "Emissiereductie onderhoudsbaggerwerkzaamheden Rotterdam - Havenbedrijf Rotterdam",
-      "source": "TenderNed Maritime Tenders",
-      "sourceId": "tenderned-maritime",
-      "url": "",
-      "publishedAt": "2026-05-03T13:49:04.215000Z",
-      "excerpt": "Type publicatie: EF05 | Publicatiedatum: 03-05-2026 | Type opdracht: Werken | Sluitingsdatum: | Plaats van uitvoering: NEDERLAND NL | Procedure: | CPV: Waterbouwwerkzaamheden",
-      "tags": [
-        "Tender",
-        "Procurement",
-        "Government",
-        "Maritime"
       ],
       "audience": "Multraship",
       "paywalled": false,

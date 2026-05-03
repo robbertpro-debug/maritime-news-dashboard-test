@@ -1,7 +1,7 @@
 {
   "sources": {
     "ilt-news": {
-      "pageHash": "ac5546d76327ae9f805f98d9d2cede616b9d42da",
+      "pageHash": "c425b210996590aaf2467be1382d02b3e8c55683",
       "seenUrls": {}
     },
     "made-in": {
@@ -89,6 +89,7 @@
         "https://www.made-in.be/oost-vlaanderen/la-lorraine-rondt-kaap-van-15-miljard-euro-omzet": "2026-04-29T06:47:31.503270Z",
         "https://www.made-in.be/oost-vlaanderen/maria-middelares-test-mixed-reality-bij-wondzorg": "2026-04-29T06:47:31.503270Z",
         "https://www.made-in.be/oost-vlaanderen/nieuwe-naam-voor-oost-vlaams-liftenbedrijf": "2026-05-03T14:40:39.726946Z",
+        "https://www.made-in.be/oost-vlaanderen/north-sea-port-brengt-een-eerste-keer-duurzaamheidsimpact-in-kaart": "2026-05-03T18:41:07.071719Z",
         "https://www.made-in.be/oost-vlaanderen/nsz-tevreden-met-eerste-maatregelen-kmo-plan": "2026-04-29T15:51:28.651886Z",
         "https://www.made-in.be/oost-vlaanderen/ontex-gaat-aantal-banen-in-ondersteunende-functies-verminderen": "2026-05-03T10:43:08.120570Z",
         "https://www.made-in.be/oost-vlaanderen/premier-leidt-taskforce-over-toekomst-volvo-car-gent": "2026-04-28T13:59:05.537487Z",
@@ -268,6 +269,7 @@
         "https://www.omroepzeeland.nl/nieuws/18428340/gewonde-bij-steekincident-in-azc-middelburg": "2026-05-03T12:41:28.012574Z",
         "https://www.omroepzeeland.nl/nieuws/18428457/zeearend-en-andere-vogels-vliegen-zich-niet-zomaar-te-pletter-tegen-windpark-zebra": "2026-05-03T16:35:16.688137Z",
         "https://www.omroepzeeland.nl/nieuws/18428457/zeearend-vliegt-zich-niet-zomaar-te-pletter-tegen-windpark-zebra": "2026-05-03T14:40:39.726946Z",
+        "https://www.omroepzeeland.nl/nieuws/18428601/driebanders-dallingacom-verrassen-met-plek-in-de-play-offs-het-kan-nog-mooier-worden": "2026-05-03T18:41:07.071719Z",
         "https://www.omroepzeeland.nl/nieuws/18430287/man-bedreigt-cafegangers-met-mes-in-vlissingen": "2026-05-03T14:40:39.726946Z",
         "https://www.omroepzeeland.nl/nieuws/18430416/rijbewijs-van-hardrijder-ingenomen-op-a58": "2026-05-03T14:40:39.726946Z",
         "https://www.omroepzeeland.nl/nieuws/18430422/het-regende-water-en-kortingen-op-de-meikermismarkt-in-koewacht": "2026-05-03T16:35:16.688137Z",
@@ -296,7 +298,7 @@
       }
     },
     "rotterdammerdagblad-regionaal": {
-      "pageHash": "c5781baf76c19d2b1456c04f557256a12d978959",
+      "pageHash": "d4a5c8ad0ae8de422335c4fff9952ed06c322b3f",
       "seenUrls": {
         "https://www.rotterdammerdagblad.nl/112/aanhouding-in-babbeltruc-onderzoek": "2026-04-30T10:09:04.641534Z",
         "https://www.rotterdammerdagblad.nl/112/eenheid-rotterdam-publiceert-jaarverslag-2025-en-jaarplan-2026": "2026-04-28T12:45:40.782992Z",
