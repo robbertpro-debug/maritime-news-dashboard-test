@@ -1,7 +1,7 @@
 {
   "sources": {
     "ilt-news": {
-      "pageHash": "560a58c70d9dd915b09d147cfa7485d985e0c596",
+      "pageHash": "ac5546d76327ae9f805f98d9d2cede616b9d42da",
       "seenUrls": {}
     },
     "made-in": {
@@ -266,9 +266,12 @@
         "https://www.omroepzeeland.nl/nieuws/18427686/politie-houdt-minderjarige-aan-die-foto-op-sociale-media-zette-met-mogelijk-vuurwapen": "2026-05-02T12:42:27.479235Z",
         "https://www.omroepzeeland.nl/nieuws/18427887/kloetinge-verlengt-ook-contract-van-topscorer-de-jager": "2026-05-03T14:40:39.726946Z",
         "https://www.omroepzeeland.nl/nieuws/18428340/gewonde-bij-steekincident-in-azc-middelburg": "2026-05-03T12:41:28.012574Z",
+        "https://www.omroepzeeland.nl/nieuws/18428457/zeearend-en-andere-vogels-vliegen-zich-niet-zomaar-te-pletter-tegen-windpark-zebra": "2026-05-03T16:35:16.688137Z",
         "https://www.omroepzeeland.nl/nieuws/18428457/zeearend-vliegt-zich-niet-zomaar-te-pletter-tegen-windpark-zebra": "2026-05-03T14:40:39.726946Z",
         "https://www.omroepzeeland.nl/nieuws/18430287/man-bedreigt-cafegangers-met-mes-in-vlissingen": "2026-05-03T14:40:39.726946Z",
         "https://www.omroepzeeland.nl/nieuws/18430416/rijbewijs-van-hardrijder-ingenomen-op-a58": "2026-05-03T14:40:39.726946Z",
+        "https://www.omroepzeeland.nl/nieuws/18430422/het-regende-water-en-kortingen-op-de-meikermismarkt-in-koewacht": "2026-05-03T16:35:16.688137Z",
+        "https://www.omroepzeeland.nl/nieuws/18430728/ravage-na-ongeluk-in-vlissingen-zes-autos-raken-beschadigd": "2026-05-03T16:35:16.688137Z",
         "https://www.omroepzeeland.nl/nieuws/schouwen-duiveland": "2026-04-28T12:45:40.782992Z",
         "https://www.omroepzeeland.nl/nieuws/zeeuws-vlaanderen": "2026-04-28T12:45:40.782992Z"
       }
@@ -293,7 +296,7 @@
       }
     },
     "rotterdammerdagblad-regionaal": {
-      "pageHash": "2f7d2782e2c41cde3ac56124eeebaee71deb0eb1",
+      "pageHash": "c5781baf76c19d2b1456c04f557256a12d978959",
       "seenUrls": {
         "https://www.rotterdammerdagblad.nl/112/aanhouding-in-babbeltruc-onderzoek": "2026-04-30T10:09:04.641534Z",
         "https://www.rotterdammerdagblad.nl/112/eenheid-rotterdam-publiceert-jaarverslag-2025-en-jaarplan-2026": "2026-04-28T12:45:40.782992Z",

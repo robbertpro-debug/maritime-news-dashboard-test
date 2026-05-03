@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-05-03T14:40:39.726946Z",
+  "generatedAt": "2026-05-03T16:35:16.688137Z",
   "lookbackDays": 30,
-  "cutoffAt": "2026-04-03T14:40:39.726946Z",
+  "cutoffAt": "2026-04-03T16:35:16.688137Z",
   "articleCount": 180,
   "sourceCount": 118,
   "sources": [
@@ -11,6 +11,7 @@
     "DFDS News",
     "Damen Shipyards News",
     "Damen Yachting News",
+    "HVZeeland",
     "ILT News",
     "IMO Meeting Summaries",
     "IMO Press Briefings",
@@ -23,6 +24,7 @@
     "Offshore Energy",
     "Oldendorff Carriers News",
     "Omroep Zeeland News",
+    "PZC",
     "Port of Antwerp-Bruges Press",
     "Rigzone",
     "Riviera: Air Pollution & GHG Emissions",
@@ -33,6 +35,7 @@
     "Sarens News",
     "Splash247",
     "Svitzer News",
+    "TenderNed Maritime Tenders",
     "The Maritime Executive",
     "Ultrabulk News",
     "Van Oord News",
@@ -73,6 +76,7 @@
     "Offshore",
     "Operations",
     "Ports",
+    "Procurement",
     "Propulsion",
     "Regulation",
     "Safety",
@@ -83,6 +87,7 @@
     "Sustainability",
     "Tankers",
     "Technology",
+    "Tender",
     "Terminals",
     "Towage",
     "Yachting",
@@ -429,41 +434,6 @@
       "boardBucket": "High Priority"
     },
     {
-      "id": "54ffe8ef3a99d71e",
-      "title": "Damen and UK Dredging sign contract for advanced TSHD - DredgeWire",
-      "source": "Damen Shipyards News",
-      "sourceId": "google-damen",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQRGpTcmlybFQ1amE3cDRvWWhMUmQyTVZfUmxLZXRFMXJmZGp4OVJhVFMxMkhjMkgzbmthdXYybGxlU0daMEFra0RncE83WklObEJRNzBDaHZBZ05vY3hKUEJJX0NBWHctaGVZVy1WZG9ab2xKVmIxQU5LVU4yYWd4blRLRQ?oc=5",
-      "publishedAt": "2026-04-28T00:17:18Z",
-      "excerpt": "Damen and UK Dredging sign contract for advanced TSHD DredgeWire",
-      "tags": [
-        "Shipbuilding",
-        "Supplier"
-      ],
-      "audience": "Multraship",
-      "paywalled": false,
-      "entities": [
-        {
-          "name": "Damen Shipyards Group",
-          "category": "suppliers"
-        }
-      ],
-      "locations": [],
-      "businessTags": [
-        "Supplier",
-        "Infrastructure",
-        "Commercial"
-      ],
-      "priorityScore": 10,
-      "priorityBand": "high",
-      "priorityReasons": [
-        "Supplier mention: Damen Shipyards Group",
-        "Signal: Infrastructure",
-        "Signal: Commercial"
-      ],
-      "boardBucket": "High Priority"
-    },
-    {
       "id": "d4a0ecfe39b3d218",
       "title": "Study maps policy path to shore power",
       "source": "Riviera: Ports & Terminals",
@@ -802,35 +772,6 @@
       "priorityReasons": [
         "Authority & Class mention: International Maritime Organization",
         "Signal: Regulation"
-      ],
-      "boardBucket": "Regulation, Safety & Incidents"
-    },
-    {
-      "id": "f4322dd539edf4fd",
-      "title": "News Content Hub - Executive profile: Arjen van Dijk: decarbonisation, port congestion key towage drivers - rivieramm.com",
-      "source": "Svitzer News",
-      "sourceId": "google-svitzer",
-      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNdDVCR0lka25sa2M0NGZubHJSQWMyOFpMSDV1cnVESkRwdjM2UGxfbFhqbUhXclRhVUFjaW1mb3VFd3ZaUTVHVk9QbEJyT2FTbUZlSms1UkFmQzJ1OV93R0V6MjNxejRTT0FuVDVkQ0FhMDNRQmNja1ZsR2MtanFyVm1BU3EzSXFNby1Fdm1wZGN3MThheFE1T2FkZk9kRGhMVE1YNUYtNjNpa0MzeHlsdXB0bGdHSE1GYzBJc0FxcEhoY3h2TTluYmN1QWJCUTJKRWZLVkpXclRqalZua1IwOXNJNA?oc=5",
-      "publishedAt": "2026-05-01T19:01:59Z",
-      "excerpt": "News Content Hub - Executive profile: Arjen van Dijk: decarbonisation, port congestion key towage drivers rivieramm.com",
-      "tags": [
-        "Towage",
-        "Decarbonization",
-        "Competitor"
-      ],
-      "audience": "Multraship",
-      "paywalled": false,
-      "entities": [],
-      "locations": [],
-      "businessTags": [
-        "Disruption",
-        "Energy Transition"
-      ],
-      "priorityScore": 8,
-      "priorityBand": "medium",
-      "priorityReasons": [
-        "Signal: Disruption",
-        "Signal: Energy Transition"
       ],
       "boardBucket": "Regulation, Safety & Incidents"
     },
@@ -2133,37 +2074,6 @@
       "boardBucket": "Regulation, Safety & Incidents"
     },
     {
-      "id": "3303a788e93ca7a1",
-      "title": "Van Oord\u2019s VO:X Barentsz vessel completes offshore mission in Ecowende - Inspenet",
-      "source": "Van Oord News",
-      "sourceId": "google-van-oord",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOdlRqVDU0djJjNXlWZEVCenFaV19MNG0weUFVUm9wOEdQWUFod051TkY0TDVRaXJ1V0ZfdkJBblVZcHhpYzBxVHU2SDYtX0V0UTBTbDhCYi1GakFDRVRJVlNDQktSb1U2UUFZYWNsNmhsek9oak05Z1VJVUtlamc4UVpwMi1yc0xJZ3g2MzN2OFZyQkV6Ym1HOVhYSVVwX2c?oc=5",
-      "publishedAt": "2026-05-01T00:05:30Z",
-      "excerpt": "Van Oord\u2019s VO:X Barentsz vessel completes offshore mission in Ecowende Inspenet",
-      "tags": [
-        "Offshore",
-        "Dredging"
-      ],
-      "audience": "Multraship",
-      "paywalled": false,
-      "entities": [
-        {
-          "name": "Van Oord",
-          "category": "clients"
-        }
-      ],
-      "locations": [],
-      "businessTags": [
-        "Client"
-      ],
-      "priorityScore": 6,
-      "priorityBand": "medium",
-      "priorityReasons": [
-        "Client mention: Van Oord"
-      ],
-      "boardBucket": "Clients & Projects"
-    },
-    {
       "id": "a647abf53faec52d",
       "title": "Second Maersk Tankers vessel fitted with Spain-made suction sails - Offshore Energy",
       "source": "Maersk Tankers News",
@@ -3382,40 +3292,6 @@
       "boardBucket": "Other Relevant"
     },
     {
-      "id": "15bfe68ab7ba429b",
-      "title": "W\u00e4rtsil\u00e4 25 ammonia engine gets a power rating increase - Marine Log",
-      "source": "W\u00e4rtsil\u00e4 News",
-      "sourceId": "google-wartsila",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOUmJsNXNtd3dCQ0JUNDFZd25IWmhmSGZITkJib1ZzWTQ4ODhIWklKV0lqYzZacUg4T0pCZWlnei1NSlFKYjh0ZUJyQlRMN0NlNUw4ZlJmSTZxSkZkV2dvbjlySV90MU03V1pfMWxpbjZ1a1VFZzhFSUh5MjBqY2FUSENHN0FUbXA5NklqX2JuWWF6ZHNxMmVsZ3dEMVV0UVJPaUFYT3RCN0hDVjFh?oc=5",
-      "publishedAt": "2026-04-16T07:00:00Z",
-      "excerpt": "W\u00e4rtsil\u00e4 25 ammonia engine gets a power rating increase Marine Log",
-      "tags": [
-        "Clean Propulsion",
-        "Propulsion",
-        "Technology"
-      ],
-      "audience": "Both",
-      "paywalled": false,
-      "entities": [
-        {
-          "name": "W\u00e4rtsil\u00e4",
-          "category": "suppliers"
-        }
-      ],
-      "locations": [],
-      "businessTags": [
-        "Supplier",
-        "Energy Transition"
-      ],
-      "priorityScore": 6,
-      "priorityBand": "medium",
-      "priorityReasons": [
-        "Supplier mention: W\u00e4rtsil\u00e4",
-        "Signal: Energy Transition"
-      ],
-      "boardBucket": "Other Relevant"
-    },
-    {
       "id": "77dce659b844be2b",
       "title": "Svitzer\u2019s first three TRAnsverse tugs near 3,000 commercial tug job total - Marine Log",
       "source": "Svitzer News",
@@ -3628,12 +3504,12 @@
       "boardBucket": "Regulation, Safety & Incidents"
     },
     {
-      "id": "9612e98bedf11257",
+      "id": "f7609e026a8ed4a0",
       "title": "ILT News page updated",
       "source": "ILT News",
       "sourceId": "ilt-news",
-      "url": "https://english.ilent.nl/latest/news?dashboardChange=560a58c70d9d",
-      "publishedAt": "2026-05-03T14:40:39.726946Z",
+      "url": "https://english.ilent.nl/latest/news?dashboardChange=ac5546d76327",
+      "publishedAt": "2026-05-03T16:35:16.688137Z",
       "excerpt": "Tracked page content changed.",
       "tags": [
         "Regulation",
@@ -4802,37 +4678,6 @@
       "boardBucket": "Other Relevant"
     },
     {
-      "id": "110a6b31798a3b03",
-      "title": "Number of employees of Kongsberg Maritime ASA \u2013 OSL:KMAR - TradingView",
-      "source": "Kongsberg Maritime News",
-      "sourceId": "google-kongsberg",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNVlBnZGFLaTk4Wnp4MnUyTkVZTldIOUtZYWdRRXJOdEJGOTY4X0REdHAtS1hrM3VyamFXNkd2b1NDajRTOW4zRVN3SnNvYUxpTG1nTDBDbU1DUkg5WGNjNktKcVIwTXVtZWF2aGExS2FKWFF5Zk50Y2JhMHd6dlk5UjA4UlBuRVRkaloyZ05ISlduZ3ZfcUFJNVJDTVQteHc?oc=5",
-      "publishedAt": "2026-04-25T08:46:55Z",
-      "excerpt": "Number of employees of Kongsberg Maritime ASA \u2013 OSL:KMAR TradingView",
-      "tags": [
-        "Technology",
-        "Supplier"
-      ],
-      "audience": "Both",
-      "paywalled": false,
-      "entities": [
-        {
-          "name": "Kongsberg Maritime",
-          "category": "suppliers"
-        }
-      ],
-      "locations": [],
-      "businessTags": [
-        "Supplier"
-      ],
-      "priorityScore": 4,
-      "priorityBand": "medium",
-      "priorityReasons": [
-        "Supplier mention: Kongsberg Maritime"
-      ],
-      "boardBucket": "Other Relevant"
-    },
-    {
       "id": "580dfbe32eb2a4f7",
       "title": "Kongsberg Maritime ASA Debuts on Euronext Oslo Under Ticker KMAR - News and Statistics - IndexBox",
       "source": "Kongsberg Maritime News",
@@ -4864,22 +4709,23 @@
       "boardBucket": "Other Relevant"
     },
     {
-      "id": "20cb925f45b1a750",
-      "title": "Kongsberg Maritime Begins Trading on the Oslo Stock Exchange - Marine News Magazine",
-      "source": "Kongsberg Maritime News",
-      "sourceId": "google-kongsberg",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPUmxzR0x4Z05mS1MwZ3YxXzlLRldNU25CNHpnRU5TQ2xSMUNybkJYRW9qOXZuUjZzYThfdHZSVHNjRHM0cWR4LTVpdmI0NmtKTDVWcHNuNFdvUGNFNFBtUmRpSjgyS0doT0JwcHJRdkpQcEszVzZsZWdkeDIyN0lEMDltYw?oc=5",
-      "publishedAt": "2026-04-24T10:07:53Z",
-      "excerpt": "Kongsberg Maritime Begins Trading on the Oslo Stock Exchange Marine News Magazine",
+      "id": "3fd06fa83ba41908",
+      "title": "W\u00e4rtsil\u00e4\u2019s strength in fishing vessel sector enhanced with propulsion orders for four new vessels - W\u00e4rtsil\u00e4",
+      "source": "W\u00e4rtsil\u00e4 News",
+      "sourceId": "google-wartsila",
+      "url": "https://news.google.com/rss/articles/CBMixAJBVV95cUxObkYzLVBPZzczVlR5bW5qWXVjRXJxbmJheUt1YnU5bVVpS2xUUlJuZkgxRTlZTW9CLXRhc1dHa0wyMjYxVHdsNGh6WlhXWXVkVUh6bU9BU29OamlKMkVNQkNnOVlqTmN6U3A3cnRJTjdqUl93aElVN2NRVzZkMVVIVFZVOWlycktKYlhIdGpmbGxzLTRfanMtSHRvdW94R3lVQ3lCTzRVVUZBMzdlN0hIV0gtUlExQW1GdE5RTFB1RTU5eElwbU80cDNnZ0NGRU5fWGFJajdnSWJDRGRXX0MzVXdzMDg0S2h2WVBxa0VGQzJpcEJ5bEQ2UUtZV25FRU5ONmZqelh5bGJHYnFuVHZxOFlPUXd4VXJiclQ1TzFDbW1CajJ5TjR3aDhGSWhEVGNuSDI5c3gyWFdWaXM1SmpWb213LTY?oc=5",
+      "publishedAt": "2026-04-23T18:00:42Z",
+      "excerpt": "W\u00e4rtsil\u00e4\u2019s strength in fishing vessel sector enhanced with propulsion orders for four new vessels W\u00e4rtsil\u00e4",
       "tags": [
-        "Technology",
-        "Supplier"
+        "Clean Propulsion",
+        "Propulsion",
+        "Technology"
       ],
       "audience": "Both",
       "paywalled": false,
       "entities": [
         {
-          "name": "Kongsberg Maritime",
+          "name": "W\u00e4rtsil\u00e4",
           "category": "suppliers"
         }
       ],
@@ -4890,7 +4736,7 @@
       "priorityScore": 4,
       "priorityBand": "medium",
       "priorityReasons": [
-        "Supplier mention: Kongsberg Maritime"
+        "Supplier mention: W\u00e4rtsil\u00e4"
       ],
       "boardBucket": "Other Relevant"
     },
@@ -5041,6 +4887,37 @@
       "boardBucket": "Other Relevant"
     },
     {
+      "id": "20cb925f45b1a750",
+      "title": "Kongsberg Maritime Begins Trading on the Oslo Stock Exchange - Marine News Magazine",
+      "source": "Kongsberg Maritime News",
+      "sourceId": "google-kongsberg",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPUmxzR0x4Z05mS1MwZ3YxXzlLRldNU25CNHpnRU5TQ2xSMUNybkJYRW9qOXZuUjZzYThfdHZSVHNjRHM0cWR4LTVpdmI0NmtKTDVWcHNuNFdvUGNFNFBtUmRpSjgyS0doT0JwcHJRdkpQcEszVzZsZWdkeDIyN0lEMDltYw?oc=5",
+      "publishedAt": "2026-04-23T07:00:00Z",
+      "excerpt": "Kongsberg Maritime Begins Trading on the Oslo Stock Exchange Marine News Magazine",
+      "tags": [
+        "Technology",
+        "Supplier"
+      ],
+      "audience": "Both",
+      "paywalled": false,
+      "entities": [
+        {
+          "name": "Kongsberg Maritime",
+          "category": "suppliers"
+        }
+      ],
+      "locations": [],
+      "businessTags": [
+        "Supplier"
+      ],
+      "priorityScore": 4,
+      "priorityBand": "medium",
+      "priorityReasons": [
+        "Supplier mention: Kongsberg Maritime"
+      ],
+      "boardBucket": "Other Relevant"
+    },
+    {
       "id": "1565295a8791b4b6",
       "title": "Kongsberg Maritime ASA - Shares held by primary insiders and their close associates after completion of the demerger - TradingView",
       "source": "Kongsberg Maritime News",
@@ -5099,37 +4976,6 @@
       "priorityBand": "medium",
       "priorityReasons": [
         "Supplier mention: W\u00e4rtsil\u00e4"
-      ],
-      "boardBucket": "Other Relevant"
-    },
-    {
-      "id": "c20706a02388036a",
-      "title": "Kongsberg Maritime ASA \u2013 Publication of prospectus in connection with separate listing on Euronext Oslo B\u00f8rs - TradingView",
-      "source": "Kongsberg Maritime News",
-      "sourceId": "google-kongsberg",
-      "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxNRV9RaVp0bHBNT1FQcjhGZ1RFdFJJdzdocl9QOWItTXNUQTUzUGJXT1VpN2tzM3BJYTRRUVI4cEt0NDY2ZUZPVmctWGVhYnc1clpzdjJGYnVhTkZ3ZFR4U1FqZzcwZ0JiSEdGUmdlNDhjbUx3TWd4ZHFsbXpmS0RiYTFEWUIybDdjT201Z19zTGxJZnBSWkVpd3BYYUVaZXQ1UW9HUWtPcjNpUkdYa0xQTllneWZLc3FGUWRjN1k1NlE2Z0lyUTlfWnZ5MUhsQnJvTEFmMWVQYTUzc0RIbzRyLVg1SUdoUnJxS0N4V095Ry1FY19QNVktd20yUmtGX2FOVVE?oc=5",
-      "publishedAt": "2026-04-16T11:35:00Z",
-      "excerpt": "Kongsberg Maritime ASA \u2013 Publication of prospectus in connection with separate listing on Euronext Oslo B\u00f8rs TradingView",
-      "tags": [
-        "Technology",
-        "Supplier"
-      ],
-      "audience": "Both",
-      "paywalled": false,
-      "entities": [
-        {
-          "name": "Kongsberg Maritime",
-          "category": "suppliers"
-        }
-      ],
-      "locations": [],
-      "businessTags": [
-        "Supplier"
-      ],
-      "priorityScore": 4,
-      "priorityBand": "medium",
-      "priorityReasons": [
-        "Supplier mention: Kongsberg Maritime"
       ],
       "boardBucket": "Other Relevant"
     },
@@ -5655,6 +5501,96 @@
       "boardBucket": "Other Relevant"
     },
     {
+      "id": "6a6fd4b0dd87cdc4",
+      "title": "Ravage na ongeluk in Vlissingen, zes auto's raken beschadigd",
+      "source": "Omroep Zeeland News",
+      "sourceId": "omroep-zeeland-news",
+      "url": "https://www.omroepzeeland.nl/nieuws/18430728/ravage-na-ongeluk-in-vlissingen-zes-autos-raken-beschadigd",
+      "publishedAt": "2026-05-03T16:35:16.688137Z",
+      "excerpt": "Tracked page link found on source page.",
+      "tags": [
+        "Zeeland",
+        "Local-News"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [],
+      "priorityScore": 2,
+      "priorityBand": "low",
+      "priorityReasons": [],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "d1ae2b110081f72f",
+      "title": "Vrijheid vieren in Vlissingen: dit moet je weten over het Bevrijdingsfestival",
+      "source": "PZC",
+      "sourceId": "pzc",
+      "url": "https://www.pzc.nl/vlissingen/vrijheid-vieren-in-vlissingen-dit-moet-je-weten-over-het-bevrijdingsfestival~a7c2e22a",
+      "publishedAt": "2026-05-03T16:00:44Z",
+      "excerpt": "Er treden zestig artiesten op en er worden tienduizenden bezoekers verwacht. Vlissingen staat dinsdag 5 mei in het teken van het Bevrijdingsfestival. Wat moet je weten over een van de grootste en belangrijkste evenementen van Zeeland?",
+      "tags": [
+        "Zeeland",
+        "Local-News"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [],
+      "priorityScore": 2,
+      "priorityBand": "low",
+      "priorityReasons": [],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "3bcb7d797d9f555c",
+      "title": "Ravage na ongeval Paul Krugerstraat Vlissingen",
+      "source": "HVZeeland",
+      "sourceId": "hvzeeland",
+      "url": "https://www.hvzeeland.nl/nieuws/68632-ravage-na-ongeval-paul-krugerstraat-vlissingen",
+      "publishedAt": "2026-05-03T15:52:00Z",
+      "excerpt": "",
+      "tags": [
+        "Zeeland",
+        "Safety",
+        "Incidents",
+        "Local-News"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [],
+      "priorityScore": 2,
+      "priorityBand": "low",
+      "priorityReasons": [],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "cc5adca7bbaed6ee",
+      "title": "Auto gekanteld na botsing in Vlissingen",
+      "source": "PZC",
+      "sourceId": "pzc",
+      "url": "https://www.pzc.nl/112-nieuws-vlissingen/auto-gekanteld-na-botsing-in-vlissingen~ada13883",
+      "publishedAt": "2026-05-03T15:26:03Z",
+      "excerpt": "Een auto is zondagmiddag gekanteld na een botsing met een andere auto op de kruising van de Paul Krugerstraat met de Irislaan in Vlissingen.",
+      "tags": [
+        "Zeeland",
+        "Local-News"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [],
+      "priorityScore": 2,
+      "priorityBand": "low",
+      "priorityReasons": [],
+      "boardBucket": "Other Relevant"
+    },
+    {
       "id": "adf9652be8b8a7e7",
       "title": "Man bedreigt caf\u00e9gangers met mes in Vlissingen",
       "source": "Omroep Zeeland News",
@@ -5665,6 +5601,30 @@
       "tags": [
         "Zeeland",
         "Local-News"
+      ],
+      "audience": "Multraship",
+      "paywalled": false,
+      "entities": [],
+      "locations": [],
+      "businessTags": [],
+      "priorityScore": 2,
+      "priorityBand": "low",
+      "priorityReasons": [],
+      "boardBucket": "Other Relevant"
+    },
+    {
+      "id": "e58bed028faa084e",
+      "title": "Emissiereductie onderhoudsbaggerwerkzaamheden Rotterdam - Havenbedrijf Rotterdam",
+      "source": "TenderNed Maritime Tenders",
+      "sourceId": "tenderned-maritime",
+      "url": "",
+      "publishedAt": "2026-05-03T13:49:04.215000Z",
+      "excerpt": "Type publicatie: EF05 | Publicatiedatum: 03-05-2026 | Type opdracht: Werken | Sluitingsdatum: | Plaats van uitvoering: NEDERLAND NL | Procedure: | CPV: Waterbouwwerkzaamheden",
+      "tags": [
+        "Tender",
+        "Procurement",
+        "Government",
+        "Maritime"
       ],
       "audience": "Multraship",
       "paywalled": false,
