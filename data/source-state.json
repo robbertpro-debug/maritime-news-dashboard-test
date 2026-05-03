@@ -1,7 +1,7 @@
 {
   "sources": {
     "ilt-news": {
-      "pageHash": "c425b210996590aaf2467be1382d02b3e8c55683",
+      "pageHash": "7ad4cc554c4475afb6a001a95066b209cf3cb7dd",
       "seenUrls": {}
     },
     "made-in": {
@@ -127,12 +127,15 @@
         "https://www.made-in.be/vlaams-brabant/van-dorpsbakkerij-tot-bruisende-ontmoetingsplek-bakkerij-de-linde-opent-tearoom-in-budingen": "2026-04-28T17:11:11.481493Z",
         "https://www.made-in.be/west-vlaanderen/autobehandelaar-ico-gaat-in-zeebrugge-voor-altius-citius-fortius-strategie-middels-een-investering-van-150-miljoen-euro": "2026-04-30T22:40:24.366859Z",
         "https://www.made-in.be/west-vlaanderen/average-rob-lanceert-zijn-frituurzaak-la-patate-ook-in-oostende": "2026-04-29T09:56:00.616177Z",
+        "https://www.made-in.be/west-vlaanderen/burgerplatformen-en-bedrijven-blijven-zich-verzetten-tegen-ventilus-fundamenteel-oneerlijk-proces": "2026-05-03T20:31:09.746406Z",
+        "https://www.made-in.be/west-vlaanderen/de-voedingsindustrie-trekt-bij-monde-van-fevia-aan-de-alarmbel": "2026-05-03T20:31:09.746406Z",
         "https://www.made-in.be/west-vlaanderen/familie-de-clerck-ontdoet-zich-grotendeels-van-domo-chemicals": "2026-04-29T06:47:31.503270Z",
         "https://www.made-in.be/west-vlaanderen/julie-schoutteten-de-laere-decor-wordt-voorzitter-van-jong-voka-west-vlaanderen": "2026-04-29T06:47:31.503270Z",
         "https://www.made-in.be/west-vlaanderen/konvert-lanceert-zijn-eigen-versie-van-de-container-cup": "2026-04-29T06:47:31.503270Z",
         "https://www.made-in.be/west-vlaanderen/muziekfestival-campo-solar-onderscheidt-zich-via-groener-dan-groene-aanpak": "2026-04-29T06:47:31.503270Z",
         "https://www.made-in.be/west-vlaanderen/quote-van-de-week-geert-noels-over-belgische-economie": "2026-04-28T12:45:40.782992Z",
         "https://www.made-in.be/west-vlaanderen/quote-van-de-week-yves-leterme-over-china": "2026-04-30T22:40:24.366859Z",
+        "https://www.made-in.be/west-vlaanderen/titeca-vult-een-blinde-vlek-in-op-de-kaart-van-oost-vlaanderen": "2026-05-03T20:31:09.746406Z",
         "https://www.made-in.be/west-vlaanderen/torhoutse-crealingua-maakt-studie-sector-van-de-beedigde-vertalers-bespaarde-al-106-miljoen-euro-sinds-de-invoering-van-gekwalificeerde-elektronische-handtekening": "2026-04-29T09:56:00.616177Z",
         "https://www.made-in.be/west-vlaanderen/transportgigant-vervaeke-begeeft-zich-diep-op-franse-wegen": "2026-04-29T11:24:20.904800Z",
         "https://www.made-in.be/west-vlaanderen/unizo-roept-langemarkse-bakkerij-uit-tot-de-winkel-van-alhier": "2026-04-29T09:56:00.616177Z",
@@ -298,7 +301,7 @@
       }
     },
     "rotterdammerdagblad-regionaal": {
-      "pageHash": "d4a5c8ad0ae8de422335c4fff9952ed06c322b3f",
+      "pageHash": "c21413daba29ece0bc3e05b44a1c0df7378e03eb",
       "seenUrls": {
         "https://www.rotterdammerdagblad.nl/112/aanhouding-in-babbeltruc-onderzoek": "2026-04-30T10:09:04.641534Z",
         "https://www.rotterdammerdagblad.nl/112/eenheid-rotterdam-publiceert-jaarverslag-2025-en-jaarplan-2026": "2026-04-28T12:45:40.782992Z",
