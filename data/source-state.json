@@ -1,12 +1,13 @@
 {
   "sources": {
     "ilt-news": {
-      "pageHash": "13c7bd081ee791900d07ac2d9b1815ca35009ce6",
+      "pageHash": "e1c4e5e6ea007447b7583b204c4ef7e6aca9ab1a",
       "seenUrls": {}
     },
     "made-in": {
       "seenUrls": {
         "https://www.made-in.be/antwerpen/11-antwerpse-bedrijven-failliet-waaronder-3-horecazaken": "2026-04-29T06:47:31.503270Z",
+        "https://www.made-in.be/antwerpen/19-antwerpse-zaken-failliet-waaronder-cateraar-en-diamantbedrijf": "2026-05-03T09:11:29.986751Z",
         "https://www.made-in.be/antwerpen/24-antwerpse-zaken-doen-de-boeken-toe-waaronder-meerdere-horecazaken-en-bouwbedrijven": "2026-04-28T12:45:40.782992Z",
         "https://www.made-in.be/antwerpen/alweer-de-kaap-van-50-startende-ondernemers-gerond-in-regio-antwerpen": "2026-04-28T12:45:40.782992Z",
         "https://www.made-in.be/antwerpen/antwerps-ontwerpbureau-equals-three-neemt-sectorgenoot-kan-over-bedrijven-betalen-te-vaak-twee-facturen-voor-een-halve-oplossing": "2026-04-28T13:59:05.537487Z",
@@ -22,6 +23,7 @@
         "https://www.made-in.be/antwerpen/sofie-anthony-wint-womed-award-dankbaar-dat-ik-hier-mag-staan": "2026-04-29T09:56:00.616177Z",
         "https://www.made-in.be/antwerpen/totalenergies-boekt-fors-hogere-winst-dankzij-stijging-olieprijzen": "2026-04-29T20:50:28.920368Z",
         "https://www.made-in.be/antwerpen/veel-ondernemers-denken-nog-te-veel-in-verkopen-terwijl-het-eigenlijk-gaat-over-overtuigen-robin-vissenaekens-over-meesterlijk-speechen": "2026-04-28T15:10:27.019077Z",
+        "https://www.made-in.be/antwerpen/vincent-hellemans-opnieuw-ceo-van-city-golf-tours-we-hebben-nog-nooit-zon-groei-gekend-als-nu": "2026-05-03T09:11:29.986751Z",
         "https://www.made-in.be/antwerpen/zorgportaal-ziekenhuis-aan-de-stroom-weer-beschikbaar-na-cyberaanval-op-softwarebedrijf": "2026-04-28T15:10:27.019077Z",
         "https://www.made-in.be/category/dossier/slimmer-ondernemen": "2026-04-29T06:47:31.503270Z",
         "https://www.made-in.be/category/nieuws/topartikel": "2026-04-29T06:47:31.503270Z",
@@ -231,6 +233,7 @@
         "https://www.omroepzeeland.nl/nieuws/18423636/meer-kittens-in-opvang-dan-plek-in-pleeggezinnen-je-hoeft-geen-kattenexpert-te-zijn-om-te-helpen": "2026-05-01T07:58:52.298059Z",
         "https://www.omroepzeeland.nl/nieuws/18423645/zeearend-dood-door-windmolen-bij-kreekraksluis-boswachter-overweegt-juridische-stappen": "2026-04-30T19:04:30.423230Z",
         "https://www.omroepzeeland.nl/nieuws/18423699/swift-wil-competitief-zijn-in-ereklasse-we-moeten-in-vier-van-de-zes-duels-meedoen-voor-de-winst": "2026-05-01T14:45:28.019945Z",
+        "https://www.omroepzeeland.nl/nieuws/18423978/deze-onverwachte-tuintruc-lokt-in-een-klap-tientallen-bijen-waanzinnig-om-te-zien": "2026-05-03T09:11:29.986751Z",
         "https://www.omroepzeeland.nl/nieuws/18423978/hoe-ik-onbewust-een-drukbezocht-bijenhotel-in-mn-tuin-maakte-en-dat-is-makkelijker-dan-je-denkt": "2026-05-03T07:45:08.428913Z",
         "https://www.omroepzeeland.nl/nieuws/18424062/veiligheidsregio-mogelijke-brandgeur-in-delen-van-zeeland-door-branden-in-oirschot-en-weert": "2026-04-30T17:07:50.333397Z",
         "https://www.omroepzeeland.nl/nieuws/18424065/brand-in-dak-van-loods-bij-ovet-in-terneuzen": "2026-04-30T19:04:30.423230Z",
@@ -276,7 +279,7 @@
       }
     },
     "rotterdammerdagblad-regionaal": {
-      "pageHash": "3f3fa94d26b72e685012158e03a4ab8e9aad3628",
+      "pageHash": "76704868c0f76d4104536593553fe3d915bb7dcc",
       "seenUrls": {
         "https://www.rotterdammerdagblad.nl/112/aanhouding-in-babbeltruc-onderzoek": "2026-04-30T10:09:04.641534Z",
         "https://www.rotterdammerdagblad.nl/112/eenheid-rotterdam-publiceert-jaarverslag-2025-en-jaarplan-2026": "2026-04-28T12:45:40.782992Z",
