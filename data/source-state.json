@@ -1,7 +1,7 @@
 {
   "sources": {
     "ilt-news": {
-      "pageHash": "94fb56fde7bc2cd970af74680a026140a789985c",
+      "pageHash": "560a58c70d9dd915b09d147cfa7485d985e0c596",
       "seenUrls": {}
     },
     "made-in": {
@@ -28,8 +28,10 @@
         "https://www.made-in.be/category/dossier/slimmer-ondernemen": "2026-04-29T06:47:31.503270Z",
         "https://www.made-in.be/category/nieuws/topartikel": "2026-04-29T06:47:31.503270Z",
         "https://www.made-in.be/falingen": "2026-04-28T12:45:40.782992Z",
+        "https://www.made-in.be/kempen/cevo-market-viert-halve-eeuw-box-met-cadeaus-voor-heel-het-dorp": "2026-05-03T14:40:39.726946Z",
         "https://www.made-in.be/kempen/de-turnhoutse-zaak-die-zelfs-kamal-kharmach-niet-kon-redden-toch-ben-ik-trots-omdat-ik-het-heb-geprobeerd": "2026-04-30T01:49:23.747160Z",
         "https://www.made-in.be/kempen/faillissement-kempens-bouwbedrijf-is-een-grote-probleemwerf-voor-curator-dossier-dca-neem-ik-mee-tot-aan-mijn-pensioen": "2026-04-28T23:53:40.338497Z",
+        "https://www.made-in.be/kempen/kempens-duo-lanceert-modelabel-le-label-retailers-vragen-naar-sterke-basics": "2026-05-03T14:40:39.726946Z",
         "https://www.made-in.be/kempen/kempense-klaartje-wint-alcoholvrije-award-met-haar-bubbeldrank-bonheur-spritz-vraag-blijft-toenemen": "2026-04-29T13:18:59.192903Z",
         "https://www.made-in.be/kempen/kempense-luus-tormans-wint-womed-award-belofte-van-het-jaar": "2026-04-28T21:54:55.572876Z",
         "https://www.made-in.be/kempen/kempense-ondernemingsrechtbank-spreekt-vier-faillissementen-uit": "2026-04-28T12:45:40.782992Z",
@@ -86,6 +88,7 @@
         "https://www.made-in.be/oost-vlaanderen/ilvo-opent-nieuwe-proeffabriek-voor-diervoeder-een-unicum-in-vlaanderen-en-belgie": "2026-04-30T05:20:40.225322Z",
         "https://www.made-in.be/oost-vlaanderen/la-lorraine-rondt-kaap-van-15-miljard-euro-omzet": "2026-04-29T06:47:31.503270Z",
         "https://www.made-in.be/oost-vlaanderen/maria-middelares-test-mixed-reality-bij-wondzorg": "2026-04-29T06:47:31.503270Z",
+        "https://www.made-in.be/oost-vlaanderen/nieuwe-naam-voor-oost-vlaams-liftenbedrijf": "2026-05-03T14:40:39.726946Z",
         "https://www.made-in.be/oost-vlaanderen/nsz-tevreden-met-eerste-maatregelen-kmo-plan": "2026-04-29T15:51:28.651886Z",
         "https://www.made-in.be/oost-vlaanderen/ontex-gaat-aantal-banen-in-ondersteunende-functies-verminderen": "2026-05-03T10:43:08.120570Z",
         "https://www.made-in.be/oost-vlaanderen/premier-leidt-taskforce-over-toekomst-volvo-car-gent": "2026-04-28T13:59:05.537487Z",
@@ -261,7 +264,11 @@
         "https://www.omroepzeeland.nl/nieuws/18427425/sergio-herman-sluit-twee-antwerpse-restaurants-wil-terug-naar-de-essentie": "2026-05-02T10:40:21.257079Z",
         "https://www.omroepzeeland.nl/nieuws/18427680/van-hecke-in-nadrukkelijke-belangstelling-van-liverpool": "2026-05-02T12:42:27.479235Z",
         "https://www.omroepzeeland.nl/nieuws/18427686/politie-houdt-minderjarige-aan-die-foto-op-sociale-media-zette-met-mogelijk-vuurwapen": "2026-05-02T12:42:27.479235Z",
+        "https://www.omroepzeeland.nl/nieuws/18427887/kloetinge-verlengt-ook-contract-van-topscorer-de-jager": "2026-05-03T14:40:39.726946Z",
         "https://www.omroepzeeland.nl/nieuws/18428340/gewonde-bij-steekincident-in-azc-middelburg": "2026-05-03T12:41:28.012574Z",
+        "https://www.omroepzeeland.nl/nieuws/18428457/zeearend-vliegt-zich-niet-zomaar-te-pletter-tegen-windpark-zebra": "2026-05-03T14:40:39.726946Z",
+        "https://www.omroepzeeland.nl/nieuws/18430287/man-bedreigt-cafegangers-met-mes-in-vlissingen": "2026-05-03T14:40:39.726946Z",
+        "https://www.omroepzeeland.nl/nieuws/18430416/rijbewijs-van-hardrijder-ingenomen-op-a58": "2026-05-03T14:40:39.726946Z",
         "https://www.omroepzeeland.nl/nieuws/schouwen-duiveland": "2026-04-28T12:45:40.782992Z",
         "https://www.omroepzeeland.nl/nieuws/zeeuws-vlaanderen": "2026-04-28T12:45:40.782992Z"
       }
@@ -286,7 +293,7 @@
       }
     },
     "rotterdammerdagblad-regionaal": {
-      "pageHash": "35f6e5a7cc12919d48582de0fcd364a8acf827c8",
+      "pageHash": "2f7d2782e2c41cde3ac56124eeebaee71deb0eb1",
       "seenUrls": {
         "https://www.rotterdammerdagblad.nl/112/aanhouding-in-babbeltruc-onderzoek": "2026-04-30T10:09:04.641534Z",
         "https://www.rotterdammerdagblad.nl/112/eenheid-rotterdam-publiceert-jaarverslag-2025-en-jaarplan-2026": "2026-04-28T12:45:40.782992Z",
